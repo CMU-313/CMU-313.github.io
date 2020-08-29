@@ -1,3 +1,10 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: null
+---
+
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -17,7 +24,7 @@
     <div class="course-semester">
       <div class="course"><a href="https://cmu-313.github.io/">17-313</a></div>
       <div class="semester">
-     Fall 2019</div>
+     Fall 2020</div>
     </div>
     <div id="hamburger" onclick="toggle()">
       <div></div>
@@ -34,11 +41,7 @@
   </div>
 </nav>
 
-<header id="top" class="container">
- 
-  <h1>Foundations of Software Engineering</h1>
-</header>
-
+<header id="top" class="container"><h1>Foundations of Software Engineering</h1></header>
 
 <div id="main" class="container">
 
@@ -46,7 +49,9 @@
 <ul>
 <li> When is a program good enough to ship? Have you built what the customer wanted?
 
-<li> Why (and how) does NetFlix deliberately and randomly take down its own servers?
+<li> Why (and how) does Netflix deliberately and randomly take down its own servers?
+
+<li> What can we learn from the Boeing 737 disaster?
 
 <li>How did Twitter eradicate the Fail Whale?  And what does it have to do with Ruby?
 
@@ -90,412 +95,408 @@ Assuming reasonably solid programming skills (including unit testing and code-le
 
        <p>Assignments (mostly done in groups) include:
         <ul>
-          <li>
 <a href="http://www.freecol.org/"><img src="freecol.jpg" class="sideimg" alt="FreeCol screenshot" title="FreeCol, one of the open source projects previously contributed to by several teams." /></a>
-            A term project in which each team <strong>contributes to an open source project</strong> of their choice. This involves identifying an issue in the existing project, understanding the development process of that project and how to contribute, and actually making a contribution such as fixing a bug or adding a feature. Extra credit will be awarded if the contribution is merged into the project.</li>
-          <li>A <strong>requirements project</strong> in which each team will interview stakeholders to elicit and document requirements for a software system.</li>
-          <li>A <strong>dynamic and static analysis</strong> project in which each student will extend FindBugs with a new bug pattern.</li>
-          <li>An <strong>inspection</strong> task in which each team will inspect existing code for security issues and inspect code written by other students in the course.</li>
+           
+          <li>An <strong>introduction</strong> assignment where individual students will learn to engage with an existing code base.</li>
+          <li>A <strong>requirements</strong> assignment in which each team will interview stakeholders to elicit and document requirements for a software system.</li>
+          <li>An <strong>architecture</strong> assignment in which teams will train and deploy an ML model using microservices.</li>
+          A  project in which each team <strong>contributes to an open source project</strong> of their choice. This involves identifying an issue in the existing project, understanding the development process of that project and how to contribute, and actually making a contribution such as fixing a bug or adding a feature. Extra credit will be awarded if the contribution is merged into the project.</li>
         </ul>
 
    <a name="logistics"></a>     
 
   <h2>Logistics and People</h2>
-  <p>Lectures: Tue/Thu 3:00-4:20 p.m. in <span class="location"><abbr title="Scaife Hall">SH</abbr> 125</span><br/>
-  Recitations: Wed 12:30-1:20 p.m. in <span class="location">DH 1209</span> (Section A) and Wed 1:30-2:20 pm in <span class="location">DH 2105</span> (Section B) </p>
-
+  <p>Lectures: 
+    <ul><li>Tue/Thu 3:00-4:20 p.m. ET on Zoom</li></ul>
+  Recitations: 
+  <ul>
+    <li>Wed 1:20-2:10 p.m. ET  in <span class="location">WEH 5403</span> (Section A) </li>
+  <li>Wed 1:30-2:20 p.m. ET in <span class="location">WEH 5409</span> (Section B) </li>
+  <li>Fri 1:20-2:10 p.m. ET on Zoom (Section C) </li>
+  <li>Fri 2:40-3:30 p.m. ET on Zoom (Section D) </li>
+  </p>
+</ul>
   
-  <div class="cf">
-    <div class="instructor">
-      Professor <strong><a href="https://clairelegoues.com/">Claire Le Goues</a></strong><br>
-      <abbr title="Wean Hall">WEH</abbr> 5117<br />
-      Office hours: Friday 1:30-2:30pm<br />
-      Email: clegoues@cs.cmu.edu<br />
-      <img src="clg.jpg" />
-    </div>
-    <div class="instructor">
-      Professor <strong><a href="https://www.cs.cmu.edu/%7Emhilton/">Michael Hilton</a></strong><br>
-      <abbr title="Wean Hall">WEH</abbr> 5122<br />
-      Office hours: Thursday 1:00-2:00pm<br />
-      Email: mhilton@cs.cmu.edu<br />
-      <img src="meh.jpg" />
-    </div>
-     <div class="instructor">
-       <strong><a href="http://christophermeiklejohn.com/">Christopher Meiklejohn</a></strong><br>
-       <abbr title="Wean Hall">WEH</abbr> 5101<br />
-      Office hours: Wednesday 2:30-3:20pm<br />
-       Email: cmeiklej@cs.cmu.edu<br />
-        <img src="cm.jpg" />
-    </div>
+<div class="cf">
+  <div class="instructor">
+    Professor <strong><a href="https://clairelegoues.com/">Claire Le Goues</a></strong><br>
+    Office hours: TBD<br />
+    Email: clegoues@cs.cmu.edu<br />
+    <img src="clg.jpg" />
   </div>
-  <p>Both instructors have an open door policy: If either of the 
-instructors' office doors are open and no-one else is meeting with us, 
-we are happy to answer any course-related questions.  If you prefer an appointment, 
-email the instructors.</p>
-  <strong></strong> 
-  
+  <div class="instructor">
+    Professor <strong><a href="https://www.cs.cmu.edu/%7Emhilton/">Michael Hilton</a></strong><br>
+    Office hours: TBD<br />
+    Email: mhilton@cs.cmu.edu<br />
+    <img src="meh.jpg" />
+  </div>
+    <div class="instructor">
+      <strong><a href="http://christophermeiklejohn.com/">Christopher Meiklejohn</a></strong><br>
+    Office hours: TBD<br />
+      Email: cmeiklej@cs.cmu.edu<br />
+      <img src="cm.jpg" />
+  </div>
+</div>
+<p>Both instructors have an open door policy: If either of the instructors' office doors are open and no-one else is meeting with us, we are happy to answer any course-related questions.  If you prefer an appointment, email the instructors.</p>
 
-  <a name="schedule"> </a>
-  <section id="schedule">
-    <h2>Schedule</h2>
-    <p>The following schedule describes the current planing status and the covered concepts.  It is subject to change and will be updated as the semester progresses, especially to help focus on requested topics or support learning.  The readings are almost always associated with a reading quiz; please check Canvas!</p>
+<a name="schedule"></a>
+<section id="schedule">
+  <h2>Schedule</h2>
+  <p>The following schedule describes the current planing status and the covered concepts.  It is subject to change and will be updated as the semester progresses, especially to help focus on requested topics or support learning.  The readings are almost always associated with a reading quiz; please check Canvas!</p>
 <table>
-      <thead>
-        <tr>
-          <th style="width: 50px;">Date</th>
-          <th>Topic</th>
-          <th style="width: 30%">Reading assignments*</th>
-          <th>Assignments due*</th>
-        </tr>
-      </thead>
-      <tbody>
-<tr>
-          <td>27-Aug</td>
-          <td><a href="lectures/01-introduction.pdf">Introduction</a></td>
-          <td></td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td>28-Aug</td>
-          <td><span class="rec">rec 1</span> Tools for collaborative software development</td>
-          <td></td>
-          <td><span class="hw">rec 1</span> <a href="recitations/Recitation1.pdf">Recitation 1</a></td>
-        </tr>
-          
-<tr>
-          <td>29-Aug</td>
-          <td><a href="lectures/02-measurement.pdf">Metrics and Measurement</a></td>
-          <td>Scheduling survey! (on Canvas)</td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td>3-Sep</td>
-          <td> <a href="lectures/03-healthcare.gov-casestudy.pdf">Case Study</a></td>
-          <td>TIME Magazine 3/10/14, article "Code Red" & Wikipedia on healthcare.gov</td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td>4-Sep</td>
-          <td><span class="rec">rec 2</span> Docker and Docker Compose</td>
-          <td></td>
-          <td><span class="hw">rec 2</span> <a href="recitations/Recitation2.pdf">Recitation 2</a></td>
-        </tr>
-          
-<tr>
-          <td>5-Sep</td>
-          <td><a href="lectures/04-IntroToProcess.pdf">Intro to Process</a></td>
-          <td>The <a href="homeworks/Homework2.pdf">Homework 2</a> text</td>
-          <td><span class="hw">hw1</span> <a href="homeworks/Homework1.pdf">Homework 1</a></td>
-        </tr>
-      
-<tr>
-          <td>10-Sep</td>
-          <td><a href="lectures/05-RequirementsIntroConcepts.pdf">Requirements 1: Overview and Concepts</a> </td>
-          <td><!-- Sommerville, Software Engineering, Chapter "Project management"--></td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td>11-Sep</td>
-          <td><span class="rec">rec 3</span> Measuring Software Characteristics</td>
-          <td></td>
-          <td><span class="hw">rec 3</span> <a href="recitations/Recitation3.pdf">Recitation 3</a></td>
-        </tr>
-          
-<tr>
-          <td>12-Sep</td>
-          <td><a href="lectures/06-req-user-stories-risk.pdf">Requirements 2: Elicitation, Documentation, and Risk</td>
-          <td><a href="readings/requirements-notes.pdf">Requirements Notes</a></td>
-          <td><span class="hw">hw2a</span><a href="homeworks/Homework2.pdf">Homework 2</a>,<br>
-            <a href="homeworks/team_policy.pdf">Team Policy</a><br></td>
-        </tr>
-      
-<tr>
-          <td>17-Sep</td>
-          <td>Requirements: Validation and risk</td>
-          <td><a href=" https://www.seattletimes.com/business/boeing-aerospace/failed-certification-faa-missed-safety-issues-in-the-737-max-system-implicated-in-the-lion-air-crash/">Boeing 737 Max article, Seattle Times, March 17, 2019</a> (pdf linked from Canvas quiz)</td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td>18-Sep</td>
-          <td><span class="rec">rec 4</span> Requirements Interviews</td>
-          <td></td>
-          <td><span class="hw">rec 4</span> <a href="recitations/Recitation4.pdf">Recitation 4</a></td>
-        </tr>
-          
-<tr>
-          <td>19-Sep</td>
-          <td><a href="lectures/08-Ethics.pdf">Ethics</a></td>
-          <td><!-- Larman. Applying UML and Patterns. Chapter "Use Cases"--> </td>
-          <td><span class="hw">hw2b</span><a href="homeworks/Homework2.pdf">Homework 2</a></td>
-        </tr>
-      
-<tr>
-          <td>24-Sep</td>
-          <td>GUEST LECTURE:Software Engineering for ML (part 1)</td>
-          <td><!-- Sommerville, Software Engineering, Chapter "Safety Critical Systems"--> </td>
-          <td><span class="hw">hw2c,d</span><a href="homeworks/Homework2.pdf">Homework 2</a></td>
-        </tr>
-      
-<tr>
-          <td>25-Sep</td>
-          <td><span class="rec">rec 5</span> Software Requirements</td>
-          <td></td>
-          <td><span class="hw">rec 5</span> <a href="recitations/Recitation5.pdf">Recitation 5</a></td>
-        </tr>
-          
-<tr>
-          <td>26-Sep</td>
-          <td><a href = "lectures/10-SE_4_ML.pdf">Software Engineering for ML (part 2)</a></td>
-          <td></td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td>1-Oct</td>
-          <td><a href = "lectures/11-architecture-intro.pdf">Architecture (Introduction)</a></td>
-          <td><a href="https://blog.twitter.com/2013/new-tweets-per-second-record-and-how">Twitter architecture</a></td>
-          <td><span class="hw">hw3</span><a href="homeworks/Homework3.pdf">Homework 3</a></td>
-        </tr>
-      
-<tr>
-          <td>2-Oct</td>
-          <td><span class="rec">rec 6</span> AI/ML</td>
-          <td></td>
-          <td><span class="hw">rec 6</span> <a href="recitations/Recitation6.pdf">Recitation 6</a></td>
-          <td></td>
-        </tr>
-          
-<tr>
-          <td>3-Oct</td>
-          <td><a href="lectures/12-architecture-doc-views.pdf">Documentation, patterns, tactics</a></td>
-          <td>Sections of Garlan's "Software Architecture, a Travelogue"(see Canvas) </td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td>8-Oct</td>
-          <td><a href = "lectures/13-design-docs.pdf">Guest + Design Docs</a></td>
-          <td><!-- Shaw, Garlan. Software Architecture: Perspectives on an Emerging Discipline, Chapter "A. Styles" and Bass et al. Software Architecture in Practice, Chapter "Understanding QA."--> </td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td>9-Oct</td>
-          <td><span class="rec">rec 7</span> CI++</td>
-          <td></td>
-          <td><span class="hw">rec 7</span> <a href="recitations/Recitation7.pdf">Recitation 7</a></td>
-        </tr>
-          
-<tr>
-          <td>10-Oct</td>
-          <td><a href = "lectures/14-microservices_and_more.pdf">Design Doc wrap up, Microservices</a></td>
-          <td><a href="readings/designdoc-background.pdf">Design Doc exercise background</a></td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td>15-Oct</td>
-          <td><a href = "lectures/15-Devops.pdf">Devops</a></td>
-          <td><!-- Anderson. Security Engineering, Ch. 1 --> </td>
-          <td><span class="hw">hw4</span><a href="homeworks/Homework4.pdf">Homework 4a</a></td>
-        </tr>
-      
-<tr>
-          <td>16-Oct</td>
-          <td><span class="rec">rec 8</span> Midterm Review</td>
-          <td></td>
-          <td></td>
-        </tr>
-          
-<tr>
-          <td>17-Oct</td>
-          <td>Midterm</td>
-          <td></td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td>22-Oct</td>
-          <td><a href = "lectures/16-qa-intro-testing.pdf">QA (Introduction to QA, Testing, and Static Analysis)</a></td>
-          <td><!-- Netflix blog on Simian Army--> </td>
-          <td><span class="hw">hw4</span><a href="homeworks/Homework4.pdf">Homework 4b</a></td>
-        </tr>
-      
-<tr>
-          <td>23-Oct</td>
-          <td><span class="rec">rec 9</span> Kubernetes</td>
-          <td></td>
-          <td><span class="hw">rec 9</span> <a href="recitations/Recitation9.pdf">Recitation 9</a></td>
-        </tr>
-          
-<tr>
-          <td>24-Oct</td>
-          <td><a href ="lectures/17-static-analysis-cf-df.pdf">Static analysis: Control/Dataflow</a></td>
-          <td><!-- Schwartzbach static analysis notes--> </td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td>29-Oct</td>
-          <td><a href ="lectures/18-Chaos Engineering.pdf">Chaos Engineering</a></td>
-          <td>Zeller. Why Programs Fail. Chapter "Observing Facts"</td>
-          <td><span class="hw">hw4</span><a href="homeworks/Homework4.pdf">Homework 4c</a></td>
-        </tr>
-      
-<tr>
-          <td>30-Oct</td>
-          <td><span class="rec">rec 10</span> Gremlin</td>
-          <td></td>
-          <td><span class="hw">rec 10</span> <a href="recitations/Recitation10.pdf">Recitation 10</a></td>
-        </tr>
-          
-<tr>
-          <td>31-Oct</td>
-          <td><a href ="lectures/19-QA_and_ML.pdf">QA and ML</a>, and <a href ="lectures/GremlinChaosEngineering.pdf">Guest slides on Chaos Engineering</a></td>
-          <td></td>
-          <td><span class="hw">hw4</span><a href="homeworks/Homework4.pdf">Homework 4d</a></td>
-        </tr>
-      
-<tr>
-          <td>5-Nov</td>
-          <td><a href ="lectures/20-inspections-code-reviews.pdf">Inspections and Code Review</a></td>
-          <td><!-- Hernan et al. Uncover Security Design Flaws Using The STRIDE Approach. MSDN 2006 --> </td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td>6-Nov</td>
-          <td><span class="rec">rec 11</span> Agile Methods</td>
-          <td></td>
-          <td></td>
-        </tr>
-          
-<tr>
-          <td>7-Nov</td>
-          <td><a href ="lectures/21-qa-process.pdf">QA Process</a></td>
-          <td><a href ="https://cacm.acm.org/magazines/2018/4/226371-lessons-from-building-static-analysis-tools-at-google/fulltext">Sadowski et al. Lessons from Building Static Analysis Tools at Google. CACM, 2018</a> (quiz on Canvas)</td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td>12-Nov</td>
-          <td><a href ="lectures/22-Teams.pdf">Teams</a></td>
-          <td> </td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td>13-Nov</td>
-          <td><span class="rec">rec 12</span> Team Dysfunctions</td>
-          <td></td>
-          <td></td>
-        </tr>
-          
-<tr>
-          <td>14-Nov</td>
-          <td><a href ="lectures/23-Motivation.pdf">Motivation</a></td>
-          <td><!-- Richard Stallman's TEDx Geneva 2014 talk --> </td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td>19-Nov</td>
-          <td>Process + Teams	Data-driven decision making</td>
-          <td><!-- Buse, Zimmermann. Information Needs for Software Development Analytics. ICSE 2012 --> </td>
-          <td><span class="hw">hw5a,b</span><a href="homeworks/Homework5.pdf">Homework 5a,b</a></td>
-        </tr>
-      
-<tr>
-          <td>20-Nov</td>
-          <td>TBD</td>
-          <td></td>
-          <td></td>
-        </tr>
-            
-<tr>
-          <td>21-Nov</td>
-          <td>TBD</td>
-          <td></td>
-          <td><span class="hw">hw5a,b</span><a href="homeworks/Homework5.pdf">Homework 5c</a></td>
-        </tr>
-      
-<tr>
-          <td>26-Nov</td>
-          <td>No Class</td>
-          <td></td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-          
-<tr>
-          <td>28-Nov</td>
-          <td>No Class (Thanksgiving)</td>
-          <td></td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td>3-Dec</td>
-          <td>Code archeology</td>
-          <td><a href="readings/pandas-quickstart.pdf">Setup Pandas locally (Canvas quiz)</a></td>
-          <td><span class="hw">hw6</span><a href="homeworks/Homework6.pdf">Task Selection and Planning</a></td>
-        </tr>
-      
-<tr>
-          <td>4-Dec</td>
-          <td>TBD</td>
-          <td></td>
-          <td></td>
-        </tr>
-      
-<tr>
-          <td>TBD</td>
-          <td>Final Presentations</td>
-          <td></td>
-          <td><span class="hw">hw6</span><a href="homeworks/Homework6.pdf">Project Report and Presentation</a></td>
-        </tr>
-      
-<tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td><span class="hw">hw6</span><a href="homeworks/Homework6.pdf">Individual Reflection</a></td>
-        </tr>
-            
-</tbody>
-    </table>
-<div>* = For details, see assignment in Canvas.</div>
+    <thead>
+      <tr>
+        <th style="width: 100px;">Date</th>
+        <th>Topic</th>
+        <th style="width: 30%">Reading assignments*</th>
+        <th>Assignments due*</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    <tr>
+      <td>1-Sep</td>
+      <td>Introduction</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>2/4-Sep</td>
+      <td><span class="rec">rec1</span> Tools for collaborative software development</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>3-Sep</td>
+      <td>Metrics and Measurement</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>8-Sep</td>
+      <td>Case Study: 737-MAX</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>9/11-Sep</td>
+      <td><span class="rec">rec2</span> Docker and Docker Compose</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>10-Sep</td>
+      <td>Milestones, Estimation, and Planning</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>15-Sep</td>
+      <td>Requirements: Concepts and Challenges</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>16/18-Sep</td>
+      <td><span class="rec">rec3</span> Measuring Software Characteristics</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>17-Sep</td>
+      <td>Requirements: Elicitation and Documentation</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>22-Sep</td>
+      <td>Requirements: Validation and Risk</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>23/25-Sep</td>
+      <td><span class="rec">rec4</span> Requirements Interviews</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>24-Sep</td>
+      <td>Ethics</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>29-Sep</td>
+      <td>Software Engineering for Machine Learning, Part 1</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>30-Sep/2-Oct</td>
+      <td><span class="rec">rec5</span> Software Requirements</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>1-Oct</td>
+      <td>Software Engineering for Machine Learning, Part 2</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>6-Oct</td>
+      <td>Software Architecture</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>7/9-Oct</td>
+      <td><span class="rec">rec6</span> TBD</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>8-Oct</td>
+      <td>Architecture: Documentation, Patterns, Tactics, Evaluation</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>13-Oct</td>
+      <td>Architecture: Design Docs</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>14/16-Oct</td>
+      <td><span class="rec">rec7</span> Continuous Integration</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>15-Oct</td>
+      <td>Microservices</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>20-Oct</td>
+      <td>Devops</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>21/23-Oct</td>
+      <td><span class="rec">rec8</span> Midterm Review</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>22-Oct</td>
+      <td>Midterm</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>27-Oct</td>
+      <td>Code Archeology</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>28/30-Oct</td>
+      <td><span class="rec">rec9</span> Kubernetes</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>29-Oct</td>
+      <td>QA & Testing</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>3-Nov</td>
+      <td>Chaos Engineering</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>4/6-Nov</td>
+      <td><span class="rec">rec10</span> Gremlin</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>5-Nov</td>
+      <td>Static Analysis</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>10-Nov</td>
+      <td>ML Explainability and Testing</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>11/13-Nov</td>
+      <td><span class="rec">rec11</span> Agile Methods</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>12-Nov</td>
+      <td>ML Explainability and Testing, Part 2</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>17-Nov</td>
+      <td>QA Process</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>18/20-Nov</td>
+      <td><span class="rec">rec12</span> Team Dysfunction</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>19-Nov</td>
+      <td>QA Process, Part 2</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>24-Nov</td>
+      <td>Thanksgiving Week</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>25/27-Nov</td>
+      <td><span class="rec">rec13</span> Thanksgiving Week</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>26-Nov</td>
+      <td>Thanksgiving Week</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>1-Dec</td>
+      <td>Team Issues, Motivation, Code Review</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>2/4-Dec</td>
+      <td><span class="rec">rec14</span> Open Source</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>3-Dec</td>
+      <td>Code Review, Agile, XP</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>8-Dec</td>
+      <td>Interviewing</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>9/11-Dec</td>
+      <td><span class="rec">rec15</span> Office Hours for Final Project</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>10-Dec</td>
+      <td>TBD</td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>TBD</td>
+      <td>Final Exam</td>
+      <td></td>
+      <td></td>
+    </tr>
+   </tbody>
+</table>
+
+<p>* = For details, see assignment in Canvas.</p>
 </section>
 
+<a name="syllabus"> </a>
+<h2>Course Syllabus and Policies</h2>
 
+<p>The course uses <a href="https://canvas.cmu.edu/courses/2240">Canvas</a> for homework submission, grading, discussion, questions, announcements, and supplementary documents; slides will be posted here; <a href="http://www.github.com">GitHub</a> is used to coordinate group work. </p>
 
-  <a name="syllabus"> </a>
-  <h2>Course Syllabus and Policies</h2>
-
-  <p>The course uses <a href="https://canvas.cmu.edu/courses/2240">Canvas</a> for homework submission, grading, discussion, questions, announcements, and supplementary documents; slides will be posted here; <a href="http://www.github.com">github</a> is used to coordinate group work. </p>
-
-  <p><strong>Waitlist:</strong> We believe the waitlist is cleared; if you disagree or are having trouble enrolling, please contact us.</p>
+<p><strong>Waitlist:</strong> We believe the waitlist is cleared; if you disagree or are having trouble enrolling, please contact us.</p>
 
 <p><strong>Prerequisites:</strong> No formal prerequisites, but you will get more out of the course if you have experience with some larger development projects, for example, through larger class projects (e.g., 17-214, 15-410), internships, or open-source contributions.</p>
 
 <p><strong>Teamwork:</strong> Teamwork is an essential part of this course. Most assignments are done in teams of 3-5 students. Teams will be assigned by the instructor and stay together for multiple assignments. Guidance on teamwork, reflection, and conflict resolution will be provided throughout the semester and are an essential component of the class. Most assignments have a component that is graded for the entire group and a component that is graded individually. The team policy posted on Canvas applies and describes roles and teams and how to deal with conflicts and imbalances.</p>
 
-  <p><strong>Communication:</strong> We make announcements through Canvas, including clarifying homework assignments and other interactions. The instructors and TAs hold weekly office hours and are reachable by email; see above for information on how to contact us. Email them for additional appointments. They also have an open-door policy: When our door is open and we are not currently meeting with somebody else, feel free to interrupt us for course-related issues.</p>
+<p><strong>Communication:</strong> We make announcements through Canvas, including clarifying homework assignments and other interactions. The instructors and TAs hold weekly office hours and are reachable by email; see above for information on how to contact us. Email them for additional appointments. They also have an open-door policy: When our door is open and we are not currently meeting with somebody else, feel free to interrupt us for course-related issues.</p>
 
-  <p><strong>Textbook:</strong> Various readings throughout the semester available online or through the library; we do not have a single text book but rather assemble readings from different sources.</br> As optional supplementary reading consider <em>Ian Sommerville, Software Engineering</em>, 7th <i>or</i> 8th edition. Note that we do not expect that the bookstore will carry the old edition; instead, many copies are available online, such as through Amazon.com (and many other booksellers and textbook reseller) for significantly less than 20USD.</p>
+<p><strong>Textbook:</strong> Various readings throughout the semester available online or through the library; we do not have a single text book but rather assemble readings from different sources.</br> As optional supplementary reading consider <em>Ian Sommerville, Software Engineering</em>, 7th <i>or</i> 8th edition. Note that we do not expect that the bookstore will carry the old edition; instead, many copies are available online, such as through Amazon.com (and many other booksellers and textbook reseller) for significantly less than 20USD.</p>
 
-<p><strong>Grading:</strong> Evaluation will be based on the following distribution: 60% assignments, 20% midterm, 10% participation, 10% reading quizzes.</p>
+<p><strong>Grading:</strong> Evaluation will be based on the following distribution: 50% assignments, 15% midterm, 20% final, 10% participation, 5% reading quizzes.</p>
 
 <p><strong>Time management:</strong> This is a 12-unit course, and it is our intention to manage it so that you spend close to 12 hours a week on the course, on average. In general, 4 hours/week will be spent in class and 8 hours on reading and assignments. Notice that most homework is done in groups, so please account for the overhead and decreased time flexibility that comes with groupwork. Please feel free to give the course staff feedback on how much time the course is taking for you.</p>
 
@@ -536,11 +537,11 @@ professionals, in the most positive sense.
 <ul>
 <li>If you feel someone is violating these principles (for example, with a joke that
 could be interpreted as sexist, racist, or exclusionary), and you feel you have
-  the standing to do so, speak up! Do not be a bystander to
-  unprofessional behavior.</li>
+the standing to do so, speak up! Do not be a bystander to
+unprofessional behavior.</li>
 <li>If you do not feel comfortable doing so, and/or if the behavior persists,
-  send a private email to the course instructors or set up a meeting with us to
-  discuss the matter.   We will preserve your anonymity.</li>
+send a private email to the course instructors or set up a meeting with us to
+discuss the matter.   We will preserve your anonymity.</li>
 </ul>
 
 <p>We, the course staff, are committed to affording you the same respect we ask you
@@ -549,7 +550,7 @@ feel comfortable either telling us so directly, or approaching another one of
 the course staff with your concerns.
 
 <p>(Thank you to Shriram Krishnamurthi and Evan Peck for sharing their own
-  policies, from which we drew inspiration for this one.)
+policies, from which we drew inspiration for this one.)
 
 <p><strong>Academic honesty and collaboration:</strong> The usual policies
 apply, especially
@@ -584,10 +585,10 @@ student can see it.
 <p>Here are some examples of behavior that are inappropriate:
 <ul>
 <li>Copying or retyping, or referring to, files or parts of files (such as source code,
-  written text, or unit tests) from another person or source (whether in final
-  or draft form, regardless of the permissions set on the associated files) while producing
-  your own.  This is true even if your version includes minor modifications such
-  as style or variable name changes or minor logic modifications.</li>
+written text, or unit tests) from another person or source (whether in final
+or draft form, regardless of the permissions set on the associated files) while producing
+your own.  This is true even if your version includes minor modifications such
+as style or variable name changes or minor logic modifications.</li>
 
 <li>Getting help that you do not fully understand, and from someone whom you do
 not acknowledge on your solution.</li>
@@ -627,13 +628,13 @@ situation, ask the instructors or TAs for clarification."
 <p>Note that the instructors respect honesty in these (and indeed most!) situations.</p>
 
 <p><strong>A note on self care.</strong> Please take care of yourself.  Do your
-  best to maintain a healthy lifestyle this semester by eating well, exercising,
-  avoiding drugs and alcohol, getting enough sleep and taking some time to
-  relax. This will help you achieve your goals and cope with stress. 
+best to maintain a healthy lifestyle this semester by eating well, exercising,
+avoiding drugs and alcohol, getting enough sleep and taking some time to
+relax. This will help you achieve your goals and cope with stress. 
 All of us benefit from support during times of struggle. You are not
-  alone. There are many helpful resources available on campus and an important
-  part of the college experience is learning how to ask for help. Asking for
-  support sooner rather than later is often helpful. </p>
+alone. There are many helpful resources available on campus and an important
+part of the college experience is learning how to ask for help. Asking for
+support sooner rather than later is often helpful. </p>
 
 <p>If you or anyone you know experiences any academic stress, difficult life
 events, or feelings like anxiety or depression, we strongly encourage you to
@@ -642,17 +643,8 @@ seek support. Counseling and Psychological Services (CaPS) is here to help: call
 reaching out to a friend, faculty or family member you trust for help getting
 connected to the support that can help.</p>
 
-
-  
-
 </div>
 
-<div class="container">
-
-</div>
-
-
-
+<div class="container"></div>
 
 </body></html>
-
