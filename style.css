@@ -126,6 +126,7 @@ section:last-child { border: 0; }
 table {
   width: 100%;
 }
+
   th {
     text-align: left;
   }
@@ -155,6 +156,7 @@ table {
   #schedule .read,
   #schedule .hw,
   #schedule .rec {
+    background-color: green;
     padding: 0 5px;
     border-radius: 3px;
     text-transform: lowercase;
