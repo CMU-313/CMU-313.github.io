@@ -8,7 +8,7 @@ description: Listing of course modules and topics.
 
  &nbsp; | Date    |  Topic                                 | Reading | Homework Due
 ---------| ------- |  ------------------------------------- | -------- | -----------
-**Lecture**{: .label .label-gold } | Aug-31  | Intro 
+**Lecture**{: .label .label-gold } | Aug-31  | [Intro](assets/pdfs/01-introduction.pdf) 
 **Recitation**{: .label .label-aqua } | Sep-1/3   | Docker    
 **Lecture**{: .label .label-gold } | Sep-2   | Metrics and Measurement 
 **Lecture**{: .label .label-gold } | Sep-7	|	Case Study 737MAX 
