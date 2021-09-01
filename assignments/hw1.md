@@ -45,7 +45,8 @@ source document management system, the Mayan EDMS
 system. 
 
 We will be using a class-specific fork of Mayan, whose repository is
-located at: https://github.com/CMU-313/Mayan-EDMS. This fork is based
+located at: [https://github.com/CMU-313/Mayan-EDMS](https://github.com/CMU-313/Mayan-EDMS). 
+This fork is based
 off [v4.0.7](https://docs.mayan-edms.com/releases/4.0.7.html) 
 (released June 11, 2021), and contains minor tweaks to make it easier
 to modify and debug. Forking from this repository will also allow you
@@ -78,9 +79,11 @@ If you ran Mayan EDMS successfully, you should be able to navigate to
 `http://localhost` and see a web page with a login screen. 
 You may customize the port number that Mayan will be deployed to (default is `80`).
 
-Troubleshooting: If you have trouble building things locally, try pulling a 
+**Troubleshooting**: If you have trouble building things locally, try pulling a
 pre-built Docker image as shown in the [docs](https://docs.mayan-edms.com/chapters/docker/install_simple.html)
 or using the upstream repository in order to precisely isolate the issue.
+If it takes you more than a few hours to set all this up, STOP and ask for help
+on Slack.
 
 Once you have Mayan EDMS up and running locally, proceed to evaluate it
 using the Google Lighthouse tool:

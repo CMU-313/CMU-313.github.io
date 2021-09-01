@@ -13,7 +13,7 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Sep-2   | Metrics and Measurement 
 **Lecture**{: .label .label-gold } | Sep-7	|	Case Study 737MAX 
 **Recitation**{: .label .label-aqua } | Sep-8/10   | Tools for collaborative software development  
-**Lecture**{: .label .label-gold }  | Sep-9	|	Milestones, estimation, planning   | | **[HW1 due](#)**{: .label .label-red }
+**Lecture**{: .label .label-gold }  | Sep-9	|	Milestones, estimation, planning   | | **[HW1 due](/assignments/hw1)**{: .label .label-red }
 **Lecture**{: .label .label-gold } | Sep-14	|	Software Archaeology 
 **Recitation**{: .label .label-aqua } | Sep-15/17   | Software Archaeology   
 **Lecture**{: .label .label-gold } | Sep-16	|	Requirements: Concepts and Challenges 
