@@ -1,9 +1,9 @@
-- ---
-- layout: page
-- title: HW01 Joining the team
-- permalink: /assignments/hw1
-- parent: Assignments
-- ---
+---
+layout: page
+title: HW01 Joining the team
+permalink: /assignments/hw1
+parent: Assignments
+---
 
 # 17-313: Foundations of Software Engineering
 
