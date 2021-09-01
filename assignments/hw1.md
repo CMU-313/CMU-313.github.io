@@ -1,9 +1,9 @@
----
-layout: page
-title: HW01 Joining the team
-permalink: /assignments/hw1
-parent: Assignments
----
+----
+-layout: page
+-title: HW01 Joining the team
+-permalink: /assignments/hw1
+-parent: Assignments
+----
 
 # 17-313: Foundations of Software Engineering
 
@@ -78,9 +78,11 @@ If you ran Mayan EDMS successfully, you should be able to navigate to
 `http://localhost` and see a web page with a login screen. 
 You may customize the port number that Mayan will be deployed to (default is `80`).
 
-Troubleshooting: If you have trouble building things locally, try pulling a 
+**Troubleshooting**: If you have trouble building things locally, try pulling a
 pre-built Docker image as shown in the [docs](https://docs.mayan-edms.com/chapters/docker/install_simple.html)
 or using the upstream repository in order to precisely isolate the issue.
+If it takes you more than a few hours to set all this up, STOP and ask for help
+on Slack.
 
 Once you have Mayan EDMS up and running locally, proceed to evaluate it
 using the Google Lighthouse tool:
