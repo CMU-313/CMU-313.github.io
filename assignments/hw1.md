@@ -45,7 +45,8 @@ source document management system, the Mayan EDMS
 system. 
 
 We will be using a class-specific fork of Mayan, whose repository is
-located at: https://github.com/CMU-313/Mayan-EDMS. This fork is based
+located at: [https://github.com/CMU-313/Mayan-EDMS](https://github.com/CMU-313/Mayan-EDMS). 
+This fork is based
 off [v4.0.7](https://docs.mayan-edms.com/releases/4.0.7.html) 
 (released June 11, 2021), and contains minor tweaks to make it easier
 to modify and debug. Forking from this repository will also allow you
