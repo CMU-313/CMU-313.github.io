@@ -11,7 +11,7 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Aug-31  | [Intro](assets/pdfs/01-introduction.pdf) 
 **Recitation**{: .label .label-aqua } | Sep-1/3   | Docker    
 **Lecture**{: .label .label-gold } | Sep-2   | [Metrics and Measurement](assets/pdfs/02-measurement.pdf)
-**Lecture**{: .label .label-gold } | Sep-7	|	Case Study 737MAX 
+**Lecture**{: .label .label-gold } | Sep-7	|	Case Study 737MAX | [news article](https://www.seattletimes.com/business/boeing-aerospace/failed-certification-faa-missed-safety-issues-in-the-737-max-system-implicated-in-the-lion-air-crash/)
 **Recitation**{: .label .label-aqua } | Sep-8/10   | Tools for collaborative software development  
 **Lecture**{: .label .label-gold }  | Sep-9	|	Milestones, estimation, planning   | | **[HW1 due](/assignments/hw1)**{: .label .label-red }
 **Lecture**{: .label .label-gold } | Sep-14	|	Software Archaeology 
