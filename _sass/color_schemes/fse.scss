@@ -2,7 +2,7 @@
 
 
 $fse-red: #D84136 !default;
-$fse-cream: #F1E3C1 !default;
+$fse-cream: #F8EFD4 !default;
 $fse-dark: #3B3D2A !default;
 
 
@@ -17,17 +17,16 @@ $body-text-color: $fse-dark;
 $body-heading-color: $fse-dark;
 $search-result-preview-color: $fse-dark;
 $nav-child-link-color: $fse-cream;
-$link-color: black;
+$link-color: #5e41d0 !default;
 $btn-primary-color: $fse-red;
 $base-button-color: $fse-cream;
-
-
 $border: 1px solid !default;
 $border-radius: 4px !default;
 $border-color: $fse-red !default;
+$content-line-height: 1.0 !default;
 
+.feather { color:black !important; };
 
-  $content-line-height: 1.0 !default;
 // //
 // // Typography
 // //
