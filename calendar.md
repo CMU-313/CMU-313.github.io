@@ -11,7 +11,7 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Aug-31  | **[Intro](assets/pdfs/01-introduction.pdf)**{: .label .label-gold }
 **Recitation**{: .label .label-aqua } | Sep-1/3   | Docker    
 **Lecture**{: .label .label-gold } | Sep-2   | **[Metrics and Measurement](assets/pdfs/02-measurement.pdf)**{: .label .label-gold }
-**Lecture**{: .label .label-gold } | Sep-7	|	Case Study 737MAX | **[news article](https://www.seattletimes.com/business/boeing-aerospace/failed-certification-faa-missed-safety-issues-in-the-737-max-system-implicated-in-the-lion-air-crash/)**{: .label .label-blue}
+**Lecture**{: .label .label-gold } | Sep-7	|	**[Case Study 737MAX](assets/pdfs/03-boeing-casestudy.pdf)** | **[news article](https://www.seattletimes.com/business/boeing-aerospace/failed-certification-faa-missed-safety-issues-in-the-737-max-system-implicated-in-the-lion-air-crash/)**{: .label .label-blue}
 **Recitation**{: .label .label-aqua } | Sep-8/10   | **[Tools for collaborative software development](assets/pdfs/recitation-2-gitcollaboration.pdf)**{: .label .label-aqua}
 **Lecture**{: .label .label-gold }  | Sep-9	|	Milestones, estimation, planning   | | **[HW1 due](/assignments/hw1)**{: .label .label-red }
 **Lecture**{: .label .label-gold } | Sep-14	|	Software Archaeology 
