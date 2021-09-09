@@ -234,7 +234,7 @@ analysis* of the reasons for good or bad time estimation, scheduling,
 and teamwork coordination. Doing poorly in these is not unusual (as
 numerous reports from real-life projects show). Therefore, we will not
 evaluate how well (or badly) the project went, but instead *how well you
-understood the reasons [why]{.underline}* the project went as it did,
+understood the reasons* __*why*__ the project went as it did,
 and what lessons you drew from your experience to inform your future
 work. A good reflection document will include concrete statements about
 lessons learned, with clear supporting evidence, such as examples, to
@@ -242,12 +242,12 @@ support the claims. It is a good idea to *reference your meeting
 protocols* to support your claims and provide examples. For example, "We
 could have communicated better." is weakly supported. One could
 strengthen it with examples from the development experience as follows:
-"One source of \[defects/development slowdown/quality problems\] was the
+"One source of *defects/development slowdown/quality problems* was the
 integration of components A and B, because the API for A was not
 well-understood by the developer of B...In the future, we might try to
-use \[such-and-such a process\] for clearly documenting and
-communicating such design decisions, rather than \[the process we did
-follow/failed to follow\]."
+use *such-and-such a process* for clearly documenting and
+communicating such design decisions, rather than *the process we did
+follow/failed to follow*."
 
 Being able to communicate effectively is an important software
 engineering skill. As such, your reflection documents should be
