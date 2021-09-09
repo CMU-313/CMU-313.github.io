@@ -13,7 +13,7 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Sep-2   | **[Metrics and Measurement](assets/pdfs/02-measurement.pdf)**{: .label .label-gold }
 **Lecture**{: .label .label-gold } | Sep-7	|	**[Case Study 737MAX](assets/pdfs/03-boeing-casestudy.pdf)** | **[news article](https://www.seattletimes.com/business/boeing-aerospace/failed-certification-faa-missed-safety-issues-in-the-737-max-system-implicated-in-the-lion-air-crash/)**{: .label .label-blue}
 **Recitation**{: .label .label-aqua } | Sep-8/10   | **[Tools for collaborative software development](assets/pdfs/recitation-2-gitcollaboration.pdf)**{: .label .label-aqua}
-**Lecture**{: .label .label-gold }  | Sep-9	|	[Milestones, estimation, planning](assets/pdfs/04-process.pdf)   | | **[HW1 due](/assignments/hw1)**{: .label .label-red }
+**Lecture**{: .label .label-gold }  | Sep-9	|	**[Milestones, estimation, planning](assets/pdfs/04-process.pdf)**   | | **[HW1 due](/assignments/hw1)**{: .label .label-red }
 **Lecture**{: .label .label-gold } | Sep-14	|	Software Archaeology 
 **Recitation**{: .label .label-aqua } | Sep-15/17   | Software Archaeology   
 **Lecture**{: .label .label-gold } | Sep-16	|	Requirements: Concepts and Challenges 
