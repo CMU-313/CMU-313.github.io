@@ -16,16 +16,16 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold }  | Sep-9	|	Milestones, estimation, planning   | | **[HW1 due](/assignments/hw1)**{: .label .label-red }
 **Lecture**{: .label .label-gold } | Sep-14	|	Software Archaeology 
 **Recitation**{: .label .label-aqua } | Sep-15/17   | Software Archaeology   
-**Lecture**{: .label .label-gold } | Sep-16	|	Requirements: Concepts and Challenges 
+**Lecture**{: .label .label-gold } | Sep-16	|	Requirements: Concepts and Challenges  | | **[HW2-1 due](/assignments/hw2)**{: .label .label-red }
 **Lecture**{: .label .label-gold } | Sep-21	|	Requirements: Elicitation and Documentation 
 **Recitation**{: .label .label-aqua } | Sep-22/24   | Requirements Interviews   
 **Lecture**{: .label .label-gold } | Sep-23	|	Ethics 
-**Lecture**{: .label .label-gold } | Sep-28	|	SE4ML: part 1 
+**Lecture**{: .label .label-gold } | Sep-28	|	SE4ML: part 1 | | **[HW2-2 due](/assignments/hw2)**{: .label .label-red }
 **Recitation**{: .label .label-aqua } | Sep-29/Oct-1   | Requirements/terrible stakeholders    
 **Lecture**{: .label .label-gold } | Sep-30	|	SE4ML: part 2 
 **Lecture**{: .label .label-gold } | Oct-5	|	Architecture: Intro and Overview 
 **Recitation**{: .label .label-aqua } | Oct-6/8   | Midterm review  
-**Lecture**{: .label .label-gold } | Oct-7	|	Architecture: Documentations, Patterns, Tactics 
+**Lecture**{: .label .label-gold } | Oct-7	|	Architecture: Documentations, Patterns, Tactics | | **[HW2-3,4 due](/assignments/hw2)**{: .label .label-red }
 | Oct-12	|	MIDTERM **EXAM**{: .label .label-red }
 **Recitation**{: .label .label-aqua } | Oct-13/15   | No Recitation
 | Oct-14	|	NO CLASS
