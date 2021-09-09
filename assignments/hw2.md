@@ -5,9 +5,9 @@ permalink: /assignments/hw2
 parent: Assignments
 ---
 
-**17-313: Foundations of Software Engineering**
+# 17-313: Foundations of Software Engineering
 
-**Homework 2: Teamwork**
+## Homework 2: Teamwork
 
 The key learning goals of this homework are that you are able to:
 
@@ -161,19 +161,15 @@ the second deadline and reflecting before the third.
 
 -   **An initial technical/sprint plan and backlog, with justification.** First, indicate which feature you chose to implement first, and why. Then, present your initial backlog for the sprint (from before you started implementing; you will discuss changes/replanning that happened in a later deliverable). The backlog should include at least:
 
-    -   a set of overall tasks necessary to implement the feature (these
-        > tasks together should result in a feature, but each task is a
-        > small step along the way to the feature),
+    -   a set of overall tasks necessary to implement the feature (these tasks together should result in a feature, but each task is a small step along the way to the feature),
 
     -   estimated effort for each task,
 
     -   dependencies among tasks,
 
-    -   which you plan to tackle for the first sprint to build the core
-        > functionality,
+    -   which you plan to tackle for the first sprint to build the core functionality,
 
-    -   task assignments for team members for the initial sprint
-        > planning.
+    -   task assignments for team members for the initial sprint planning.
 
 > You are encouraged to include supporting evidence for your backlog
 > decisions and time estimates (i.e., an explanation for how you arrived
@@ -261,7 +257,7 @@ collaborative text editing; the course staff used Google Docs for this
 homework document.
 
 **Extra credit, due with group reflection -- 12 pts (5% of the overall
-assignment grade) **
+assignment grade)**
 
 Getting to know your colleagues in a friendly context can often lead to more effective collaboration; healthy teams often get lunch together, for example. If your team is comfortable with in-person activities, you are welcome to do any activity to get to know one another better. If you have any concerns with regard to COVID, you are also welcome to do an equivalent activity over zoom, such as an online gaming session (drawasaurus?), social "zoom lunch," or a socially distant picnic (i.e., not a "working lunch!"). Include in your reflection document a picture or screenshot documenting the activity for 5% extra credit.
 
