@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Just the Class
+title: CMU 17-313: Foundations of Software Engineering
 nav_exclude: true
 seo:
   type: Course
