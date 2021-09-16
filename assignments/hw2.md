@@ -84,16 +84,13 @@ feature. Specifically, this entails:
 
 1.  Setup your initial development repository, environment, and process:
 
-    a.  Create a new team repository (instructions below) that forks the
-        > Mayan EDMS.
+    a.  Create a new team repository (instructions below) that forks the Mayan EDMS.
 
-    b.  Merge your individual changes from Homework 1 into your clean
-        > repository using proper git flow.
+    b.  Merge your individual changes from Homework 1 into your clean repository using proper git flow.
 
-    c.  Set up CI testing and metrics collection.
+    c.  ~~Set up CI testing and metrics collection.~~
 
-    d.  Make other development process and toolset decisions, like
-        > communication strategies, bug and issue tracking, etc.
+    d.  Make other development process and toolset decisions, like communication strategies, bug and issue tracking, etc.
 
 2.  Do an initial sprint planning meeting. Assess your three feature options (listed above) and choose which one you will implement first, for this assignment. Construct your *backlog* (decompose the task, roughly estimate the time required for the sub-tasks, identify dependencies, and plan the implementation accordingly).
 
@@ -171,9 +168,9 @@ the second deadline and reflecting before the third.
 
     -   task assignments for team members for the initial sprint planning.
 
-> You are encouraged to include supporting evidence for your backlog
-> decisions and time estimates (i.e., an explanation for how you arrived
-> at that value).
+You are encouraged to include supporting evidence for your backlog
+decisions and time estimates (i.e., an explanation for how you arrived
+at that value).
 
 -   **An initial process plan.** Within at most one page (soft limit), briefly describe the *process* you are planning to follow. By process, we mean *how* you are going to develop the system and which steps you are going to follow, rather than a technical design model of the software. Specifically, we are interested in how you are planning to collaborate (e.g., communication channels, meetings and their frequency, pull requests or dropbox) and in what overall development activities you plan (e.g., how much design, which quality assurance steps, how shall parts be integrated).
 
@@ -196,6 +193,35 @@ repository at the deadline. Your repository should include the
 implementation of the system, tests for the new feature, and a short
 documentation of how to use and test your new feature (indicate where
 this documentation is found from the top-level README.md file).
+
+
+**Note on testing and CI (updated September 16)**: You have two choices
+for how to submit tests for your feature. 
+
+1. You can write test code that passes only when your feature is added 
+   (but not before), by adding test code. Hint: search for directories named
+   'tests' in the Mayan repository to see how existing features are tested. 
+   Try to use the same test framework and just add one or more tests, to save
+   yourself work of figuring out how to run automated tests. 
+   Tests are executed by running `make docker-runtest-all`. If you take this route,
+   you should enable continuous integration by adding a [GitHub Actions](https://github.com/features/actions)
+   workflow file (see [example](https://github.com/CMU-313/Mayan-EDMS/blob/master/.github/workflows/build.yml)
+   and [a sample run](https://github.com/CMU-313/Mayan-EDMS/runs/3626632258?check_suite_focus=true)).
+2. If you are not comfortable with automating your tests, submit a manual test
+   script along with your documentation. A manual test script is a series of steps, such as
+   a bulleted list, that outlines how a human user would validate that your feature
+   works as expected. Make sure that each step is clear (e.g. "click the button
+   labeled 'Foo' in the left sidebar") and provides the reader with some expectation
+   (e.g. "you should see a text box appear on the right") at every step. You 
+   may need more than one manual testing script to validate all the backlog
+   items that you complete.
+
+Adhere to good coding practices. For example, your code should have a
+clear structure, be reasonably modularized, use appropriate variable
+names, and be documented. Your feature should be tested. We will look at
+the commit history; use good practices for cohesive commits with
+meaningful commit messages.
+
 
 Adhere to good coding practices. For example, your code should have a
 clear structure, be reasonably modularized, use appropriate variable
