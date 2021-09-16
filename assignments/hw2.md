@@ -225,13 +225,6 @@ names, and be documented. Your feature should be tested. We will look at
 the commit history; use good practices for cohesive commits with
 meaningful commit messages.
 
-
-Adhere to good coding practices. For example, your code should have a
-clear structure, be reasonably modularized, use appropriate variable
-names, and be documented. Your feature should be tested. We will look at
-the commit history; use good practices for cohesive commits with
-meaningful commit messages.
-
 **(3) Reflection documents -- Team (due Thursday, October 7, 23:59) --
 60 points (25%)**
 
