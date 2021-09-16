@@ -203,16 +203,19 @@ for how to submit tests for your feature.
    'tests' in the Mayan repository to see how existing features are tested. 
    Try to use the same test framework and just add one or more tests, to save
    yourself work of figuring out how to run automated tests. 
-   Tests are executed by running `make docker-runtest-all`. If you take this route,
-   you should enable continuous integration by adding a [GitHub Actions](https://github.com/features/actions)
+   The entire test suite can be executed by running `make docker-runtest-all`, but 
+   this takes a long time. You may run only your own feature's
+   tests locally, and run the full test suite in CI when merging your code into
+   the main branch. To enable CI, create a [GitHub Actions](https://github.com/features/actions)
    workflow file (see [example](https://github.com/CMU-313/Mayan-EDMS/blob/master/.github/workflows/build.yml)
    and [a sample run](https://github.com/CMU-313/Mayan-EDMS/runs/3626632258?check_suite_focus=true)).
+   When submitting your artifacts, include a link to your test code and a successful CI run.
 2. If you are not comfortable with automating your tests, submit a manual test
    script along with your documentation. A manual test script is a series of steps, such as
    a bulleted list, that outlines how a human user would validate that your feature
    works as expected. Make sure that each step is clear (e.g. "click the button
    labeled 'Foo' in the left sidebar") and provides the reader with some expectation
-   (e.g. "you should see a text box appear on the right") at every step. You 
+   (e.g. "you should see a text box appear on the right"). You 
    may need more than one manual testing script to validate all the backlog
    items that you complete.
 
