@@ -16,7 +16,7 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold }  | Sep-9	|	**[Milestones, estimation, planning](assets/pdfs/04-process.pdf)**{: .label .label-gold }   | | **[HW1 due](/assignments/hw1)**{: .label .label-red }
 **Lecture**{: .label .label-gold } | Sep-14	|	**[Software Archaeology](assets/pdfs/05-code-archaeology.pdf)**{: .label .label-gold }
 **Recitation**{: .label .label-aqua } | Sep-15/17   | Software Archaeology   
-**Lecture**{: .label .label-gold } | Sep-16	|	Requirements: Concepts and Challenges  | | **[HW2-1 due](/assignments/hw2)**{: .label .label-red }
+**Lecture**{: .label .label-gold } | Sep-16	|	**[Requirements: Concepts and Challenges](assets/pdfs/06-RequirementsIntroConcepts.pdf)**{: .label .label-gold }  | | **[HW2-1 due](/assignments/hw2)**{: .label .label-red }
 **Lecture**{: .label .label-gold } | Sep-21	|	Requirements: Elicitation and Documentation 
 **Recitation**{: .label .label-aqua } | Sep-22/24   | Requirements Interviews   
 **Lecture**{: .label .label-gold } | Sep-23	|	Ethics 
