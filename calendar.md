@@ -9,16 +9,16 @@ description: Listing of course modules and topics.
  &nbsp; | Date    |  Topic                                 | Reading | Homework Due
 ---------| ------- |  ------------------------------------- | -------- | -----------
 **Lecture**{: .label .label-gold } | Aug-31  | **[Intro](assets/pdfs/01-introduction.pdf)**{: .label .label-gold }
-**Recitation**{: .label .label-aqua } | Sep-1/3   | **[Docker](assets/pdfs/recitation-01.pdf)**{: .label .label-aqua }
+**Recitation**{: .label .label-aqua } | Sep-1/3   | **[Docker](assets/pdfs/recitation-1.pdf)**{: .label .label-aqua }
 **Lecture**{: .label .label-gold } | Sep-2   | **[Metrics and Measurement](assets/pdfs/02-measurement.pdf)**{: .label .label-gold }
 **Lecture**{: .label .label-gold } | Sep-7	|	**[Case Study 737MAX](assets/pdfs/03-boeing-casestudy.pdf)**{: .label .label-gold } | **[news article](https://www.seattletimes.com/business/boeing-aerospace/failed-certification-faa-missed-safety-issues-in-the-737-max-system-implicated-in-the-lion-air-crash/)**{: .label .label-blue}
 **Recitation**{: .label .label-aqua } | Sep-8/10   | **[Tools for collaborative software development](assets/pdfs/recitation-2-gitcollaboration.pdf)**{: .label .label-aqua}
 **Lecture**{: .label .label-gold }  | Sep-9	|	**[Milestones, estimation, planning](assets/pdfs/04-process.pdf)**{: .label .label-gold }   | | **[HW1 due](/assignments/hw1)**{: .label .label-red }
 **Lecture**{: .label .label-gold } | Sep-14	|	**[Software Archaeology](assets/pdfs/05-code-archaeology.pdf)**{: .label .label-gold }
-**Recitation**{: .label .label-aqua } | Sep-15/17   | **[Software Archaeology](assets/pdfs/recitation-03.pdf)**{: .label .label-aqua }
+**Recitation**{: .label .label-aqua } | Sep-15/17   | **[Software Archaeology](assets/pdfs/recitation-3.pdf)**{: .label .label-aqua }
 **Lecture**{: .label .label-gold } | Sep-16	|	**[Requirements: Concepts and Challenges](assets/pdfs/06-RequirementsIntroConcepts.pdf)**{: .label .label-gold }  | | **[HW2-1 due](/assignments/hw2)**{: .label .label-red }
 **Lecture**{: .label .label-gold } | Sep-21	|	Requirements: Elicitation and Documentation 
-**Recitation**{: .label .label-aqua } | Sep-22/24   | **[Requirements Interviews](assets/pdfs/recitation-04.pdf)**{: .label .label-aqua }
+**Recitation**{: .label .label-aqua } | Sep-22/24   | **[Requirements Interviews](assets/pdfs/recitation-4.pdf)**{: .label .label-aqua }
 **Lecture**{: .label .label-gold } | Sep-23	|	Ethics 
 **Lecture**{: .label .label-gold } | Sep-28	|	SE4ML: part 1 | | **[HW2-2 due](/assignments/hw2)**{: .label .label-red }
 **Recitation**{: .label .label-aqua } | Sep-29/Oct-1   | Requirements/terrible stakeholders    
