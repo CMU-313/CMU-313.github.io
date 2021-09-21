@@ -17,7 +17,7 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Sep-14	|	**[Software Archaeology](assets/pdfs/05-code-archaeology.pdf)**{: .label .label-gold }
 **Recitation**{: .label .label-aqua } | Sep-15/17   | **[Software Archaeology](assets/pdfs/recitation-3.pdf)**{: .label .label-aqua }
 **Lecture**{: .label .label-gold } | Sep-16	|	**[Requirements: Concepts and Challenges](assets/pdfs/06-RequirementsIntroConcepts.pdf)**{: .label .label-gold }  | | **[HW2-1 due](/assignments/hw2)**{: .label .label-red }
-**Lecture**{: .label .label-gold } | Sep-21	|	Requirements: Elicitation and Documentation 
+**Lecture**{: .label .label-gold } | Sep-21	|	**[Requirements: Elicitation and Documentation](assets/pdfs/07-Req-interviews-risk.pdf)**{: .label .label-gold }
 **Recitation**{: .label .label-aqua } | Sep-22/24   | **[Requirements Interviews](assets/pdfs/recitation-4.pdf)**{: .label .label-aqua }
 **Lecture**{: .label .label-gold } | Sep-23	|	Ethics 
 **Lecture**{: .label .label-gold } | Sep-28	|	SE4ML: part 1 | | **[HW2-2 due](/assignments/hw2)**{: .label .label-red }
