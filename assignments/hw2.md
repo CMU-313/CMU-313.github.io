@@ -145,8 +145,8 @@ by snapshotting your repository at the deadline.
 
 This homework has three (3) deadlines and four (4) deliverables. The
 first deadline (Thursday, September 16, 23:59) is for an **initial**
-**planning document and backlog**. The second deadline (Tuesday,
-September 28, 23:59) is for the **technical artifacts**. The third
+**planning document and backlog**. The second deadline (~~Tuesday,
+September 28, 23:59~~ Friday, Oct 1, 29:59) is for the **technical artifacts**. The third
 deadline (Thursday, October 7, 23:59) is for **two (2) reflection
 documents**. We intentionally separated these deadlines to ensure
 upfront documentation of the planning process and to give you time to
@@ -185,7 +185,8 @@ This document should contain explicit subsections for the backlog/sprint
 plan and the process plan.* *Include the names of all team members on
 the first page of the document.*
 
-**2) Code artifacts (due Tuesday, September 28, 23:59) -- 60 points (25
+**2) Code artifacts (due ~~Tuesday,
+September 28, 23:59~~ Friday, Oct 1, 29:59) -- 60 points (25
 %)**
 
 We will take a snapshot of the implementation from your team's GitHub
