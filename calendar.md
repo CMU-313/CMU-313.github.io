@@ -20,9 +20,10 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Sep-21	|	**[Requirements: Elicitation and Documentation](assets/pdfs/07-Req-interviews-risk.pdf)**{: .label .label-gold }
 **Recitation**{: .label .label-aqua } | Sep-22/24   | **[Requirements Interviews](assets/pdfs/recitation-4.pdf)**{: .label .label-aqua }
 **Lecture**{: .label .label-gold } | Sep-23	|	**[SE4ML: part 1](assets/pdfs/08-SE_4_ML.pdf)**{: .label .label-gold }
-**Lecture**{: .label .label-gold } | Sep-28	|	Ethics | | **[HW2-2 due](/assignments/hw2)**{: .label .label-red }
+**Lecture**{: .label .label-gold } | Sep-28	|	Ethics | | **[~~HW2-2 due~~](/assignments/hw2)**{: .label .label-red }
 **Recitation**{: .label .label-aqua } | Sep-29/Oct-1   | Requirements/terrible stakeholders    
 **Lecture**{: .label .label-gold } | Sep-30	|	TBD
+**Homework**{: .label .label-red } | Oct 1 |  | **[HW2-2 due](/assignments/hw2)**{: .label .label-red }
 **Lecture**{: .label .label-gold } | Oct-5	|	Architecture: Intro and Overview 
 **Recitation**{: .label .label-aqua } | Oct-6/8   | Midterm review  
 **Lecture**{: .label .label-gold } | Oct-7	|	Architecture: Documentations, Patterns, Tactics | | **[HW2-3,4 due](/assignments/hw2)**{: .label .label-red }
