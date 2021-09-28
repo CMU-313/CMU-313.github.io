@@ -19,8 +19,8 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Sep-16	|	**[Requirements: Concepts and Challenges](assets/pdfs/06-RequirementsIntroConcepts.pdf)**{: .label .label-gold }  | | **[HW2-1 due](/assignments/hw2)**{: .label .label-red }
 **Lecture**{: .label .label-gold } | Sep-21	|	**[Requirements: Elicitation and Documentation](assets/pdfs/07-Req-interviews-risk.pdf)**{: .label .label-gold }
 **Recitation**{: .label .label-aqua } | Sep-22/24   | **[Requirements Interviews](assets/pdfs/recitation-4.pdf)**{: .label .label-aqua }
-**Lecture**{: .label .label-gold } | Sep-23	|	**[SE4ML: part 1](assets/pdfs/08-SE_4_ML.pdf)**{: .label .label-gold }
-**Lecture**{: .label .label-gold } | Sep-28	|	Ethics | | **[~~HW2-2 due~~](/assignments/hw2)**{: .label .label-red }
+**Lecture**{: .label .label-gold } | Sep-23	|	**[SE4ML](assets/pdfs/08-SE_4_ML.pdf)**{: .label .label-gold }
+**Lecture**{: .label .label-gold } | Sep-28	|	**[Ethics](assets/pdfs/09-Ethics.pdf)**{: .label .label-gold } | | **[~~HW2-2 due~~](/assignments/hw2)**{: .label .label-red }
 **Recitation**{: .label .label-aqua } | Sep-29/Oct-1   | Requirements/terrible stakeholders    
 **Lecture**{: .label .label-gold } | Sep-30	|	TBD
 **Homework**{: .label .label-red } | Oct 1 |  | **[HW2-2 due](/assignments/hw2)**{: .label .label-red }
