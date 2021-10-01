@@ -24,7 +24,7 @@ description: Listing of course modules and topics.
 **Recitation**{: .label .label-aqua } | Sep-29/Oct-1   | Requirements/terrible stakeholders    
 **Lecture**{: .label .label-gold } | Sep-30	|	SE4ML: part 2 
 **Lecture**{: .label .label-gold } | Oct-5	|	Architecture: Intro and Overview 
-**Recitation**{: .label .label-aqua } | Oct-6/8   | Midterm review  
+**Recitation**{: .label .label-aqua } | Oct-6/8   | Midterm review ( **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua}, **[2019](assets/pdfs/midterm-2019.pdf)**{: .label .label-aqua})  
 **Lecture**{: .label .label-gold } | Oct-7	|	Architecture: Documentations, Patterns, Tactics | | **[HW2-3,4 due](/assignments/hw2)**{: .label .label-red }
 | Oct-12	|	MIDTERM **EXAM**{: .label .label-red }
 **Recitation**{: .label .label-aqua } | Oct-13/15   | No Recitation
