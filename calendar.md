@@ -25,7 +25,7 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Sep-30	|	**[Architecture: Intro and Overview ](assets/pdfs/10-Intro-to-Arch.pdf)**{: .label .label-gold } 
 **Homework**{: .label .label-red } | Oct 1 |  | **[HW2-2 due](/assignments/hw2)**{: .label .label-red }
 **Lecture**{: .label .label-gold } | Oct-5	|	Architecture: Microservices
-**Recitation**{: .label .label-aqua } | Oct-6/8   | Midterm review ( **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua}, **[2019](assets/pdfs/midterm-2019.pdf)**{: .label .label-aqua})  
+**Recitation**{: .label .label-aqua } | Oct-6/8   | Midterm review (**[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua},**[2019](assets/pdfs/midterm-2019.pdf)**{: .label .label-aqua})  
 **Lecture**{: .label .label-gold } | Oct-7	|	Architecture: Documentations, Patterns, Tactics | | **[HW2-3,4 due](/assignments/hw2)**{: .label .label-red }
 | Oct-12	|	MIDTERM **EXAM**{: .label .label-red }
 **Recitation**{: .label .label-aqua } | Oct-13/15   | No Recitation
