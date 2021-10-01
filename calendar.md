@@ -17,19 +17,20 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Sep-14	|	**[Software Archaeology](assets/pdfs/05-code-archaeology.pdf)**{: .label .label-gold }
 **Recitation**{: .label .label-aqua } | Sep-15/17   | **[Software Archaeology](assets/pdfs/recitation-3.pdf)**{: .label .label-aqua }
 **Lecture**{: .label .label-gold } | Sep-16	|	**[Requirements: Concepts and Challenges](assets/pdfs/06-RequirementsIntroConcepts.pdf)**{: .label .label-gold }  | | **[HW2-1 due](/assignments/hw2)**{: .label .label-red }
-**Lecture**{: .label .label-gold } | Sep-21	|	Requirements: Elicitation and Documentation 
+**Lecture**{: .label .label-gold } | Sep-21	|	**[Requirements: Elicitation and Documentation](assets/pdfs/07-Req-interviews-risk.pdf)**{: .label .label-gold }
 **Recitation**{: .label .label-aqua } | Sep-22/24   | **[Requirements Interviews](assets/pdfs/recitation-4.pdf)**{: .label .label-aqua }
-**Lecture**{: .label .label-gold } | Sep-23	|	Ethics 
-**Lecture**{: .label .label-gold } | Sep-28	|	SE4ML: part 1 | | **[HW2-2 due](/assignments/hw2)**{: .label .label-red }
+**Lecture**{: .label .label-gold } | Sep-23	|	**[SE4ML](assets/pdfs/08-SE_4_ML.pdf)**{: .label .label-gold }
+**Lecture**{: .label .label-gold } | Sep-28	|	**[Ethics](assets/pdfs/09-Ethics.pdf)**{: .label .label-gold } | | **[~~HW2-2 due~~](/assignments/hw2)**{: .label .label-red }
 **Recitation**{: .label .label-aqua } | Sep-29/Oct-1   | Requirements/terrible stakeholders    
-**Lecture**{: .label .label-gold } | Sep-30	|	SE4ML: part 2 
-**Lecture**{: .label .label-gold } | Oct-5	|	Architecture: Intro and Overview 
+**Lecture**{: .label .label-gold } | Sep-30	|	**[Architecture: Intro and Overview ](assets/pdfs/10-Intro-to-Arch.pdf)**{: .label .label-gold } 
+**Homework**{: .label .label-red } | Oct 1 |  | **[HW2-2 due](/assignments/hw2)**{: .label .label-red }
+**Lecture**{: .label .label-gold } | Oct-5	|	Architecture: Microservices
 **Recitation**{: .label .label-aqua } | Oct-6/8   | Midterm review ( **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua}, **[2019](assets/pdfs/midterm-2019.pdf)**{: .label .label-aqua})  
 **Lecture**{: .label .label-gold } | Oct-7	|	Architecture: Documentations, Patterns, Tactics | | **[HW2-3,4 due](/assignments/hw2)**{: .label .label-red }
 | Oct-12	|	MIDTERM **EXAM**{: .label .label-red }
 **Recitation**{: .label .label-aqua } | Oct-13/15   | No Recitation
 | Oct-14	|	NO CLASS
-**Lecture**{: .label .label-gold } |  Oct-19	|	Architecture: Microservices 
+**Lecture**{: .label .label-gold } |  Oct-19	|	 TBD
 **Recitation**{: .label .label-aqua } | Oct-20/22   | Team Dysfunction
 **Lecture**{: .label .label-gold } | Oct-21	|	Architecture: Devops 
 **Lecture**{: .label .label-gold } | Oct-26	|	Introduction to QA and Testing
