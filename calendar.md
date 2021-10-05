@@ -22,9 +22,9 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Sep-23	|	**[SE4ML](assets/pdfs/08-SE_4_ML.pdf)**{: .label .label-gold }
 **Lecture**{: .label .label-gold } | Sep-28	|	**[Ethics](assets/pdfs/09-Ethics.pdf)**{: .label .label-gold } | | **[~~HW2-2 due~~](/assignments/hw2)**{: .label .label-red }
 **Recitation**{: .label .label-aqua } | Sep-29/Oct-1   | Requirements/terrible stakeholders    
-**Lecture**{: .label .label-gold } | Sep-30	|	**[Architecture: Intro and Overview ](assets/pdfs/10-Intro-to-Arch.pdf)**{: .label .label-gold } 
+**Lecture**{: .label .label-gold } | Sep-30	|	**[Architecture: Intro and Overview](assets/pdfs/10-Intro-to-Arch.pdf)**{: .label .label-gold } 
 **Homework**{: .label .label-red } | Oct 1 |  | **[HW2-2 due](/assignments/hw2)**{: .label .label-red }
-**Lecture**{: .label .label-gold } | Oct-5	|	Architecture: Microservices
+**Lecture**{: .label .label-gold } | Oct-5	|	**[Architecture: Microservices](assets/pdfs/11-microservices.pdf)**{: .label .label-gold }
 **Recitation**{: .label .label-aqua } | Oct-6/8   | Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua},**[2019](assets/pdfs/midterm-2019.pdf)**{: .label .label-aqua}
 **Lecture**{: .label .label-gold } | Oct-7	|	Architecture: Documentations, Patterns, Tactics | | **[HW2-3,4 due](/assignments/hw2)**{: .label .label-red }
 | Oct-12	|	MIDTERM **EXAM**{: .label .label-red }
