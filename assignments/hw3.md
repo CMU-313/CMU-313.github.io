@@ -126,7 +126,7 @@ document** (one (1) per student). A template for the requirements
 document can be found on the Canvas resource page; section references in
 this document refer to the sections in that template.
 
-### **Requirements document---Team (due Friday, October 29, 23:59) -- 120 points (75%)**
+### **Requirements document---Team (due Tuesday, October 26, 23:59) -- 120 points (75%)**
 
 Each *team* should submit a single PDF of their completed requirements
 document to gradescope **by , October 29, 23:59pm.**
@@ -201,7 +201,7 @@ team, explicitly argue why the user stories do follow the INVEST
 criteria. If you have to make tradeoffs in one dimensions because of
 another dimension, you should argue that tradeoff explicitly.
 
-### **Reflection document -- Individual (due Friday, October 29, 23:59) - 40 points (25%)**
+### **Reflection document -- Individual (due Tuesday, October 26, 23:59) - 40 points (25%)**
 
 In a reflection document of two pages or less (soft limit) describe what
 insights (if any) you gained from going through the requirements
