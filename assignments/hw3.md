@@ -100,11 +100,11 @@ Non-classmate Stakeholders:
    | Tom Pope   |  tpope@cs.cmu.edu   | 3 |  ISR IT support staff who would potentially be responsible for hosting the system  |
  | Marlana Pawlak | mpawlak@andrew.cmu.edu |   2 | Staff member for MSE program who manages applications after they have been submitted.|
  | Jane Hsieh   |  janeon@cmu.edu | 3 |  SE PhD student. A previous applicant to REU and graduate programs. |
-| Tobias Dürschmid  |  duerschmid@cmu.edu | 2 | SE PhD student. Helped run the SE PhD admissions process. A previous applicant to graduate programs. |
+| Tobias Dürschmid  |  duerschmid@cmu.edu | 2 | SE PhD student. Helped run SE PhD admissions process. A previous applicant to graduate programs. |
  | Kyle Liang     |    kmliang@andrew.cmu.edu   |  3 |  SE PhD student, recently applied to a number of PhD programs.  |
  | Connie Herold     |    cherold@andrew.cmu.edu   |  5 |  Academic program manager of ISR, manages applications after they have been submitted. |
  | Hita Kambhamettu     |    rkambham@andrew.cmu.edu   |  3 |  Former CMU REUSE student, currently applying to SE PhD programs.  |
- | Daye Nam | dayen@andrew.cmu.edu |  3 | SE PhD student. Helped run the SE PhD admissions process. A previous applicant to graduate programs. |
+ | Daye Nam | dayen@andrew.cmu.edu |  3 | SE PhD student. Helped run SE PhD admissions process. A previous applicant to graduate programs. |
   
 Proceed as follows:
 
