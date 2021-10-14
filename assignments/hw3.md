@@ -1,8 +1,15 @@
- **17-313: Foundations of Software Engineering**
-================================================
 
-**Homework 3: Requirements**
-============================
+---
+layout: page
+title: HW02 Teamwork
+permalink: /assignments/hw2
+parent: Assignments
+---
+
+# 17-313: Foundations of Software Engineering
+
+## Homework 2: Requirements
+
 
 In this homework, you will be eliciting requirements and documenting
 them for a **graduate school admission system**. Your task is to elicit
@@ -17,7 +24,7 @@ rather than guessing requirements informally yourself. You may find that
 the requirements are substantially different from the ones you would
 have come up with on your own.
 
-**Learning Goals:**
+Learning Goals:
 
 -   Elicit functional and quality requirements from stakeholders
 
@@ -29,8 +36,8 @@ have come up with on your own.
 
 -   Develop and apply appropriate metrics to specify and measure quality attributes.
 
-**Project description (from homework 2)**
------------------------------------------
+## Project description (from homework 2)
+
 
 CMU has over 7,000 graduate students. The university uses a software
 system to manage the graduate student admissions process, including
@@ -51,8 +58,8 @@ evaluate the applicants; students (applicants) and their letter writers
 complain that the system is hard to use. Everyone finds configuration
 and management difficult.
 
-**Requirements Elicitation**
-----------------------------
+## Requirements Elicitation
+
 
 Your team will seek information about requirements from public documents
 and observations of the current and alternative systems, as well as from
@@ -117,7 +124,7 @@ Proceed as follows:
 
 -   Reflect on your experience conducting the interview and the documents in a personal statement.
 
-### **Deadlines and deliverables**
+### Deadlines and deliverables
 
 This homework has two (1) deadline and two (2) deliverables. The
 deliverables are **complete requirements document** (one (1) per team;
@@ -231,8 +238,8 @@ the reflection document, but it is not necessary to answer them all:
 
 -   How do current systems requirements fit with the decision to build on the Mayan EDMS platform? Are there any requirements that are less feasible given that you are building on the Mayan platform?
 
-**Logistics**
--------------
+## Logistics
+
 
 Schedule your interviews as soon as possible. Please contact your TA if
 you have any issues. You will need to be respectful of the fact that the
@@ -240,8 +247,8 @@ stakeholders are real people with their own schedules and
 responsibilities; if you wait too long, you may not be able to complete
 your interviews.
 
-**Grading**
------------
+## Grading
+
 
 You will be graded as a team, with an individual component. This
 homework is worth 160 points, as divided above. We provide additional
