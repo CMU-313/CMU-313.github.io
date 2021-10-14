@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: HW03 Requirements
