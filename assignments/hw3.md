@@ -1,14 +1,14 @@
 
 ---
 layout: page
-title: HW02 Teamwork
-permalink: /assignments/hw2
+title: HW03 Requirements
+permalink: /assignments/hw3
 parent: Assignments
 ---
 
 # 17-313: Foundations of Software Engineering
 
-## Homework 2: Requirements
+## Homework 3: Requirements
 
 
 In this homework, you will be eliciting requirements and documenting
