@@ -99,12 +99,13 @@ Non-classmate Stakeholders:
    | Hanan Hibshi  |  hhibshi@andrew.cmu.edu | 3 | Research and Teaching Scientist, INI, evaluates students applying to INI |
    | Tom Pope   |  tpope@cs.cmu.edu   | 3 |  ISR IT support staff who would potentially be responsible for hosting the system  |
  | Marlana Pawlak | mpawlak@andrew.cmu.edu |   2 | Staff member for MSE program who manages applications after they have been submitted.|
- | Jane Hsieh   |  janeon@cmu.edu | 3 |  SE PhD student. Member of the REU admissions committee. |
-| Tobias Dürschmid  |  duerschmid@cmu.edu | 3 | SE PhD student, recently applied to a number of PhD programs, helped run the REU admissions process. |
+ | Jane Hsieh   |  janeon@cmu.edu | 3 |  SE PhD student. A previous applicant to REU and graduate programs. |
+| Tobias Dürschmid  |  duerschmid@cmu.edu | 2 | SE PhD student. Helped run the SE PhD admissions process. A previous applicant to graduate programs. |
  | Kyle Liang     |    kmliang@andrew.cmu.edu   |  3 |  SE PhD student, recently applied to a number of PhD programs.  |
- | Connie Herold     |    cherold@andrew.cmu.edu   |  5 |  SE PhD student, recently applied to a number of PhD programs.  |
+ | Connie Herold     |    cherold@andrew.cmu.edu   |  5 |  Academic program manager of ISR, manages applications after they have been submitted. |
  | Hita Kambhamettu     |    rkambham@andrew.cmu.edu   |  3 |  Former CMU REUSE student, currently applying to SE PhD programs.  |
-
+ | Daye Nam | dayen@andrew.cmu.edu |  3 | SE PhD student. Helped run the SE PhD admissions process. A previous applicant to graduate programs. |
+  
 Proceed as follows:
 
 -   Before the interviews, become familiar with the problem, for example through content analysis of public information and other systems. Think about possible stakeholders, actors, quality attributes, user stories, and assumptions for an actual implementation. Be deliberate about who you want to interview. If you go into the interview unprepared, you are likely to miss important questions.
