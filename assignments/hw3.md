@@ -136,7 +136,7 @@ this document refer to the sections in that template.
 ### **Requirements document---Team (due Tuesday, October 26, 23:59) -- 120 points (75%)**
 
 Each *team* should submit a single PDF of their completed requirements
-document to gradescope **by , October 29, 23:59pm.**
+document to gradescope **by , October 26, 23:59pm.**
 
 **Stakeholder and Actor Descriptions (Sections 1.3, 1.6, and 2.1, and
 Appendix A) - 15 points (12.5%)**
