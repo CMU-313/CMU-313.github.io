@@ -32,7 +32,7 @@ description: Listing of course modules and topics.
 | Oct-14	|	NO CLASS
 **Lecture**{: .label .label-gold } |  Oct-19	|	 TBD
 **Recitation**{: .label .label-aqua } | Oct-20/22   | Team Dysfunction
-**Lecture**{: .label .label-gold } | Oct-21	|	Architecture: Devops 
+**Lecture**{: .label .label-gold } | Oct-21	|	**[Architecture: Devops](assets/pdfs/13-devops.pdf)**{: .label .label-gold }
 **Lecture**{: .label .label-gold } | Oct-26	|	Introduction to QA and Testing
 **Recitation**{: .label .label-aqua } | Oct-27/29   | Static Analysis/CI
 **Lecture**{: .label .label-gold }| Oct-28	|	Chaos Engineering
