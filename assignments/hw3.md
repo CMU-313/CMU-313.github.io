@@ -130,7 +130,7 @@ This homework has two (1) deadline and two (2) deliverables. The
 deliverables are **complete requirements document** (one (1) per team;
 specific sections to be completed described below) and **one reflection
 document** (one (1) per student). A template for the requirements
-document can be found on the Canvas resource page; section references in
+document can be found [here](https://cmu-313.github.io//assignments/Business Requirements Document.docs); section references in
 this document refer to the sections in that template.
 
 ### **Requirements document---Team (due Tuesday, October 26, 23:59) -- 120 points (75%)**
