@@ -30,10 +30,10 @@ description: Listing of course modules and topics.
 | Oct-12	|	MIDTERM **EXAM**{: .label .label-red }
 **Recitation**{: .label .label-aqua } | Oct-13/15   | No Recitation
 | Oct-14	|	NO CLASS
-**Lecture**{: .label .label-gold } |  Oct-19	|	 TBD
+**Lecture**{: .label .label-gold } |  Oct-19	 **[Architecture: Devops](assets/pdfs/13-devops.pdf)**{: .label .label-gold } |	 TBD
 **Recitation**{: .label .label-aqua } | Oct-20/22   | **[Team Dysfunction](assets/pdfs/recitation-6-team-dysfunction.pdf)**{: .label .label-aqua}
-**Lecture**{: .label .label-gold } | Oct-21	|	**[Architecture: Devops](assets/pdfs/13-devops.pdf)**{: .label .label-gold }
-**Lecture**{: .label .label-gold } | Oct-26	|	Introduction to QA and Testing | |  **[HW3 (all documents) due](/assignments/hw3)**{: .label .label-red }
+**Lecture**{: .label .label-gold } | Oct-21	|	**[Teams](assets/pdfs/14-teams-process.pdf)**{: .label .label-gold }
+**Lecture**{: .label .label-gold } | Oct-26	|	Process + Teams Introduction to QA and Testing | |  **[HW3 (all documents) due](/assignments/hw3)**{: .label .label-red }
 **Recitation**{: .label .label-aqua } | Oct-27/29   | Static Analysis/CI
 **Lecture**{: .label .label-gold }| Oct-28	|	Chaos Engineering
 **Lecture**{: .label .label-gold } | Nov-2		| QA: Static Analysis: part 1
