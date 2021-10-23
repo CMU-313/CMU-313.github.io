@@ -34,12 +34,12 @@ description: Listing of course modules and topics.
 **Recitation**{: .label .label-aqua } | Oct-20/22   | **[Team Dysfunction](assets/pdfs/recitation-6-team-dysfunction.pdf)**{: .label .label-aqua}
 **Lecture**{: .label .label-gold } | Oct-21	|	**[Teams](assets/pdfs/14-teams-process.pdf)**{: .label .label-gold }
 **Lecture**{: .label .label-gold } | Oct-26	|	Process + Teams Introduction to QA and Testing | |  **[HW3 (all documents) due](/assignments/hw3)**{: .label .label-red }
-**Recitation**{: .label .label-aqua } | Oct-27/29   | Static Analysis/CI
+**Recitation**{: .label .label-aqua } | Oct-27/29   | Static Analysis/CI | | **[HW4-1 due (OCT 29)](/assignments/hw4)**{: .label .label-red}
 **Lecture**{: .label .label-gold }| Oct-28	|	Chaos Engineering
-**Lecture**{: .label .label-gold } | Nov-2		| QA: Static Analysis: part 1
+**Lecture**{: .label .label-gold } | Nov-2		| QA: Static Analysis: part 1 | | **[HW4-2 due](/assignments/hw4)**{: .label .label-red}
 **Recitation**{: .label .label-aqua } | Nov-3/5   | No recitation - Holiday
-**Lecture**{: .label .label-gold } |  Nov-4	|	QA: Static Analysis: part 2 
-**Lecture**{: .label .label-gold } | Nov-9	|	QA: ML explanability 
+**Lecture**{: .label .label-gold } |  Nov-4	|	QA: Static Analysis: part 2 | | **[HW4-3 due](/assignments/hw4)**{: .label .label-red}
+**Lecture**{: .label .label-gold } | Nov-9	|	QA: ML explanability | | **[HW4-4 due](/assignments/hw4)**{: .label .label-red}
 **Recitation**{: .label .label-aqua } | Nov-10/12   | ML explanability 
 **Lecture**{: .label .label-gold } | Nov-11	|	QA: ML explanability 
 **Lecture**{: .label .label-gold } | Nov-16	|	Process + Teams 
