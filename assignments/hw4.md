@@ -258,9 +258,9 @@ acceptable, if *clearly* readable.
 **Part D: Ethical Discussion -- Individual (due Thursday, Nov 9th) --
 30 points (~20%)**
 
-**Note: *this is not an open-ended reflection document like those we
+*Note: this is not an open-ended reflection document like those we
 have requested in previous assignments. You must engage with the ethical
-questions at hand. ***
+questions at hand.*
 
 For this deliverable, we will ask you to think about potential ethical
 concerns with the technology that you are proposing to implement. You
