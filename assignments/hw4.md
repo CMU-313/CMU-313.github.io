@@ -255,7 +255,7 @@ acceptable, if *clearly* readable.
 
 -   As additional reference material, *Software Architecture in Practice, Third Edition* is a book on software architecture that is available (for free) as an e-book from the CMU library web site. You may wish to review appropriate sections within *Part Two* to help find appropriate *tactics*, techniques you can use in your design to promote particular quality attributes. Note that the book is *not* a reading assignment and you should not try to read it thoroughly. Instead, *use it as reference material* and select particular bits of advice that are relevant to your situation.
 
-**Part D: Ethical Discussion -- Individual (due Thursday, Nov 9th) --
+**Part D: Ethical Discussion -- Individual (due Tuesday, Nov 9th) --
 30 points (~20%)**
 
 *Note: this is not an open-ended reflection document like those we
