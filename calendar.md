@@ -33,7 +33,7 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } |  Oct-19 | **[Architecture: Devops](assets/pdfs/13-devops.pdf)**{: .label .label-gold } | 
 **Recitation**{: .label .label-aqua } | Oct-20/22   | **[Team Dysfunction](assets/pdfs/recitation-6-team-dysfunction.pdf)**{: .label .label-aqua}
 **Lecture**{: .label .label-gold } | Oct-21	|	**[Teams](assets/pdfs/14-teams-process.pdf)**{: .label .label-gold }
-**Lecture**{: .label .label-gold } | Oct-26	|	Process + Teams | |  
+**Lecture**{: .label .label-gold } | Oct-26	|	Process | |  
 **Recitation**{: .label .label-aqua } | Oct-27/29   | Static Analysis/CI | | **[HW3 due](/assignments/hw3)**{: .label .label-red } **[HW4-1 due (OCT 29)](/assignments/hw4)**{: .label .label-red}
 **Lecture**{: .label .label-gold }| Oct-28	|	QA: Intro
 **Lecture**{: .label .label-gold } | Nov-2		| QA: Testing  | | **[HW4-2 due](/assignments/hw4)**{: .label .label-red}
@@ -44,9 +44,9 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Nov-11	|	QA: ML explanability 
 **Lecture**{: .label .label-gold } | Nov-16	|	QA: ML fairness 
 **Recitation**{: .label .label-aqua } | Nov-17/19   | TBD
-**Lecture**{: .label .label-gold } | Nov-18	|	Process + Teams 
+**Lecture**{: .label .label-gold } | Nov-18	|	TBD
 | Nov-23	|	NO CLASS
 | Nov-25	|	THANKSGIVING
-**Lecture**{: .label .label-gold } | Nov-30	|	Process + Teams 
+**Lecture**{: .label .label-gold } | Nov-30	|	TBD
 **Recitation**{: .label .label-aqua } | Dec-1/3   | TBD
 **Lecture**{: .label .label-gold } | Dec-2	|	Business models 
