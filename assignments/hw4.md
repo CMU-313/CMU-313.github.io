@@ -54,7 +54,7 @@ need to ask in QA to satisfy possible ethical concerns.
 Create a new team repository by following this link for your team, which
 will clone starter data and code:
 
-<https://classroom.github.com/a/poA45iMj>
+<https://classroom.github.com/a/pFb1OX19>
 
 There is an example flask-based app, with associated docker file, in the
 dockerfile/apps folder. Use this as a template to build and deploy the
