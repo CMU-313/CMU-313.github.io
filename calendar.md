@@ -33,7 +33,7 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } |  Oct-19 | **[Architecture: Devops](assets/pdfs/13-devops.pdf)**{: .label .label-gold } | 
 **Recitation**{: .label .label-aqua } | Oct-20/22   | **[Team Dysfunction](assets/pdfs/recitation-6-team-dysfunction.pdf)**{: .label .label-aqua}
 **Lecture**{: .label .label-gold } | Oct-21	|	**[Teams](assets/pdfs/14-teams-process.pdf)**{: .label .label-gold }
-**Lecture**{: .label .label-gold } | Oct-26	|	Process | |  
+**Lecture**{: .label .label-gold } | Oct-26	|	 **[Process](assets/pdfs/15-process-in-SE.pdf)**{: .label .label-gold } | |  
 **Recitation**{: .label .label-aqua } | Oct-27/29   | Machine Learning | | **[HW3 due (OCT 29)](/assignments/hw3)**{: .label .label-red } **[HW4-1 due (OCT 29)](/assignments/hw4)**{: .label .label-red}
 **Lecture**{: .label .label-gold }| Oct-28	|	QA: Intro
 **Lecture**{: .label .label-gold } | Nov-2		| QA: Testing  | | **[HW4-2 due](/assignments/hw4)**{: .label .label-red}
