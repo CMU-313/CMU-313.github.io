@@ -40,7 +40,7 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Nov-2		| QA: Writing Tests  | | **[HW4-2 due](/assignments/hw4)**{: .label .label-red}
 **Recitation**{: .label .label-aqua } | Nov-3/5   | No recitation - Holiday
 **Lecture**{: .label .label-gold } |  Nov-4	|	QA: Static Analysis | | **[HW4-3 due](/assignments/hw4)**{: .label .label-red}
-**Lecture**{: .label .label-gold } | Nov-9	|	QA: Automation | | **[HW4-4 due](/assignments/hw4)**{: .label .label-red}
+**Lecture**{: .label .label-gold } | Nov-9	|	QA: Dynamic Analysis | | **[HW4-4 due](/assignments/hw4)**{: .label .label-red}
 **Recitation**{: .label .label-aqua } | Nov-10/12   | Static Analysis/CI
 **Lecture**{: .label .label-gold } | Nov-11	|	QA: ML explanability 
 **Lecture**{: .label .label-gold } | Nov-16	|	QA: ML fairness 
