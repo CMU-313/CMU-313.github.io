@@ -72,7 +72,7 @@ also accepts JSON requests).
 
 Note that the default flask service in the starter code should be run,
 and is accessible, on port 5000. The following commands should work to
-build the docker container and confirm that the service is running:
+build the docker container and confirm that the service is running, but you should run these from the dockefile directory:
 
 > docker build -t ml:latest .
 >
