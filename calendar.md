@@ -37,7 +37,7 @@ description: Listing of course modules and topics.
 **Recitation**{: .label .label-aqua } | Oct-27/29   | **[Machine Learning](assets/pdfs/recitation-7.pdf)**{: .label .label-aqua} | | 
 **Lecture**{: .label .label-gold }| Oct-28	|	**[QA: Intro to Testing](assets/pdfs/16-testing-intro.pdf)**{: .label .label-gold } | **[SE at Google, Chapter 11](https://abseil.io/resources/swe_at_google.2.pdf)**{: .label .label-blue}
 | Oct-29 | | | **[HW3 due (all parts)](/assignments/hw3)**{: .label .label-red } **[HW4-1 due](/assignments/hw4)**{: .label .label-red}
-**Lecture**{: .label .label-gold } | Nov-2		| QA: Crafting Tests  | **[SE at Google, Chapter 12—13](https://abseil.io/resources/swe_at_google.2.pdf)**{: .label .label-blue} | **[HW4-2 due](/assignments/hw4)**{: .label .label-red}
+**Lecture**{: .label .label-gold } | Nov-2		| **[QA: Testing Strategies](assets/pdfs/17-testing-strategies.pdf)**{: .label .label-gold }  | **[SE at Google, Chapter 12—13](https://abseil.io/resources/swe_at_google.2.pdf)**{: .label .label-blue} | **[HW4-2 due](/assignments/hw4)**{: .label .label-red}
 **Recitation**{: .label .label-aqua } | Nov-3/5   | No recitation - Holiday
 **Lecture**{: .label .label-gold } |  Nov-4	|	QA: Static Analysis |
 | Nov-8 | | | **[HW4-3 due](/assignments/hw4)**{: .label .label-red}
