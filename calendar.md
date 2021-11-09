@@ -41,8 +41,7 @@ description: Listing of course modules and topics.
 **Recitation**{: .label .label-aqua } | Nov-3/5   | No recitation - Holiday
 **Lecture**{: .label .label-gold } |  Nov-4	|	**[QA: Dynamic Analysis and Random Testing](assets/pdfs/18-dynamic-analysis.pdf)**{: .label .label-gold } |
 | Nov-8 | | | **[HW4-3 due](/assignments/hw4)**{: .label .label-red}
-**Lecture**{: .label .label-gold } | Nov-9	|	**[QA: Static Analysis](assets/pdfs/19-static-analysis.pdf)**{: .label .label-gold}
-**Lecture**{: .label .label-gold } | |  **[HW4-4 due](/assignments/hw4)**{: .label .label-red}
+**Lecture**{: .label .label-gold } | Nov-9	|	**[QA: Static Analysis](assets/pdfs/19-static-analysis.pdf)**{: .label .label-gold} | |  **[HW4-4 due](/assignments/hw4)**{: .label .label-red}
 **Recitation**{: .label .label-aqua } | Nov-10/12   | Static Analysis/CI
 **Lecture**{: .label .label-gold } | Nov-11	|	QA: ML explanability 
 **Lecture**{: .label .label-gold } | Nov-16	|	QA: ML fairness 
