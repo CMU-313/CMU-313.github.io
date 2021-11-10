@@ -50,7 +50,7 @@ You can create a new team repository by following the link for your team, which 
 
 [Create Assignment with Github Classroom](https://classroom.github.com/a/Gj0UmUyt)
 
-Apply the tools to your project. You may also apply it to one or more
+Apply one or more of the tools to your project. You may also apply it to one or more
 other programs if you wish to assess it in different contexts. Consider
 and experiment with the types of customization that are appropriate or
 necessary for this tool, both a priori (before they can be used in your
