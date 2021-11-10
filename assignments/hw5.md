@@ -1,7 +1,7 @@
 ---
 layout: page
 title: HW05 Quality Assurance
-permalink: /assignments/hw4
+permalink: /assignments/hw5
 parent: Assignments
 ---
 
