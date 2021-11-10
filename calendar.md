@@ -47,7 +47,7 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Nov-16	|	QA: ML fairness 
 **Recitation**{: .label .label-aqua } | Nov-17/19   | TBD
 **Lecture**{: .label .label-gold } | Nov-18	|	TBD
-| Nov-23	|	NO CLASS
+| Nov-23	|	NO CLASS    |    |   **[HW5 due](/assignments/hw5)**{: .label .label-red}
 | Nov-25	|	THANKSGIVING
 **Lecture**{: .label .label-gold } | Nov-30	|	TBD
 **Recitation**{: .label .label-aqua } | Dec-1/3   | TBD
