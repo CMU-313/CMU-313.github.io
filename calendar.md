@@ -27,7 +27,7 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Oct-5	|	**[Architecture: Microservices](assets/pdfs/11-microservices.pdf)**{: .label .label-gold }
 **Recitation**{: .label .label-aqua } | Oct-6/8   | Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} **[2019](assets/pdfs/midterm-2019.pdf)**{: .label .label-aqua}
 **Lecture**{: .label .label-gold } | Oct-7	|	 **[Architecture: Design Docs](assets/pdfs/12-arch-design-docs.pdf)**{: .label .label-gold } | | **[HW2-3,4 due](/assignments/hw2)**{: .label .label-red }
-| Oct-12	|	MIDTERM **EXAM**{: .label .label-red }
+**EXAM**{: .label .label-red } | Oct-12	|	MIDTERM 
 **Recitation**{: .label .label-aqua } | Oct-13/15   | No Recitation
 | Oct-14	|	NO CLASS
 **Lecture**{: .label .label-gold } |  Oct-19 | **[Architecture: Devops](assets/pdfs/13-devops.pdf)**{: .label .label-gold } | 
@@ -52,3 +52,4 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Nov-30	|	TBD
 **Recitation**{: .label .label-aqua } | Dec-1/3   | TBD
 **Lecture**{: .label .label-gold } | Dec-2	|	Business models 
+**Finals**{: .label .label-red } | Dec-6 (8:30—11:30am)	|	HW6 Project Presentation
