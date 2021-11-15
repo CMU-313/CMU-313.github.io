@@ -52,4 +52,4 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Nov-30	|	TBD
 **Recitation**{: .label .label-aqua } | Dec-1/3   | TBD
 **Lecture**{: .label .label-gold } | Dec-2	|	Business models 
-**Finals**{: .label .label-red } | Dec-6 (8:30—11:30am)	|	HW6 Project Presentation
+**Finals**{: .label .label-red } | Dec-6 (8:30—11:30am)	|	Project Presentations
