@@ -45,7 +45,7 @@ description: Listing of course modules and topics.
 **Recitation**{: .label .label-aqua } | Nov-10/12   | Static Analysis/CI
 **Lecture**{: .label .label-gold } | Nov-11	|	 **[QA: ML explanability](assets/pdfs/20-ML-QA.pdf)**{: .label .label-gold}
 **Lecture**{: .label .label-gold } | Nov-16	|	**[QA: ML fairness](assets/pdfs/21-ML-Fairness.pdf)**{: .label .label-gold}
-**Recitation**{: .label .label-aqua } | Nov-17/19   | TBD
+**Recitation**{: .label .label-aqua } | Nov-17/19   | Process in Open-Source Projects
 **Lecture**{: .label .label-gold } | Nov-18	|	TBD
 | Nov-23	|	NO CLASS    |    |   **[HW5 due](/assignments/hw5)**{: .label .label-red}
 | Nov-25	|	THANKSGIVING
