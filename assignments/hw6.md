@@ -87,7 +87,7 @@ Create any necessary documentation to enable acceptance of your code. Common con
 You will get a bonus **20 (6%) bonus points** upon acceptance. If your code is accepted after the homework deadline but before the final exam, inform the course staff.
 
 ### 5. Report, Presentation and reflection
-You will report on your project and task selection, work, and experience in several ways (see below). This will include a group video presentation to the class.
+You will report on your project and task selection, work, and experience in several ways (see below). This will include a group presentation to the class.
 
 ## Deliverable Details
 
@@ -137,7 +137,7 @@ The Final Exam time is dedicated to group presentations **(in-person)** about yo
 The goal of the presentation is primarily to teach the class about the project to which you contributed, and your experiences. You should mention your contribution (the actual tasks), but we do not expect you to include, for example, any code or diagrams from your report, unless they’re helpful for supporting a point about your interactions with the project. Your presentation should cover the following three topics (in any order and structure you deem appropriate):
 
 1.	**High-level project and task description**  
-Describe the project in terms of its high-level goals and the context in which it operates. This may include a brief history and the business context, if interesting or relevant. For example, it may be interesting to note that a project was spawned from a closed-source operation, or that it competes primarily with a closed-source counterpart. Include a brief description of the task(s) you performed, such that the audience has sufficient context to understand your explanation of your experiences, below. You should not spend more than 1/2 of the video describing the project and your task(s).
+Describe the project in terms of its high-level goals and the context in which it operates. This may include a brief history and the business context, if interesting or relevant. For example, it may be interesting to note that a project was spawned from a closed-source operation, or that it competes primarily with a closed-source counterpart. Include a brief description of the task(s) you performed, such that the audience has sufficient context to understand your explanation of your experiences, below. You should not spend more than 1/2 of the presentation on describing the project and your task(s).
 
 2.	**Project governance and communication**  
 Describe the processes and tools the project uses to coordinate among contributors. For example: Are these processes formal or informal? Provide an explicit description (possibly with a diagram) of the acceptance process used for efforts like the task you completed. If applicable, include standards or expectations regarding software engineering activities including requirements, architecture, and quality assurance; alternatively mention that no such standards exist.
