@@ -16,9 +16,9 @@ If you demonstrate to us that your change has been accepted and integrated into 
 | Part | Deliverable               | Points | Due Date |
 |------|---------------------------|--------|------|
 | A    | **[Project & Task Selection](#part-a-project--task-selection)**{: .label .label-red } | 60    |  23-Nov    |
-| B    | **[In-Person Presentations (To Be Released)](#part-b-in-person-presentations)**{: .label .label-red }       | 80     |  6-Dec    |
-| C    | **[Project Report (To Be Released)](#part-c-project-report)**{: .label .label-red }            | 100    |  9-Dec    |
-| D    | **[Individual Reflection (To Be Released)](#part-d-individual-reflection)**{: .label .label-red }     | 80     |   9-Dec   |
+| B    | **[Project Presentations](#part-b-project-presentations)**{: .label .label-red }       | 80     |  6-Dec    |
+| C    | **[Project Report](#part-c-project-report)**{: .label .label-red }            | 100    |  9-Dec    |
+| D    | **[Individual Reflection](#part-d-individual-reflection)**{: .label .label-red }     | 80     |   9-Dec   |
 | Bonus   | **If changes get accepted**    | 20     | 16-Dec    |
 
 <details>
@@ -128,124 +128,76 @@ Provide a list of at least two relevant risks when it comes to working on the ta
 
 Submit the initial report covering the 6 points listed above as a **single PDF** file per team to **Gradescope**. Include the names of all team members on the title page and **ensure the document is structured to make it easy to find the 6 points.** Page limits are provided for guidance; we will not enforce them.
 
-<!---
+### Part B: Project Presentations
+**Points**: 80  
+**Due Date**: 6th December 2021, During Final Exam Timeslot
 
-You will deliver a initial report  on the project and task(s) you select, with a proposed schedule (with estimates).
+The Final Exam time is dedicated to group presentations **(in-person)** about your open source contributions. We will randomly assign the presentation order and put all the slide decks on a laptop. We expect all team members to take an active role in the presentation. We will provide feedback sheets (see appendix). There will be 3 minutes of questions from the class following each presentation. Presentation times **should not exceed 7 minutes (hard limit).**
 
-Start by researching candidate open source projects with an eye towards making an informed decision about which project you will contribute to. As examples, consider: the type of software, the project age, the number of active contributors, the amount of activity and communication among contributors, the number and types of feature requests/bug reports you might address, the tools and mechanisms the project uses to communicate and collaborate, the dominant programming language/paradigm/framework, as well as the larger context in which the software operates. Communication with the candidate open source projects is encouraged.
- 
-Once your team has settled on a project and one or more candidate tasks, research your ideas in more detail. Read the documentation. Build and execute the source code, and try to read/understand it. You should explore the code to the point that you understand how your modification fits in the overall picture, and that you are convinced that it is both non-trivial but doable with the resources (time, team members) available.
- 
-In selecting a task, consider the functional and non-functional implications and requirements of your proposed task(s), as well as how it fits in the larger project structure. We want a lightweight documentation of your tasks’ requirements and evidence that you understand how it fits into the larger project.
-
-Once you have selected a project and task(s), estimate time and effort and schedule your work, as you did for Homework 2. Just like in Homework 2, we will grade your planning, but not your accuracy after the fact. It is completely acceptable if plans change, as long as you document the changes and their reasons and update the plan. The plan should illustrate how you will work as a team on this assignment and anticipate and plan for the main risks.
-
-**We strongly recommend that you interact with the course staff during this process to verify that the scope of your proposal seems reasonable.**  We strongly encourage you to do this as early as possible, and before you start investing too heavily in your plans. You can send a Slack message along with your group to the course staff, briefly describing the project(s) and task(s) you are considering. We would also be happy to discuss this during our office hours, or by appointment. **This check-in is not mandatory, but if you skip it, we will be less forgiving in the final grading if it transpires that the task(s) you selected were poorly-scoped for your team!**
-
-Your report should include:
-1.	**Overview and justification**  
-A report on the project you selected, summarizing the relevant characteristics you considered when making your selection. Beyond whatever additional information you collect in your research, include at least a name, a website link, and a brief description of the project (what it does, who uses it, etc). Explain the criteria your team used in selecting it over any others, referencing the collected information from your overview.  You may contrast it to other projects you considered but rejected, if applicable (approximately 2 paragraphs).
-2.	**Successful build**  
-Evidence that you can build and run the software (e.g., a screenshot or text output from a successful build, a screenshot of the running program). Getting an open-source project to build/run can be a huge effort, and we want to mitigate this risk.
-3.	**Task(s) description**  
-A brief textual description of your proposed change(s). If you are proposing several changes, list all proposed changes and a priority order. Depending on how difficult the changes end up being, you may do not necessarily have to implement all of them. However, if your actual changes deviate from the plan, we expect a short explanation with the final submission. (< 2 paragraphs per task).
-4.	**Task link(s)**  
-Evidence that the task(s) is/are requested by the community (a screenshot or link suffices).
-5.	**An initial time plan**  
-As in Homework 2, choose any format as long as it is clear (though do consider/incorporate any feedback we gave you then!). This should include at least: individual tasks and milestones, with deliverables; estimated effort for each task; dependencies between tasks; and a best-effort assignment of tasks to team members. We encourage you to include supporting evidence for your estimates. We do not expect a full QA plan in this initial report, but be sure to schedule time for such activities. See the final team report for more on QA.  (< 1 page)
-6.	**Task scope justification**  
-Evidence that the tasks are of a sufficient and reasonable size and complexity for your team and for this assignment. Your scheduling and effort estimation may be used to help justify your argument here. (1 paragraph per task)
- 
-Submit the initial report covering the 9 points listed above as a **single PDF** file per team to **Gradescope**. Include the names of all team members on the title page and **ensure the document is structured to make it easy to find the 6 points.** Page limits are provided for guidance; we will not enforce them.
--->
-
-
-<!---
-### Part B: In-Person presentations 
-The Final Exam time is dedicated to group presentations about your open source contributions. Given the remote format, we ask that you prepare this presentation as a video that we will play for you, with a live Q&A component (5-10 minutes) afterwards.  We expect all team members to take an active role in the video and Q&A, and for you to give feedback to the other presentations. We will provide a feedback form. Video times should not exceed 10 minutes (hard limit).
-
-The goal of the video presentation is primarily to teach the class about the project to which you contributed, and your experiences. You should mention your contribution (the actual tasks), but we do not expect you to include, for example, any code or diagrams from your report, unless they’re helpful for supporting a point about your interactions with the project. Your video should cover the following three topics (in any order and structure you deem appropriate):
+The goal of the presentation is primarily to teach the class about the project to which you contributed, and your experiences. You should mention your contribution (the actual tasks), but we do not expect you to include, for example, any code or diagrams from your report, unless they’re helpful for supporting a point about your interactions with the project. Your presentation should cover the following three topics (in any order and structure you deem appropriate):
 
 1.	**High-level project and task description**  
 Describe the project in terms of its high-level goals and the context in which it operates. This may include a brief history and the business context, if interesting or relevant. For example, it may be interesting to note that a project was spawned from a closed-source operation, or that it competes primarily with a closed-source counterpart. Include a brief description of the task(s) you performed, such that the audience has sufficient context to understand your explanation of your experiences, below. You should not spend more than 1/2 of the video describing the project and your task(s).
+
 2.	**Project governance and communication**  
 Describe the processes and tools the project uses to coordinate among contributors. For example: Are these processes formal or informal? Provide an explicit description (possibly with a diagram) of the acceptance process used for efforts like the task you completed. If applicable, include standards or expectations regarding software engineering activities including requirements, architecture, and quality assurance; alternatively mention that no such standards exist.
+
 3.	**Your experiences**  
 Summarize your experiences (and what you learned!) interacting with this community of open source developers, focusing on any surprising or unusual aspects of the process or interaction. For example: Did you run into any trouble understanding, changing, or contributing to a large, pre-existing project? Were there unanticipated challenges in either implementing your change, or in getting the change submitted to and accepted by the project maintainers? Did the project collaboration process or culture help or hinder your effort in any way? Characterize any interaction you had with the team leadership and community, highlighting especially any useful/useless input you received. You may (but are not required to) also relate the experience from this homework assignment with relevant experience from internships or other projects.
 
+Participation from all team members during the presentation is required. At the same time, every individual will be asked to provide constructive feedback for other presentations in class via an electronic form (which we will provide day-of).
+
 Your summary of your experiences can be at whatever level of detail you think is interesting or informative. Given the time limit, selecting and highlighting the two or three most important or interesting observations is likely more useful than trying to be complete.
 
-Submit your video either as a file upload, link to a drive/box file, or link to a youtube video to Canvas.  This deliverable is separate from the report.  You must do this by the deadline, so we can queue up everyone’s videos in advance of the presentation slot. 
-
-<details>
-    <summary> Details needed to recieve full credit </summary>
-    <ul>
-        <li>Participation from all team members.</li>
-        <li>Effective communication of the key issues, with sufficient context, within the time limit.</li>
-        <li>Content addressing and demonstrating understanding of all three points listed above (High-level description; project governance and communication; your experiences and insights).</li>
-        <li>Constructive feedback for other presentations in class (we’ll release the form ahead of time).</li>
-    </ul>
-</details>
-
+You must upload your slides as **a single PDF document** (separate from the report) to Gradescope.
 
 ### Part C: Project Report
+**Points**: 100  
+**Due Date**: 9 December 2021
 
 After completing and submitting the modification, write a report about the tasks you have performed.
 
 Your report should include:
-1.	**Selected project**  
-A brief description of the open source system to which you contributed (1 paragraph). You may reuse text from Part A.
-2.	**Project context and business model**
-An analysis of the open-source project’s context and business model. This may include a short history of the project, competing open- and closed-source projects, or a discussion of the developers’ motivations to build this system. Essentially, we want to know why this project exists and why it is important. (<0.5 page)
-3.	**Task description (per task)**  
-A description of the tasks you have implemented and a high-level description of how you implemented them (<0.5 page).
+1.	**Selected project** (1 paragraph)  
+A brief description of the open source system to which you contributed. You may reuse text from Part A.
+2.	**Project context and business model**  (<0.5 page)   
+An analysis of the open-source project’s context and business model. This may include a short history of the project, competing open- and closed-source projects, or a discussion of the developers’ motivations to build this system. Essentially, we want to know why this project exists and why it is important.
+3.	**Task description (per task)** (<0.5 page)    
+A description of the tasks you have implemented and a high-level description of how you implemented them.
 4.	**Submitted artifacts (per task)**  
 Evidence of the code, documentation, or other artifacts you produced for the task, and evidence that you submitted them to the project. We prefer links to publicly available resources (repository, email, pull request, etc), but will accept a zip file of your artifacts with a screenshot documenting the submission.
-5.	**QA strategy**  
-Describe which QA activities you performed and justify why you selected these QA activities over others. Describe metrics if appropriate. The justification will likely refer to relevant requirements as well as to the project’s practices. (<1 page)
+5.	**QA strategy** (<1 page)  
+Describe which QA activities you performed and justify why you selected these QA activities over others. Describe metrics if appropriate. The justification will likely refer to relevant requirements as well as to the project’s practices. 
 6.	**QA evidence**  
 Evidence of your quality assurance activities described above. For example, provide source code or links to source code of tests, provide test protocols, comments or protocols from code reviews, reports from static analysis tools, links to or screenshots from a continuous integration platform, and so forth.
-7.	**Plan updates**  
-A description and justification of deviations between your initial plans and your performed activities (as in Homework 2). Changes are expected, but they should be tracked and explained. Describe changes in scope (e.g., fewer tasks) and in the schedule and work allocation. Provide an updated schedule and note differences. Explain the causes of the changes, such as unanticipated risks. (<1 page)
-8.	**(Optional)**  
+7.	**Plan updates** (<1 page)  
+A description and justification of deviations between your initial plans and your performed activities (as in Homework 2). Changes are expected, but they should be tracked and explained. Describe changes in scope (e.g., fewer tasks) and in the schedule and work allocation. Provide an updated schedule and note differences. Explain the causes of the changes, such as unanticipated risks. 
+8.	**BONUS**  
 Evidence that your changes have been accepted into the code base of the open source project in forms of links or screenshots.
 
 Page limits are provided for guidance; we will not enforce them. Collect all parts in a **single PDF document with clear subsections** and the names of all team members and submit that file to **Gradescope**.
 
-<details>
-    <summary> Details needed to recieve full credit </summary>
-    <ul>
-        <li>A description of the project and its context and business model</li>
-        <li>A clear description of your task(s) and what you did to complete it/them.</li>
-        <li>A clear description of your QA strategy and the actually performed QA steps</li>
-        <li>A justification why your QA strategy is appropriate for the performed task in the context of the system and its requirements</li>
-        <li>Updated planning documents with a justification explaining deviations. </li>
-        <li>Evidence of the submitted code and the described QA activities</li>
-        <li>Code of reasonably high quality standards, as usual</li>
-    </ul>
-</details>
-
 ### Part D: Individual Reflection
+**Points**: 80  
+**Due Date**: 9 December 2021
 
 Your indiviudal reflection should include:
 1.	**Teamwork**  
-You have been in teams over the course of this semester (HW 1-4, 6). Look back on the entire semester and reflect on your team experiences. The following questions may guide you: What has worked, what hasn’t? If you could start 313 or another course over with the same team, what would you change? What have you learned about teamwork and your role in teamwork?
-(We would also appreciate feedback on what we can do next year to help students work more effectively in teams, bearing in mind that the instructor-assigned heterogeneous teams of 3-5 students is non-negotiable. We anticipate problems as part of the learning experience, but would like to avoid unduly frustrating situations.)
-2.	**Agile practices**  
-Your teamwork this semester likely did not include many agile practices, such as standup meetings, pair programming, or test-driven development. Discuss which of those practices could have helped in your homeworks and how they may have addressed team issues. You may also relate those practices to other experiences outside the course. Be specific, pointing out problematic situations that actually arose and identify which practices could have helped, why, and how.
+You have been in the same team over the course of this semester (HW 2-6). Look back on the entire semester and reflect on your team experiences. The following questions may guide you: 
+- What has worked, what hasn’t? 
+- If you could start 313 or another course over with the same team, what would you change? 
+- What have you learned about teamwork and your role in teamwork?
+- (Optional) Do you have any feedback on what we can do next year to help students work more effectively in teams? Bear in mind that the instructor-assigned heterogeneous teams of 3-5 students is non-negotiable. We anticipate problems as part of the learning experience, but would like to avoid unduly frustrating situations.
+2. **Testing**  
+You have done testing in the past homeworks. Compare the testing you have done in the past homework, and what was done in the open-source project.
+- What testing did they do in the open source project, what was surprising or different?
+- What was similar to what we did in class?
+- Were there automated testing in the open source project? If so, how was it done?
 3.	**Open source**  
-Reflect on your view of the open source movement and its ideals and related business models. In our initial survey, most of you indicated that you had very limited prior experience with open source. Have your views changed? The following questions may guide your reflection: Why have/haven’t you contributed previously? Which claims of the open source movement are supported by your experience in this (and other) projects? Do you expect to contribute to open source in the future?
+Reflect on your view of the open source movement and its ideals and related business models. In our initial survey, most of you indicated that you had very limited prior experience with open source. Have your views changed? The following questions may guide your reflection:
+- Why have/haven’t you contributed previously? 
+- Which claims of the open source movement are supported by your experience in this (and other) projects? 
+- Do you expect to contribute to open source in the future?
 
-Aim not to exceed 3 pages (soft limit). As in other homeworks, a good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support them. The questions within the three topics are provided as initial guidance; you do not need to cover them all. A good document will discuss a few issues in depth instead of superficially answering the questions above. Submit your reflection document as a **single PDF with three clear subsections** to **Gradescope**.
+Aim not to exceed 3 pages (soft limit). A good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support them. You should cover all three topics, but the questions within the three topics are provided as initial guidance; you do not need to cover them all. A good document will discuss a few issues in depth instead of superficially answering the questions above. Submit your reflection document as a **single PDF with three clear subsections** to **Gradescope**.
 
-
-<details>
-    <summary> Details needed to recieve full credit </summary>
-    <ul>
-        <li>A detailed and well-written structured reflection each of the three separate issues.</li>
-        <li>A reflection grounded in your experiences from this and prior homework assignments.</li>
-        <li>An analysis beyond superficial statements and mere truisms (“I would do enough architecture to be able to start implementing”) that ties specifically to the context and requirements for a room reservation system.</li>
-        <li>Substantive arguments behind your opinions.</li>
-    </ul>
-</details>
--->
