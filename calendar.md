@@ -46,7 +46,7 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Nov-11	|	 **[QA: ML explanability](assets/pdfs/20-ML-QA.pdf)**{: .label .label-gold}
 **Lecture**{: .label .label-gold } | Nov-16	|	**[QA: ML fairness](assets/pdfs/21-ML-Fairness.pdf)**{: .label .label-gold}
 **Recitation**{: .label .label-aqua } | Nov-17/19   | Process in Open-Source Projects
-**Lecture**{: .label .label-gold } | Nov-18	|	**[Open Source](assets/pdfs/22a-OpenSource.pdf)**{: .label .label-gold} **[Dependencies](assets/pdfs/22b-dependencies.pdf)**{: .label .label-gold}
+**Lecture**{: .label .label-gold } | Nov-18	|	**[Open Source](assets/pdfs/22a-OpenSource.pdf)**{: .label .label-gold} **[Dependencies](assets/pdfs/22b-dependencies.pdf)**{: .label .label-gold} | **[SE at Google, Chapter 21](https://abseil.io/resources/swe_at_google.2.pdf)**{: .label .label-blue}
 | Nov-23	|	NO CLASS    |    |   **[HW5 due](/assignments/hw5)**{: .label .label-red}
 | Nov-25	|	THANKSGIVING
 **Lecture**{: .label .label-gold } | Nov-30	|	Guest Lecture (Adam Brady)
