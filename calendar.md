@@ -49,7 +49,7 @@ description: Listing of course modules and topics.
 **Lecture**{: .label .label-gold } | Nov-18	|	**[Open Source](assets/pdfs/22a-OpenSource.pdf)**{: .label .label-gold} **[Dependencies](assets/pdfs/22b-dependencies.pdf)**{: .label .label-gold}
 | Nov-23	|	NO CLASS    |    |   **[HW5 due](/assignments/hw5)**{: .label .label-red}
 | Nov-25	|	THANKSGIVING
-**Lecture**{: .label .label-gold } | Nov-30	|	TBD
+**Lecture**{: .label .label-gold } | Nov-30	|	Open Source Projects
 **Recitation**{: .label .label-aqua } | Dec-1/3   | Guest Lecture (Adam Brady)
 **Lecture**{: .label .label-gold } | Dec-2	|	Developer Tools
 **Finals**{: .label .label-red } | Dec-6 (8:30—11:30am @ WEH 7500)	|	Project Presentations
