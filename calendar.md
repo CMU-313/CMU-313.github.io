@@ -50,6 +50,6 @@ description: Listing of course modules and topics.
 | Nov-23	|	NO CLASS    |    |   **[HW5 due](/assignments/hw5)**{: .label .label-red}
 | Nov-25	|	THANKSGIVING
 **Lecture**{: .label .label-gold } | Nov-30	|	TBD
-**Recitation**{: .label .label-aqua } | Dec-1/3   | TBD
-**Lecture**{: .label .label-gold } | Dec-2	|	Business models 
-**Finals**{: .label .label-red } | Dec-6 (8:30—11:30am)	|	Project Presentations
+**Recitation**{: .label .label-aqua } | Dec-1/3   | Guest Lecture (Adam Brady)
+**Lecture**{: .label .label-gold } | Dec-2	|	Developer Tools
+**Finals**{: .label .label-red } | Dec-6 (8:30—11:30am @ WEH 7500)	|	Project Presentations
