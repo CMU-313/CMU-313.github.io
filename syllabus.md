@@ -5,13 +5,13 @@ description: Course Syllabus and Policies
 ---
 
 ## Course Syllabus and Policies
-The course is currently planned to be entirely in person for lectures, and recitation.  There will be some office hours in person, but some might be held over zoom as well. The course uses Canvas (and Gradescope) for homework submission, grading, discussion, questions, announcements, lecture recordings, and supplementary documents; slides will be posted here; GitHub is used to coordinate group work. We will also use Slack for communication and group work. See Canvas for the sign up link.
+The course is currently planned to be entirely in person for lectures, and recitation.  Most office hours will be in person, but some might be held over zoom as well. The course uses Canvas (and Gradescope) for homework submission, grading, discussion, questions, announcements, lecture recordings, and supplementary documents; slides will be posted here; GitHub is used to coordinate group work. We will also use Slack for communication and group work. See Canvas for the sign up link.
 
 ## Waitlist
- We believe the waitlist is cleared; if you disagree or are having trouble enrolling, please contact us.
+ The class has a wait list long enough that we don't expect to clear it all.  However, we will add as many students as we can.  We also will be offering 17-313 in the Spring for those who are unable to get in this fall.
 
 ## Prerequisites
- No formal prerequisites, but you will get more out of the course if you have experience with some larger development projects, for example, through larger class projects (e.g., 17-214, 15-410), internships, or open-source contributions.
+ No formal prerequisites, but you will get more out of the course if you have experience with some larger development projects, for example, through larger class projects (e.g., 17-214, 15-410), internships, or open-source contributions.  If you have questions, please don't hesitate to reach out to the class instructors.
 
 ## Communication
  We make announcements through Canvas, including clarifying homework assignments. We will also be using Slack both for communication with the instructors, and to support your group work communication. The instructors and TAs hold weekly office hours and are reachable by email and Slack. Reach out for additional appointments.
