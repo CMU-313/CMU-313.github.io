@@ -17,6 +17,8 @@ seo:
 [Announcements](announcements.md){: .btn .btn-outline .fs-3 }
 {% endif %} -->
 
+Previous versions of the class website are archived here: [F20](/2020), [F21](/2021)
+
 ## Questions
 
 - When is a program good enough to ship? Have you built what the customer wanted?
