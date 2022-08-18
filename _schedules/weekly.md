@@ -20,47 +20,36 @@ timeline:
   - '5:30 PM'
 schedule:
   - name: Monday
+  - name: Tuesday
     events:
       - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
-  - name: Tuesday
+        start: 3:05 PM
+        end: 4:25 PM
+        location: POS 153
   - name: Wednesday
     events:
-      - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+      - name: Recitation A
+        start: 12:20 PM
+        end: 1:10 PM
+        location: DH 1117
+      - name:  Recitation B
+        start: 1:25 PM
+        end: 2:15 PM
+        location: HOA 107
   - name: Thursday
-  - name: Friday
     events:
       - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+        start: 3:05 PM
+        end: 4:25 PM
+        location: POS 153
+  - name: Friday
+    events:
+      - name: Recitation C
+        start: 12:20 PM
+        end: 1:10 PM
+        location: POS 147
+      - name:  Recitation D
+        start: 1:25 PM
+        end: 2:15 PM
+        location: POS 147
 ---
