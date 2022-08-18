@@ -24,18 +24,17 @@ logo: "/assets/images/17313_square.png"
 
 
 # Theme settings
-remote_theme: just-the-docs/just-the-docs@v0.4.0.rc1
-color_scheme: light
+remote_theme: pmarsceill/just-the-docs@v0.3.3
 color_scheme: fse
 search_enabled: true
-heading_anchors: true
+heading_anchors: truea
 permalink: pretty
-aux_links:
-  Kevin Lin:
-    - 'https://kevinl.info'
-  Just the Class on GitHub:
-    - 'https://github.com/kevinlin1/just-the-class'
-footer_content:
+# aux_links:
+#   Kevin Lin:
+#     - 'https://kevinl.info'
+#   Just the Class on GitHub:
+#     - 'https://github.com/kevinlin1/just-the-class'
+footer_content: this website is based on https://github.com/kevinlin1/just-the-class
 
 # Collections for website data
 collections:
