@@ -1,6 +1,6 @@
 ---
 name: Daye Nam 
-role: Teaching Assistant
+role: Instructor
 email: dayen@andrew.cmu.edu
 website: 
 photo: daye.jpg
