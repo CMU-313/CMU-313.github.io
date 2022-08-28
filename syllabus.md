@@ -26,7 +26,7 @@ As optional supplementary reading consider the (Freely available) [Software Engi
 
 
 ## Assessment
- Evaluation will be based on the following distribution: 60% assignments, 20% midterm, 10% in-class exercises, 10% reading quizzes. 
+ Evaluation will be based on the following distribution: 60% assignments, 20% midterm, 20% participation (including in-class exercises, pre-class reading quizzes, and recitation exercises).
 
 ## Time management
  This is a 12-unit course, and it is our intention to manage it so that you spend close to 12 hours a week on the course, on average. In general, 4 hours/week will be spent in class and 8 hours on reading and assignments. Notice that most homework is done in groups, so please account for the overhead and decreased time flexibility that comes with groupwork. Please feel free to give the course staff feedback on how much time the course is taking for you.
