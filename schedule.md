@@ -56,7 +56,7 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 **Recitation**{: .label .label-aqua } | Sep-14/16   | 
 **Lecture**{: .label .label-gold } | Sep-15	|	 
 **Recitation**{: .label .label-aqua } | Sep-21/23   | 
-**Lecture**{: .label .label-gold } | Sep-22	|	| | **[HW2](/assignments/hw2)**{: .label .label-red }
+**Lecture**{: .label .label-gold } | Sep-22	|	| | **[HW2 due](/assignments/hw2)**{: .label .label-red }
 **Lecture**{: .label .label-gold } | Sep-20 |   
 **Lecture**{: .label .label-gold } | Sep-27	|	 | | **[HW3a due](/assignments/hw3)**{: .label .label-red }
 **Recitation**{: .label .label-aqua } | Sep-28/30   | 
@@ -86,7 +86,6 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 **Lecture**{: .label .label-gold } | Nov-29	|	
 **Recitation**{: .label .label-aqua } | Nov-30/Dec-2   | 
 **Lecture**{: .label .label-gold } | Dec-1	|	
-
 **Lecture**{: .label .label-gold } | Dec-6	|	
 **Recitation**{: .label .label-aqua } | Dec-7/9   | 
 **Lecture**{: .label .label-gold } | Dec-8	|
