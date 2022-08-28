@@ -42,12 +42,11 @@ Forking from the class repository will  allow you to send pull requests to the i
 **Getting Started:**
 Your first step should be to fork the repository and then follow the installation instructions in README.md.
 You must build and run Teedy **natively** on your machine (via the manual installation instructions) rather than following the Docker instructions. After building Teedy and its dependencies, you should follow the rest of the Getting Started instructions to run a Teedy instance on your machine.
-**TODO: add an image of what a successfully running Teedy instance should look like.**
 ![teedy screenshot](https://cmu-313.github.io/assets/images/teedy.png)
 
 
 
-Once you have run Teedy successfully, you should be able to navigate to `[http://localhost:8080/docs-web/src](http://localhost:8080/docs-web/src)` and see a web page with a login screen.
+Once you have run Teedy successfully, you should be able to navigate to [`http://localhost:8080/docs-web/src`](http://localhost:8080/docs-web/src) and see a web page with a login screen.
 By default, Teedy will be deployed to port `8080` on your machine.
 You may change this port number (e.g., to avoid conflict with another process running on your machine).
 
