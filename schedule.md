@@ -46,7 +46,7 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 
  &nbsp; | Date    |  Topic                                 | Reading | Homework Due
 ---------| ------- |  ------------------------------------- | -------- | -----------
-**Lecture**{: .label .label-gold } | Aug-30  | 
+**Lecture**{: .label .label-gold } | Aug-30  | **[Intro](assets/pdfs/01-introduction.pdf)**{: .label .label-gold }
 **Recitation**{: .label .label-aqua } | Aug-31/Sep-2   | 
 **Lecture**{: .label .label-gold } | Sep-1   | 
 **Lecture**{: .label .label-gold } | Sep-6	|	
