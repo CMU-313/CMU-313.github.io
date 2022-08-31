@@ -66,7 +66,7 @@ change the performance score.
 First, open an issue in the [https://github.com/CMU-313/Teedy/issues](https://github.com/CMU-313/Teedy/issues) to declare what aspect of Teedy you will be improving.
 You should look through existing issues, if any, to avoid duplicates. 
 In the issue description, mention the current score you observed and the warning that you are targeting.
-Tag the issue with one or more of the existing labels as appropriate, add it to milestone "HW1", and assign yourself.
+~~Tag the issue with one or more of the existing labels as appropriate, add it to milestone "HW1", and~~ assign yourself (do this by commenting "I would like to work on this please!").
 
 In your own fork, create a feature branch, implement the change, test it out locally, and commit your changes.
 Your commit message(s) must clearly describe what's changing.
@@ -93,8 +93,8 @@ There are three (3) deliverables and one (1) deadline for this homework.
 	- Mention the metric you are targeting.
 	- Mention the current metric scores.
 	- Be assigned to yourself.
-	- Be tagged with at least one appropriate label.
-	- Be associated with the HW1 milestone.
+	- ~~Be tagged with at least one appropriate label.
+	- Be associated with the HW1 milestone.~~
 
 2. Create a pull request in the parent repository, which must:
 	- Reference the issue created above.
