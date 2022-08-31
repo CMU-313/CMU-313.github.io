@@ -46,7 +46,7 @@ You must build and run Teedy **natively** on your machine (via the manual instal
 
 
 
-Once you have run Teedy successfully, you should be able to navigate to [`http://localhost:8080/docs-web/src`](http://localhost:8080/docs-web/src) (if this doesn't work, try navigating to [`http://localhost:8080`](http://localhost:8080) ) and see a web page with a login screen.
+Once you have run Teedy successfully, you should be able to navigate to  [`http://localhost:8080/src`](http://localhost:8080/src) (if this doesn't work, try navigating to [`http://localhost:8080`](http://localhost:8080) ) and see a web page with a login screen.
 By default, Teedy will be deployed to port `8080` on your machine.
 You may change this port number (e.g., to avoid conflict with another process running on your machine).
 
