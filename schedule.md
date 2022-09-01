@@ -14,7 +14,6 @@ description: The weekly event schedule.
 <!--
 **[Intro](assets/pdfs/01-introduction.pdf)**{: .label .label-gold }
 **[Docker](assets/pdfs/recitation-1.pdf)**{: .label .label-aqua }
-**[Metrics and Measurement](assets/pdfs/02-measurement.pdf)**{: .label .label-gold }
 **[Case Study 737MAX](assets/pdfs/03-boeing-casestudy.pdf)**{: .label .label-gold } | **[news article](https://www.seattletimes.com/business/boeing-aerospace/failed-certification-faa-missed-safety-issues-in-the-737-max-system-implicated-in-the-lion-air-crash/)**{: .label .label-blue}
 **[Tools for collaborative software development](assets/pdfs/recitation-2-gitcollaboration.pdf)**{: .label .label-aqua}
 **[Milestones, estimation, planning](assets/pdfs/04-process.pdf)**{: .label .label-gold }   
@@ -49,6 +48,7 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 **Lecture**{: .label .label-gold } | Aug-30  | **[Intro](assets/pdfs/01-introduction.pdf)**{: .label .label-gold }
 **Recitation**{: .label .label-aqua } | Aug-31/Sep-2   | **[Git Collaboration](assets/pdfs/recitation1-slides.pdf)**{: .label .label-aqua } **[Handout](assets/pdfs/recitation1-handout.pdf)**{: .label .label-aqua }
 **Lecture**{: .label .label-gold } | Sep-1   | 
+**[Metrics and Measurement](assets/pdfs/02-measurement.pdf)**{: .label .label-gold }
 **Lecture**{: .label .label-gold } | Sep-6	|	
 **Recitation**{: .label .label-aqua } | Sep-7/9   | 
 **Lecture**{: .label .label-gold }  | Sep-8	|	| | **[HW1 due](/assignments/hw1)**{: .label .label-red }
