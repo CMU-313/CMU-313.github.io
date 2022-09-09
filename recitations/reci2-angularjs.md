@@ -67,7 +67,7 @@ This recitation aims to highlight the basics of Angular.js by walking students t
 - Change the `ng-app` directive to bind to `todoApp`
   - Change `<html ng-app>` at the top of `index.html` to `<html ng-app="todoApp">`
 - Add the `ng-controller` directive to bind the `TodoListController`
-  - Change the opening `<body>` tag to `<body ng-controller="TodoListController as todoList>`
+  - Change the opening `<body>` tag to `<body ng-controller="TodoListController as todoList">`
 - Now we can access the controller within the body tag using the todoList alias
 
 ### Task 4: Rendering the list of todo items
