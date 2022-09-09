@@ -49,7 +49,7 @@ This recitation aims to highlight the basics of Angular.js by walking students t
 
 - Use the ng-model directive to tie the value in the name text input field to a variable in the Angular.js app’s model.
   - Add `ng-model="varName"` to the name text input tag
-- Include `{{varName}}` in the `Hello here's your todo list`string to bind the data in the model to the title in the view
+- Include {%raw%}`{{varName}}`{%endraw%} in the `Hello here's your todo list`string to bind the data in the model to the title in the view
 - Changing the value in the name text field should now change the title in real-time
 
 ### Task 3: Setting up the controller
@@ -79,7 +79,7 @@ This recitation aims to highlight the basics of Angular.js by walking students t
 - Use the `ng-repeat` directive to render items in the list
   - Change the `<li>` tag that renders a list item to `<li ng-repeat="todo in todoList.todos>`
 - Add the `ng-model="todo.done"` directive to the checkbox input tag so the checkbox reflects the value in the done field of a given todo list item
-- Replace the static todo list item text with `{{todo.text}}` to render the text associated with a given todo item in the list
+- Replace the static todo list item text with {%raw%}`{{todo.text}}`{%endraw%} to render the text associated with a given todo item in the list
 - Changing the data in the todos list in app.js should now change the contents of the todo list rendered
 
 ### Task 5: Adding new todo items
@@ -103,5 +103,5 @@ This recitation aims to highlight the basics of Angular.js by walking students t
 
 - A CSS class called `done-true` for completed todo items has been implemented in `style.css`. Make any changes you’d like to this CSS class
 - Apply this class to the todo text item
-  - Change the `<span>` tag used to render `{{todo.text}}` to `<span class="done-{{todo.done}}">`
+  - Change the `<span>` tag used to render {%raw%}`{{todo.text}}`{% endraw %} to `<span class="done-{{todo.done}}">`
     Checking a given todo item should lead to the custom css class being applied to that item
