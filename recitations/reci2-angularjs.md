@@ -103,5 +103,5 @@ This recitation aims to highlight the basics of Angular.js by walking students t
 
 - A CSS class called `done-true` for completed todo items has been implemented in `style.css`. Make any changes you’d like to this CSS class
 - Apply this class to the todo text item
-  - Change the `<span>` tag used to render {%raw%}`{{todo.text}}`{% endraw %} to `<span class="done-{%raw%}{{todo.done}}{% endraw %">`
+  - Change the `<span>` tag used to render {%raw%}`{{todo.text}}`{% endraw %} to `<span class="done-{%raw%}{{todo.done}}{% endraw %}">`
     Checking a given todo item should lead to the custom css class being applied to that item
