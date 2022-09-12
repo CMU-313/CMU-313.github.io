@@ -1,3 +1,10 @@
+---
+layout: page
+title: HW02 Learning the Codebase
+permalink: /assignments/hw2
+parent: Assignments
+---
+
 **17-313: Foundations of Software Engineering**
 
 **Homework 2: Learning the Codebase**
