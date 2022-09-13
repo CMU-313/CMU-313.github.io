@@ -16,7 +16,6 @@ description: The weekly event schedule.
 **[Docker](assets/pdfs/recitation-1.pdf)**{: .label .label-aqua }
 **[Case Study 737MAX](assets/pdfs/03-boeing-casestudy.pdf)**{: .label .label-gold } | **[news article](https://www.seattletimes.com/business/boeing-aerospace/failed-certification-faa-missed-safety-issues-in-the-737-max-system-implicated-in-the-lion-air-crash/)**{: .label .label-blue}
 **[Tools for collaborative software development](assets/pdfs/recitation-2-gitcollaboration.pdf)**{: .label .label-aqua}
-**[Milestones, estimation, planning](assets/pdfs/04-process.pdf)**{: .label .label-gold }
 **[Software Archaeology](assets/pdfs/05-code-archaeology.pdf)**{: .label .label-gold }
 **[Software Archaeology](assets/pdfs/recitation-3.pdf)**{: .label .label-aqua }
 **[Requirements: Concepts and Challenges](assets/pdfs/06-RequirementsIntroConcepts.pdf)**{: .label .label-gold }
@@ -52,7 +51,7 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Lecture**{: .label .label-gold }    | Sep-6        | **[Case Study 737MAX](assets/pdfs/03-boeing-casestudy.pdf)**{: .label .label-gold }                                                                                                                                                                                                          | **[news article](https://www.seattletimes.com/business/boeing-aerospace/failed-certification-faa-missed-safety-issues-in-the-737-max-system-implicated-in-the-lion-air-crash/)**{: .label .label-blue} |
 | **Recitation**{: .label .label-aqua } | Sep-7/9      | **[Angular.js and MVC](https://docs.google.com/presentation/d/1bM_lgmx_W21AUGlWOvJRZdNhl3EhSA9AaU0fsQpNbqs/edit?usp=sharing)**{: .label .label-aqua } **[Handout](/recitations/2-angularjs)**{: .label .label-aqua } |
 | **Lecture**{: .label .label-gold } | Sep-8 | **[Code Archaeology](assets/pdfs/04-code-archaeology.pdf)**{: .label .label-gold } | | **[HW1 due](/assignments/hw1)**{: .label .label-red }  |
-| **Lecture**{: .label .label-gold }    | Sep-13       |
+| **Lecture**{: .label .label-gold }    | Sep-13       | **[Milestones, estimation, planning](assets/pdfs/05-process.pdf)**{: .label .label-gold }
 | **Recitation**{: .label .label-aqua } | Sep-14/16      | **[Software Archaeology](https://docs.google.com/presentation/d/1t5bTq1f7kMqor3c2vLxyUehTKqNc5orL/edit?usp=sharing&ouid=105822450582716714012&rtpof=true&sd=true)**{: .label .label-aqua } **[Handout](/recitations/3-archaeology)**{: .label .label-aqua } 
 | **Lecture**{: .label .label-gold }    | Sep-15       |
 | **Recitation**{: .label .label-aqua } | Sep-21/23    |
