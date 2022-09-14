@@ -18,6 +18,7 @@ In today’s recitation, we will practice getting to know an unknown codebase sp
 You may optionally wish to peruse [these docs](https://docs.openrefine.org) to introduce yourself to how to use OpenRefine.
 
 **Let's fix some bugs!**
+
 Consider the following open bug:
 [https://github.com/OpenRefine/OpenRefine/issues/5034](https://github.com/OpenRefine/OpenRefine/issues/5034)
 
@@ -36,22 +37,16 @@ Let’s learn more about this bug! Your high level goal is to identify the code 
 
 (It’s okay if you don’t get to all of these tasks.) 
 
-Try some or all of the following tasks, and think about whether you’re doing them statically or dynamically:
+Try some or all of the following tasks:
 
-Intro:
-- Write a test (for anything, not necessarily the bug we’re looking at) that passes
-- Change the code so that that your new test fails (then undo your change)
-- Change the code so that the corresponding error isn’t thrown, or so that a different error is thrown
-- Change your tests such that an error isn’t thrown 
-
-Bug:
-- Find similar code to the code that’s involved in the error
-- Find tests in the tests/ directory that seems to test any of the code in the above. Consider doing this statically or using dynamic approaches: [Testing with Maven](https://mkyong.com/maven/how-to-run-unit-test-with-maven/)
+- Explore the tests directory
+- Can you find a test that looks like it might test the same code you’ve been exploring in these bugs? (hint: the bug involves importing an Excel file)
 - Use your IDE to jump to a definition implicated in the code you’re debugging 
-- Can you find a test that looks like it might test the same code you’ve been exploring in these bugs? Can you copy that code to make your own test?
+- Find similar code to the code that’s involved in the error (hint: the code adds a column called File, and one of the cells involves the file source)
 - Try making a change! It will reflect in the UI. Can you fix the bug?
 
-If you’ve finished all that: 
-- Try using the debugger in your IDE to set breakpoints and step through execution. Don’t know how? Dig through your IDE’s documentation and see what you can learn.
-- Does your IDE have a way to compute coverage information, that is, which code is executed by a test or test suite? Read some documentation and see if you can learn how to configure and run it.
-
+If you’ve finished all that, practice playing around with [testing with Maven](https://mkyong.com/maven/how-to-run-unit-test-with-maven/):
+- Write a test that fails due to the bug
+- Change the code so that that your new test pass
+- Change the code so that a different error is thrown
+- Change your tests such that an error isn’t thrown 
