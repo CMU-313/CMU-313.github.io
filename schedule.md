@@ -55,8 +55,8 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Recitation**{: .label .label-aqua } | Sep-14/16      | **[Software Archaeology](https://docs.google.com/presentation/d/1t5bTq1f7kMqor3c2vLxyUehTKqNc5orL/edit?usp=sharing&ouid=105822450582716714012&rtpof=true&sd=true)**{: .label .label-aqua } **[Handout](/recitations/3-archaeology)**{: .label .label-aqua }
 | **Lecture**{: .label .label-gold }    | Sep-15       |
 | **Recitation**{: .label .label-aqua } | Sep-21/23    |
-| **Lecture**{: .label .label-gold } | Sep-22 | | | |
-| **Lecture**{: .label .label-gold } | Sep-27 | | | |
+| **Lecture**{: .label .label-gold } | Sep-22 | | | **[HW2A due](/assignments/hw2)**{: .label .label-red } |
+| **Lecture**{: .label .label-gold } | Sep-27 | | | **[HW2B due](/assignments/hw2)**{: .label .label-red } |
 | **Recitation**{: .label .label-aqua } | Sep-28/30 |
 | **Lecture**{: .label .label-gold } | Sep-29 |
 | **Homework**{: .label .label-red } | Sep-30 |
