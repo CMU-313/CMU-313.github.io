@@ -52,18 +52,17 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Recitation**{: .label .label-aqua } | Sep-7/9      | **[Angular.js and MVC](https://docs.google.com/presentation/d/1bM_lgmx_W21AUGlWOvJRZdNhl3EhSA9AaU0fsQpNbqs/edit?usp=sharing)**{: .label .label-aqua } **[Handout](/recitations/2-angularjs)**{: .label .label-aqua } |
 | **Lecture**{: .label .label-gold } | Sep-8 | **[Code Archaeology](assets/pdfs/04-code-archaeology.pdf)**{: .label .label-gold } | | **[HW1 due](/assignments/hw1)**{: .label .label-red }  |
 | **Lecture**{: .label .label-gold }    | Sep-13       | **[Milestones, estimation, planning](assets/pdfs/05-process.pdf)**{: .label .label-gold }
-| **Recitation**{: .label .label-aqua } | Sep-14/16      | **[Software Archaeology](https://docs.google.com/presentation/d/1t5bTq1f7kMqor3c2vLxyUehTKqNc5orL/edit?usp=sharing&ouid=105822450582716714012&rtpof=true&sd=true)**{: .label .label-aqua } **[Handout](/recitations/3-archaeology)**{: .label .label-aqua } 
+| **Recitation**{: .label .label-aqua } | Sep-14/16      | **[Software Archaeology](https://docs.google.com/presentation/d/1t5bTq1f7kMqor3c2vLxyUehTKqNc5orL/edit?usp=sharing&ouid=105822450582716714012&rtpof=true&sd=true)**{: .label .label-aqua } **[Handout](/recitations/3-archaeology)**{: .label .label-aqua }
 | **Lecture**{: .label .label-gold }    | Sep-15       |
 | **Recitation**{: .label .label-aqua } | Sep-21/23    |
-| **Lecture**{: .label .label-gold }    | Sep-22       |                                                                                                                                                                                                                      |                                                                                                                                                                                                        | **[HW2 due](/assignments/hw2)**{: .label .label-red }  |
-| **Lecture**{: .label .label-gold }    | Sep-20       |
-| **Lecture**{: .label .label-gold }    | Sep-27       |                                                                                                                                                                                                                      |                                                                                                                                                                                                        | **[HW3a due](/assignments/hw3)**{: .label .label-red } |
-| **Recitation**{: .label .label-aqua } | Sep-28/30    |
-| **Lecture**{: .label .label-gold }    | Sep-29       |
-| **Homework**{: .label .label-red }    | Sep-30       |
-| **Lecture**{: .label .label-gold }    | Oct-4        |                                                                                                                                                                                                                      |                                                                                                                                                                                                        | **[HW3b due](/assignments/hw3)**{: .label .label-red } |
-| **Recitation**{: .label .label-aqua } | Oct-5/7      |
-| **Lecture**{: .label .label-gold }    | Oct-6        |                                                                                                                                                                                                                      |                                                                                                                                                                                                        | **[HW3c due](/assignments/hw3)**{: .label .label-red } |
+| **Lecture**{: .label .label-gold } | Sep-22 | | | |
+| **Lecture**{: .label .label-gold } | Sep-27 | | | |
+| **Recitation**{: .label .label-aqua } | Sep-28/30 |
+| **Lecture**{: .label .label-gold } | Sep-29 |
+| **Homework**{: .label .label-red } | Sep-30 |
+| **Lecture**{: .label .label-gold } | Oct-4 | | | |
+| **Recitation**{: .label .label-aqua } | Oct-5/7 |
+| **Lecture**{: .label .label-gold } | Oct-6 | | | |
 | **EXAM**{: .label .label-red }        | Oct-11       | MIDTERM                                                                                                                                                                                                              |
 | **Recitation**{: .label .label-aqua } | Oct-10/12    |
 | Oct-18                                | NO CLASS     |
@@ -76,10 +75,10 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Lecture**{: .label .label-gold }    | Nov-3        |                                                                                                                                                                                                                      |                                                                                                                                                                                                        |
 | **Lecture**{: .label .label-gold }    | Nov-8        |
 | **Recitation**{: .label .label-aqua } | Nov-9/11     |
-| **Lecture**{: .label .label-gold }    | Nov-10       |                                                                                                                                                                                                                      |                                                                                                                                                                                                        | **[HW4 due](/assignments/hw4)**{: .label .label-red}   |
+| **Lecture**{: .label .label-gold }    | Nov-10 | | | |
 | **Lecture**{: .label .label-gold }    | Nov-15       |
 | **Recitation**{: .label .label-aqua } | Nov-16/18    |
-| **Lecture**{: .label .label-gold }    | Nov-17       |                                                                                                                                                                                                                      |                                                                                                                                                                                                        | **[HW5 due](/assignments/hw5)**{: .label .label-red}   |
+| **Lecture**{: .label .label-gold }    | Nov-17       | | | |
 | Nov-22                                | NO CLASS     |
 | Nov-24                                | THANKSGIVING |
 | **Lecture**{: .label .label-gold }    | Nov-29       |
