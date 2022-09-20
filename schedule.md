@@ -55,7 +55,7 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Recitation**{: .label .label-aqua } | Sep-14/16      | **[Software Archaeology](https://docs.google.com/presentation/d/1DclPhXU6Nmvq4OzuccSEa3Bt8kCDlZi14_oFB1tiWuo/edit?usp=sharing)**{: .label .label-aqua } **[Handout](/recitations/3-archaeology)**{: .label .label-aqua }
 | **Lecture**{: .label .label-gold }    | Sep-15       | **[Teams and Communication](assets/pdfs/06-communication.pdf)**{: .label .label-gold }
 | **Recitation**{: .label .label-aqua } | Sep-21/23    | **[Team Dysfunction](https://docs.google.com/presentation/d/1hv7fhBCr4ro12hTUcaK9ck_xETmGDLaTWI2B4PLe_hY/edit?usp=sharing)**{: .label .label-aqua } **[Handout](/recitations/4-team-dysfunction)**{: .label .label-aqua }
-| **Lecture**{: .label .label-gold }    | 
+| **Lecture**{: .label .label-gold } | Sep-20  | **[Risk and Mistakes](assets/pdfs/07-risk-prototype.pdf)**{: .label .label-gold }
 | **Lecture**{: .label .label-gold } | Sep-22 | | | **[HW2A due](/assignments/hw2)**{: .label .label-red } |
 | **Lecture**{: .label .label-gold } | Sep-27 | | | **[HW2B due](/assignments/hw2)**{: .label .label-red } |
 | **Recitation**{: .label .label-aqua } | Sep-28/30 |
