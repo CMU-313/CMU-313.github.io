@@ -5,9 +5,9 @@ permalink: /assignments/hw2
 parent: Assignments
 ---
 
-**17-313: Foundations of Software Engineering**
+# 17-313: Foundations of Software Engineering
 
-**Homework 2: Learning the Codebase**
+## Homework 2: Learning the Codebase
 
 ### Learning Goals
 
