@@ -41,7 +41,7 @@ As a group, discuss the following questions:
 
 Then, as a group, prepare some responses to the questions in [Part 3](#part-3-group-discussion-10-min).
 
-### Part 3: Group Discussion (10 min)
+### Part 3: Class Discussion (10 min)
 
 As a class, discuss the following questions: 
 1. Was the meeting effective? Why or why not? 
