@@ -57,17 +57,18 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Recitation**{: .label .label-aqua } | Sep-21/23    | **[Team Dysfunction](https://docs.google.com/presentation/d/1hv7fhBCr4ro12hTUcaK9ck_xETmGDLaTWI2B4PLe_hY/edit?usp=sharing)**{: .label .label-aqua } **[Handout](/recitations/4-team-dysfunction)**{: .label .label-aqua }
 | **Lecture**{: .label .label-gold } | Sep-20  | **[Risk and Mistakes](assets/pdfs/07-risk-prototype.pdf)**{: .label .label-gold }
 | **Lecture**{: .label .label-gold } | Sep-22 | | | **[HW2A due](/assignments/hw2)**{: .label .label-red } |
-| **Lecture**{: .label .label-gold } | Sep-27 | | | **[HW2B due](/assignments/hw2)**{: .label .label-red } |
+| **Lecture**{: .label .label-gold } | Sep-27 | | | **[HW2B](/assignments/hw2) [HW3A](/assignments/hw3) due**{: .label .label-red } |
 | **Recitation**{: .label .label-aqua } | Sep-28/30 |
-| **Lecture**{: .label .label-gold } | Sep-29 |
+| **Lecture**{: .label .label-gold } | Sep-29 |  |
 | **Homework**{: .label .label-red } | Sep-30 |
 | **Lecture**{: .label .label-gold } | Oct-4 | | | |
 | **Recitation**{: .label .label-aqua } | Oct-5/7 |
-| **Lecture**{: .label .label-gold } | Oct-6 | | | |
+| **Lecture**{: .label .label-gold } | Oct-6 | | | **[HW3B due](/assignments/hw3)**{: .label .label-red} |
 | **EXAM**{: .label .label-red }        | Oct-11       | MIDTERM                                                                                                                                                                                                              |
 | **Recitation**{: .label .label-aqua } | Oct-10/12    |
-| Oct-18                                | NO CLASS     |
-| Oct-20                                | NO CLASS     |
+| **Lecture**{: .label .label-gold } | Oct-13 | | | **[HW3C due](/assignments/hw3)**{: .label .label-red} |
+| | Oct-18                                | NO CLASS     |
+| | Oct-20                                | NO CLASS     |
 | **Lecture**{: .label .label-gold }    | Oct-25       |
 | **Recitation**{: .label .label-aqua } | Oct-26/28    |
 | **Lecture**{: .label .label-gold }    | Oct-27       |
