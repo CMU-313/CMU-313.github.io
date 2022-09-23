@@ -59,7 +59,7 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Lecture**{: .label .label-gold } | Sep-22 | | | **[HW2A due](/assignments/hw2)**{: .label .label-red } |
 | **Lecture**{: .label .label-gold } | Sep-27 | | | **[HW2B due](/assignments/hw2)**{: .label .label-red } |
 | **Recitation**{: .label .label-aqua } | Sep-28/30 |
-| **Lecture**{: .label .label-gold } | Sep-29 | **[HW3A due](/assignments/hw3)**{: .label .label-red}  |
+| **Lecture**{: .label .label-gold } | Sep-29 | | | **[HW3A due](/assignments/hw3)**{: .label .label-red}  |
 | **Homework**{: .label .label-red } | Sep-30 |
 | **Lecture**{: .label .label-gold } | Oct-4 | | | |
 | **Recitation**{: .label .label-aqua } | Oct-5/7 |
