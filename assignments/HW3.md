@@ -1,3 +1,10 @@
+---
+layout: page
+title: HW03 Teamwork
+permalink: /assignments/hw3
+parent: Assignments
+---
+
 **17-313: Foundations of Software Engineering**
 
 # Homework 3: Teamwork
