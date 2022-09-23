@@ -106,7 +106,7 @@ upfront documentation of the planning process and to give you time to
 reflect. Of course, you are still encouraged to start developing before
 the second deadline and reflecting before the third.
 
-### (1) Initial plan (due Thursday, September 29, 23:59) -- 60 points (25%)
+### (1) Initial plan (due Thursday, September 29, 23:59) -- 60 points
 
 -   **An initial technical/sprint plan and backlog, with justification.** First, indicate which feature you chose to implement first, and why. Then, present your initial backlog for the sprint (from before you started implementing; you will discuss changes/replanning that happened in a later deliverable). You are encouraged to include supporting evidence for all of your decisions and estimates (i.e., an explanation for how you arrived at that decision/value). To grade your team, we will be looking for the following information to be documented in your team's **GitHub Projects board**:
 
@@ -130,7 +130,7 @@ problem and justified your original plan, how you responded to changes
 in the replanning, and how well you analyze and reflect on your
 experience (see below).
 
-### 2) Code artifacts (due Thursday, October 6, 23:59) -- 60 points (25%)
+### 2) Code artifacts (due Thursday, October 6, 23:59) -- 60 points
 
 We will take a snapshot of the implementation from your team's GitHub
 repository at the deadline. Your repository should include the
@@ -154,7 +154,7 @@ Every member of your team must contribute to the implementation: each team membe
 
 You must commit all of your changes to the main branch of your repository before the homework deadline. Unlike the previous assignment, you should not submit your changes to the parent Teedy repository.
 
-### (3) Reflection -- Team (due Thursday, October 13, 23:59) -- 60 points (25%)
+### (3) Reflection -- Team (due Thursday, October 13, 23:59) -- 60 points
 
 After coding is complete, reflect on your experience as a team. Again,
 we look for honest reflection, which will likely include reflection on
@@ -200,7 +200,7 @@ collaborative text editing; the course staff used Google Docs for this
 homework document.
 
 
-### (4) Reflection -- Individual (due Thursday, October 13, 23:59) -- 60 points (25%)
+### (4) Reflection -- Individual (due Thursday, October 13, 23:59) -- 60 points
 
 You will answer individual reflection questions on Gradescope (HW3 Individual Reflection).
 We will ask you to reflect on the process, scheduling, and teamwork.
