@@ -97,7 +97,7 @@ by snapshotting your repository at the deadline.
 ## Deadlines and deliverables
 
 This homework has three (3) deadlines and four (4) deliverables. The
-first deadline (Tuesday, September 27, 23:59) is for an **initial**
+first deadline (Thursday, September 29, 23:59) is for an **initial**
 **planning document and backlog**. The second deadline (Thursday,
 October 6, 23:59) is for the **technical artifacts**. The third
 deadline (Thursday, October 13, 23:59) is for **two (2) reflection
@@ -106,7 +106,7 @@ upfront documentation of the planning process and to give you time to
 reflect. Of course, you are still encouraged to start developing before
 the second deadline and reflecting before the third.
 
-### (1) Initial plan (due Tuesday, September 27, 23:59) -- 60 points (25%)
+### (1) Initial plan (due Thursday, September 29, 23:59) -- 60 points (25%)
 
 -   **An initial technical/sprint plan and backlog, with justification.** First, indicate which feature you chose to implement first, and why. Then, present your initial backlog for the sprint (from before you started implementing; you will discuss changes/replanning that happened in a later deliverable). You are encouraged to include supporting evidence for all of your decisions and estimates (i.e., an explanation for how you arrived at that decision/value). To grade your team, we will be looking for the following information to be documented in your team's **GitHub Projects board**:
 
