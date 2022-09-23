@@ -142,7 +142,7 @@ You should follow best practices for collaborative development such as using fea
 
 GitHub Actions should be enabled. It is reasonable to have failures in feature branches, but you should do your best to make your main branch build consistently pass.
 
-![Build Pass](/assets/imgaes/build_pass.png)
+![Build Pass](/assets/images/build_pass.png)
 
 Adhere to good coding practices. For example, your code should have a
 clear structure, be reasonably modularized, use appropriate variable
