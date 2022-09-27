@@ -27,7 +27,7 @@ The key learning goals of this homework are that you are able to:
 
 In HW2, you familiarized yourself with Teedy;
 You set up your development environment and workflow, and explored the full layers of Teedy by implementing a small feature change or addition.
-Now, we want to take a more serious step to build the graduate student
+Now, we want to take a more **serious** step to build the graduate student
 admission management system.
 
 You and your team are beginning to sketch out and implement a
@@ -50,22 +50,20 @@ Here are some of the features that teams implemented in the past:
 
 
 Then, you will do so, over the course of a 2-week sprint, while establishing and following a good software engineering
-process, including appropriate git flow and testing of the eventual
-feature. Specifically, this entails:
+process, including appropriate git flow and testing of the eventual feature. Specifically, this entails:
 
 1.  Do an initial sprint planning meeting. Assess your feature options and choose which one you will implement first, for this assignment. Construct your *backlog* (decompose the task, roughly estimate the time required for the sub-tasks, identify dependencies, and plan the implementation accordingly). The selected feature should (1) be able to be divided into at least N (the number of team members in your team) sub-features, and (2) require you to make changes in each of the three layers of Teedy's stack.
 
-2.  Perform a 2-week sprint to implement and test the feature in question. You will likely not have time to produce a perfect feature, but you should be able to produce a reasonable prototype.
+2.  Perform a 2-week sprint to implement and user test the feature in question. You will likely not have time to produce a perfect feature, but you should be able to produce a reasonable prototype.
 
 3.  Throughout the project, track your time investment, synchronize tasks with your team, and regularly update the plan. Take meeting minutes and track how you divide up the work.
 
-4.  Document your code/feature, testing approach, and process and decision-making. It should be easy for the TA to run and test your feature within Teedy.
+4.  Document your code/feature, user testing approach, and process and decision-making. It should be easy for the TA to run and test your feature within Teedy.
 
-We encourage you to read and follow the Team Policy, which has
+We encourage you to read and follow the [Team Policy](/assets/pdfs/team_policy.pdf), which has
 suggestions for effective group work in a course setting (you may have to
 adapt some of these suggestions for collaborating on a software project,
-but you may still find the structure helpful). It is separately linked
-from the assignment in Canvas.
+but you may still find the structure helpful).
 
 Plan carefully to decide which features to develop, and in what order, and then start writing code effectively as a team.
 
@@ -85,7 +83,7 @@ We will be grading you on how well you follow the process we covered in the lect
 - create a pull request and reference the issue to merge the changes,
 - provide feedback to pull requests,
 - document design decisions and implemented functionalities,
-- write tests for the features you implemenet,
+- write automated tests for the features you implement,
 - and use GitHub Actions for continuous integration (CI).
 
 Like in HW2, you will not create an issue or a pull request in the parent repository, but in your team repository.
@@ -133,9 +131,11 @@ experience (see below).
 ### 2) Code artifacts (due Thursday, October 6, 23:59) -- 60 points
 
 We will take a snapshot of the implementation from your team's GitHub
-repository at the deadline. Your repository should include the
-implementation of the system, tests for the new feature, and a
-documentation of how to use and test your new feature (indicate where
+repository at the deadline. 
+
+Your repository should include the
+implementation of the system, automated tests for the new feature, and a
+documentation of how to use and user test your new feature (indicate where
 this documentation is found from the top-level README.md file).
 
 You should follow best practices for collaborative development such as using feature branches, pull requests, and code review (e.g., tackling each layer of the stack in a separate PR). Specifically your team should collaborate on this feature by committing changes to a branch named for the feature you are implementing.
@@ -147,12 +147,14 @@ GitHub Actions should be enabled. It is reasonable to have failures in feature b
 Adhere to good coding practices. For example, your code should have a
 clear structure, be reasonably modularized, use appropriate variable
 names, and be documented.
-** We expect you to write a set of tests that demonstrates the functionalities you implemented (according to your acceptance criteria from the initial planning). **
+
+**We expect you to write a set of _automated_ tests that demonstrates the functionalities you implemented (according to your acceptance criteria from the initial planning).**
+
 We will look at the commit, issue, and pull request history.
 
 Every member of your team must contribute to the implementation: each team member must have at least one commit as a part of the solution. Failure to do so will result in a significant penalty to your grade.
 
-You must commit all of your changes to the main branch of your repository before the homework deadline. Unlike the previous assignment, you should not submit your changes to the parent Teedy repository.
+You must commit all of your changes to the main branch of your repository before the homework deadline. Unlike HW01, you should not submit your changes to the parent Teedy repository.
 
 ### (3) Reflection -- Team (due Thursday, October 13, 23:59) -- 60 points
 
@@ -224,7 +226,9 @@ task, we will grade the *quality* and *depth* of your reflection.
 
 You will be graded as a team, with an individual component. This
 homework is worth 240 points. We will grade you based on the learning
-goals listed above. The initial planning constitutes 60 points
+goals listed above. 
+
+The initial planning constitutes 60 points
 (25%), the technical artifacts and adherence to the process constitute 60
 points (25%), the team reflection constitutes 60 points (25%),
 and the individual reflection constitutes 60 points (25%).
@@ -241,9 +245,9 @@ To receive full credit for the technical artifacts, we expect:
 
 -   A running prototype implementation.
 
--   Test cases for the implemented functionalities.
+-   Automated test cases for the implemented functionalities.
 
--   GitHub Actions set up and used for builds and tests.
+-   GitHub Actions set up and used for builds and automated tests.
 
 -   Reasonable documentation of the new feature.
 
@@ -253,7 +257,7 @@ To receive full credit for the technical artifacts, we expect:
 
 -   Reasonable quality of issues, pull requests, and comments.
 
--   Reasonable QA/testing for the new feature.
+-   Reasonable QA/user testing for the new feature.
 
 
 To receive full credit on reflection, we expect:
