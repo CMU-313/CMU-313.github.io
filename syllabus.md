@@ -81,6 +81,9 @@ Note that the instructors respect honesty in these (and indeed most!) situations
 ## Accommodations 
 If you wish to request an accommodation due to a documented disability, please inform the instructor as soon as possible and contact Disability Resources at 412.268.2013 or access@andrew.cmu.edu.
 
+## Policy for health absence
+We don't record our lectures, because they are highly interactive and tricky to record, but we post slides at the end of the day. Please go over them and come to any of the instructors’ office hours to discuss the material for the participation credit.
+
 ## A note on self care.
 A note on self care. Please take care of yourself. Do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress. All of us benefit from support during times of struggle. You are not alone. There are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is often helpful.
 
