@@ -81,7 +81,7 @@ Note that the instructors respect honesty in these (and indeed most!) situations
 ## Accommodations 
 If you wish to request an accommodation due to a documented disability, please inform the instructor as soon as possible and contact Disability Resources at 412.268.2013 or access@andrew.cmu.edu.
 
-## Policy for health absence
+## Policy on healthcare-related absence
 We don't record our lectures, because they are highly interactive and tricky to record, but we post slides at the end of the day. Please go over them and come to any of the instructors’ office hours to discuss the material for the participation credit.
 
 ## A note on self care.
