@@ -12,19 +12,9 @@ description: The weekly event schedule.
 {% endfor %} -->
 
 <!--
-**[Intro](assets/pdfs/01-introduction.pdf)**{: .label .label-gold }
-**[Docker](assets/pdfs/recitation-1.pdf)**{: .label .label-aqua }
-**[Case Study 737MAX](assets/pdfs/03-boeing-casestudy.pdf)**{: .label .label-gold } | **[news article](https://www.seattletimes.com/business/boeing-aerospace/failed-certification-faa-missed-safety-issues-in-the-737-max-system-implicated-in-the-lion-air-crash/)**{: .label .label-blue}
-**[Tools for collaborative software development](assets/pdfs/recitation-2-gitcollaboration.pdf)**{: .label .label-aqua}
-**[Software Archaeology](assets/pdfs/05-code-archaeology.pdf)**{: .label .label-gold }
-**[Software Archaeology](assets/pdfs/recitation-3.pdf)**{: .label .label-aqua }
-**[Requirements: Concepts and Challenges](assets/pdfs/06-RequirementsIntroConcepts.pdf)**{: .label .label-gold }
-**[Requirements: Elicitation and Documentation](assets/pdfs/07-Req-interviews-risk.pdf)**{: .label .label-gold }
-**[Requirements Interviews](assets/pdfs/recitation-4.pdf)**{: .label .label-aqua }
 **[SE4ML](assets/pdfs/08-SE_4_ML.pdf)**{: .label .label-gold }
 **[Ethics](assets/pdfs/09-Ethics.pdf)**{: .label .label-gold }
 **[Requirements/terrible stakeholders](assets/pdfs/recitation-5.pdf)**{: .label .label-aqua }
-**[Architecture: Intro and Overview](assets/pdfs/10-Intro-to-Arch.pdf)**{: .label .label-gold }
 **[Architecture: Microservices](assets/pdfs/11-microservices.pdf)**{: .label .label-gold }
 Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} **[2019](assets/pdfs/midterm-2019.pdf)**{: .label .label-aqua}
 **[Architecture: Design Docs](assets/pdfs/12-arch-design-docs.pdf)**{: .label .label-gold }
@@ -59,7 +49,7 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Lecture**{: .label .label-gold } | Sep-22 | **SE Deployment Workshop**{: .label .label-gold } | **[Pre-lecture prep: Heroku](assets/pdfs/Sep22LecturePrep.pdf)**{: .label .label-blue} | **[HW2A due](/assignments/hw2)**{: .label .label-red } |
 | **Lecture**{: .label .label-gold } | Sep-27 | **[Software Quality in Practice](assets/pdfs/09-software-quality.pdf)**{: .label .label-gold } | | **[HW2B due](/assignments/hw2)**{: .label .label-red } |
 | **Recitation**{: .label .label-aqua } | Sep-28/30 |
-| **Lecture**{: .label .label-gold } | Sep-29 | | | **[HW3A due](/assignments/hw3)**{: .label .label-red}  |
+| **Lecture**{: .label .label-gold } | Sep-29 | **[Architecture: Intro and Overview](assets/pdfs/10-Intro-to-Arch.pdf)**{: .label .label-gold } | | **[HW3A due](/assignments/hw3)**{: .label .label-red}  |
 | **Homework**{: .label .label-red } | Sep-30 |
 | **Lecture**{: .label .label-gold } | Oct-4 | | | |
 | **Recitation**{: .label .label-aqua } | Oct-5/7 |
