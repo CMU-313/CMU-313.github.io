@@ -52,7 +52,7 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Lecture**{: .label .label-gold } | Sep-29 | **[Architecture: Intro and Overview](assets/pdfs/10-Intro-to-Arch.pdf)**{: .label .label-gold } | | **[HW3A due](/assignments/hw3)**{: .label .label-red}  |
 | **Homework**{: .label .label-red } | Sep-30 |
 | **Lecture**{: .label .label-gold } | Oct-4 | | | |
-| **Recitation**{: .label .label-aqua } | Oct-5/7 |
+| **Recitation**{: .label .label-aqua } | Oct-5/7 | **[Midterm Review](/recitations/6-midterm-review)**{: .label .label-aqua }
 | **Lecture**{: .label .label-gold } | Oct-6 | | | **[HW3B due](/assignments/hw3)**{: .label .label-red} |
 | **EXAM**{: .label .label-red }        | Oct-11       | MIDTERM                                                                                                                                                                                                              |
 | **Recitation**{: .label .label-aqua } | Oct-10/12    |
