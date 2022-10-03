@@ -22,7 +22,3 @@ As we have our midterm scheduled for Tuesday, October 11th, this recitation slot
 * [Fall 2020](/assets/pdfs/midterm-2020.pdf)
 
 * [Fall 2021](/assets/pdfs/midterm-2021.pdf)
-
-
-
-
