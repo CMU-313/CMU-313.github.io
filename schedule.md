@@ -15,7 +15,6 @@ description: The weekly event schedule.
 **[SE4ML](assets/pdfs/08-SE_4_ML.pdf)**{: .label .label-gold }
 **[Ethics](assets/pdfs/09-Ethics.pdf)**{: .label .label-gold }
 **[Requirements/terrible stakeholders](assets/pdfs/recitation-5.pdf)**{: .label .label-aqua }
-**[Architecture: Microservices](assets/pdfs/11-microservices.pdf)**{: .label .label-gold }
 Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} **[2019](assets/pdfs/midterm-2019.pdf)**{: .label .label-aqua}
 **[Architecture: Design Docs](assets/pdfs/12-arch-design-docs.pdf)**{: .label .label-gold }
 **[Architecture: Devops](assets/pdfs/13-devops.pdf)**{: .label .label-gold }
@@ -51,7 +50,7 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Recitation**{: .label .label-aqua } | Sep-28/30 |
 | **Lecture**{: .label .label-gold } | Sep-29 | **[Architecture: Intro and Overview](assets/pdfs/10-Intro-to-Arch.pdf)**{: .label .label-gold } | | **[HW3A due](/assignments/hw3)**{: .label .label-red}  |
 | **Homework**{: .label .label-red } | Sep-30 |
-| **Lecture**{: .label .label-gold } | Oct-4 | | | |
+| **Lecture**{: .label .label-gold } | Oct-4 | **[Architecture: Microservices](assets/pdfs/11-microservices.pdf)**{: .label .label-gold } | | |
 | **Recitation**{: .label .label-aqua } | Oct-5/7 | **[Midterm Review](/recitations/6-midterm-review)**{: .label .label-aqua }
 | **Lecture**{: .label .label-gold } | Oct-6 | | | **[HW3B due](/assignments/hw3)**{: .label .label-red} |
 | **EXAM**{: .label .label-red }        | Oct-11       | MIDTERM                                                                                                                                                                                                              |
