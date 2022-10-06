@@ -52,7 +52,7 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Homework**{: .label .label-red } | Sep-30 |
 | **Lecture**{: .label .label-gold } | Oct-4 | **[Architecture: Microservices](assets/pdfs/11-microservices.pdf)**{: .label .label-gold } | | |
 | **Recitation**{: .label .label-aqua } | Oct-5/7 | **[Midterm Review](/recitations/6-midterm-review)**{: .label .label-aqua }
-| **Lecture**{: .label .label-gold } | Oct-6 | | | **[HW3B due](/assignments/hw3)**{: .label .label-red} |
+| **Lecture**{: .label .label-gold } | Oct-6 | **[Collaborative Development: Documentation and Testing](assets/pdfs/12-collaborative-development-docs-and-testing.pdf)**{: .label .label-gold } | | **[HW3B due](/assignments/hw3)**{: .label .label-red} |
 | **EXAM**{: .label .label-red }        | Oct-11       | MIDTERM                                                                                                                                                                                                              |
 | **Recitation**{: .label .label-aqua } | Oct-10/12    |
 | **Lecture**{: .label .label-gold } | Oct-13 | | | **[HW3C due](/assignments/hw3)**{: .label .label-red} |
