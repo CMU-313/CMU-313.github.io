@@ -7,7 +7,7 @@ parent: Assignments
 
 **17-313: Foundations of Software Engineering**
 
-# Homework 3: Teamwork
+# Homework 4: Microservices
 
 The key learning goals of this homework are that you are able to:
 
@@ -51,7 +51,7 @@ Because this is just a checkpoint, the expectation is that you will hit this che
 
 Then, submit this tagged version and a document that describes the API endpoints to the associated Gradescope assignment.
 
-### 2) Microservice ML feature implementation and code-level documentation – Group (Tuesday, Nov 1st 11:59 PM) – 55 points
+### (2) Microservice ML feature implementation and code-level documentation – Group (Tuesday, Nov 1st 11:59 PM) – 55 points
 
 We provide you with a starter repository (see above) with a (synthetic) historical dataset (as a csv file) of student performance (this is an augmented version of the dataset found here), and a (bad) model trained over it. Start by exploring the data, to understand what information is available. Student performance is described by their grades (G1, G2, and G3), where G3 is the final year grade, the target performance metric. Grades are on a scale of 0-20; 20 is the best. CMU considers a high-quality student one with a G3 grade of 15 or higher.
 
