@@ -33,9 +33,14 @@ You are correctly skeptical about the effort required to pivot the product in th
 
 Create a new team repository by following this link for your team, which will clone starter data and code:
 
-https://classroom.github.com/a/lfAWfv50
+NEED GH CLASSROOM LINKS
 
-EMPTY
+There is an example flask-based app in the `apps` directory. Use this as a template to build and deploy the microservice. You may wish to use this article and this repository as resources on building and saving a scikit-learn model, and then deploying it using flask.
+**MAKE SURE** to read the `README.MD` of the repository to learn about and use Pipenv, as it will allow for hassle-free collaboration.
+
+This starter code uses arguments from the query string (specifically age, health, and absences) to query the model. This can/should be expanded or replaced as a part of your implementation (note that the API also accepts JSON requests).
+
+Note that the default flask service in the starter code should be run, and is accessible, on port 80. Feel free to change as needed.
 
 ## Deadlines and deliverables
 
@@ -47,7 +52,9 @@ To make sure that we can help you with any challenges that come up, we have a de
 
 For this checkpoint, you should simply use the default model included in the sample code and ensure you can build and deploy the default code. In addition, you should define the API endpoints between your microservice and Teedy.
 
-Because this is just a checkpoint, the expectation is that you will hit this checkpoint, and then continue to work. Therefore, when you have completed this checkpoint, you should tag a version of your code as a release for version 0.1. You can find instructions as to how to do this here: https://help.github.com/en/articles/creating-releases
+Because this is just a checkpoint, the expectation is that you will hit this checkpoint, and then continue to work. Therefore, when you have completed this checkpoint, you should tag a version of your code as a release for version 0.1. You can find instructions as to how to do this [here](https://help.github.com/en/articles/creating-releases).
+
+Good examples of API documentation can be found [here](https://blog.dreamfactory.com/8-api-documentation-examples/), but defining the headers and response bodies of this APIs should suffice for this deliverable.
 
 Then, submit this tagged version and a document that describes the API endpoints to the associated Gradescope assignment.
 
@@ -59,31 +66,32 @@ The existing model in the repository is very simple. Once you have familiarized 
 
 You should evaluate your new model, and should explain how this model (overall) performs better than the baseline model, and any ways in which your model performs worse than the baseline model.
 
-Plan some testing, perform that testing on your microservice, and document it. At least some of this testing should be automated.
+Plan some testing, perform that testing on your microservice endpoints, and document it. At least some of this testing should be automated using Github Actions.
+As you have in previous assignments, you can create a test suite (ie. [pytest](https://flask.palletsprojects.com/en/2.2.x/testing/)) and have your workflow run the test suite.
 
 The deliverable for this task is a documented technical artifact; submit a snapshot of your github repository to the Gradescope assignment. This should include:
 
 1. a trained model that is deployable as a microservice; the microservice must take as input a query request with student data and return a prediction about that student’s graduate school success. This is the API for your microservice. It should also include
 
-2. a README that clearly and concisely explains
+2. an updated README that clearly and concisely explains
 
    - Clear documentation for your API. (How it should be called, what data it expects, any pre-conditions for the service, and how to understand the output).
 
    - A description of which features you used in training your model, and how your retrained the model performs better than the baseline model
 
-   - deployment instructions; and
+   - testing and deployment instructions; and
 
    - an explanation and justification of the testing you have done on it.
 
 ### (3) Design document – Group (due Thursday, Nov 3rd, 23:59) -- 70 points
 
-Once you have implemented the feature in isolation, your next (group) task is to document it and argue for how it should be integrated into the design of the existing system. Effectively, your technical contact’s demand for microservices makes it straightforward to develop this feature in isolation, but it raises questions about how it should be integrated into your existing (relatively monolithic) Django-based web app. You have at least several options:
+Once you have implemented the feature in isolation, your next (group) task is to document it and argue for how it should be integrated into the design of the existing system. Effectively, your technical contact’s demand for microservices makes it straightforward to develop this feature in isolation, but it raises questions about how it should be integrated into your existing (relatively monolithic) web app. You have at least several options:
 
-1.  Rewrite the web app using a different architecture (re-architect the overall Django app in some other way, cf the Twitter case study)
+1.  Rewrite the web app using a different architecture (re-architect the overall app in some other way)
 
-2.  Rewrite the feature to fit more naturally into the Django-imposed architecture.
+2.  Rewrite the feature to fit more naturally into the Java/Maven-imposed architecture.
 
-3.  Mash a microservice into the Django architecture using some other mechanism.
+3.  Mash a microservice into the Java/Maven architecture using some other mechanism.
 
 Your deliverable for this part is a design document describing the feature and how it should be integrated into the system. Submit this to the assignment on Gradescope. (NOTE: you will not have to actually implement this decision, for this or any subsequent homework in this class. You might consider implementation effort as part of your tradeoff analysis, but you should not let speculation about your workload in this class influence your decision.)
 
