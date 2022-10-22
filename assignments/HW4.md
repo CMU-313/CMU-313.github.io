@@ -33,7 +33,7 @@ You are correctly skeptical about the effort required to pivot the product in th
 
 Create a new team repository by following this link for your team, which will clone starter data and code:
 
-NEED GH CLASSROOM LINKS
+Placeholder: https://classroom.github.com/a/bRnF4uC8
 
 There is an example flask-based app in the `apps` directory. Use this as a template to build and deploy the microservice. You may wish to use this article and this repository as resources on building and saving a scikit-learn model, and then deploying it using flask.
 **MAKE SURE** to read the `README.MD` of the repository to learn about and use Pipenv, as it will allow for hassle-free collaboration.
