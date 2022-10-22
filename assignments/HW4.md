@@ -46,19 +46,20 @@ Note that the default flask service in the starter code should be run, and is ac
 
 This homework has four (4) deadlines and four (4) deliverables. The first deadline (Thursday, Oct 27th) is a checkpoint to make sure you are succeeding at building your microservice-based ML model. The second deadline (Tuesday, Nov 1st) is for the complete trained model deployable as a microservice. The third deadline (Thursday, Nov 3rd) is for a design document explaining how you would integrate the new feature into your existing codebase. The fourth deadline (Tuesday, Nov 8th) is for one (1) individual document making an ethical argument about the feature.
 
-### (1) Development checkpoint - Group (due Thursday, Oct 27th, 23:59) -- 5 points
+### (1) Development checkpoint - (due Thursday, Oct 27th, 23:59) | 5 points
 
 To make sure that we can help you with any challenges that come up, we have a development checkpoint.
 
-For this checkpoint, you should simply use the default model included in the sample code and ensure you can build and deploy the default code. In addition, you should define the API endpoints between your microservice and Teedy.
+For this checkpoint, you should simply use the default model included in the sample code and ensure you can build and deploy the default code. In addition, you should define and document the API endpoints between your microservice and Teedy.
+
+You should be documenting your API endpoints with [Swagger](https://swagger.io/docs/). A helpful resource to achieve this in with a Flask App can be found [here](https://www.aurigait.com/blog/api-documentation-with-swagger-in-flask/). The API themselves don't need to be doing anything at the moment. Just make sure you define the request/response body fields and headers, if necessary.
 
 Because this is just a checkpoint, the expectation is that you will hit this checkpoint, and then continue to work. Therefore, when you have completed this checkpoint, you should tag a version of your code as a release for version 0.1. You can find instructions as to how to do this [here](https://help.github.com/en/articles/creating-releases).
 
-Good examples of API documentation can be found [here](https://blog.dreamfactory.com/8-api-documentation-examples/), but defining the headers and response bodies of this APIs should suffice for this deliverable.
+Then, submit this tagged version and a pdf of your Swagger documentation that describes the API endpoints to the associated Gradescope assignment.
+You can create a pdf of your Swagger documentation with the Print Preview function of your browser.
 
-Then, submit this tagged version and a document that describes the API endpoints to the associated Gradescope assignment.
-
-### (2) Microservice ML feature implementation and code-level documentation – Group (Tuesday, Nov 1st 11:59 PM) – 55 points
+### (2) Microservice ML feature implementation - (due Tuesday, Nov 1st 11:59 PM) | 55 points
 
 We provide you with a starter repository (see above) with a (synthetic) historical dataset (as a csv file) of student performance (this is an augmented version of the dataset found here), and a (bad) model trained over it. Start by exploring the data, to understand what information is available. Student performance is described by their grades (G1, G2, and G3), where G3 is the final year grade, the target performance metric. Grades are on a scale of 0-20; 20 is the best. CMU considers a high-quality student one with a G3 grade of 15 or higher.
 
@@ -69,7 +70,7 @@ You should evaluate your new model, and should explain how this model (overall) 
 Plan some testing, perform that testing on your microservice endpoints, and document it. At least some of this testing should be automated using Github Actions.
 As you have in previous assignments, you can create a test suite (ie. [pytest](https://flask.palletsprojects.com/en/2.2.x/testing/)) and have your workflow run the test suite.
 
-The deliverable for this task is a documented technical artifact; submit a snapshot of your github repository to the Gradescope assignment. This should include:
+The deliverable for this task is a documented technical artifact; submit a link of your github repository to the Gradescope assignment. This should include:
 
 1. a trained model that is deployable as a microservice; the microservice must take as input a query request with student data and return a prediction about that student’s graduate school success. This is the API for your microservice. It should also include
 
@@ -83,7 +84,7 @@ The deliverable for this task is a documented technical artifact; submit a snaps
 
    - an explanation and justification of the testing you have done on it.
 
-### (3) Design document – Group (due Thursday, Nov 3rd, 23:59) -- 70 points
+### (3) Design document - (due Thursday, Nov 3rd, 23:59) | 70 points
 
 Once you have implemented the feature in isolation, your next (group) task is to document it and argue for how it should be integrated into the design of the existing system. Effectively, your technical contact’s demand for microservices makes it straightforward to develop this feature in isolation, but it raises questions about how it should be integrated into your existing (relatively monolithic) web app. You have at least several options:
 
@@ -109,7 +110,7 @@ The design document must (1) concisely describe the feature, (2) make and justif
 
 On diagrams. The design document must include both diagrams and text. Diagrams should involve suitable architectural views; must include a legend; and should involve appropriate levels of abstraction for the components in the diagram. If necessary, use color/shape/text to differentiate between types of components and connectors. You may find it appropriate to merge more than one view into a single diagram. If you do this, you must be explicit about what views you are merging, and why. Otherwise, diagrams should clearly represent legitimate architectural views. Make sure that multiple views of the architecture are consistent with each other and the links are clear; if necessary provide a mapping in additional text.
 
-Documenting Software Architectures: Views and Beyond, Second Edition is a useful book on creating architecture documentation. It is available (for free) as an e-book from the CMU library web site. If you use it, treat it as reference material; do not plan to read major parts of it.
+[Documenting Software Architectures: Views and Beyond, Second Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30386) is a useful book on creating architecture documentation. It is available (for free) as an e-book from the CMU library web site. If you use it, treat it as reference material; do not plan to read major parts of it.
 
 Drawing diagrams is easier with the right software. Consider tools like draw.io (free, online, and collaborative), Dia, OmniGraffle, MS Visio, or even just the drawing editor of Google Docs. Google Slides will also likely work for this purpose. Pictures of whiteboard drawings are also acceptable, if clearly readable.
 
@@ -119,9 +120,9 @@ Additional Hints:
 
 - It may take several iterations to get your architectural views right. Appoint someone to track the accuracy and completeness of architectural representations throughout this assignment. Do not just divide up the views among your team members and assume they show everything needed. You only need to submit the final designs/documents, not intermediate steps on the process of getting there.
 
-- As additional reference material, Software Architecture in Practice, Third Edition is a book on software architecture that is available (for free) as an e-book from the CMU library web site. You may wish to review appropriate sections within Part Two to help find appropriate tactics, techniques you can use in your design to promote particular quality attributes. Note that the book is not a reading assignment and you should not try to read it thoroughly. Instead, use it as reference material and select particular bits of advice that are relevant to your situation.
+- As additional reference material, [Software Architecture in Practice, Third Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30264) is a book on software architecture that is available (for free) as an e-book from the CMU library web site. You may wish to review appropriate sections within Part Two to help find appropriate tactics, techniques you can use in your design to promote particular quality attributes. Note that the book is not a reading assignment and you should not try to read it thoroughly. Instead, use it as reference material and select particular bits of advice that are relevant to your situation.
 
-### (4) Ethical Discussion – Individual (due Tuesday, Nov 8th, 23:59) -- 30 points
+### (4) Ethical Discussion - (due Tuesday, Nov 8th, 23:59) | 30 points
 
 Note: this is not an open-ended reflection document like those we have requested in previous assignments. You must engage with the ethical questions at hand.
 
@@ -149,13 +150,16 @@ The deliverable for this task is a document (soft limit 3 pages), submitted to G
 
 - A criteria that can be used to evaluate if the intervention described in part (c) is successful.
 
+This is an **individual** assignment.
+
 ## Grading
 
 You will be graded as a team, with an individual component. This homework is worth 160 points. We will grade you based on the learning goals listed above.
 
 To receive full credit for the checkpoint, we expect:
 
-- That you have tagged a version in your github repo as a 0.1 release.
+- That you have tagged a version in your github repo as a 0.1 release
+- That you have Swagger Docs working with reasonable API endpoints.
 
 To receive full credit for the technical artifacts, we expect:
 
