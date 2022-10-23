@@ -31,7 +31,7 @@ You are correctly skeptical about the effort required to pivot the product in th
 
 ## Starter code, data, and repository
 
-Create a new team repository using this repository as a template.
+Create a new team repository using this [repository](https://github.com/CMU-313/fall-2022-hw4-starter-code) as a template.
 
 The starter code includes:
 
