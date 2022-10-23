@@ -97,7 +97,7 @@ Once you have implemented the feature in isolation, your next (group) task is to
 
 2.  Rewrite the feature to fit more naturally into the existing application structure.
 
-Your deliverable for this part is a design document describing the feature and how it should be integrated into the system. Submit this to the assignment on Gradescope. (NOTE: you will not have to actually implement this decision, for this or any subsequent homework in this class. You might consider implementation effort as part of your tradeoff analysis, but you should not let speculation about your workload in this class influence your decision.)
+Your deliverable for this part is a design document describing the feature and how it should be integrated into the system as a microservice. Submit this to the assignment on Gradescope. (NOTE: you will not have to actually implement this decision, for this or any subsequent homework in this class. You might consider implementation effort as part of your tradeoff analysis, but you should not let speculation about your workload in this class influence your decision.)
 
 The design document must (1) concisely describe the feature, (2) make and justify a decision on how the implementation should be done, including considered alternatives and tradeoffs, and using/referencing suitable diagrams where relevant to support your argument:
 
