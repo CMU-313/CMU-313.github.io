@@ -31,12 +31,12 @@ You are correctly skeptical about the effort required to pivot the product in th
 
 ## Starter code, data, and repository
 
-Create a new team repository by following this link for your team, which will clone starter data and code:
+Create a new team repository using this repository as a template.
 
-NEED GH CLASSROOM LINKS
+The starter code includes:
 
-There is an example flask-based app in the `apps` directory. Use this as a template to build and deploy the microservice. You may wish to use this article and this repository as resources on building and saving a scikit-learn model, and then deploying it using flask.
-**MAKE SURE** to read the `README.MD` of the repository to learn about and use Pipenv, as it will allow for hassle-free collaboration.
+- an example flask-based app in the `apps/` directory. Use this as a template to build and deploy the microservice. You may wish to use this article and this repository as resources on building and saving a scikit-learn model, and then deploying it using flask. **MAKE SURE** to read the `README.MD` of the repository to learn about and use Pipenv, as it will allow for hassle-free collaboration.
+- a default model under `apps/`, which can be explored with the jupyter notebook (`model_build.ipnyb`). You will need to create a better-performing model as a part of this homework.
 
 This starter code uses arguments from the query string (specifically age, health, and absences) to query the model. This can/should be expanded or replaced as a part of your implementation (note that the API also accepts JSON requests).
 
