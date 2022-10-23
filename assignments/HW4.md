@@ -38,37 +38,42 @@ The starter code includes:
 - an example flask-based app in the `apps/` directory. Use this as a template to build and deploy the microservice. You may wish to use this article and this repository as resources on building and saving a scikit-learn model, and then deploying it using flask. **MAKE SURE** to read the `README.MD` of the repository to learn about and use Pipenv, as it will allow for hassle-free collaboration.
 - a default model under `apps/`, which can be explored with the jupyter notebook (`model_build.ipnyb`). You will need to create a better-performing model as a part of this homework.
 
+We provide you with a (synthetic) historical dataset (as a csv file) of student performance (this is an augmented version of the dataset found here), and a (bad) model trained over it. Start by exploring the data, to understand what information is available. Student performance is described by their grades (G1, G2, and G3), where G3 is the final year grade, the target performance metric. Grades are on a scale of 0-20; 20 is the best. CMU considers a high-quality student one with a G3 grade of 15 or higher.
+
+The existing model in the repository is very simple. Once you have familiarized yourself with the dataset, explore this model using whatever means you think are appropriate and determine in which ways you don’t believe it to be suitable. Based on what you learn in this exploratory step, you should train a new model and build a deployable microservice.
+
+You should evaluate your new model, and should explain how this model (overall) performs better than the baseline model, and any ways in which your model performs worse than the baseline model.
+
+Plan some testing, perform that testing on your microservice endpoints, and document it.
+As you have in previous assignments, you can create a test suite (ie. [pytest](https://flask.palletsprojects.com/en/2.2.x/testing/)) and have your workflow run the test suite.
+
 This starter code uses arguments from the query string (specifically age, health, and absences) to query the model. This can/should be expanded or replaced as a part of your implementation (note that the API also accepts JSON requests).
 
 Note that the default flask service in the starter code should be run, and is accessible, on port 80. Feel free to change as needed.
 
 ## Deadlines and deliverables
 
-This homework has four (4) deadlines and four (4) deliverables. The first deadline (Thursday, Oct 27th) is a checkpoint to make sure you are succeeding at building your microservice-based ML model. The second deadline (Tuesday, Nov 1st) is for the complete trained model deployable as a microservice. The third deadline (Thursday, Nov 3rd) is for a design document explaining how you would integrate the new feature into your existing codebase. The fourth deadline (Tuesday, Nov 8th) is for one (1) individual document making an ethical argument about the feature.
+This homework has three (3) deadlines and four (4) deliverables. The first deadline (Tuesday, November 1st) is a checkpoint to make sure you and your team are succeeding at building your microservice-based ML model. The second deadline (Thursday, Nov 3rd) is for the complete trained model deployable as a microservice. The third deadline (Tuesday, Nov 8th) is for a design document explaining how you would integrate the new feature into your existing codebase, and one (1) individual document making an ethical argument about the feature.
 
-### (1) Development checkpoint - (due Thursday, Oct 27th, 23:59) | 5 points
+### (1) Development checkpoint 1 - (due Tuesday, Nov 1st 11:59 PM) | 5 points
 
 To make sure that we can help you with any challenges that come up, we have a development checkpoint.
 
-For this checkpoint, you should simply use the default model included in the sample code and ensure you can build and deploy the default code. In addition, you should define and document the API endpoints between your microservice and Teedy.
+For this checkpoint, you and your team should make sure the team is working on the same versions of python and python packages. In addition, you should define and document the API endpoints between your microservice and Teedy, as well as develop unit tests for the API, as if it were already implemented.
 
-You should be documenting your API endpoints with [Swagger](https://swagger.io/docs/). A helpful resource to achieve this in with a Flask App can be found [here](https://www.aurigait.com/blog/api-documentation-with-swagger-in-flask/). The API themselves don't need to be doing anything at the moment. Just make sure you define the request/response body fields and headers, if necessary.
+You should be documenting your API endpoints with [Swagger](https://swagger.io/docs/). A helpful resource to achieve this with a Flask App can be found [here](https://www.aurigait.com/blog/api-documentation-with-swagger-in-flask/). The API themselves don't need to be doing anything at the moment. Just make sure you define the request/response body fields and headers, if necessary.
 
-Because this is just a checkpoint, the expectation is that you will hit this checkpoint, and then continue to work. Therefore, when you have completed this checkpoint, you should tag a version of your code as a release for version 0.1. You can find instructions as to how to do this [here](https://help.github.com/en/articles/creating-releases).
+Because this is just a checkpoint, the expectation is that you will hit this checkpoint before the deadline, and then continue to work.
 
-Then, submit this tagged version and a pdf of your Swagger documentation that describes the API endpoints to the associated Gradescope assignment.
-You can create a pdf of your Swagger documentation with the Print Preview function of your browser.
+The deliverable for this checkpoints are:
 
-### (2) Microservice ML feature implementation - (due Tuesday, Nov 1st 11:59 PM) | 55 points
+1.  a pdf of your Swagger documentation that describes the API endpoints. You can create a pdf of your Swagger documentation with the Print Preview function of your browser.
+2.  a link to your testing suite
+3.  a README that clearly and concisely explains
+    - testing instructions
+    - explanation and justification of the unit tests.
 
-We provide you with a starter repository (see above) with a (synthetic) historical dataset (as a csv file) of student performance (this is an augmented version of the dataset found here), and a (bad) model trained over it. Start by exploring the data, to understand what information is available. Student performance is described by their grades (G1, G2, and G3), where G3 is the final year grade, the target performance metric. Grades are on a scale of 0-20; 20 is the best. CMU considers a high-quality student one with a G3 grade of 15 or higher.
-
-The existing model in the repository is very simple. Once you have familiarized yourself with the dataset, explore this model using whatever means you think are appropriate and determine in which ways you don’t believe it to be suitable. Based on what you learn in this exploratory step, you should train a new model and build a deployable microservice.
-
-You should evaluate your new model, and should explain how this model (overall) performs better than the baseline model, and any ways in which your model performs worse than the baseline model.
-
-Plan some testing, perform that testing on your microservice endpoints, and document it. At least some of this testing should be automated using Github Actions.
-As you have in previous assignments, you can create a test suite (ie. [pytest](https://flask.palletsprojects.com/en/2.2.x/testing/)) and have your workflow run the test suite.
+### (2) Development checkpoint 2 - (due Thursday, Nov 3rd, 23:59) | 55 points
 
 The deliverable for this task is a documented technical artifact; submit a link of your github repository to the Gradescope assignment. This should include:
 
@@ -84,9 +89,9 @@ The deliverable for this task is a documented technical artifact; submit a link 
 
    - an explanation and justification of the testing you have done on it.
 
-### (3) Design document - (due Thursday, Nov 3rd, 23:59) | 70 points
+### (3) Microservice ML feature implementation - (due Tuesday, Nov 8th, 23:59) | 70 points
 
-Once you have implemented the feature in isolation, your next (group) task is to document it and argue for how it should be integrated into the design of the existing system. Effectively, your technical contact’s demand for microservices makes it straightforward to develop this feature in isolation, but it raises questions about how it should be integrated into your existing (relatively monolithic) web app. You have at least several options:
+Once you have implemented the feature in isolation, your next (group) task is to document it and argue for how it should be integrated into the design of the existing system. Effectively, your technical contact’s demand for microservices so the team can develop this feature in isolation, but it raises questions about how it should be integrated into your existing (relatively monolithic) web app. You have at least several options:
 
 1.  Rewrite the web app using a different architecture (re-architect the overall app in some other way)
 
