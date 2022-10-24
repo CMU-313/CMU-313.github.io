@@ -159,7 +159,7 @@ This is an **individual** assignment.
 
 ## Grading
 
-You will be graded as a team, with an individual component. This homework is worth 160 points. We will grade you based on the learning goals listed above.
+You will be graded as a team, with an individual component. This homework is worth 130 points. We will grade you based on the learning goals listed above.
 
 To receive full credit for the checkpoint, we expect:
 
