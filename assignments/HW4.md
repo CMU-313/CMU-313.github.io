@@ -35,7 +35,7 @@ Create a new team repository using this [repository](https://github.com/CMU-313/
 
 The starter code includes:
 
-- an example Flask-based app in the `apps/` directory. Use this as a template to build and deploy the microservice. You may wish to use this article and this repository as resources on building and saving a scikit-learn model, and then deploying it using Flask. **MAKE SURE** to read the `README.MD` of the repository to learn about and use Pipenv, as it will allow for hassle-free collaboration.
+- an example Flask-based app in the `apps/` directory. Use this as a template to build and deploy the microservice. You may wish to use [this article](https://towardsdatascience.com/a-flask-api-for-serving-scikit-learn-models-c8bcdaa41daa) and [this repository](https://github.com/amirziai/sklearnflask/) as resources on building and saving a scikit-learn model, and then deploying it using Flask. **MAKE SURE** to read the `README.MD` of the repository to learn about and use Pipenv, as it will allow for hassle-free collaboration.
 - a default model under `apps/`, which can be explored with the Jupyter notebook (`model_build.ipnyb`). You will need to create a better-performing model as a part of this homework.
 
 We provide you with a (synthetic) historical dataset (as a CSV file) of student performance (this is an augmented version of the dataset found here), and a (bad) model trained over it. Start by exploring the data, to understand what information is available.
