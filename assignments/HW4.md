@@ -62,7 +62,7 @@ This homework has three (3) deadlines and four (4) deliverables. The first deadl
 
 For this checkpoint, you and your team should make sure that all of you are working on the same versions of Python and Python packages.
 You should use [Swagger](https://swagger.io/docs) to define and document the REST API for your microservice, and write a set of API tests that encode the expected functionality of your API (via [pytest](https://flask.palletsprojects.com/en/2.2.x/testing)).
-Note that, for this deadline, the API does not need to be functional; it is only required that you create placeholder REST API endpoints that you can use to write your tests. **NOTE: We expect your tests to be failing at this point.  The implmentation that allows the tests to pass will be written later**
+Note that, for this deadline, the API does not need to be functional; it is only required that you create placeholder REST API endpoints that you can use to write your tests. **NOTE: We expect your tests to be failing at this point.  The implementation that allows the tests to pass will be written later.**
 
 The deliverable for this checkpoints are:
 
