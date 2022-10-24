@@ -54,7 +54,7 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Lecture**{: .label .label-gold } | Oct-6 | **[Collaborative Development: Documentation and Testing](assets/pdfs/12-collaborative-development-docs-and-testing.pdf)**{: .label .label-gold } | | **[HW3B due](/assignments/hw3)**{: .label .label-red} |
 | **EXAM**{: .label .label-red }        | Oct-11       | MIDTERM                                                                                                                                                                                                              |
 | **Recitation**{: .label .label-aqua } | Oct-12/14    | NO RECITATION |
-| **Lecture**{: .label .label-gold } | Oct-13 | | | **[HW3C due](/assignments/hw3)**{: .label .label-red} |
+| **Lecture**{: .label .label-gold } | Oct-13 | **[Architecture: Design Documents](/assets/pdfs/12-arch-design-docs.pdf)**{: .label .label-gold} | | **[HW3C due](/assignments/hw3)**{: .label .label-red} |
 | | Oct-18                                | NO CLASS     |
 | | Oct-20                                | NO CLASS     |
 | **Lecture**{: .label .label-gold }    | Oct-25       |
