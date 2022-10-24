@@ -69,8 +69,6 @@ The deliverable for this checkpoints are:
 1. a PDF and YAML version of your Swagger documentation. Note that you can create a PDF of your Swagger documentation via the Print Preview function of your browser.
 2. a set of API tests within your GitHub repository
 
-
-
 ### (2) Implementation (due Tuesday, Nov 8th, 23:59) -- 20 points
 
 The deliverable for this task is a documented technical artifact; submit a link of your GitHub repository to the Gradescope assignment. This should include:
@@ -79,13 +77,14 @@ The deliverable for this task is a documented technical artifact; submit a link 
 
 2. an updated README that clearly and concisely describes features used to training your model, and how your retrained the model performs better than the baseline model.
 
-## (1) Architectural Design Document (due Tuesday, Nov 1st, 23:59) -- 30 points
+## (3) Architectural Design Document (due Tuesday, Nov 1st, 23:59) -- 30 points
 
-Once you have implemented the feature in isolation, your next (group) task is to document it and argue for how it should be integrated into the design of the existing system. Effectively, your technical contact’s demand for microservices so the team can develop this feature in isolation, but it raises questions about how it should be integrated into your existing (relatively monolithic) web app. You have at least several options:
+Once you have demoed this feature, and shown that it can provide value, you are now faced with a decision about how to implement a long term solution here. You have at least several options including but not limited to:
 
-1.  Rewrite the web app using a different architecture (re-architect the overall app in some other way)
+1.  Rewrite the feature in Java and incorporate it into the monolith
 
-2.  Rewrite the feature to fit more naturally into the existing application structure.
+2.  Keep python demo microservice implementation, and deploy as a seperate service, integrating with your existing monolith via REST API
+3.  Refactor part or all of the existing monolith into a microservices based architecture
 
 Your deliverable for this part is a design document describing the feature and how it should be integrated into the system as a microservice. Submit this to the assignment on Gradescope. (NOTE: you will not have to actually implement this decision, for this or any subsequent homework in this class. You might consider implementation effort as part of your tradeoff analysis, but you should not let speculation about your workload in this class influence your decision.)
 
@@ -97,7 +96,7 @@ The design document must (1) concisely describe the feature, (2) make and justif
 
     - A concise, prioritized list of the overall quality requirements you considered in arguing for the integration of the feature into the system (<0.5 pages, soft limit). You may consider and reference the requirements you elicited during HW3 as appropriate. Rank them in decreasing order of importance. This allows readers to quickly understand what requirements you were designing for.
 
-    - A design decision with a textual justification of your design. (~3 pages, soft limit, including alternatives and tradeoffs, below) Outline and argue for a particular implementation choice as to how the feature should be integrated into the overall system architecturally. Justify your design decisions, including why your design is adequate for the quality attributes important to this system. The justification will typically take positions regarding questions such as: Which requirements are affected by the alternatives? Which system qualities are promoted or inhibited? What styles or tactics were considered? What are the tradeoffs between the alternative solutions? Which one is better in this context and why? What assumptions did you make in your design? A good justification will refer back to the architecture documentation to substantiate the argument.
+    - A design decision with a textual justification of your design. (~2 pages, soft limit, including alternatives and tradeoffs, below) Outline and argue for a particular implementation choice as to how the feature should be integrated into the overall system architecturally. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design. 
 
     - Considered alternatives and tradeoffs. The design decision and justification must include description of considered alternatives, the tradeoffs they present, and why they were rejected. Tradeoffs must involve (but are not limited to) quality attributes that will be affected by the alternative. Justify such arguments with reference to appropriate diagrams (this provides traceability) and concrete examples, as appropriate.
 
@@ -118,6 +117,8 @@ Additional Hints:
 
 
 ### (4) Ethical Discussion (due Tuesday, Nov 8th, 23:59) -- 30 points
+
+**This is an individual component.**
 
 Note: this is not an open-ended reflection document like those we have requested in previous assignments.
 You must engage with the ethical questions at hand.
@@ -148,7 +149,7 @@ The deliverable for this task is a document (soft limit 3 pages), submitted to G
 
 - A criteria that can be used to evaluate if the intervention described in part (c) is successful.
 
-This is an **individual** assignment.
+
 
 ## Grading
 
