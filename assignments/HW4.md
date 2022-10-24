@@ -11,15 +11,13 @@ parent: Assignments
 
 The key learning goals of this homework are that you are able to:
 
-- Train and deploy a machine learning model using microservices.
+- Design, implement, and test a microservice.
 
 - Decide whether and when to use microservices, understanding benefits and limitations.
 
 - Write an effective design document.
 
-- Describe the architecture of a system using a suitable notation, using architectural views to represent software along different perspectives.
-
-- Assess and choose between alternative architectural decisions.
+- Assess and describe choices between alternative architectural designs.
 
 - Engage meaningfully with questions of engineering ethics.
 
