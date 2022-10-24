@@ -60,7 +60,7 @@ Note that the default Flask service in the starter code should be run, and is ac
 
 This homework has three (3) deadlines and four (4) deliverables. The first deadline (Tuesday, November 1st) is a checkpoint to make sure you and your team are succeeding at building your microservice-based ML model. The second deadline (Thursday, Nov 3rd) is for the complete trained model deployable as a microservice. The third deadline (Tuesday, Nov 8th) is for a design document explaining how you would integrate the new feature into your existing codebase, and one (1) individual document making an ethical argument about the feature.
 
-### (1) Architectural Design Document (due Tuesday, Nov 8th, 23:59) -- 30 points
+### (1) Architectural Design Document (due Tuesday, Nov 1st, 23:59) -- 30 points
 
 Once you have implemented the feature in isolation, your next (group) task is to document it and argue for how it should be integrated into the design of the existing system. Effectively, your technical contact’s demand for microservices so the team can develop this feature in isolation, but it raises questions about how it should be integrated into your existing (relatively monolithic) web app. You have at least several options:
 
@@ -96,7 +96,7 @@ Additional Hints:
 
 - As additional reference material, [Software Architecture in Practice, Third Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30264) is a book on software architecture that is available (for free) as an e-book from the CMU library web site. You may wish to review appropriate sections within Part Two to help find appropriate tactics, techniques you can use in your design to promote particular quality attributes. Note that the book is not a reading assignment and you should not try to read it thoroughly. Instead, use it as reference material and select particular bits of advice that are relevant to your situation.
 
-### (2) API Design, Documentation, and Testing (due Tuesday, Nov 1st 11:59 PM) -- 50 points
+### (2) API Design, Documentation, and Testing (due Thursday, Nov 3rd 11:59 PM) -- 50 points
 
 For this checkpoint, you and your team should make sure that all of you are working on the same versions of Python and Python packages.
 You should use [Swagger](https://swagger.io/docs) to define and document the REST API for your microservice, and write a set of API tests that encode the expected functionality of your API (via [pytest](https://flask.palletsprojects.com/en/2.2.x/testing)).
@@ -108,7 +108,7 @@ The deliverable for this checkpoints are:
 2. a non-functional placeholder implementation for each of your API endpoints.
 3. a set of API tests within your GitHub repository
 
-### (3) Implementation (due Thursday, Nov 3rd, 23:59) -- 20 points
+### (3) Implementation (due Tuesday, Nov 8th, 23:59) -- 20 points
 
 The deliverable for this task is a documented technical artifact; submit a link of your GitHub repository to the Gradescope assignment. This should include:
 
