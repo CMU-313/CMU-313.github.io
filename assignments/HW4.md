@@ -56,9 +56,9 @@ Note that the default Flask service in the starter code should be run, and is ac
 
 ## Deadlines and deliverables
 
-This homework has three (3) deadlines and four (4) deliverables. The first deadline (Tuesday, November 1st) is a checkpoint to make sure you and your team are succeeding at building your microservice-based ML model. The second deadline (Thursday, Nov 3rd) is for the complete trained model deployable as a microservice. The third deadline (Tuesday, Nov 8th) is for a design document explaining how you would integrate the new feature into your existing codebase, and one (1) individual document making an ethical argument about the feature.
+This homework has three (3) deadlines and four (4) deliverables. The first deadline (Tuesday, November 1st) is a checkpoint to make sure you and your team are succeeding at building your microservice-based ML model. The second deadline (Tuesday, Nov 8th) is for the complete trained model deployable as a microservice, and a design document explaining how you would integrate the new feature into your existing codebase. The third deadline (Thursday, Nov 10th) is for one (1) individual document making an ethical argument about the feature.
 
-### (1) API Design, Documentation, and Testing (due Thursday, Nov 3rd 11:59 PM) -- 50 points
+### (1) API Design, Documentation, and Testing (due Tuesday, Nov 1st 11:59 PM) -- 50 points
 
 For this checkpoint, you and your team should make sure that all of you are working on the same versions of Python and Python packages.
 You should use [Swagger](https://swagger.io/docs) to define and document the REST API for your microservice, and write a set of API tests that encode the expected functionality of your API (via [pytest](https://flask.palletsprojects.com/en/2.2.x/testing)).
@@ -77,7 +77,7 @@ The deliverable for this task is a documented technical artifact; submit a link 
 
 2. an updated README that clearly and concisely describes features used to training your model, and how your retrained the model performs better than the baseline model.
 
-## (3) Architectural Design Document (due Tuesday, Nov 1st, 23:59) -- 30 points
+## (3) Architectural Design Document (due Tuesday, Nov 8th, 23:59) -- 30 points
 
 Once you have demoed this feature, and shown that it can provide value, you are now faced with a decision about how to implement a long term solution here. You have at least several options including but not limited to:
 
@@ -116,7 +116,7 @@ Additional Hints:
 
 
 
-### (4) Ethical Discussion (due Tuesday, Nov 8th, 23:59) -- 30 points
+### (4) Ethical Discussion (due Thursday, Nov 10th, 23:59) -- 30 points
 
 **This is an individual component.**
 
