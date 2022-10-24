@@ -36,7 +36,7 @@ The starter code includes:
 - an example Flask-based app in the `apps/` directory. Use this as a template to build and deploy the microservice. You may wish to use [this article](https://towardsdatascience.com/a-flask-api-for-serving-scikit-learn-models-c8bcdaa41daa) and [this repository](https://github.com/amirziai/sklearnflask/) as resources on building and saving a scikit-learn model, and then deploying it using Flask. **MAKE SURE** to read the `README.MD` of the repository to learn about and use Pipenv, as it will allow for hassle-free collaboration.
 - a default model under `apps/`, which can be explored with the Jupyter notebook (`model_build.ipnyb`). You will need to create a better-performing model as a part of this homework.
 
-We provide you with a (synthetic) historical dataset (as a CSV file) of student performance (this is an augmented version of the dataset found here), and a (bad) model trained over it. Start by exploring the data, to understand what information is available.
+We provide you with a (synthetic) historical dataset (as a CSV file) of student performance (this is an augmented version of the dataset found [here](https://archive.ics.uci.edu/ml/datasets/Student+Performance)), and a (bad) model trained over it. Start by exploring the data, to understand what information is available.
 Student performance is described by their grades (G1, G2, and G3), where G3 is the final year grade, the target performance metric.
 Grades are on a scale of 0-20; 20 is the best.
 CMU considers a high-quality student one with a G3 grade of 15 or higher.
@@ -67,7 +67,7 @@ Note that, for this deadline, the API does not need to be functional; it is only
 The deliverable for this checkpoints are:
 
 1. a PDF and YAML version of your Swagger documentation. Note that you can create a PDF of your Swagger documentation via the Print Preview function of your browser.
-2. a set of API tests within your GitHub repository
+2. a set of API tests within your GitHub repository. Consider both expected behavior and edge cases. 
 
 ### (2) Implementation (due Tuesday, Nov 8th, 23:59) -- 20 points
 
@@ -157,8 +157,9 @@ You will be graded as a team, with an individual component. This homework is wor
 
 To receive full credit for the checkpoint, we expect:
 
-- That you have tagged a version in your GitHub repo as a 0.1 release
-- That you have Swagger Docs working with reasonable API endpoints.
+- That you have written Swagger Docs with reasonable API endpoints.
+
+- That you have automated, runnable tests that exercise your API endpoints according to your Swagger Docs. Remember, they don't need to pass at the checkpoint, but they should pass by the end. 
 
 To receive full credit for the technical artifacts, we expect:
 
@@ -166,11 +167,9 @@ To receive full credit for the technical artifacts, we expect:
 
 - A discussion of how the new model was evaluated, and some evidence that it outperforms the baseline model
 
-- A test plan that describes how the microservice was tested. This test plan should include at least some automated tests.
+- The checkpoint tests now passing with a correct implementation
 
 To receive full credit on the design document, we expect:
-
-- The document to be dated.
 
 - A concise, accurate feature description.
 
