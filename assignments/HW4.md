@@ -33,8 +33,8 @@ Create a new team repository using this [repository](https://classroom.github.co
 
 The starter code includes:
 
-- an example Flask-based app in the `apps/` directory. Use this as a template to build and deploy the microservice. You may wish to use [this article](https://towardsdatascience.com/a-flask-api-for-serving-scikit-learn-models-c8bcdaa41daa) and [this repository](https://github.com/amirziai/sklearnflask/) as resources on building and saving a scikit-learn model, and then deploying it using Flask. **MAKE SURE** to read the `README.MD` of the repository to learn about and use Pipenv, as it will allow for hassle-free collaboration.
-- a default model under `apps/`, which can be explored with the Jupyter notebook (`model_build.ipnyb`). You will need to create a better-performing model as a part of this homework.
+- an example Flask-based app in the `app/` directory. Use this as a template to build and deploy the microservice. You may wish to use [this article](https://towardsdatascience.com/a-flask-api-for-serving-scikit-learn-models-c8bcdaa41daa) and [this repository](https://github.com/amirziai/sklearnflask/) as resources on building and saving a scikit-learn model, and then deploying it using Flask. **MAKE SURE** to read the `README.MD` of the repository to learn about and use Pipenv, as it will allow for hassle-free collaboration.
+- a default model under `app/`, which can be explored with the Jupyter notebook (`model_build.ipnyb`). You will need to create a better-performing model as a part of this homework.
 
 We provide you with a (synthetic) historical dataset (as a CSV file) of student performance (this is an augmented version of the dataset found [here](https://archive.ics.uci.edu/ml/datasets/Student+Performance)), and a (bad) model trained over it. Start by exploring the data, to understand what information is available.
 Student performance is described by their grades (G1, G2, and G3), where G3 is the final year grade, the target performance metric.
@@ -62,22 +62,22 @@ This homework has three (3) deadlines and four (4) deliverables. The first deadl
 
 For this checkpoint, you and your team should make sure that all of you are working on the same versions of Python and Python packages.
 You should use [Swagger](https://swagger.io/docs) to define and document the REST API for your microservice, and write a set of API tests that encode the expected functionality of your API (via [pytest](https://flask.palletsprojects.com/en/2.2.x/testing)).
-Note that, for this deadline, the API does not need to be functional; it is only required that you create placeholder REST API endpoints that you can use to write your tests. **NOTE: We expect your tests to be failing at this point.  The implementation that allows the tests to pass will be written later.**
+Note that, for this deadline, the API does not need to be functional; it is only required that you create placeholder REST API endpoints that you can use to write your tests. **NOTE: We expect your tests to be failing at this point. The implementation that allows the tests to pass will be written later.**
 
 The deliverable for this checkpoints are:
 
 1. a PDF and YAML version of your Swagger documentation. Note that you can create a PDF of your Swagger documentation via the Print Preview function of your browser.
-2. a set of API tests within your GitHub repository. Consider both expected behavior and edge cases. 
+2. a set of API tests within your GitHub repository. Consider both expected behavior and edge cases.
 
-### (2) Implementation (due Tuesday, Nov 8th, 23:59) -- 20 points
+### (2) Implementation (due Tuesday, Nov 8th, 23:59) -- 30 points
 
 The deliverable for this task is a documented technical artifact; submit a link of your GitHub repository to the Gradescope assignment. This should include:
 
-1. a complete implementation that includes the API endpoints that you previously defined, and returns a prediction using your trained model. 
+1. a complete implementation that includes the API endpoints that you previously defined, and returns a prediction using your trained model.
 
 2. an updated README that clearly and concisely describes features used to training your model, and how your retrained the model performs better than the baseline model.
 
-## (3) Architectural Design Document (due Tuesday, Nov 8th, 23:59) -- 50 points
+### (3) Architectural Design Document (due Tuesday, Nov 8th, 23:59) -- 50 points
 
 Once you have demoed this feature, and shown that it can provide value, you are now faced with a decision about how to implement a long term solution here. You have at least several options including but not limited to:
 
@@ -96,7 +96,7 @@ The design document must (1) concisely describe the feature, (2) make and justif
 
     - A concise, prioritized list of the overall quality requirements you considered in arguing for the integration of the feature into the system (<0.5 pages, soft limit). You may consider and reference the requirements you elicited during HW3 as appropriate. Rank them in decreasing order of importance. This allows readers to quickly understand what requirements you were designing for.
 
-    - A design decision with a textual justification of your design. (~2 pages, soft limit, including alternatives and tradeoffs, below) Outline and argue for a particular implementation choice as to how the feature should be integrated into the overall system architecturally. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design. 
+    - A design decision with a textual justification of your design. (~2 pages, soft limit, including alternatives and tradeoffs, below) Outline and argue for a particular implementation choice as to how the feature should be integrated into the overall system architecturally. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design.
 
     - Considered alternatives and tradeoffs. The design decision and justification must include description of considered alternatives, the tradeoffs they present, and why they were rejected. Tradeoffs must involve (but are not limited to) quality attributes that will be affected by the alternative. Justify such arguments with reference to appropriate diagrams (this provides traceability) and concrete examples, as appropriate.
 
@@ -113,8 +113,6 @@ Additional Hints:
 - It may take several iterations to get your architectural views right. Appoint someone to track the accuracy and completeness of architectural representations throughout this assignment. Do not just divide up the views among your team members and assume they show everything needed. You only need to submit the final designs/documents, not intermediate steps on the process of getting there.
 
 - As additional reference material, [Software Architecture in Practice, Third Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30264) is a book on software architecture that is available (for free) as an e-book from the CMU library web site. You may wish to review appropriate sections within Part Two to help find appropriate tactics, techniques you can use in your design to promote particular quality attributes. Note that the book is not a reading assignment and you should not try to read it thoroughly. Instead, use it as reference material and select particular bits of advice that are relevant to your situation.
-
-
 
 ### (4) Ethical Discussion (due Thursday, Nov 10th, 23:59) -- 30 points
 
@@ -149,8 +147,6 @@ The deliverable for this task is a document (soft limit 3 pages), submitted to G
 
 - A criteria that can be used to evaluate if the intervention described in part (c) is successful.
 
-
-
 ## Grading
 
 You will be graded as a team, with an individual component. This homework is worth 160 points. We will grade you based on the learning goals listed above.
@@ -159,7 +155,7 @@ To receive full credit for the checkpoint, we expect:
 
 - That you have written Swagger Docs with reasonable API endpoints.
 
-- That you have automated, runnable tests that exercise your API endpoints according to your Swagger Docs. Remember, they don't need to pass at the checkpoint, but they should pass by the end. 
+- That you have automated, runnable tests that exercise your API endpoints according to your Swagger Docs. Remember, they don't need to pass at the checkpoint, but they should pass by the end.
 
 To receive full credit for the technical artifacts, we expect:
 
