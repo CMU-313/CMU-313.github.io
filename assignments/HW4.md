@@ -29,7 +29,7 @@ You are correctly skeptical about the effort required to pivot the product in th
 
 ## Starter code, data, and repository
 
-Create a new team repository using this [repository](https://github.com/CMU-313/fall-2022-hw4-starter-code) as a template.
+Create a new team repository using this [repository](https://classroom.github.com/a/dlSY38y3) as a template.
 
 The starter code includes:
 
@@ -77,7 +77,7 @@ The deliverable for this task is a documented technical artifact; submit a link 
 
 2. an updated README that clearly and concisely describes features used to training your model, and how your retrained the model performs better than the baseline model.
 
-## (3) Architectural Design Document (due Tuesday, Nov 8th, 23:59) -- 30 points
+## (3) Architectural Design Document (due Tuesday, Nov 8th, 23:59) -- 50 points
 
 Once you have demoed this feature, and shown that it can provide value, you are now faced with a decision about how to implement a long term solution here. You have at least several options including but not limited to:
 
@@ -153,7 +153,7 @@ The deliverable for this task is a document (soft limit 3 pages), submitted to G
 
 ## Grading
 
-You will be graded as a team, with an individual component. This homework is worth 130 points. We will grade you based on the learning goals listed above.
+You will be graded as a team, with an individual component. This homework is worth 160 points. We will grade you based on the learning goals listed above.
 
 To receive full credit for the checkpoint, we expect:
 
