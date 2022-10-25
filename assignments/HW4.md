@@ -67,17 +67,17 @@ Note that, for this deadline, the API does not need to be functional; it is only
 The deliverable for this checkpoints are:
 
 1. a PDF and YAML version of your Swagger documentation. Note that you can create a PDF of your Swagger documentation via the Print Preview function of your browser.
-2. a set of API tests within your GitHub repository. Consider both expected behavior and edge cases. 
+2. a set of API tests within your GitHub repository. Consider both expected behavior and edge cases.
 
 ### (2) Implementation (due Tuesday, Nov 8th, 23:59) -- 20 points
 
 The deliverable for this task is a documented technical artifact; submit a link of your GitHub repository to the Gradescope assignment. This should include:
 
-1. a complete implementation that includes the API endpoints that you previously defined, and returns a prediction using your trained model. 
+1. a complete implementation that includes the API endpoints that you previously defined, and returns a prediction using your trained model.
 
 2. an updated README that clearly and concisely describes features used to training your model, and how your retrained the model performs better than the baseline model.
 
-## (3) Architectural Design Document (due Tuesday, Nov 8th, 23:59) -- 50 points
+### (3) Architectural Design Document (due Tuesday, Nov 8th, 23:59) -- 50 points
 
 Once you have demoed this feature, and shown that it can provide value, you are now faced with a decision about how to implement a long term solution here. You have at least several options including but not limited to:
 
@@ -96,7 +96,7 @@ The design document must (1) concisely describe the feature, (2) make and justif
 
     - A concise, prioritized list of the overall quality requirements you considered in arguing for the integration of the feature into the system (<0.5 pages, soft limit). You may consider and reference the requirements you elicited during HW3 as appropriate. Rank them in decreasing order of importance. This allows readers to quickly understand what requirements you were designing for.
 
-    - A design decision with a textual justification of your design. (~2 pages, soft limit, including alternatives and tradeoffs, below) Outline and argue for a particular implementation choice as to how the feature should be integrated into the overall system architecturally. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design. 
+    - A design decision with a textual justification of your design. (~2 pages, soft limit, including alternatives and tradeoffs, below) Outline and argue for a particular implementation choice as to how the feature should be integrated into the overall system architecturally. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design.
 
     - Considered alternatives and tradeoffs. The design decision and justification must include description of considered alternatives, the tradeoffs they present, and why they were rejected. Tradeoffs must involve (but are not limited to) quality attributes that will be affected by the alternative. Justify such arguments with reference to appropriate diagrams (this provides traceability) and concrete examples, as appropriate.
 
@@ -159,7 +159,7 @@ To receive full credit for the checkpoint, we expect:
 
 - That you have written Swagger Docs with reasonable API endpoints.
 
-- That you have automated, runnable tests that exercise your API endpoints according to your Swagger Docs. Remember, they don't need to pass at the checkpoint, but they should pass by the end. 
+- That you have automated, runnable tests that exercise your API endpoints according to your Swagger Docs. Remember, they don't need to pass at the checkpoint, but they should pass by the end.
 
 To receive full credit for the technical artifacts, we expect:
 
