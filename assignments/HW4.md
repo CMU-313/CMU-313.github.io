@@ -33,8 +33,8 @@ Create a new team repository using this [repository](https://classroom.github.co
 
 The starter code includes:
 
-- an example Flask-based app in the `apps/` directory. Use this as a template to build and deploy the microservice. You may wish to use [this article](https://towardsdatascience.com/a-flask-api-for-serving-scikit-learn-models-c8bcdaa41daa) and [this repository](https://github.com/amirziai/sklearnflask/) as resources on building and saving a scikit-learn model, and then deploying it using Flask. **MAKE SURE** to read the `README.MD` of the repository to learn about and use Pipenv, as it will allow for hassle-free collaboration.
-- a default model under `apps/`, which can be explored with the Jupyter notebook (`model_build.ipnyb`). You will need to create a better-performing model as a part of this homework.
+- an example Flask-based app in the `app/` directory. Use this as a template to build and deploy the microservice. You may wish to use [this article](https://towardsdatascience.com/a-flask-api-for-serving-scikit-learn-models-c8bcdaa41daa) and [this repository](https://github.com/amirziai/sklearnflask/) as resources on building and saving a scikit-learn model, and then deploying it using Flask. **MAKE SURE** to read the `README.MD` of the repository to learn about and use Pipenv, as it will allow for hassle-free collaboration.
+- a default model under `app/`, which can be explored with the Jupyter notebook (`model_build.ipnyb`). You will need to create a better-performing model as a part of this homework.
 
 We provide you with a (synthetic) historical dataset (as a CSV file) of student performance (this is an augmented version of the dataset found [here](https://archive.ics.uci.edu/ml/datasets/Student+Performance)), and a (bad) model trained over it. Start by exploring the data, to understand what information is available.
 Student performance is described by their grades (G1, G2, and G3), where G3 is the final year grade, the target performance metric.
@@ -62,14 +62,14 @@ This homework has three (3) deadlines and four (4) deliverables. The first deadl
 
 For this checkpoint, you and your team should make sure that all of you are working on the same versions of Python and Python packages.
 You should use [Swagger](https://swagger.io/docs) to define and document the REST API for your microservice, and write a set of API tests that encode the expected functionality of your API (via [pytest](https://flask.palletsprojects.com/en/2.2.x/testing)).
-Note that, for this deadline, the API does not need to be functional; it is only required that you create placeholder REST API endpoints that you can use to write your tests. **NOTE: We expect your tests to be failing at this point.  The implementation that allows the tests to pass will be written later.**
+Note that, for this deadline, the API does not need to be functional; it is only required that you create placeholder REST API endpoints that you can use to write your tests. **NOTE: We expect your tests to be failing at this point. The implementation that allows the tests to pass will be written later.**
 
 The deliverable for this checkpoints are:
 
 1. a PDF and YAML version of your Swagger documentation. Note that you can create a PDF of your Swagger documentation via the Print Preview function of your browser.
 2. a set of API tests within your GitHub repository. Consider both expected behavior and edge cases.
 
-### (2) Implementation (due Tuesday, Nov 8th, 23:59) -- 20 points
+### (2) Implementation (due Tuesday, Nov 8th, 23:59) -- 30 points
 
 The deliverable for this task is a documented technical artifact; submit a link of your GitHub repository to the Gradescope assignment. This should include:
 
@@ -114,8 +114,6 @@ Additional Hints:
 
 - As additional reference material, [Software Architecture in Practice, Third Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30264) is a book on software architecture that is available (for free) as an e-book from the CMU library web site. You may wish to review appropriate sections within Part Two to help find appropriate tactics, techniques you can use in your design to promote particular quality attributes. Note that the book is not a reading assignment and you should not try to read it thoroughly. Instead, use it as reference material and select particular bits of advice that are relevant to your situation.
 
-
-
 ### (4) Ethical Discussion (due Thursday, Nov 10th, 23:59) -- 30 points
 
 **This is an individual component.**
@@ -148,8 +146,6 @@ The deliverable for this task is a document (soft limit 3 pages), submitted to G
 - A discussion of how to address each ethical concern.
 
 - A criteria that can be used to evaluate if the intervention described in part (c) is successful.
-
-
 
 ## Grading
 
