@@ -57,7 +57,7 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Lecture**{: .label .label-gold } | Oct-13 | **[Architecture: Design Documents](/assets/pdfs/12-arch-design-docs.pdf)**{: .label .label-gold} | | **[HW3C due](/assignments/hw3)**{: .label .label-red} |
 | | Oct-18                                | NO CLASS     |
 | | Oct-20                                | NO CLASS     |
-| **Lecture**{: .label .label-gold }    | Oct-25       |
+| **Lecture**{: .label .label-gold }    | Oct-25       | **[SE4ML]{/assets/pdfs/13-SEforML.pdf}
 | **Recitation**{: .label .label-aqua } | Oct-26/28    |
 | **Lecture**{: .label .label-gold }    | Oct-27       |
 | **Lecture**{: .label .label-gold }    | Nov-1        | | | **[HW4A due](/assignments/hw4)**{: .label .label-red} |
