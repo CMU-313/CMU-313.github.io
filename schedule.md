@@ -58,7 +58,7 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | | Oct-18                                | NO CLASS     |
 | | Oct-20                                | NO CLASS     |
 | **Lecture**{: .label .label-gold }    | Oct-25       |**[SE4ML](/assets/pdfs/13-SEforML.pdf)**{: .label .label-gold} 
-| **Recitation**{: .label .label-aqua } | Oct-26/28    |
+| **Recitation**{: .label .label-aqua } | Oct-26/28    | NO RECITATION |
 | **Lecture**{: .label .label-gold }    | Oct-27       |
 | **Lecture**{: .label .label-gold }    | Nov-1        | | | **[HW4A due](/assignments/hw4)**{: .label .label-red} |
 | **Recitation**{: .label .label-aqua } | Nov-2/4      |
