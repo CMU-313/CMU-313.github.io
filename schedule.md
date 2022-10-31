@@ -61,7 +61,7 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Recitation**{: .label .label-aqua } | Oct-26/28    | NO RECITATION |
 | **Lecture**{: .label .label-gold }    | Oct-27       |
 | **Lecture**{: .label .label-gold }    | Nov-1        | | | **[HW4A due](/assignments/hw4)**{: .label .label-red} |
-| **Recitation**{: .label .label-aqua } | Nov-2/4      |
+| **Recitation**{: .label .label-aqua } | Nov-2/4      | **[Machine Learning](https://docs.google.com/presentation/d/1WR3AXtBc3I0X7bGIE2WgS-XKti5nf5zn/edit?usp=sharing&ouid=106031865927186219404&rtpof=true&sd=true)**{: .label .label-aqua } **[Handout](/recitations/7-ml)**{: .label .label-aqua }
 | **Lecture**{: .label .label-gold }    | Nov-3        |                                                                                                                                                                                                                      |                                                                                                                                                                                                        |
 | **Lecture**{: .label .label-gold }    | Nov-8        | | | **[HW4B/C due](/assignments/hw4)**{: .label .label-red} |
 | **Recitation**{: .label .label-aqua } | Nov-9/11     |
