@@ -186,3 +186,83 @@ To receive full credit on the individual ethical reflection, we expect:
 - That you can reason about potential ethical concerns before the emerge
 
 - Thoughtful consideration of what it would take to address these concerns
+
+## Troubleshooting and FAQ
+
+### Cannot install pipenv
+
+Your python or pip installer might be outdated.
+
+- Reinstall a specific version of python via homebrew. You would need homebrew. We recommend using homebrew.
+
+```terminal
+brew install python@3.8
+```
+
+- Reinstall/update pip3
+
+```terminal
+python -m pip3 install --upgrade pip
+```
+
+OR
+
+```terminal
+pip3 install --upgrade pip
+```
+
+### Installed pipenv, but cannot install packages from pipenv
+
+It might be that some packages are not installed. We have updated the starter code's [pipfile here](https://github.com/CMU-313/fall-2022-hw4-starter-code/blob/master/Pipfile) (as of 10/31/2022), so that it explicilty indicates which version of which packages you need (otherwise pip would just used the version currently installed on your machine).
+
+You can just copy and paste the new Pipfile into your own, and `pipenv install` again
+
+### Installed packages, but doesn't show up on jupyter notebook?
+
+It's probably that jupyter's python path isn't set properly in the kernel config file.
+The kernel needs to be created within the pipenv shell to pick up the right path.
+
+**Troubleshooting**
+
+- Make sure `ipykernel` package is installed within your pipenv. If not, run
+
+```terminal
+pipenv install ipykernel
+```
+
+- Enter the virtual shell via:
+
+```terminal
+pipenv shell
+```
+
+- In the shell, create a new kernel via:
+
+```terminal
+python -m ipykernel install --user --name=my-virtualenv-name
+```
+
+where `my-virtualenv-name` can be the name of your kernel/venv name.
+
+- Now, launch the jupyter notebook
+
+```terminal
+jupyter notebook
+```
+
+- Finally, in your notebook, Kernel -> Change Kernel. Your kernel should now be an option.
+
+[source: pythonanywhere.com](https://help.pythonanywhere.com/pages/IPythonNotebookVirtualenvs/)
+
+### I ran the flask app, but 404 errors constantly show up
+
+- Make sure you're starting your flask app within the `app` directory.
+- At the return statement of your `/predict` endpoint, `np.asscalar` is actually outdated and does not work. This is a mistake on our part. You can get the same result using `np.ndarray.item`.
+
+### How can I test endpoints if I need URLs to call them? Will GH actions work with the localhost URL and endpoints?
+
+You don't need the url. You can search on google "pytest flask api post request" and get [these results](https://www.google.com/search?q=pytest+flask+api+post+request&newwindow=1&rlz=1C5CHFA_en&sxsrf=ALiCzsZuCAW7O7loNqbMf4aZtkSyVpF3RA%3A1667269570737&ei=woNgY5TCLMaq5NoPjf6S8AY&ved=0ahUKEwiUq4iU94v7AhVGFVkFHQ2_BG4Q4dUDCBE&uact=5&oq=pytest+flask+api+post+request&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAEyBQghEKABMgUIIRCgAToKCAAQRxDWBBCwAzoFCAAQkQI6BAgAEEM6DgguEIAEELEDEMcBENEDOhEILhCABBCxAxCDARDHARDRAzoLCAAQgAQQsQMQgwE6CwguEIAEELEDEIMBOgsILhCABBDHARDRAzoKCAAQsQMQgwEQQzoLCC4QgAQQxwEQrwE6CAguEIAEELEDOggIABCxAxCDAToFCAAQgAQ6CAgAEIAEELEDOg4ILhCABBDHARCvARDUAjoHCAAQgAQQCjoNCAAQgAQQsQMQgwEQCjoKCC4QgAQQsQMQCjoHCAAQgAQQDToRCC4QsQMQgwEQxwEQ0QMQkQI6CgguEMcBENEDEEM6EAguELEDEIMBEMcBENEDEEM6CwgAELEDEIMBEJECOhEILhCABBCxAxDHARDRAxDUAjoHCC4QsQMQQzoKCAAQgAQQsQMQCjoECC4QQzoFCC4QgAQ6CAguELEDEIMBOgcIABCxAxBDOgYIABAWEB46BQgAEIYDOgUIIRCrAjoICCEQFhAeEB1KBAhBGABKBAhGGABQwA1YoGVghWloCXABeAKAAZoBiAGyH5IBBDQwLjiYAQCgAQHIAQjAAQE&sclient=gws-wiz-serp).
+
+Feel free to use any, but [this resource](https://flask.palletsprojects.com/en/2.2.x/testing/) (first from the search result) seems to be helpful.
+
+You can also use the starter code for reference to see how the existing made a call to the client!
