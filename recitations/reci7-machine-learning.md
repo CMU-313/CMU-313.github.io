@@ -11,8 +11,8 @@ parent: Recitations
  
 ### Setup Instructions (10 min): 
 
-1. Go to this repo: https://github.com/CMU-313/17313-recitation7-ML
-    1. Click the code button, switch to codespaces, and click green create codespace on main button
+Go to this [GitHub repo](https://github.com/CMU-313/17313-recitation7-ML)
+- Click the code button, switch to codespaces, and click green create codespace on main button
 
  
 ### Overview
