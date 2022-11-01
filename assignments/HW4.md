@@ -186,3 +186,75 @@ To receive full credit on the individual ethical reflection, we expect:
 - That you can reason about potential ethical concerns before the emerge
 
 - Thoughtful consideration of what it would take to address these concerns
+
+## Troubleshooting and FAQ
+
+### Cannot install pipenv
+
+Your python or pip installer might be outdated.
+
+- Reinstall a specific version of python via homebrew. You would need homebrew. We recommend using homebrew.
+
+```terminal
+brew install python@3.8
+```
+
+- Reinstall/update pip3
+
+```terminal
+python -m pip3 install --upgrade pip
+```
+
+OR
+
+```terminal
+pip3 install --upgrade pip
+```
+
+### Installed pipenv, but cannot install packages from pipenv
+
+It might be that some packages are not installed. We have updated the starter code's [pipfile here](https://github.com/CMU-313/fall-2022-hw4-starter-code/blob/master/Pipfile) (as of 10/31/2022), so that it explicilty indicates which version of which packages you need (otherwise pip would just used the version currently installed on your machine).
+
+You can just copy and paste the new Pipfile into your own, and `pipenv install` again
+
+### Installed packages, but doesn't show up on jupyter notebook?
+
+It's probably that jupyter's python path isn't set properly in the kernel config file.
+The kernel needs to be created within the pipenv shell to pick up the right path.
+
+**Troubleshooting**
+
+- Make sure `ipykernel` package is installed within your pipenv. If not, run
+
+```terminal
+pipenv install ipykernel
+```
+
+- Enter the virtual shell via:
+
+```terminal
+pipenv shell
+```
+
+- In the shell, create a new kernel via:
+
+```terminal
+python -m ipykernel install --user --name=my-virtualenv-name
+```
+
+where `my-virtualenv-name` can be the name of your kernel/venv name.
+
+- Now, launch the jupyter notebook
+
+```terminal
+jupyter notebook
+```
+
+- Finally, in your notebook, Kernel -> Change Kernel. Your kernel should now be an option.
+
+[source: pythonanywhere.com](https://help.pythonanywhere.com/pages/IPythonNotebookVirtualenvs/)
+
+### I ran the flask app, but 404 errors constantly show up
+
+- Make sure you're starting your flask app within the `app` directory.
+- At the return statement of your `/predict` endpoint, `np.asscalar` is actually outdated and does not work. This is a mistake on our part. You can get the same result using `np.ndarray.item`.
