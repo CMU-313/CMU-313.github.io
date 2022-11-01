@@ -259,10 +259,10 @@ jupyter notebook
 - Make sure you're starting your flask app within the `app` directory.
 - At the return statement of your `/predict` endpoint, `np.asscalar` is actually outdated and does not work. This is a mistake on our part. You can get the same result using `np.ndarray.item`.
 
-### How can I test endpoints if I need URLs to call them?
+### How can I test endpoints if I need URLs to call them? Will GH actions work with the localhost URL and endpoints?
 
-You don't. You can search on google "how to send post requests in python" and get [these results](https://www.google.com/search?q=how+to+use+request.post+in+python&rlz=1C5CHFA_en&oq=how+to+use+request.post&aqs=chrome.1.69i57j0i512j0i22i30l8.6176j0j7&sourceid=chrome&ie=UTF-8).
+You don't need the url. You can search on google "pytest flask api post request" and get [these results](https://www.google.com/search?q=pytest+flask+api+post+request&newwindow=1&rlz=1C5CHFA_en&sxsrf=ALiCzsZuCAW7O7loNqbMf4aZtkSyVpF3RA%3A1667269570737&ei=woNgY5TCLMaq5NoPjf6S8AY&ved=0ahUKEwiUq4iU94v7AhVGFVkFHQ2_BG4Q4dUDCBE&uact=5&oq=pytest+flask+api+post+request&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAEyBQghEKABMgUIIRCgAToKCAAQRxDWBBCwAzoFCAAQkQI6BAgAEEM6DgguEIAEELEDEMcBENEDOhEILhCABBCxAxCDARDHARDRAzoLCAAQgAQQsQMQgwE6CwguEIAEELEDEIMBOgsILhCABBDHARDRAzoKCAAQsQMQgwEQQzoLCC4QgAQQxwEQrwE6CAguEIAEELEDOggIABCxAxCDAToFCAAQgAQ6CAgAEIAEELEDOg4ILhCABBDHARCvARDUAjoHCAAQgAQQCjoNCAAQgAQQsQMQgwEQCjoKCC4QgAQQsQMQCjoHCAAQgAQQDToRCC4QsQMQgwEQxwEQ0QMQkQI6CgguEMcBENEDEEM6EAguELEDEIMBEMcBENEDEEM6CwgAELEDEIMBEJECOhEILhCABBCxAxDHARDRAxDUAjoHCC4QsQMQQzoKCAAQgAQQsQMQCjoECC4QQzoFCC4QgAQ6CAguELEDEIMBOgcIABCxAxBDOgYIABAWEB46BQgAEIYDOgUIIRCrAjoICCEQFhAeEB1KBAhBGABKBAhGGABQwA1YoGVghWloCXABeAKAAZoBiAGyH5IBBDQwLjiYAQCgAQHIAQjAAQE&sclient=gws-wiz-serp).
 
-Feel free to use any, but [this resource](https://www.w3schools.com/python/ref_requests_post.asp) (first from the search result) seems to be helpful.
+Feel free to use any, but [this resource](https://flask.palletsprojects.com/en/2.2.x/testing/) (first from the search result) seems to be helpful.
 
 You can also use the starter code for reference to see how the existing made a call to the client!
