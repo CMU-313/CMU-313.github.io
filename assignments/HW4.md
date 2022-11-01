@@ -258,3 +258,11 @@ jupyter notebook
 
 - Make sure you're starting your flask app within the `app` directory.
 - At the return statement of your `/predict` endpoint, `np.asscalar` is actually outdated and does not work. This is a mistake on our part. You can get the same result using `np.ndarray.item`.
+
+### How can I test endpoints if I need URLs to call them?
+
+You don't. You can search on google "how to send post requests in python" and get [these results](https://www.google.com/search?q=how+to+use+request.post+in+python&rlz=1C5CHFA_en&oq=how+to+use+request.post&aqs=chrome.1.69i57j0i512j0i22i30l8.6176j0j7&sourceid=chrome&ie=UTF-8).
+
+Feel free to use any, but [this resource](https://www.w3schools.com/python/ref_requests_post.asp) (first from the search result) seems to be helpful.
+
+You can also use the starter code for reference to see how the existing made a call to the client!
