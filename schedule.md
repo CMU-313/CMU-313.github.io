@@ -63,7 +63,7 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Lecture**{: .label .label-gold }    | Nov-1        | **[Ethics](assets/pdfs/14-Ethics.pdf)**{: .label .label-gold }        | | **[HW4A due](/assignments/hw4)**{: .label .label-red} |
 | **Recitation**{: .label .label-aqua } | Nov-2/4      | **[Machine Learning](https://docs.google.com/presentation/d/1WR3AXtBc3I0X7bGIE2WgS-XKti5nf5zn/edit?usp=sharing&ouid=106031865927186219404&rtpof=true&sd=true)**{: .label .label-aqua } **[Handout](/recitations/7-ml)**{: .label .label-aqua }
 | **Lecture**{: .label .label-gold }    | Nov-3        | **[QA: ML](assets/pdfs/15-ML-QA.pdf)**{: .label .label-gold } |  | |
-| **Lecture**{: .label .label-gold }    | Nov-8        | | | **[HW4B/C due](/assignments/hw4)**{: .label .label-red} |
+| **Lecture**{: .label .label-gold }    | Nov-8        | **[QA: Fairness](assets/pdfs/16-ML-Fairness.pdf)**{: .label .label-gold }| | **[HW4B/C due](/assignments/hw4)**{: .label .label-red} |
 | **Recitation**{: .label .label-aqua } | Nov-9/11     |
 | **Lecture**{: .label .label-gold }    | Nov-10 | | | **[HW4D due](/assignments/hw4)**{: .label .label-red} |
 | **Lecture**{: .label .label-gold }    | Nov-15       |
