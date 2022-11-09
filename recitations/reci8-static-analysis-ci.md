@@ -31,6 +31,7 @@ The `test` job should pass on your PR. Click "Squash and merge"* to merge after 
 
 *: It's just a lot cleaner than the default merge.
 
+If you are _really_ stuck on how to fix, click [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 # Step 3: Make your code pretty 
 
 Different tab sizes driving you crazy? Let's use a tool to standardize them all. A code formatter, a static analysis tool, helps one identify and fix formatting issues in the codebase. Let's use [black](https://github.com/psf/black) as an example. 
