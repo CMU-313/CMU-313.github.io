@@ -5,6 +5,7 @@ permalink: /recitations/8-analysis-ci
 parent: Recitations
 ---
 # Recitation 8: static analysis and continuous integration
+
 Static and dynamic analysis tools help you keep the codebase healthy. In this recitation, we will learn how to set up these tools in CI (GitHub Actions). 
 # Step 1: Setup your sample Python repo
 
