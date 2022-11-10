@@ -50,12 +50,8 @@ Dynamic analysis:
 
 **JavaScript**
 
-Static analysis:
 - [eslint](https://eslint.org/) is a widely used linter in modern JavaScript packages. 
 - [flow](https://flow.org/) is a static type checker for JavaScript.
-
-Dynamic analysis:
-- [jalangi2](https://github.com/Samsung/jalangi2]) is a dynamic analysis framework for JavaScript. 
 
 ### ML Model Assessment
 
@@ -63,14 +59,13 @@ In the last homework assignment, you created a Machine Learning model.  In fact,
 
 Your first task is to present a data-driven analysis of the predictions that your model is making.  You will do this using the LIME tool we have previously looked at in class: [https://github.com/marcotcr/lime](https://github.com/marcotcr/lime)
 
-Run this tool on your model, and collect data on how the model is making predictions. You should use this data to report on the behavior of the ML recommendation system. Here, when you run the tool, remember to use the more complete production data that your team has collected, in the place of the previous limited training data. You can find the updated data here: [Production Data](https://cmu-313.github.io/assignments/ProductionData.csv.zip)
-
+Run this tool on your model, and collect data on how the model is making predictions. You should use this data to report on the behavior of the ML recommendation system. Here, when you run the tool, remember to use the more complete production data that your team has collected, in the place of the previous limited training data. You can find the updated data here: [Production Data](/assignments/ProductionData.csv.zip)
 
 The data-driven analysis will allow your company to ensure that the ML is working properly. However, you are also concerned with fairness.
 
-You should also include in your report a data-driven analysis of the fairness of your algorithm. To analyze the fairness, you should remember the fairness discussion we had in class, based on this tool: [ML Discrimination](https://research.google.com/bigpicture/attacking-discrimination-in-ml/)
+You should also include in your report a data-driven analysis of the fairness of your algorithm. To analyze the fairness, you should remember the fairness discussion we had in class, based on this tool: [ML Discrimination](https://research.google.com/bigpicture/attacking-discrimination-in-ml/). Then, consider two of the fairness approaches we discussed in class, and compare them. Finally, you report should include a recommendation if you want to use the ML, scrap it, or make specific improvements before rolling it out. 
 
-Finally, you report should include a recommendation if you want to use the ML, scrap it, or make specific improvements before rolling it out. Specifically your report should include the following information:
+Specifically your report should include the following information:
 
 -   Data-driven analysis of the predictions the model is making.
 -   Any concerns you have about the quality of the predictions in light of this data.
@@ -79,7 +74,7 @@ Finally, you report should include a recommendation if you want to use the ML, s
     -   Distribution of this feature in your dataset.
     -   Distribution of this feature in your accepted and rejected recommendation populations
     -   Relationship between this feature and your false positives and false negatives.
--   Based on this data, you should consider what is the fairness strategy that you are trying to achieve. You may use one of the fairness strategies we considered in class, or define your own. If you define a new fairness strategy, you should describe it, and present why you think it is a better fit than any of the existing strategies for this product.
+-   Based on this data, you should consider what is the fairness strategy that you are trying to achieve. You may use __two of the fairness strategies__ we considered in class, or define your own. If you define a new fairness strategy, you should describe it, and present why you think it is a better fit than any of the existing strategies for this product.
 -   If you are not happy with the performance of the system, based on the data you have collected, you should do the following:
     -   Report on what aspects of the system you are unhappy with
     -   Iterate your model 1 iteration, and see if you can improve its performance. Most likely, this will NOT be enough to fix it, but your goal in this assignment is to learn enough to make a reasonable estimate of the effort needed to fix the model.
