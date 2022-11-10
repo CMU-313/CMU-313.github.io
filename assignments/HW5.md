@@ -26,7 +26,7 @@ First, you will evaluate and choose between a set of analysis tools, integrate i
 
 You can create a new team repository by following the link for your team, which will clone the Teedy code automatically:
 
-[Create Assignment with Github Classroom (TODO)]()
+[Create Assignment with Github Classroom](https://classroom.github.com/a/ZQC6b77K)
 
 Apply one or more of the tools to your project. You may also apply it to one or more other programs if you wish to assess it in different contexts. Consider and experiment with the types of customization that are appropriate or necessary for this tool, both a priori (before they can be used in your project) and possibly over time. Assess the strengths and weaknesses of each tool/technique, both quantitatively and qualitatively. You might consider issues like, but not limited to: what types of problems are you hoping your tooling will catch? What types of problems does a particular tool catch? What types of customization are possible or necessary? How can/should this tool be integrated into a development process? Are there many false positives? False negatives? True positive reports about things you don't care about?
 
@@ -34,18 +34,28 @@ The deliverable for this part, at a high level, is a Design Document/RFC that ex
 
 **NOTE: you do not need to integrate ALL `N` tools into your repo, but you should integrate at least (1) tool so that it runs via CI, and have one commit on which it was run.  You should reference this commit in your design document**
 
-**Starter list of Tools:**
+#### Starter list of Tools
+
+Teedy has a Java backend and an AngularJS (JavaScript) frontend. Below are non-exhaustive lists of analysis tools that are available for both Java and JavaScript. Others are available. [Awesome Static Analysis page/repo](https://github.com/analysis-tools-dev/static-analysis) and [Awesome Dynamic Analysis page/repo](https://github.com/analysis-tools-dev/dynamic-analysis/) have extensive listings of available static and dynamic analysis tools for a pretty hefty list of programming languages, including Java. Some of the tools have GitHub Actions workflows on [GitHub Marketplace](https://github.com/marketplace?category=&query=&type=actions&verification=); use your Googling skills, and see what you find! 
+
+**Java**
 
 Static analysis:
-    - [Checkstyle](https://github.com/checkstyle/checkstyle), a tool for checking Java source code for adherence to a code standard.
-    - [Error Prone](https://errorprone.info/), a bug-finder that catches common programming mistakes at compile-time.
-    - [SpotBugs](https://spotbugs.github.io/), a fork of [FindBugs](https://findbugs.sourceforge.net/) that can spot [over 400 bug patterns](https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html)
-    - [Pitest](https://pitest.org/), a [mutation testing](https://en.wikipedia.org/wiki/Mutation_testing) system for Java.
-Dynamic analysis:
-    - [Jacoco](https://www.jacoco.org/jacoco/), a Java code coverage library
-    - [YourKit](https://www.yourkit.com/java/profiler/features/), commercial Java profiler (15 days trial)
+- [Checkstyle](https://github.com/checkstyle/checkstyle), a tool for checking Java source code for adherence to a code standard.
+- [SpotBugs](https://spotbugs.github.io/), a fork of [FindBugs](https://findbugs.sourceforge.net/) that can spot [over 400 bug patterns](https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html)
 
-Others are available. [Awesome Static Analysis page/repo](https://github.com/analysis-tools-dev/static-analysis) and [Awesome Dynamic Analysis page/repo](https://github.com/analysis-tools-dev/dynamic-analysis/) have extensive listings of available static and dynamic analysis tools for a pretty hefty list of programming languages, including Java. Some of the tools have GitHub Actions workflows on [GitHub Marketplace](https://github.com/marketplace?category=&query=&type=actions&verification=); use your Googling skills, and see what you find! 
+Dynamic analysis:
+- [Pitest](https://pitest.org/), a [mutation testing](https://en.wikipedia.org/wiki/Mutation_testing) system for Java.
+- [YourKit](https://www.yourkit.com/java/profiler/features/), commercial Java profiler (15 days trial)
+
+**JavaScript**
+
+Static analysis:
+- [eslint](https://eslint.org/) is a widely used linter in modern JavaScript packages. 
+- [flow](https://flow.org/) is a static type checker for JavaScript.
+
+Dynamic analysis:
+- [jalangi2](https://github.com/Samsung/jalangi2]) is a dynamic analysis framework for JavaScript. 
 
 ### ML Model Assessment
 
@@ -81,19 +91,19 @@ Finally, you report should include a recommendation if you want to use the ML, s
 
 ### Deadlines and Deliverables
 
-This homework has one (1) deadline and two (2) deliverables. The deadline (TODO: **Tuesday,** **Nov 23rd**) is for all the deliverables:  the static analysis design doc, and the report on the ML model.
+This homework has one (1) deadline and two (2) deliverables. The deadline (**Friday, Nov 18**) is for all the deliverables:  the static analysis design doc, and the report on the ML model.
 
-**Part A: Static Analysis - Group (due Nov 23) - 100 points (50%)**
+**Part A: Static Analysis - Group (due Nov 18) - 50 points (50%)**
 
 The deliverable for this part is a Design Document/RFC that provides (1) a justified explanation for which tool(s) you think the project should use moving forward, and (2) how it shall be integrated into your process (you must recommend at least one tool, even if it's with reservations).  This latter point should address both technical (e.g., at what point in the development/deployment process shall it be integrated? What sorts of customization or configuration will you be using?) and social issues (e.g., how will you incentivize the change?), as applicable. The justification should be based on your experiences running the tools and, as much as possible, be grounded in data about, for example, tool usability, output, and customizability.
 
-Be sure the RFC also explains/justifies the alternative tools (or process options, if pertinent) that have been rejected. To receive full credit, you must consider at least `N` total tool options in your RFC, where `N` is the size of your team.  The document should also contain other relevant sections for a Design Document/RFC for this type of (development process) feature. Are there open questions? Issues you consider out of scope? Drawbacks of the proposed process/tooling that you are accepting for some (good) reason? Etc. That is: make sure it's a good/complete design document!
+Be sure the RFC also explains/justifies the alternative tools (or process options, if pertinent) that have been rejected. To receive full credit, you must consider at least `N` total tool options in your RFC, where `N` is the size of your team. The document should also contain other relevant sections for a Design Document/RFC for this type of (development process) feature. Are there open questions? Issues you consider out of scope? Drawbacks of the proposed process/tooling that you are accepting for some (good) reason? Etc. That is: make sure it's a good/complete design document!
 
 **NOTE: in your PDF submitted to gradescope, you should explictly reference at least one commit on which your tool has been run in your repo.**
 
 Submit the Design Document as a single PDF to Gradescope.
 
-**Part B: ML Explainability -- Group (due Nov 23) -- 100 points (50%)**
+**Part B: ML Explainability -- Group (due Nov 18) -- 50 points (50%)**
 
 For this deliverable, you will be collecting data, and writing a report.  The report should include the data you collect as well as your interpretation of the data.
 
