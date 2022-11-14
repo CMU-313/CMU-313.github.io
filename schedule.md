@@ -70,8 +70,8 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Recitation**{: .label .label-aqua } | Nov-16/18    |
 | **Lecture**{: .label .label-gold }    | Nov-17       | | | |
 | | Nov-18 | | | **[HW5 due](/assignments/hw5)**{: .label .label-red} |
-| Nov-22                                | NO CLASS     |
-| Nov-24                                | THANKSGIVING |
+| | Nov-22                                | NO CLASS     |
+| | Nov-24                                | THANKSGIVING |
 | **Lecture**{: .label .label-gold }    | Nov-29       |
 | **Recitation**{: .label .label-aqua } | Nov-30/Dec-2 |
 | **Lecture**{: .label .label-gold }    | Dec-1        |
