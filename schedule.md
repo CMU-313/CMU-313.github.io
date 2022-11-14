@@ -64,11 +64,12 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Recitation**{: .label .label-aqua } | Nov-2/4      | **[Machine Learning](https://docs.google.com/presentation/d/1WR3AXtBc3I0X7bGIE2WgS-XKti5nf5zn/edit?usp=sharing&ouid=106031865927186219404&rtpof=true&sd=true)**{: .label .label-aqua } **[Handout](/recitations/7-ml)**{: .label .label-aqua }
 | **Lecture**{: .label .label-gold }    | Nov-3        | **[QA: ML](assets/pdfs/15-ML-QA.pdf)**{: .label .label-gold } |  | |
 | **Lecture**{: .label .label-gold }    | Nov-8        | **[QA: Fairness](assets/pdfs/16-ML-Fairness.pdf)**{: .label .label-gold }| | **[HW4B/C due](/assignments/hw4)**{: .label .label-red} |
-| **Recitation**{: .label .label-aqua } | Nov-9/11     | **[Analysis and CI](/assets/pdfs/recitation8-static-analysis-and-ci.pdf)**{: .label .label-aqua } **[Handout](/recitations/8-nnalysis-ci)**{: .label .label-aqua } |
+| **Recitation**{: .label .label-aqua } | Nov-9/11     | **[Analysis and CI](/assets/pdfs/recitation8-static-analysis-and-ci.pdf)**{: .label .label-aqua } **[Handout](/recitations/8-analysis-ci)**{: .label .label-aqua } |
 | **Lecture**{: .label .label-gold }    | Nov-10 | **[Static and Dynamic Analysis](assets/pdfs/20-static-and-dynamic-analysis-tools.pdf)**{: .label .label-gold } | | **[HW4D due](/assignments/hw4)**{: .label .label-red} |
 | **Lecture**{: .label .label-gold }    | Nov-15       |
-| **Recitation**{: .label .label-aqua } | Nov-16/18    |
+| **Recitation**{: .label .label-aqua } | Nov-16/18    | **[Open Source Projects](https://docs.google.com/presentation/d/1pcSFHUkGIdg_ukSLlW8IZvgtZ5Zy18I78zb_ELIkVXE/edit?usp=sharing)**{: .label .label-aqua } **[Handout](/recitations/9-open-source)**{: .label .label-aqua }
 | **Lecture**{: .label .label-gold }    | Nov-17       | | | |
+| Nov-18                                |              | | **[HW5 due](/assignments/hw5)**{: .label .label-red} |
 | Nov-22                                | NO CLASS     |
 | Nov-24                                | THANKSGIVING |
 | **Lecture**{: .label .label-gold }    | Nov-29       |

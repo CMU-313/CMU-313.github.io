@@ -4,10 +4,11 @@ title: Recitation 8 - static analysis and continuous integration
 permalink: /recitations/8-analysis-ci
 parent: Recitations
 ---
-# Recitation 8: static analysis and continuous integration
+# 17-313: Foundations of Software Engineering
+## Recitation 8: static analysis and continuous integration
 
 Static and dynamic analysis tools help you keep the codebase healthy. In this recitation, we will learn how to set up these tools in CI (GitHub Actions). 
-# Step 1: Setup your sample Python repo
+### Step 1: Setup your sample Python repo
 
 First, go to [this template repo](https://github.com/CMU-313/fall-2022-recitation-8-analysis-ci) and [use it](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to create your own repo. The repo is very similar to the HW4 repo, except that it comes with a failing test. 
 
@@ -22,7 +23,7 @@ Your setting should look like this:
 ![](/assets/images/reci/branch-protection.png)
 
 The failing test cases ❌ wouldn’t have been there if I had these rules enabled in the first place. Now, let's fix our failing test. 
-# Step 2: Fix the broken CI
+### Step 2: Fix the broken CI
 
 The ❌ really shouldn't have been there in the first place if I had these rules enabled. Now let's fix it. Branch off from `main` and create a PR to fix the broken CI. 
 
@@ -34,7 +35,7 @@ The `test` job should pass on your PR. Click "Squash and merge"* to merge after 
 
 **HINT:** If you are _really_ stuck on how to fix, click [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-# Step 3: Make your code pretty 
+### Step 3: Make your code pretty 
 
 Different tab sizes driving you crazy? Let's use a tool to standardize them all. A code formatter, a static analysis tool, helps one identify and fix formatting issues in the codebase. Let's use [black](https://github.com/psf/black) as an example. 
 
@@ -58,7 +59,7 @@ Using CI, we can enforce formatting requirements using the same GH Actions + sta
 * Push your formatted files to the branch and observe `format` passes.
 * Squash and merge the PR
 
-# Step 4: Add test coverage to the CI workflow
+### Step 4: Add test coverage to the CI workflow
 
 Finally, you can also do some dynamic analysis. Since we are already using `pytest`, let's use [`pytest-cov`](https://pytest-cov.readthedocs.io/en/latest/), a plugin that reports test coverage.
 
@@ -74,7 +75,7 @@ Now, let's add another job in the workflow for reporting coverage:
 * Now, run `pipenv run pytest --cov=app` to report coverage
 * Push and observe the new check running
 
-## Bonus: report coverage in PRs
+### Bonus: report coverage in PRs
 
 The coverage job doesn't really add much to the workflow now since it doesn't fail. Without being too strict about coverage, we can at least display the coverage status in the PR. 
 
