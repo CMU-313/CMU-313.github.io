@@ -69,9 +69,9 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Lecture**{: .label .label-gold }    | Nov-15       |
 | **Recitation**{: .label .label-aqua } | Nov-16/18    | **[Open Source Projects](https://docs.google.com/presentation/d/1pcSFHUkGIdg_ukSLlW8IZvgtZ5Zy18I78zb_ELIkVXE/edit?usp=sharing)**{: .label .label-aqua } **[Handout](/recitations/9-open-source)**{: .label .label-aqua }
 | **Lecture**{: .label .label-gold }    | Nov-17       | | | |
-| Nov-18                                |              | | **[HW5 due](/assignments/hw5)**{: .label .label-red} |
-| Nov-22                                | NO CLASS     |
-| Nov-24                                | THANKSGIVING |
+| | Nov-18 | | | **[HW5 due](/assignments/hw5)**{: .label .label-red} |
+| | Nov-22                                | NO CLASS     |
+| | Nov-24                                | THANKSGIVING |
 | **Lecture**{: .label .label-gold }    | Nov-29       |
 | **Recitation**{: .label .label-aqua } | Nov-30/Dec-2 |
 | **Lecture**{: .label .label-gold }    | Dec-1        |
