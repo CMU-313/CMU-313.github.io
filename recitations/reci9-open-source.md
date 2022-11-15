@@ -29,9 +29,9 @@ With your team, discuss the following questions:
 - Which projects did you find that you would most like to work on? Which would you least like to work on? Why?
  
 ### Resources
-- A list of beginner friendly projects: https://github.com/MunGell/awesome-for-beginners
-- Github Showcase for new contributors: https://github.com/showcases/great-for-new-contributors
-- Issues that are labeled “up-for-grabs”: https://up-for-grabs.net
-- Apache projects: http://www.apache.org/
-- Mozilla projects: https://developer.mozilla.org/en-US/docs/MDN/Community/Contributing
+- A list of beginner friendly projects: [https://github.com/MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)
+- Github Showcase for new contributors: [https://github.com/showcases/great-for-new-contributors](https://github.com/MunGell/awesome-for-beginners)
+- Issues that are labeled “up-for-grabs”: [https://up-for-grabs.net](https://up-for-grabs.net)
+- Apache projects: [http://www.apache.org/](http://www.apache.org/)
+- Mozilla projects: [https://developer.mozilla.org/en-US/docs/MDN/Community/Contributing](https://developer.mozilla.org/en-US/docs/MDN/Community/Contributing)
     - Mozilla has a number of Open Source projects (including Firefox and Thunderbird) that are actively being developed and they recommend bugs for new contributors
