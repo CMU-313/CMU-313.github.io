@@ -11,26 +11,6 @@ description: The weekly event schedule.
 {{ schedule }}
 {% endfor %} -->
 
-<!--
-**[SE4ML](assets/pdfs/08-SE_4_ML.pdf)**{: .label .label-gold }
-**[Ethics](assets/pdfs/09-Ethics.pdf)**{: .label .label-gold }
-**[Requirements/terrible stakeholders](assets/pdfs/recitation-5.pdf)**{: .label .label-aqua }
-Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} **[2019](assets/pdfs/midterm-2019.pdf)**{: .label .label-aqua}
-**[Architecture: Design Docs](assets/pdfs/12-arch-design-docs.pdf)**{: .label .label-gold }
-**[Architecture: Devops](assets/pdfs/13-devops.pdf)**{: .label .label-gold }
-**[Team Dysfunction](assets/pdfs/recitation-6-team-dysfunction.pdf)**{: .label .label-aqua}
-**[Teams](assets/pdfs/14-teams-process.pdf)**{: .label .label-gold }
-**[Process](assets/pdfs/15-process-in-SE.pdf)**{: .label .label-gold }
-**[Machine Learning](assets/pdfs/recitation-7.pdf)**{: .label .label-aqua}
-**[QA: Intro to Testing](assets/pdfs/16-testing-intro.pdf)**{: .label .label-gold } | **[SE at Google, Chapter 11](https://abseil.io/resources/swe_at_google.2.pdf)**{: .label .label-blue}
-**[QA: Testing Strategies](assets/pdfs/17-testing-strategies.pdf)**{: .label .label-gold }  | **[SE at Google, Chapter 12—13](https://abseil.io/resources/swe_at_google.2.pdf)**{: .label .label-blue}
-**[QA: Dynamic Analysis and Random Testing](assets/pdfs/18-dynamic-analysis.pdf)**{: .label .label-gold } |
-**[QA: Static Analysis](assets/pdfs/19-static-analysis.pdf)**{: .label .label-gold}
- **[QA: ML explanability](assets/pdfs/20-ML-QA.pdf)**{: .label .label-gold}
- **[QA: ML fairness](assets/pdfs/21-ML-Fairness.pdf)**{: .label .label-gold}
- **[Open Source](assets/pdfs/22a-OpenSource.pdf)**{: .label .label-gold} **[Dependencies](assets/pdfs/22b-dependencies.pdf)**{: .label .label-gold} | **[SE at Google, Chapter 21](https://abseil.io/resources/swe_at_google.2.pdf)**{: .label .label-blue}
--->
-
 
 | &nbsp;                                | Date         | Topic                                                                                                                                                                                                                                                                                        | Reading                                                                                                                                                                                                | Homework Due                                           |
 | ------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------ |
@@ -66,7 +46,7 @@ Midterm review: **[2020](assets/pdfs/midterm-2020.pdf)**{: .label .label-aqua} *
 | **Lecture**{: .label .label-gold }    | Nov-8        | **[QA: Fairness](assets/pdfs/16-ML-Fairness.pdf)**{: .label .label-gold }| | **[HW4B/C due](/assignments/hw4)**{: .label .label-red} |
 | **Recitation**{: .label .label-aqua } | Nov-9/11     | **[Analysis and CI](/assets/pdfs/recitation8-static-analysis-and-ci.pdf)**{: .label .label-aqua } **[Handout](/recitations/8-analysis-ci)**{: .label .label-aqua } |
 | **Lecture**{: .label .label-gold }    | Nov-10 | **[Static and Dynamic Analysis](assets/pdfs/20-static-and-dynamic-analysis-tools.pdf)**{: .label .label-gold } | | **[HW4D due](/assignments/hw4)**{: .label .label-red} |
-| **Lecture**{: .label .label-gold }    | Nov-15       |
+| **Lecture**{: .label .label-gold }    | Nov-15       | **[QA: Advanced Automated Testing](assets/pdfs/21-advanced-testing.pdf)**{: .label .label-gold }
 | **Recitation**{: .label .label-aqua } | Nov-16/18    | **[Open Source Projects](https://docs.google.com/presentation/d/1pcSFHUkGIdg_ukSLlW8IZvgtZ5Zy18I78zb_ELIkVXE/edit?usp=sharing)**{: .label .label-aqua } **[Handout](/recitations/9-open-source)**{: .label .label-aqua }
 | **Lecture**{: .label .label-gold }    | Nov-17       | | | |
 | | Nov-18 | | | **[HW5 due](/assignments/hw5)**{: .label .label-red} |
