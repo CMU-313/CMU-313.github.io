@@ -48,7 +48,7 @@ description: The weekly event schedule.
 | **Lecture**{: .label .label-gold }    | Nov-10 | **[Static and Dynamic Analysis](assets/pdfs/20-static-and-dynamic-analysis-tools.pdf)**{: .label .label-gold } | | **[HW4D due](/assignments/hw4)**{: .label .label-red} |
 | **Lecture**{: .label .label-gold }    | Nov-15       | **[QA: Advanced Automated Testing](assets/pdfs/21-advanced-testing.pdf)**{: .label .label-gold }
 | **Recitation**{: .label .label-aqua } | Nov-16/18    | **[Open Source Projects](https://docs.google.com/presentation/d/1pcSFHUkGIdg_ukSLlW8IZvgtZ5Zy18I78zb_ELIkVXE/edit?usp=sharing)**{: .label .label-aqua } **[Handout](/recitations/9-open-source)**{: .label .label-aqua }
-| **Lecture**{: .label .label-gold }    | Nov-17       | | | |
+| **Lecture**{: .label .label-gold }    | Nov-15       | **[Open Source Software](assets/pdfs/22-open-source-software.pdf)**{: .label .label-gold }
 | | Nov-18 | | | **[HW5 due](/assignments/hw5)**{: .label .label-red} |
 | | Nov-22                                | NO CLASS     |
 | | Nov-24                                | THANKSGIVING |
