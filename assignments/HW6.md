@@ -42,7 +42,7 @@ This assignment is to be done in your assigned teams. All parts except the refle
 
 **Important Note**:
 - We want to make sure that everyone is participating fully in the final project. For this project, we will be assessing participation in a variety of ways, including: artifact evaluation, self & peer evaluation (done as part of [individual reflection](#part-d-individual-reflection--peer-evaluations))
-- Credit due for the team will be awarded based on evidence of full participation in the team. Partial participation will recieve partial credit.
+- Credit due for the team will be awarded based on evidence of full participation in the team. Partial participation will receive partial credit.
 
 If severe teamwork issues arise please contact the course staff.
 
