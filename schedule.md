@@ -53,11 +53,11 @@ description: The weekly event schedule.
 | | Nov-22                                | NO CLASS     |
 | | Nov-24                                | THANKSGIVING |
 | **Lecture**{: .label .label-gold }    | Nov-29       | | | **[HW6A due](/assignments/hw6)**{: .label .label-red} |
-| **Recitation**{: .label .label-aqua } | Nov-30/Dec-2 |
+| **Recitation**{: .label .label-aqua } | Nov-30/Dec-2 | **[HW6 Checkin-Presentations](/assignments/hw6#part-a-project--tasks-selection-check-in)**{: .label .label-aqua }
 | **Lecture**{: .label .label-gold }    | Dec-1        |
 | **Lecture**{: .label .label-gold }    | Dec-6        |
 | **Recitation**{: .label .label-aqua } | Dec-7/9      |
 | **Lecture**{: .label .label-gold }    | Dec-8        |
 | | Dec-12 | | | **[HW6B due](/assignments/hw6)**{: .label .label-red} |
-| **Finals**{: .label .label-red }      | Dec-13 / 15          | Project Presentations |
+| **Finals**{: .label .label-red }      | Dec-13 / 15          | **[Project Presentations](/assignments/hw6#part-b-project-presentations)**{: .label .label-aqua} |
 |  | Dec-15 | | |  **[HW6C/D due](/assignments/hw6)**{: .label .label-red} |
