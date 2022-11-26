@@ -52,10 +52,12 @@ description: The weekly event schedule.
 | | Nov-18 | | | **[HW5 due](/assignments/hw5)**{: .label .label-red} |
 | | Nov-22                                | NO CLASS     |
 | | Nov-24                                | THANKSGIVING |
-| **Lecture**{: .label .label-gold }    | Nov-29       |
+| **Lecture**{: .label .label-gold }    | Nov-29       | | | **[HW6A due](/assignments/hw6)**{: .label .label-red} |
 | **Recitation**{: .label .label-aqua } | Nov-30/Dec-2 |
 | **Lecture**{: .label .label-gold }    | Dec-1        |
 | **Lecture**{: .label .label-gold }    | Dec-6        |
 | **Recitation**{: .label .label-aqua } | Dec-7/9      |
 | **Lecture**{: .label .label-gold }    | Dec-8        |
-| **Finals**{: .label .label-red }      | TBD          | Project Presentations                                                                                                                                                                                                |
+| | Dec-12 | | | **[HW6B due](/assignments/hw6)**{: .label .label-red} |
+| **Finals**{: .label .label-red }      | Dec-13 / 15          | Project Presentations |
+|  | Dec-15 | | |  **[HW6C/D due](/assignments/hw6)**{: .label .label-red} |
