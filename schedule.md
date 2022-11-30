@@ -52,7 +52,7 @@ description: The weekly event schedule.
 | | Nov-18 | | | **[HW5 due](/assignments/hw5)**{: .label .label-red} |
 | | Nov-22                                | NO CLASS     |
 | | Nov-24                                | THANKSGIVING |
-| **Lecture**{: .label .label-gold }    | Nov-29       | **[Software Dependency Management](assets/pdfs/23a-dependencies.pdf)**{: .label .label-gold } | | **[HW6A due](/assignments/hw6)**{: .label .label-red} |
+| **Lecture**{: .label .label-gold }    | Nov-29       | **[Software Dependency Management](assets/pdfs/23a-dependencies.pdf)**{: .label .label-gold } **[User Study](assets/pdfs/23b-userstudy.pdf)**{: .label .label-gold } | | **[HW6A due](/assignments/hw6)**{: .label .label-red} |
 | **Recitation**{: .label .label-aqua } | Nov-30/Dec-2 | **[HW6 Checkin-Presentations](/assignments/hw6#part-a-project--tasks-selection-check-in)**{: .label .label-aqua }
 | **Lecture**{: .label .label-gold }    | Dec-1        |
 | **Lecture**{: .label .label-gold }    | Dec-6        |
