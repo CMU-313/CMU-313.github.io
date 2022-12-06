@@ -55,7 +55,7 @@ description: The weekly event schedule.
 | **Lecture**{: .label .label-gold }    | Nov-29       | **[Software Dependency Management](assets/pdfs/23a-dependencies.pdf)**{: .label .label-gold } **[User Study](assets/pdfs/23b-userstudy.pdf)**{: .label .label-gold } | | **[HW6A due](/assignments/hw6)**{: .label .label-red} |
 | **Recitation**{: .label .label-aqua } | Nov-30/Dec-2 | **[HW6 Checkin-Presentations](/assignments/hw6#part-a-project--tasks-selection-check-in)**{: .label .label-aqua }
 | **Lecture**{: .label .label-gold }    | Dec-1        | **[Software Patents](assets/pdfs/24-software-patents.pdf)**{: .label .label-gold } **[Decision Making](assets/pdfs/24b-decisions.pdf)**{: .label .label-gold }
-| **Lecture**{: .label .label-gold }    | Dec-6        |
+| **Lecture**{: .label .label-gold }    | Dec-6        |  **[Employment Concerns](assets/pdfs/25-employment.pdf)**{: .label .label-gold }
 | **Recitation**{: .label .label-aqua } | Dec-7/9      |
 | **Lecture**{: .label .label-gold }    | Dec-8        |
 | | Dec-12 | | | **[HW6B due](/assignments/hw6)**{: .label .label-red} |
