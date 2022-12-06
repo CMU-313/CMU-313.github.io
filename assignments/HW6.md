@@ -19,7 +19,7 @@ If you demonstrate to us that your change has been accepted and integrated into 
 | B    | **[Project Presentations](#part-b-project-presentations)**{: .label .label-red }       |4 - 5| 100     |  12-Dec    |
 | C    | **[Project Report](#part-c-project-report)**{: .label .label-red }             |4 - 5| 120 |  15-Dec    |
 | D    | **[Individual Reflection](#part-d-individual-reflection--peer-evaluations)**{: .label .label-red }     | 5 | 20     |   15-Dec   |
-| Bonus   | **If changes get accepted**    | 4 | 20     | 15-Dec    |
+| Bonus   | **If changes get accepted**    | 4 | 20     | ~~15-Dec~~ 19-Dec    |
 
 <details>
     <summary> Learning Objectives </summary>
@@ -199,7 +199,7 @@ Evidence of your quality assurance activities described above. For example, prov
 7.	**Plan updates** (<1 page)  
 A description and justification of deviations between your initial plans and your performed activities (as in Homework 2). Changes are expected, but they should be tracked and explained. Describe changes in scope (e.g., fewer tasks) and in the schedule and work allocation. Provide an updated schedule and note differences. Explain the causes of the changes, such as unanticipated risks. 
 8.	**BONUS**  
-Evidence that your changes have been accepted into the code base of the open source project in forms of links or screenshots.
+Evidence that your changes have been accepted into the code base of the open source project in forms of links or screenshots. **Note: You can also send the merged PR link via Slack to Michael Hilton by 19th December 1pm to claim this bonus as well**
 
 Page limits are provided for guidance; we will not enforce them. Collect all parts in a **single PDF document with clear subsections** and the names of all team members and submit that file to **Gradescope**.
 

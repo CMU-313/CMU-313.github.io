@@ -61,3 +61,4 @@ description: The weekly event schedule.
 | | Dec-12 | | | **[HW6B due](/assignments/hw6)**{: .label .label-red} |
 | **Finals**{: .label .label-red }      | Dec-13 / 15          | **[Project Presentations](/assignments/hw6#part-b-project-presentations)**{: .label .label-aqua} |
 |  | Dec-15 | | |  **[HW6C/D due](/assignments/hw6)**{: .label .label-red} |
+|  | Dec-19 | | |  **[HW6 Bonus due](/assignments/hw6)**{: .label .label-red} |
