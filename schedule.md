@@ -57,7 +57,7 @@ description: The weekly event schedule.
 | **Lecture**{: .label .label-gold }    | Dec-1        | **[Software Patents](assets/pdfs/24-software-patents.pdf)**{: .label .label-gold } **[Decision Making](assets/pdfs/24b-decisions.pdf)**{: .label .label-gold }
 | **Lecture**{: .label .label-gold }    | Dec-6        |  **[Employment Concerns](assets/pdfs/25-employment.pdf)**{: .label .label-gold }
 | **Recitation**{: .label .label-aqua } | Dec-7/9      |
-| **Lecture**{: .label .label-gold }    | Dec-8        |
+| **Lecture**{: .label .label-gold }    | Dec-8        | | **[Pre-lecture prep: healthcare.gov](assets/pdfs/casestudy_healthcaregov.pdf)**{: .label .label-blue} 
 | | Dec-12 | | | **[HW6B due](/assignments/hw6)**{: .label .label-red} |
 | **Finals**{: .label .label-red }      | Dec-13 / 15          | **[Project Presentations](/assignments/hw6#part-b-project-presentations)**{: .label .label-aqua} |
 |  | Dec-15 | | |  **[HW6C/D due](/assignments/hw6)**{: .label .label-red} |
