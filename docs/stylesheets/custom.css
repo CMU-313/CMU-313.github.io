@@ -1,0 +1,170 @@
+.md-grid {
+    max-width: 1280px; 
+}
+
+.md-typeset h1 {
+    font-weight: bold;
+    color: var(--md-default-fg-color);
+}
+
+.md-typeset h2 {
+    font-weight: bold;
+}
+
+.md-sidebar {
+    width: 10.5rem;
+}
+
+.md-footer {
+    margin-top: 30px;
+}
+
+#schedule table {
+    border-collapse: collapse;
+}
+
+#schedule table td, table th {
+    border-left: 1px solid var(--md-typeset-table-color);
+    border-right: 1px solid var(--md-typeset-table-color);
+}
+
+#schedule table:not([class]) td {
+    vertical-align: middle;
+}
+
+#schedule table td:first-child, table th:first-child {
+    border-left: none;
+}
+
+#schedule table th:last-child {
+    border-right: none;
+}
+
+#schedule table thead,
+#schedule table tbody tr:nth-child(10n+5),
+#schedule table tbody tr:nth-child(10n) {
+    border-bottom: 3px #ccc solid;
+}
+
+#schedule table td:last-child, 
+#schedule table td:nth-last-child(2) {
+    padding: 0px;
+    border-right: none;
+    border-left: none;
+}
+
+#schedule table td:nth-last-child(3) {
+    border-right: none;
+}
+
+#schedule table:not([class]) tbody tr:hover {
+    background-color: rgba(0,0,0,0);
+}
+
+.label a, .label a:visited {
+    color: #fff;
+}
+
+.label a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.label.label-aqua {
+    background-color: #2E8C8C;
+    border-color: #2E8C8C;
+}
+
+.label.label-red {
+    background-color: #D84136;
+    border-color: #D84136;
+}
+
+.label.label-gold {
+    background-color: #D99036;
+    border-color: #D99036;
+}
+
+.label.label-blue {
+    background-color: #2185d0;
+    border-color: #2185d0;
+}
+
+.left.floating.label {
+    left: 0;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.floating {
+    position: absolute;
+    z-index: 100;
+    top: -1em;
+    white-space: nowrap;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+}
+
+.label:first-child {
+    margin-left: 0;
+}
+
+.label {
+    font-size: 0.65rem;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: baseline;
+    margin: 0.14em;
+    background-color: #e8e8e8;
+    background-image: none;
+    padding: 0.5833em 0.833em;
+    color: rgba(0,0,0,.6);
+    text-transform: none;
+    font-weight: 700;
+    border: 0 solid transparent;
+    border-radius: 0.28571429rem;
+    -webkit-transition: background .1s ease;
+    transition: background .1s ease;
+}
+
+.staffer {
+    display: inline-block;
+    min-width: 275px;
+    margin: 1rem;
+}
+
+.staffer .staffer-image {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-top: .50rem;
+}
+
+.staffer p, .staffer .staffer-name {
+    margin: .25rem !important;
+}
+
+.staffer .staffer-name {
+    font-weight: bold;
+}
+
+.staffer a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card .container {
+    padding: 10px 16px;
+    text-align: center;
+}

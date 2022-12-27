@@ -1,46 +1,39 @@
-# Just the Class
+# 17-313 Course Website
+## Quick Start
 
-Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for:
+To run the built-in development server:
 
-- a [course calendar](calendar.md),
-- a [staff](staff.md) page,
-- and a weekly [schedule](schedule.md).
+1. Create and activate a Python virtual environment
 
-Just the Class is built on top of [Just the Docs](https://github.com/pmarsceill/just-the-docs), making it easy to extend for your own special use cases while providing sane defaults for most everything else. This means that you also get:
-
-- automatic [navigation structure](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/),
-- instant, full-text [search](https://pmarsceill.github.io/just-the-docs/docs/search/) and page indexing,
-- and a small but powerful set of [UI components](https://pmarsceill.github.io/just-the-docs/docs/ui-components) and authoring [utilities](https://pmarsceill.github.io/just-the-docs/docs/utilities).
-
-## Getting Started
-
-Getting started with Just the Class is simple.
-
-1. Create a [new repository based on Just the Class](https://github.com/kevinlin1/just-the-class/generate).
-1. Update `_config.yml` and `index.md` with your course information.
-1. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). Your course website is now live!
-1. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add your content.
-
-For a few open-source examples, see the following course websites and their source code.
-
-- [CSE 390HA](https://courses.cs.washington.edu/courses/cse390ha/20au/) ([source code](https://gitlab.cs.washington.edu/cse390ha/20au/website)) is an example of a single-page website that centers modules.
-- [CSE 143](https://courses.cs.washington.edu/courses/cse143/20au/) ([source code](https://gitlab.cs.washington.edu/cse143/20au/website)) hosts an entire online textbook with full-text search.
-- [CSE 373](https://courses.cs.washington.edu/courses/cse373/21su/) ([source code](https://gitlab.cs.washington.edu/cse373-root/21su/website) is an example of a simple website combining Markdown pages with generated HTML files.
-
-Share your website with us in the [show and tell discussion](https://github.com/kevinlin1/just-the-class/discussions/categories/show-and-tell)!
-
-Continue reading to learn how to setup a development environment on your local computer. This allows you to make incremental changes without directly modifying the live website.
-
-### Local development environment
-
-Just the Class is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special Jekyll plugins and can run on GitHub Pages' standard Jekyll compiler.
-
-1. Follow the GitHub documentation for [Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll).
-1. Start your local Jekyll server.
-```bash
-$ bundle exec jekyll serve
+2. Install requirements
+``` sh
+pip install -r requirements.txt
 ```
-1. Point your web browser to [http://localhost:4000](http://localhost:4000)
-1. Reload your web browser after making a change to preview its effect.
 
-For more information, refer to [Just the Docs](https://pmarsceill.github.io/just-the-docs/).
+3. Start local development server
+```sh
+mkdocs serve
+```
+
+You can then find the website running on [http://localhost:8000/](http://localhost:8000/)
+
+For detailed installation instructions, configuration options, and a demo, visit
+[squidfunk.github.io/mkdocs-material][Material for MkDocs]
+
+[Material for MkDocs]: https://squidfunk.github.io/mkdocs-material/
+
+## Pre-Semester Setup
+1. Run the following to build the static site:
+```sh
+mkdocs build
+```
+
+2. Rename the static `site` folder to its semester-name (i.e. `F22`). Delete the `_old` folder within this and move the the folder into the `docs/_old` directory
+
+3. Add a link to the old semester in `docs/index.md`. Test that the old site is still accessible
+
+4. Within the `docs/_data` directory, set up information for new staff members and the semester's schedule. A `generate_dates.py` script is provided to auto-populate the `schedule.yaml` file with the expected format - this can be replaced with a csv parsing script later on
+
+5. Replace the Class Calendar iframe within `docs/index.md`
+
+6. Toggle which sites can be navigated to in the `mkdocs.yml` file under the `nav` section
