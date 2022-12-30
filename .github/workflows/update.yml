@@ -1,9 +1,10 @@
 name: Update Schedule
 on:
-  pull-request:
+  push:
     branches:
       - master
       - main
+      - angela/auto-weekly-updates
   schedule:
     - cron: '0 0 * * 0'
 permissions:
