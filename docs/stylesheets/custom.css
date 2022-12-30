@@ -19,6 +19,84 @@
     margin-top: 30px;
 }
 
+#this-week {
+    display: flex;
+}
+
+#this-week .card {
+    flex: 1 1 0;
+    margin: 0.5rem;
+}
+
+#this-week .card .header {
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 15px;
+    border-bottom: 1px #ccc solid;
+}
+
+#this-week .card .content {
+    font-size: 11pt;
+    padding: 15px;
+    border-bottom: 0.5px #ccc solid;
+}
+
+#this-week .card .content:last-child {
+    border-bottom: none;
+    padding-bottom: 20px;
+}
+
+#this-week .lecture-name,
+#this-week .reading-name,
+#this-week .recitation-name,
+#this-week .reading-name,
+#this-week .homework-name {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+#this-week .lecture-date,
+#this-week .reading-date,
+#this-week .recitation-date,
+#this-week .reading-date,
+#this-week .homework-date {
+    font-size: 11pt;
+    font-weight: light;
+    padding-bottom: 2px;
+}
+
+#this-week .material-symbols-outlined {
+    font-size: 15px;
+    vertical-align: text-top;
+    padding-right: 2px;
+}
+
+#important-links {
+    display: flex;
+}
+
+#important-links .card {
+    flex: 1 1 0;
+    margin: 0.5rem;
+}
+
+#important-links .card .name {
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+#important-links .card .content {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#important-links .card .icon {
+    height: 50px;
+    margin: auto;
+}
+
 #schedule table {
     border-collapse: collapse;
 }
@@ -155,13 +233,13 @@ a.label:hover {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.15);
     transition: 0.3s;
     border-radius: 5px;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.15);
 }
 
 .card .container {

@@ -32,7 +32,7 @@ mkdocs build
 
 3. Add a link to the old semester in `docs/index.md`. Test that the old site is still accessible
 
-4. Within the `docs/_data` directory, set up information for new staff members and the semester's schedule. A `generate_dates.py` script is provided to auto-populate the `schedule.yaml` file with the expected format - this can be replaced with a csv parsing script later on
+4. Within the `docs/_data` directory, set up information for course links, new staff members, and the semester's schedule. A `generate_dates.py` script is provided to auto-populate the `schedule.yaml` file with the expected format - this can be replaced with a csv parsing script later on
 
 5. Replace the Class Calendar iframe within `docs/index.md`
 

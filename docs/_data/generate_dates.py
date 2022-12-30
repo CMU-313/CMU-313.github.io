@@ -57,4 +57,4 @@ class LineBreakDumper(yaml.SafeDumper):
             super().write_line_break()
 
 with open(r'schedule.yaml', 'w') as file:    
-    documents = yaml.dump(dict_file, file, Dumper=LineBreakDumper, default_flow_style=False)
+    yaml.dump(dict_file, file, Dumper=LineBreakDumper, default_flow_style=False)
