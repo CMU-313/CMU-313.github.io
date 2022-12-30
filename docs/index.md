@@ -8,6 +8,141 @@ hide:
 ## Spring 2023
 Previous versions of the course: [F20](/_old/2020), [F21](/_old/2021), [F22](/_old/F22)
 
+## This Week
+
+<div id="this-week">
+
+{%- set this_week = extra.this_week -%}
+
+<div class="card"> 
+    <div class="header">
+        Lectures & Readings
+    </div>
+    <div class="content">
+        {% if this_week.lectures %}
+            {% for lecture in this_week.lectures %}
+                <div class="lecture-name">
+                    {{ lecture.name }}
+                </div>
+                <div class="lecture-date">
+                    <span class="material-symbols-outlined">calendar_month</span> 
+                    {{ lecture.date }}
+                </div>
+                <a class="label label-gold" href="{{lecture.link}}">
+                    <span class="material-symbols-outlined">slideshow</span>
+                    Slides
+                </a>
+                {% if lecture.reading %}
+                    <a class="label label-blue" href="{{lecture.reading.link}}">
+                        <span class="material-symbols-outlined">link</span>
+                        {{lecture.reading.name}}
+                    </a>
+                {% endif %}
+                {% if not loop.last %}
+                <hr/>
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            None!
+        {% endif %}
+    </div>
+</div>
+
+<div class="card"> 
+    <div class="header">
+        Recitation
+    </div>
+    <div class="content">
+        {% if this_week.recitation %}
+            <div class="recitation-name">
+                {{ this_week.recitation.name }}
+            </div>
+            <a class="label label-aqua" href="{{this_week.recitation.slides}}">
+                <span class="material-symbols-outlined">slideshow</span> Slides
+            </a>
+
+            <a class="label label-aqua" href="{{this_week.recitation.handout}}">
+                <span class="material-symbols-outlined">description</span> Handout
+            </a>
+
+            <a class="label label-aqua" href="{{this_week.recitation.quiz}}">
+                <span class="material-symbols-outlined">equalizer</span> Quiz
+            </a>
+        {% else %}
+            None!
+        {% endif %}
+    </div>
+
+    <div class="header">
+        Office Hours
+    </div>
+    <div class="content">
+        Held on the first floor lobby of TCS. See <a href="#class-calendar">class calendar</a> below for exact times!
+    </div>
+</div>
+
+<div class="card"> 
+    <div class="header">
+        Current Assignment
+    </div>
+    <div class="content">
+        {% if this_week.last_homework %}
+            <div class="homework-name">
+                {{ this_week.last_homework.name }}
+            </div>
+            <div class="homework-date">
+                <span class="material-symbols-outlined">calendar_month</span> 
+                {{ this_week.last_homework.deadline }}
+            </div>
+            <a class="label label-red" href="{{this_week.last_homework.link}}">
+                <span class="material-symbols-outlined">description</span> Handout
+            </a>
+        {% else %}
+            None for this week!
+        {% endif %}
+    </div>
+
+    <div class="header">
+        Upcoming Assignments
+    </div>
+    <div class="content">
+        {% if this_week.next_homework %}
+            <div class="homework-name">
+                {{ this_week.next_homework.name }}
+            </div>
+            <div class="homework-date">
+                <span class="material-symbols-outlined">calendar_month</span> 
+                {{ this_week.next_homework.deadline }}
+            </div>
+            <a class="label label-red" href="{{this_week.next_homework.link}}">
+                <span class="material-symbols-outlined">description</span> Handout
+            </a>
+        {% else %}
+            None!
+        {% endif %}
+    </div>
+</div>
+
+</div>
+
+## Important Links
+<div id="important-links">
+
+{%- set links = extra.links -%}
+
+{% for link in links %}
+<a class="card" href="{{link.link}}" target="_blank">
+    <div class="content">
+        <img class="icon" src="{{link.icon}}" alt="{{link.name}} icon">
+    </div>
+    <div class="name">
+        {{ link.name }}
+    </div>
+</a>
+{% endfor %}
+
+</div>
+
 ## Class Calendar
 
 <iframe src="https://calendar.google.com/calendar/embed?src=c_mfu3uiuq0fktl6tmvanaoejeeg%40group.calendar.google.com&ctz=America%2FNew_York&mode=WEEK" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
@@ -25,8 +160,8 @@ Previous versions of the course: [F20](/_old/2020), [F21](/_old/2021), [F22](/_o
     <thead>
         <th><b>Date</b></th>
         <th><b>Lecture</b></th>
-        <th><b>Recitation</b></th>
         <th><b>Reading</b></th>
+        <th><b>Recitation</b></th>
         <th><b>Homework Deadline</b></th>
     </thead>
     <tbody>
@@ -38,6 +173,14 @@ Previous versions of the course: [F20](/_old/2020), [F21](/_old/2021), [F22](/_o
                 {% if schedule_day.lecture.name != "" %}
                     <a class="label label-gold" href="{{schedule_day.lecture.link}}">
                         {{schedule_day.lecture.name}}
+                    </a>
+                {% endif %}
+            </span></td>
+
+            <td><span class="schedule-reading">
+                {% if schedule_day.reading.name != "" %}
+                    <a class="label label-blue" href="{{schedule_day.reading.link}}">
+                        {{schedule_day.reading.name}}
                     </a>
                 {% endif %}
             </span></td>
@@ -68,13 +211,6 @@ Previous versions of the course: [F20](/_old/2020), [F21](/_old/2021), [F22](/_o
                 {% endif %}
             {% endif %}
 
-            <td><span class="schedule-reading">
-                {% if schedule_day.reading.name != "" %}
-                    <a class="label label-blue" href="{{schedule_day.reading.link}}">
-                        {{schedule_day.reading.name}}
-                    </a>
-                {% endif %}
-            </span></td>
 
             {% if schedule_day.homework.name != "" %} 
                 <td rowspan="{{schedule_day.homework.numDays}}"><span class="schedule-homework">

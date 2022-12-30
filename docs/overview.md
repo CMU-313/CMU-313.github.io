@@ -4,7 +4,7 @@ hide:
     - navigation
 ---
 
-## Course Overview
+## Questions
 
 - When is a program good enough to ship? Have you built what the customer wanted?
 - Why (and how) does Netflix deliberately and randomly take down its own servers?
