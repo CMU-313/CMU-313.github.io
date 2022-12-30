@@ -15,7 +15,7 @@ class LineBreakDumper(yaml.SafeDumper):
 with open('schedule.yaml', 'r') as file:
     schedule = yaml.safe_load(file)
 
-now = datetime.now()
+now = datetime(2022, 9, 4, 0, 0, 0, 0) # datetime.now()
 
 last_homework = None
 next_homework = None
