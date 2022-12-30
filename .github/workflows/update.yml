@@ -2,9 +2,7 @@ name: Update Schedule
 on:
   push:
     branches:
-      - master
       - main
-      - angela/auto-weekly-updates
   schedule:
     - cron: '0 0 * * 0'
 permissions:
@@ -38,4 +36,4 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: angela/auto-weekly-updates
+          branch: main
