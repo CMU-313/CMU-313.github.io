@@ -1,7 +1,31 @@
-last_homework: null
+last_homework:
+  date: Mon Aug 29
+  deadline: Due Thurs Sep 9 @ 11:59pm
+  link: /assignments/hw1
+  name: Homework 1
+  numDays: 9
 
-lectures: []
+lectures:
+- date: Tue Sep 06
+  link: assets/pdfs/03-boeing-casestudy.pdf
+  name: Case Study 737MAX
+  reading:
+    link: https://www.seattletimes.com/business/boeing-aerospace/failed-certification-faa-missed-safety-issues-in-the-737-max-system-implicated-in-the-lion-air-crash/
+    name: News Article
+- date: Thu Sep 08
+  link: assets/pdfs/04-code-archaeology.pdf
+  name: Code Archaeology
 
-next_homework: null
+next_homework:
+  date: Fri Sep 09
+  deadline: Due Thurs Sep 22 @ 11:59pm
+  link: /assignments/hw2
+  name: Homework 2A
+  numDays: 10
 
-recitation: null
+recitation:
+  date: Mon Sep 05
+  handout: /recitations/2-angularjs
+  name: Angular.js and MVC
+  quiz: https://canvas.cmu.edu/
+  slides: https://docs.google.com/presentation/d/1bM_lgmx_W21AUGlWOvJRZdNhl3EhSA9AaU0fsQpNbqs/edit?usp=sharing
