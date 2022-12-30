@@ -10,7 +10,7 @@ on:
 permissions:
   contents: write
 jobs:
-  deploy:
+  update-this-week:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -32,7 +32,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m "Update weekly schedule" -a
+          git diff --exit-code || git commit -m "Update weekly schedule" -a
 
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
