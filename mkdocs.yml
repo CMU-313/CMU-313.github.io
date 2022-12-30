@@ -45,6 +45,7 @@ plugins:
 
 nav:
   - Home: index.md
+  - Course Overview: overview.md
   - Syllabus: syllabus.md
   - Assignments: assignments/index.md
     # - Homework 1: assignments/HW1.md

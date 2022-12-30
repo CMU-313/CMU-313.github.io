@@ -26,6 +26,7 @@
 #schedule table td, table th {
     border-left: 1px solid var(--md-typeset-table-color);
     border-right: 1px solid var(--md-typeset-table-color);
+    padding: 10px;
 }
 
 #schedule table:not([class]) td {
@@ -36,7 +37,7 @@
     border-left: none;
 }
 
-#schedule table th:last-child {
+#schedule table td:last-child, table th:last-child {
     border-right: none;
 }
 
@@ -44,13 +45,6 @@
 #schedule table tbody tr:nth-child(10n+5),
 #schedule table tbody tr:nth-child(10n) {
     border-bottom: 3px #ccc solid;
-}
-
-#schedule table td:last-child, 
-#schedule table td:nth-last-child(2) {
-    padding: 0px;
-    border-right: none;
-    border-left: none;
 }
 
 #schedule table td:nth-last-child(3) {
@@ -61,11 +55,11 @@
     background-color: rgba(0,0,0,0);
 }
 
-.label a, .label a:visited {
+a.label, a.label:visited {
     color: #fff;
 }
 
-.label a:hover {
+a.label:hover {
     color: #fff;
     text-decoration: underline;
 }
@@ -88,6 +82,12 @@
 .label.label-blue {
     background-color: #2185d0;
     border-color: #2185d0;
+}
+
+.label .material-symbols-outlined {
+    font-size: 15px;
+    vertical-align: text-top;
+    padding-right: 2px;
 }
 
 .left.floating.label {
