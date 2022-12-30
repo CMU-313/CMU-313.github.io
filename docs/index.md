@@ -5,9 +5,6 @@ hide:
 ---
 
 # 17-313 Foundations of Software Engineering
-## Spring 2023
-Previous versions of the course: [F20](/_old/2020), [F21](/_old/2021), [F22](/_old/F22)
-
 ## This Week
 
 <div id="this-week">

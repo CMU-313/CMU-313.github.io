@@ -42,3 +42,6 @@ This course has a strong technical focus, and includes assignments with and with
 - A **requirements** assignment in which each team will interview stakeholders to elicit and document requirements for a software system.
 - An **architecture** assignment in which teams will train and deploy an ML model using microservices.
 - A project in which each team **contributes to an open source project** of their choice. This involves identifying an issue in the existing project, understanding the development process of that project and how to contribute, and actually making a contribution such as fixing a bug or adding a feature. Extra credit will be awarded if the contribution is merged into the project.
+
+## Previous Course Iterations
+[Fall 2020](/_old/2020) | [Fall 2021](/_old/2021) | [Fall 2022](/_old/F22)
