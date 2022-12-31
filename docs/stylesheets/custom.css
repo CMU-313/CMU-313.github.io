@@ -19,6 +19,29 @@
     margin-top: 30px;
 }
 
+.card {
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 #ddd, 0 0 0 1px #ddd;
+}
+
+a.card {
+    -webkit-box-shadow: 0 1px 3px 0 #ddd, 0 0 0 1px #ddd;
+    box-shadow: 0 1px 3px 0 #ddd, 0 0 0 1px #ddd;
+    transition: 0.25s;
+}
+
+a.card:hover {
+    -webkit-box-shadow: 0 1px 12px 0 #ccc, 0 0 0 1px #ddd;
+    box-shadow: 0 1px 12px 0 #ccc, 0 0 0 1px #ddd;
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+
+.card .container {
+    padding: 10px 16px;
+    text-align: center;
+}
+
 #this-week {
     display: flex;
 }
@@ -206,10 +229,11 @@ a.label:hover {
     transition: background .1s ease;
 }
 
-.staffer {
+#course-instructors .card,
+#course-assistants .card {
     display: inline-block;
     min-width: 275px;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 .staffer .staffer-image {
@@ -220,29 +244,22 @@ a.label:hover {
     margin-top: .50rem;
 }
 
-.staffer p, .staffer .staffer-name {
+.staffer .staffer-name {
+    font-weight: bold;
     margin: .25rem !important;
 }
 
-.staffer .staffer-name {
-    font-weight: bold;
+.staffer .staffer-links {
+    margin: .25rem !important;
+    line-height: normal;
 }
 
-.staffer a:hover {
-    text-decoration: underline;
+.staffer-links a {
+    font-size: 24px;
 }
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.15);
-    transition: 0.3s;
-    border-radius: 5px;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.15);
-}
-
-.card .container {
-    padding: 10px 16px;
-    text-align: center;
+.staffer-links .material-symbols-outlined {
+    font-size: 24px;
+    vertical-align: text-top;
+    padding: 0px 3px;
 }

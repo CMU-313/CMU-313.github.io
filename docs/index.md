@@ -240,8 +240,9 @@ Coming Soon!
 
 ## Staff
 ### Instructors
-{%- set instructors = extra.staff | selectattr("role", "==", "Instructor") | list -%}
 
+<div id="course-instructors">
+{%- set instructors = extra.staff | selectattr("role", "==", "Instructor") | list -%}
 {% for instructor in instructors %}
 <div class="staffer card"> 
     <div class="container">
@@ -250,30 +251,31 @@ Coming Soon!
             <h3 class="staffer-name"> 
                 {{instructor.name}}
             </h3>
-            <p>
-                <a href="mailto:{{instructor.email}}">
-                    <span class="material-symbols-outlined">
-                        mail
-                    </span>
-                </a>
+            <div class="staffer-links">
+                <a href="mailto:{{instructor.email}}"><span class="material-symbols-outlined">
+                    mail
+                </span></a>
                 {% if instructor.website %}
-                <a href="{{instructor.website}}">
-                    <span class="material-symbols-outlined">
-                        public
-                    </span>
-                </a>
+                <a href="{{instructor.website}}"><span class="material-symbols-outlined">
+                    public
+                </span></a>
                 {% endif %}
-            </p>
+            </div>
         </div>
     </div>
 </div>
 {% endfor %}
+
+</div>
 
 {%- set assistants = extra.staff | selectattr("role", "==", "Teaching Assistant") | list -%}
 {%- set num_teaching_assistants = assistants | count -%}
 
 {% if num_teaching_assistants > 0 %}
 ### Teaching Assistants
+
+<div id="course-assistants">
+
 {% for assistant in assistants %}
 <div class="staffer card"> 
     <div class="container">
@@ -282,22 +284,20 @@ Coming Soon!
             <h3 class="staffer-name"> 
                 {{assistant.name}}
             </h3>
-            <p>
-                <a href="mailto:{{assistant.email}}">
-                    <span class="material-symbols-outlined">
-                        mail
-                    </span>
-                </a>
+            <div class="staffer-links">
+                <a href="mailto:{{assistant.email}}"><span class="material-symbols-outlined">
+                    mail
+                </span></a>
                 {% if assistant.website %}
-                <a href="{{assistant.website}}">
-                    <span class="material-symbols-outlined">
-                        public
-                    </span>
-                </a>
+                <a href="{{assistant.website}}"><span class="material-symbols-outlined">
+                    public
+                </span></a>
                 {% endif %}
-            </p>
+            </div>
         </div>
     </div>
 </div>
 {% endfor %}
+
+</div>
 {% endif %}
