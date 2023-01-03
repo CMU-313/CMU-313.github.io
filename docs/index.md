@@ -66,7 +66,7 @@ hide:
             {% endif %}
 
             {% if this_week.recitation.handout != "" %}
-            <a class="label label-aqua" href="{{this_week.recitation.handout}}" target="_blank">
+            <a class="label label-aqua" href="{{this_week.recitation.handout}}">
                 <span class="material-symbols-outlined">description</span>Handout
             </a>
             {% endif %}
@@ -107,8 +107,8 @@ hide:
             {% endif %}
 
             {% if this_week.last_homework.link != "" %}
-            <a class="label label-red" href="{{this_week.last_homework.link}}" target="_blank">
-                <span class="material-symbols-outlined">description</span> Handout
+            <a class="label label-red" href="{{this_week.last_homework.link}}">
+                <span class="material-symbols-outlined">description</span>Handout
             </a>
             {% endif %}
         {% else %}
@@ -126,19 +126,19 @@ hide:
             </div>
 
             <div class="homework-date">
-                <span class="material-symbols-outlined">calendar_month</span> 
+                <span class="material-symbols-outlined">calendar_month</span>
                 Released {{ this_week.next_homework.date }}
             </div>
 
             {% if this_week.next_homework.deadline != "" %}
             <div class="homework-date">
-                <span class="material-symbols-outlined">calendar_month</span> 
+                <span class="material-symbols-outlined">calendar_month</span>
                 {{ this_week.next_homework.deadline }}
             </div>
             {% endif %}
 
             {% if this_week.next_homework.link != "" %}
-            <a class="label label-red" href="{{this_week.next_homework.link}}" target="_blank">
+            <a class="label label-red" href="{{this_week.next_homework.link}}">
                 <span class="material-symbols-outlined">description</span>Handout
             </a>
             {% endif %}
@@ -219,13 +219,13 @@ hide:
 
                     {% if schedule_day.recitation.slides != "" %}
                     <a class="label label-aqua" href="{{schedule_day.recitation.slides}}" target="_blank">
-                        <span class="material-symbols-outlined">slideshow</span> Slides
+                        <span class="material-symbols-outlined">slideshow</span>Slides
                     </a>
                     {% endif %}
 
                     {% if schedule_day.recitation.handout != "" %}
-                    <a class="label label-aqua" href="{{schedule_day.recitation.handout}}" target="_blank">
-                        <span class="material-symbols-outlined">description</span> Handout
+                    <a class="label label-aqua" href="{{schedule_day.recitation.handout}}">
+                        <span class="material-symbols-outlined">description</span>Handout
                     </a>
                     {% endif %}
 
@@ -253,8 +253,8 @@ hide:
                     <br/>
 
                     {% if schedule_day.homework.link != "" %}
-                    <a class="label label-red" href="{{schedule_day.homework.link}}" target="_blank">
-                        <span class="material-symbols-outlined">description</span> Handout
+                    <a class="label label-red" href="{{schedule_day.homework.link}}">
+                        <span class="material-symbols-outlined">description</span>Handout
                     </a>
                     {% endif %}
                 </span></td> 

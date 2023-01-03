@@ -73,7 +73,6 @@ a.card:hover {
 #this-week .lecture-name,
 #this-week .reading-name,
 #this-week .recitation-name,
-#this-week .reading-name,
 #this-week .homework-name {
     font-size: 12pt;
     font-weight: bold;
@@ -83,14 +82,15 @@ a.card:hover {
 #this-week .lecture-date,
 #this-week .reading-date,
 #this-week .recitation-date,
-#this-week .reading-date,
 #this-week .homework-date {
     font-size: 11pt;
     font-weight: light;
     padding-bottom: 2px;
 }
 
-#this-week .material-symbols-outlined {
+#this-week .homework-date .material-symbols-outlined,
+#this-week .lecture-date .material-symbols-outlined,
+#this-week .reading-date .material-symbols-outlined {
     font-size: 15px;
     vertical-align: text-top;
     padding-right: 2px;
@@ -199,7 +199,7 @@ a.label:hover {
 .label .material-symbols-outlined {
     font-size: 15px;
     vertical-align: text-top;
-    padding-right: 2px;
+    padding-right: 4px;
 }
 
 .left.floating.label {

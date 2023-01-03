@@ -8,21 +8,22 @@ title: Recitation 1 - Git Collaboration
 After this recitation, the students should be able to use Git and GitHub for their teamwork in this course and other projects. Students should know about the GitFlow workflow and how to collaborate with other developers in their projects.
 
 ## Prerequisites
-- You have a [GitHub](https://github.com/) account
-- You have [Git](https://git-scm.com/downloads) installed
-- You have [Python 3](https://www.python.org/downloads/) installed
-- You know [Git Basics](https://rogerdudler.github.io/git-guide/)
+- [x] You have a [GitHub](https://github.com/) account
+- [x] You have [Git](https://git-scm.com/downloads) installed
+- [x] You have [Python 3](https://www.python.org/downloads/) installed
+- [x] You know [Git Basics](https://rogerdudler.github.io/git-guide/)
 
 **You will be doing the activities as pairs, so be sure to find a partner! Unless specified, each step is to be done by both people.**
 
 ## Activity 1a: Forking a repo and adding a collaborator
-- You or your partner forks [this repository](https://github.com/CMU-313/github-recitation-with-test), then add the other person as a collaborator on GitHub. You can do so by clicking on **Settings**, then **Collaborators**
+- Have either you or your partner fork [this repository](https://github.com/CMU-313/github-recitation-with-test), then add the other person as a collaborator on GitHub. You can do so by clicking on **Settings**, then **Collaborators**
 - Under the General tab in **Settings**, check the "Issues" checkbox in the "Features" section to enable the issues pane for your repository
-- Clone the repository on your local machine
+![Github Permissions](../assets/images/reci/reci1-github-permissions.png)
+- Clone the repository onto your local machine
 
 ## Activity 1b: Run a GitHub Action Workflow
-- Under **Actions**, select the "Python Application" workflow
-- Click on the "Run workflow" dropdown, then the "Run workflow" button (leave Branch to be at main). This runs the GitHub workflow that uses pytest to test the function Fibonacci in `fib.py` using `test_fib.py`
+- On Github, click the **Actions** tab and select the "Python Application" workflow
+- Click on the "Run workflow" dropdown, then the "Run workflow" button (leave Branch to be `main`). This runs the GitHub workflow that uses pytest to test the function Fibonacci in `fib.py` using `test_fib.py`
 - Click into the workflow that was just run, then select "build" to see if there are any issues. There should be test cases failing
 
 Our test cases suggest that the main branch is broken! Let’s walk through the process to fix these errors.
@@ -62,6 +63,6 @@ git push --set-upstream origin <your-branch-name>
 - Return to the Kanban board. If everything was set up correctly, the issue should automatically move into the Done column
 
 ## Activity 5b: Check GitHub actions 
-- Click on the Actions tab. If you have resolved all the issues correctly, the tests should now pass, and a green check should show
+- Click on the **Actions** tab. If you have resolved all the issues correctly, the tests should now pass, and a green check should show
 
-Remember to do Recitation Quiz 1 on Canvas! Please only open it after you have completed all the steps above.
+Remember to do Recitation Quiz 1! Please only open it after you have completed all the steps above.

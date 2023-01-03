@@ -11,7 +11,7 @@
     link: ''
     name: ''
   recitation:
-    handout: '' #'/recitations/reci1-github/'
+    handout: '/recitations/reci1-github/'
     name: 'Git Collaboration'
     quiz: ''
     slides: ''
