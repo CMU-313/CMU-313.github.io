@@ -11,16 +11,11 @@ lectures:
   link: ''
   name: Metrics and Measurement
 
-next_homework:
-  date: Mon Jan 16
-  deadline: Due Thurs Jan 26 @ 11:59pm
-  link: ''
-  name: Homework 1
-  numDays: 9
+next_homework: null
 
 recitation:
   date: Mon Jan 16
-  handout: /recitations/reci1-github/
+  handout: ''
   name: Git Collaboration
   quiz: ''
   slides: ''

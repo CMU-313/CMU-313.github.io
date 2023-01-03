@@ -1,9 +1,9 @@
 - date: Mon Jan 16
   homework:
-    deadline: 'Due Thurs Jan 26 @ 11:59pm'
+    deadline: '' #'Due Thurs Jan 26 @ 11:59pm'
     link: ''
-    name: 'Homework 1'
-    numDays: 9
+    name: '' #'Homework 1'
+    numDays: 0 #9
   lecture:
     link: ''
     name: 'MLK Day [No Class]'
@@ -11,7 +11,7 @@
     link: ''
     name: ''
   recitation:
-    handout: '/recitations/reci1-github/'
+    handout: '' #'/recitations/reci1-github/'
     name: 'Git Collaboration'
     quiz: ''
     slides: ''

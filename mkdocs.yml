@@ -60,8 +60,8 @@ nav:
     # - Homework 4: assignments/HW4.md
     # - Homework 5: assignments/HW5.md
     # - Homework 6: assignments/HW6.md
-  - Recitations: # recitations/index.md # Dummy home page; remove once we start adding recitations below
-    - Recitation 1: recitations/reci1-github.md
+  - Recitations: recitations/index.md # Dummy home page; remove once we start adding recitations below
+    # - Recitation 1: recitations/reci1-github.md
     # - Recitation 2: recitations/reci2-angularjs.md
     # - Recitation 3: recitations/reci3-archaeology.md
     # - Recitation 4: recitations/reci4-dysfunction.md
