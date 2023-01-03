@@ -27,11 +27,14 @@ theme:
 
 markdown_extensions:
   - attr_list
+  - admonition
   - md_in_html
-  - tables
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences
+  - tables
   - toc:
       title: On This Page
       toc_depth: 4
@@ -47,14 +50,15 @@ nav:
   - Home: index.md
   - Course Overview: overview.md
   - Syllabus: syllabus.md
-  - Assignments: assignments/index.md
+  - Assignments: assignments/index.md # Dummy home page; remove once we start adding assignments below
     # - Homework 1: assignments/HW1.md
     # - Homework 2: assignments/HW2.md
     # - Homework 3: assignments/HW3.md
     # - Homework 4: assignments/HW4.md
     # - Homework 5: assignments/HW5.md
     # - Homework 6: assignments/HW6.md
-  - Recitations: recitations/index.md
+  - Recitations: recitations/index.md # Dummy home page; remove once we start adding recitations below
+    # - Recitation 1: recitations/reci1-github.md
     # - Recitation 2: recitations/reci2-angularjs.md
     # - Recitation 3: recitations/reci3-archaeology.md
     # - Recitation 4: recitations/reci4-dysfunction.md

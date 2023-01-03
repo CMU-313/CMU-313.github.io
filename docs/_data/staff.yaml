@@ -4,11 +4,11 @@
 #   website: 
 #   photo: Angela.jpg
 
-# - name: Anuda Weerasinghe
-#   role: Teaching Assistant
-#   email: wweerasi@andrew.cmu.edu
-#   website: 
-#   photo: anuda.jpg
+- name: Anuda Weerasinghe
+  role: Teaching Assistant
+  email: wweerasi@andrew.cmu.edu
+  website: 
+  photo: anuda.jpg
 
 # - name: Christopher Timperley
 #   role: Instructor
@@ -34,11 +34,11 @@
 #   website: 
 #   photo: Maggie.jpg
 
-# - name: Mahima Pannala
-#   role: Teaching Assistant
-#   email: mpannala@andrew.cmu.edu
-#   website: 
-#   photo: Mahima.jpg
+- name: Mahima Pannala
+  role: Teaching Assistant
+  email: mpannala@andrew.cmu.edu
+  website: 
+  photo: Mahima.jpg
 
 # - name: Wode "Nimo" Ni
 #   role: Teaching Assistant
@@ -52,11 +52,11 @@
 #   website: https://rohan.padhye.org/
 #   photo: rohan.jpeg
 
-# - name: Tak-Ho Lee
-#   role: Teaching Assistant
-#   email: takhol@andrew.cmu.edu
-#   website: 
-#   photo: takho.jpg
+- name: Tak-Ho Lee
+  role: Teaching Assistant
+  email: takhol@andrew.cmu.edu
+  website: 
+  photo: takho.jpg
 
 # - name: Victor Huang
 #   role: Teaching Assistant
@@ -64,8 +64,8 @@
 #   website: 
 #   photo: Victor.jpg
 
-# - name: Victor Andres Alfonzo
-#   role: Teaching Assistant
-#   email: vaa@andrew.cmu.edu
-#   website: 
-#   photo: VictorA.jpg
+- name: Victor Andres Alfonzo
+  role: Teaching Assistant
+  email: vaa@andrew.cmu.edu
+  website: 
+  photo: VictorA.jpg

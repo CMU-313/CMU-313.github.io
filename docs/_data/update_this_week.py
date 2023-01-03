@@ -23,17 +23,17 @@ recitation = None
 lectures = []
 
 if schedule: 
-    found_week_start = False
+    week_start_date = None
     for schedule_day in schedule:
         date = datetime.strptime(schedule_day['date'], "%a %b %d").replace(year=now.year)
-        if not found_week_start and date > now:
+        if not week_start_date and date > now:
             # We're at the current week!
-            found_week_start = True
-        elif found_week_start and date > now + timedelta(weeks=1):
+            week_start_date = date
+        elif week_start_date and date >= week_start_date + timedelta(weeks=1):
             # We left the current week
             break
         
-        if found_week_start:
+        if week_start_date:
             if schedule_day['homework']['name'] != '':
                 next_homework = schedule_day['homework']
                 next_homework['date'] = schedule_day['date']

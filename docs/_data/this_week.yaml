@@ -1,7 +1,26 @@
 last_homework: null
 
-lectures: []
+lectures:
+- date: Mon Jan 16
+  link: ''
+  name: MLK Day [No Class]
+- date: Tue Jan 17
+  link: ''
+  name: Intro
+- date: Thu Jan 19
+  link: ''
+  name: Metrics and Measurement
 
-next_homework: null
+next_homework:
+  date: Mon Jan 16
+  deadline: Due Thurs Jan 26 @ 11:59pm
+  link: ''
+  name: Homework 1
+  numDays: 9
 
-recitation: null
+recitation:
+  date: Mon Jan 16
+  handout: ''
+  name: Git Collaboration
+  quiz: ''
+  slides: ''
