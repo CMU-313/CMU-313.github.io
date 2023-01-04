@@ -1,0 +1,276 @@
+.md-grid {
+    max-width: 1280px; 
+}
+
+.md-typeset h1 {
+    font-weight: bold;
+    color: var(--md-default-fg-color);
+}
+
+.md-typeset h2 {
+    font-weight: bold;
+}
+
+.md-sidebar {
+    width: 10.5rem;
+}
+
+.md-footer {
+    margin-top: 30px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 #ddd, 0 0 0 1px #ddd;
+}
+
+a.card {
+    -webkit-box-shadow: 0 1px 3px 0 #ddd, 0 0 0 1px #ddd;
+    box-shadow: 0 1px 3px 0 #ddd, 0 0 0 1px #ddd;
+    transition: 0.25s;
+}
+
+a.card:hover {
+    -webkit-box-shadow: 0 1px 12px 0 #ccc, 0 0 0 1px #ddd;
+    box-shadow: 0 1px 12px 0 #ccc, 0 0 0 1px #ddd;
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+
+.card .container {
+    padding: 10px 16px;
+    text-align: center;
+}
+
+#this-week {
+    display: flex;
+}
+
+#this-week .card {
+    flex: 1 1 0;
+    margin: 0.5rem;
+}
+
+#this-week .card .header {
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 2px;
+    border-bottom: 1px #ccc solid;
+}
+
+#this-week .card .content {
+    font-size: 11pt;
+    padding: 15px;
+    border-bottom: 0.5px #ccc solid;
+}
+
+#this-week .card .content:last-child {
+    border-bottom: none;
+    padding-bottom: 20px;
+}
+
+#this-week .lecture-name,
+#this-week .reading-name,
+#this-week .recitation-name,
+#this-week .homework-name {
+    font-size: 12pt;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+#this-week .lecture-date,
+#this-week .reading-date,
+#this-week .recitation-date,
+#this-week .homework-date {
+    font-size: 11pt;
+    font-weight: light;
+    padding-bottom: 2px;
+}
+
+#this-week .homework-date .material-symbols-outlined,
+#this-week .lecture-date .material-symbols-outlined,
+#this-week .reading-date .material-symbols-outlined {
+    font-size: 15px;
+    vertical-align: text-top;
+    padding-right: 2px;
+}
+
+#important-links {
+    display: flex;
+}
+
+#important-links .card {
+    flex: 1 1 0;
+    margin: 0.5rem;
+}
+
+#important-links .card .name {
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+#important-links .card .content {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#important-links .card .icon {
+    height: 50px;
+    margin: auto;
+}
+
+#schedule .md-typeset__table {
+    display: table;
+    width: 100%;
+    margin-right: 50px;
+}
+
+#schedule table {
+    border-collapse: collapse;
+    font-size: 90%;
+    width: 90%;
+    display: table;
+}
+
+#schedule table td, table th {
+    border-left: 1px solid var(--md-typeset-table-color);
+    border-right: 1px solid var(--md-typeset-table-color);
+    padding: 10px!important;
+}
+
+#schedule table:not([class]) td {
+    vertical-align: middle;
+}
+
+#schedule table td:first-child, table th:first-child {
+    border-left: none;
+}
+
+#schedule table td:last-child, table th:last-child {
+    border-right: none;
+}
+
+#schedule table thead,
+#schedule table tbody tr:nth-child(10n+5),
+#schedule table tbody tr:nth-child(10n) {
+    border-bottom: 3px #ccc solid;
+}
+
+#schedule table td:nth-last-child(3) {
+    border-right: none;
+}
+
+#schedule table:not([class]) tbody tr:hover {
+    background-color: rgba(0,0,0,0);
+}
+
+a.label, a.label:visited {
+    color: #fff;
+}
+
+a.label:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.label.label-aqua {
+    background-color: #2E8C8C;
+    border-color: #2E8C8C;
+}
+
+.label.label-red {
+    background-color: #D84136;
+    border-color: #D84136;
+}
+
+.label.label-gold {
+    background-color: #D99036;
+    border-color: #D99036;
+}
+
+.label.label-blue {
+    background-color: #2185d0;
+    border-color: #2185d0;
+}
+
+.label .material-symbols-outlined {
+    font-size: 15px;
+    vertical-align: text-top;
+    padding-right: 4px;
+}
+
+.left.floating.label {
+    left: 0;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.floating {
+    position: absolute;
+    z-index: 100;
+    top: -1em;
+    white-space: nowrap;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+}
+
+.label:first-child {
+    margin-left: 0;
+}
+
+.label {
+    font-size: 0.65rem;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: baseline;
+    margin: 0.14em;
+    background-color: #e8e8e8;
+    background-image: none;
+    padding: 0.5833em 0.833em;
+    color: rgba(0,0,0,.6);
+    text-transform: none;
+    font-weight: 700;
+    border: 0 solid transparent;
+    border-radius: 0.28571429rem;
+    -webkit-transition: background .1s ease;
+    transition: background .1s ease;
+}
+
+#course-instructors .card,
+#course-assistants .card {
+    display: inline-block;
+    min-width: 275px;
+    margin: 0.5rem;
+}
+
+.staffer .staffer-image {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-top: .50rem;
+}
+
+.staffer .staffer-name {
+    font-weight: bold;
+    margin: .25rem !important;
+}
+
+.staffer .staffer-links {
+    margin: .25rem !important;
+    line-height: normal;
+}
+
+.staffer-links a {
+    font-size: 24px;
+}
+
+.staffer-links .material-symbols-outlined {
+    font-size: 24px;
+    vertical-align: text-top;
+    padding: 0px 3px;
+}

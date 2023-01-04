@@ -1,0 +1,21 @@
+last_homework: null
+
+lectures:
+- date: Mon Jan 16
+  link: ''
+  name: MLK Day [No Class]
+- date: Tue Jan 17
+  link: ''
+  name: Intro
+- date: Thu Jan 19
+  link: ''
+  name: Metrics and Measurement
+
+next_homework: null
+
+recitation:
+  date: Mon Jan 16
+  handout: ''
+  name: Git Collaboration
+  quiz: ''
+  slides: ''
