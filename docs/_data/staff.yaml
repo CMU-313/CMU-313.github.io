@@ -1,13 +1,13 @@
 # - name: Angela Zhang
 #   role: Teaching Assistant
 #   email: angelaz1@andrew.cmu.edu
-#   website: 
+#   website:
 #   photo: Angela.jpg
 
 - name: Anuda Weerasinghe
   role: Teaching Assistant
   email: wweerasi@andrew.cmu.edu
-  website: 
+  website:
   photo: anuda.jpg
 
 # - name: Christopher Timperley
@@ -16,10 +16,10 @@
 #   website: http://www.christimperley.co.uk/
 #   photo: chrisT.jpg
 
-# - name: Daye Nam 
+# - name: Daye Nam
 #   role: Instructor
 #   email: dayen@andrew.cmu.edu
-#   website: 
+#   website:
 #   photo: daye.jpg
 
 - name: Michael Hilton
@@ -28,16 +28,21 @@
   website: http://www.cs.cmu.edu/~mhilton/
   photo: hilton.jpg
 
+- name: Hyrum Wright
+  role: Instructor
+  email: hwright@andrew.cmu.edu
+  website:
+  photo: hyrum.jpg
 # - name: Maggie Huang
 #   role: Teaching Assistant
 #   email: maggieh2@andrew.cmu.edu
-#   website: 
+#   website:
 #   photo: Maggie.jpg
 
 - name: Mahima Pannala
   role: Teaching Assistant
   email: mpannala@andrew.cmu.edu
-  website: 
+  website:
   photo: Mahima.jpg
 
 # - name: Wode "Nimo" Ni
@@ -55,17 +60,23 @@
 - name: Tak-Ho Lee
   role: Teaching Assistant
   email: takhol@andrew.cmu.edu
-  website: 
+  website:
   photo: takho.jpg
 
 # - name: Victor Huang
 #   role: Teaching Assistant
 #   email: hweiqivi@andrew.cmu.edu
-#   website: 
+#   website:
 #   photo: Victor.jpg
 
 - name: Victor Andres Alfonzo
   role: Teaching Assistant
   email: vaa@andrew.cmu.edu
-  website: 
+  website:
   photo: VictorA.jpg
+
+- name: Antara Pal
+  role: Teaching Assistant
+  email: antarap@andrew.cmu.edu
+  website:
+  photo: antara.jpg
