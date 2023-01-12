@@ -1,10 +1,15 @@
 ---
+layout: page
 title: HW03 Teamwork
+permalink: /assignments/hw3
+parent: Assignments
 ---
+
+**17-313: Foundations of Software Engineering**
 
 # Homework 3: Teamwork
 
-## Learning Goals
+The key learning goals of this homework are that you are able to:
 
 -   Plan and schedule projects in terms of tasks, milestones, and time  estimations, and re-plan as required
 

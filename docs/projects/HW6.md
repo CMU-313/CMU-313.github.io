@@ -1,8 +1,13 @@
 ---
+layout: page
 title: HW06 Open Source Excursion
+permalink: /assignments/hw6
+parent: Assignments
 ---
 
-# Homework 6: Open Source Excursion
+# 17-313: Foundations of Software Engineering
+
+## Homework 6: Open Source Excursion
 
 In this assignment, your high-level goal is to produce and submit a non-trivial modification or extension to an open-source project in a way that maximizes the chances that the project maintainers accept it. 
 
@@ -13,8 +18,8 @@ If you demonstrate to us that your change has been accepted and integrated into 
 | A    | **[Project & Task Selection](#part-a-project--tasks-selection-check-in)**{: .label .label-red } | 1 - 3 | 80    |  29-Nov    |
 | B    | **[Project Presentations](#part-b-project-presentations)**{: .label .label-red }       |4 - 5| 100     |  12-Dec    |
 | C    | **[Project Report](#part-c-project-report)**{: .label .label-red }             |4 - 5| 120 |  15-Dec    |
-| D    | **[Individual Reflection](#part-d-individual-reflection-peer-evaluations)**{: .label .label-red }     | 5 | 20     |   15-Dec   |
-| Bonus   | **If changes get accepted**    | 4 | 20     | 15-Dec    |
+| D    | **[Individual Reflection](#part-d-individual-reflection--peer-evaluations)**{: .label .label-red }     | 5 | 20     |   15-Dec   |
+| Bonus   | **If changes get accepted**    | 4 | 20     | ~~15-Dec~~ 19-Dec    |
 
 <details>
     <summary> Learning Objectives </summary>
@@ -99,7 +104,7 @@ You will report on your project and task selection, work, and experience in seve
 ### Part A: Project & Tasks Selection Check-In 
 
 **Points**: 80  
-**Presentation Slide Deck Due Date**: 29th November 2022, 11:59pm  
+**Presentation Slide Deck Due Date**: 29th November 2022, 2359  
 **Presentation Date**: 30th November 2022 / 2nd December 2022 (Recitation after Thanksgiving) 
 
 The recitation after thanksigiving will be dedicated to an **in-person** group presentation about your project and task selection.
@@ -109,7 +114,7 @@ The recitation after thanksigiving will be dedicated to an **in-person** group p
 - Participation from all team members during the presentation is **required**.
 - For full credit, you would have to be on time for the presentation session (within 5 minutes of recitation start time). If you are unable to attend in-person, you have to send a slack message to your TA with justifications **24 hours before the start of your recitation** else you will receive **no credit** for this part of the assignment. You will then present by recording your segment of the presentation, which your teammate will play during the presentation.
 
-#### Guidance
+### Guidance
 - Pick a project following [Step 1](#1-select-an-open-source-project) and the open source recitation
 - Select tasks following [Step 2](#2-select-one-or-more-bug-fixes--feature-extensions)
 - Plan your tasks following [Step 3](#3-plan-the-task)
@@ -117,26 +122,20 @@ The recitation after thanksigiving will be dedicated to an **in-person** group p
 **Your group presentation will serve as a check-in to determine if the open source project and task chosen was reasonable**
 
 Your **6-minute** check-in presentation should include (the recommended slides amount is in parenthesis):
-
-1.	**Overview and justification** (~1 slide)  
+1.	**Overview and justification** (~1 slide)   
 An overview on the project you selected, summarizing the relevant characteristics you considered when making your selection. Beyond whatever additional information you collect in your research, include at least a name, a website link, and a brief description of the project (what it does, who uses it, etc). 
-
-2.	**Successful build** (~1 slide)  
+2.	**Successful build** (~1 slide)     
 Evidence that you can build and run the software (e.g., a screenshot or text output from a successful build, a screenshot of the running program). Getting an open-source project to build/run can be a huge effort, and we want to mitigate this risk.
-
-3.	**Task(s) description** (~ 2-3 slides)  
-    - A brief textual description of your proposed change(s). In addition to your core task(s), you may choose to include a stretch task, depending on how difficult the changes end up being, you may not need to implement it. Note that if your actual changes deviate from the plan, we expect a short explanation with the final submission. 
-    - A justification why the task(s) benefit(s) from teamwork and are appropriate for your team size. 
-
+3.	**Task(s) description** (~ 2 - 3 slides)
+- A brief textual description of your proposed change(s). In addition to your core task(s), you may choose to include a stretch task, depending on how difficult the changes end up being, you may not need to implement it. Note that if your actual changes deviate from the plan, we expect a short explanation with the final submission. 
+- A justification why the task(s) benefit(s) from teamwork and are appropriate for your team size. 
 4.	**Task link(s)**  (~ 1 slide)    
 Evidence that the task(s) is/are requested by the community (links suffices).
-
 5.	**Subtasks & assignments** (~ 1 slide)  
 A table to summarize for each subtask
-    - description of each subtask 
-    - priorities & justification of priorities of the subtasks (and if it's part of core goals or stretch goals)
-    - assignment of subtasks to team members.  
-
+- description of each subtask 
+- priorities & justification of priorities of the subtasks (and if it's part of core goals or stretch goals)
+- assignment of subtasks to team members.  
 6. **Risk & Mitigation Strategies** (~ 1 slide)   
 A list of at least two relevant risks when it comes to working on the tasks in your selected open source project and corresponding mitigation strategies 
 
@@ -144,7 +143,7 @@ Submit the presentation deck listed above as a **single PDF** file per team to *
 
 ### Part B: Project Presentations
 **Points**: 100  
-**Presentation Slides Due Date**: 12th December 2022, 11:59pm  
+**Presentation Slides Due Date**: 12th December 2022, 2359  
 **Presentation Date**: 13th / 15th December 2022, 5.30pm - 8.30pm. (During final exam timeslot)
 
 The Final Exam time is dedicated to group presentations **(in-person)** about your open source contributions.
@@ -158,21 +157,21 @@ The Final Exam time is dedicated to group presentations **(in-person)** about yo
 The goal of the presentation is primarily to share with the class the project to which you contributed, and your experiences. Your presentation should cover the following topics (the recommended slides amount is in parenthesis):
 
 1.	**High-level project overview** (~1 slide) 
-    - Describe the project in terms of its high-level goals and the context in which it operates. This may include a brief history and the business context. E.g. it may be interesting to note that a project was spawned from a closed-source operation, or that it competes primarily with a closed-source counterpart. 
+- Describe the project in terms of its high-level goals and the context in which it operates. This may include a brief history and the business context. E.g. it may be interesting to note that a project was spawned from a closed-source operation, or that it competes primarily with a closed-source counterpart. 
 
 2. **Brief description of the task you performed** (~2 slides)
-    - **Brief** description of the task(s) you performed, such that the audience has sufficient context to understand your explanation of your experiences.
-    - We **do not expect you to include, for example, any code or diagrams from your report**, unless they’re helpful for supporting a point about your interactions with the project.
-    - A demo is appreciated, but please do a screen recording instead of a live demo.
+- **Brief** description of the task(s) you performed, such that the audience has sufficient context to understand your explanation of your experiences.
+- We **do not expect you to include, for example, any code or diagrams from your report**, unless they’re helpful for supporting a point about your interactions with the project.
+- A demo is appreciated, but please do a screen recording instead of a live demo.
 
 3.	**Project processes and communication** (~2 slides)  
 Describe the processes and tools the project uses to coordinate among contributors. For example: Are these processes formal or informal? Provide an explicit description (possibly with a diagram) of the acceptance process used for efforts like the task you completed. If applicable, include standards or expectations regarding software engineering activities including requirements, architecture, and quality assurance; alternatively mention that no such standards exist.
 
 4.	**Your experiences** (~2 slides)  
 Summarize your experiences (and what you learned!) interacting with this community of open source developers, focusing on any surprising or unusual aspects of the process or interaction. For example: 
-    - Did you run into any trouble understanding, changing, or contributing to a large, pre-existing project?
-    - Were there unanticipated challenges in either implementing your change, or in getting the change submitted to and accepted by the project maintainers?
-    - Did the project collaboration process or culture help or hinder your effort in any way? Characterize any interaction you had with the team leadership and community, highlighting especially any useful/useless input you received. You may (but are not required to) also relate the experience from this homework assignment with relevant experience from internships or other projects.
+- Did you run into any trouble understanding, changing, or contributing to a large, pre-existing project?
+- Were there unanticipated challenges in either implementing your change, or in getting the change submitted to and accepted by the project maintainers?
+- Did the project collaboration process or culture help or hinder your effort in any way? Characterize any interaction you had with the team leadership and community, highlighting especially any useful/useless input you received. You may (but are not required to) also relate the experience from this homework assignment with relevant experience from internships or other projects.
 
 Your summary of your experiences can be at whatever level of detail you think is interesting or informative. Given the time limit, selecting and highlighting the two or three most important or interesting observations is likely more useful than trying to be complete.
 
@@ -180,56 +179,45 @@ You must upload your slides as **a single PDF document** to Gradescope.
 
 ### Part C: Project Report
 **Points**: 120  
-**Due Date**: 15 December 2022, 11:59pm
+**Due Date**: 15 December 2022, 2359
 
 After completing and submitting the modification, write a report about the tasks you have performed.
 
 Your report should include:
-
 1.	**Selected project** (1 paragraph)  
 A brief description of the open source system to which you contributed. You may reuse text from Part A.
-
 2.	**Project context and business model**  (<0.5 page)   
 An analysis of the open-source project’s context and business model. This may include a short history of the project, competing open- and closed-source projects, or a discussion of the developers’ motivations to build this system. Essentially, we want to know why this project exists and why it is important.
-
 3.	**Task description (per task)** (<0.5 page)    
 A description of the tasks you have implemented and a high-level description of how you implemented them.
-
 4.	**Submitted artifacts (per task)**  
 Evidence of the code, documentation, or other artifacts you produced for the task, and evidence that you submitted them to the project. This would likely be links to publicly available resources (repository, email, pull request, etc).
-
 5.	**QA strategy** (<1 page)  
 Describe which QA activities you performed and justify why you selected these QA activities over others. Describe metrics if appropriate. The justification will likely refer to relevant requirements as well as to the project’s practices. 
-
 6.	**QA evidence**  
 Evidence of your quality assurance activities described above. For example, provide source code or links to source code of tests, provide test protocols, comments or protocols from code reviews, reports from static analysis tools, links to or screenshots from a continuous integration platform, and so forth.
-
 7.	**Plan updates** (<1 page)  
 A description and justification of deviations between your initial plans and your performed activities (as in Homework 2). Changes are expected, but they should be tracked and explained. Describe changes in scope (e.g., fewer tasks) and in the schedule and work allocation. Provide an updated schedule and note differences. Explain the causes of the changes, such as unanticipated risks. 
-
 8.	**BONUS**  
-Evidence that your changes have been accepted into the code base of the open source project in forms of links or screenshots.
+Evidence that your changes have been accepted into the code base of the open source project in forms of links or screenshots. **Note: You can also send the merged PR link via Slack to Michael Hilton by 19th December 1pm to claim this bonus as well**
 
 Page limits are provided for guidance; we will not enforce them. Collect all parts in a **single PDF document with clear subsections** and the names of all team members and submit that file to **Gradescope**.
 
 ### Part D: Individual Reflection & Peer Evaluations
 **Points**: 20  
-**Due Date**: 15 December 2022, 11:59pm
+**Due Date**: 15 December 2022, 2359
 
 Your indiviudal reflection should include:
-
 1. **Self Evaluation**   
 Describe the work you have done in this project (e.g. code artifacts, documentation) as well as efforts towards helping your team towards completing this project (e.g. research, organizing meetings, running meetings).
-
 2. **Peer Evaluations**  
 Describe the specific work **each of your team members** have contributed towards this project. Describe both tangible (e.g. code artifacts, report & slides making, documentation) and intangible (e.g. organizing & running meetings, communicating expectations) contributions. Do point out teammates that you think are exceptional to work with in this project as well.
-
 3.	**Teamwork**  
 You have been in the same team over the course of this semester (HW 2-6). Look back on the entire semester and reflect on your team experiences. The following questions may guide you: 
-    - What has worked, what hasn’t? 
-    - If you could start 313 or another course over with the same team, what would you change? 
-    - What have you learned about teamwork and your role in teamwork?
-    - (Optional) Do you have any feedback on what we can do next year to help students work more effectively in teams? Bear in mind that the instructor-assigned heterogeneous teams of 3-5 students is non-negotiable. We anticipate problems as part of the learning experience, but would like to avoid unduly frustrating situations.
+- What has worked, what hasn’t? 
+- If you could start 313 or another course over with the same team, what would you change? 
+- What have you learned about teamwork and your role in teamwork?
+- (Optional) Do you have any feedback on what we can do next year to help students work more effectively in teams? Bear in mind that the instructor-assigned heterogeneous teams of 3-5 students is non-negotiable. We anticipate problems as part of the learning experience, but would like to avoid unduly frustrating situations.
 
 A good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support them. Submit your reflection on **Gradescope**.
 

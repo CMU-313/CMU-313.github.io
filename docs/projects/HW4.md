@@ -1,10 +1,15 @@
 ---
+layout: page
 title: HW04 Microservices
+permalink: /assignments/hw4
+parent: Assignments
 ---
+
+**17-313: Foundations of Software Engineering**
 
 # Homework 4: Microservices
 
-## Learning Goals
+The key learning goals of this homework are that you are able to:
 
 - Design, implement, and test a microservice.
 

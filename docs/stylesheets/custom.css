@@ -44,11 +44,13 @@ a.card:hover {
 
 #this-week {
     display: flex;
+    flex-wrap: wrap;
 }
 
 #this-week .card {
     flex: 1 1 0;
     margin: 0.5rem;
+    min-width: 250px;
 }
 
 #this-week .card .header {
@@ -96,32 +98,6 @@ a.card:hover {
     padding-right: 2px;
 }
 
-#important-links {
-    display: flex;
-}
-
-#important-links .card {
-    flex: 1 1 0;
-    margin: 0.5rem;
-}
-
-#important-links .card .name {
-    text-align: center;
-    font-size: 14pt;
-    font-weight: bold;
-    padding-bottom: 15px;
-}
-
-#important-links .card .content {
-    padding-top: 20px;
-    text-align: center;
-}
-
-#important-links .card .icon {
-    height: 50px;
-    margin: auto;
-}
-
 #schedule .md-typeset__table {
     display: table;
     width: 100%;
@@ -131,7 +107,6 @@ a.card:hover {
 #schedule table {
     border-collapse: collapse;
     font-size: 90%;
-    width: 90%;
     display: table;
 }
 

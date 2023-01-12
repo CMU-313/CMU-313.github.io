@@ -150,24 +150,6 @@ hide:
 
 </div>
 
-## Important Links
-<div id="important-links">
-
-{%- set links = extra.links -%}
-
-{% for link in links %}
-<a class="card" href="{{link.link}}" target="_blank">
-    <div class="content">
-        <img class="icon" src="{{link.icon}}" alt="{{link.name}} icon">
-    </div>
-    <div class="name">
-        {{ link.name }}
-    </div>
-</a>
-{% endfor %}
-
-</div>
-
 ## Class Calendar
 
 <iframe src="https://calendar.google.com/calendar/embed?src=c_mfu3uiuq0fktl6tmvanaoejeeg%40group.calendar.google.com&ctz=America%2FNew_York&mode=WEEK" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>

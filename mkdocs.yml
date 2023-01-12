@@ -24,6 +24,7 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.tracking
+    - navigation.indexes
 
 markdown_extensions:
   - attr_list
@@ -53,13 +54,15 @@ nav:
   - Home: index.md
   - Course Overview: overview.md
   - Syllabus: syllabus.md
-  - Assignments: assignments/index.md # Dummy home page; remove once we start adding assignments below
-    # - Homework 1: assignments/HW1.md
-    # - Homework 2: assignments/HW2.md
-    # - Homework 3: assignments/HW3.md
-    # - Homework 4: assignments/HW4.md
-    # - Homework 5: assignments/HW5.md
-    # - Homework 6: assignments/HW6.md
+  - Projects: # projects/index.md # Dummy home page; remove once we start adding homework below
+    - "Project 1: Hello, NodeBB!": 
+      - projects/HW1/index.md
+      - Github Exercise: projects/HW1/github.md
+    # - Project 2: projects/HW2.md
+    # - Project 3: projects/HW3.md
+    # - Project 4: projects/HW4.md
+    # - Project 5: projects/HW5.md
+    # - Project 6: projects/HW6.md
   - Recitations: recitations/index.md # Dummy home page; remove once we start adding recitations below
     # - Recitation 1: recitations/reci1-github.md
     # - Recitation 2: recitations/reci2-angularjs.md
@@ -69,3 +72,5 @@ nav:
     # - Recitation 7: recitations/reci7-machine-learning.md
     # - Recitation 8: recitations/reci8-static-analysis-ci.md
     # - Recitation 9: recitations/reci9-open-source.md
+  - Canvas: https://canvas.cmu.edu/courses/33307
+  - Gradescope: https://www.gradescope.com/courses/488839

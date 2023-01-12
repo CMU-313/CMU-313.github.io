@@ -1,17 +1,22 @@
 ---
+layout: page
 title: HW02 Learning the Codebase
+permalink: /assignments/hw2
+parent: Assignments
 ---
 
-# Homework 2: Learning the Codebase
+# 17-313: Foundations of Software Engineering
 
-## Learning Goals
+## Homework 2: Learning the Codebase
+
+### Learning Goals
 
 - Learn about the design and implementation of an existing software project that you will build upon this semester
 - Collaborate with your teammates to design and implement a small feature addition or modification to that software project
 - Practice version control and development best practices within the context of a group assignment
 
 
-## Specification
+### Specification
 
 Now that you have onboarded to 17-313, setup your development environment, and met your team, upper management has tasked you with building a graduate student admissions system over the course of the semester (described below).
 Rather than creating a new admissions system from scratch, management has decided that you and your team will repurpose and adapt an existing document management system, Teedy.
@@ -25,7 +30,7 @@ To that end, your team has been tasked with implementing a small feature change 
 * REST middleware: `docs-web/src/main/java/com/sismics/docs/rest`
 * Angular.js frontend: `docs-web/src/main/webapp`
 
-## Team and GitHub repository.
+### Team and GitHub repository.
 
 You will be working on your team repository for this project. First,
 collectively choose a **team name.** Your team name should be unique,
@@ -62,7 +67,7 @@ The *code, testing, and documentation deliverables* below will be taken
 by snapshotting your repository at the deadline.
 
 
-## Project Description
+### Project Description
 
 CMU has over 7,000 graduate students.
 The university uses a software system to manage the graduate student admissions process, including collecting relevant information from applicants, accepting recommendation letters from third-parties, showing this information to the admissions committee and accepting ratings and commentary from the admissions committee to support decisions, and notifying applicants of the decision.
@@ -85,13 +90,10 @@ deliverables are described below:
 
 ### **Planning---Team (due Thursday, Sept 22, 23:59) -- 20 points** 
 You must create an issue in your group's Teedy repository that:
-
   - Describes the new feature (or change to an existing feature) that you will implement for this assignment.
     The feature/change does not need to be large, but it **must require code changes across the entire Teedy stack.**
     The goal of this assignment is not to maximize value for your project client but instead to learn as much as possible about the existing codebase.
-
   - Roughly outlines the changes that need to be made at each level in the Teedy stack and specifies which team member(s) are responsible for implementing those changes. 
-
   - **If you are unsure about your planned changes, ask for feedback on your issue from a member of the course staff!**
 
 ### **Implementation:--Team (due Thursday, Sept 22, 23:59)  -- 80 points**
@@ -112,7 +114,7 @@ During the Week 5 recitation slot, your group will give a short 10-minute presen
 Getting to know your colleagues in a friendly context can often lead to more effective collaboration; healthy teams often get lunch together, for example.  To incentivize this, we will give your team 5% extra credit for this assignment if you meet for a team outside of a working session.  You might want to eat together, or go out for boba.  If someone on your team is not feeling well, you may also do a virtual activity such as an online gaming session (drawasaurus?) or social "zoom lunch". On the 17-313 Slack workspace, create a new **private channel** (name it `team-<teamname>`) that includes all your team members and the two TAs who are your team mentors (these are the same TAs that run your recitation---if you are unsure, ask on `#general`). Share the photo or screenshot of your team activity on the slack channel with your TA mentors to receive the 5% extra credit. You can also use this slack channel for subsequent project-team related discussions or specialized Q&A with your TA mentors for the rest of the semester.
 
 
-## Grading
+### Grading
 
 You will be graded as a team, with an individual component. This
 homework is worth 160 points, with an additional 8 points of extra credit available. 
