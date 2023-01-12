@@ -56,8 +56,8 @@ nav:
   - Syllabus: syllabus.md
   - Projects: # projects/index.md # Dummy home page; remove once we start adding homework below
     - "Project 1: Hello, NodeBB!": 
-      - projects/HW1/index.md
-      - Github Exercise: projects/HW1/github.md
+      - projects/P1/index.md
+      - Github Exercise: projects/P1/github.md
     # - Project 2: projects/HW2.md
     # - Project 3: projects/HW3.md
     # - Project 4: projects/HW4.md
