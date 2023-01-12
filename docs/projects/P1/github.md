@@ -4,7 +4,7 @@
 The purpose of this exercise is to provide support for students who may be less familiar with Git and GitHub. After this exercise, students should be able to use Git and GitHub for their teamwork in this course and other projects. Students should know about the Git workflow and how to collaborate with other developers in their projects.
 
 !!! note
-    This exercise is **completely** optional and is meant to provide a sandbox environment for students who want to practice using Git and GitHub tools. Students should use their own discretion on whether this exercise is helpful or necessary to support their learning.
+    This exercise is optional and is meant to provide a sandbox environment for students who want to practice using Git and GitHub tools. Students should use their own discretion on whether this exercise is helpful or necessary to support their learning.
 
 ## Prerequisites
 
@@ -82,9 +82,9 @@ Give your pull request an appropriate title and description.
 
     **Pull request descriptions** should describe what changes have been made in more detail and how the changes have been tested.
 
-[Link the issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) you created to the pull request by using the linking keywords in the PR description, then click on the green "Create pull request" button.
+Link the issue you created initially to the PR by using the [linking keywords](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) in the PR description, then click on the green "Create pull request" button.
 
 Notice that the GitHub action workflow runs automatically once you create the pull request! You should check that the relevant test case to your fix now passes.
 
 ## Check GitHub Actions 
-- Click on the **Actions** tab. If you have resolved all the issues correctly, the tests should now pass, and a green check should show
+Click on the **Actions** tab. If you have resolved all the issues correctly, the tests should now pass, and a green check should show
