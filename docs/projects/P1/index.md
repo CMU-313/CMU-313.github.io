@@ -107,7 +107,7 @@ There's some restrictions on the `.js` file that you can pick, the file must
 - Contain **at least 50 lines of non-import statement code** before you start translating it. Files like `src/api/index.js` and `src/controllers/admin.js` are not allowed. 
 - **Not be a file that someone else has already picked**. We expect you to look through existing issues, if any, to avoid such duplication (thus, there is an incentive for you to start early! First come first serve).
 
-Title the task appropriately, as `Converting <file name> from JS to TS`, and mention the file name in the description as well. Once again refer to the [Github Exercise](/projects/P1/github) for the standards we are expecting. To prevent ambiguities between similarly-named files, be sure to include the **full file path** (`src/../...js`). Then, assign yourself to the Issue by leaving a comment that says "I would like to work on this please!"
+Title the task appropriately, as `Converting <file name> from JS to TS`, and mention the file name in the description as well. Once again refer to the [Github Exercise](/projects/P1/github) for the standards we are expecting. To prevent ambiguities between similarly-named files, be sure to include the **full file path** (`src/../...js`) in the title and description. Then, assign yourself to the Issue by leaving a comment that says "I would like to work on this please!"
 
 You should soon see another comment by the github-actions bot informing you that you have been successfully assigned to this issue.
 
@@ -135,7 +135,7 @@ Your changes must still pass both the linter and the test suite, so be sure to t
 	// The next line calls a function in a module that has not been updated to TS yet
 	// eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
 	```
-	We will check your files to make sure you are only suppressing these warnings when absolutely necessary. For more details, see the [Resources & Documentation](#typescript-background) section below.
+	We will check your files to make sure you are only suppressing these warnings when absolutely necessary. For examples and more details, see the [Resources & Documentation](#typescript-background) section below.
 
 As you work, be sure to periodically commit your changes. Your commit message(s) must clearly describe what is changing. If you’d like, you can make use of branching and pull requests in your own repository to practice working with GitHub.
 
@@ -149,7 +149,7 @@ There will be automated checks that run on your pull request to ensure you meet 
 If all of the actions have passed, you will see a green checkmark next to your pull request. This signals that you have completed the implementation aspect of this assignment! ✅
 
 ### Written Assignment (40 pts)
-After you have completed all of the above tasks, we will ask you to reflect on your onboarding process. Fill out and submit the HW1 Written Assignment available on Gradescope. 
+After you have completed all of the above tasks, we will ask you some questions relevant to the NodeBB project and the class [syllabus](/docs/syllabus). Fill out and submit the HW1 Written Assignment available on Gradescope. 
 
 ## Grading
 To receive full credit for this project, we expect:
@@ -167,7 +167,6 @@ To receive full credit for this project, we expect:
 	- [ ] Appropriate usage of the eslint-ignore comment
 	- [ ] A green checkmark signaling that all checks have passed
 - [ ] Answers to the Gradescope Written Assignment that demonstrate successful completion of the project and understanding of the benefits and limitations of software metrics in the context of NodeBB
-
 
 ## Resources & Documentation
 Below are some common resources to assist you with your completion of this project. If you get stuck, please first consult the following materials; if you have any additional questions, the course staff is also available to answer questions via Slack and Office Hours.
