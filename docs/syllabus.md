@@ -56,7 +56,7 @@ Your classmates are your colleagues. This is particularly true in this course, w
 
 To that end, we will not tolerate harassment in this class. We define harassment as unwelcome or hostile behavior of an ad hominem nature, i.e., that focuses not on ideas but on people and identity. This includes offensive verbal or written comments in reference to gender, sexual orientation, disability, physical appearance, race, or religion; sexual images in public spaces; deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of class meetings, inappropriate physical contact, and unwelcome sexual attention.
 
-Harassment is against the law and we have no tolerance for it, and neither does the university. Even when behavior does not rise to the level of harassment (even if you think you're “just joking!”), it can still make people very uncomfortable, and harm their educational and professional career by forcing them to devote mental energy to something other than the material they are trying to learn or the professional successes they are trying to achieve. However, we expect that we do not need to threaten you to earn your respect on this matter: we simply ask that you treat one another like professionals, in the most positive sense.
+Harassment is against the law and we have no tolerance for it, and neither does the university. Even when behavior does not rise to the level of harassment (even if you think you're "just joking!"), it can still make people very uncomfortable, and harm their educational and professional career by forcing them to devote mental energy to something other than the material they are trying to learn or the professional successes they are trying to achieve. However, we expect that we do not need to threaten you to earn your respect on this matter: we simply ask that you treat one another like professionals, in the most positive sense.
 
 This has two implications:
 
@@ -72,7 +72,7 @@ The course includes both individual projects  and individual components of group
 
 The rest of this academic honesty and collaboration content is taken from the policy used in 17-214, which we reuse almost directly (with minor modifications, and attribution).
 
-“You may not copy any part of a solution to a problem that was written by another student, or was developed together with another student, or was copied from another unauthorized source such as the Internet. You may not look at another student's solution, even if you have completed your own, nor may you knowingly give your solution to another student or leave your solution where another student can see it.
+"You may not copy any part of a solution to a problem that was written by another student, or was developed together with another student, or was copied from another unauthorized source such as the Internet. You may not look at another student's solution, even if you have completed your own, nor may you knowingly give your solution to another student or leave your solution where another student can see it.
 
 Here are some examples of behavior that are inappropriate:
 
