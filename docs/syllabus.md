@@ -14,7 +14,7 @@ The class has a waitlist long enough that we don't expect to clear it all. Howev
 There are no formal prerequisites, but we strongly recommend having a solid foundation in programming before taking this class (e.g. 15-121, 15-122). You will also get more out of the course if you have experience with some larger development projects, for example, through larger class projects (e.g. 17-214, 15-410), internships, or open-source contributions. If you have questions, please don't hesitate to reach out to the class instructors.
 
 ## Communication
-The primary form of communication within this course is through Slack. We will make announcements through a dedicated channel in Slack, and also provide channels for homework clarifications and team-based communication. As such, we highly recommend that students install Slack on their phones / desktop with notifications enabled.
+The primary form of communication within this course is through Slack. We will make announcements through a dedicated channel in Slack, and also provide channels for homework clarifications and team-based communication. As such, we **highly recommend** that students install Slack on their phones / desktop with notifications enabled.
 
 The instructors and TAs will also hold weekly office hours to provide support with course materials and projects. You can find the office hours schedule updated weekly here on the course website.
 
@@ -37,15 +37,16 @@ Evaluation will be based on the following distribution: 60% projects, 20% midter
 Regrade requests can be submitted via Gradescope. The regrade period is open for one week after grades have been released for a particular assignment.
 
 ## Late Work Policy
+
 ### Participation
-Participation points in this class are earned through a series of pre-lecture reading assignments, lecture activities, and recitations. To accommodate for life's uncertainties (e.g. health issues, scheduling conflicts), at the end of the semester, we will drop the lowest 10% of scores to calculate your participation grade. In other words, acquiring 90% of the available points will give you 100% in this category.
+Participation points in this class are earned through a series of pre-lecture reading assignments, lecture activities, and recitations. To accommodate for life's uncertainties (e.g. health issues, scheduling conflicts), at the end of the semester, we will drop the lowest 10% of scores to calculate your participation grade. In other words, **acquiring 90% of the available points will give you 100% in this category**. The amount of points available varies from semester to semester; generally, 10% would be equivalent to 3-4 lectures or recitations.
 
 There will be **no make-ups** for participation points, but you are strongly encouraged to come to office hours to learn or review the materials that you may have missed.
 
 If you find yourself in a situation that calls for an extended absence, please have your academic advisor reach out to the instructors, and they will work to find a solution on a case by case basis.
 
 ### Projects
-Late work will receive feedback but no credit. Due to heavy emphasis on planning & teamwork in this course there are no late days; we expect coordination and communication with your teammates. Exceptions to this policy will be made only in extraordinary circumstances, almost always involving a family or medical emergency, with your academic advisor or the Dean of Student Affairs requesting the exception on your behalf. 
+Late work will receive feedback but no credit. Due to heavy emphasis on planning & teamwork in this course there are no late days; we expect that you **anticipate unexpected events in your planning**, and coordinate with your teammates when they arise. Exceptions to this policy will be made only in extraordinary circumstances, almost always involving a family or medical emergency, with your academic advisor or the Dean of Student Affairs requesting the exception on your behalf. 
 
 ## Time Management
 This is a 12-unit course, and it is our intention to manage it so that you spend close to 12 hours a week on the course, on average. In general, 4 hours/week will be spent in lectures & recitation and 8 hours on readings and projects. Notice that most projects are done in groups, so please account for the overhead and decreased time flexibility that comes with group work. Throughout the semester, please feel free to give the course staff feedback on how much time the course is taking for you.
@@ -58,7 +59,7 @@ Your classmates are your colleagues. This is particularly true in this course, w
 
 To that end, we will not tolerate harassment in this class. We define harassment as unwelcome or hostile behavior of an ad hominem nature, i.e., that focuses not on ideas but on people and identity. This includes offensive verbal or written comments in reference to gender, sexual orientation, disability, physical appearance, race, or religion; sexual images in public spaces; deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of class meetings, inappropriate physical contact, and unwelcome sexual attention.
 
-Harassment is against the law and we have no tolerance for it, and neither does the university. Even when behavior does not rise to the level of harassment (even if you think you're “just joking!”), it can still make people very uncomfortable, and harm their educational and professional career by forcing them to devote mental energy to something other than the material they are trying to learn or the professional successes they are trying to achieve. However, we expect that we do not need to threaten you to earn your respect on this matter: we simply ask that you treat one another like professionals, in the most positive sense.
+Harassment is against the law and we have no tolerance for it, and neither does the university. Even when behavior does not rise to the level of harassment (even if you think you're "just joking!"), it can still make people very uncomfortable, and harm their educational and professional career by forcing them to devote mental energy to something other than the material they are trying to learn or the professional successes they are trying to achieve. However, we expect that we do not need to threaten you to earn your respect on this matter: we simply ask that you treat one another like professionals, in the most positive sense.
 
 This has two implications:
 
