@@ -35,13 +35,16 @@ Evaluation will be based on the following distribution: 60% projects, 20% midter
 
 ## Regrades
 Regrade requests can be submitted via Gradescope. The regrade period is open for one week after grades have been released for a particular assignment.
+
 ## Late Work Policy
+
 ### Participation
-Participation points in this class are earned through a series of pre-lecture reading assignments, lecture activities, and recitations. To accommodate for life's uncertainties (e.g. health issues, scheduling conflicts), at the end of the semester, we will drop the lowest 10% of scores to calculate your participation grade. In other words, **acquiring 90% of the available points will give you 100% in this category.** The amount of points available varies from semester to semester; generally 10% would be equivalent to 3 ~ 4 lectures or recitations.
+Participation points in this class are earned through a series of pre-lecture reading assignments, lecture activities, and recitations. To accommodate for life's uncertainties (e.g. health issues, scheduling conflicts), at the end of the semester, we will drop the lowest 10% of scores to calculate your participation grade. In other words, **acquiring 90% of the available points will give you 100% in this category**. The amount of points available varies from semester to semester; generally, 10% would be equivalent to 3-4 lectures or recitations.
 
 There will be **no make-ups** for participation points, but you are strongly encouraged to come to office hours to learn or review the materials that you may have missed.
 
 If you find yourself in a situation that calls for an extended absence, please have your academic advisor reach out to the instructors, and they will work to find a solution on a case by case basis.
+
 ### Projects
 Late work will receive feedback but no credit. Due to heavy emphasis on planning & teamwork in this course there are no late days; we expect that you **anticipate unexpected events in your planning**, and coordinate with your teammates when they arise. Exceptions to this policy will be made only in extraordinary circumstances, almost always involving a family or medical emergency, with your academic advisor or the Dean of Student Affairs requesting the exception on your behalf. 
 
@@ -89,7 +92,7 @@ It is not considered cheating to clarify vague points in the assignments, lectur
 
 Any violation of this policy is cheating. The minimum penalty for cheating (including plagiarism) will be a zero grade for the whole assignment. Cheating incidents will also be reported through University channels, with possible additional disciplinary action (see the above-linked University Policy on Academic Integrity).
 
-If you have any question about how this policy applies in a particular situation, ask the instructors or TAs for clarification.
+If you have any question about how this policy applies in a particular situation, ask the instructors or TAs for clarification."
 
 Note that the instructors respect honesty in these (and indeed most!) situations.
 
