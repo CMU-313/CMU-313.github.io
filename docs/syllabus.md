@@ -8,10 +8,10 @@ hide:
 The course is currently planned to be entirely in person for lectures and recitations. Most office hours will be in person, but some may be held over Zoom as well. The course uses Canvas and Gradescope for homework submission, grading, discussions, questions, and supplementary documents; slides and handouts are posted here on the course website; GitHub is used to coordinate group work. We also use Slack for communication and group work: check your email during the first week of classes for the Slack sign up link.
 
 ## Waitlist
-The class has a waitlist long enough that we don’t expect to clear it all. However, we will add as many students as we can. 
+The class has a waitlist long enough that we don't expect to clear it all. However, we will add as many students as we can. 
 
 ## Prerequisites
-There are no formal prerequisites, but we strongly recommend having a solid foundation in programming before taking this class (e.g. 15-121, 15-122). You will also get more out of the course if you have experience with some larger development projects, for example, through larger class projects (e.g. 17-214, 15-410), internships, or open-source contributions. If you have questions, please don’t hesitate to reach out to the class instructors.
+There are no formal prerequisites, but we strongly recommend having a solid foundation in programming before taking this class (e.g. 15-121, 15-122). You will also get more out of the course if you have experience with some larger development projects, for example, through larger class projects (e.g. 17-214, 15-410), internships, or open-source contributions. If you have questions, please don't hesitate to reach out to the class instructors.
 
 ## Communication
 The primary form of communication within this course is through Slack. We will make announcements through a dedicated channel in Slack, and also provide channels for homework clarifications and team-based communication. As such, we **highly recommend** that students install Slack on their phones / desktop with notifications enabled.
@@ -37,7 +37,7 @@ Evaluation will be based on the following distribution: 60% projects, 20% midter
 Regrade requests can be submitted via Gradescope. The regrade period is open for one week after grades have been released for a particular assignment.
 ## Late Work Policy
 ### Participation
-Participation points in this class are earned through a series of pre-lecture reading assignments, lecture activities, and recitations. To accommodate for life’s uncertainties (e.g. health issues, scheduling conflicts), at the end of the semester, we will drop the lowest 10% of scores to calculate your participation grade. In other words, **acquiring 90% of the available points will give you 100% in this category.** The amount of points available varies from semester to semester; generally 10% would be equivalent to 3 ~ 4 lectures or recitations.
+Participation points in this class are earned through a series of pre-lecture reading assignments, lecture activities, and recitations. To accommodate for life's uncertainties (e.g. health issues, scheduling conflicts), at the end of the semester, we will drop the lowest 10% of scores to calculate your participation grade. In other words, **acquiring 90% of the available points will give you 100% in this category.** The amount of points available varies from semester to semester; generally 10% would be equivalent to 3 ~ 4 lectures or recitations.
 
 There will be **no make-ups** for participation points, but you are strongly encouraged to come to office hours to learn or review the materials that you may have missed.
 
