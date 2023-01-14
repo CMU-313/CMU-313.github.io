@@ -1,10 +1,11 @@
 ---
 title: "CMU 17-313: Foundations of Software Engineering"
 hide:
-    - navigation
+  - navigation
 ---
 
 # 17-313 Foundations of Software Engineering
+
 ## This Week
 
 <div id="this-week">
@@ -47,6 +48,7 @@ hide:
             None!
         {% endif %}
     </div>
+
 </div>
 
 <div class="card"> 
@@ -87,6 +89,7 @@ hide:
     <div class="content">
         Held on the first floor lobby of TCS. See <a href="#class-calendar">class calendar</a> below for exact times!
     </div>
+
 </div>
 
 <div class="card"> 
@@ -101,7 +104,7 @@ hide:
 
             {% if this_week.last_homework.deadline != "" %}
             <div class="homework-date">
-                <span class="material-symbols-outlined">calendar_month</span> 
+                <span class="material-symbols-outlined">calendar_month</span>
                 {{ this_week.last_homework.deadline }}
             </div>
             {% endif %}
@@ -146,23 +149,26 @@ hide:
             None!
         {% endif %}
     </div>
+
 </div>
 
 </div>
 
 ## Class Calendar
 
-<iframe src="https://calendar.google.com/calendar/embed?src=c_mfu3uiuq0fktl6tmvanaoejeeg%40group.calendar.google.com&ctz=America%2FNew_York&mode=WEEK" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=c_1103eea63731dc779de16d03b476d0d9b7cf18f05132c28332628299ea064258%40group.calendar.google.com&ctz=America%2FNew_York&mode=WEEK" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Weekly Schedule
 
 <div id="schedule" markdown>
 
 <!-- Loading in schedule from schedule.yaml -->
+
 {%- set schedule = extra.schedule -%}
 
 {% if schedule %}
 {% set ns = namespace(recitation_days_left=0, homework_days_left=0) %}
+
 <table>
     <thead>
         <th><b>Date</b></th>
@@ -194,7 +200,7 @@ hide:
                 {% endif %}
             </span></td>
 
-            {% if schedule_day.recitation.name != "" %} 
+            {% if schedule_day.recitation.name != "" %}
                 <td rowspan="5"><span class="schedule-recitation">
                     <b>{{schedule_day.recitation.name}}</b>
                     <br/>
@@ -227,7 +233,7 @@ hide:
             {% endif %}
 
 
-            {% if schedule_day.homework.name != "" %} 
+            {% if schedule_day.homework.name != "" %}
                 <td rowspan="{{schedule_day.homework.numDays}}"><span class="schedule-homework">
                     <b>{{schedule_day.homework.name}}</b>
                     <br/>
@@ -239,7 +245,7 @@ hide:
                         <span class="material-symbols-outlined">description</span>Handout
                     </a>
                     {% endif %}
-                </span></td> 
+                </span></td>
                 {% set ns.homework_days_left = schedule_day.homework.numDays - 1 %}
             {% else %}
                 {% if ns.homework_days_left > 0 %}
@@ -251,6 +257,7 @@ hide:
         </tr>
         {% endfor %}
     </tbody>
+
 </table>
 
 {% else %}
@@ -260,6 +267,7 @@ Coming Soon!
 </div>
 
 ## Staff
+
 ### Instructors
 
 <div id="course-instructors">
@@ -293,11 +301,13 @@ Coming Soon!
 {%- set num_teaching_assistants = assistants | count -%}
 
 {% if num_teaching_assistants > 0 %}
+
 ### Teaching Assistants
 
 <div id="course-assistants">
 
 {% for assistant in assistants %}
+
 <div class="staffer card"> 
     <div class="container">
         <img class="staffer-image" src="/assets/images/{{assistant.photo}}" alt="">
