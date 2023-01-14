@@ -42,7 +42,7 @@ Check back on the build output in the **Actions** tab and take a look at which t
 
 Under the **Issues** tab, create an issue for each failing test case.
 
-!!! info
+!!! info "Issue Guidelines"
     **Issues titles** should provide a high-level overview of what the problem is (e.g. *"Navbar button UI bugs"*, *"Unexpected registration validation errors"*). Sometimes, issues are used to propose new features (e.g. *"Add CSV export feature"*).
 
     **Issue descriptions** should then elaborate on the title. For feature-level bugs, this may include providing information about how to reproduce the bug; for codebase-level changes, you can name specific files.
@@ -55,12 +55,12 @@ You may also want to experiment with adding [labels](https://docs.github.com/en/
 
 On your local machine, create a new branch with a relevant name to the issue you are addressing. 
 
-!!! info
+!!! info "Branch Guidelines"
     **Branch names** should be short and provide a description of what you will be doing on that branch (e.g. *"fix-header-sizing-issue"*, *"fix-multiple-dialog-bug"*, *"add-sorting-feature"*). When working with others, you can also append your username to signal which branches are yours (e.g. *"313ta/add-sorting-feature"*).
 
 Fix the issue that you were assigned to, then add and commit the changes.
 
-!!! info
+!!! info "Commit Guidelines"
     **Commits** should start with a verb and provide a description of what they are doing to the codebase (e.g. *"Remove faulty condition from getCustomerDetails"*, *"Fix failing CompositeTestCase"*, *"Fix issue #21"* ).
 
 Push the branch to remote by running:
@@ -77,7 +77,7 @@ On GitHub, create a pull request to merge the changes from the branch you have j
 
 Give your pull request an appropriate title and description.
 
-!!! info
+!!! info "Pull Request Guidelines"
     **Pull request titles** should describe what high-level changes were made to the codebase. Generally, they give a concise summary of all the commit messages.
 
     **Pull request descriptions** should describe what changes have been made in more detail and how the changes have been tested.
@@ -87,4 +87,4 @@ Link the issue you created initially to the PR by using the [linking keywords](h
 Notice that the GitHub action workflow runs automatically once you create the pull request! You should check that the relevant test case to your fix now passes.
 
 ## Check GitHub Actions 
-Click on the **Actions** tab. If you have resolved all the issues correctly, the tests should now pass, and a green check should show
+Click on the **Actions** tab. If you have resolved all the issues correctly, the tests should now pass, and a green check should show.

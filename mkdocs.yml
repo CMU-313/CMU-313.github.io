@@ -30,18 +30,24 @@ markdown_extensions:
   - attr_list
   - admonition
   - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.keys
+  - pymdownx.mark
   - pymdownx.superfences
   - pymdownx.tasklist:
       clickable_checkbox: true
       custom_checkbox: true
+  - pymdownx.tilde
   - tables
   - toc:
       title: On This Page
       toc_depth: 4
+      permalink: true
 
 extra_css:
   - stylesheets/custom.css
@@ -58,6 +64,11 @@ nav:
     - "Project 1: Hello, NodeBB!": 
       - projects/P1/index.md
       - Github Exercise: projects/P1/github.md
+      - NodeBB Installation:
+        - Mac: projects/P1/installation/mac.md
+        - Windows: projects/P1/installation/windows.md
+        - Linux (Ubuntu): projects/P1/installation/ubuntu.md
+      - FAQ: projects/P1/faq.md
     # - Project 2: projects/HW2.md
     # - Project 3: projects/HW3.md
     # - Project 4: projects/HW4.md
