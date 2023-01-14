@@ -52,18 +52,18 @@ If you are not familiar with any of these steps, you are **highly recommended** 
 ## Getting Started
 
 ### Repository Setup
-Fork the [class-specific repository](https://github.com/CMU-313/NodeBB) into your personal GitHub account. 
+Fork the [class-specific repository](https://github.com/CMU-313/NodeBB) into your personal GitHub account and clone the repository onto your local machine.
 
 !!! warning
 	Even though this project is based off of an active open source project, we have made significant changes to ensure its suitability for our class. As such, be sure you are forking off of **CMU-313/NodeBB** and direct any questions to course staff. Do **not** contact the maintainers of NodeBB for assistance with your homework questions.
 
-Ensure that GitHub Actions are enabled (click the green button under the "Actions" tab), then follow the installation instructions in `README.md` file.
+Ensure that GitHub Actions are enabled (click the green button under the "Actions" tab), then follow the installation instructions in `README.md` file. You should skip any steps in the instructions that you have already completed (i.e. installing Git and cloning the repository).
 
 You must build and run NodeBB **natively** on your machine (not through Docker or other means!) After building NodeBB and its dependencies, you should follow the rest of the instructions to run a NodeBB instance on your machine. 
 
 ![NodeBB Main Page](/assets/images/hw/nodebb_main.png)
 
-Once you have run NodeBB successfully, you should be able to navigate to [http://localhost:4567](http://localhost:4567) and see the main forum page. By default, NodeBB will be deployed to port `4567` on your machine. You may change this port number (e.g., to avoid conflict with another process running on your machine).
+Once you have run NodeBB successfully, you should be able to navigate to [http://localhost:4567](http://localhost:4567) and see the main forum page. By default, NodeBB will be deployed to port `4567` on your machine. You may change this port number (e.g. to avoid conflict with another process running on your machine).
 
 !!! warning
 	If the process of installing and running NodeBB takes you more than a few hours, **stop** and ask for help on Slack!
@@ -104,8 +104,8 @@ First, choose a single JavaScript file in the `src/` folder to translate and ope
 There are some restrictions on the `.js` file that you can pick. Specifically, the file must:
 
 - Be in the `src/` folder
-- Contain **at least 50 lines of non-import statement code** before you start translating it. Files like `src/api/index.js` and `src/controllers/admin.js` are not allowed. 
-- **Not be a file that someone else has already picked**. We expect you to look through existing issues, if any, to avoid such duplication (thus, there is an incentive for you to start early! First come first serve).
+- Contain **at least 50 lines of non-import statement code** before you start translating it. Files like `src/api/index.js` and `src/controllers/admin.js` are not allowed
+- **Not be a file that someone else has already picked**. We expect you to look through existing issues, if any, to avoid such duplication (thus, there is an incentive for you to start early!)
 
 Title the task appropriately, such as `Converting <file name> from JS to TS`, and mention the file name in the description. Once again refer to the [Github Exercise](/projects/P1/github) for the standards we are expecting. To prevent ambiguities between similarly-named files, be sure to use the **full file path** (`src/../xx.js`) in the title and description. Then, assign yourself to the Issue by leaving a comment that says "I would like to work on this please!"
 
@@ -135,16 +135,17 @@ Your changes must still pass both the linter and the test suite, so be sure to t
 	// The next line calls a function in a module that has not been updated to TS yet
 	// eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
 	```
-	We will check your files to make sure you are only suppressing these warnings when absolutely necessary. For examples and more details, see the [Resources & Documentation](#typescript-background) section below.
+
+	We will check your files to make sure you are only suppressing these warnings when absolutely necessary. For examples and more details, see the [Resources & Documentation](#additional-typescript-background) section below.
 
 As you work, be sure to periodically commit your changes. Your commit message(s) must clearly describe what is changing. If you’d like, you can make use of branching and pull requests in your own repository to practice working with GitHub.
 
 Once you are satisfied, open a pull request from your personal branch back to the **class** repository. Similar to the Issue, your PR title should mention the full path of the file you’ve changed. The PR body should summarize the changes you made and [use one of the linking keywords](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) to link the issue that you previously opened (e.g. adding `resolves #313` will signal to GitHub that this PR resolves issue number 313).
 
-!!! warning
-	When creating pull requests, GitHub will automatically default the receiving repository to be the root repository. Be sure to double-check that your pull request is to **CMU-313/NodeBB**.
-
 There will be automated checks that run on your pull request to ensure you meet the requirements of this assignment. Some of them take a while to run, so be sure to check on your pull request periodically to ensure that all these actions pass and everything is working properly!
+
+!!! note
+	If the tests are failing on GitHub but work locally, it may be caused by server overload. Re-running the failing GitHub Action 1-2 times will resolve this.
 
 If all of the actions have passed, you will see a green checkmark next to your pull request. This signals that you have completed the implementation aspect of this assignment! ✅
 
@@ -190,19 +191,23 @@ The repository README contains links to different documentation material that yo
 - [TypeScript for JavaScript Programmers](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 - [JavaScript to TypeScript Translation](https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html#moving-to-typescript-files)
 
-You will also find some sample translated TypeScript files within the repository. You can use these as guidance for your translation process.
+You will also find some sample translated TypeScript files within the repository. You can use these as guidance for your translation process:
 
-### TypeScript Background
+- [`src/social.ts`](https://github.com/CMU-313/NodeBB/blob/main/src/social.ts)
+- [`src/controllers/composer.ts`](https://github.com/CMU-313/NodeBB/blob/main/src/controllers/composer.ts)
+
+### Additional TypeScript Background
 This section provides more context on how TypeScript is used for this project and when it is appropriate to suppress ESLint warnings in your translated TypeScript files.
 
 As native JavaScript does not have any typing, by default, all functions/values/classes/modules that are not typed will be automatically given the `any` type by TypeScript. Under default settings, this allows any valid JavaScript code to be run as TypeScript.
 
 Using the `any` type, however, will defeat the purpose of the various type-checking features TypeScript provides. As such, we’ve set our linter to **check for strict typing** and **disallow the use of the `any` type**. For the most part, this should check that you explicitly type everything within your files and ensure that you are able to make the most out of TypeScript.
 
-A limitation of this strictness is that there will be errors thrown when using non-translated JavaScript imports, which TypeScript will assume to have type `any`. As an example from one of our sample translated files `src/social.ts`:
+A limitation of this strictness is that there will be errors thrown when using non-translated JavaScript imports, which TypeScript will assume to have type `any`. As an example from one of our sample translated files [`src/social.ts`](https://github.com/CMU-313/NodeBB/blob/main/src/social.ts):
 
 ```TypeScript
-import db from './database';   // A module import from a non-translated JavaScript file database.js
+// A module import from a non-translated JavaScript file database/index.js
+import db from './database';
 …
 const activated = await db.getSetMembers('social:posts.activated');
 ```
@@ -225,7 +230,7 @@ Let’s take a look at each error:
 - **``@typescript-eslint/no-unsafe-call``** - we don’t know the typing of the function `db.getSetMembers`, and so it is treated as `any`. We can not call a function of type `any`, so `db.getSetMembers('social:posts.activated')` is an unsafe call
 - **``@typescript-eslint/no-unsafe-assignment``** - we don’t know the return type of `db.getSetMembers`, and so it is treated as `any`. We can not assign something of type `any` to our variable `activated`
 
-The first two errors are dependent on us knowing the typing of `db` and `db.getSetMembers`. However, because we haven’t translated the `db.js` file yet, we don’t have access to their typing information. In this case, it is okay to suppress the ESLint errors as they only arise from a lack of translation. We can do this by adding the following comments:
+The first two errors are dependent on us knowing the typing of `db` and `db.getSetMembers`. However, because we haven’t translated the `database/index.js` file yet, we don’t have access to their typing information. In this case, it is okay to suppress the ESLint errors as they only arise from a lack of translation. We can do this by adding the following comments:
 
 ```TypeScript
 // The next line calls a function in a module that has not been updated to TS yet
@@ -240,3 +245,16 @@ For the last error, even though we don’t have typing information provided by t
 // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
 const activated: string[] = await db.getSetMembers('social:posts.activated') as string[];
 ```
+
+### Installing Typing Packages
+
+In some cases, if your file imports an `npm` package (such as `lodash`, `nconf`, etc), you will need to install the typings for the package. To do this, run:
+
+```sh
+% npm install @types/[packagename] --save-dev
+```
+
+You should then see the `@types/[packagename]` added to your `package.json` file. 
+
+!!! info
+	To make sure your GitHub Actions also install the correct packages, you should copy the `package.json` file to `install/package.json`.
