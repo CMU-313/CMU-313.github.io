@@ -72,7 +72,7 @@ The course includes both individual projects  and individual components of group
 
 The rest of this academic honesty and collaboration content is taken from the policy used in 17-214, which we reuse almost directly (with minor modifications, and attribution).
 
-“You may not copy any part of a solution to a problem that was written by another student, or was developed together with another student, or was copied from another unauthorized source such as the Internet. You may not look at another student’s solution, even if you have completed your own, nor may you knowingly give your solution to another student or leave your solution where another student can see it.
+“You may not copy any part of a solution to a problem that was written by another student, or was developed together with another student, or was copied from another unauthorized source such as the Internet. You may not look at another student's solution, even if you have completed your own, nor may you knowingly give your solution to another student or leave your solution where another student can see it.
 
 Here are some examples of behavior that are inappropriate:
 
