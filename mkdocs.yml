@@ -24,23 +24,30 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.tracking
+    - navigation.indexes
 
 markdown_extensions:
   - attr_list
   - admonition
   - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.keys
+  - pymdownx.mark
   - pymdownx.superfences
   - pymdownx.tasklist:
       clickable_checkbox: true
       custom_checkbox: true
+  - pymdownx.tilde
   - tables
   - toc:
       title: On This Page
       toc_depth: 4
+      permalink: true
 
 extra_css:
   - stylesheets/custom.css
@@ -53,13 +60,20 @@ nav:
   - Home: index.md
   - Course Overview: overview.md
   - Syllabus: syllabus.md
-  - Assignments: assignments/index.md # Dummy home page; remove once we start adding assignments below
-    # - Homework 1: assignments/HW1.md
-    # - Homework 2: assignments/HW2.md
-    # - Homework 3: assignments/HW3.md
-    # - Homework 4: assignments/HW4.md
-    # - Homework 5: assignments/HW5.md
-    # - Homework 6: assignments/HW6.md
+  - Projects: # projects/index.md # Dummy home page; remove once we start adding homework below
+    - "Project 1: Hello, NodeBB!": 
+      - projects/P1/index.md
+      - Github Exercise: projects/P1/github.md
+      - NodeBB Installation:
+        - Mac: projects/P1/installation/mac.md
+        - Windows: projects/P1/installation/windows.md
+        - Linux (Ubuntu): projects/P1/installation/ubuntu.md
+      - FAQ: projects/P1/faq.md
+    # - Project 2: projects/HW2.md
+    # - Project 3: projects/HW3.md
+    # - Project 4: projects/HW4.md
+    # - Project 5: projects/HW5.md
+    # - Project 6: projects/HW6.md
   - Recitations: recitations/index.md # Dummy home page; remove once we start adding recitations below
     # - Recitation 1: recitations/reci1-github.md
     # - Recitation 2: recitations/reci2-angularjs.md
@@ -69,3 +83,5 @@ nav:
     # - Recitation 7: recitations/reci7-machine-learning.md
     # - Recitation 8: recitations/reci8-static-analysis-ci.md
     # - Recitation 9: recitations/reci9-open-source.md
+  - Canvas: https://canvas.cmu.edu/courses/33307
+  - Gradescope: https://www.gradescope.com/courses/488839

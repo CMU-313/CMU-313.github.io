@@ -154,25 +154,6 @@ hide:
 
 </div>
 
-## Important Links
-
-<div id="important-links">
-
-{%- set links = extra.links -%}
-
-{% for link in links %}
-<a class="card" href="{{link.link}}" target="_blank">
-<div class="content">
-<img class="icon" src="{{link.icon}}" alt="{{link.name}} icon">
-</div>
-<div class="name">
-{{ link.name }}
-</div>
-</a>
-{% endfor %}
-
-</div>
-
 ## Class Calendar
 
 <iframe src="https://calendar.google.com/calendar/embed?src=c_1103eea63731dc779de16d03b476d0d9b7cf18f05132c28332628299ea064258%40group.calendar.google.com&ctz=America%2FNew_York&mode=WEEK" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
@@ -194,7 +175,7 @@ hide:
         <th><b>Lecture</b></th>
         <th><b>Reading</b></th>
         <th><b>Recitation</b></th>
-        <th><b>Homework Deadline</b></th>
+        <th><b>Project Deadline</b></th>
     </thead>
     <tbody>
         {% for schedule_day in schedule %}

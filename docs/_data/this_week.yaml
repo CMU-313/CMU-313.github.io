@@ -1,21 +1,26 @@
 last_homework: null
 
 lectures:
-- date: Mon Jan 16
-  link: ''
-  name: MLK Day [No Class]
 - date: Tue Jan 17
   link: ''
   name: Intro
 - date: Thu Jan 19
   link: ''
   name: Metrics and Measurement
+  reading:
+    link: https://canvas.cmu.edu/courses/33307/quizzes/96248
+    name: Team Formation Survey
 
-next_homework: null
+next_homework:
+  date: Mon Jan 16
+  deadline: Due Thurs Jan 26 @ 11:59pm
+  link: /projects/P1
+  name: Project 1
+  numDays: 9
 
 recitation:
   date: Mon Jan 16
   handout: ''
-  name: Git Collaboration
+  name: MLK Day [No Recitation]
   quiz: ''
   slides: ''

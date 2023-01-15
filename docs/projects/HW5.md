@@ -1,21 +1,26 @@
 ---
+layout: page
 title: HW05 Quality Assurance
+permalink: /assignments/hw5
+parent: Assignments
 ---
 
-# Homework 5: Quality Assurance for the People
+# 17-313: Foundations of Software Engineering
 
-## Learning Goals
+## Homework 5: Quality Assurance for the People
+
+In this assignment, you will carefully consider and engage in several QA-related processes to evaluate and look for defects in your prototype Teedy-based graduate admissions system. The goals of this assignment are:
 
 -   Gain hands-on experience with analysis tools, including setting up, customizing, and using them.  
 -   Practically assess and compare the costs and benefits of existing static and dynamic bug-finding tools.
 -   Develop a plan to integrate and roll out tools in development practice.
 -   Explain the predictions of a Machine Learning Model, and reason about their implications.
 
-## Project Context and Tasks
+### Project Context and Tasks
 
 Quality Assurance is a critical part of software development. Although you have been testing your new graduate admissions system this whole time, you are now setting out to establish a sustained QA practice that can be used moving forward as you iterate over and continue to improve your system. Your CTO has assigned you the task of evaluating existing tools and practices beyond unit testing, and producing a report on (A) the cost/benefit tradeoffs and risks of several tools and processes and (B) how they might fit in development practice.
 
-## Static and Dynamic Analysis 
+### Static and Dynamic Analysis 
 
 First, you will evaluate and choose between a set of analysis tools, integrate it into your build/deployment pipeline, and document your decisions/process by way of a design document/RFC. For the purposes of this RFC, you must identify and experiment with at least `N` potential static and dynamic analysis tools that are applicable to your system, where `N` is the size of your group. We provide a starter list below; you should include at least one static analysis and one dynamic analysis tools, and at least one tool must be taken from either a Google search or from the Awesome Static/Dynamic Analysis page (that is, cannot otherwise be listed in the bulleted list).
 
@@ -29,7 +34,7 @@ The deliverable for this part, at a high level, is a Design Document/RFC that ex
 
 **NOTE: you do not need to integrate ALL `N` tools into your repo, but you should integrate at least (1) tool so that it runs via CI, and have one commit on which it was run.  You should reference this commit in your design document**
 
-### Starter list of Tools
+#### Starter list of Tools
 
 Teedy has a Java backend and an AngularJS (JavaScript) frontend. Below are non-exhaustive lists of analysis tools that are available for both Java and JavaScript. Others are available. [Awesome Static Analysis page/repo](https://github.com/analysis-tools-dev/static-analysis) and [Awesome Dynamic Analysis page/repo](https://github.com/analysis-tools-dev/dynamic-analysis/) have extensive listings of available static and dynamic analysis tools for a pretty hefty list of programming languages, including Java. Some of the tools have GitHub Actions workflows on [GitHub Marketplace](https://github.com/marketplace?category=&query=&type=actions&verification=); use your Googling skills, and see what you find! 
 
@@ -48,7 +53,7 @@ Dynamic analysis:
 - [eslint](https://eslint.org/) is a widely used linter in modern JavaScript packages. 
 - [flow](https://flow.org/) is a static type checker for JavaScript.
 
-## ML Model Assessment
+### ML Model Assessment
 
 In the last homework assignment, you created a Machine Learning model.  In fact, after your success with HW4, your team has started collecing data in production, and the new data for your ML service goes well beyond the data you used for testing.  Therefore, your CTO is seriously considering adding it into your product.  However, before announcing it as a feature, she wants to ensure that your team has a deep understanding of how the ML model is working, as well as that it is tested with respect to any concerns that may have surfaced previously.  For this task, your team is tasked with writing a data-driven report for your CTO. You should evaluate the model, test outcomes, present your findings, and discuss them.
 
@@ -79,7 +84,7 @@ Specifically your report should include the following information:
     -   It is not good enough to ship, but we have a plan to improve it
     -   We don't feel comfortable shipping this feature, we should scrap it.
 
-## Deadlines and Deliverables
+### Deadlines and Deliverables
 
 This homework has one (1) deadline and two (2) deliverables. The deadline (**Friday, Nov 18**) is for all the deliverables:  the static analysis design doc, and the report on the ML model.
 

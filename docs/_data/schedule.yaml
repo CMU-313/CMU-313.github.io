@@ -1,18 +1,18 @@
 - date: Mon Jan 16
   homework:
-    deadline: '' #'Due Thurs Jan 26 @ 11:59pm'
-    link: ''
-    name: '' #'Homework 1'
-    numDays: 0 #9
+    deadline: 'Due Thurs Jan 26 @ 11:59pm'
+    link: '/projects/P1'
+    name: 'Project 1'
+    numDays: 9
   lecture:
     link: ''
-    name: 'MLK Day [No Class]'
+    name: ''
   reading:
     link: ''
     name: ''
   recitation:
     handout: '' #'/recitations/reci1-github/'
-    name: 'Git Collaboration'
+    name: 'MLK Day [No Recitation]'
     quiz: ''
     slides: ''
 
@@ -62,8 +62,8 @@
     link: '' #assets/pdfs/02-measurement.pdf
     name: 'Metrics and Measurement'
   reading:
-    link: ''
-    name: ''
+    link: 'https://canvas.cmu.edu/courses/33307/quizzes/96248'
+    name: 'Team Formation Survey'
   recitation:
     handout: ''
     name: ''
