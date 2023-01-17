@@ -61,6 +61,8 @@ You should have already forked the [class-specific repository](https://github.co
 
     You can do `cd ~` to access the linux home
 
+Enter the directory where you have cloned the repository:
+
 ```console
 % cd NodeBB
 ```
