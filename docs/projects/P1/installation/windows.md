@@ -1,6 +1,8 @@
 # Installing NodeBB on Windows
 
-17-313 will only be supporting development using Windows Subsystem Linux 2 (WSL2) on Windows (Ubuntu variant). To support the use of WSL2, it is **highly recommended** that you develop using [VSCode](https://code.visualstudio.com/download). To learn more, refer to Microsoft's official [WSL Documentation](https://learn.microsoft.com/en-us/windows/wsl/about).
+17-313 will only be supporting development using Windows Subsystem Linux 2 (WSL2) on Windows (Ubuntu variant). To support the use of WSL2, it is **highly recommended** that you develop using [VSCode](https://code.visualstudio.com/download). 
+
+To learn more, refer to Microsoft's official [WSL Documentation](https://learn.microsoft.com/en-us/windows/wsl/about).
 
 ## Installing WSL2 on Windows
 
@@ -12,7 +14,7 @@ By the end of these instructions, you should:
 - [ ] Have a root Linux username and password set up
 - [ ] Have updated and upgraded your packages
 - [ ] Be able to open Ubuntu WSL2 in Windows Terminal
-- [ ] Understand that you should **store your project files on the same operating system as the tools you plan to use**. For example, in order to successfully run NodeBB in Ubuntu, you should run `git clone` in your Ubuntu file system, open the cloned directory in Ubuntu, and edit the code files in Ubuntu
+- [ ] Understand that you should [**store your project files on the same operating system as the tools you plan to use**](https://learn.microsoft.com/en-us/windows/wsl/filesystems#file-storage-and-performance-across-file-systems). For example, in order to successfully run NodeBB in Ubuntu, you should run `git clone` in your Ubuntu file system, open the cloned directory in Ubuntu, and edit the code files in Ubuntu
 - [ ] Be able to open a directory in Ubuntu in VSCode
 
 !!! note

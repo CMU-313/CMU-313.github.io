@@ -51,7 +51,15 @@ Start the redis server:
 
 ## Installing NodeBB
 
-You should have already cloned your NodeBB repository onto your local machine. Enter the directory where you have cloned the repository:
+You should have already forked the [class-specific repository](https://github.com/CMU-313/NodeBB). Clone your forked repository into your local machine.
+
+!!! warning
+    Last warning for Windows WSL2 users, you should [**store your project files on the same operating system as the tools you plan to use**](https://learn.microsoft.com/en-us/windows/wsl/filesystems#file-storage-and-performance-across-file-systems). When it comes to cloning the NodeBB repository specifically, it means that you should clone it in:
+
+    - the Linux file system root directory: `\\wsl$\Ubuntu\home\<user name>\`
+    - **not** the Windows file system root directory: `/mnt/c/Users/<user name>/$` or `C:\Users\<user name>\`
+
+    You can do `cd ~` to access the linux home
 
 ```console
 % cd NodeBB

@@ -52,7 +52,7 @@ If you are not familiar with any of these steps, you are **highly recommended** 
 ## Getting Started
 
 ### Repository Setup
-Fork the [class-specific repository](https://github.com/CMU-313/NodeBB) into your personal GitHub account and clone the repository onto your local machine.
+Fork the [class-specific repository](https://github.com/CMU-313/NodeBB) into your personal GitHub account
 
 !!! warning
 	Even though this project is based off of an active open source project, we have made significant changes to ensure its suitability for our class. As such, be sure you are forking off of **CMU-313/NodeBB** and direct any questions to course staff. Do **not** contact the maintainers of NodeBB for assistance with your homework questions.
