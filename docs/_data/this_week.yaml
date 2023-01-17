@@ -6,6 +6,9 @@ last_homework:
   numDays: 9
 
 lectures:
+- date: Tue Jan 17
+  link: ''
+  name: Intro
 - date: Thu Jan 19
   link: ''
   name: Metrics and Measurement
@@ -15,4 +18,9 @@ lectures:
 
 next_homework: null
 
-recitation: null
+recitation:
+  date: Mon Jan 16
+  handout: ''
+  name: MLK Day [No Recitation]
+  quiz: ''
+  slides: ''

@@ -17,6 +17,10 @@ with open('schedule.yaml', 'r') as file:
 
 now = datetime.now()
 
+# Go back to the most recent Sunday
+todays_weekday = (now.weekday() + 1) % 7
+now = now - timedelta(7 + todays_weekday)
+
 last_homework = None
 next_homework = None
 recitation = None
@@ -24,6 +28,7 @@ lectures = []
 
 if schedule: 
     week_start_date = None
+    left_current_week = False
     for schedule_day in schedule:
         date = datetime.strptime(schedule_day['date'], "%a %b %d").replace(year=now.year)
         if not week_start_date and date > now:
@@ -31,12 +36,13 @@ if schedule:
             week_start_date = date
         elif week_start_date and date >= week_start_date + timedelta(weeks=1):
             # We left the current week
+            left_current_week = True
             break
         
-        if week_start_date:
+        if week_start_date and not left_current_week:
             if schedule_day['homework']['name'] != '':
-                next_homework = schedule_day['homework']
-                next_homework['date'] = schedule_day['date']
+                last_homework = schedule_day['homework']
+                last_homework['date'] = schedule_day['date']
             
             if schedule_day['lecture']['name'] != '':
                 lectures.append(schedule_day['lecture'])
@@ -49,10 +55,19 @@ if schedule:
                 recitation = schedule_day['recitation']
                 recitation['date'] = schedule_day['date']
 
-        else:
+        elif week_start_date == None:
             if schedule_day['homework']['name'] != '':
                 last_homework = schedule_day['homework']
                 last_homework['date'] = schedule_day['date']
+
+        else:
+            if schedule_day['homework']['name'] != '':
+                next_homework = schedule_day['homework']
+                next_homework['date'] = schedule_day['date']
+
+                # Found the next homework assignment! Stop looking
+                break
+            
 
 output = {
     "last_homework": last_homework,
