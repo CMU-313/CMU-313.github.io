@@ -1,6 +1,6 @@
 # Installing NodeBB on Windows
 
-We will only be supporting Windows Subsystem Linux 2 (WSL2), Ubuntu variant, on Windows, and it's highly recommended that you develop using VSCode. Refer to Microsoft's official documentation on what is [WSL](https://learn.microsoft.com/en-us/windows/wsl/about).
+17-313 will only be supporting Windows Subsystem Linux 2 (WSL2), Ubuntu variant, on Windows. It's highly recommended that you develop using VSCode as well. Refer to Microsoft's official documentation on what is [WSL](https://learn.microsoft.com/en-us/windows/wsl/about).
 
 ## Installing WSL2 on Windows
 
@@ -19,4 +19,4 @@ In all future projects of this course, you should develop using WSL2. It is thus
 
 ## Installing NodeBB
 
-You will now be able to follow the [Ubuntu](ubuntu.md) instructions to install NodeBB.
+Follow the [Ubuntu](ubuntu.md) instructions to install NodeBB.
