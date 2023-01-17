@@ -6,9 +6,6 @@ last_homework:
   numDays: 9
 
 lectures:
-- date: Tue Jan 17
-  link: ''
-  name: Intro
 - date: Thu Jan 19
   link: ''
   name: Metrics and Measurement
