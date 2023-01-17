@@ -21,6 +21,6 @@ By the end of these instructions, you should:
     In all future projects of this course, we will expect you to develop using WSL2. Thus, it is **very important** that you set up WSL2 correctly. Please come to office hours or ask on Slack if you need any assistance with the installation.
 
 ## Installing NodeBB
-If you do not already have Git installed, follow [Git Installation on Linux](https://github.com/git-guides/install-git#install-git-on-linux), for Ubuntu.
+If you do not already have Git installed, follow the [**Git Installation on Linux**](https://github.com/git-guides/install-git#install-git-on-linux) for Ubuntu.
 
-Follow the [Ubuntu](/projects/P1/installation/ubuntu) instructions to install required tools on WSL2 and NodeBB itself. 
+Then, follow the [Ubuntu](/projects/P1/installation/ubuntu) instructions to install required tools and NodeBB itself on WSL2. 

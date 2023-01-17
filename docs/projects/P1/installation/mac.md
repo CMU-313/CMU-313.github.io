@@ -23,7 +23,7 @@ Start the redis server:
 
 ## Installing NodeBB
 
-You should have already forked the [class-specific repository](https://github.com/CMU-313/NodeBB). Clone your forked repository into your local machine.
+You should have already forked the [class-specific repository](https://github.com/CMU-313/NodeBB). Clone your forked repository onto your local machine.
 
 Enter the directory where you have cloned the repository:
 
