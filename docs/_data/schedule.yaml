@@ -23,7 +23,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: '' #assets/pdfs/01-introduction.pdf
+    link: 'assets/pdfs/01-introduction.pdf'
     name: 'Intro'
   reading:
     link: ''
