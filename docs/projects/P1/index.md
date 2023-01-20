@@ -79,7 +79,12 @@ Follow the **Development Tools** section in the repository README to run both th
 
 After the test suite finishes running, NodeBB will also generate a **code coverage report**. This report gives you measurements with regards to what percentage of the codebase is covered by the test suite. Open the `index.html` file in the `coverage` folder to see the full report.
 
-??? note "More on Analysis Tools"
+!!! note "Coverage Report (added 1/19/23)"
+	As this is an existing codebase with a decently-sized test suite, you should expect to see a relatively **high percentage of coverage**, i.e. the majority of the bars/cells displayed should be green.
+
+	If you are seeing **a lot** of red bars, it may mean that the test suite was not run properly. Double-check that all of the tests passed and that there were no failures.
+
+??? info "More on Analysis Tools"
 	A **linter** is a tool that directly analyzes your source code for common errors. A **test suite** is a set of test cases that you write for a software program to show that it has some specified set of behaviors; our **testing tool** provides a framework to structure our test cases, runs the test suite, and generates a report of which tests pass/fail.
 
 	We will do a more in-depth exploration of analysis tools later in the course. For now, just know that these tools exist for you to use in evaluating your code.
@@ -124,7 +129,7 @@ You should soon see another comment by the `github-actions` bot informing you th
 
 ![Bot Issue Assignment](/assets/images/hw/bot_assignment.png)
 
-??? note "Why Bot Assignment?"
+??? info "Why Bot Assignment?"
 	You might be curious as to why we are using a GitHub bot instead of directly assigning yourself to the issue. As you aren’t officially recognized as a collaborator of CMU-313/NodeBB, GitHub adds some restrictions to your permissions for security purposes, including not being able to assign yourself to an issue. Hence, we are using a bot to work around these restrictions. This is similar to how you would request issues on an Open Source project!
 	
 	For future projects, you will have full control over these GitHub features such as managing assignees, adding labels, creating milestones, and more.
@@ -278,5 +283,5 @@ In some cases, if your file imports an `npm` package (such as `lodash`, `nconf`,
 
 You should then see the `@types/[packagename]` added to your `package.json` file. 
 
-!!! info "GitHub Actions Packages"
+!!! note "GitHub Actions Packages"
 	To make sure your GitHub Actions also install the correct packages, you should copy the `package.json` file to `install/package.json`.
