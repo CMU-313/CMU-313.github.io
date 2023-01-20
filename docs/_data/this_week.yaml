@@ -10,7 +10,7 @@ lectures:
   link: assets/pdfs/01-introduction.pdf
   name: Intro
 - date: Thu Jan 19
-  link: ''
+  link: assets/pdfs/02-measurement.pdf
   name: Metrics and Measurement
   reading:
     link: https://canvas.cmu.edu/courses/33307/quizzes/96248
