@@ -162,10 +162,10 @@
 
 - date: Fri Jan 27
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Thurs Feb 2 @ 11:59pm'
+    link: '/projects/P2'
+    name: 'Project 2A'
+    numDays: 5
   lecture:
     link: ''
     name: ''
@@ -252,10 +252,10 @@
 
 - date: Fri Feb 03
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Tues Feb 14 @ 11:59pm'
+    link: '/projects/P2/2_firstsprint'
+    name: 'Project 2B'
+    numDays: 8
   lecture:
     link: ''
     name: ''
@@ -396,10 +396,10 @@
 
 - date: Wed Feb 15
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Thurs Mar 2 @ 11:59pm'
+    link: '/projects/P2/3_secondsprint'
+    name: 'Project 2C'
+    numDays: 12
   lecture:
     link: ''
     name: ''

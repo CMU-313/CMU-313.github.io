@@ -69,6 +69,11 @@ nav:
         - Windows: projects/P1/installation/windows.md
         - Linux (Ubuntu): projects/P1/installation/ubuntu.md
       - FAQ: projects/P1/faq.md
+    - "Project 2: Collaborative Development": 
+      - projects/P2/index.md
+      - "Team Process & Planning": projects/P2/1_teamprocess.md
+      - "First Sprint": projects/P2/2_firstsprint.md
+      - "Second Sprint": projects/P2/3_secondsprint.md
     # - Project 2: projects/HW2.md
     # - Project 3: projects/HW3.md
     # - Project 4: projects/HW4.md
