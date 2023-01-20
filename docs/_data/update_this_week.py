@@ -1,6 +1,19 @@
 from datetime import datetime, date, timedelta
 import yaml
 
+def add_business_days(start_date, add_days, current_year):
+    rem_days_to_add = add_days
+    current_date = datetime.strptime(start_date, "%a %b %d").replace(year=current_year)
+    
+    while rem_days_to_add > 0:
+        current_date += timedelta(days=1)
+        weekday = current_date.weekday()
+        if weekday >= 5:
+            continue
+        rem_days_to_add -= 1
+
+    return current_date
+
 class LineBreakDumper(yaml.SafeDumper):
     # Reference: https://github.com/yaml/pyyaml/issues/127
     def write_line_break(self, data=None):
@@ -15,35 +28,35 @@ class LineBreakDumper(yaml.SafeDumper):
 with open('schedule.yaml', 'r') as file:
     schedule = yaml.safe_load(file)
 
-now = datetime.now()
+today = datetime.now()
 
 # Go back to the most recent Sunday
-todays_weekday = (now.weekday() + 1) % 7
-now = now - timedelta(7 + todays_weekday)
+todays_weekday = (today.weekday() + 1) % 7
+start_date = today - timedelta(todays_weekday)
 
-last_homework = None
-next_homework = None
+projects = []
 recitation = None
 lectures = []
 
 if schedule: 
     week_start_date = None
-    left_current_week = False
+    current_date = start_date
+
     for schedule_day in schedule:
-        date = datetime.strptime(schedule_day['date'], "%a %b %d").replace(year=now.year)
-        if not week_start_date and date > now:
+        schedule_date = datetime.strptime(schedule_day['date'], "%a %b %d").replace(year=current_date.year)
+        if not week_start_date and schedule_date > current_date:
             # We're at the current week!
-            week_start_date = date
-        elif week_start_date and date >= week_start_date + timedelta(weeks=1):
+            week_start_date = schedule_date
+        elif week_start_date and schedule_date >= week_start_date + timedelta(weeks=1):
             # We left the current week
-            left_current_week = True
             break
         
-        if week_start_date and not left_current_week:
-            if schedule_day['homework']['name'] != '':
-                last_homework = schedule_day['homework']
-                last_homework['date'] = schedule_day['date']
-            
+        if schedule_day['homework']['name'] != '':
+            projects.append(schedule_day['homework'])
+            projects[-1]['date'] = schedule_day['date']
+            projects[-1]['end_date'] = add_business_days(schedule_day['date'], schedule_day['homework']['numDays'], current_date.year)
+
+        if week_start_date:
             if schedule_day['lecture']['name'] != '':
                 lectures.append(schedule_day['lecture'])
                 lectures[-1]['date'] = schedule_day['date']
@@ -55,23 +68,10 @@ if schedule:
                 recitation = schedule_day['recitation']
                 recitation['date'] = schedule_day['date']
 
-        elif week_start_date == None:
-            if schedule_day['homework']['name'] != '':
-                last_homework = schedule_day['homework']
-                last_homework['date'] = schedule_day['date']
-
-        else:
-            if schedule_day['homework']['name'] != '':
-                next_homework = schedule_day['homework']
-                next_homework['date'] = schedule_day['date']
-
-                # Found the next homework assignment! Stop looking
-                break
-            
+projects = list(filter(lambda project: project['end_date'] > today, projects))
 
 output = {
-    "last_homework": last_homework,
-    "next_homework": next_homework,
+    "projects": projects,
     "recitation": recitation,
     "lectures": lectures
 }

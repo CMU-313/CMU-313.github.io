@@ -94,62 +94,40 @@ hide:
 
 <div class="card"> 
     <div class="header">
-        Current Assignment
+        Projects
     </div>
     <div class="content">
-        {% if this_week.last_homework %}
-            <div class="homework-name">
-                {{ this_week.last_homework.name }}
-            </div>
+        {% if this_week.projects %}
+            {% for project in this_week.projects %}
+                <div class="homework-name">
+                    {{ project.name }}
+                </div>
 
-            {% if this_week.last_homework.deadline != "" %}
-            <div class="homework-date">
-                <span class="material-symbols-outlined">calendar_month</span>
-                {{ this_week.last_homework.deadline }}
-            </div>
-            {% endif %}
+                <div class="homework-date">
+                    <span class="material-symbols-outlined">calendar_month</span>
+                    Released {{ project.date }}
+                </div>
 
-            {% if this_week.last_homework.link != "" %}
-            <a class="label label-red" href="{{this_week.last_homework.link}}">
-                <span class="material-symbols-outlined">description</span>Handout
-            </a>
-            {% endif %}
-        {% else %}
-            None for this week!
-        {% endif %}
-    </div>
+                {% if project.deadline != "" %}
+                <div class="homework-date">
+                    <span class="material-symbols-outlined">calendar_month</span>
+                    {{ project.deadline }}
+                </div>
+                {% endif %}
 
-    <div class="header">
-        Upcoming Assignments
-    </div>
-    <div class="content">
-        {% if this_week.next_homework %}
-            <div class="homework-name">
-                {{ this_week.next_homework.name }}
-            </div>
-
-            <div class="homework-date">
-                <span class="material-symbols-outlined">calendar_month</span>
-                Released {{ this_week.next_homework.date }}
-            </div>
-
-            {% if this_week.next_homework.deadline != "" %}
-            <div class="homework-date">
-                <span class="material-symbols-outlined">calendar_month</span>
-                {{ this_week.next_homework.deadline }}
-            </div>
-            {% endif %}
-
-            {% if this_week.next_homework.link != "" %}
-            <a class="label label-red" href="{{this_week.next_homework.link}}">
-                <span class="material-symbols-outlined">description</span>Handout
-            </a>
-            {% endif %}
+                {% if project.link != "" %}
+                <a class="label label-red" href="{{project.link}}">
+                    <span class="material-symbols-outlined">description</span>Handout
+                </a>
+                {% endif %}
+                {% if not loop.last %}
+                <hr/>
+                {% endif %}
+            {% endfor %}
         {% else %}
             None!
         {% endif %}
     </div>
-
 </div>
 
 </div>
