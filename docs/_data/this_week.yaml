@@ -1,13 +1,13 @@
 lectures:
-- date: Tue Jan 17
-  link: assets/pdfs/01-introduction.pdf
-  name: Intro
-- date: Thu Jan 19
-  link: assets/pdfs/02-measurement.pdf
-  name: Metrics and Measurement
+- date: Tue Jan 24
+  link: ''
+  name: Case Study 737MAX
   reading:
-    link: https://canvas.cmu.edu/courses/33307/quizzes/96248
-    name: Team Formation Survey
+    link: https://canvas.cmu.edu/courses/33307/quizzes/96247
+    name: Boeing 737 Max
+- date: Thu Jan 26
+  link: ''
+  name: Milestones, Estimation, and Planning
 
 projects:
 - date: Mon Jan 16
@@ -18,8 +18,8 @@ projects:
   numDays: 9
 
 recitation:
-  date: Mon Jan 16
-  handout: ''
-  name: MLK Day [No Recitation]
-  quiz: ''
+  date: Mon Jan 23
+  handout: /recitations/reci1-github/
+  name: Recitation 1 - GitHub and TS
+  quiz: https://www.gradescope.com/courses/488839/assignments/2570647
   slides: ''
