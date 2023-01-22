@@ -26,13 +26,13 @@ After this recitation, the students should be able to use Git and GitHub for the
 
 ## Activity 1b: Run a GitHub Action Workflow
 
-- On Github, click the **Actions** tab and select the "Python Application" workflow
+- On Github, click the **Actions** tab, enable the workflows and select the “Lint and Test” workflow
 - Click on the "Run workflow" dropdown, then the "Run workflow" button (leave Branch to be `main`). This runs the GitHub workflow that runs the linter and tests on the project
 
 Our GH actions pipeline suggests that the main branch is broken! Let’s walk through the process to fix these errors.
 
 !!! note
-    In practice, you should **not** merge a branch into the main branch that could cause main to fail. This way, we can ensure that all the code on main is our most recent working product
+In practice, you should **not** merge a branch into the main branch that could cause main to fail. This way, we can ensure that all the code on main is our most recent working product
 
 ## Activity 2: Setting up Kanban board and creating issues
 
