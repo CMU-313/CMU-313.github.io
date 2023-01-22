@@ -11,9 +11,9 @@
     link: ""
     name: ""
   recitation:
-    handout: "/recitations/reci1-github/"
-    name: "Recitation 1 - GitHub and TS"
-    quiz: "https://www.gradescope.com/courses/488839/assignments/2570647"
+    handout: ""
+    name: "MLK Day [No Recitation]"
+    quiz: ""
     slides: ""
 
 - date: Tue Jan 17
@@ -101,9 +101,9 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
+    handout: "/recitations/reci1-github/"
+    name: "Recitation 1 - GitHub and TS"
+    quiz: "https://www.gradescope.com/courses/488839/assignments/2570647"
     slides: ""
 
 - date: Tue Jan 24
@@ -114,7 +114,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Case Study 737MAX"
   reading:
     link: "https://canvas.cmu.edu/courses/33307/quizzes/96247"
     name: "Boeing 737 Max"
@@ -150,7 +150,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Milestones, Estimation, and Planning"
   reading:
     link: ""
     name: ""
