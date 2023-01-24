@@ -113,8 +113,13 @@
     name: ""
     numDays: 0
   lecture:
+<<<<<<< HEAD
     link: ""
     name: "Case Study 737MAX"
+=======
+    link: 'assets/pdfs/03-BoeingCaseStudy.pdf'
+    name: 'Boeing 737 Max Case Study'
+>>>>>>> b30ac48 (added slides for lecture 3)
   reading:
     link: "https://canvas.cmu.edu/courses/33307/quizzes/96247"
     name: "Boeing 737 Max"
