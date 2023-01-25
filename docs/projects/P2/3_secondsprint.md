@@ -2,14 +2,14 @@
 
 ## Deliverables
 
-Second Sprint – 220 points – due Thursday, March 2nd, 11:59pm
+Second Sprint – 140 points – due Thursday, March 2nd, 11:59pm
 
-- [Process & Implementation Final Snapshot](#process--implementation-final-85-pts) (85 pts)
-- Team Reflection (85 pts)
-- Individual Reflection (50 pts)
+- [Process & Implementation Final Snapshot](#process--implementation-final-60-pts) (60 pts)
+- [Team Reflection](#team-reflection-55-pts) (55 pts)
+- [Individual Reflection](#individual-reflection-25-pts) (25 pts)
 
 
-## Process & Implementation Final (85 pts)
+## Process & Implementation Final (60 pts)
 Continue working on the implementation of your feature(s). Be sure to continue following best practices for collaborative development similar to the previous sprint.
 
 As you become more familiar with the codebase, we have higher expectations for the final deliverables of this sprint. Specifically, along with your feature changes, we expect to see:
@@ -32,7 +32,7 @@ You must commit all of your changes to the main branch of your team repository b
 You do not need to submit anything externally for this code deliverable; we will take a snapshot of your repository and your Github Project board before the deadline and grade based on your progress there.
 
 
-## Team Reflection (85 pts)
+## Team Reflection (55 pts)
 
 After coding is complete, reflect on your experience as a team. Again, we look for honest reflection, which will likely include reflection on failures. We will not grade whether you predicted the effort correctly, but rather what you learned from the process. There will be 5 groups of reflection questions on Gradescope:
 
@@ -50,12 +50,13 @@ One of the main purposes of this project is to encourage in-depth analysis of th
 
 Therefore, we will not evaluate how well (or badly) the project went, but instead how well you understood the reasons **why** the project went as it did, and what lessons you drew from your experience to inform your future work. A good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support the claims. 
 
-It is a good idea to reference your meeting protocols to support your claims and provide examples. For example, “We could have communicated better.” is weakly supported. One could strengthen it with examples from the development experience as follows: “One source of [defects/development slowdown/quality problems] was the integration of components A and B, because the API for A was not well-understood by the developer of B… In the future, we might try to use [such-and-such a process] for clearly documenting and communicating such design decisions, rather than [the process we did follow/failed to follow].”
+!!! note
+    It is a good idea to reference your meeting protocols to support your claims and provide examples. For example, “We could have communicated better.” is weakly supported. One could strengthen it with examples from the development experience as follows: “One source of [defects/development slowdown/quality problems] was the integration of components A and B, because the API for A was not well-understood by the developer of B… In the future, we might try to use [such-and-such a process] for clearly documenting and communicating such design decisions, rather than [the process we did follow/failed to follow].”
 
 Being able to communicate effectively is an important software engineering skill. As such, your reflection should be well-written and easy to read. Be sure to leave time after writing for revision and proofreading. There are many convenient tools for collaborative text editing; for instance, the course staff used Google Docs for this homework document.
 
 
-## Individual Reflection (50 pts)
+## Individual Reflection (25 pts)
 
 In addition to the team reflection, you will also be submitting an individual reflection on Gradescope. Specifically, we will ask you to reflect on the process, scheduling, and teamwork, and connect this project experience with your previous experience with collaborative development. Your previous experience may be from an academic or non-academic setting, such as internships, hackathons, or personal projects.
 

@@ -42,8 +42,8 @@ B) [**First Sprint**](/projects/P2/2_firstsprint) – 100 points – due Tuesday
 - Process & Implementation Interim Snapshot (50 pts)
 - Checkpoint Presentation (50 pts) - **Held in Recitation on Monday, February 13th**
 
-C) [**Second Sprint**](/projects/P2/3_secondsprint) – 220 points – due Thursday, March 2nd, 11:59pm
+C) [**Second Sprint**](/projects/P2/3_secondsprint) – 140 points – due Thursday, March 2nd, 11:59pm
 
-- Process & Implementation Final Snapshot (85 pts)
-- Team Reflection (85 pts)
-- Individual Reflection (50 pts)
+- Process & Implementation Final Snapshot (60 pts)
+- Team Reflection (55 pts)
+- Individual Reflection (25 pts)

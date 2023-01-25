@@ -22,18 +22,16 @@ You can use this Slack channel for subsequent project-team related discussions o
 
 ### GitHub Repository
 
-You will be working on your team repository for this project. Once you have decided on a team name, go to the link below to set up your team.
+You will be working on your team repository for this project. Once you have decided on a team name, go to the link below to set up your team:
+
+[https://classroom.github.com/a/h0Z9Kv-d](https://classroom.github.com/a/h0Z9Kv-d)
 
 !!! warning
     After you join a team on GitHub, you cannot change teams! Make sure that **only one** of you creates the team, and make sure that the remaining teammates join the right team.
 
-After you have read the above warning, go here to set up your team:
+Once you enter your team name, Github will automatically create a repository for your team. You should then create a **Github Project board** for your repository (you can follow the steps from the [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) or the first recitation).
 
-// TODO: [Insert Github Classroom Link] 
-
-Once you enter your team name, Github will automatically create a repository for your team. You should then create a **Github Project board** for your repository (follow the steps from the [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board)).
-
-You should use this team repository for all your development, and be sure to use good development practices, including keeping your commits cohesive and your commit messages informative. The GitHub Exercise provides you with more details on our guidelines.
+You should use this team repository for all your development, and be sure to use good development practices, including keeping your commits cohesive and your commit messages informative. The same resources mentioned above provide more details on our guidelines.
 
 We will be grading you on how well you follow the process we used for Project 1 and utilize this Project board:
 
@@ -50,7 +48,7 @@ For each code-based deliverable, we will look at a snapshot of your repository a
 
 ### Teamwork Self-Assessment
 
-As the course moves into team-based projects, we will be releasing weekly self-assessments on Canvas, each worth one participation point. These are meant to be short surveys should not take more than a few minutes that may help you reflect on your team's process and how to improve it. The first one will be released on **Friday, January 27th** and due **Friday, February 3rd** at 11:59pm.
+As the course moves into team-based projects, we will be releasing weekly self-assessments on Canvas, each worth one participation point. These are meant to be short surveys should not take more than a few minutes that may help you reflect on your team's process and how to improve it. The first one will be released on **Friday, January 27th** and due the following **Friday, February 3rd** (both at 11:59pm).
 
 
 ## Main Deliverables
@@ -86,7 +84,10 @@ From past courses, we noticed the natural emergence of a project manager in team
 What are the steps the team would take to address teammates who are contributing too little, and when will the team bring this up to the instructors? What are the steps to bring up and discuss potential teamwork issues? <br/><br/>
 The first thing the staff will ask the student when they mention that they are facing team issues is if they have followed the steps on their team contract.<br/>
 
-Feel free to seek the assistance of TAs and instructors. 
+Feel free to seek the assistance of TAs and instructors in drafting this document. 
+
+!!! note
+    We will ask you to reference, reflect upon, and refine this document throughout this semester, and we will evaluate your team's process strategies and interactions through what you outline in this contract. Please ensure that everyone on your team thoroughly discusses each of the above sections and agree with the final decisions.
 
 Once you have completed the contract itself, have all members sign their names at the bottom, then save the file as a PDF and upload it to Gradescope. Only one team member needs to make the submission; they can then add the rest of the teammates on Gradescope to make it a group submission. 
 
@@ -95,41 +96,50 @@ We also **highly recommend** that you [bookmark](https://slack.com/help/articles
 
 ### Project Planning (40 pts)
 
-Before your team jumps into development, you must first determine what features to implement. Schedule and hold an initial project planning meeting with your team.
+Before your team jumps into development, you must first determine what features to implement. Schedule and hold an initial project planning meeting with your team to complete the steps outlined below.
 
 #### Functional Requirements - User Stories
 
 During this meeting, discuss potential functional requirements of this project. Consider what possible use cases may be for this system and what features it should have to fulfill those needs. 
 
-Then, document these functional requirements in the form of user stories that follow the guidelines discussed in lecture. All of your user stories should be in the format of “As a [role], I want [function], so that [value]”. As a team, you should also evaluate the importance of each user story (i.e. how essential is this user story to the overall functionality of the application?) 
+Then, document these functional requirements in the form of user stories that follow the guidelines discussed in lecture. All of your user stories should be in the format of “As a [role], I want [function], so that [value]”.
+
+As a team, you should also come up with a prioritization ranking for each user story (i.e. how essential is this user story to the overall functionality of the application to your stakeholders?) 
 
 **You should come up with at least two user stories per student in your group.**
 
 !!! note "Formulating User Stories"
-    Consider what are the different types of users that will be interacting with your system and what features they would want to have that the current NodeBB does not provide. You may want to reference features in existing Q&A systems that may be desirable, or interview people around you that would be a potential user of this system.
+    Consider what are the different types of users that will be interacting with your system (your stakeholders) and what features they would want to have that the current NodeBB does not provide. You may want to reference features in existing Q&A systems that may be desirable, or conduct interviews with people who could be a potential user of this system.
 
-Once you have your list of user stories, open your Github Projects board and create an additional column called “User Stories”. Then, using the “+ Add item” button at the bottom, create draft issues for each of your user stories. In the body of each of these draft issues, provide a brief description of its importance. You should order them in this column from highest to lowest importance.
+Once you have your list of user stories, open your Github Projects board and create an additional column called “User Stories”. Then, using the “+ Add item” button at the bottom, create draft issues for each of your user stories.
+
+In the body of each of these draft issues, provide a brief description of its prioritization ranking that your team decided on. You should order all the user stories in this column from highest to lowest priority.
 
 #### Technical Requirements - Issues
 
-Now that you have your prioritized list, consider the technical requirements of the various user stories and collectively decide on which one(s) you will be focusing on over the next two sprints (each one roughly two weeks long). 
+Now that you have your prioritized list, consider the *technical requirements* of the various user stories and collectively decide on which one(s) you will be focusing on over the next two sprints.
 
-Your selected user stories should have relatively high importance based on your team's ranking, and you should take various factors into consideration that may impact your development, such as onboarding time to the repository and its code, technical expertise within your team, time commitments, etc. 
+Your selected user stories should have relatively high priority based on your team's ranking, and you should actively take factors into consideration that may impact your development, such as onboarding time to the repository and its code, technical expertise within your team, time commitments, etc.
 
-The feature(s) you plan to implement should affect all three layers of the NodeBB codebase: backend (server-side, working with the database), middleware (routing, communication between frontend and backend), and frontend. An example of what would **not** be accepted is a cosmetic feature that only modifies a frontend UI component (i.e. changing the color of the navbar).
+The feature(s) you plan to implement should affect **all three layers of the NodeBB codebase**: backend (server-side, working with the database), middleware (routing, communication between frontend and backend), and frontend.
 
-Convert the feature(s) you decide to implement into technical requirements. Then, break these requirements down into manageable, assignable issues and document them on your Project board in a “Backlog” column. At minimum, these issues should make use of Github features like milestones/tags/descriptions to denote:
+!!! note
+    An example of what would **not** be accepted is a cosmetic feature that only modifies a frontend UI component (i.e. changing the color of the navbar), or the renaming of a field in the database.
+    
+    You may want to look ahead into parts 2B and 2C to check our specific requirements for your implementation.
+
+Convert the feature(s) you decide to implement into technical requirements (i.e. what needs to be developed for this feature to work). Then, break these requirements down into manageable, assignable issues and document them on your Project board in a “Backlog” column. At minimum, these issues should make use of Github features like milestones/labels/descriptions to denote:
 
 - **Estimated effort** for each task
 - **Dependencies** among tasks (if any)
-- **Task assignments** for team members
+- Initial **assignments** for team members
 - **Milestones** to indicate which sprint the issue should be completed in (Sprint 1, Sprint 2, Stretch)
 - **Acceptance criteria** that describes how you know this task is done - think about how you will test this feature
 
 You should actively assign and move these issues across your Kanban board as your team makes progress. 
 
-!!! note
-    We **will not** be assessing how accurately you predicted your development process, nor will we be giving points based on the complexity or quality of your changes. The focus of our evaluations will be on how you decompose the problem, how you respond to unexpected circumstances, and how you analyze and reflect on your experience later on.
+!!! note "A Note on Grading"
+    We **will not** assess how accurately you predicted your development process, nor will we be giving points based on the complexity or quality of your changes. The focus of our evaluations will be on how you decompose the problem, how you respond to unexpected circumstances, and how you analyze and reflect on your experience later on.
 
     We **will** check your development progress at the end of each sprint. Please be proactive in your planning to ensure that you make notable progress in both of your sprints.
 
@@ -137,9 +147,9 @@ Include a link to your GitHub board in your Gradescope submission. If you are un
 
 
 ### Extra Credit (8 pts)
-Getting to know your colleagues in a friendly context can often lead to more effective collaboration; healthy teams often get lunch together, for example. To incentivize this, we will give your team extra credit for this assignment if you meet for a team bonding experience outside of a working session.
+Getting to know your colleagues in a friendly context can often lead to more effective collaboration; for example, healthy teams often get lunch together. To incentivize this, we will give your team extra credit for this assignment if you meet for a team bonding experience outside of a working session.
 
-You might want to eat together, or go out for boba. If someone on your team is not feeling well, you may also do a virtual activity such as an online gaming session (Drawphone, Skribbl.io, etc.) or social “Zoom lunch”. 
+You might want to eat together, go out for boba, or hold a board game session. If someone on your team is not feeling well, you may also do a virtual activity such as an online gaming session (Drawphone, Skribbl.io, etc.) or social “Zoom lunch”. 
 
 To receive extra credit, share the photo or screenshot of your team activity with your TA mentors by sending it in your team Slack channel before the deadline. We encourage you to do these types of meetings often throughout the semester!
 
@@ -155,7 +165,7 @@ To receive full credit for the teamwork contract, we expect:
 To receive full credit for the project planning, we expect:
 
 - [ ] A GitHub project board linked to your team repository with:
-    - [ ] A User Story column containing at least two user stories per group member that satisfy the guidelines as covered in lecture
+    - [ ] A User Story column containing at least two user stories per group member that satisfy the guidelines outlined in the sections above and in lecture
     - [ ] A Backlog column containing a series of GitHub issues describing the feature(s) that the team will tackle. Each issue makes use of GitHub features to denote all of the required information listed above
 
 ## Resources & Documentation
