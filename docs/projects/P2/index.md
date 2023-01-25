@@ -45,5 +45,5 @@ B) [**First Sprint**](/projects/P2/2_firstsprint) – 100 points – due Tuesday
 C) [**Second Sprint**](/projects/P2/3_secondsprint) – 140 points – due Thursday, March 2nd, 11:59pm
 
 - Process & Implementation Final Snapshot (60 pts)
-- Team Reflection (55 pts)
-- Individual Reflection (25 pts)
+- Team Reflection (50 pts)
+- Individual Reflection (30 pts)

@@ -30,7 +30,7 @@ Submit a link to your repository and your Github Project board onto Gradescope. 
 
 ## Checkpoint Presentation (50 pts)
 
-During the Week 5 recitation slot (Monday February 13th), your group will give a 10-minute presentation describing your current progress, followed by a short 1-2 minute Q&A session where you can get feedback from the TAs and your peers.
+During the Week 5 recitation slot (**Monday February 13th**), your group will give a 10-minute presentation describing your current progress, followed by a short 1-2 minute Q&A session where you can get feedback from the TAs and your peers.
 
 Your slides should include the following information (the recommended slides amount is in parentheses):
 
@@ -41,17 +41,17 @@ Include your team name & the names of each team member<br/><br/>
 What user stories did your team choose to focus on? What feature(s) did you plan on implementing to fulfill them?<br/><br/>
 
 3. **Development Progress (~1-2 slides per person)** <br/>
-What have you changed so far? How did you test your changes? What have you learned about the codebase? How does this compare with your original milestone goals? If your team did not meet your goals, why? <br/>
+What have you changed so far? How did you test your changes? What have you learned about the codebase? How does this compare with your original milestone goals? If your team did not meet your goals, why? <br/><br/>
 Each team member should describe the contributions they made. In this section, you must include a video demo of your current progress; if you were not able to make a working build, include screenshots that show your current progress and clearly explain what factors impeded your progress.<br/><br/>
 
 4. **Process Overview (~1-2 slides)** <br/>
 What process strategies (i.e. meeting frequency, code reviews) did your team use for the first sprint? Was it effective? Did you encounter any difficulties or have to make any changes?<br/><br/>
 
 5. **Looking Ahead (~2-4 slides)** <br/>
-What are some current risks and/or questions that your team has after completing the first sprint? Has your experience with the first sprint affected your planning of the second sprint? Do you need to rescope? Do you need to reevaluate your process?<br/>
+What are some current risks and/or questions that your team has after completing the first sprint? Has your experience with the first sprint affected your planning of the second sprint? Do you need to rescope? Do you need to reevaluate your process?<br/><br/>
 If you did not meet your development goals, you should outline what you plan to proactively change for this upcoming sprint.<br/>
 
-!!! note "Presentation Participation"
+!!! note "A Note on Participation"
     **Participation from all team members during the presentation is required.** If you are unable to attend in-person, send a Slack message to your recitation TAs with justifications **at least 24 hours before the start of your recitation**. You will then be permitted to present by submitting a recording of your segment of the presentation, which your teammate will play during the presentation.
 
 The presentation slides should be exported into a PDF and submitted to Gradescope by the Tuesday deadline.

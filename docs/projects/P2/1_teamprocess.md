@@ -89,7 +89,7 @@ Feel free to seek the assistance of TAs and instructors in drafting this documen
 !!! note
     We will ask you to reference, reflect upon, and refine this document throughout this semester, and we will evaluate your team's process strategies and interactions through what you outline in this contract. Please ensure that everyone on your team thoroughly discusses each of the above sections and agree with the final decisions.
 
-Once you have completed the contract itself, have all members sign their names at the bottom, then save the file as a PDF and upload it to Gradescope. Only one team member needs to make the submission; they can then add the rest of the teammates on Gradescope to make it a group submission. 
+Once you have completed the contract itself, have all members sign and date the document as an indicator that all members have read the document and agreed to uphold all outlined items. Then, save the file as a PDF and upload it to Gradescope. Only one team member needs to make the submission; they can then add the rest of the teammates as group members for a group submission. 
 
 We also **highly recommend** that you [bookmark](https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links) this document in your team’s Slack channel.
 
@@ -141,7 +141,7 @@ You should actively assign and move these issues across your Kanban board as you
 !!! note "A Note on Grading"
     We **will not** assess how accurately you predicted your development process, nor will we be giving points based on the complexity or quality of your changes. The focus of our evaluations will be on how you decompose the problem, how you respond to unexpected circumstances, and how you analyze and reflect on your experience later on.
 
-    We **will** check your development progress at the end of each sprint. Please be proactive in your planning to ensure that you make notable progress in both of your sprints.
+    We **will** check your development progress at the end of each sprint. Please be proactive in your planning to ensure that you make notable progress in both of your sprints. We highly recommend reading ahead on what our expectations are for the end of each sprint as you plan your milestone goals.
 
 Include a link to your GitHub board in your Gradescope submission. If you are unsure about your planned changes, you can ask for feedback from a member of the course staff!
 
