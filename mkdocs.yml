@@ -12,8 +12,8 @@ theme:
       primary: red
       accent: red
       toggle:
-          icon: material/brightness-7
-          name: Switch to dark mode
+        icon: material/brightness-7
+        name: Switch to dark mode
     - scheme: slate
       primary: red
       accent: red
@@ -62,25 +62,25 @@ nav:
   - Syllabus: syllabus.md
   - Projects: # projects/index.md # Dummy home page; remove once we start adding homework below
     - "Project 1: Hello, NodeBB!": 
-      - projects/P1/index.md
-      - Github Exercise: projects/P1/github.md
-      - NodeBB Installation:
-        - Mac: projects/P1/installation/mac.md
-        - Windows: projects/P1/installation/windows.md
-        - Linux (Ubuntu): projects/P1/installation/ubuntu.md
-      - FAQ: projects/P1/faq.md
+        - projects/P1/index.md
+        - Github Exercise: projects/P1/github.md
+        - NodeBB Installation:
+            - Mac: projects/P1/installation/mac.md
+            - Windows: projects/P1/installation/windows.md
+            - Linux (Ubuntu): projects/P1/installation/ubuntu.md
+        - FAQ: projects/P1/faq.md
     - "Project 2: Collaborative Development": 
-      - projects/P2/index.md
-      - "Team Process & Planning": projects/P2/1_teamprocess.md
-      - "First Sprint": projects/P2/2_firstsprint.md
-      - "Second Sprint": projects/P2/3_secondsprint.md
+        - projects/P2/index.md
+        - "Team Process & Planning": projects/P2/1_teamprocess.md
+        - "First Sprint": projects/P2/2_firstsprint.md
+        - "Second Sprint": projects/P2/3_secondsprint.md
     # - Project 2: projects/HW2.md
     # - Project 3: projects/HW3.md
     # - Project 4: projects/HW4.md
     # - Project 5: projects/HW5.md
     # - Project 6: projects/HW6.md
-  - Recitations: recitations/index.md # Dummy home page; remove once we start adding recitations below
-    # - Recitation 1: recitations/reci1-github.md
+  - Recitations: #recitations/index.md # Dummy home page; remove once we start adding recitations below
+      - Recitation 1 - Git & GitHub: recitations/reci1-github.md
     # - Recitation 2: recitations/reci2-angularjs.md
     # - Recitation 3: recitations/reci3-archaeology.md
     # - Recitation 4: recitations/reci4-dysfunction.md
