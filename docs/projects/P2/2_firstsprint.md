@@ -2,7 +2,7 @@
 
 ## Deliverables
 
-First Sprint – 100 points – due Tuesday, February 14th, 11:59pm
+**First Sprint** – 100 points – due Tuesday, February 14th, 11:59pm
 
 - [Process & Implementation Interim Snapshot](#process--implementation-interim-50-pts) (50 pts)
 - [Checkpoint Presentation](#checkpoint-presentation-50-pts) (50 pts) - **Held in Recitation on Monday, February 13th**
@@ -18,8 +18,12 @@ Be sure to **review each other’s code** - both from a quality assurance standp
 
 To fit with the translation efforts described in Project 1, any new code introduced to the codebase should be in TypeScript. This does mean that you may need to translate existing files to fulfill this requirement.
 
-!!! note
-    Most of the existing files should have been translated by your classmates in Project 1! Feel free to reference their translations for your own uses - for citation purposes, include a short comment at the top of your file that cites the original translator and a link to where you found the translation, i.e. `//Referenced @student’s TypeScript translation from P1: [PR link]`.
+!!! note "Using Translations from Project 1"
+    Most of the existing files should have been translated by your classmates in Project 1! Feel free to reference their translations for your own uses - for citation purposes, include a short comment at the top of your file that cites the original translator and a link to where you found the translation, for example:
+
+    ```
+    // Referenced @student’s TypeScript translation from P1: [PR link]
+    ```
 
 Every member of your team **must** contribute to the implementation. One way we will evaluate this is that each team member must have at least one commit as a part of the solution. Failure to do so will result in a significant penalty to your grade.
 
@@ -75,3 +79,19 @@ To receive full credit for the presentation, we expect:
 
 
 ## Resources & Documentation
+
+### NodeBB Development
+
+We highly recommend that, before starting development, you take the time to analyze the codebase with your team using the code archaeology techniques you have learned. One good place to start is determining where the MVC (or frontend/middleware/backend) split is and trying to make a small change in each section.
+
+You will find some resources to help you with development in the `README` of the NodeBB repository. Here are a few specific links to get you started:
+
+* [NodeBB Documentation](http://docs.nodebb.org)
+* **Frontend Development:**
+    * [Benchpress Documentation](https://github.com/benchpressjs/benchpressjs)
+    * [Bootstrap 3 Documentation ](http://getbootstrap.com/)
+* **Server Development:**
+    * [Node.js Documentation](https://nodejs.org/en/docs/)
+* **Database/Backend:**
+    * [Redis Documentation](https://redis.io/docs/)
+    * [Redis CLI](https://redis.io/docs/manual/cli/)

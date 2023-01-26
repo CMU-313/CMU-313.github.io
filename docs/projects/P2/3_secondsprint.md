@@ -2,7 +2,7 @@
 
 ## Deliverables
 
-Second Sprint – 140 points – due Thursday, March 2nd, 11:59pm
+**Second Sprint** – 140 points – due Thursday, March 2nd, 11:59pm
 
 - [Process & Implementation Final Snapshot](#process--implementation-final-60-pts) (60 pts)
 - [Team Reflection](#team-reflection-50-pts) (50 pts)
@@ -97,3 +97,12 @@ To receive full credit for the reflections, we expect:
 
 
 ## Resources & Documentation
+
+### NodeBB Development
+
+By now, you should be familiar enough with the codebase to finish making the remainder of your changes. The additional focus of this second sprint is on **testing** your code; hence, documentation related to the testing framework will be very helpful.
+
+As with before, you will find some resources to help you with development in the `README` of the NodeBB repository. You will now want to check the testing section for resources on the Mocha test framework:
+
+* [Mocha Documentation](https://mochajs.org/)
+    * Everything from the "Getting Started" section and below is documentation on how the framework works. You can also reference existing tests!

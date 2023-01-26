@@ -28,7 +28,12 @@ Despite its considerable functionality, NodeBB is still missing many of the basi
 
 This will be the first assignment with your group. There are three (3) deadlines for this project. Each of the core deliverables are described below. This project is worth a total of 320 points.
 
-Detailed information for each of the deadlines has been split into its own subpage on the left. *We highly recommend skimming through all portions before starting on this project.*
+Detailed information for each of the deadlines has been split into its own subpage on the left.
+
+!!! tip
+    This is a large assignment spanning from now until Spring Break. We highly recommend reading through the entire assignment before starting so you are aware of our expectations for the later deliverables.
+    
+    To manage all of the writeups, we recommend saving the pages as a PDF to print or annotate on as you work through the assignment with your team.
 
 A) [**Team Process & Planning**](/projects/P2/1_teamprocess) – 80 points – due Thursday, February 2nd, 11:59pm
 

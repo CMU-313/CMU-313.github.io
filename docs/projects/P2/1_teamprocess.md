@@ -7,7 +7,7 @@
 - **Prerequisite:** [Team Setup](#team-setup)
 - [Teamwork Contract](#teamwork-contract-40-pts) (40 pts)
 - [Project Planning](#project-planning-40-pts) (40 pts)
-- [Extra Credit](#extra-credit-8-pts) (8 pts)
+- *[Extra Credit](#extra-credit-8-pts) (8 pts)*
 
 
 ## Team Setup
@@ -60,7 +60,9 @@ When working with a team, it is important to discuss each team member’s backgr
 !!! note "Team Conflict Example"
     A common conflict in working style is when there are team members who always want to get a headstart on their work, while there are team members who are fine with doing work a few days before the deadline. It causes panic in the former team members, while the latter team members feel frustrated as to why they are being rushed. 
 
-As such, your first process task of the semester will be creating a teamwork contract with your teammates. It is a **1-2 page** document (soft cap) containing information that all teammates agree to follow. You should work on the contract **with all members present**. Additionally, **it is more important that you only include statements that the team will adhere to than it is to fulfill the length requirement** (quality over quantity!)
+As such, your first process task of the semester will be creating a teamwork contract with your teammates. It is a **1-2 page** document (soft cap) containing information that all teammates agree to follow. You should work on the contract **with all members present**.
+
+Additionally, **it is more important that you only include statements that the team will adhere** to than it is to fulfill the length requirement (quality over quantity!) You do not need to write full sentences (bullet points are okay), but your decisions must be clearly conveyed in the document.
 
 You are free to include anything that your team deems necessary, but you should minimally address the following sections:
 
@@ -102,7 +104,7 @@ Before your team jumps into development, you must first determine what features 
 
 During this meeting, discuss potential functional requirements of this project. Consider what possible use cases may be for this system and what features it should have to fulfill those needs. 
 
-Then, document these functional requirements in the form of user stories that follow the guidelines discussed in lecture. All of your user stories should be in the format of “As a [role], I want [function], so that [value]”.
+Then, document these functional requirements in the form of user stories that follow the guidelines discussed in lecture. All of your user stories should be in the format of "As a [role], I want [function], so that [value]".
 
 As a team, you should also come up with a prioritization ranking for each user story (i.e. how essential is this user story to the overall functionality of the application to your stakeholders?) 
 
@@ -113,7 +115,7 @@ As a team, you should also come up with a prioritization ranking for each user s
 
 Once you have your list of user stories, open your Github Projects board and create an additional column called “User Stories”. Then, using the “+ Add item” button at the bottom, create draft issues for each of your user stories.
 
-In the body of each of these draft issues, provide a brief description of its prioritization ranking that your team decided on. You should order all the user stories in this column from highest to lowest priority.
+In the body of each of these draft issues, provide a brief justification of its prioritization ranking that your team decided on. You should order all the user stories in this column from highest to lowest priority.
 
 #### Technical Requirements - Issues
 
@@ -149,7 +151,7 @@ Include a link to your GitHub board in your Gradescope submission. If you are un
 ### Extra Credit (8 pts)
 Getting to know your colleagues in a friendly context can often lead to more effective collaboration; for example, healthy teams often get lunch together. To incentivize this, we will give your team extra credit for this assignment if you meet for a team bonding experience outside of a working session.
 
-You might want to eat together, go out for boba, or hold a board game session. If someone on your team is not feeling well, you may also do a virtual activity such as an online gaming session (Drawphone, Skribbl.io, etc.) or social “Zoom lunch”. 
+You might want to eat together, go out for boba, or hold a board game session. If someone on your team is not feeling well, you may also do a virtual activity such as an online gaming session (Drawphone, Skribbl.io, etc.) or social "Zoom lunch". 
 
 To receive extra credit, share the photo or screenshot of your team activity with your TA mentors by sending it in your team Slack channel before the deadline. We encourage you to do these types of meetings often throughout the semester!
 
@@ -167,6 +169,3 @@ To receive full credit for the project planning, we expect:
 - [ ] A GitHub project board linked to your team repository with:
     - [ ] A User Story column containing at least two user stories per group member that satisfy the guidelines outlined in the sections above and in lecture
     - [ ] A Backlog column containing a series of GitHub issues describing the feature(s) that the team will tackle. Each issue makes use of GitHub features to denote all of the required information listed above
-
-## Resources & Documentation
-
