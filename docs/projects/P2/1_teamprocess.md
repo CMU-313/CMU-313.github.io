@@ -60,9 +60,9 @@ When working with a team, it is important to discuss each team member’s backgr
 !!! note "Team Conflict Example"
     A common conflict in working style is when there are team members who always want to get a headstart on their work, while there are team members who are fine with doing work a few days before the deadline. It causes panic in the former team members, while the latter team members feel frustrated as to why they are being rushed. 
 
-As such, your first process task of the semester will be creating a teamwork contract with your teammates. It is a **1-2 page** document (soft cap) containing information that all teammates agree to follow. You should work on the contract **with all members present**.
+As such, your first process task of the semester will be creating a teamwork contract with your teammates. It is a **1 - 2 page** document containing information that all teammates agree to follow. You should work on the contract **with all members present**. We recommend that you keep it to around 1 page, 2 page is a **hard limit.**
 
-Additionally, **it is more important that you only include statements that the team will adhere** to than it is to fulfill the length requirement (quality over quantity!) You do not need to write full sentences (bullet points are okay), but your decisions must be clearly conveyed in the document.
+Additionally, **it is more important that you only include statements that the team will adhere to** than it is to fulfill the length requirement (quality over quantity!) You do not need to write full sentences (bullet points are okay), but your decisions must be clearly conveyed in the document.
 
 You are free to include anything that your team deems necessary, but you should minimally address the following sections:
 
@@ -70,19 +70,19 @@ You are free to include anything that your team deems necessary, but you should 
 How much time is each team member expected to be putting into working on projects? Punctuality? How would your team accommodate when unexpected commitments come up for a team member (e.g. interviews, sickness, competitions)?<br/><br/>
 Do accommodate for the fact that project load can get heavier towards the end of the semester.<br/><br/> 
 
-2. **Communication**<br/>
+1. **Communication**<br/>
 What platform (s) will your team be using to communicate? What’s the expected time to get a response? <br/><br/>
 For any communication platforms you decide on, please test that everyone can receive notifications. We highly recommend using apps (Slack, Discord) over browser-based sites.<br/><br/>
 
-3. **Meeting Schedule**<br/>
+1. **Meeting Schedule**<br/>
 When and how will your team meet? What modality would it be? <br/><br/>
 A strong recommendation would be to set up a recurring 1hr meeting blocked out for the rest of the semester, so that your team does not have to scramble to find a common meeting time each week. Teams that have recurring meetings are generally more successful in the class.<br/><br/>
 
-4. **Responsibilities**<br/>
+1. **Responsibilities**<br/>
 How will you divide responsibilities for each project? During meetings, who will be in charge of note taking, organizing & running those meetings? <br/><br/>
-From past courses, we noticed the natural emergence of a project manager in teams, who ensures the project moves towards completion. Consider how your team would rotate that role amongst team members over the course of the remaining projects. Throughout the semester, we will ask for documentation of your meeting notes, so be sure to keep them organized (we recommend using a shared Drive folder).<br/><br/>
+From past courses, we noticed the natural emergence of a project manager in teams, who ensures the project moves towards completion. We highly suggest that you consider how your team would rotate that role amongst team members over the course of the remaining projects. Throughout the semester, we will ask for documentation of your meeting notes, so be sure to keep them organized (we recommend using a shared Drive folder).<br/><br/>
 
-5. **Equitable Contribution & Conflict Resolution**<br/>
+1. **Equitable Contribution & Conflict Resolution**<br/>
 What are the steps the team would take to address teammates who are contributing too little, and when will the team bring this up to the instructors? What are the steps to bring up and discuss potential teamwork issues? <br/><br/>
 The first thing the staff will ask the student when they mention that they are facing team issues is if they have followed the steps on their team contract.<br/>
 
@@ -93,7 +93,7 @@ Feel free to seek the assistance of TAs and instructors in drafting this documen
 
 Once you have completed the contract itself, have all members sign and date the document as an indicator that all members have read the document and agreed to uphold all outlined items. Then, save the file as a PDF and upload it to Gradescope. Only one team member needs to make the submission; they can then add the rest of the teammates as group members for a group submission. 
 
-We also **highly recommend** that you [bookmark](https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links) this document in your team’s Slack channel.
+We also **highly recommend** that you [bookmark](https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links) the teamwork contract in your team’s Slack channel.
 
 
 ### Project Planning (40 pts)
@@ -113,7 +113,9 @@ As a team, you should also come up with a prioritization ranking for each user s
 !!! note "Formulating User Stories"
     Consider what are the different types of users that will be interacting with your system (your stakeholders) and what features they would want to have that the current NodeBB does not provide. You may want to reference features in existing Q&A systems that may be desirable, or conduct interviews with people who could be a potential user of this system.
 
-Once you have your list of user stories, open your Github Projects board and create an additional column called “User Stories”. Then, using the “+ Add item” button at the bottom, create draft issues for each of your user stories.
+Once you have your list of user stories, create a new GitHub Project board (click into Projects on your team repository). Then create two new columns to the left called **"User Stories"** and **"Backlog"**. At this point in time, you should have **"User Stories", "Backlog", "To-Do", "In Progress" and "Done"**, in that order from left to right. Feel free to add more columns if your teams decide that you need them during your development process
+
+Add your user stories into the **"User Stories"** column using the **“+ Add item”** button at the bottom, create draft issues for each of your user stories.
 
 In the body of each of these draft issues, provide a brief justification of its prioritization ranking that your team decided on. You should order all the user stories in this column from highest to lowest priority.
 
@@ -123,14 +125,18 @@ Now that you have your prioritized list, consider the *technical requirements* o
 
 Your selected user stories should have relatively high priority based on your team's ranking, and you should actively take factors into consideration that may impact your development, such as onboarding time to the repository and its code, technical expertise within your team, time commitments, etc.
 
-The feature(s) you plan to implement should affect **all three layers of the NodeBB codebase**: backend (server-side, working with the database), middleware (routing, communication between frontend and backend), and frontend.
+The feature(s) you plan to implement should affect **all three layers of the NodeBB codebase**:
+
+- backend (server-side, working with the database)
+- middleware (routing, communication between frontend and backend)
+- frontend.
 
 !!! note
     An example of what would **not** be accepted is a cosmetic feature that only modifies a frontend UI component (i.e. changing the color of the navbar), or the renaming of a field in the database.
     
     You may want to look ahead into parts 2B and 2C to check our specific requirements for your implementation.
 
-Convert the feature(s) you decide to implement into technical requirements (i.e. what needs to be developed for this feature to work). Then, break these requirements down into manageable, assignable issues and document them on your Project board in a “Backlog” column. At minimum, these issues should make use of Github features like milestones/labels/descriptions to denote:
+Convert the feature(s) you decide to implement into technical requirements (i.e. what needs to be developed for this feature to work). Then, break these requirements down into manageable, assignable issues and document them on your Project board by adding them to “Backlog” column. At minimum, these issues should make use of GitHub features like milestones/labels/descriptions to denote:
 
 - **Estimated effort** for each task
 - **Dependencies** among tasks (if any)

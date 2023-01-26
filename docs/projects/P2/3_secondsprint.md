@@ -87,7 +87,8 @@ To receive full credit for the implementation, we expect:
     - [ ] Automated test cases for the implemented functionalities
     - [ ] GitHub Actions running on the repository and passing on the main branch
     - [ ] Created `UserGuide.md` file containing user documentation of the new feature that fulfills the guidelines given above
-
+    - [ ] A functional new feature that works when following the steps in `UserGuide.md`. Note that we aren't expecting the feature to be bug free, but it should work under general expected usage.
+  
 To receive full credit for the reflections, we expect:
 
 - [ ] A detailed, well written, and well structured reflection on each of the provided guiding questions
