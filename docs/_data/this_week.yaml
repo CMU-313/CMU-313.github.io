@@ -10,12 +10,6 @@ lectures:
   name: Milestones, Estimation, and Planning
 
 projects:
-- date: Mon Jan 16
-  deadline: Due Thurs Jan 26 @ 11:59pm
-  end_date: 2023-01-27 00:00:00
-  link: /projects/P1
-  name: Project 1
-  numDays: 9
 - date: Fri Jan 27
   deadline: Due Thurs Feb 2 @ 11:59pm
   end_date: 2023-02-03 00:00:00
