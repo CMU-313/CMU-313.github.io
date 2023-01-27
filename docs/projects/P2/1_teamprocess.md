@@ -109,12 +109,12 @@ Then, document these functional requirements in the form of user stories that fo
 **You should come up with at least two user stories per student in your group.**
 
 !!! note "Formulating User Stories"
-    Consider what are the different types of users that will be interacting with your system (your stakeholders) and what features they would want to have that the current NodeBB does not provide. You may want to reference features in existing Q&A systems (e.g. Piazza, Diderot) that may be desirable, or conduct interviews with your peers who could be a potential user of this system.
+    Consider what are the different types of users that will be interacting with your system (your stakeholders) and what features they would want to have that the current NodeBB does not provide. You may want to reference features in existing Q&A systems (e.g. Piazza, Diderot) that may be desirable, or conduct interviews with your peers who could be a potential users of this system.
 
 As a team, you should then come up with a prioritization ranking for each user story. The prioritization should be based on two factors 
 
 - **Impact**: how essential is this user story to the overall functionality of the application to your stakeholders, how beneficial it would be to your stakeholders, and
-- **Effort**: how much estimated time would be needed to implement features to achieve each user story.
+- **Effort**: how much time/effort is required to implement this user story
 
 Once you have your list of user stories, create a new GitHub Project board (click into Projects on your team repository). Then create two new columns to the left called **"User Stories"** and **"Backlog"**. At this point in time, you should have **"User Stories", "Backlog", "To-Do", "In Progress" and "Done"**, in that order from left to right. Feel free to add more columns if your teams decide that you need them during your development process
 
@@ -122,7 +122,7 @@ Add your user stories into the **"User Stories"** column using the **“+ Add it
 
 #### Technical Requirements - Issues
 
-Now that you have your prioritized list, consider the *technical requirements* of the various user stories and collectively decide on which one(s) you will be focusing on over the next two sprints. In this project (as like most projects), your team is aiming to maximize the amount of value you are delivering to your stakeholders given your team and resources provided.
+Now that you have your prioritized list, consider the *technical requirements* of the various user stories and collectively decide on which one(s) you will be focusing on over the next two sprints. In this project (as like most projects), your team is aiming to maximize the amount of value you are delivering to your stakeholders given your constraints.
 
 Your selected user stories should have relatively high priority based on your team's ranking, and you should actively take factors into consideration that may impact your development.
 
@@ -135,7 +135,7 @@ Your selected user stories should have relatively high priority based on your te
     - number of team members on your team
     - assumption of 8 hours/week available per individual
 
-    The course staff **is happy to discuss this with your team during OH** and we highly recommend you do so if your team is unsure. We will also be providing you with feedback during your first sprint's [checkpoint presentation](http://127.0.0.1:8000/projects/P2/2_firstsprint/#checkpoint-presentation-50-pts).
+    The course staff **is happy to discuss this with your team during OH** and we highly recommend you do so if your team is unsure. We will also be providing you with feedback during your first sprint's [checkpoint presentation](/projects/P2/2_firstsprint/#checkpoint-presentation-50-pts).
 
 The feature(s) you plan to implement should not be purely cosmetic or arbitrary. We expect this to be a non-issue as most high priority features to make NodeBB usable in a course environment would require changes that span across the development stack.
 
