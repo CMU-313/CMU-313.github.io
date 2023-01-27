@@ -1,12 +1,12 @@
 lectures:
 - date: Tue Jan 24
-  link: ''
-  name: Case Study 737MAX
+  link: assets/pdfs/03-BoeingCaseStudy.pdf
+  name: Boeing 737 Max Case Study
   reading:
     link: https://canvas.cmu.edu/courses/33307/quizzes/96247
     name: Boeing 737 Max
 - date: Thu Jan 26
-  link: ''
+  link: assets/pdfs/004-Planning and Process.pdf
   name: Milestones, Estimation, and Planning
 
 projects:

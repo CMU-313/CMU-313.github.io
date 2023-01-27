@@ -113,8 +113,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: "Case Study 737MAX"
+    link: 'assets/pdfs/03-BoeingCaseStudy.pdf'
+    name: 'Boeing 737 Max Case Study'
   reading:
     link: "https://canvas.cmu.edu/courses/33307/quizzes/96247"
     name: "Boeing 737 Max"
@@ -148,8 +148,8 @@
     link: ""
     name: ""
     numDays: 0
-  lecture:
-    link: ""
+  lecture:    
+    link: 'assets/pdfs/004-Planning and Process.pdf'
     name: "Milestones, Estimation, and Planning"
   reading:
     link: ""
