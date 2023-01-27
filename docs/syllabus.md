@@ -33,6 +33,18 @@ As optional supplementary reading consider the (freely available) [Software Engi
 ## Assessment
 Evaluation will be based on the following distribution: 60% projects, 20% midterm, 20% participation (including lecture exercises, pre-lecture reading quizzes, and recitation exercises). 
 
+**Project Points Breakdown**
+
+| Project | # Days Given | Points | % of total grade |
+| --- | --- | --- | --- |
+| 1 | 10 | 100 | 5.56% |
+| 2 | 35 | 320 | 17.78% |
+| 3 | 8  | 120 | 6.67% |
+| 4 | 9  | 120 | 6.67% |
+| 5 | 7  | 100 | 5.56% |
+| 6 | 25 | 320 | 17.78% |
+|   | **TOTAL**   | 1080 | 60.00% | 
+
 ## Regrades
 Regrade requests can be submitted via Gradescope. The regrade period is open for one week after grades have been released for a particular assignment.
 
