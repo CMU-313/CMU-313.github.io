@@ -6,16 +6,10 @@ lectures:
     link: https://canvas.cmu.edu/courses/33307/quizzes/96247
     name: Boeing 737 Max
 - date: Thu Jan 26
-  link: ''
+  link: assets/pdfs/004-Planning and Process.pdf
   name: Milestones, Estimation, and Planning
 
-projects:
-- date: Mon Jan 16
-  deadline: Due Thurs Jan 26 @ 11:59pm
-  end_date: 2023-01-27 00:00:00
-  link: /projects/P1
-  name: Project 1
-  numDays: 9
+projects: []
 
 recitation:
   date: Mon Jan 23
