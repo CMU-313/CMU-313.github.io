@@ -149,7 +149,7 @@
     name: ""
     numDays: 0
   lecture:    
-    link: 'assets/pdfs/004-Planning and Process.pdf'
+    link: 'assets/pdfs/04-PlanningandProcess.pdf'
     name: "Milestones, Estimation, and Planning"
   reading:
     link: ""
