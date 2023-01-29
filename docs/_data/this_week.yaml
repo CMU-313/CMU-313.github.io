@@ -1,13 +1,4 @@
-lectures:
-- date: Tue Jan 24
-  link: assets/pdfs/03-BoeingCaseStudy.pdf
-  name: Boeing 737 Max Case Study
-  reading:
-    link: https://canvas.cmu.edu/courses/33307/quizzes/96247
-    name: Boeing 737 Max
-- date: Thu Jan 26
-  link: assets/pdfs/04-PlanningandProcess.pdf
-  name: Milestones, Estimation, and Planning
+lectures: []
 
 projects:
 - date: Fri Jan 27
@@ -16,10 +7,16 @@ projects:
   link: /projects/P2
   name: Project 2A
   numDays: 5
+- date: Fri Feb 03
+  deadline: Due Tues Feb 14 @ 11:59pm
+  end_date: 2023-02-15 00:00:00
+  link: /projects/P2/2_firstsprint
+  name: Project 2B
+  numDays: 8
 
 recitation:
   date: Mon Jan 30
   handout: /recitations/reci2-teamcontract/
   name: Recitation 2 - Team Contract Workshop
-  quiz: "https://www.gradescope.com/courses/488839/assignments/2612785"
-  slides: "https://docs.google.com/presentation/d/1Y96wnamrTEjw4hLq-ef32a6EDKmaY-LJ23MozUpLuEM/edit?usp=sharing"
+  quiz: https://www.gradescope.com/courses/488839/assignments/2612785
+  slides: https://docs.google.com/presentation/d/1Y96wnamrTEjw4hLq-ef32a6EDKmaY-LJ23MozUpLuEM/edit?usp=sharing
