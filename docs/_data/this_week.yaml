@@ -18,8 +18,8 @@ projects:
   numDays: 5
 
 recitation:
-  date: Mon Jan 23
-  handout: /recitations/reci1-github/
-  name: Recitation 1 - GitHub and TS
-  quiz: https://www.gradescope.com/courses/488839/assignments/2570647
-  slides: ''
+  date: Mon Jan 30
+  handout: /recitations/reci2-teamcontract/
+  name: Recitation 2 - Team Contract Workshop
+  quiz: "https://www.gradescope.com/courses/488839/assignments/2612785/submissions"
+  slides: "https://docs.google.com/presentation/d/1Y96wnamrTEjw4hLq-ef32a6EDKmaY-LJ23MozUpLuEM/edit?usp=sharing"
