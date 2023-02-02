@@ -61,19 +61,19 @@ nav:
   - Course Overview: overview.md
   - Syllabus: syllabus.md
   - Projects: # projects/index.md # Dummy home page; remove once we start adding homework below
-    - "Project 1: Hello, NodeBB!": 
-        - projects/P1/index.md
-        - Github Exercise: projects/P1/github.md
-        - NodeBB Installation:
-            - Mac: projects/P1/installation/mac.md
-            - Windows: projects/P1/installation/windows.md
-            - Linux (Ubuntu): projects/P1/installation/ubuntu.md
-        - FAQ: projects/P1/faq.md
-    - "Project 2: Collaborative Development": 
-        - projects/P2/index.md
-        - "2A Team Process & Planning": projects/P2/1_teamprocess.md
-        - "2B First Sprint": projects/P2/2_firstsprint.md
-        - "2C Second Sprint": projects/P2/3_secondsprint.md
+      - "Project 1: Hello, NodeBB!":
+          - projects/P1/index.md
+          - Github Exercise: projects/P1/github.md
+          - NodeBB Installation:
+              - Mac: projects/P1/installation/mac.md
+              - Windows: projects/P1/installation/windows.md
+              - Linux (Ubuntu): projects/P1/installation/ubuntu.md
+          - FAQ: projects/P1/faq.md
+      - "Project 2: Collaborative Development":
+          - projects/P2/index.md
+          - "2A Team Process & Planning": projects/P2/1_teamprocess.md
+          - "2B First Sprint": projects/P2/2_firstsprint.md
+          - "2C Second Sprint": projects/P2/3_secondsprint.md
     # - Project 2: projects/HW2.md
     # - Project 3: projects/HW3.md
     # - Project 4: projects/HW4.md
@@ -82,7 +82,7 @@ nav:
   - Recitations: #recitations/index.md # Dummy home page; remove once we start adding recitations below
       - Recitation 1 - Git & GitHub: recitations/reci1-github.md
       - Recitation 2 - Team Contract Workshop: recitations/reci2-teamcontract.md
-    # - Recitation 3: recitations/reci3-archaeology.md
+      - Recitation 3 - Software Archaeology: recitations/reci3-archaeology.md
     # - Recitation 4: recitations/reci4-dysfunction.md
     # - Recitation 6: recitations/reci6-midterm-review.md
     # - Recitation 7: recitations/reci7-machine-learning.md
