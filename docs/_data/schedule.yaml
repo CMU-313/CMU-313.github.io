@@ -113,8 +113,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: 'assets/pdfs/03-BoeingCaseStudy.pdf'
-    name: 'Boeing 737 Max Case Study'
+    link: "assets/pdfs/03-BoeingCaseStudy.pdf"
+    name: "Boeing 737 Max Case Study"
   reading:
     link: "https://canvas.cmu.edu/courses/33307/quizzes/96247"
     name: "Boeing 737 Max"
@@ -148,8 +148,8 @@
     link: ""
     name: ""
     numDays: 0
-  lecture:    
-    link: 'assets/pdfs/04-PlanningandProcess.pdf'
+  lecture:
+    link: "assets/pdfs/04-PlanningandProcess.pdf"
     name: "Milestones, Estimation, and Planning"
   reading:
     link: ""
@@ -162,9 +162,9 @@
 
 - date: Fri Jan 27
   homework:
-    deadline: 'Due Thurs Feb 2 @ 11:59pm'
-    link: '/projects/P2'
-    name: 'Project 2A'
+    deadline: "Due Thurs Feb 2 @ 11:59pm"
+    link: "/projects/P2"
+    name: "Project 2A"
     numDays: 5
   lecture:
     link: ""
@@ -209,10 +209,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
+    handout: "/recitations/reci3-archaeology/"
+    name: "Recitation 3 - Software Archaeology"
     quiz: ""
-    slides: ""
+    slides: "https://docs.google.com/presentation/d/1xh8fGoTHWLTYCqQkUAONJ4swHztGZaSputoSaLzXeRc/edit?usp=sharing"
 
 - date: Wed Feb 01
   homework:
@@ -252,9 +252,9 @@
 
 - date: Fri Feb 03
   homework:
-    deadline: 'Due Tues Feb 14 @ 11:59pm'
-    link: '/projects/P2/2_firstsprint'
-    name: 'Project 2B'
+    deadline: "Due Tues Feb 14 @ 11:59pm"
+    link: "/projects/P2/2_firstsprint"
+    name: "Project 2B"
     numDays: 8
   lecture:
     link: ""
@@ -396,9 +396,9 @@
 
 - date: Wed Feb 15
   homework:
-    deadline: 'Due Thurs Mar 2 @ 11:59pm'
-    link: '/projects/P2/3_secondsprint'
-    name: 'Project 2C'
+    deadline: "Due Thurs Mar 2 @ 11:59pm"
+    link: "/projects/P2/3_secondsprint"
+    name: "Project 2C"
     numDays: 12
   lecture:
     link: ""
