@@ -25,6 +25,7 @@ theme:
     - navigation.top
     - navigation.tracking
     - navigation.indexes
+    - announce.dismiss
 
 markdown_extensions:
   - attr_list
