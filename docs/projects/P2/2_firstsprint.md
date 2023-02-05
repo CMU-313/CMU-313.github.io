@@ -13,7 +13,7 @@
 Start by cloning the team repository and merging your individual changes from Project 1 into your team repository using proper git flow. You may also delete the `hw1.yaml` workflow found in `.github/workflows`. Once everyone has properly set up the repository on their local machines and committed their changes, you can now start development.
 
 !!! question "What if I did not successfully translate my file in Project 1?"
-    If you do not need to modify that file in order to implement your team's feature, then you do not need to merge your file into your repository. Your will not be penalized for not merging the file.
+    If you do not need to modify that file in order to implement your team's feature, then you do not need to merge your file into your repository. You will not be penalized for not merging in your Project 1 file.
 
 You should follow best practices for collaborative development such as using feature branches, pull requests, and code review. Individual changes should be committed to properly named branches for each core feature being implemented and make use of pull requests to merge changes together. 
 
