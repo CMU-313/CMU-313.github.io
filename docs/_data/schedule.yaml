@@ -203,8 +203,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/05-Teams.pdf"
+    name: "Teams"
   reading:
     link: ""
     name: ""
@@ -239,8 +239,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/06-Communication.pdf"
+    name: "Communication"
   reading:
     link: ""
     name: ""
@@ -293,8 +293,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/07-risk-prototype.pdf"
+    name: "Risk"
   reading:
     link: ""
     name: ""
