@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Tue Feb 07
+  link: assets/pdfs/07-risk-prototype.pdf
+  name: Risk
 
 projects:
 - date: Fri Feb 03
