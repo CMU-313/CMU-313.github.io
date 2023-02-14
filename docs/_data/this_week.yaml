@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Tue Feb 14
+  link: assets/pdfs/09-Intro-to-Arch.pdf
+  name: Intro to Architecture
 
 projects:
 - date: Fri Feb 03
