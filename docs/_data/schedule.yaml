@@ -329,8 +329,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/08-software-quality.pdf"
+    name: "Software Quality"
   reading:
     link: ""
     name: ""
@@ -383,8 +383,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/09-Intro-to-Arch.pdf"
+    name: "Intro to Architecture"
   reading:
     link: ""
     name: ""
