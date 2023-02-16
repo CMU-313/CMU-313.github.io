@@ -53,7 +53,7 @@ You will see the following groups of questions on Gradescope. We recommend that 
 
 4. **Meeting Minutes:** Attach all meeting minutes kept throughout the project, which should include information about the agenda/topics discussed, decisions made, and work assignments.
 
-5. **Team Experience:** Reflect on your experience working as a team. You should discuss as a team on the aspects of communication, scheduling, responsibilities and equitable contributions. Answer the following points by providing at least one concrete action for each: 
+5. **Team Experience:** Reflect on your experience working as a team. You should discuss as a team on the aspects of communication, scheduling, responsibilities and equitable contributions. Answer the following points by providing at least three actions that your team will take to improve in the future (feel free to have more than one in category and zero in another, they should just add up to three):
       - What should your team **keep doing?** What worked well, and why? 
       - What should your team **start doing?** What didn't work so well, and why? What will you do differently?
       - What should your team **stop doing?** What are some bad habits that your team should avoid in the future and why?
