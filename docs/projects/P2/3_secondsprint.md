@@ -5,7 +5,7 @@
 **Second Sprint** – 140 points – due Thursday, March 2nd, 11:59pm
 
 - [Process & Implementation Final Snapshot](#process--implementation-final-60-pts) (60 pts)
-- [Team Reflection](#team-reflection-50-pts) (50 pts)
+- [Process & Team Reflection](#process-team-reflection-50-pts) (50 pts)
 - [Individual Reflection](#individual-reflection-30-pts) (30 pts)
 
 
@@ -33,44 +33,65 @@ You must commit all of your changes to the main branch of your team repository b
 Submit a link to your repository and your Github Project board onto Gradescope. For grading, we will take a snapshot of your repository and board right at the deadline and grade based on your progress there.
 
 
-## Team Reflection (50 pts)
+## Process & Team Reflection (50 pts)
 
-After coding is complete, reflect on your experience as a team. Again, we look for honest reflection, which will likely include reflection on failures. We will not grade whether you predicted the effort correctly, but rather what you learned from the process. You will see the following groups of reflection questions on Gradescope:
+After coding is complete, reflect on your experience as a team. Again, we look for honest reflection, which will likely include reflection on failures. **We will not grade whether you predicted the effort correctly, but rather what you have learned**. 
 
-- **Actual Schedule:** Document the actual schedule of your development process into either an organized list or table. You should include all of the tasks that each team member actually performed and the approximate amount of time each took. Your commit history and other documentation should help you with this.
+You will see the following groups of questions on Gradescope. We recommend that your team use collaborative text editing tools like Google Docs to draft your answers, then submit your final answers to Gradescope.
 
-- **Schedule Deviations:** Reflect on the differences between your planned and actual schedule. Which milestones were predicted correctly? What was re-planned? Was there anything you did not plan for initially or that you had to drop in the end? What were the reasons for the changes? Could they have been foreseen with better planning?
+1. **Actual Schedule:** Document the actual schedule of your development process into either an organized list or table. You should include all of the tasks that each team member actually performed and the approximate amount of time each took. Your commit history and other documentation should help you with this.
 
-- **Process:** Reflect on the process you initially planned to follow, and the process you actually followed. Was the process adequate? Effective? Did you skip steps or adopt additional techniques during the project? How could the process be improved if you had to do another, similar project? How might you have to change the process to adapt to a different type of project?
+2. **Schedule Deviations:** Reflect on the differences between your planned and actual schedule, and answer the following questions:
+    - Which milestones were predicted correctly and what was re-planned? 
+    - Was there anything you did not plan for initially or that you had to drop in the end? 
+    - What were the reasons for the above changes and could they have been foreseen with better planning?
 
-- **Team Experience:** Reflect on your experience working as a team. What worked well? Were team meetings efficient? How well, and through which processes, did you communicate? What needs improvement? Were there any teamwork challenges you resolved as the project progressed?
+3. **Development Process:** Reflect on the process (specifically, the steps each team member took to contribute to the codebase) you followed during the project, and answer the following questions: 
+    - What was the process you initially planned to follow? What was the process you actually followed?
+    - Was the process effective? Why or why not?
+    - Did you skip steps or adopt additional techniques during the project? What were they and why did you do so?
 
-- **Meeting Minutes:** Attach all meeting minutes kept throughout the project, which should include information about the agenda/topics discussed, decisions made, and work assignments.
+4. **Meeting Minutes:** Attach all meeting minutes kept throughout the project, which should include information about the agenda/topics discussed, decisions made, and work assignments.
 
-- **Teamwork Contract:** Reflect on how your team interacted with regard to your teamwork contract. Did you encounter any issues or unexpected experiences that your original contract did not foresee? Based on your answers, take the time to discuss with your team, then update and upload your new teamwork contract (be sure to sign and date it). Briefly discuss any changes that were made (if any).
+5. **Team Experience:** Reflect on your experience working as a team. You should discuss as a team on the aspects of communication, scheduling, responsibilities and equitable contributions. Answer the following points by providing at least three actions that your team will take to improve in the future (feel free to have more than one in category and zero in another, they should just add up to three):
+      - What should your team **keep doing?** What worked well, and why? 
+      - What should your team **start doing?** What didn't work so well, and why? What will you do differently?
+      - What should your team **stop doing?** What are some bad habits that your team should avoid in the future and why?
+
+    !!! warning "Support your claims"
+        You should reference your meeting minutes to support your claims and provide examples. A weakly supported statement would be as follows:
+        > “We will communicate better, because miscommunication caused issues" 
+        
+        You should support your statements with examples from the development experience. For example: 
+        > "In the future, we will try to use [such-and-such a process] for clearly documenting and communicating such design decisions, rather than [the process we did follow/failed to follow]. One of our [main challenges/development slowdown/quality problems] was the integration of components A and B, because the API for A was not well-understood by the developer of B. "
+
+6. **Teamwork Contract:** Based on the process and team reflection above, update your teamwork contract. Did you encounter any issues or unexpected experiences that your original contract did not foresee? Feel free to add in any other clauses if necessary to your team contract. Upload your new teamwork contract (be sure to sign and date it), and **highlight the changes you made in yellow.**
+
+Being able to communicate effectively is an important software engineering skill. As such, your reflection should be well-written and easy to read. Be sure to leave time after writing for revision and proofreading.
 
 !!! note "Reflection Grading"
     One of the main purposes of this project is to encourage in-depth analysis of the reasons for good or bad time estimation, scheduling, and teamwork coordination. Doing poorly in these is not unusual (as numerous reports from real-life projects show). 
 
-    Therefore, we will not evaluate how well (or badly) the project went, but instead how well you understood the reasons **why** the project went as it did, and what lessons you drew from your experience to inform your future work. A good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support the claims. 
-
-!!! note "Good Reflection Practices"
-    It is a good idea to reference your meeting protocols to support your claims and provide examples. For example, “We could have communicated better.” is weakly supported. One could strengthen it with examples from the development experience as follows: “One source of [defects/development slowdown/quality problems] was the integration of components A and B, because the API for A was not well-understood by the developer of B… In the future, we might try to use [such-and-such a process] for clearly documenting and communicating such design decisions, rather than [the process we did follow/failed to follow].”
-
-Being able to communicate effectively is an important software engineering skill. As such, your reflection should be well-written and easy to read. Be sure to leave time after writing for revision and proofreading.
-
-There are many convenient tools for collaborative text editing; for instance, the course staff used Google Docs for this homework document. We recommend using these tools to draft your answers; then, submit your final answers to Gradescope.
+    We will not evaluate how well (or badly) the project went, but instead how well you understood the reasons **why** the project went as it did, and what lessons you drew from your experience to inform your future work. A good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support the claims. 
 
 
 ## Individual Reflection (30 pts)
 
-In addition to the team reflection, you will also be submitting an individual reflection on Gradescope. Specifically, we will ask you to reflect on the process, scheduling, and teamwork, and connect this project experience with your previous experience with collaborative development. Your previous experience may be from an academic or non-academic setting, such as internships, hackathons, or personal projects.
+In addition to the team reflection, you will also be submitting an individual reflection on Gradescope. 
 
-Your reflection should answer the following questions: 
+We want you to connect this project's experience with your previous experience with collaborative development. Your previous experience may be from an academic or non-academic setting, such as internships, hackathons, or personal projects.
 
-- What previous collaborative projects have you done before? How does this project experience align with your previous experiences? What was similar? What was different?
-- What did you personally learn from this project’s development process? Was there anything unexpected?
-- What are you planning to do differently or improve upon in your future projects? What would you like to keep doing?
+Your reflection should address the following questions (and sub-questions): 
+
+1. What previous collaborative projects have you done before? 
+    - How does this project experience compare with your previous experience? What was similar and what was different?
+2. What did you personally learn from this project’s development process? Process here refers to the steps you took to contribute to the codebase. 
+    - What did you think worked well? What did you think did not work well?
+    - Was there anything unexpected?
+3. What did you learn about working in a team? 
+    - What did you learn about yourself?
+    - What did you learn about working with others?
+4. What are you planning to do differently or improve upon in your future projects? What would you like to keep doing? Provide at least one concrete action that you plan on acting upon in the next project.
 
 Similar to the team reflection task, we will grade the quality and depth of your reflection.
 
@@ -89,13 +110,21 @@ To receive full credit for the implementation, we expect:
     - [ ] Created `UserGuide.md` file containing user documentation of the new feature that fulfills the guidelines given above
     - [ ] A functional new feature that works when following the steps in `UserGuide.md`. Note that we aren't expecting the feature to be bug free, but it should work under general expected usage.
   
-To receive full credit for the reflections, we expect:
+To receive full credit for the process and team reflections, we expect:
 
 - [ ] A detailed, well written, and well structured reflection on each of the provided guiding questions
 - [ ] A comparison between the planned and the actual schedule
 - [ ] An analysis beyond mere descriptions and superficial statements, including supporting evidence for claims, that reflects on the causes of deviations, conflicts, and so forth, or your own experience
 - [ ] Inclusion of meeting minutes(s) that adequately demonstrate your team’s meeting process
+- [ ] At least three concrete actions with that your team will either start, stop, or keep doing in the future, with proper justification and supporting evidence
 
+To receive full credit for the individual reflection, we expect:
+
+- [ ] A detailed, well written, and well structured reflection on each of the provided guiding questions
+- [ ] A comparison between current and previous experience
+- [ ] A reflection on the development process, including what worked well and what did not work well
+- [ ] A reflection on working in a team, with learnings about self and working with others
+- [ ] At least one concrete action that you will act upon in the future, with proper justification and supporting evidence
 
 ## Resources & Documentation
 
