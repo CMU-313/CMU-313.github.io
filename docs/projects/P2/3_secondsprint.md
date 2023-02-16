@@ -5,7 +5,7 @@
 **Second Sprint** – 140 points – due Thursday, March 2nd, 11:59pm
 
 - [Process & Implementation Final Snapshot](#process--implementation-final-60-pts) (60 pts)
-- [Team Reflection](#team-reflection-50-pts) (50 pts)
+- [Process & Team Reflection](#process-team-reflection-50-pts) (50 pts)
 - [Individual Reflection](#individual-reflection-30-pts) (30 pts)
 
 
