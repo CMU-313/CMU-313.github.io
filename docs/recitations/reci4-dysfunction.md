@@ -26,26 +26,18 @@ Congratulations! Your team has been hired as software developers to work on CMU'
 
 Be sure to also assign each member a task in order to integrate the tool into the payment system.
 
-**Activity Notes:** Each member should act as their role during the meeting. Try to fix the dysfunction presented in this meeting and reflect on how you would plan on fixing similar issues if they come up in Project 2.
+**Activity Notes:** Each member should act as their role during the meeting. Try to fix the dysfunction presented in this meeting and reflect on how you would fix similar issues if they come up in Project 2.
 
-## Part 2: Group Discussion (10 min)
+## Part 2: Presentations! (15 min)
 
-As a group, discuss the following questions:
-1. What dysfunctional characteristic did your teammates display? 
-2. How would you handle those dysfunctional characteristics in future situations?
+Each group will present their meeting to the class (~2 minutes per presentation). The audience will then guess the roles of each of the members of the presenting group. Best group will win a prize!
 
-Then, as a group, prepare some responses to the questions in [Part 3](#part-3-group-discussion-10-min).
-
-## Part 3: Class Discussion (20 min)
-
-Watch other groups present their roles and guess what role each member is playing. 
+## Part 3: Class Discussion (15 min)
 
 As a class, discuss the following questions: 
-1. Was the meeting effective? Why or why not? 
-2. What team dysfunctions did you observe during the meeting? 
-3. Were there any instances where your role directly clashed with someone else in your group?
-4. Were you able to identify the roles played by the other members? What problems were caused by their behavior? 
-5. Can you think of mitigation strategies and solutions to avoid these problems?
+1. Were you able to identify the roles played by the other groups? What problems were caused by their behavior? 
+2. How would you handle these dysfunctional characteristics in future situations?
+3. Can you think of mitigation strategies and solutions to avoid these problems?
 
 ## Appendix A: Role Descriptions
 
