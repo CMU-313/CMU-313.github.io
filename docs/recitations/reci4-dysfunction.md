@@ -14,11 +14,11 @@ All teams are inherently dysfunctional in some sense. This is inevitable as they
  
 ## Part 0: Preparation
 
-Use a [random number generator](https://numbergenerator.org/randomnumbergenerator/1-7) to get a random number from 1-7. Next, check [Appendix A](#appendix-a-role-descriptions) for a detailed description of the role associated with your generated number.
+Get into groups of 7 with people not in your project group. Use a [random number generator](https://numbergenerator.org/randomnumbergenerator/1-7) to get a random number from 1-7. Next, check [Appendix A](#appendix-a-role-descriptions) for a detailed description of the role associated with your generated number.
  
-Keep your role secret from the other people in your group!
+Keep your role secret from the other groups! We will have the audience guess your roles when your group presents to the class. 
  
-## Part 1: Trade-off and Task Planning Meeting (15 min)
+## Part 1: Trade-off and Task Planning Meeting (10 min)
 
 Congratulations! Your team has been hired as software developers to work on CMU's graduate school application system. For your first assignment, you've been asked to develop a better system for handling online payments made by graduate students for their applications.
 
@@ -26,7 +26,7 @@ Congratulations! Your team has been hired as software developers to work on CMU'
 
 Be sure to also assign each member a task in order to integrate the tool into the payment system.
 
-**Activity Notes:** Each team member should keep their role secret and try to act accordingly during the meeting. Try to identify the roles played by your team members and, if possible, fix the dysfunction.
+**Activity Notes:** Each member should act as their role during the meeting. Try to fix the dysfunction presented in this meeting and reflect on how you would plan on fixing similar issues if they come up in Project 2.
 
 ## Part 2: Group Discussion (10 min)
 
@@ -36,7 +36,9 @@ As a group, discuss the following questions:
 
 Then, as a group, prepare some responses to the questions in [Part 3](#part-3-group-discussion-10-min).
 
-## Part 3: Class Discussion (10 min)
+## Part 3: Class Discussion (20 min)
+
+Watch other groups present their roles and guess what role each member is playing. 
 
 As a class, discuss the following questions: 
 1. Was the meeting effective? Why or why not? 
