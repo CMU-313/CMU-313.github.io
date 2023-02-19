@@ -14,17 +14,31 @@ All teams are inherently dysfunctional in some sense. This is inevitable as they
  
 ## Part 0: Preparation
 
-Get into groups of 7 with people not in your project group. Use a [random number generator](https://numbergenerator.org/randomnumbergenerator/1-7) to get a random number from 1-7. Next, check [Appendix A](#appendix-a-role-descriptions) for a detailed description of the role associated with your generated number.
+We have pre-assigned each team to a set of roles. Have each member of the team choose a role from the options we give you. 
  
-Keep your role secret from the other groups! We will have the audience guess your roles when your group presents to the class. 
+Keep your role secret from the other groups! We will have the audience guess your roles when your team presents to the class. 
  
-## Part 1: Trade-off and Task Planning Meeting (10 min)
+## Part 1: Task Planning Meeting Rehearsal (5 min)
 
-Congratulations! Your team has been hired as software developers to work on CMU's graduate school application system. For your first assignment, you've been asked to develop a better system for handling online payments made by graduate students for their applications.
+Congratulations! Your team has been hired as software developers to work on CMU's graduate school application system.
+We have assigned each team to a specifc task. Each group's tasks are below. You only have to roleplay your assigned task. 
 
-**Task:** As a team, research and find tools that can be used to improve the payment system. This can be anything from supporting better payment methods, storing payment information, etc. Compare the strengths and weaknesses of the tools. At the end of this activity, your group should have agreed on a tool to use. 
+As a team, research and find tools that can be used to improve your assigned system. Compare the strengths and weaknesses of the tools. At the end of this activity, your group should have agreed on a tool to use. 
 
-Be sure to also assign each member a task in order to integrate the tool into the payment system.
+Be sure to also assign each member a task in order to integrate the tool into your assigned system.
+
+### Team 1 ###
+ For your first assignment, you've been asked to develop a better system for handling online payments made by graduate students for their applications.
+
+### Team 2 ###
+ For your first assignment, you've been asked to develop a better system for sending acceptances to accepted students.
+
+### Team 3 ###
+ For your first assignment, you've been asked to develop a better system for students to log in to their application portal.
+
+## Team 4 ###
+ For your first assignment, you've been asked to develop a better system for students to upload documents to their application.
+
 
 **Activity Notes:** Each member should act as their role during the meeting. Try to fix the dysfunction presented in this meeting and reflect on how you would fix similar issues if they come up in Project 2.
 
