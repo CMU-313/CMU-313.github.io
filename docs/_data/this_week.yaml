@@ -11,4 +11,10 @@ projects:
   name: Project 2C
   numDays: 12
 
-recitation: null
+recitation:
+  date: Mon Feb 20
+  handout: /recitations/reci4-dysfunction/
+  name: Recitation 4 - Team Dysfunction
+  quiz: https://www.gradescope.com/courses/488839/assignments/2681901
+  slides: https://docs.google.com/presentation/d/1xHVpavBMUHoW9LaOfh5ley5Jdnc4LSbSafOp3-JdXFg/edit?usp=sharing
+
