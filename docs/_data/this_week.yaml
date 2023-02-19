@@ -1,7 +1,4 @@
-lectures:
-- date: Tue Feb 14
-  link: assets/pdfs/09-Intro-to-Arch.pdf
-  name: Intro to Architecture
+lectures: []
 
 projects:
 - date: Wed Feb 15
@@ -17,4 +14,3 @@ recitation:
   name: Recitation 4 - Team Dysfunction
   quiz: https://www.gradescope.com/courses/488839/assignments/2681901
   slides: https://docs.google.com/presentation/d/1xHVpavBMUHoW9LaOfh5ley5Jdnc4LSbSafOp3-JdXFg/edit?usp=sharing
-
