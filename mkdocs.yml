@@ -84,7 +84,7 @@ nav:
       - Recitation 1 - Git & GitHub: recitations/reci1-github.md
       - Recitation 2 - Team Contract Workshop: recitations/reci2-teamcontract.md
       - Recitation 3 - Software Archaeology: recitations/reci3-archaeology.md
-    # - Recitation 4: recitations/reci4-dysfunction.md
+      - Recitation 4 - Team Dysfunction: recitations/reci4-dysfunction.md
     # - Recitation 6: recitations/reci6-midterm-review.md
     # - Recitation 7: recitations/reci7-machine-learning.md
     # - Recitation 8: recitations/reci8-static-analysis-ci.md
