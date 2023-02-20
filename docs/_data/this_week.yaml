@@ -1,16 +1,16 @@
 lectures: []
 
 projects:
-- date: Wed Feb 15
-  deadline: Due Thurs Mar 2 @ 11:59pm
-  end_date: 2023-03-03 00:00:00
-  link: /projects/P2/3_secondsprint
-  name: Project 2C
-  numDays: 12
+  - date: Wed Feb 15
+    deadline: Due Thurs Mar 2 @ 11:59pm
+    end_date: 2023-03-03 00:00:00
+    link: /projects/P2/3_secondsprint
+    name: Project 2C
+    numDays: 12
 
 recitation:
-  date: Mon Feb 20
-  handout: /recitations/reci4-dysfunction/
-  name: Recitation 4 - Team Dysfunction
-  quiz: https://www.gradescope.com/courses/488839/assignments/2681901
-  slides: https://docs.google.com/presentation/d/1xHVpavBMUHoW9LaOfh5ley5Jdnc4LSbSafOp3-JdXFg/edit?usp=sharing
+  date: Mon Feb 27
+  handout: /recitations/reci5-midterm-review/
+  name: Recitation 5 - Midterm Review
+  slides: ""
+  quiz: ""

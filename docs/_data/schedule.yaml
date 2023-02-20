@@ -479,8 +479,8 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
+    handout: "/recitations/reci5-midterm-review/"
+    name: "Recitation 5 - Midterm Review"
     quiz: ""
     slides: ""
 
@@ -563,8 +563,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "/recitations/reci5-midterm-review/"
+    name: "Midterm Exam"
   reading:
     link: ""
     name: ""
