@@ -419,8 +419,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/10-microservices.pdf"
+    name: "Microservices"
   reading:
     link: ""
     name: ""
@@ -473,8 +473,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/11-microservices-testing.pdf"
+    name: "Advanced Testing"
   reading:
     link: ""
     name: ""
