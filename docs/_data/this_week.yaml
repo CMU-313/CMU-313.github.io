@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Tue Feb 21
+  link: assets/pdfs/11-microservices-testing.pdf
+  name: Advanced Testing
 
 projects:
 - date: Wed Feb 15
