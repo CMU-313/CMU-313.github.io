@@ -509,8 +509,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link:  "assets/pdfs/12-arch-design-docs.pdf"
+    name: "Design Documents"
   reading:
     link: ""
     name: ""
