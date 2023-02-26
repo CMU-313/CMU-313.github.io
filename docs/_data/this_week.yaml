@@ -1,7 +1,7 @@
 lectures:
-- date: Tue Feb 21
-  link: assets/pdfs/11-microservices-testing.pdf
-  name: Advanced Testing
+- date: Tue Feb 28
+  link: /recitations/reci5-midterm-review/
+  name: Midterm Exam
 
 projects:
 - date: Wed Feb 15
@@ -11,9 +11,4 @@ projects:
   name: Project 2C
   numDays: 12
 
-recitation:
-  date: Tue Feb 21
-  handout: /recitations/reci5-midterm-review/
-  name: Recitation 5 - Midterm Review
-  quiz: ''
-  slides: ''
+recitation: null
