@@ -209,10 +209,10 @@
     link: ""
     name: ""
   recitation:
-    handout: "/recitations/reci2-teamcontract/"
-    name: "Recitation 2 - Team Work"
-    quiz: "https://www.gradescope.com/courses/488839/assignments/2634849"
-    slides: "https://docs.google.com/presentation/d/1xh8fGoTHWLTYCqQkUAONJ4swHztGZaSputoSaLzXeRc/edit?usp=sharing"
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
 
 - date: Wed Feb 01
   homework:
@@ -372,7 +372,7 @@
     name: ""
   recitation:
     handout: ""
-    name: ""
+    name: "In-Class Presentations"
     quiz: ""
     slides: ""
 
@@ -479,8 +479,8 @@
     link: ""
     name: ""
   recitation:
-    handout: "/recitations/reci5-midterm-review/"
-    name: "Recitation 5 - Midterm Review"
+    handout: ""
+    name: ""
     quiz: ""
     slides: ""
 
@@ -551,8 +551,8 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
+    handout: "/recitations/reci5-midterm-review/"
+    name: "Recitation 5 - Midterm Review"
     quiz: ""
     slides: ""
 

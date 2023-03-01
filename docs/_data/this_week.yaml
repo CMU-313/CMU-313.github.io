@@ -11,4 +11,9 @@ projects:
   name: Project 2C
   numDays: 12
 
-recitation: null
+recitation:
+  date: Mon Feb 27
+  handout: /recitations/reci5-midterm-review/
+  name: Recitation 5 - Midterm Review
+  quiz: ''
+  slides: ''
