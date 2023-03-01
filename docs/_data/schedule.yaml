@@ -614,8 +614,8 @@
   homework:
     deadline: ""
     link: ""
-    name: ""
-    numDays: 0
+    name: "Spring Break - No HW"
+    numDays: 6
   lecture:
     link: ""
     name: ""
@@ -654,7 +654,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Spring Break - No Lecture"
   reading:
     link: ""
     name: ""
@@ -690,7 +690,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Spring Break - No Lecture"
   reading:
     link: ""
     name: ""
@@ -720,10 +720,10 @@
 
 - date: Mon Mar 13
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Thurs Mar 16 @ 11:59pm"
+    link: "/projects/P3"
+    name: "Project 3 Checkpoint"
+    numDays: 4
   lecture:
     link: ""
     name: ""
@@ -792,10 +792,10 @@
 
 - date: Fri Mar 17
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Tues Mar 21 @ 11:59pm"
+    link: "/projects/P3"
+    name: "Project 3 Final"
+    numDays: 3
   lecture:
     link: ""
     name: ""

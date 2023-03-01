@@ -47,7 +47,7 @@ markdown_extensions:
   - tables
   - toc:
       title: On This Page
-      toc_depth: 4
+      toc_depth: 3
       permalink: true
 
 extra_css:
