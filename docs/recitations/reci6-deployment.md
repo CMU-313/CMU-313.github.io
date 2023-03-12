@@ -74,8 +74,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: bahmutov/npm-install@v1
-      - run: npm run __BLANK 4__
-      - run: npm run __BLANK 5__
+      - run: npm run __BLANK 4__ (Run ESLint)
+      - run: __BLANK 5__ (Run Jest)
 ```
 
 Hint: Look at the readme of the basic-web-app repo!
