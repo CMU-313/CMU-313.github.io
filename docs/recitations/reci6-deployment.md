@@ -53,13 +53,12 @@ For this recitation, we'll be working with a basic web app built on Next.js that
 
 The steps to do this are as follows:
 
-  
+!!! warning
+	Do not use codespaces for this task, and the rest of the recitation. Everything must be done locally.
 
 1. Fork this repo: [https://github.com/CMU-313/basic-web-app](https://github.com/CMU-313/basic-web-app).
 
 2. Follow the instructions in the readme to run the development server locally.
-
-**Note: don't not use codespaces for this task or the rest of the recitation.**
 
 3. Install the Fly.io CLI and set up the Fly.io account that you'll use to host your app. Complete steps 1-3 of the instructions [here](https://fly.io/docs/hands-on/).
 
