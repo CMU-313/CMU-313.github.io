@@ -2,4 +2,9 @@ lectures: []
 
 projects: []
 
-recitation: null
+recitation:
+  date: Mon Mar 13
+  handout: /recitations/reci6-deployment/
+  name: Recitation 6 - Deployment
+  quiz: "https://www.gradescope.com/courses/488839/assignments/2738631/"
+  slides: ''
