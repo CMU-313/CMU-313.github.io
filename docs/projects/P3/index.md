@@ -25,13 +25,13 @@ There are two (2) deliverables and two (2) deadlines. This project is worth a to
 - [Deployed Application (25 pts)](#deployed-application-25-pts)
 - [Tools Checkpoint (10 pts)](#tools-checkpoint-10-pts)
 
-**Final Deliverables** – 85 points – due Tuesday, March 21st, 11:59pm
+**Final Deliverables** – 85 points – due Thursday, March 23rd, 11:59pm
 
 - [CD Implementation (10 pts)](#cd-implementation-10-pts)
 - [Tool Analysis Design Doc (60 pts)](#tool-analysis-design-doc-60-pts)
 - [Tool Integration (15 pts)](#tool-integration-15-pts)
 
-**Extra Credit (Individual) ** - 6 points - due Tuesday, March 21st, 11:59pm
+**Extra Credit (Individual) ** - 6 points - due Thursday, March 23rd, 11:59pm
 
 - [Feature Review (6 pts)](#feature-review-6-pts)
 
