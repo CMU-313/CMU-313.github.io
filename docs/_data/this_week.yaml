@@ -1,6 +1,18 @@
 lectures: []
 
-projects: []
+projects:
+- date: Mon Mar 13
+  deadline: Due Thurs Mar 16 @ 11:59pm
+  end_date: 2023-03-17 00:00:00
+  link: /projects/P3
+  name: Project 3 Checkpoint
+  numDays: 4
+- date: Fri Mar 17
+  deadline: Due Tues Mar 21 @ 11:59pm
+  end_date: 2023-03-22 00:00:00
+  link: /projects/P3
+  name: Project 3 Final
+  numDays: 3
 
 recitation:
   date: Mon Mar 13
