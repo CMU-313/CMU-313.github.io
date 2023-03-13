@@ -792,10 +792,10 @@
 
 - date: Fri Mar 17
   homework:
-    deadline: "Due Tues Mar 21 @ 11:59pm"
+    deadline: "Due Thurs Mar 23 @ 11:59pm"
     link: "/projects/P3"
     name: "Project 3 Final"
-    numDays: 3
+    numDays: 5
   lecture:
     link: ""
     name: ""
