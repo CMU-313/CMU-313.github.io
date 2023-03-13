@@ -31,6 +31,10 @@ There are two (2) deliverables and two (2) deadlines. This project is worth a to
 - [Tool Analysis Design Doc (60 pts)](#tool-analysis-design-doc-60-pts)
 - [Tool Integration (15 pts)](#tool-integration-15-pts)
 
+**Extra Credit (Individual) ** - 6 points - due Tuesday, March 21st, 11:59pm
+
+- [Feature Review (6 pts)](#feature-review-6-pts)
+
 !!! info "Work Distribution"
     There are two main focuses in this project: deployment and static/dynamic analysis. For the purposes of equitable distribution of labor, we recommend that you nominate one of your members to act as the SRE for this assignment who will be primarily responsible for deployment, and have all other teammates focus on tool research and integration. 
 
@@ -43,7 +47,10 @@ Your team will be using the website fly.io for the deployment of the NodeBB appl
 
 Once you have successfully deployed your website, make sure to test within your team to ensure that your added feature(s) from Project 2 are properly integrated. 
 
-Submit a link to the deployed site onto Gradescope by the checkpoint deadline.
+By the checkpoint deadline you should
+
+- Submit a link to the deployed site onto Gradescope
+- Add your deployed site to this [public spreadsheet](https://docs.google.com/spreadsheets/d/1MjR3MC6kRoXZCfIKmrR-SAiZCXOYRsug6NzAoIhFm8Q/), alongside your team name & UserGuide.md that your team submitted for Project 2. This will be used in [Feature Review](#feature-review-6-pts) for extra credit.
 
 ### Tools Checkpoint (10 pts)
 
@@ -179,6 +186,27 @@ To be considered successfully integrated, the tool must:
 
 On Gradescope, submit a link to your repository and a link to one of the successful GitHub Action runs.
 
+## Extra Credit
+
+Now that you and your classmates have deployed your applications, you will be able to test out each other’s features and provide constructive feedback on your experience and how to improve them! Take this as an opportunity to learn about what your classmates have been working on for the past few weeks. 
+
+Note that this is an **individual** task, unlike the rest of project.
+
+### Feature Review (6 pts)
+
+For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1MjR3MC6kRoXZCfIKmrR-SAiZCXOYRsug6NzAoIhFm8Q/) to review, 1 from your own section, and 2 from other sections. 
+
+For each team, you will submit a review of their feature(s). You will need to test the feature(s) as described in their UserGuide and provide feedback on the following:
+
+1. How was the experience of using the feature(s), would this be something you think would help enable better communication between faculty and students and why?
+2. How do you think the feature can be improved? and/or What do you think the feature did well in?
+3. Did you discover any bugs using the feature(s)?
+
+To qualify for extra credit, you will have to submit your review:
+
+- on Gradescope
+- in the appropriate sheet in the [public spreadsheet](https://docs.google.com/spreadsheets/d/1MjR3MC6kRoXZCfIKmrR-SAiZCXOYRsug6NzAoIhFm8Q/). There should be one sheet per team, and you should add your review to the sheet for the team you are reviewing.
+
 ## Grading
 To receive full credit for the checkpoint, we expect:
 
@@ -195,7 +223,9 @@ To receive full credit for the final deadline, we expect:
 - [ ] A design document describing your research into each of the potential tools, justification for your selection of integrated tool(s), and your final integration plan
 - [ ] A link to a succuessful run of a GitHub Action that demonstrates your integration of your selected tool(s) into your team workflow
 
+To receive full credit for the extra credit, we expect:
 
+- [ ] Your review of three different teams' features on Gradescope, and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/1MjR3MC6kRoXZCfIKmrR-SAiZCXOYRsug6NzAoIhFm8Q/), addressing the three questions described.
 ## Resources & Documentation
 
 ### Starter List of Tools
