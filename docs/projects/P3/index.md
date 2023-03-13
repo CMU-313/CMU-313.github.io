@@ -225,7 +225,7 @@ To receive full credit for the final deadline, we expect:
 
 To receive full credit for the extra credit, we expect:
 
-- [ ] Your review of three different teams' features on Gradescope, and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/1MjR3MC6kRoXZCfIKmrR-SAiZCXOYRsug6NzAoIhFm8Q/), addressing the three questions described.
+- [ ] Your review of three different teams' features on Gradescope and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/1MjR3MC6kRoXZCfIKmrR-SAiZCXOYRsug6NzAoIhFm8Q/), addressing the three questions described.
 ## Resources & Documentation
 
 ### Starter List of Tools
