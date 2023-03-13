@@ -47,7 +47,7 @@ markdown_extensions:
   - tables
   - toc:
       title: On This Page
-      toc_depth: 4
+      toc_depth: 3
       permalink: true
 
 extra_css:
@@ -75,8 +75,9 @@ nav:
           - "2A Team Process & Planning": projects/P2/1_teamprocess.md
           - "2B First Sprint": projects/P2/2_firstsprint.md
           - "2C Second Sprint": projects/P2/3_secondsprint.md
-    # - Project 2: projects/HW2.md
-    # - Project 3: projects/HW3.md
+      - "Project 3: Continuous Integration + Deployment":
+          - projects/P3/index.md
+          - "Deployment Instructions": projects/P3/deployment.md
     # - Project 4: projects/HW4.md
     # - Project 5: projects/HW5.md
     # - Project 6: projects/HW6.md
