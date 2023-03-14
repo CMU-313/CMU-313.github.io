@@ -18,7 +18,7 @@ Secondly, evaluating existing tools and practices beyond simple linting or unit 
 
 
 ## Deliverables and Deadlines
-There are two (2) deliverables and two (2) deadlines. This project is worth a total of 120 points.
+There are two (2) deadlines for this project. This project is worth a total of 120 points.
 
 **Checkpoint Deliverables** – 35 points – due Thursday, March 16th, 11:59pm
 
