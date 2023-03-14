@@ -50,10 +50,8 @@ The Redis database that Fly.io creates connects via IPv6, so we must change our 
     - **Create a .dockerignore?** -> No
     - **Deploy now?** -> No
         - We still need to update some config files
-3. Run `fly ips allocate-v6`
-4. Edit `fly.toml`
+3. Edit `fly.toml`
     - Change internal_port to 4567. This is the port that NodeBB uses as default.
-    - Add the following under `[[services]]`:
 ```yaml
 [[services.ports]]
 handlers = ["tls", "http"]
