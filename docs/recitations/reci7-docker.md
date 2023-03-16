@@ -15,13 +15,13 @@ Also start the docker engine.
  
 ## Overview
 
-During this recitation, students will have the create a simple FastAPI app, containerize it and deploy it.
+During this recitation, students will create a simple FastAPI app, containerize it and deploy it.
  
 ## Context
 
-Sadly, you still are unsure when you're recitation time is, AND who you're TAs are. There exist a microservice that tells you which TA's are responsible for each section.
+Sadly, you still are unsure when your recitation time is AND who your TAs are. There exist a microservice that tells you which TA's are responsible for each section.
 
-Try it out using this link: https://whos-my-ta.fly.dev/section_id/a
+Try it out using this link: [https://whos-my-ta.fly.dev/section_id/a](https://whos-my-ta.fly.dev/section_id/a)
 
 All you have to do is create another service that return the time of the recitation as well.
 
@@ -44,7 +44,7 @@ The endpoint has to return a JSON object in the following form:
 ```terminal
 docker build -t YOUR_IMAGE_NAME  .
 ```
-4. Implement `./docker-compose.yml`. You can use the slides for references.
+4. Implement `./docker-compose.yml`. You can use the slides for reference.
 5. Create a container using the docker image using the command below.
 ```terminal
 docker-compose up -d 
