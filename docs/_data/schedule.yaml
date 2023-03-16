@@ -822,7 +822,7 @@
     name: ""
   recitation:
     handout: "recitations/reci7-docker"
-    name: "Docker and Containerization"
+    name: "Recitation 7 - Docker and Containerization"
     quiz: "https://www.gradescope.com/courses/488839/assignments/2747781"
     slides: "https://docs.google.com/presentation/d/1wjGBK0A09iW10XLUI9fqEThVysF3y3BULmeEMitKjM0/edit?usp=sharing"
 
