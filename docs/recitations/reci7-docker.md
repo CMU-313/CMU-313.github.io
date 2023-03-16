@@ -1,7 +1,4 @@
----
-title: Recitation 7 - Machine Learning
----
- 
+
 # Recitation 7:  Microservices and Docker
 
 ## Prerequisites
