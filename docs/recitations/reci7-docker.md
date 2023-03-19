@@ -35,18 +35,32 @@ The endpoint has to return a JSON object in the following form:
  
 ## Activity
 
-1. Implement the `section_info` endpoint according to specifications. Test it by running the app locally.
-2. Implement `./Dockerfile`. You can use the slides and [this link](https://docs.docker.com/engine/reference/builder/) as resources.
-3. Create the docker image using the command below, and check the image has been created.
+1. Implement the `section_info` endpoint according to specifications. You can edit `app/main.py` to do so.
+2. Test it by running the app locally.
+To install necessary files:
+```terminal
+pip install -r requirement.txt
+```
+
+To run the app locally:
+```terminal
+uvicorn app.main:app --host 0.0.0.0 --port 8080
+```
+Change the port number if you need to.
+
+3. Implement `./Dockerfile`. You can use the slides and [this link](https://docs.docker.com/engine/reference/builder/) as resources.
+4. Create the docker image using the command below, and check the image has been created.
 ```terminal
 docker build -t YOUR_IMAGE_NAME  .
 ```
-4. Implement `./docker-compose.yml`. You can use the slides for reference.
-5. Create a container using the docker image using the command below.
+5. Implement `./docker-compose.yml`. You can use the slides for reference.
+6. Create a container using the docker image using the command below.
 ```terminal
 docker-compose up -d 
 ```
-6. Check the your container is running correctly by locally invoking the endpoint.
+7. Check the your container is running correctly by locally invoking the endpoint.
+You can try [http://localhost:8080/section_id/a](http://localhost:8080/section_id/a).
+Change the port number (8080) according to your `docker-compose.yml`.
  
 ## Bonus
 
