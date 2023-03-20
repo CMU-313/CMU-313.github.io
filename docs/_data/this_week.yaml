@@ -1,12 +1,6 @@
 lectures: []
 
 projects:
-  - date: Mon Mar 13
-    deadline: Due Thurs Mar 16 @ 11:59pm
-    end_date: 2023-03-17 00:00:00
-    link: /projects/P3
-    name: Project 3 Checkpoint
-    numDays: 4
   - date: Fri Mar 17
     deadline: Due Thurs Mar 23 @ 11:59pm
     end_date: 2023-03-24 00:00:00
@@ -20,3 +14,4 @@ recitation:
   name: Recitation 7 - Docker
   quiz: https://www.gradescope.com/courses/488839/assignments/2747781
   slides: https://docs.google.com/presentation/d/1wjGBK0A09iW10XLUI9fqEThVysF3y3BULmeEMitKjM0/edit?usp=sharing
+
