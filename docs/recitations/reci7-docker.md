@@ -38,29 +38,29 @@ The endpoint has to return a JSON object in the following form:
 2. Test it by running the app locally.
    To install necessary files:
 
-```terminal
-pip install -r requirements.txt
-```
+    ```terminal
+    pip install -r requirements.txt
+    ```
 
 3. To run the app locally use the following command. Change the port number if you need to:
 
-```terminal
-uvicorn app.main:app --host 0.0.0.0 --port 8080
-```
+    ```terminal
+    uvicorn app.main:app --host 0.0.0.0 --port 8080
+    ```
 
 4. Implement `./Dockerfile`. You can use the slides and [this link](https://docs.docker.com/engine/reference/builder/) as resources.
 5. Create the docker image using the command below, and check the image has been created.
 
-```terminal
-docker build -t YOUR_IMAGE_NAME  .
-```
+    ```terminal
+    docker build -t YOUR_IMAGE_NAME  .
+    ```
 
 6. Implement `./docker-compose.yml`. You can use the slides for reference.
 7. Create a container using the docker image using the command below.
 
-```terminal
-docker-compose up -d
-```
+    ```terminal
+    docker-compose up -d
+    ```
 
 8. Check the your container is running correctly by locally invoking the endpoint.
    You can try [http://localhost:8080/section_id/a](http://localhost:8080/section_id/a).
