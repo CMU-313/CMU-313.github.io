@@ -78,6 +78,8 @@ nav:
       - "Project 3: Continuous Integration + Deployment":
           - projects/P3/index.md
           - "Deployment Instructions": projects/P3/deployment.md
+      - "Project 4: Software Architecture + ML Evaluation":
+          - projects/P4/index.md
     # - Project 4: projects/HW4.md
     # - Project 5: projects/HW5.md
     # - Project 6: projects/HW6.md
