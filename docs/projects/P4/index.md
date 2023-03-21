@@ -105,7 +105,7 @@ It is recommended that you use Python 3.9 or above when setting up the notebook.
 After you have set up the notebook, you should:
 
 1. Load the model and test dataset
-2. Plot the distribution of the test dataset across all features (except Student ID) using any visualization library of your choice (e.g. matplotlib, seaborn, plotly, etc.). You should choose the appropriate visualization for each feature.
+2. Plot the distribution of the test dataset across all features (except Student ID) using any visualization library of your choice (e.g. pandas, matplotlib, seaborn, plotly, etc.). You should choose the appropriate visualization for each feature.
 3. Predict the output of the test dataset using the model
 4. Report the accuracy of the model, and the confusion matrix
 
