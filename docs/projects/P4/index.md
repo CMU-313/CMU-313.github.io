@@ -96,12 +96,14 @@ Y variable
 ```
 
 Before doing a thorough evaluation of the fairness of the model, you would do some preliminary analysis on the test dataset, and run the model on the test dataset to get the accuracy of the model. To do so, you will need to set up a Jupyter notebook to do this, you can either:
+
 - Set up a [JupyterLab](https://jupyter.org/install) on your local machine. 
 - Or use [Google Colab] to run the notebook in the cloud.
 
 It is recommended that you use Python 3.9 or above when setting up the notebook.
 
 After you have set up the notebook, you should:
+
 1. Load the model and test dataset
 2. Plot the distribution of the test dataset across all features (except Student ID) using any visualization library of your choice (e.g. matplotlib, seaborn, plotly, etc.). You should choose the appropriate visualization for each feature.
 3. Predict the output of the test dataset using the model
