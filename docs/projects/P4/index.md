@@ -46,60 +46,57 @@ There are two (2) deadlines for this project. This project is worth a total of 1
 
 ### Architectural Design Document (60 points)
 
-Before jumping into development, your manager would like a concrete design document on how you plan on integrating the feature seamlessly into the existing repository.
+Before your team jumps into development, your manager has requested a **concrete design document** on how you plan on integrating the feature into the existing codebase.
 
-Your team should start by evaluating what components of the feature have been implemented for you by the previous engineer, then consider how you would like to proceed with integration. Some potential options include:
+Your team should start by evaluating what components of the feature have been implemented for you by the previous engineer, then consider how you would like to proceed with integration.
 
-1.  Rewriting the feature in JavaScript and incorporate it into the monolith
-2.  Implementing a Python-based microservice and deploy as a seperate service; then, integrate the service with your existing monolith via REST API
-3.  Refactoring part or all of the existing monolith into a microservices-based architecture
+Some potential options to consider include:
 
-Then, create a design document highlighting your findings and decisions. Below is a sample outline for your design document along with recommended page lengths:
+1.  **Rewriting the feature in JavaScript** and incorporating it into the monolith
+2.  **Implementing a Python-based microservice** and deploying it as a seperate service; then, integrating the service with your existing monolith via a REST API
+3.  **Refactoring part or all of the existing monolith** into a microservices-based architecture
 
-1.  **Feature Description** (< 0.5 pages)
-    Describe concisely how the feature works and how it will be used by the relevant stakeholders. 
-    <br/>
+!!! note "Implementation"
+    Keep in mind that **your team will have to integrate the feature as part of the final deliverable**. This may be a factor that affects your final decision on which architecture to pursue.
 
-2.  **Current Architecture** (< 1 page)
-    Provide a brief description of the current NodeBB architecture, along with an architectural diagram. 
-    Your diagram should also demonstrate the current state of the new career feature (i.e. unintegrated with the rest of the codebase)
-    <br/>
+Once you have finished evaluating the codebase, create the design document highlighting your findings and decisions. Below is a sample outline for your design document along with recommended page lengths.
 
-3.  **Quality Requirements** (< 0.5 pages)
-    Provide a concise, prioritized list of the overall quality requirements you considered in arguing for the integration of the feature into the system. 
-    Rank them in decreasing order of importance. This allows readers to quickly understand what requirements you were designing for.
-    <br/>
+#### Feature Overview (<0.5 pages)
+Describe concisely how the feature works and how it will be used by the relevant stakeholders.
 
-4.  **Considered Solutions** (1-1.5 pages each)
-    Your team should consider at least two different potential solutions for integrating the new feature. For each, provide a brief description, an architectural diagram, and a discussion of the pros/cons.
-    Tradeoffs must involve (but are not limited to) quality attributes that will be affected by the alternative. Justify such arguments with reference to appropriate diagrams (this provides traceability) and concrete examples, as appropriate.
-    <br/>
-  
-5.  **Selected Architecture + Justification** (<1 page)
-    Describe which design your team decided to proceed with in architecturally integrating the feature into existing codebase.
-    Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design (if any).
+#### Current Architecture (<1 page)
+Provide a brief description of the current NodeBB architecture and the current state of the new career feature (i.e. unintegrated with the rest of the codebase).
+
+Include an architectural diagram to support your description.
+
+#### Quality Requirements (<1 page)
+Provide a concise, prioritized list of the overall quality requirements you considered in arguing for the integration of the feature into the system and a short justification for each. Your team should decide on **at least three** requirements to focus on.
+
+Rank them in decreasing order of importance. This allows readers to quickly understand what requirements you were designing for.
+
+#### Potential Solutions (~1 page each)
+Your team should consider **at least two** different potential solutions for integrating the new feature. For each, provide a brief description of the solution's architectural design, at least one corresponding diagram, and a discussion of the design's tradeoffs.
+
+Tradeoffs must involve (but are not limited to) the quality attributes described in the previous section. Justify such arguments with reference to appropriate diagrams and concrete examples, as appropriate.
+
+#### Selected Architecture + Justification (<1 page)
+Describe which design your team decided to proceed with in architecturally integrating the feature into existing codebase.
+
+Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design (if any).
 
 !!! note "On Diagrams"
-    Diagrams should involve suitable architectural views; must include a legend; and should involve appropriate levels of abstraction for the components in the diagram. If necessary, use color/shape/text to differentiate between types of components and connectors.
+    Diagrams should **involve suitable architectural views**; **must include a legend**; and **should involve appropriate levels of abstraction** for the components in the diagram. If necessary, use color/shape/text to differentiate between types of components and connectors.
     
-    You may find it appropriate to merge more than one view into a single diagram. If you do this, you must be explicit about what views you are merging, and why. Otherwise, diagrams should clearly represent legitimate architectural views. Make sure that multiple views of the architecture are consistent with each other and the links are clear; if necessary provide a mapping in additional text.
+    You may find it appropriate to merge more than one view into a single diagram. If you do this, **you must be explicit about what views you are merging**, and why. Otherwise, diagrams should clearly represent legitimate architectural views. Make sure that multiple views of the architecture are consistent with each other and the links are clear; if necessary provide a mapping in additional text.
 
-!!! note "Drawing Diagrams"
-    [Documenting Software Architectures: Views and Beyond, Second Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30386) is a useful book on creating architecture documentation. It is available (for free) as an e-book from the CMU library web site. If you use it, treat it as reference material; do not plan to read major parts of it.
+!!! info "Drawing Diagrams"
+    Drawing diagrams is much easier with the right software. Consider tools like [draw.io](https://draw.io/) (free, online, and collaborative), [Dia](http://dia-installer.de/), [OmniGraffle](https://www.omnigroup.com/omnigraffle), [MS Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software), or even just the drawing editor of [Google Docs](https://docs.google.com/). [Google Slides](https://slides.google.com/) will also likely work for this purpose.
+    
+    Pictures of whiteboard drawings are also acceptable, if clearly readable.
 
-    Drawing diagrams is easier with the right software. Consider tools like draw.io (free, online, and collaborative), Dia, OmniGraffle, MS Visio, or even just the drawing editor of Google Docs. Google Slides will also likely work for this purpose. Pictures of whiteboard drawings are also acceptable, if clearly readable.
+More resources to assist you with creating your design document can be found in the [Resources & Documentation](#resource--documentation) section below.
 
-
-Submit your design document to Gradescope. 
-
-### OLD (IGNORE FOR NOW)
-Additional Hints:
-
-- The design document task is easy to underestimate both in terms of time needed and in terms of difficulty designing meaningful and useful descriptions. While it is easy to create a superficial solution, a good solution will likely require significant thinking, discussion, and iteration. Feel free to seek feedback from the course staff on your solution before submission.
-
-- It may take several iterations to get your architectural views right. Appoint someone to track the accuracy and completeness of architectural representations throughout this assignment. Do not just divide up the views among your team members and assume they show everything needed. You only need to submit the final designs/documents, not intermediate steps on the process of getting there.
-
-- As additional reference material, [Software Architecture in Practice, Third Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30264) is a book on software architecture that is available (for free) as an e-book from the CMU library web site. You may wish to review appropriate sections within Part Two to help find appropriate tactics, techniques you can use in your design to promote particular quality attributes. Note that the book is not a reading assignment and you should not try to read it thoroughly. Instead, use it as reference material and select particular bits of advice that are relevant to your situation.
+Submit your design document to Gradescope as a PDF.
 
 ### Jupyter Notebook Setup (20 points)
 As the previous engineer left in a hurry, the model that was provided to you is pre-trained and you do not have any information on how it was trained. You are tasked with evaluating the model's performance and fairness.
@@ -206,6 +203,7 @@ Your report should include the following sections with clear headings:
 6. **Recommendation** Make a recommendation on whether the model should be used in production, and provide a brief discussion on why. 
 
 On Gradescope submit the following:
+
 - A link to your Jupyter notebook that contains your code and analysis that is committed to your repository
 - A PDF of your report
 
@@ -213,3 +211,16 @@ On Gradescope submit the following:
 To receive full credit for this project, you must meet the following requirements:
 
 ## Resource & Documentation
+
+### Design Documents
+The design document task is easy to underestimate both in terms of time needed and in terms of difficulty designing meaningful and useful descriptions. While it is easy to create a superficial solution, a good solution will likely require significant thinking, discussion, and iteration.
+
+Feel free to seek feedback from the course staff on your solution before submission!
+
+We recommend that you appoint someone in your team to track the accuracy and completeness of architectural representations throughout this assignment. **Do not** just divide up the views among your team members and assume they show everything needed. You only need to submit the final designs/documents, not intermediate steps on the process of getting there.
+
+There are a few additional reference materials available in the CMU library that your team may want to consult. We do not recommend reading through all of it; instead, skip around to sections that are relevate to you.
+
+- [Software Architecture in Practice, Third Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30264): You may wish to review appropriate sections within Part Two to help find appropriate tactics, techniques you can use in your design to promote particular quality attributes.
+- [Documenting Software Architectures: Views and Beyond, Second Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30386): useful book to generally reference for creating architecture documentation.
+
