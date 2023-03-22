@@ -11,29 +11,31 @@
 ## Project Context 
 As you and your team continue developing the new system, your CMU contact suddenly bursts into the room shouting, “Careers! Hiring! Machine learning!”
 
-Your manager follows closely behind and provides an explanation: a significant number of job recruiters have taken interest in your project and would like to use the platform as a means to reach out to students for career opportunities. However, the population of students is too large, and increasing annually. They are concerned at the sheer number of students to review for job applications, and recruiters want a simpler way to narrow the applicant pool. While your team had been working on the service, your buzzword-enamored clients had hired another engineer to work on an extra ML-based feature to take in student performance data and provide a prediction of which applicants are more likely to succeed.
+Your manager follows closely behind and provides an explanation: a significant number of job recruiters have taken interest in your project and would like to use the platform as a means to reach out to students for career opportunities. However, the population of students is too large, and increasing annually. They are concerned by the sheer number of students to review for job applications, and recruiters want a simpler way to narrow the applicant pool.
+
+While your team had been working on deployment, your buzzword-enamored clients had hired another engineer to work on an extra ML-based feature to take in student performance data and provide a prediction of which applicants are more likely to succeed in industry.
 
 However, the engineer left shortly after and the project was abandoned. They have left an unfinished draft pull request on the repository, and you have been tasked with completing the project.
 
 Your manager wants you to:
 
-1. Assess the current architecture, and decide what's the best way to incorporate the work done by the previous engineer.
-2. Reason about, document and select an appropriate architecture for the project.
-3. Finish to re-integrate the feature made by the other team based on your team's new design
+1. **Assess the current architecture**, and decide what would be the best way to incorporate the work done by the previous engineer
+2. **Reason about, document and select an appropriate architecture** for the project
+3. **Finish integrating the feature** made by the other team based on your team's new design
 
-At the same time, given the nature of the project of evaluating students, you are also concerned about the fairness of the model. You have been tasked with:
+Along with architectural issues, as the feature will be evaluating student information, you are also concerned about the fairness of the model. You have been tasked with:
 
-1. Evaluating the pre-trained model's performance and fairness
-2. Writing a report on the evaluation of the model
-3. Provide a decision on whether the model should be used in production
+1. **Evaluating** the pre-trained model's performance and fairness
+2. **Writing a report** on the evaluation of the model
+3. **Provide a decision** on whether the model should be used in production
   
 ## Deliverables and Deadlines
 There are two (2) deadlines for this project. This project is worth a total of 180 points.
 
 **Checkpoint Deliverables** – 80 points - due Tuesday, April 4th at 11:59pm
 
-- [Architectural Design Document (60pts)](#architectural-design-document-60-points)
-- [Jupyter Notebook Setup (20pts)](#jupyter-notebook-setup-20-points)
+- [Architectural Design Document (60 pts)](#architectural-design-document-60-points)
+- [Jupyter Notebook Setup (20 pts)](#jupyter-notebook-setup-20-points)
 
 **Final Deliverables** – 100 points - due Tuesday, April 11th at 11:59pm
 
@@ -43,6 +45,61 @@ There are two (2) deadlines for this project. This project is worth a total of 1
 ## Checkpoint Deliverables
 
 ### Architectural Design Document (60 points)
+
+Before jumping into development, your manager would like a concrete design document on how you plan on integrating the feature seamlessly into the existing repository.
+
+Your team should start by evaluating what components of the feature have been implemented for you by the previous engineer, then consider how you would like to proceed with integration. Some potential options include:
+
+1.  Rewriting the feature in JavaScript and incorporate it into the monolith
+2.  Implementing a Python-based microservice and deploy as a seperate service; then, integrate the service with your existing monolith via REST API
+3.  Refactoring part or all of the existing monolith into a microservices-based architecture
+
+Then, create a design document highlighting your findings and decisions. Below is a sample outline for your design document along with recommended page lengths:
+
+1.  **Feature Description** (< 0.5 pages)
+    Describe concisely how the feature works and how it will be used by the relevant stakeholders. 
+    <br/>
+
+2.  **Current Architecture** (< 1 page)
+    Provide a brief description of the current NodeBB architecture, along with an architectural diagram. 
+    Your diagram should also demonstrate the current state of the new career feature (i.e. unintegrated with the rest of the codebase)
+    <br/>
+
+3.  **Quality Requirements** (< 0.5 pages)
+    Provide a concise, prioritized list of the overall quality requirements you considered in arguing for the integration of the feature into the system. 
+    Rank them in decreasing order of importance. This allows readers to quickly understand what requirements you were designing for.
+    <br/>
+
+4.  **Considered Solutions** (1-1.5 pages each)
+    Your team should consider at least two different potential solutions for integrating the new feature. For each, provide a brief description, an architectural diagram, and a discussion of the pros/cons.
+    Tradeoffs must involve (but are not limited to) quality attributes that will be affected by the alternative. Justify such arguments with reference to appropriate diagrams (this provides traceability) and concrete examples, as appropriate.
+    <br/>
+  
+5.  **Selected Architecture + Justification** (<1 page)
+    Describe which design your team decided to proceed with in architecturally integrating the feature into existing codebase.
+    Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design (if any).
+
+!!! note "On Diagrams"
+    Diagrams should involve suitable architectural views; must include a legend; and should involve appropriate levels of abstraction for the components in the diagram. If necessary, use color/shape/text to differentiate between types of components and connectors.
+    
+    You may find it appropriate to merge more than one view into a single diagram. If you do this, you must be explicit about what views you are merging, and why. Otherwise, diagrams should clearly represent legitimate architectural views. Make sure that multiple views of the architecture are consistent with each other and the links are clear; if necessary provide a mapping in additional text.
+
+!!! note "Drawing Diagrams"
+    [Documenting Software Architectures: Views and Beyond, Second Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30386) is a useful book on creating architecture documentation. It is available (for free) as an e-book from the CMU library web site. If you use it, treat it as reference material; do not plan to read major parts of it.
+
+    Drawing diagrams is easier with the right software. Consider tools like draw.io (free, online, and collaborative), Dia, OmniGraffle, MS Visio, or even just the drawing editor of Google Docs. Google Slides will also likely work for this purpose. Pictures of whiteboard drawings are also acceptable, if clearly readable.
+
+
+Submit your design document to Gradescope. 
+
+### OLD (IGNORE FOR NOW)
+Additional Hints:
+
+- The design document task is easy to underestimate both in terms of time needed and in terms of difficulty designing meaningful and useful descriptions. While it is easy to create a superficial solution, a good solution will likely require significant thinking, discussion, and iteration. Feel free to seek feedback from the course staff on your solution before submission.
+
+- It may take several iterations to get your architectural views right. Appoint someone to track the accuracy and completeness of architectural representations throughout this assignment. Do not just divide up the views among your team members and assume they show everything needed. You only need to submit the final designs/documents, not intermediate steps on the process of getting there.
+
+- As additional reference material, [Software Architecture in Practice, Third Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30264) is a book on software architecture that is available (for free) as an e-book from the CMU library web site. You may wish to review appropriate sections within Part Two to help find appropriate tactics, techniques you can use in your design to promote particular quality attributes. Note that the book is not a reading assignment and you should not try to read it thoroughly. Instead, use it as reference material and select particular bits of advice that are relevant to your situation.
 
 ### Jupyter Notebook Setup (20 points)
 As the previous engineer left in a hurry, the model that was provided to you is pre-trained and you do not have any information on how it was trained. You are tasked with evaluating the model's performance and fairness.
@@ -71,7 +128,7 @@ Y variable (output)
 ```
 The previous engineer has provided some examples on the usage of the model in the draft pull request. 
 
-To begin with, you should first evaluate the model's performance. You are provided with a test dataset, which contains a similar set of features and output (whether the student is a good candidate or not). This test dataset is a different set of students from the training dataset, and the evaluation of whether the student is a good candidate **is done by a fair panel of recruiters, so it can be considered to be fair and unbiased.** Additionally, the panel of recruiters have provided you with **additional context on the extracurricular activities in comments #**
+To begin with, you should first evaluate the model's performance. You are provided with a test dataset, which contains a similar set of features and output (whether the student is a good candidate or not). This test dataset is a different set of students from the training dataset, and the evaluation of whether the student is a good candidate **is done by a fair panel of recruiters, so it can be considered to be fair and unbiased. **Additionally, the panel of recruiters have provided you with **additional context on the extracurricular activities in comments** (marked with #).
 
 Your test dataset is provided to you in the following format:
 ```
@@ -116,6 +173,7 @@ By the checkpoint deadline, your team will commit the Jupyter notebook to your r
 ## Final Deliverables
 
 ### Feature Integration Implementation (40 points)
+@Angela - TODO, essentially asking them to implement their design from their design document
 
 ### Evaluation Report (60 points)
 
