@@ -111,12 +111,45 @@ After you have set up the notebook, you should:
 
 Refer to the Resources section if you need help with any of the above steps.
 
-By the checkpoint deadline, your team will submit a link to the Jupyter notebook with the basis analysis and usage of the model done.
+By the checkpoint deadline, your team will commit the Jupyter notebook to your repository, and submit a link to the Jupyter notebook with the basic analysis and usage of the model done. 
+
 ## Final Deliverables
 
 ### Feature Integration Implementation (40 points)
 
 ### Evaluation Report (60 points)
+
+Now you have to decide whether the model should be used in production. You will need to evaluate the performance and the fairness of the model. You should do all your work in the Jupyter notebook that you set up in the checkpoint deliverables.
+
+#### Performance Evaluation
+You should have already evaluated the performance of the model in the checkpoint deliverables. You should now do a more thorough evaluation of the model's performance. You should:
+
+- Evaluate the model's performance on the test dataset, and report the accuracy and confusion matrix
+
+#### Fairness Evaluation
+When evaluating the fairness of the model, you should 
+- Revisit the assumptions made by the previous engineer
+- Revisit the fairness discussion we had in class, and also in [ML Discrimination](https://research.google.com/bigpicture/attacking-discrimination-in-ml/)
+- Consider the fairness strategies and corresponding metrics that can be used to evaluate the fairness of the model
+
+#### Report 
+After evaluating the performance and fairness of the model, you should now write a report on your findings. You will also need to provide a decision on whether the model should be used in production.
+
+Your report should include the following sections with clear headings:
+
+1. **Introduction** Provide a brief introduction to the model that you are evaluating, and the test dataset that you are using, and the context of use of the model.
+2. **Description of the test data** Provide descriptive statistics of the test dataset (e.g. mean, median, mode, standard deviation, etc.) for each feature. You should also provide a brief discussion on the distribution of the features.
+3. **Model Performance** Provide the accuracy and confusion matrix of the model on the test dataset and a brief discussion on the performance of the model.
+4. **Feature Exploration** Select features that you think are important when it comes to evaluating the fairness of the model, and why.
+5. **Fairness Evaluation** Consider **three fairness strategies** that were discussed in class and then 
+   1. Provide the corresponding **fairness metrics** for the model (if applicable) based on the features you selected in step 4.
+   2. Determine whether the model is fair under each fairness strategy, and provide a brief discussion on why.
+   3. Determine which fairness strategy is the most appropriate for the model, given the context of what the model is used for. Provide a brief discussion on why.
+6. **Recommendation** Make a recommendation on whether the model should be used in production, and provide a brief discussion on why. 
+
+On Gradescope submit the following:
+- A link to your Jupyter notebook that contains your code and analysis that is committed to your repository
+- A PDF of your report
 
 ## Grading
 To receive full credit for this project, you must meet the following requirements:
