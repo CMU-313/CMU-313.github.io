@@ -183,6 +183,7 @@ You should have already evaluated the performance of the model in the checkpoint
 
 #### Fairness Evaluation
 When evaluating the fairness of the model, you should 
+
 - Revisit the assumptions made by the previous engineer
 - Revisit the fairness discussion we had in class, and also in [ML Discrimination](https://research.google.com/bigpicture/attacking-discrimination-in-ml/)
 - Consider the fairness strategies and corresponding metrics that can be used to evaluate the fairness of the model
@@ -197,6 +198,7 @@ Your report should include the following sections with clear headings:
 3. **Model Performance** Provide the accuracy and confusion matrix of the model on the test dataset and a brief discussion on the performance of the model.
 4. **Feature Exploration** Select features that you think are important when it comes to evaluating the fairness of the model, and why.
 5. **Fairness Evaluation** Consider **three fairness strategies** that were discussed in class and then 
+   
    1. Provide the corresponding **fairness metrics** for the model (if applicable) based on the features you selected in step 4.
    2. Determine whether the model is fair under each fairness strategy, and provide a brief discussion on why.
    3. Determine which fairness strategy is the most appropriate for the model, given the context of what the model is used for. Provide a brief discussion on why.
