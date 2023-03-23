@@ -32,12 +32,12 @@ Along with architectural issues, as the feature will be evaluating student infor
 ## Deliverables and Deadlines
 There are two (2) deadlines for this project. This project is worth a total of 180 points.
 
-**Checkpoint Deliverables** – 80 points - due Tuesday, April 4th at 11:59pm
+**Checkpoint Deliverables** – 80 points - due Tuesday, April 4th, 11:59pm
 
 - [Architectural Design Document (60 pts)](#architectural-design-document-60-points)
 - [Jupyter Notebook Setup (20 pts)](#jupyter-notebook-setup-20-points)
 
-**Final Deliverables** – 100 points - due Tuesday, April 11th at 11:59pm
+**Final Deliverables** – 100 points - due Tuesday, April 11th, 11:59pm
 
 - [Feature Integration Implementation (40 pts)](#feature-integration-implementation-40-points)
 - [Evaluation Report (60 pts)](#evaluation-report-60-points)
@@ -46,18 +46,20 @@ There are two (2) deadlines for this project. This project is worth a total of 1
 
 ### Architectural Design Document (60 points)
 
-Before your team jumps into development, your manager has requested a **concrete design document** on how you plan on integrating the feature into the existing codebase.
+To start off, your manager has requested a **concrete design document** on how you plan on integrating the new ML-based career recommendation feature into the existing codebase. One of your manager's requirements is that the career feature **should work on a deployed site**.
 
-Your team should start by evaluating what components of the feature have been implemented for you by the previous engineer, then consider how you would like to proceed with integration.
+==You will later follow this design document in order to fully integrate this feature into NodeBB.==
 
-Some potential options to consider include:
+Your team should start by evaluating what components of the feature have been implemented for you by the previous engineer as detailed in their [draft pull request](https://github.com/CMU-313/NodeBB/pull/186), then consider potential architectural solutions.
+
+Some initial solutions to consider include:
 
 1.  **Rewriting the feature in JavaScript** and incorporating it into the monolith
 2.  **Implementing a Python-based microservice** and deploying it as a seperate service; then, integrating the service with your existing monolith via a REST API
 3.  **Refactoring part or all of the existing monolith** into a microservices-based architecture
 
-!!! note "Implementation"
-    Keep in mind that **your team will have to integrate the feature as part of the final deliverable**. This may be a factor that affects your final decision on which architecture to pursue.
+!!! warning "Implementation Efforts"
+    Keep in mind that **your team will have to integrate the feature as part of the final deliverable**. This should be a factor that affects your final decision on which architecture to pursue.
 
 Once you have finished evaluating the codebase, create the design document highlighting your findings and decisions. Below is a sample outline for your design document along with recommended page lengths.
 
@@ -72,7 +74,7 @@ Include an architectural diagram to support your description.
 #### Quality Requirements (<1 page)
 Provide a concise, prioritized list of the overall quality requirements you considered in arguing for the integration of the feature into the system and a short justification for each. Your team should decide on **at least three** requirements to focus on.
 
-Rank them in decreasing order of importance. This allows readers to quickly understand what requirements you were designing for.
+Rank your requirements in decreasing order of importance. This allows readers to quickly understand what you were designing for.
 
 #### Potential Solutions (~1 page each)
 Your team should consider **at least two** different potential solutions for integrating the new feature. For each, provide a brief description of the solution's architectural design, at least one corresponding diagram, and a discussion of the design's tradeoffs.
@@ -80,9 +82,9 @@ Your team should consider **at least two** different potential solutions for int
 Tradeoffs must involve (but are not limited to) the quality attributes described in the previous section. Justify such arguments with reference to appropriate diagrams and concrete examples, as appropriate.
 
 #### Selected Architecture + Justification (<1 page)
-Describe which design your team decided to proceed with in architecturally integrating the feature into existing codebase.
+Describe which design your team decided to proceed with in architecturally integrating the feature into existing codebase. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design (if any).
 
-Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design (if any).
+Within your justification, you should explicitly include a timeline demonstrating how you plan on dividing development work within your team to ensure you finish implementation before the final deadline.
 
 !!! note "On Diagrams"
     Diagrams should **involve suitable architectural views**; **must include a legend**; and **should involve appropriate levels of abstraction** for the components in the diagram. If necessary, use color/shape/text to differentiate between types of components and connectors.
@@ -152,7 +154,7 @@ Y variable
 Before doing a thorough evaluation of the fairness of the model, you would do some preliminary analysis on the test dataset, and run the model on the test dataset to get the accuracy of the model. To do so, you will need to set up a Jupyter notebook to do this, you can either:
 
 - Set up a [JupyterLab](https://jupyter.org/install) on your local machine. 
-- Or use [Google Colab] to run the notebook in the cloud.
+- Or use [Google Colab](https://colab.research.google.com/) to run the notebook in the cloud.
 
 It is recommended that you use Python 3.9 or above when setting up the notebook.
 
@@ -170,7 +172,21 @@ By the checkpoint deadline, your team will commit the Jupyter notebook to your r
 ## Final Deliverables
 
 ### Feature Integration Implementation (40 points)
-@Angela - TODO, essentially asking them to implement their design from their design document
+
+Complete the integration of the ML-based career recommendation feature into your team repository for NodeBB. Your implementation should follow your selected design from your checkpoint design document.
+
+You may freely use any of the development progress made available in the [draft pull request](https://github.com/CMU-313/NodeBB/pull/186) in your implementation.
+
+On Gradescope, you should:
+
+- **Submit a link to your deployed site** that has the career features successfully integrated
+- **Answer the discussion questions** regarding your implementation and any additional design decisions made by your team
+
+??? info "Partial Credit"
+    For partial credit, you may instead submit your repository with a locally working integration of the career feature. You should then answer the presented questions on Gradescope for how to get your feature working locally.
+
+!!! note "A Note on CD"
+    While we encourage CD workflows, your deployment does **not** have to be automated for this assignment. In other words, it is acceptable to manually deploy your site without modifying your workflow from the previous project.
 
 ### Evaluation Report (60 points)
 
@@ -193,16 +209,17 @@ After evaluating the performance and fairness of the model, you should now write
 
 Your report should include the following sections with clear headings:
 
-1. **Introduction** Provide a brief introduction to the model that you are evaluating, and the test dataset that you are using, and the context of use of the model.
-2. **Description of the test data** Provide descriptive statistics of the test dataset (e.g. mean, median, mode, standard deviation, etc.) for each feature. You should also provide a brief discussion on the distribution of the features.
-3. **Model Performance** Provide the accuracy and confusion matrix of the model on the test dataset and a brief discussion on the performance of the model.
-4. **Feature Exploration** Select features that you think are important when it comes to evaluating the fairness of the model, and why.
-5. **Fairness Evaluation** Consider **three fairness strategies** that were discussed in class and then 
-   
-   1. Provide the corresponding **fairness metrics** for the model (if applicable) based on the features you selected in step 4.
-   2. Determine whether the model is fair under each fairness strategy, and provide a brief discussion on why.
-   3. Determine which fairness strategy is the most appropriate for the model, given the context of what the model is used for. Provide a brief discussion on why.
-6. **Recommendation** Make a recommendation on whether the model should be used in production, and provide a brief discussion on why. 
+1. **Introduction:** Provide a brief introduction to the model that you are evaluating, and the test dataset that you are using, and the context of use of the model.
+2. **Description of the test data:** Provide descriptive statistics of the test dataset (e.g. mean, median, mode, standard deviation, etc.) for each feature. You should also provide a brief discussion on the distribution of the features.
+3. **Model Performance:** Provide the accuracy and confusion matrix of the model on the test dataset and a brief discussion on the performance of the model.
+4. **Feature Exploration:** Select features that you think are important when it comes to evaluating the fairness of the model, and why.
+5. **Fairness Evaluation:** Consider **three fairness strategies** that were discussed in class and then:
+
+    1. Provide the corresponding **fairness metrics** for the model (if applicable) based on the features you selected in step 4.
+    2. Determine whether the model is fair under each fairness strategy, and provide a brief discussion on why.
+    3. Determine which fairness strategy is the most appropriate for the model, given the context of what the model is used for. Provide a brief discussion on why.
+
+6. **Recommendation:** Make a recommendation on whether the model should be used in production, and provide a brief discussion on why. 
 
 On Gradescope submit the following:
 
@@ -210,7 +227,16 @@ On Gradescope submit the following:
 - A PDF of your report
 
 ## Grading
-To receive full credit for this project, you must meet the following requirements:
+To receive full credit for the checkpoint, we expect:
+
+- [ ] A design document outlining your research into the existing codebase architecture, the quality requirements considered by your team, alternative solutions, and a final justification & timeline for your selected integration plan
+- [ ] A link to a Jupyter notebook completing all of the setup steps outlined by the previous section
+
+To receive full credit for the final deadline, we expect:
+
+- [ ] A link to your successfully deployed web application for your team repository which demonstrates the integration of the ML-based career recommendation feature
+- [ ] A link to a Jupyter notebook containing all research/data gathered during your evaluation of the ML model
+- [ ] An uploaded PDF report discussing the fairness of the model addressing all the sections outlined above
 
 ## Resource & Documentation
 
