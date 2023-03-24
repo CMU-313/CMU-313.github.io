@@ -13,7 +13,12 @@ As you and your team continue developing the new system, your CMU contact sudden
 
 Your manager follows closely behind and provides an explanation: a significant number of job recruiters have taken interest in your project and would like to use the platform as a means to reach out to students for career opportunities. However, the population of students is too large, and increasing annually. They are concerned by the sheer number of students to review for job applications, and recruiters want a simpler way to narrow the applicant pool.
 
-While your team had been working on deployment, your buzzword-enamored clients had hired another engineer to work on an extra ML-based feature to take in student performance data and provide a prediction of which applicants are more likely to succeed in industry.
+While your team had been working on deployment, your buzzword-enamored clients had hired another engineer to work on an extra ML-based feature to take in student performance data and provide a prediction of which applicants are more likely to succeed in industry. Specifically,
+
+- The feature will appear as a new career tab on NodeBB
+- The new career page will
+    - Allow students to submit relevant information about themselves for recruiters to see
+    - Recruiters will be able to see a list of students who have submitted their information, together with the prediction of their success in industry
 
 However, the engineer left shortly after and the project was abandoned. They have left an unfinished draft pull request on the repository, and you have been tasked with completing the project.
 
@@ -21,7 +26,7 @@ Your manager wants you to:
 
 1. **Assess the current architecture**, and decide what would be the best way to incorporate the work done by the previous engineer
 2. **Reason about, document and select an appropriate architecture** for the project
-3. **Finish integrating the feature** made by the other team based on your team's new design
+3. **Finish integrating the feature** made by the previous engineer based on your team's new design
 
 Along with architectural issues, as the feature will be evaluating student information, you are also concerned about the fairness of the model. You have been tasked with:
 
@@ -50,7 +55,7 @@ To start off, your manager has requested a **concrete design document** on how y
 
 ==You will later follow this design document in order to fully integrate this feature into NodeBB.==
 
-Your team should start by evaluating what components of the feature have been implemented for you by the previous engineer as detailed in their [draft pull request](https://github.com/CMU-313/NodeBB/pull/186), then consider potential architectural solutions. It is **highly recommended** that at least one team member does a fresh clone and run the draft pull request locally to get a better understanding of the feature.
+Your team should start by evaluating what components of the feature have been implemented for you by the previous engineer as detailed in their [draft pull request](https://github.com/CMU-313/NodeBB/pull/186), then consider potential architectural solutions. It is **highly recommended** that at least one team member does a fresh clone and run the draft pull request locally to get a better understanding of the feature before proceeding. (Note: You can clone template repositories without forking them.)
 
 Some initial solutions to consider include:
 
