@@ -272,6 +272,12 @@ There are a few additional reference materials available in the CMU library that
 - [Software Architecture in Practice, Third Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30264): You may wish to review appropriate sections within Part Two to help find appropriate tactics, techniques you can use in your design to promote particular quality attributes.
 - [Documenting Software Architectures: Views and Beyond, Second Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30386): useful book to generally reference for creating architecture documentation.
 
+### Integration
+
+- [Making HTTP Requests](https://www.geeksforgeeks.org/how-to-make-http-requests-in-node-js/)
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [Deploying with Docker](https://fly.io/docs/languages-and-frameworks/dockerfile/)
+
 ### Model Analysis
 
 #### Jupyter Notebooks
