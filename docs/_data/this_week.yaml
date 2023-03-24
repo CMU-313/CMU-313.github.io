@@ -1,12 +1,12 @@
-lectures: []
+lectures:
+- date: Tue Mar 21
+  link: assets/pdfs/17-SE4ML-Nadia.pdf
+  name: 'Guest Lecture: Nadia Nahar - SE for ML'
+- date: Thu Mar 23
+  link: assets/pdfs/18-DeliveringEffectiveFeedback-Kori.pdf
+  name: 'Guest Lecture: Kori Krueger - Delivering Effective Feedback'
 
-projects:
-- date: Fri Mar 17
-  deadline: Due Thurs Mar 23 @ 11:59pm
-  end_date: 2023-03-24 00:00:00
-  link: /projects/P3
-  name: Project 3 Final
-  numDays: 5
+projects: []
 
 recitation:
   date: Mon Mar 20
