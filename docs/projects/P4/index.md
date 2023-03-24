@@ -13,12 +13,13 @@ As you and your team continue developing the new system, your CMU contact sudden
 
 Your manager follows closely behind and provides an explanation: a significant number of job recruiters have taken interest in your project and would like to use the platform as a means to reach out to students for career opportunities. However, the population of students is too large, and increasing annually. They are concerned by the sheer number of students to review for job applications, and recruiters want a simpler way to narrow the applicant pool.
 
-While your team had been working on deployment, your buzzword-enamored clients had hired another engineer to work on an extra ML-based feature to take in student performance data and provide a prediction of which applicants are more likely to succeed in industry. Specifically,
+While your team had been working on deployment, your buzzword-enamored clients had hired another engineer to work on an extra ML-based feature to take in student performance data and provide a prediction of which applicants are more likely to succeed in industry. Specifically, the new career feature would:
 
-- The feature will appear as a new career tab on NodeBB
-- The new career page will
-    - Allow students to submit relevant information about themselves for recruiters to see
-    - Recruiters will be able to see a list of students who have submitted their information, together with the prediction of their success in industry
+- adds a new recruiter user type
+- adds a new career tab on NodeBB, that leads to a new career page
+- the new career page will
+   - allow students to submit relevant information about themselves for recruiters to see
+   - allow recruiters to see a list of students who have submitted their information, together with the prediction of their success in industry
 
 However, the engineer left shortly after and the project was abandoned. They have left an unfinished draft pull request on the repository, and you have been tasked with completing the project.
 
@@ -180,7 +181,14 @@ By the checkpoint deadline, your team will commit the Jupyter notebook to your r
 
 Complete the integration of the ML-based candidate recommendation feature into your team repository for NodeBB. Your implementation should follow your selected design from your checkpoint design document.
 
-You may freely use any and/or all of the development progress made available in the [draft pull request](https://github.com/CMU-313/NodeBB/pull/186) in your implementation. In fact, if it is valid under your selected design, you are highly encouraged to directly integrate all code from the draft pull request as a starting point for your implementation.
+Revisiting the [project context](#project-context), the feature:
+ > - adds a new recruiter user type
+   - adds a new career tab on NodeBB, that leads to a new career page
+   - the new career page will
+      - allow students to submit relevant information about themselves for recruiters to see
+      - allow recruiters to see a list of students who have submitted their information, together with the prediction of their success in industry
+
+You may freely use any and/or all of the development progress made available in the [draft pull request](https://github.com/CMU-313/NodeBB/pull/186) in your implementation. In fact, if the draft pull request matches your proposed design, you are highly encouraged to directly integrate all code from the draft pull request as a starting point for your implementation.
 
 On Gradescope, you should:
 
