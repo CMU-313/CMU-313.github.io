@@ -1,4 +1,4 @@
-# Project 4: Software Architecture & ML Evaluation
+# Project 4: Software Architecture + ML Evaluation
 
 ## Learning Goals
 - Design a software architecture for software system that incorporates machine learning
