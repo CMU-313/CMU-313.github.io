@@ -18,8 +18,8 @@ While your team had been working on deployment, your buzzword-enamored clients h
 - adds a new recruiter user type
 - adds a new career tab on NodeBB, that leads to a new career page
 - the new career page will
-   - allow students to submit relevant information about themselves for recruiters to see
-   - allow recruiters to see a list of students who have submitted their information, together with the prediction of their success in industry
+     - allow students to submit relevant information about themselves for recruiters to see
+     - allow recruiters to see a list of students who have submitted their information, together with the prediction of their success in industry
 
 However, the engineer left shortly after and the project was abandoned. They have left an unfinished draft pull request on the repository, and you have been tasked with completing the project.
 
