@@ -45,8 +45,8 @@ There are two (2) deadlines for this project. This project is worth a total of 1
 
 **Final Deliverables** – 100 points - due Tuesday, April 11th, 11:59pm
 
-- [Feature Integration Implementation (50 pts)](#feature-integration-implementation-50-points)
-- [Evaluation Report (50 pts)](#evaluation-report-50-points)
+- [Feature Integration Implementation (60 pts)](#feature-integration-implementation-60-points)
+- [Evaluation Report (40 pts)](#evaluation-report-40-points)
 
 ## Checkpoint Deliverables
 
@@ -60,7 +60,7 @@ Your team should start by evaluating what components of the feature have been im
 
 Some initial solutions to consider include:
 
-1.  **Rewriting the all aspects of the feature in JavaScript** and incorporating it into the monolith
+1.  **Rewriting the all aspects of the feature in Typescript** and incorporating it into the monolith
 2.  **Implementing a Python-based microservice** and deploying it as a separate service; then, integrating the service with your existing monolith via a REST API
 3.  **Refactoring part or all of the existing monolith** into a microservices-based architecture
 
@@ -90,7 +90,7 @@ Once you have finished evaluating the codebase, create the design document highl
 5. **Selected Architecture + Justification (<1 page)**  
     Describe which design your team decided to proceed with in architecturally integrating the feature into existing codebase. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design (if any).
 
-    Within your justification, you should explicitly include a timeline demonstrating how you plan on dividing development work within your team to ensure you finish implementation before the final deadline.
+    Within your justification, you should explicitly include a timeline demonstrating how you plan on dividing development work within your team to ensure you **finish implementation before the final deadline.**.
 
 !!! note "On Diagrams"
     Diagrams should **involve suitable architectural views**; **must include a legend**; and **should involve appropriate levels of abstraction** for the components in the diagram. If necessary, use color/shape/text to differentiate between types of components and connectors.
@@ -159,8 +159,8 @@ Y variable
 
 Before doing a thorough evaluation of the fairness of the model, you will start by doing preliminary analysis on the [test dataset](/assets/project/student_data.csv), and run the model on the test dataset to get the accuracy of the model. To do so, you will need to set up a Jupyter notebook to do this, you can either:
 
-- Set up a [JupyterLab](https://jupyter.org/install) on your local machine. Additionally, you can use [VSCode](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) to run the notebook as well.
-- Or use [Google Colab](https://colab.research.google.com/) to run the notebook in the cloud. (Recommended if you do not have experience with Jupyter notebooks)
+- Use [Google Colab](https://colab.research.google.com/) to run the notebook in the cloud. (Recommended if you do not have experience with Jupyter notebooks)
+- Alternatively, set up a [JupyterLab](https://jupyter.org/install) on your local machine. Additionally, you can use [VSCode](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) to run the notebook as well. (Recommended if you are experienced)
 
 It is recommended that you use **Python 3.9 or above** when setting up the notebook.
 
@@ -177,7 +177,7 @@ By the checkpoint deadline, your team will commit the Jupyter notebook to your r
 
 ## Final Deliverables
 
-### Feature Integration Implementation (50 points)
+### Feature Integration Implementation (60 points)
 
 Complete the integration of the ML-based candidate recommendation feature into your team repository for NodeBB. Your implementation should follow your selected design from your checkpoint design document.
 
@@ -201,7 +201,7 @@ On Gradescope, you should:
 !!! note "A Note on CD"
     While we encourage CD workflows, your deployment does **not** have to be automated for this assignment. In other words, it is acceptable to manually deploy your site without modifying your workflow from the previous project.
 
-### Evaluation Report (50 points)
+### Evaluation Report (40 points)
 
 Now you have to decide whether the model should be used in production. You will need to evaluate the performance and the fairness of the model. You should do all your work in the Jupyter notebook that you set up in the checkpoint deliverables.
 
@@ -256,6 +256,7 @@ To receive full credit for the final deadline, we expect:
 - [ ] A link to your successfully deployed web application for your team repository which demonstrates the integration of the ML-based career feature
 - [ ] A link to a Jupyter notebook containing all research/data gathered during your evaluation of the ML model
 - [ ] An uploaded PDF report discussing the fairness of the model addressing all the sections outlined above
+- [ ] Everyone in the team has contributed to a pull request to the team repository (Note: Either for the Jupyter notebook or the career feature integration)
 
 ## Resource & Documentation
 
