@@ -779,7 +779,7 @@
     name: ""
     numDays: 0
   lecture:
-    link:  "assets/pdfs/16-SE4ML.pdf"
+    link:  "assets/pdfs/16-SEforML.pdf"
     name: "Software Engineering for Machine Learning"
   reading:
     link: ""
