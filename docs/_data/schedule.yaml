@@ -509,7 +509,7 @@
     name: ""
     numDays: 0
   lecture:
-    link:  "assets/pdfs/12-arch-design-docs.pdf"
+    link: "assets/pdfs/12-arch-design-docs.pdf"
     name: "Design Documents"
   reading:
     link: ""
@@ -599,7 +599,7 @@
     name: ""
     numDays: 0
   lecture:
-    link:  "assets/pdfs/14-static-and-dynamic-analysis-tools.pdf"
+    link: "assets/pdfs/14-static-and-dynamic-analysis-tools.pdf"
     name: "QA: Static and Dynamic Analysis"
   reading:
     link: ""
@@ -743,7 +743,7 @@
     name: ""
     numDays: 0
   lecture:
-    link:  "assets/pdfs/15-Basic-Web-App-Deployment-on-Vercel.pdf"
+    link: "assets/pdfs/15-Basic-Web-App-Deployment-on-Vercel.pdf"
     name: "Activity: Extreme Startup"
   reading:
     link: ""
@@ -779,7 +779,7 @@
     name: ""
     numDays: 0
   lecture:
-    link:  "assets/pdfs/16-SEforML.pdf"
+    link: "assets/pdfs/16-SEforML.pdf"
     name: "Software Engineering for Machine Learning"
   reading:
     link: ""
@@ -833,16 +833,16 @@
     name: ""
     numDays: 0
   lecture:
-    link:  "assets/pdfs/17-SE4ML-Nadia.pdf"
+    link: "assets/pdfs/17-SE4ML-Nadia.pdf"
     name: "Guest Lecture: Nadia Nahar - SE for ML"
   reading:
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
+    handout: "recitations/reci8-team-feedback"
+    name: "Recitation 8 - Team feedback"
     quiz: ""
-    slides: ""
+    slides: "https://drive.google.com/file/d/19nHafoFU2qt4J6bsooRFVwD1IvTVJrRL/view?usp=sharing"
 
 - date: Wed Mar 22
   homework:
@@ -869,7 +869,7 @@
     name: ""
     numDays: 0
   lecture:
-    link:  "assets/pdfs/18-DeliveringEffectiveFeedback-Kori.pdf"
+    link: "assets/pdfs/18-DeliveringEffectiveFeedback-Kori.pdf"
     name: "Guest Lecture: Kori Krueger - Delivering Effective Feedback"
   reading:
     link: ""

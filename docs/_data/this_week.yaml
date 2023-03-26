@@ -15,8 +15,7 @@ projects:
   numDays: 8
 
 recitation:
-  date: Mon Mar 20
-  handout: recitations/reci7-docker
-  name: Recitation 7 - Docker and Containerization
-  quiz: https://www.gradescope.com/courses/488839/assignments/2747781
-  slides: https://docs.google.com/presentation/d/1wjGBK0A09iW10XLUI9fqEThVysF3y3BULmeEMitKjM0/edit?usp=sharing
+  date: Mon Mar 27
+  handout: recitations/reci8-team-feedback
+  name: Recitation 8 - Team Feedback
+  slides: https://drive.google.com/file/d/19nHafoFU2qt4J6bsooRFVwD1IvTVJrRL/view?usp=sharing
