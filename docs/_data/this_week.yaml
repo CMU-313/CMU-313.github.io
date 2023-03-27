@@ -1,10 +1,4 @@
-lectures:
-- date: Tue Mar 21
-  link: assets/pdfs/17-SE4ML-Nadia.pdf
-  name: 'Guest Lecture: Nadia Nahar - SE for ML'
-- date: Thu Mar 23
-  link: assets/pdfs/18-DeliveringEffectiveFeedback-Kori.pdf
-  name: 'Guest Lecture: Kori Krueger - Delivering Effective Feedback'
+lectures: []
 
 projects:
 - date: Fri Mar 24
@@ -14,9 +8,4 @@ projects:
   name: Project 4 Checkpoint
   numDays: 8
 
-recitation:
-  date: Mon Mar 20
-  handout: recitations/reci7-docker
-  name: Recitation 7 - Docker and Containerization
-  quiz: https://www.gradescope.com/courses/488839/assignments/2747781
-  slides: https://docs.google.com/presentation/d/1wjGBK0A09iW10XLUI9fqEThVysF3y3BULmeEMitKjM0/edit?usp=sharing
+recitation: null
