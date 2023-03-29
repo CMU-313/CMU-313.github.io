@@ -1,4 +1,10 @@
-lectures: []
+lectures:
+- date: Tue Mar 28
+  link: assets/pdfs//19-ML-Fairness.pdf
+  name: Fairness Evaluation
+- date: Thu Mar 30
+  link: ''
+  name: Dependency Management
 
 projects:
 - date: Fri Mar 24
