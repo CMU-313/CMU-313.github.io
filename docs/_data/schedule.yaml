@@ -923,8 +923,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs//19-ML-Fairness.pdf"
+    name: "Fairness Evaluation"
   reading:
     link: ""
     name: ""
@@ -960,7 +960,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Dependency Management"
   reading:
     link: ""
     name: ""
