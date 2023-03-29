@@ -80,6 +80,10 @@ nav:
           - "Deployment Instructions": projects/P3/deployment.md
       - "Project 4: Software Architecture + ML Evaluation":
           - projects/P4/index.md
+      - "Project 5: Open Source Excursion":
+          - projects/P5/index.md
+          - "5A Project and Task Selection": projects/P5/1_projectcheck.md
+          - "5B Project Presentations, Final Report, and Reflection": projects/P5/2_projectfinal.md
     # - Project 4: projects/HW4.md
     # - Project 5: projects/HW5.md
     # - Project 6: projects/HW6.md
