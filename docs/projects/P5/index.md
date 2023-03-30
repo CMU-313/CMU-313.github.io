@@ -26,16 +26,15 @@ This will is your final project with your group. There are 3 deadlines for this 
     
     To manage all of the write-ups, we recommend saving the pages as a PDF to print or annotate on as you work through the assignment with your team.
 
-A) [**Project & Task Selection**](/projects/P5/1_projectcheck) – 80 points – due Thursday, February 2nd, 11:59pm
+A) [**Project & Task Selection**](/projects/P5/1_projectcheck) – 80 points – due Monday, April 17th, 11:59pm
 
-B) [**Project Presentations**](/projects/P5/2_projectfinal) – 100 points – due Tuesday, February 14th, 11:59pm
+B) [**Project Presentations**](/projects/P5/2_projectfinal) – 100 points – due Sunday, May 7th, 11:59pm, Presentation will be during exam timeslot, Monday, May 8th, 5pm - 8:30pm
 
-C) [**Project Report / Individual Reflections / Peer Review**](/projects/P5/2_projectfinal) – 140 points – due Thursday, March 2nd, 11:59pm
+C) [**Project Report / Individual Reflections / Peer Review**](/projects/P5/2_projectfinal) – 140 points – due Monday, May 8th, 11:59pm
 
 
-**Important Note**:
+!!! attention "Contributions"
 
-- We want to make sure that everyone is participating fully in the final project. For this project, we will be assessing participation in a variety of ways, including: artifact evaluation, self & peer evaluation (done as part of [individual reflection](#part-d-individual-reflection--peer-evaluations))
-- Credit due for the team will be awarded based on evidence of full participation in the team. Partial participation will receive partial credit.
+    We want to ensure that everyone is participating fully in the final project. For this project, we will be assessing participation in a variety of ways, including: artifact evaluation, self & peer evaluation. Credit due for the team components of P5 will be awarded based on evidence of full participation in the team. **Partial participation will receive partial credit.**
 
 If severe teamwork issues arise please contact the course staff.
