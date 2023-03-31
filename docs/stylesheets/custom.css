@@ -255,8 +255,8 @@ details summary {
     font-size: .8rem;
 }
 
-.admonition p,
-details p {
+.admonition p, .admonition ul,
+details p, details ul {
     font-size: .725rem;
 }
 
