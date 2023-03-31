@@ -28,7 +28,7 @@ We can use the Titanic dataset to make predictions on whether or not passengers 
 1. Is the distribution what you expected it to be? Was there anything surprising about it?
 
 
- ## Activity 2: Import and Analyze Models (5 min)
+## Activity 2: Import and Analyze Models (5 min)
 Using what we have learned earlier about decision trees and random forest classifiers, work with your partner to train your own model to predict whether a passenger with given features will survive. Be sure to calculate the accuracy of your model using the given test dataset. 
 
 
