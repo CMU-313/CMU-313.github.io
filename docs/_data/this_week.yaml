@@ -14,4 +14,9 @@ projects:
   name: Project 4 Checkpoint
   numDays: 8
 
-recitation: null
+recitation:
+  date: Mon Apr 3
+  handout: /recitations/reci9-ml/
+  name: Recitation 9 - Machine Learning
+  quiz: "https://www.gradescope.com/courses/488839/assignments/2786366/"
+  slides: "https://drive.google.com/file/d/1wx3kiFTISdzKZ1YU1CdZD5lE31PiU4zs/view?usp=sharing"
