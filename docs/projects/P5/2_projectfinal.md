@@ -2,16 +2,18 @@
 
 ## Deliverables
 
-**Project Presentations** 
+**Project Report and Presentations** – due Sunday, May 7th, 11:59pm
 
-- [Project Presentation Slides](#project-presentations-100-pts) (100 points) – due Sunday, May 7th, 11:59pm
-- **Presentation Date:** Monday, May 8th 5-8:30pm, during your exam timeslot
+- [Project Report](#project-report-120-pts) (120 pts) 
+- [Extra Credit](#project-report-120-pts) (20 pts)
+- [Project Presentation Slides](#project-presentations-100-pts) (100 points, graded based on presentation)
 
-**Project Report and Reflections** – 140 points – due Monday, May 8th, 11:59pm
+**Presentation Date** – Monday, May 8th, 5.00pm - 8:30pm, during exam timeslot
 
-- [Project Report](#project-report-120-pts) (120 pts)
+**Reflections** – due Monday, May 8th, 11:59pm
+
 - [Reflections & Peer Review](#individual-reflection--peer-evaluations-20-pts) (20 pts)
-- *[Extra Credit](#extra-credit-8-pts) (20 pts)*
+
 
 ## Contributing to Open Source
 
@@ -93,8 +95,8 @@ Evidence of your quality assurance activities described above. For example, prov
 7.	**Plan Updates** (<1 page)  
 A description and justification of deviations between your initial plans and your performed activities (as in Homework 2). Changes are expected, but they should be tracked and explained. Describe changes in scope (e.g., fewer tasks) and in the schedule and work allocation. Provide an updated schedule and note differences. Explain the causes of the changes, such as unanticipated risks. 
 
-8.	**BONUS**  
-Evidence that your changes have been accepted into the code base of the open source project in forms of links or screenshots. **Note: You can also send the merged PR link via Slack to Michael Hilton by 19th December 1pm to claim this bonus as well**
+8.	**Extra Credit**  
+Evidence that your changes have been accepted into the code base of the open source project in forms of links or screenshots. **Note: You can also send the merged PR link via Slack to Michael Hilton by 10th May 1pm to claim this bonus as well**
 
 Page limits are provided for guidance; we will not enforce them. Collect all parts in a **single PDF document with clear subsections** and the names of all team members and submit that file to **Gradescope**.
 
