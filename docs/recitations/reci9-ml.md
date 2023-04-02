@@ -29,8 +29,7 @@ We can use the Titanic dataset to make predictions on whether or not passengers 
 
 
 ## Activity 2: Import and Analyze Models (5 min)
-Using what we have learned earlier about decision trees and random forest classifiers, work with your partner to train your own model to predict whether a passenger with given features will survive. Be sure to calculate the accuracy of your model using the given test dataset. 
-
+We pre-trained two models based on the Titanic training dataset. Let's import these models and review their accuracy. Note that the difference between the models is one uses sex as a feature and one does not. Run the cells in this section.
 
 ## Activity 3: Fairness Metrics Evaluation (15 mins)
 An important part of evaluating an ML model is assessing its fairness. In this activity, evaluate the fairness metrics that we discussed in class with respect to sex and pclass. 
