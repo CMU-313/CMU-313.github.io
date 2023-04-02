@@ -9,9 +9,9 @@ title: Recitation 9 - Machine Learning
 ## Setup Instructions: 
 1. Go to this repo and clone it: https://github.com/CMU-313/s23-ml-recitation
 2. Make sure you can run the jupyter notebooks 
-1. Google Colab is one option to do this (NOTE: you should be able to do this by adding tocolab to the github url for the model_testing notebook https://githubtocolab.com/CMU-313/s23-ml-recitation/blob/main/model_testing.ipynb)
-1. Make sure to connect to google drive and upload the titanic data set folder, double check the file paths in the notebook to make sure they match
-2. You can also run it locally if you have jupyter setup
+    1. Google Colab is one option to do this (NOTE: you should be able to do this by adding tocolab to the github url for the model_testing notebook https://githubtocolab.com/CMU-313/s23-ml-recitation/blob/main/model_testing.ipynb)
+        1. Make sure to connect to google drive and upload the titanic data set folder, double check the file paths in the notebook to make sure they match
+    2. You can also run it locally if you have jupyter setup
 
 
 ## Overview
