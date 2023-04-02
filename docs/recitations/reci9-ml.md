@@ -11,11 +11,11 @@ title: Recitation 9 - Machine Learning
 2. Make sure you can run the jupyter notebooks 
 1. Google Colab is one option to do this (NOTE: you should be able to do this by adding tocolab to the github url for the model_testing notebook https://githubtocolab.com/CMU-313/s23-ml-recitation/blob/main/model_testing.ipynb)
 1. Make sure to connect to google drive and upload the titanic data set folder, double check the file paths in the notebook to make sure they match
-2. Can also run locally if you have jupyter setup
+2. You can also run it locally if you have jupyter setup
 
 
 ## Overview
-During this recitation, students will have the opportunity to play with various machine learning frameworks and tools and justify a recommendation argument for using a machine learning model in practice. Students will work with a partner.
+During this recitation, students will have the opportunity to play with various machine learning frameworks and tools and justify a recommendation argument for using a machine learning model in practice. This is an individual activity so everyone should be running the notebook; however, feel free to discuss the activity and your approach with other students!
 
 
 ## Context
@@ -33,9 +33,10 @@ Using what we have learned earlier about decision trees and random forest classi
 
 
 ## Activity 3: Fairness Metrics Evaluation (15 mins)
-An important part of evaluating an ML model is assessing its fairness. In this activity, evaluate the fairness metrics that we discussed in class with respect to sex. The code for demographic parity is provided.
-1. Fill in the notebook to compute the equal opportunity metric
-2. Feel free to evaluate and compute any other metrics that you think would be helpful to evaluate the model. One to consider is true and false positive rates and/or true and false negative rates.
+An important part of evaluating an ML model is assessing its fairness. In this activity, evaluate the fairness metrics that we discussed in class with respect to sex and pclass. 
+1. Fill in the notebook to compute the demographic parity metric
+2. Fill in the notebook to compute the equal opportunity metric
+3. Feel free to evaluate and compute any other metrics that you think would be helpful to evaluate the model. One to consider is true and false positive rates and/or true and false negative rates.
 
 
 ## Activity 4: Recommendation (10 mins)
