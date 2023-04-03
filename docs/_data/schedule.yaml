@@ -1001,10 +1001,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "recitations/reci9-ml"
+    name: "Recitation 9 - Machine Learning"
+    quiz: "https://www.gradescope.com/courses/488839/assignments/2786366/"
+    slides: "https://docs.google.com/presentation/d/1H5BbbQeeEd7HDq7gGnb-FRViJlTwiuDc/edit?usp=sharing&ouid=106031865927186219404&rtpof=true&sd=true"
 
 - date: Tue Apr 04
   homework:
