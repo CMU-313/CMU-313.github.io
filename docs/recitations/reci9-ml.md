@@ -19,6 +19,11 @@ During this recitation, students will have the opportunity to play with various 
 
 
 ## Context
+You're working as a software engineer at a cruise line company. Your company wants to train a ML model that helps the crew decide who should be given priority to board a lifeboat in the situation of emergency.
+
+Your ML engineer decided to train it on titanic dataset, because it's a widely available dataset. He create a model that predicts if a person would have survived in titanic, and if they do, they should be prioritized in the event of emergency. After all, the emergency handling protocol on titanic, the greatest liner of all times, must be fair and effective right?
+
+
 We can use the Titanic dataset to make predictions on whether or not passengers would survive given features in the dataset. We trained two models on the data: one that uses sex as a feature and one that does not. You’ll be working with the starter code in model_testing.ipynb.
 
 
@@ -39,7 +44,7 @@ An important part of evaluating an ML model is assessing its fairness. In this a
 
 
 ## Activity 4: Recommendation (10 mins)
-Based on the analysis and evaluations we've done above (both fairness and accuracy), would you recommend that one of these models is used in practice (i.e. in a situation where the model could be used to determine who is prioritized for safety in a similar situation)
+Based on the analysis and evaluations we've done above (both fairness and accuracy), would you recommend that one of these models is used in practice by the cruise line company?
 
 
 Justify your choice with evidence that you produced in previous activities. Feel free to write directly in the jupyter notebook and then add your answer to the gradescope quiz.
