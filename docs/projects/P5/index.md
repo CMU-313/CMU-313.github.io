@@ -28,12 +28,12 @@ A) [**Project & Task Selection**](/projects/P5/1_projectcheck) – 80 points –
 B) [**Project Final Report & Presentations**](/projects/P5/2_projectfinal) – 220 points – due Sunday, May 7th, 11:59pm
 
 - Project Report (120 pts) 
+- *Extra Credit (20 pts)*
 - Project Presentation (100 points) - **Held during exam timeslot on Monday, May 8th, 5-8:30pm**
 
 C) [**Individual Reflections**](/projects/P5/2_projectfinal) – 20 points – due Monday, May 8th, 11:59pm
 
 - Reflections & Peer Review (20 pts)
-- *Extra Credit (8 pts)*
 
 !!! tip
 
