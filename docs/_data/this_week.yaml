@@ -1,10 +1,4 @@
-lectures:
-- date: Tue Mar 28
-  link: assets/pdfs//19-ML-Fairness.pdf
-  name: Fairness Evaluation
-- date: Thu Mar 30
-  link: ''
-  name: Dependency Management
+lectures: []
 
 projects:
 - date: Fri Mar 24
@@ -13,5 +7,11 @@ projects:
   link: /projects/P4
   name: Project 4 Checkpoint
   numDays: 8
+- date: Wed Apr 05
+  deadline: Due Tues Apr 11 @ 11:59pm
+  end_date: 2023-04-12 00:00:00
+  link: /projects/P4
+  name: Project 4 Final
+  numDays: 5
 
 recitation: null
