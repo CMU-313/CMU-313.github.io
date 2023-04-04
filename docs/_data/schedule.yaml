@@ -1013,8 +1013,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/21-Ethics.pdf"
+    name: "Ethics"
   reading:
     link: ""
     name: ""
@@ -1050,7 +1050,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "TBD"
   reading:
     link: ""
     name: ""
@@ -1104,7 +1104,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Open Source"
   reading:
     link: ""
     name: ""
@@ -1140,7 +1140,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Carnival - No Lecture"
+    name: "No Class- Carnival"
   reading:
     link: ""
     name: ""
@@ -1194,7 +1194,7 @@
     numDays: 15
   lecture:
     link: ""
-    name: ""
+    name: "Offers for Software Engineers"
   reading:
     link: ""
     name: ""
@@ -1230,7 +1230,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Patents and licenses"
   reading:
     link: ""
     name: ""
@@ -1284,7 +1284,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "TBD"
   reading:
     link: ""
     name: ""
@@ -1320,7 +1320,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Review"
   reading:
     link: ""
     name: ""
@@ -1408,7 +1408,7 @@
     link: ""
     name: ""
     numDays: 0
-  lecture:
+  lecture: 
     link: ""
     name: ""
   reading:
@@ -1439,7 +1439,7 @@
     slides: ""
 
 - date: Mon May 08
-  homework:
+     homework:
     deadline: ""
     link: ""
     name: ""
