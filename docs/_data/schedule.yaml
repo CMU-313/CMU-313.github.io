@@ -642,7 +642,7 @@
     name: ""
   recitation:
     handout: ""
-    name: ""
+    name: "Spring Break [No Recitation]"
     quiz: ""
     slides: ""
 
@@ -839,10 +839,10 @@
     link: ""
     name: ""
   recitation:
-    handout: "recitations/reci8-team-feedback"
-    name: "Recitation 8 - Team feedback"
-    quiz: "https://www.gradescope.com/courses/488839/assignments/2772540"
-    slides: "https://drive.google.com/file/d/19nHafoFU2qt4J6bsooRFVwD1IvTVJrRL/view?usp=sharing"
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
 
 - date: Wed Mar 22
   homework:
@@ -911,10 +911,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "recitations/reci8-team-feedback"
+    name: "Recitation 8 - Team Feedback"
+    quiz: "https://www.gradescope.com/courses/488839/assignments/2772540"
+    slides: "https://drive.google.com/file/d/19nHafoFU2qt4J6bsooRFVwD1IvTVJrRL/view?usp=sharing"
 
 - date: Tue Mar 28
   homework:
@@ -1116,10 +1116,10 @@
 
 - date: Wed Apr 12
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Mon Apr 17 @ 11:59pm"
+    link: "/projects/P5"
+    name: "Project 5 Checkpoint"
+    numDays: 4
   lecture:
     link: ""
     name: ""
@@ -1140,7 +1140,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Carnival - No Lecture"
   reading:
     link: ""
     name: ""
@@ -1182,16 +1182,16 @@
     name: ""
   recitation:
     handout: ""
-    name: ""
+    name: "In-Class Presentations"
     quiz: ""
     slides: ""
 
 - date: Tue Apr 18
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Mon May 8 @ 11:59pm"
+    link: "/projects/P5"
+    name: "Project 5 Final"
+    numDays: 15
   lecture:
     link: ""
     name: ""
@@ -1439,78 +1439,6 @@
     slides: ""
 
 - date: Mon May 08
-  homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
-  lecture:
-    link: ""
-    name: ""
-  reading:
-    link: ""
-    name: ""
-  recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
-
-- date: Tue May 09
-  homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
-  lecture:
-    link: ""
-    name: ""
-  reading:
-    link: ""
-    name: ""
-  recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
-
-- date: Wed May 10
-  homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
-  lecture:
-    link: ""
-    name: ""
-  reading:
-    link: ""
-    name: ""
-  recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
-
-- date: Thu May 11
-  homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
-  lecture:
-    link: ""
-    name: ""
-  reading:
-    link: ""
-    name: ""
-  recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
-
-- date: Fri May 12
   homework:
     deadline: ""
     link: ""

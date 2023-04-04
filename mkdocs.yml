@@ -80,9 +80,10 @@ nav:
           - "Deployment Instructions": projects/P3/deployment.md
       - "Project 4: Software Architecture + ML Evaluation":
           - projects/P4/index.md
-    # - Project 4: projects/HW4.md
-    # - Project 5: projects/HW5.md
-    # - Project 6: projects/HW6.md
+      - "Project 5: Open Source Excursion":
+          - projects/P5/index.md
+          - "5A Project and Task Selection": projects/P5/1_projectcheck.md
+          - "5B Project Presentations, Final Report, and Reflections": projects/P5/2_projectfinal.md
   - Recitations: #recitations/index.md # Dummy home page; remove once we start adding recitations below
       - Recitation 1 - Git & GitHub: recitations/reci1-github.md
       - Recitation 2 - Team Contract Workshop: recitations/reci2-teamcontract.md
