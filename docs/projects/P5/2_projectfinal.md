@@ -32,7 +32,6 @@ You will get a bonus **20 (6%) bonus points** upon acceptance. If your code is a
 ## Report, Presentation and Reflection
 You will report on your project and task selection, work, and experience in several ways (see below). This will include a group presentation to the class.
 
-
 ## Project Presentations (100 pts)
 
 The Final Exam time is dedicated to group presentations **(in-person)** about your open source contributions.
@@ -52,8 +51,9 @@ The goal of the presentation is primarily to share with the class the project to
 
 2. **Brief Task Description(s)** (~2 slides)
       - **Brief** description of the task(s) you performed, such that the audience has sufficient context to understand your explanation of your experiences.
+      - A table that **briefly summarizes** the contribution(s) each team member made towards completing the task(s).
       - We **do not expect you to include, for example, any code or diagrams from your report**, unless they’re helpful for supporting a point about your interactions with the project.
-      - A demo is appreciated, but please do a **screen recording instead of a live demo.**
+      - Include a demo of your contribution(s), if applicable. Please do a **screen recording** of your demo instead of a live demo.
 
 3.	**Project Processes and Communication** (~2 slides)  
         Describe the processes and tools the project uses to coordinate among contributors. For example: Are these processes formal or informal? Provide an explicit description (possibly with a diagram) of the acceptance process used for efforts like the task you completed. <br/> If applicable, include standards or expectations regarding software engineering activities including requirements, architecture, and quality assurance; alternatively mention that no such standards exist.
