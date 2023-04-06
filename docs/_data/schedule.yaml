@@ -923,7 +923,7 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs//19-ML-Fairness.pdf"
+    link: "assets/pdfs/19-ML-Fairness.pdf"
     name: "Fairness Evaluation"
   reading:
     link: ""
@@ -1049,8 +1049,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: "TBD"
+    link: "assets/pdfs/22-AITools.pdf"
+    name: "AI Tools"
   reading:
     link: ""
     name: ""
