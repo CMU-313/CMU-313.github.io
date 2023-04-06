@@ -1091,10 +1091,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "recitations/reci9-open-source.md"
+    name: "Recitation 10 - Open Source Scavenger Hunt"
+    quiz: "https://www.gradescope.com/courses/488839/assignments/2803342/"
+    slides: "https://docs.google.com/presentation/d/19Wb4j5sxyhwMr0L31hVpOLB7GdBaNK_T2cp0_8JTxCk/edit?usp=sharing"
 
 - date: Tue Apr 11
   homework:
