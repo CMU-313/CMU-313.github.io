@@ -15,8 +15,8 @@ projects:
   numDays: 5
 
 recitation:
-  date: Mon Apr 03
-  handout: recitations/reci9-ml
-  name: Recitation 9 - Machine Learning
-  quiz: https://www.gradescope.com/courses/488839/assignments/2786366/
-  slides: https://docs.google.com/presentation/d/1H5BbbQeeEd7HDq7gGnb-FRViJlTwiuDc/edit?usp=sharing&ouid=106031865927186219404&rtpof=true&sd=true
+  date: Mon Apr 10
+  handout: recitations/reci9-open-source.md
+  name: Recitation 10 - Open Source Scavenger Hunt
+  quiz: https://www.gradescope.com/courses/488839/assignments/2803342/
+  slides: https://docs.google.com/presentation/d/19Wb4j5sxyhwMr0L31hVpOLB7GdBaNK_T2cp0_8JTxCk/edit?usp=sharing
