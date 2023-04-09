@@ -24,7 +24,7 @@ With your team, discuss the following questions:
 - Which attributes make a good open source project? A bad open source project?
 - Which projects did you find that you would most like to work on? Which would you least like to work on? Why?
 
-Pick 1-3 projects that you are interested in pursing for Project 5.
+Pick 3 projects that you are interested in pursing for Project 5.
 
 ## Public Project Selection
 
