@@ -2,7 +2,7 @@
 title: Recitation 10 - Open Source Projects
 ---
 
-# Recitation 9: Open Source Projects
+# Recitation 10: Open Source Projects
 
 ## Overview
 This recitation will give you the opportunity to familiarize yourself with various open source projects and help your team with finding a project to work on for Project 5.
