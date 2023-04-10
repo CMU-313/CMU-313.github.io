@@ -1,18 +1,24 @@
-lectures: []
+lectures:
+- date: Tue Apr 11
+  link: ''
+  name: Open Source
+- date: Thu Apr 13
+  link: ''
+  name: No Class- Carnival
 
 projects:
-- date: Fri Mar 24
-  deadline: Due Tues Apr 4 @ 11:59pm
-  end_date: 2023-04-05 00:00:00
-  link: /projects/P4
-  name: Project 4 Checkpoint
-  numDays: 8
 - date: Wed Apr 05
   deadline: Due Tues Apr 11 @ 11:59pm
   end_date: 2023-04-12 00:00:00
   link: /projects/P4
   name: Project 4 Final
   numDays: 5
+- date: Wed Apr 12
+  deadline: Due Mon Apr 17 @ 11:59pm
+  end_date: 2023-04-18 00:00:00
+  link: /projects/P5
+  name: Project 5 Checkpoint
+  numDays: 4
 
 recitation:
   date: Mon Apr 10
@@ -20,3 +26,4 @@ recitation:
   name: Recitation 10 - Open Source Projects
   quiz: https://www.gradescope.com/courses/488839/assignments/2803342/
   slides: https://docs.google.com/presentation/d/19Wb4j5sxyhwMr0L31hVpOLB7GdBaNK_T2cp0_8JTxCk/edit?usp=sharing
+
