@@ -1,10 +1,10 @@
 lectures:
-- date: Tue Apr 04
-  link: assets/pdfs/21-Ethics.pdf
-  name: Ethics
-- date: Thu Apr 06
-  link: assets/pdfs/22-AITools.pdf
-  name: AI Tools
+- date: Tue Apr 11
+  link: ''
+  name: Open Source
+- date: Thu Apr 13
+  link: ''
+  name: No Class- Carnival
 
 projects:
 - date: Wed Apr 05
@@ -13,10 +13,11 @@ projects:
   link: /projects/P4
   name: Project 4 Final
   numDays: 5
+- date: Wed Apr 12
+  deadline: Due Mon Apr 17 @ 11:59pm
+  end_date: 2023-04-18 00:00:00
+  link: /projects/P5
+  name: Project 5 Checkpoint
+  numDays: 4
 
-recitation:
-  date: Mon Apr 03
-  handout: recitations/reci9-ml
-  name: Recitation 9 - Machine Learning
-  quiz: https://www.gradescope.com/courses/488839/assignments/2786366/
-  slides: https://docs.google.com/presentation/d/1H5BbbQeeEd7HDq7gGnb-FRViJlTwiuDc/edit?usp=sharing&ouid=106031865927186219404&rtpof=true&sd=true
+recitation: null
