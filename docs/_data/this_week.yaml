@@ -1,28 +1,28 @@
 lectures:
-- date: Tue Apr 11
+- date: Tue Apr 18
   link: ''
-  name: Open Source
-- date: Thu Apr 13
+  name: Offers for Software Engineers
+- date: Thu Apr 20
   link: ''
-  name: No Class- Carnival
+  name: Patents and licenses
 
 projects:
-- date: Wed Apr 05
-  deadline: Due Tues Apr 11 @ 11:59pm
-  end_date: 2023-04-12 00:00:00
-  link: /projects/P4
-  name: Project 4 Final
-  numDays: 5
 - date: Wed Apr 12
   deadline: Due Mon Apr 17 @ 11:59pm
   end_date: 2023-04-18 00:00:00
   link: /projects/P5
   name: Project 5 Checkpoint
   numDays: 4
+- date: Tue Apr 18
+  deadline: Due Mon May 8 @ 11:59pm
+  end_date: 2023-05-09 00:00:00
+  link: /projects/P5
+  name: Project 5 Final
+  numDays: 15
 
 recitation:
-  date: Mon Apr 10
-  handout: recitations/reci10-open-source
-  name: Recitation 10 - Open Source Projects
-  quiz: https://www.gradescope.com/courses/488839/assignments/2803342/
-  slides: https://docs.google.com/presentation/d/19Wb4j5sxyhwMr0L31hVpOLB7GdBaNK_T2cp0_8JTxCk/edit?usp=sharing
+  date: Mon Apr 17
+  handout: ''
+  name: In-Class Presentations
+  quiz: ''
+  slides: ''
