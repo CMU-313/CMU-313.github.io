@@ -1,18 +1,12 @@
 lectures:
 - date: Tue Apr 18
-  link: ''
+  link: assets/pdfs/24-money.pdf
   name: Offers for Software Engineers
 - date: Thu Apr 20
-  link: ''
-  name: Patents and licenses
+  link: assets/pdfs/25-misc.pdf
+  name: Patents and more
 
 projects:
-- date: Wed Apr 12
-  deadline: Due Mon Apr 17 @ 11:59pm
-  end_date: 2023-04-18 00:00:00
-  link: /projects/P5
-  name: Project 5 Checkpoint
-  numDays: 4
 - date: Tue Apr 18
   deadline: Due Mon May 8 @ 11:59pm
   end_date: 2023-05-09 00:00:00
