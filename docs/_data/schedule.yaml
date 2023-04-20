@@ -959,7 +959,7 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
+    link: "assets/pdfs/20-dependencies.pdf"
     name: "Dependency Management"
   reading:
     link: ""
@@ -1103,7 +1103,7 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
+    link: "assets/pdfs/23-open-source.pdf"
     name: "Open Source"
   reading:
     link: ""
@@ -1193,7 +1193,7 @@
     name: "Project 5 Final"
     numDays: 15
   lecture:
-    link: ""
+    link: "assets/pdfs/24-money.pdf"
     name: "Offers for Software Engineers"
   reading:
     link: ""
@@ -1229,8 +1229,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: "Patents and licenses"
+    link: "assets/pdfs/25-misc.pdf"
+    name: "Patents and more"
   reading:
     link: ""
     name: ""
