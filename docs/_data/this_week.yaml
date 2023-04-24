@@ -1,10 +1,10 @@
 lectures:
-- date: Tue Apr 18
-  link: assets/pdfs/24-money.pdf
-  name: Offers for Software Engineers
-- date: Thu Apr 20
-  link: assets/pdfs/25-misc.pdf
-  name: Patents and more
+- date: Tue Apr 25
+  link: ''
+  name: TBD
+- date: Thu Apr 27
+  link: ''
+  name: Review
 
 projects:
 - date: Tue Apr 18
@@ -14,9 +14,4 @@ projects:
   name: Project 5 Final
   numDays: 15
 
-recitation:
-  date: Mon Apr 17
-  handout: recitations/reci11-p5-checkin
-  name: Recitation 11 - Open Source Project and Task Selection Check In
-  quiz: https://www.gradescope.com/courses/488839/assignments/2826606
-  slides: ''
+recitation: null
