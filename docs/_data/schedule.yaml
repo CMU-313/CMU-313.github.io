@@ -1283,8 +1283,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: "TBD"
+    link: "assets/pdfs/26-grad-school.pdf"
+    name: "Grad school"
   reading:
     link: ""
     name: ""
