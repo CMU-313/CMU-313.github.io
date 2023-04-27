@@ -196,10 +196,25 @@ On Gradescope, you should:
 - **Answer the discussion questions** regarding your implementation and any additional design decisions made by your team
 
 ??? info "Partial Credit"
-    For partial credit, you may instead submit your repository with a locally working integration of the career feature. You should then answer the presented questions on Gradescope for how to get your feature working locally.
+    For partial credit, you may instead submit your repository with a locally working integration of the career feature. You should then answer the presented questions on Gradescope for how to get your feature working locally. 
+    
+    Additionally, if you can reason, backed by technical artifact evidences, why it's failing, then that will be worth a very large chunk of the points as well. You can add evidence and your reasoning to the Gradescope submission it's been updated to include that. (E.g. you can pinpoint that it's running out of memory, etc)
 
 !!! note "A Note on CD"
     While we encourage CD workflows, your deployment does **not** have to be automated for this assignment. In other words, it is acceptable to manually deploy your site without modifying your workflow from the previous project.
+
+#### Feature Implementation FAQs
+ > What if our deployment doesn't stay up at all times?
+
+We understand (and we know from P3) that NodeBB when deployed on fly.io tends to go down (and up) randomly. So that won't be a factor in grading whether the feature works.
+
+> What if our P4 feature never seemed to work on fly.io, at least on the free tier?
+
+We know NodeBB with the career feature added (given our architectural design) works on fly.io. You are permitted to use other deployment methods if you are keen to - we aren't limiting you to deploy on fly.io. Alternatively, please refer to the note above on partial credit.
+
+> What happens if when TAs are grading the link provided, our deployment is down?
+
+We will try our best to re-try at different times to see if it comes up. Even if we do grade wrongly, you are free to submit a regrade request together with a pre-recorded video demo through slack of the feature working in deployment (not locally)
 
 ### Evaluation Report (40 points)
 
