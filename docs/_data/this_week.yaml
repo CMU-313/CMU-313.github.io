@@ -1,10 +1,4 @@
-lectures:
-- date: Tue Apr 25
-  link: assets/pdfs/26-grad-school.pdf
-  name: Grad school
-- date: Thu Apr 27
-  link: ''
-  name: Review
+lectures: []
 
 projects:
 - date: Tue Apr 18
