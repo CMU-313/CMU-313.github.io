@@ -1,5 +1,0 @@
----
-title: Homework
----
-
-Coming soon!

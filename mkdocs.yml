@@ -99,5 +99,5 @@ nav:
       # - Recitation 10 - Open Source Projects: recitations/reci10-open-source.md
       # - Recitation 11 - Open Source Project and Task Selection Check In: recitations/reci11-p5-checkin.md
   - Hall of Fame: hall-of-fame.md
-  - Canvas: https://canvas.cmu.edu/courses/33307
-  - Gradescope: https://www.gradescope.com/courses/488839
+  - Canvas: https://canvas.cmu.edu/ #TODO: update this for S23
+  - Gradescope: https://www.gradescope.com/ #TODO: update this for S23
