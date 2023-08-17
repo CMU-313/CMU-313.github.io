@@ -32,7 +32,7 @@ As optional supplementary reading consider the (freely available) [Software Engi
 
 ## Devices in Lecture and Recitation
 
-Research shows that using devices on non-class related activities harms both the device user's learning, and other students' learning as well. Therefore, in general, we do not allow the use of devices during lecture. However,, if you genuinely use your laptop for class-related activities (note-taking, etc), tell us, and we will make an exception. However, we ask that if you do so, you are careful to keep your devices in note-taking mode (and don’t stray to Facebook, homework, etc). In addition, you will be required to sit in the back row of the lecture to minimize the impact your screen has on others. 
+Research shows that using devices on non-class related activities harms both the device user's learning, and other students' learning as well. Therefore, in general, we do not allow the use of devices during lecture. If you genuinely use your laptop for class-related activities (note-taking, etc), tell us, and we will make an exception. However, we ask that if you do so, you are careful to keep your devices in note-taking mode (and don’t stray to Facebook, homework, etc). In addition, you will be required to sit in the back row of the lecture to minimize the impact your screen has on others. 
 
 Note that recitation activities will often involve devices, so please do bring your laptop!
 
@@ -73,7 +73,7 @@ Describing tradeoffs among decisions and communication with less technical stake
 
 ### Policy on use of Generative AI for Writing
 
-This class does not explicitly ban the use of generative AI technologies such as *ChatGPT* for assisting in writing responses to homework questions. However, this comes with two caveats: (1) you must clearly indicate the use of such technology (and name the tool) in every assignment where a tool was used as a form of attribution, just as you would if you had taken help from a friend; (2) you are liable for factually inaccurate answers or unspecific rambling produced by AI tools; it is your responsibility to edit AI-produced content before submitting it for class purposes. Note that many questions in the homework assignments for this course ask you to describe *your specific experience* engaging with the artifacts or course topics. Any response that contains artificially manufactured or AI-hallucinated experiences will be considered plagarism and be penalized as such.
+You may use generative AI technologies such as *ChatGPT* or *CoPilot* for assisting in code development or writing responses to homework questions, **unless the question specifically prohibits it**. However, any use of AI comes with two caveats: (1) you must clearly indicate the use of such technology (and name the tool) in every homework question or source code file where an AI tool was used as a form of attribution, just as you would if you had taken help from a friend; (2) you are liable for factually inaccurate answers or unspecific rambling produced by AI tools; it is your responsibility to edit AI-produced content before submitting it for class purposes. 
 
 ## Professionalism
 Your classmates are your colleagues. This is particularly true in this course, where we aim to provide you with principles, practices, tools, and paradigms that will enable you to be an effective, real-world Software Engineer. We ask that you treat one another like the professionals you are and that you are preparing to be.
@@ -121,7 +121,7 @@ Note that the instructors respect honesty in these (and indeed most!) situations
 If you wish to request an accommodation due to a documented disability, please contact [Disability Resources](https://www.cmu.edu/disability-resources/) at 412-268-6121 or [access@andrew.cmu.edu](mailto:access@andrew.cmu.edu).
 
 ## Policy on Healthcare-Related Absence
-We don't record our lectures, because they are highly interactive and tricky to record, but we do post slides at the end of the day. Please go over them and feel free to attend to any of the instructors' office hours to catch up on the material. Please see the late-work policy above for how healthcare-related absences are accounted for in participation points.
+We don't record our lectures, because they are highly interactive and tricky to record, but we do post slides at the end of the day. Please go over them and feel free to attend any of the instructors' office hours to catch up on the material. Please see the late-work policy above for how healthcare-related absences are accounted for in participation points.
 
 ## A Note on Self Care
 Please take care of yourself. Do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress. All of us benefit from support during times of struggle. You are not alone. There are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is often helpful.
