@@ -41,13 +41,13 @@ Evaluation will be based on the following distribution: 60% projects, 20% midter
 
 **Project Points Breakdown (tentative)**
 
-| Project | # Days Given | Points | % of total grade |
+| Project | # Days Given | Points | % of HW grade |  % of total grade |
 | --- | --- | --- | --- |
-| 1 | 10 | 100 | 5.77% |
-| 2 | 35 | 320 | 18.46% |
-| 3 | 10  | 120 | 6.92% |
-| 4 | 14  | 180 | 10.38% |
-| 5 | 27 | 320 | 18.46% |
+| 1 | 9 | 100 | 10% | 6% |
+| 2 | 35 | 275 | 27.5% | 16.5% |
+| 3 | 10  | 100 | 10% | 6% |
+| 4 | 14  | 125 | 12.5% | 7.5% |
+| 5 | 27 | 400 | 40% | 24% |
 |   | **TOTAL**   | 1040 | 60.00% | 
 
 ## Regrades
