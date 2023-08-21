@@ -42,13 +42,13 @@ Evaluation will be based on the following distribution: 60% projects, 20% midter
 **Project Points Breakdown (tentative)**
 
 | Project | # Days Given | Points | % of HW grade |  % of total grade |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | 1 | 9 | 100 | 10% | 6% |
 | 2 | 35 | 275 | 27.5% | 16.5% |
 | 3 | 10  | 100 | 10% | 6% |
 | 4 | 14  | 125 | 12.5% | 7.5% |
 | 5 | 27 | 400 | 40% | 24% |
-|   | **TOTAL**   | 1040 | 60.00% | 
+|   | **TOTAL**   | 1000 | 100.00% | 60.00% | 
 
 ## Regrades
 Regrade requests can be submitted via Gradescope. The regrade period is open for one week after grades have been released for a particular assignment.
