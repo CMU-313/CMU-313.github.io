@@ -8,4 +8,9 @@ lectures:
 
 projects: []
 
-recitation: null
+recitation:
+  date: Wed Aug 30
+  handout: /recitations/reci1-github/
+  name: Recitation 1 - GitHub and TS
+  quiz: https://www.gradescope.com/courses/583198/assignments/3141880/
+  slides: ''
