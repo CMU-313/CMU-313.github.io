@@ -30,19 +30,25 @@ Various readings throughout the semester are available online or through the lib
 
 As optional supplementary reading consider the (freely available) [Software Engineering at Google, Lessons Learned from Programming Over Time](https://abseil.io/resources/swe-book).
 
+## Devices in Lecture and Recitation
+
+Research shows that using devices on non-class related activities harms both the device user's learning, and other students' learning as well. Therefore, in general, we do not allow the use of devices during lecture. If you genuinely use your laptop for class-related activities (note-taking, etc), tell us, and we will make an exception. However, we ask that if you do so, you are careful to keep your devices in note-taking mode (and don’t stray to Facebook, homework, etc). In addition, you will be required to sit in the back row of the lecture to minimize the impact your screen has on others. 
+
+Note that recitation activities will often involve devices, so please do bring your laptop!
+
 ## Assessment
 Evaluation will be based on the following distribution: 60% projects, 20% midterm, 20% participation (including lecture exercises, pre-lecture reading quizzes, and recitation exercises). 
 
-**Project Points Breakdown**
+**Project Points Breakdown (tentative)**
 
-| Project | # Days Given | Points | % of total grade |
-| --- | --- | --- | --- |
-| 1 | 10 | 100 | 5.77% |
-| 2 | 35 | 320 | 18.46% |
-| 3 | 10  | 120 | 6.92% |
-| 4 | 14  | 180 | 10.38% |
-| 5 | 27 | 320 | 18.46% |
-|   | **TOTAL**   | 1040 | 60.00% | 
+| Project | # Days Given | Points | % of HW grade |  % of total grade |
+| --- | --- | --- | --- | --- |
+| 1 | 9 | 100 | 10% | 6% |
+| 2 | 35 | 275 | 27.5% | 16.5% |
+| 3 | 10  | 100 | 10% | 6% |
+| 4 | 14  | 125 | 12.5% | 7.5% |
+| 5 | 27 | 400 | 40% | 24% |
+|   | **TOTAL**   | 1000 | 100% | 60% | 
 
 ## Regrades
 Regrade requests can be submitted via Gradescope. The regrade period is open for one week after grades have been released for a particular assignment.
@@ -50,7 +56,7 @@ Regrade requests can be submitted via Gradescope. The regrade period is open for
 ## Late Work Policy
 
 ### Participation
-Participation points in this class are earned through a series of pre-lecture reading assignments, lecture activities, and recitations. To accommodate for life's uncertainties (e.g. health issues, scheduling conflicts), at the end of the semester, we will drop the lowest 10% of scores to calculate your participation grade. In other words, **acquiring 90% of the available points will give you 100% in this category**. The amount of points available varies from semester to semester; generally, 10% would be equivalent to 3-4 lectures or recitations.
+Participation points in this class are earned through a series of pre-lecture reading assignments, lecture activities, and recitations. To accommodate for life's uncertainties (e.g. health issues, scheduling conflicts), you will automatically get full points for up to **four** missed participation activities to account for any absences. You do not need to email instructors individually for one-off absences of this sort.
 
 There will be **no make-ups** for participation points, but you are strongly encouraged to come to office hours to learn or review the materials that you may have missed.
 
@@ -65,10 +71,14 @@ This is a 12-unit course, and it is our intention to manage it so that you spend
 ## Writing
 Describing tradeoffs among decisions and communication with less technical stakeholders are key aspects of this class. Most projects have a component that requires discussing issues in written form or reflecting about experiences. To practice writing skills, the [Global Communications Center](https://www.cmu.edu/student-success/programs/communication-support/index.html) (GCC) offers one-on-one help for students, along with workshops. The instructors are also happy to provide additional guidance if requested.
 
+### Policy on use of Generative AI for Writing
+
+You may use generative AI technologies such as *ChatGPT* or *CoPilot* for assisting in code development or writing responses to homework questions, **unless the question specifically prohibits it**. However, any use of AI comes with two caveats: (1) you must clearly indicate the use of such technology (and name the tool) in every homework question or source code file where an AI tool was used as a form of attribution, just as you would if you had taken help from a friend; (2) you are liable for factually inaccurate answers or unspecific rambling produced by AI tools; it is your responsibility to edit AI-produced content before submitting it for class purposes. 
+
 ## Professionalism
 Your classmates are your colleagues. This is particularly true in this course, where we aim to provide you with principles, practices, tools, and paradigms that will enable you to be an effective, real-world Software Engineer. We ask that you treat one another like the professionals you are and that you are preparing to be.
 
-To that end, we will not tolerate harassment in this class. We define harassment as unwelcome or hostile behavior of an ad hominem nature, i.e., that focuses not on ideas but on people and identity. This includes offensive verbal or written comments in reference to gender, sexual orientation, disability, physical appearance, race, or religion; sexual images in public spaces; deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of class meetings, inappropriate physical contact, and unwelcome sexual attention.
+To that end, we will not tolerate harassment in this class. We define harassment as unwelcome or hostile behavior of an ad hominem nature, i.e., that focuses not on ideas but on people and identity. This includes offensive verbal or written comments in reference to gender, sexual orientation, national origin, disability, physical appearance, race, or religion; sexual images in public spaces; deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of class meetings, inappropriate physical contact, and unwelcome sexual attention.
 
 Harassment is against the law and we have no tolerance for it, and neither does the university. Even when behavior does not rise to the level of harassment (even if you think you're "just joking!"), it can still make people very uncomfortable, and harm their educational and professional career by forcing them to devote mental energy to something other than the material they are trying to learn or the professional successes they are trying to achieve. However, we expect that we do not need to threaten you to earn your respect on this matter: we simply ask that you treat one another like professionals, in the most positive sense.
 
@@ -80,11 +90,11 @@ This has two implications:
 (Thank you to Shriram Krishnamurthi and Evan Peck for sharing their own policies, from which we drew inspiration for this one.)
 
 ## Academic Honesty and Collaboration
-The usual policies apply, especially the University Policy on Academic Integrity. Many of the projects will be done in groups. We expect that group members collaborate with one another, but that groups work independently from one another, not exchanging results with other groups. Within groups, we expect that you are honest about your contribution to the group's work. This implies not taking credit for others' work and not covering for team members that have not contributed to the team. Otherwise, our expectations regarding academic honesty and collaboration for group work are the same as for individual work, substituting elevated to the level of "group."
+The usual policies apply, especially the [University Policy on Academic Integrity](https://www.cmu.edu/policies/student-and-student-life/academic-integrity.html). Many of the projects will be done in groups. We expect that group members collaborate with one another, but that groups work independently from one another, not exchanging results with other groups. Within groups, we expect that you are honest about your contribution to the group's work. This implies not taking credit for others' work and not covering for team members that have not contributed to the team. Otherwise, our expectations regarding academic honesty and collaboration for group work are the same as for individual work, substituting elevated to the level of "group."
 
-The course includes both individual projects  and individual components of group projects . Although your solutions for individual parts will be based on the content produced for the group component (e.g. written reflections on lessons learned), we treat individual components of group projects as equivalent to individual projects  overall, and expect you to complete such components independently of your groupmates.
+The course includes both individual projects  and individual components of group projects. Although your solutions for individual parts will be based on the content produced for the group component (e.g., written reflections on lessons learned), we treat individual components of group projects as equivalent to individual projects overall, and expect you to complete such components independently of your groupmates.
 
-The rest of this academic honesty and collaboration content is taken from the policy used in 17-214, which we reuse almost directly (with minor modifications, and attribution).
+The rest of this academic honesty and collaboration content is an adaption of the policy used in 17-214:
 
 "You may not copy any part of a solution to a problem that was written by another student, or was developed together with another student, or was copied from another unauthorized source such as the Internet. You may not look at another student's solution, even if you have completed your own, nor may you knowingly give your solution to another student or leave your solution where another student can see it.
 
@@ -95,11 +105,11 @@ Here are some examples of behavior that are inappropriate:
 - Writing, using, or submitting a program that attempts to alter or erase grading information or otherwise compromise security of course resources.
 - Lying to course staff.
 - Giving copies of work to others, or allowing someone else to copy or refer to your code or written assignment to produce their own, either in draft or final form. This includes making your work publicly available in a way that other students (current or future) can access your solutions, even if others' access is accidental or incidental to your goals. Beware the privacy settings on your open source accounts!
-- Coaching others step-by-step without them understanding your help.
+- Coaching others step-by-step without them understanding your help."
 
-If any of your work contains any statement that was not written by you, you must put it in quotes and cite the source. If you are paraphrasing an idea you read elsewhere, you must acknowledge the source. Using existing material without proper citation is plagiarism, a form of cheating. If there is any question about whether the material is permitted, you must get permission in advance. We will be using automated systems to detect software plagiarism.
+If any of your work contains a statement that was was copied verbatim from an external source, you must put it in quotes and cite the source. If you are paraphrasing an idea you read elsewhere, you must acknowledge the source. If you are using a tool to help format or structure text significantly based on content and facts that you provided, you must acknowledge the use of such tools (see policy on generative AI tools above). Using existing material without proper citation is plagiarism, a form of cheating. If there is any question about whether the material is permitted, you must get permission in advance. We will be using automated systems to detect software plagiarism.
 
-It is not considered cheating to clarify vague points in the assignments, lectures, lecture notes; to give help or receive help in using the computer systems, compilers, debuggers, profilers, or other facilities; or to discuss ideas at a very high level, without referring to or producing code.
+"It is not considered cheating to clarify vague points in the assignments, lectures, lecture notes; to give help or receive help in using the computer systems, compilers, debuggers, profilers, or other facilities; or to discuss ideas at a very high level, without referring to or producing code.
 
 Any violation of this policy is cheating. The minimum penalty for cheating (including plagiarism) will be a zero grade for the whole assignment. Cheating incidents will also be reported through University channels, with possible additional disciplinary action (see the above-linked University Policy on Academic Integrity).
 
@@ -108,10 +118,10 @@ If you have any question about how this policy applies in a particular situation
 Note that the instructors respect honesty in these (and indeed most!) situations.
 
 ## Accommodations
-If you wish to request an accommodation due to a documented disability, please inform the instructors as soon as possible and contact Disability Resources at 412-268-2013 or [access@andrew.cmu.edu](mailto:access@andrew.cmu.edu).
+If you wish to request an accommodation due to a documented disability, please contact [Disability Resources](https://www.cmu.edu/disability-resources/) at 412-268-6121 or [access@andrew.cmu.edu](mailto:access@andrew.cmu.edu).
 
 ## Policy on Healthcare-Related Absence
-We don't record our lectures, because they are highly interactive and tricky to record, but we do post slides at the end of the day. Please go over them and come to any of the instructors' office hours to discuss the material.
+We don't record our lectures, because they are highly interactive and tricky to record, but we do post slides at the end of the day. Please go over them and feel free to attend any of the instructors' office hours to catch up on the material. Please see the late-work policy above for how healthcare-related absences are accounted for in participation points.
 
 ## A Note on Self Care
 Please take care of yourself. Do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress. All of us benefit from support during times of struggle. You are not alone. There are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is often helpful.
