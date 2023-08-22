@@ -86,8 +86,8 @@ nav:
       #     - "5A Project and Task Selection": projects/P5/1_projectcheck.md
       #     - "5B Project Presentations, Final Report, and Reflections": projects/P5/2_projectfinal.md
   - Recitations:
-      recitations/index.md # Dummy home page; remove once we start adding recitations below
-      # - Recitation 1 - Git & GitHub: recitations/reci1-github.md
+      # recitations/index.md # Dummy home page; remove once we start adding recitations below
+      - Recitation 1 - Git & GitHub: recitations/reci1-github.md
       # - Recitation 2 - Team Contract Workshop: recitations/reci2-teamcontract.md
       # - Recitation 3 - Software Archaeology: recitations/reci3-archaeology.md
       # - Recitation 4 - Team Dysfunction: recitations/reci4-dysfunction.md
