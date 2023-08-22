@@ -2,11 +2,11 @@
 title: Recitation 1 - Git Collaboration
 ---
 
-# Recitation 1: Using Git & Github for Collaborative Development
+# Recitation 1: Using Git & Github for Collaborative TypeScript Development
 
 ## Overview
 
-After this recitation, the students should be able to use Git and GitHub for their teamwork in this course and other projects. Students should know about the GitFlow workflow and how to collaborate with other developers in their projects.
+After this recitation, students should be able to use Git and GitHub for their teamwork in this course and other projects. Students should know about the GitFlow workflow and how to collaborate with other developers in their projects. Students will learn about working with Git and GitHub by converting a file from JavaScript to TypeScript - a migration that students will perform again on Project 1.
 
 ## Prerequisites
 
@@ -32,7 +32,7 @@ After this recitation, the students should be able to use Git and GitHub for the
 Our GH actions pipeline suggests that the main branch is broken! Let’s walk through the process to fix these errors.
 
 !!! note "Merging to `main`"
-	In practice, you should **not** merge a branch into the main branch that could cause main to fail. This way, we can ensure that all the code on main is our most recent working product
+In practice, you should **not** merge a branch into the main branch that could cause main to fail. This way, we can ensure that all the code on main is our most recent working product
 
 ## Activity 2: Setting up Kanban board and creating issues
 
