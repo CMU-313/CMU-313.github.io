@@ -32,7 +32,7 @@ After this recitation, students should be able to use Git and GitHub for their t
 Our GH actions pipeline suggests that the main branch is broken! Let’s walk through the process to fix these errors.
 
 !!! note "Merging to `main`"
-In practice, you should **not** merge a branch into the main branch that could cause main to fail. This way, we can ensure that all the code on main is our most recent working product
+    In practice, you should **not** merge a branch into the main branch that could cause main to fail. This way, we can ensure that all the code on main is our most recent working product
 
 ## Activity 2: Setting up Kanban board and creating issues
 
