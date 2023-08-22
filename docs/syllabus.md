@@ -48,7 +48,7 @@ Evaluation will be based on the following distribution: 60% projects, 20% midter
 | 3 | 10  | 100 | 10% | 6% |
 | 4 | 14  | 125 | 12.5% | 7.5% |
 | 5 | 27 | 400 | 40% | 24% |
-|   | **TOTAL**   | 1000 | 100.00% | 60.00% | 
+|   | **TOTAL**   | 1000 | 100% | 60% | 
 
 ## Regrades
 Regrade requests can be submitted via Gradescope. The regrade period is open for one week after grades have been released for a particular assignment.
