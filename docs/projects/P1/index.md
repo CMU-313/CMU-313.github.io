@@ -21,7 +21,7 @@ Our fork contains some tweaks to make the project easier to modify and debug. Th
 ## Deliverables and Deadlines
 This is an **individual assignment**. There are four (4) deliverables and one (1) deadline for this homework.
 
-**Onboarding** – 100 points – due Thursday, January 26th, 11:59pm
+**Onboarding** – 100 points – due Thursday, September 7th, 11:59pm
 
 - [Build Checkpoint](#getting-started) (5 pts)
 - [GitHub Issue](#github-issue-20-pts) (20 pts)
@@ -33,8 +33,8 @@ This is an **individual assignment**. There are four (4) deliverables and one (1
 Before jumping into the codebase, please review the [course syllabus](/syllabus) and be sure you have access to each of the following:
 
 - Course Slack - check your email for an invite link
-- [Canvas](https://canvas.cmu.edu/courses/33307)
-- [Gradescope](https://www.gradescope.com/courses/488839)
+- [Canvas](https://canvas.cmu.edu/courses/36599)
+- [Gradescope](https://www.gradescope.com/courses/583198)
 
 If you run into any trouble accessing the above or have any questions, reach out to the instructors.
 
@@ -79,7 +79,7 @@ Follow the **Development Tools** section in the repository README to run both th
 
 After the test suite finishes running, NodeBB will also generate a **code coverage report**. This report gives you measurements with regards to what percentage of the codebase is covered by the test suite. Open the `index.html` file in the `coverage` folder to see the full report.
 
-!!! note "Coverage Report (added 1/19/23)"
+!!! note "Coverage Report"
 	As this is an existing codebase with a decently-sized test suite, you should expect to see a relatively **high percentage of coverage**, i.e. the majority of the bars/cells displayed should be green.
 
 	If you are seeing **a lot** of red bars, it may mean that the test suite was not run properly. Double-check that all of the tests passed and that there were no failures.
@@ -97,7 +97,7 @@ Upon completing the above steps, take screenshots of
 
 opened in your browser. **Be sure the URL is clearly visible in both screenshots** (i.e. `localhost:4567` and the file path to your coverage file), so we can confirm that you have everything running locally.
 
-Submit the two screenshots to [Gradescope](https://www.gradescope.com/courses/488839).
+Submit the two screenshots to [Gradescope](https://www.gradescope.com/courses/583198).
 
 
 ## Onboarding
