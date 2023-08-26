@@ -1,4 +1,8 @@
 # Project 1A: Build Checkpoint
+
+## Deliverables
+
+**Build Checkpoint** – 5 points – due Friday, September 1st, 11:59pm
 ## Prerequisites
 ### Onboarding Materials
 Before jumping into the codebase, please review the [course syllabus](/syllabus) and be sure you have access to each of the following:
@@ -18,7 +22,7 @@ In this project and throughout the rest of this course, you will be expected to 
 - [x] Creating GitHub Pull Requests and using related features (linking to issues)
 - [x] Creating GitHub Project Boards
 
-If you are not familiar with any of these steps, you are **highly recommended** to first complete a short [Github Exercise](/projects/P1/github), as it will cover the standards we are expecting in this class (which you will be graded upon). Refer to the [Resources & Documentation](#git--github-documentation) section if needed.
+If you are not familiar with any of these steps, you are **highly recommended** to first complete a short [Github Exercise](/projects/P1/github), as it will cover the standards we are expecting in this class (which you will be graded upon). Refer to the [Resources & Documentation](/projects/P1/documentation/#git--github-documentation) section if needed.
 
 ## Getting Started
 

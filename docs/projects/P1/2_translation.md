@@ -1,4 +1,12 @@
 # Project 1B: TypeScript Translation
+## Deliverables
+Starter Task - 95 points - due Thursday, September 7th, 11:59PM
+
+- [GitHub Issue](#github-issue-20-pts) (20 pts)
+- [TypeScript Translation](#typescript-translation-10-pts) (10 pts)
+- [GitHub Pull Request](#github-pull-request-25-pts) (25 pts)
+- [Gradescope Written Assignment](#written-assignment-40-pts) (40 pts)
+
 ## Onboarding
 Now that you have explored the repository, the development team would like to give you an onboarding assignment.
 
@@ -33,7 +41,7 @@ You should soon see another comment by the `github-actions` bot informing you th
 	
 	For future projects, you will have full control over these GitHub features such as managing assignees, adding labels, creating milestones, and more.
 
-### GitHub Pull Request (35 pts)
+### TypeScript Translation (10 pts)
 Back in **your own fork**, create a feature branch and implement the change. You should start with the following steps:
 
 - [Install TypeScript](https://www.typescriptlang.org/download)
@@ -52,8 +60,9 @@ Your changes must still pass both the linter and the test suite, so be sure to t
 	// eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
 	```
 
-	We will check your files to make sure you are only suppressing these warnings when absolutely necessary. For examples and more details, see the [Additional TypeScript Background](#additional-typescript-background) section under "Resources and Documentation" below.
+	We will check your files to make sure you are only suppressing these warnings when absolutely necessary. For examples and more details, see the [Additional TypeScript Background](/projects/P1/documentation#additional-typescript-background) section under "Resources and Documentation".
 
+### GitHub Pull Request (25 pts)
 As you work, be sure to periodically commit your changes. Your commit message(s) must clearly describe what is changing. If you’d like, you can also make use of branching and pull requests in your own repository to practice working with GitHub.
 
 ??? info "Branch and Commit Guidelines"

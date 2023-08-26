@@ -23,8 +23,9 @@ This is an **individual assignment**. There are four (4) deliverables and two (2
 
 A) [**Build Checkpoint**](/projects/P1/1_checkpoint) - 5 points - due Friday, September 1st, 11:59pm
 
-B) [**TypeScript Translation Task**](/projects/P1/2_translation) - 95 points - due Thursday, September 7th, 11:59PM
+B) [**Starter Task**](/projects/P1/2_translation) - 95 points - due Thursday, September 7th, 11:59PM
 
-- [GitHub Issue](#github-issue-20-pts) (20 pts)
-- [GitHub Pull Request](#github-pull-request-35-pts) (35 pts)
-- [Gradescope Written Assignment](#written-assignment-40-pts) (40 pts)
+- GitHub Issue (20 pts)
+- TypeScript Translation (10 pts)
+- GitHub Pull Request (25 pts)
+- Gradescope Written Assignment (40 pts)
