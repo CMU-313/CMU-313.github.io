@@ -19,7 +19,7 @@ For your own development, you will be forking your own repository off of a class
 Our fork contains some tweaks to make the project easier to modify and debug. This will also allow you to create issues and pull requests that are visible to the instructors, which will be the primary way of submitting code deliverables for this project.
 
 ## Deliverables and Deadlines
-This is an **individual assignment**. There are four (4) deliverables and one (2) deadline for this homework.
+This is an **individual assignment**. There are four (4) deliverables and two (2) deadlines for this homework.
 
 A) [**Build Checkpoint**](/projects/P1/1_checkpoint) - 5 points - due Friday, September 1st, 11:59pm
 
