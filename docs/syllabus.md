@@ -53,7 +53,7 @@ Evaluation will be based on the following distribution: 60% projects, 20% midter
 ## Regrades
 Regrade requests can be submitted via Gradescope. The regrade period is open for one week after grades have been released for a particular assignment.
 
-## Late Work Policy
+## Late Work and Absence Policy
 
 ### Participation
 Participation points in this class are earned through a series of pre-lecture reading assignments, lecture activities, and recitations. To accommodate for life's uncertainties (e.g. health issues, scheduling conflicts), you will automatically get full points for up to **four** missed participation activities to account for any absences. You do not need to email instructors individually for one-off absences of this sort.
