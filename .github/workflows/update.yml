@@ -39,5 +39,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
 
-      - name: Deploy website
-        uses: ./.github/workflows/deploy.yml
+  deploy-website:
+    uses: ./.github/workflows/deploy.yml
