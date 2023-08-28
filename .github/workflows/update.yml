@@ -40,4 +40,6 @@ jobs:
           branch: main
 
   deploy-website:
+    if: ${{ github.event_name != 'push' }}  # Push events run deploy already
+    needs: update-this-week
     uses: ./.github/workflows/deploy.yml
