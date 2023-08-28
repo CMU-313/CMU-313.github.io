@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch: # Can be invoked manually from the UI
+  workflow_call:     # Can be invoked from other workflows
 permissions:
   contents: write
 jobs:
