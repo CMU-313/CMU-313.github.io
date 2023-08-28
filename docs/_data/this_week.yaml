@@ -1,4 +1,10 @@
-lectures: []
+lectures:
+- date: Tue Aug 29
+  link: ''
+  name: Introduction
+- date: Thu Aug 31
+  link: ''
+  name: Software Archaeology and Anthropology
 
 projects: []
 
