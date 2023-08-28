@@ -21,7 +21,7 @@ There are some restrictions on the `.js` file that you can pick. Specifically, t
 
 - **Be in the `src/` folder**
 - **Contain at least 50 lines of non-import statement code** before you start translating it. Files like [`src/api/index.js`](https://github.com/CMU-313/NodeBB/blob/main/src/api/index.js) and [`src/controllers/admin.js`](https://github.com/CMU-313/NodeBB/blob/main/src/controllers/admin.js) are not allowed
-- **Not be a file that someone else has already picked**. We expect you to look through existing issues, if any, to avoid such duplication (thus, there is an incentive for you to start early!)
+- **Be a file that no one else in the class has picked and created an issue for**. We expect you to look through existing issues, if any, to avoid such duplication (thus, there is an incentive for you to start early!)
 
 Title the task appropriately, such as `Converting <file name> from JS to TS`, and mention the file name in the description. To prevent ambiguities between similarly-named files, be sure to use the **full file path** (`src/../xx.js`) in the title and description. 
 
