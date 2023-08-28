@@ -22,7 +22,7 @@ In this project and throughout the rest of this course, you will be expected to 
 - [x] Creating GitHub Pull Requests and using related features (linking to issues)
 - [x] Creating GitHub Project Boards
 
-If you are not familiar with any of these steps, you are **highly recommended** to first complete a short [Github Exercise](/projects/P1/github), as it will cover the standards we are expecting in this class (which you will be graded upon). Refer to the [Resources & Documentation](/projects/P1/documentation/#git--github-documentation) section if needed.
+If you are not familiar with any of these steps, you are **highly recommended** to first complete [Recitation 1 - Git, GitHub, TypeScript](/recitations/reci1-github), as it will cover the standards we are expecting in this class (which you will be graded upon). Refer to the [Resources & Documentation](/projects/P1/documentation/#git--github-documentation) section if needed.
 
 ## Getting Started
 

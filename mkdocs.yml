@@ -73,7 +73,6 @@ nav:
               - Linux (Ubuntu): projects/P1/installation/ubuntu.md
           - Resources and Documentation: projects/P1/documentation.md
           - FAQ: projects/P1/faq.md
-          - Github Exercise: projects/P1/github.md
       # - "Project 2: Collaborative Development":
       #     - projects/P2/index.md
       #     - "2A Team Process & Planning": projects/P2/1_teamprocess.md
