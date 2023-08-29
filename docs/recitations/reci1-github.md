@@ -62,6 +62,9 @@ git push --set-upstream origin <your-branch-name>
 - Assign the issue you created to the pull request
 - Request your partner for a code review
 
+??? info "TypeScript Translation Resources"
+    The following documentation pointers will help with the code changes you'll need to make - [Exporting from Modules](https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html#exporting-from-modules), [Typing Functions](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#functions), [Express Req, Res types](https://stackoverflow.com/a/58567246)
+
 ## Activity 5a: Doing code reviews and resolving merge conflicts
 
 - Review your partner’s code (use the review change button). Approve changes if it looks good
