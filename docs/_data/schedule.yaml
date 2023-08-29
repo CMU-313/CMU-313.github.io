@@ -1,9 +1,9 @@
 - date: Mon Aug 28
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Sep 1 @ 11:59pm'
+    link: '/projects/P1'
+    name: 'Project 1A'
+    numDays: 5
   lecture:
     link: ''
     name: ''
@@ -90,9 +90,9 @@
 
 - date: Mon Sep 04
   homework:
-    deadline: 'Due Thursday Sept 7th, 11:59pm'
-    link: '/projects/P1/2_translation'
-    name: 'P1B - Starter Task'
+    deadline: 'Due Sep 7 @ 11:59pm'
+    link: '/projects/P1'
+    name: 'Project 1B'
     numDays: 4
   lecture:
     link: ''
@@ -162,10 +162,10 @@
 
 - date: Fri Sep 08
   homework:
-    deadline: ''
+    deadline: 'Due Oct 12 @ 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Project 2'
+    numDays: 25
   lecture:
     link: ''
     name: ''
@@ -720,10 +720,10 @@
 
 - date: Mon Oct 23
   homework:
-    deadline: ''
+    deadline: 'Due Nov 2 @ 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Project 3'
+    numDays: 9
   lecture:
     link: ''
     name: ''
@@ -882,10 +882,10 @@
 
 - date: Fri Nov 03
   homework:
-    deadline: ''
+    deadline: 'Due Nov 16 @ 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Project 4'
+    numDays: 10
   lecture:
     link: ''
     name: ''
@@ -1062,10 +1062,10 @@
 
 - date: Fri Nov 17
   homework:
-    deadline: ''
+    deadline: 'Due Dec 15 @ 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Project 5'
+    numDays: 21
   lecture:
     link: ''
     name: ''
