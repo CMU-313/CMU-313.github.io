@@ -23,7 +23,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'https://github.com/CMU-313/CMU-313.github.io/raw/main/docs/assets/pdfs/01-introduction-wide.pdf'
+    link: 'assets/pdfs/01-introduction-wide.pdf'
     name: 'Introduction'
   reading:
     link: ''
