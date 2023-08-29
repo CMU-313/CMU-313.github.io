@@ -26,13 +26,13 @@
     link: ''
     name: 'Introduction'
   reading:
-    link: ""
-    name: ""
+    link: ''
+    name: ''
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
 
 - date: Wed Aug 30
   homework:
