@@ -18,46 +18,13 @@
 
 - date: Tue Aug 29
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: 'Introduction'
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
-  lecture:
-    link: ""
-    name: ""
-  reading:
-    link: ""
-    name: ""
-  recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
-
-- date: Tue Aug 29
-  homework:
     deadline: 'Due Friday Sept 1st, 11:59pm'
     link: '/projects/P1'
     name: 'P1A - Build Checkpoint'
     numDays: 4
   lecture:
-    link: ""
-    name: ""
+    link: ''
+    name: 'Introduction'
   reading:
     link: ""
     name: ""
