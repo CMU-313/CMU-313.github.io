@@ -1,9 +1,9 @@
 - date: Mon Aug 28
   homework:
-    deadline: 'Due Sep 1 @ 11:59pm'
-    link: '/projects/P1'
-    name: 'Project 1A'
-    numDays: 5
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -11,15 +11,15 @@
     link: ''
     name: ''
   recitation:
-    handout: "/recitations/reci1-github/"
+    handout: "recitations/reci1-github/"
     name: "Recitation 1 - GitHub and TS"
     quiz: "https://www.gradescope.com/courses/583198/assignments/3141880/"
     slides: "https://docs.google.com/presentation/d/1yFOzbN59GNt2o_prlfBztnweQw9cufFv/edit?usp=sharing&ouid=103835569344818242692&rtpof=true&sd=true"
 
 - date: Tue Aug 29
   homework:
-    deadline: 'Due Friday Sept 1st, 11:59pm'
-    link: '/projects/P1'
+    deadline: 'Due Sep 1 @ 11:59pm'
+    link: 'projects/P1'
     name: 'P1A - Build Checkpoint'
     numDays: 4
   lecture:
@@ -91,8 +91,8 @@
 - date: Mon Sep 04
   homework:
     deadline: 'Due Sep 7 @ 11:59pm'
-    link: '/projects/P1'
-    name: 'Project 1B'
+    link: 'projects/P1'
+    name: 'P1B - Starter Task'
     numDays: 4
   lecture:
     link: ''
