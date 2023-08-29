@@ -14,6 +14,28 @@ Now that you have explored the repository, the development team would like to gi
 
 As part of the efforts to integrate this new language into the repository, all future code will be written using TypeScript and the old files are translated as necessary. To prepare you for TypeScript development, the team would like you to contribute towards rewriting the codebase.
 
+## Prerequisites
+### Onboarding Materials
+Before jumping into the codebase, please review the [course syllabus](/syllabus) and be sure you have access to each of the following:
+
+- Course Slack - check your email for an invite link
+- [Canvas](https://canvas.cmu.edu/courses/36599)
+- [Gradescope](https://www.gradescope.com/courses/583198)
+
+If you run into any trouble accessing the above or have any questions, reach out to the instructors.
+
+### Git & GitHub
+In this project and throughout the rest of this course, you will be expected to work extensively with Git and GitHub. Specifically for this project, you should be familiar with:
+
+- [x] Forking/cloning GitHub repositories
+- [x] Understanding general Git flow - pulling, branching, adding, committing, pushing, merging
+- [x] Creating GitHub Issues and using related features (labels, assignees, milestones)
+- [x] Creating GitHub Pull Requests and using related features (linking to issues)
+- [x] Creating GitHub Project Boards
+
+If you are not familiar with any of these steps, you are **highly recommended** to first complete [Recitation 1 - Git, GitHub, TypeScript](/recitations/reci1-github), as it will cover the standards we are expecting in this class (which you will be graded upon). Refer to the [Resources & Documentation](/projects/P1/documentation/#git--github-documentation) section if needed.
+
+
 ### GitHub Issue (20 pts)
 First, choose a single JavaScript file to translate and open a GitHub Issue in the [class repository](https://github.com/CMU-313/NodeBB/issues) to declare which file you will be translating.
 

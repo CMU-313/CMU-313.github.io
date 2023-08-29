@@ -3,26 +3,6 @@
 ## Deliverables
 
 **Build Checkpoint** – 5 points – due Friday, September 1st, 11:59pm
-## Prerequisites
-### Onboarding Materials
-Before jumping into the codebase, please review the [course syllabus](/syllabus) and be sure you have access to each of the following:
-
-- Course Slack - check your email for an invite link
-- [Canvas](https://canvas.cmu.edu/courses/36599)
-- [Gradescope](https://www.gradescope.com/courses/583198)
-
-If you run into any trouble accessing the above or have any questions, reach out to the instructors.
-
-### Git & GitHub
-In this project and throughout the rest of this course, you will be expected to work extensively with Git and GitHub. Specifically for this project, you should be familiar with:
-
-- [x] Forking/cloning GitHub repositories
-- [x] Understanding general Git flow - pulling, branching, adding, committing, pushing, merging
-- [x] Creating GitHub Issues and using related features (labels, assignees, milestones)
-- [x] Creating GitHub Pull Requests and using related features (linking to issues)
-- [x] Creating GitHub Project Boards
-
-If you are not familiar with any of these steps, you are **highly recommended** to first complete [Recitation 1 - Git, GitHub, TypeScript](/recitations/reci1-github), as it will cover the standards we are expecting in this class (which you will be graded upon). Refer to the [Resources & Documentation](/projects/P1/documentation/#git--github-documentation) section if needed.
 
 ## Getting Started
 
