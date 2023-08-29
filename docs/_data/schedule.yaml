@@ -18,10 +18,10 @@
 
 - date: Tue Aug 29
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Friday Sept 1st, 11:59pm'
+    link: '/projects/P1'
+    name: 'P1A - Build Checkpoint'
+    numDays: 4
   lecture:
     link: ''
     name: 'Introduction'
@@ -90,10 +90,10 @@
 
 - date: Mon Sep 04
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Thursday Sept 7th, 11:59pm'
+    link: '/projects/P1/2_translation'
+    name: 'P1B - Starter Task'
+    numDays: 4
   lecture:
     link: ''
     name: ''
