@@ -36,21 +36,21 @@
 
 - date: Wed Aug 30
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: ""
+    link: ""
+    name: ""
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: ""
+    name: ""
   reading:
-    link: ''
-    name: ''
+    link: ""
+    name: ""
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
+    handout: "/recitations/reci1-github/"
+    name: "Recitation 1 - GitHub and TS"
+    quiz: "https://www.gradescope.com/courses/583198/assignments/3141880/"
+    slides: "https://docs.google.com/presentation/d/1yFOzbN59GNt2o_prlfBztnweQw9cufFv/edit?usp=sharing&ouid=103835569344818242692&rtpof=true&sd=true"
 
 - date: Thu Aug 31
   homework:
@@ -1473,3 +1473,18 @@
     name: ''
     quiz: ''
     slides: ''
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
