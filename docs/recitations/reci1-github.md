@@ -2,11 +2,11 @@
 title: Recitation 1 - Git Collaboration
 ---
 
-# Recitation 1: Using Git & Github for Collaborative Development
+# Recitation 1: Using Git & Github for Collaborative TypeScript Development
 
 ## Overview
 
-After this recitation, the students should be able to use Git and GitHub for their teamwork in this course and other projects. Students should know about the GitFlow workflow and how to collaborate with other developers in their projects.
+After this recitation, students should be able to use Git and GitHub for their teamwork in this course and other projects. Students should know about the GitFlow workflow and how to collaborate with other developers in their projects. Students will learn about working with Git and GitHub by converting a file from JavaScript to TypeScript - a migration that students will perform again on Project 1.
 
 ## Prerequisites
 
@@ -32,16 +32,14 @@ After this recitation, the students should be able to use Git and GitHub for the
 Our GH actions pipeline suggests that the main branch is broken! Let’s walk through the process to fix these errors.
 
 !!! note "Merging to `main`"
-	In practice, you should **not** merge a branch into the main branch that could cause main to fail. This way, we can ensure that all the code on main is our most recent working product
+    In practice, you should **not** merge a branch into the main branch that could cause main to fail. This way, we can ensure that all the code on main is our most recent working product
 
 ## Activity 2: Setting up Kanban board and creating issues
 
 - Click through the build output and take a look at why eslint is failing. Take note of the names of each file - you should use these when naming your issues!
-- On GitHub, under the **Project** tab, have one person create a new project with the "Board" template. Make sure to set the project to public and invite your partner as a collaborator
-- Go back to the **Project** tab on the repository page and add the project board
+- Create a project board by clicking on the **Projects** tab, and then "New project" under the "Link a project" drop down button. Use the "Board" template.
 - Under the **Issues** tab, have the other person create an issue for for correctly translating each typescript file that fails the eslint workflow
-- Assign yourselves to both issues, one for each person
-- Add the two issues to the project Kanban board under the Todo column
+- Assign yourselves to both issues, one for each person, and add the issues to the project Kanban board you just created using the "Projects" option(two fields below "Assignees")
 
 ## Activity 3: Branching, committing, and pushing
 
@@ -64,6 +62,9 @@ git push --set-upstream origin <your-branch-name>
 - Assign the issue you created to the pull request
 - Request your partner for a code review
 
+??? info "TypeScript Translation Resources"
+    The following documentation pointers will help with the code changes you'll need to make - [Exporting from Modules](https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html#exporting-from-modules), [Typing Functions](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#functions), [Express Req, Res types](https://stackoverflow.com/a/58567246)
+
 ## Activity 5a: Doing code reviews and resolving merge conflicts
 
 - Review your partner’s code (use the review change button). Approve changes if it looks good
@@ -74,4 +75,4 @@ git push --set-upstream origin <your-branch-name>
 
 - Click on the **Actions** tab. If you have resolved all the issues correctly, the tests and linter should now pass, and a green check should show
 
-Remember to do Recitation Quiz 1 on Gradescope! Please only open it after you have completed all the steps above.
+Remember to do [Recitation Quiz 1 on Gradescope!](https://www.gradescope.com/courses/583198/assignments/3141880/) Please only open it after you have completed all the steps above.
