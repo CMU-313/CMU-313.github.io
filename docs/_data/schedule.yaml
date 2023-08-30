@@ -11,15 +11,15 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
+    handout: "recitations/reci1-github/"
+    name: "Recitation 1 - GitHub and TS"
+    quiz: "https://www.gradescope.com/courses/583198/assignments/3141880/"
+    slides: "https://docs.google.com/presentation/d/1yFOzbN59GNt2o_prlfBztnweQw9cufFv/edit?usp=sharing&ouid=103835569344818242692&rtpof=true&sd=true"
 
 - date: Tue Aug 29
   homework:
-    deadline: 'Due Friday Sept 1st, 11:59pm'
-    link: '/projects/P1'
+    deadline: 'Due Sep 1 @ 11:59pm'
+    link: 'projects/P1'
     name: 'P1A - Build Checkpoint'
     numDays: 4
   lecture:
@@ -47,10 +47,10 @@
     link: ""
     name: ""
   recitation:
-    handout: "/recitations/reci1-github/"
-    name: "Recitation 1 - GitHub and TS"
-    quiz: "https://www.gradescope.com/courses/583198/assignments/3141880/"
-    slides: "https://docs.google.com/presentation/d/1yFOzbN59GNt2o_prlfBztnweQw9cufFv/edit?usp=sharing&ouid=103835569344818242692&rtpof=true&sd=true"
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
 
 - date: Thu Aug 31
   homework:
@@ -90,8 +90,8 @@
 
 - date: Mon Sep 04
   homework:
-    deadline: 'Due Thursday Sept 7th, 11:59pm'
-    link: '/projects/P1/2_translation'
+    deadline: 'Due Sep 7 @ 11:59pm'
+    link: 'projects/P1'
     name: 'P1B - Starter Task'
     numDays: 4
   lecture:
@@ -162,10 +162,10 @@
 
 - date: Fri Sep 08
   homework:
-    deadline: ''
+    deadline: 'Due Oct 12 @ 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Project 2'
+    numDays: 25
   lecture:
     link: ''
     name: ''
@@ -720,10 +720,10 @@
 
 - date: Mon Oct 23
   homework:
-    deadline: ''
+    deadline: 'Due Nov 2 @ 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Project 3'
+    numDays: 9
   lecture:
     link: ''
     name: ''
@@ -882,10 +882,10 @@
 
 - date: Fri Nov 03
   homework:
-    deadline: ''
+    deadline: 'Due Nov 16 @ 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Project 4'
+    numDays: 10
   lecture:
     link: ''
     name: ''
@@ -1062,10 +1062,10 @@
 
 - date: Fri Nov 17
   homework:
-    deadline: ''
+    deadline: 'Due Dec 15 @ 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Project 5'
+    numDays: 21
   lecture:
     link: ''
     name: ''
