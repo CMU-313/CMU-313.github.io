@@ -40,6 +40,7 @@ Our GH actions pipeline suggests that the main branch is broken! Let’s walk th
 - Create a project board by clicking on the **Projects** tab, and then "New project" under the "Link a project" drop down button. Use the "Board" template.
 - Under the **Issues** tab, have the other person create an issue for for correctly translating each typescript file that fails the eslint workflow
 - Assign yourselves to both issues, one for each person, and add the issues to the project Kanban board you just created using the "Projects" option(two fields below "Assignees")
+- Share the Kanban/Project board with your partner or make it public so they have access to it.
 
 ## Activity 3: Branching, committing, and pushing
 
@@ -58,7 +59,7 @@ git push --set-upstream origin <your-branch-name>
   - **Make sure it is to the main of your own forked repository!** By default, Github selects the original repository instead of your own forked repository.
   - Name your pull request appropriately
   - In the description, describe what changes has been made to address the issue, and how has the changes been tested
-  - Notice that the GitHub action workflow runs automatically when you create the pull request! You should check that the file you translated passes the eslint check and that the correctness tests still pass
+  - Notice that the GitHub action workflow runs automatically when you create the pull request! You should check that there are no eslint errors associated with the file that you translated and that the correctness tests still pass. *** Note that the GitHub action itself won't pass because the linter won't pass until both files are translated, i.e. both PRs are merged. ***
 - Assign the issue you created to the pull request
 - Request your partner for a code review
 
