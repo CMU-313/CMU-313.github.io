@@ -8,15 +8,15 @@ lectures:
 
 projects:
 - date: Tue Aug 29
-  deadline: Due Friday Sept 1st, 11:59pm
+  deadline: Due Sep 1 @ 11:59pm
   end_date: 2023-09-04 00:00:00
-  link: /projects/P1
+  link: projects/P1
   name: P1A - Build Checkpoint
   numDays: 4
 
 recitation:
-  date: Wed Aug 30
-  handout: /recitations/reci1-github/
+  date: Mon Aug 28
+  handout: recitations/reci1-github/
   name: Recitation 1 - GitHub and TS
   quiz: https://www.gradescope.com/courses/583198/assignments/3141880/
   slides: https://docs.google.com/presentation/d/1yFOzbN59GNt2o_prlfBztnweQw9cufFv/edit?usp=sharing&ouid=103835569344818242692&rtpof=true&sd=true
