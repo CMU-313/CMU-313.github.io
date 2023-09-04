@@ -1,22 +1,23 @@
 lectures:
-- date: Tue Aug 29
-  link: assets/pdfs/01-introduction-wide.pdf
-  name: Introduction
-- date: Thu Aug 31
-  link: assets/pdfs/02-archaelogy-and-anthropology.pdf
-  name: Software Archaeology and Anthropology
+- date: Tue Sep 05
+  link: ''
+  name: Metrics and Measurement
+- date: Thu Sep 07
+  link: ''
+  name: Project Planning
 
 projects:
-- date: Tue Aug 29
-  deadline: Due Sep 1 @ 11:59pm
-  end_date: 2023-09-04 00:00:00
+- date: Mon Sep 04
+  deadline: Due Sep 7 @ 11:59pm
+  end_date: 2023-09-08 00:00:00
   link: projects/P1
-  name: P1A - Build Checkpoint
+  name: P1B - Starter Task
   numDays: 4
+- date: Fri Sep 08
+  deadline: Due Oct 12 @ 11:59pm
+  end_date: 2023-10-13 00:00:00
+  link: ''
+  name: Project 2
+  numDays: 25
 
-recitation:
-  date: Mon Aug 28
-  handout: recitations/reci1-github/
-  name: Recitation 1 - GitHub and TS
-  quiz: https://www.gradescope.com/courses/583198/assignments/3141880/
-  slides: https://docs.google.com/presentation/d/1yFOzbN59GNt2o_prlfBztnweQw9cufFv/edit?usp=sharing&ouid=103835569344818242692&rtpof=true&sd=true
+recitation: null
