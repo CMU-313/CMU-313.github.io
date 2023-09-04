@@ -2,7 +2,7 @@
 
 ## Deliverables
 
-**Second Sprint** – 140 points – due Thursday, March 2nd, 11:59pm
+**Second Sprint** – 140 points – due Thursday, October 12th, 11:59pm
 
 - [Process & Implementation Final Snapshot](#process--implementation-final-60-pts) (60 pts)
 - [Process & Team Reflection](#process-team-reflection-50-pts) (50 pts)
