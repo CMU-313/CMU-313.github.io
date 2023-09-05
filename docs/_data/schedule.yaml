@@ -113,7 +113,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/03-measurement-wide.pdf'
     name: 'Metrics and Measurement'
   reading:
     link: ''
