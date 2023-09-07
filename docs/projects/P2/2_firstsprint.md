@@ -5,7 +5,7 @@
 **First Sprint** – 100 points – due Tuesday, September 26th, 11:59pm
 
 - [Process & Implementation Interim Snapshot](#process--implementation-interim-50-pts) (50 pts)
-- [Checkpoint Presentation](#checkpoint-presentation-50-pts) (50 pts) - **Held in Recitation on Monday, February 13th**
+- [Checkpoint Presentation](#checkpoint-presentation-50-pts) (50 pts) - **Held in Recitation on Wednesday September 27th / Friday September 29th**
 
 
 ## Process & Implementation Interim (50 pts)
