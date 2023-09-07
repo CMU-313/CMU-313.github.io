@@ -35,7 +35,7 @@ Detailed information for each of the deadlines has been split into its own subpa
     
     To manage all of the write-ups, we recommend saving the pages as a PDF to print or annotate on as you work through the assignment with your team.
 
-A) [**Team Process & Planning**](/projects/P2/1_teamprocess) – 80 points – due Thursday, September 13th, 11:59pm
+A) [**Team Process & Planning**](/projects/P2/1_teamprocess) – 80 points – due Thursday, September 14th, 11:59pm
 
 - **Prerequisite:** Team Setup
 - Teamwork Contract (40 pts)
