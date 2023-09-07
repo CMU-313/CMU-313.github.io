@@ -35,6 +35,9 @@ Submit a link to your repository and your Github Project board onto Gradescope. 
 
 ## Process & Team Reflection (50 pts)
 
+!!! warning "Use of Generative AI Forbidden"
+    As described in [the syllabus,](/syllabus/#policy-on-use-of-generative-ai-for-writing) the use of generative AI tools for this part of the assignment is forbidden, and will be considered to be an academic integrity violation. 
+
 After coding is complete, reflect on your experience as a team. Again, we look for honest reflection, which will likely include reflection on failures. **We will not grade whether you predicted the effort correctly, but rather what you have learned**. 
 
 You will see the following groups of questions on Gradescope. We recommend that your team use collaborative text editing tools like Google Docs to draft your answers, then submit your final answers to Gradescope.
@@ -77,6 +80,9 @@ Being able to communicate effectively is an important software engineering skill
 
 ## Individual Reflection (30 pts)
 
+!!! warning "Use of Generative AI Forbidden"
+    As described in [the syllabus,](/syllabus/#policy-on-use-of-generative-ai-for-writing) the use of generative AI tools for this part of the assignment is forbidden, and will be considered to be an academic integrity violation. 
+    
 In addition to the team reflection, you will also be submitting an individual reflection on Gradescope. 
 
 We want you to connect this project's experience with your previous experience with collaborative development. Your previous experience may be from an academic or non-academic setting, such as internships, hackathons, or personal projects.
