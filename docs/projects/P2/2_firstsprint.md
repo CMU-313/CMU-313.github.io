@@ -2,10 +2,10 @@
 
 ## Deliverables
 
-**First Sprint** – 100 points – due Tuesday, September 26th, 11:59pm
+**First Sprint** – 95 points – due Tuesday, September 26th, 11:59pm
 
 - [Process & Implementation Interim Snapshot](#process--implementation-interim-50-pts) (50 pts)
-- [Checkpoint Presentation](#checkpoint-presentation-50-pts) (50 pts) - **Held in Recitation on Wednesday September 27th / Friday September 29th**
+- [Checkpoint Presentation](#checkpoint-presentation-50-pts) (45 pts) - **Held in Recitation on Wednesday September 27th / Friday September 29th**
 
 
 ## Process & Implementation Interim (50 pts)
@@ -35,7 +35,7 @@ You must commit all of your changes to the main branch of your **team repository
 Submit a link to your repository and your Github Project board onto Gradescope. For grading, we will take a snapshot of your repository and board right at the deadline and grade based on your progress there.
 
 
-## Checkpoint Presentation (50 pts)
+## Checkpoint Presentation (45 pts)
 
 During the Week 5 recitation slot (**Wednesday September 27th / Friday September 29th**), your group will give a 10-minute presentation describing your current progress, followed by a short 1-2 minute Q&A session where you can get feedback from the TAs and your peers.
 

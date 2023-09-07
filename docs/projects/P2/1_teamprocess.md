@@ -2,12 +2,12 @@
 
 ## Deliverables
 
-**Team Process & Planning** – 80 points – due Thursday, September 14th, 11:59pm
+**Team Process & Planning** – 70 points – due Thursday, September 14th, 11:59pm
 
 - **Prerequisite:** [Team Setup](#team-setup)
-- [Teamwork Contract](#teamwork-contract-40-pts) (40 pts)
-- [Project Planning](#project-planning-40-pts) (40 pts)
-- *[Extra Credit](#extra-credit-8-pts) (8 pts)*
+- [Teamwork Contract](#teamwork-contract-40-pts) (35 pts)
+- [Project Planning](#project-planning-40-pts) (35 pts)
+- *[Extra Credit](#extra-credit-8-pts) (7 pts)*
 
 
 ## Team Setup
@@ -53,7 +53,7 @@ As the course moves into team-based projects, we will be releasing weekly self-a
 
 ## Main Deliverables
 
-### Teamwork Contract (40 pts)
+### Teamwork Contract (35 pts)
 
 When working with a team, it is important to discuss each team member’s background, and establish common expectations of the team. Miscommunication or the general lack of communication are often the most common causes of team conflict. 
 
@@ -96,7 +96,7 @@ Once you have completed the contract itself, have all members sign and date the 
 We also **highly recommend** that you [bookmark](https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links) the teamwork contract in your team’s Slack channel.
 
 
-### Project Planning (40 pts)
+### Project Planning (35 pts)
 
 Before your team jumps into development, you must first determine what features to implement. Schedule and hold an initial project planning meeting with your team to complete the steps outlined below.
 
@@ -162,7 +162,7 @@ You should actively assign and move these issues across your Kanban board as you
 Include a link to your GitHub board in your Gradescope submission. If you are unsure about your planned changes, you can ask for feedback from a member of the course staff!
 
 
-### Extra Credit (8 pts)
+### Extra Credit (7 pts)
 Getting to know your colleagues in a friendly context can often lead to more effective collaboration; for example, healthy teams often get lunch together. To incentivize this, we will give your team extra credit for this assignment if you meet for a team bonding experience outside of a working session.
 
 You might want to eat together, go out for boba, or hold a board game session. If someone on your team is not feeling well, you may also do a virtual activity such as an online gaming session (Drawphone, Skribbl.io, etc.) or social "Zoom lunch". 
