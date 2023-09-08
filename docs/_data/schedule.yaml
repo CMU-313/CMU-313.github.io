@@ -162,10 +162,10 @@
 
 - date: Fri Sep 08
   homework:
-    deadline: 'Due Sep 13 @ 11:59pm'
+    deadline: 'Due Sep 14 @ 11:59pm'
     link: 'projects/P2'
     name: 'Project 2A'
-    numDays: 4
+    numDays: 5
   lecture:
     link: ''
     name: ''
@@ -234,10 +234,10 @@
 
 - date: Thu Sep 14
   homework:
-    deadline: 'Due Sep 26 @ 11:59pm'
-    link: 'projects/P2/2_firstsprint'
-    name: 'Project 2B'
-    numDays: 9
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: 'Case Study: Boeing 737 MAX'
@@ -252,10 +252,10 @@
 
 - date: Fri Sep 15
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Sep 26 @ 11:59pm'
+    link: 'projects/P2/2_firstsprint'
+    name: 'Project 2B'
+    numDays: 8
   lecture:
     link: ''
     name: ''
