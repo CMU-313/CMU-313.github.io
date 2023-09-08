@@ -2,12 +2,12 @@
 
 ## Deliverables
 
-**Team Process & Planning** – 80 points – due Thursday, February 2nd, 11:59pm
+**Team Process & Planning** – 70 points – due Thursday, September 14th, 11:59pm
 
 - **Prerequisite:** [Team Setup](#team-setup)
-- [Teamwork Contract](#teamwork-contract-40-pts) (40 pts)
-- [Project Planning](#project-planning-40-pts) (40 pts)
-- *[Extra Credit](#extra-credit-8-pts) (8 pts)*
+- [Teamwork Contract](#teamwork-contract-40-pts) (35 pts)
+- [Project Planning](#project-planning-40-pts) (35 pts)
+- *[Extra Credit](#extra-credit-8-pts) (7 pts)*
 
 
 ## Team Setup
@@ -24,7 +24,7 @@ You can use this Slack channel for subsequent project-team related discussions o
 
 You will be working on your team repository for this project. Once you have decided on a team name, go to the link below to set up your team:
 
-[https://classroom.github.com/a/h0Z9Kv-d](https://classroom.github.com/a/h0Z9Kv-d)
+[https://classroom.github.com/a/_nJ1-0ds](https://classroom.github.com/a/_nJ1-0ds)
 
 !!! warning
     After you join a team on GitHub, you cannot change teams! Make sure that **only one** of you creates the team, and make sure that the remaining teammates join the right team.
@@ -48,12 +48,12 @@ For each code-based deliverable, we will look at a snapshot of your repository a
 
 ### Teamwork Self-Assessment
 
-As the course moves into team-based projects, we will be releasing weekly self-assessments on Canvas, each worth one participation point. These are meant to be short surveys and should not take more than a few minutes. They are intended to help you reflect on your team's process and prompt you to think about how to improve it. The first one will be released on **Friday, January 27th** and due the following **Friday, February 3rd** (both at 11:59pm).
+As the course moves into team-based projects, we will be releasing weekly self-assessments, each worth one participation point. These are meant to be short surveys and should not take more than a few minutes. They are intended to help you reflect on your team's process and prompt you to think about how to improve it. The first one will be released on **Friday, September 8th** and due the following **Friday, September 15th** (both at 11:59pm).
 
 
 ## Main Deliverables
 
-### Teamwork Contract (40 pts)
+### Teamwork Contract (35 pts)
 
 When working with a team, it is important to discuss each team member’s background, and establish common expectations of the team. Miscommunication or the general lack of communication are often the most common causes of team conflict. 
 
@@ -96,7 +96,7 @@ Once you have completed the contract itself, have all members sign and date the 
 We also **highly recommend** that you [bookmark](https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links) the teamwork contract in your team’s Slack channel.
 
 
-### Project Planning (40 pts)
+### Project Planning (35 pts)
 
 Before your team jumps into development, you must first determine what features to implement. Schedule and hold an initial project planning meeting with your team to complete the steps outlined below.
 
@@ -162,7 +162,7 @@ You should actively assign and move these issues across your Kanban board as you
 Include a link to your GitHub board in your Gradescope submission. If you are unsure about your planned changes, you can ask for feedback from a member of the course staff!
 
 
-### Extra Credit (8 pts)
+### Extra Credit (7 pts)
 Getting to know your colleagues in a friendly context can often lead to more effective collaboration; for example, healthy teams often get lunch together. To incentivize this, we will give your team extra credit for this assignment if you meet for a team bonding experience outside of a working session.
 
 You might want to eat together, go out for boba, or hold a board game session. If someone on your team is not feeling well, you may also do a virtual activity such as an online gaming session (Drawphone, Skribbl.io, etc.) or social "Zoom lunch". 

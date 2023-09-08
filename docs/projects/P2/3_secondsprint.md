@@ -2,14 +2,14 @@
 
 ## Deliverables
 
-**Second Sprint** – 140 points – due Thursday, March 2nd, 11:59pm
+**Second Sprint** – 110 points – due Thursday, October 12th, 11:59pm
 
-- [Process & Implementation Final Snapshot](#process--implementation-final-60-pts) (60 pts)
-- [Process & Team Reflection](#process-team-reflection-50-pts) (50 pts)
+- [Process & Implementation Final Snapshot](#process--implementation-final-60-pts) (50 pts)
+- [Process & Team Reflection](#process-team-reflection-50-pts) (30 pts)
 - [Individual Reflection](#individual-reflection-30-pts) (30 pts)
 
 
-## Process & Implementation Final (60 pts)
+## Process & Implementation Final (50 pts)
 Continue working on the implementation of your feature(s). Be sure to continue following best practices for collaborative development similar to the previous sprint.
 
 As you become more familiar with the codebase, we have higher expectations for the final deliverables of this sprint. Specifically, along with your feature changes, we expect to see:
@@ -33,7 +33,10 @@ You must commit all of your changes to the main branch of your team repository b
 Submit a link to your repository and your Github Project board onto Gradescope. For grading, we will take a snapshot of your repository and board right at the deadline and grade based on your progress there.
 
 
-## Process & Team Reflection (50 pts)
+## Process & Team Reflection (30 pts)
+
+!!! warning "Use of Generative AI Forbidden"
+    As described in [the syllabus,](/syllabus/#policy-on-use-of-generative-ai-for-writing) the use of generative AI tools for this part of the assignment is forbidden, and will be considered to be an academic integrity violation. 
 
 After coding is complete, reflect on your experience as a team. Again, we look for honest reflection, which will likely include reflection on failures. **We will not grade whether you predicted the effort correctly, but rather what you have learned**. 
 
@@ -76,6 +79,9 @@ Being able to communicate effectively is an important software engineering skill
 
 
 ## Individual Reflection (30 pts)
+
+!!! warning "Use of Generative AI Forbidden"
+    As described in [the syllabus,](/syllabus/#policy-on-use-of-generative-ai-for-writing) the use of generative AI tools for this part of the assignment is forbidden, and will be considered to be an academic integrity violation. 
 
 In addition to the team reflection, you will also be submitting an individual reflection on Gradescope. 
 

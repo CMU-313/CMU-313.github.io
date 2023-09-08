@@ -2,10 +2,10 @@
 
 ## Deliverables
 
-**First Sprint** – 100 points – due Tuesday, February 14th, 11:59pm
+**First Sprint** – 95 points – due Tuesday, September 26th, 11:59pm
 
 - [Process & Implementation Interim Snapshot](#process--implementation-interim-50-pts) (50 pts)
-- [Checkpoint Presentation](#checkpoint-presentation-50-pts) (50 pts) - **Held in Recitation on Monday, February 13th**
+- [Checkpoint Presentation](#checkpoint-presentation-50-pts) (45 pts) - **Held in Recitation on Wednesday September 27th / Friday September 29th**
 
 
 ## Process & Implementation Interim (50 pts)
@@ -19,7 +19,7 @@ You should follow best practices for collaborative development such as using fea
 
 Be sure to **review each other’s code** - both from a quality assurance standpoint, but also so you have a better understanding of the codebase. Although code reviews can be done asynchronously, we encourage the first few to be done synchronously so you can discuss the changes with your teammates and learn more about the codebase.
 
-To fit with the translation efforts described in Project 1, **any new code introduced to the codebase should be in TypeScript**. This does mean that you may need to translate existing files to fulfill this requirement.
+To fit with the translation efforts described in Project 1, ** we strongly encourage that any new code introduced to the codebase should be in TypeScript**. This does mean that you may need to translate existing files to fulfill this requirement.
 
 !!! note "Using Translations from Project 1"
     Most of the existing files should have been translated by your classmates in Project 1! Feel free to reference their translations for your own uses - for citation purposes, include a short comment at the top of your file that cites the original translator and a link to where you found the translation, for example:
@@ -28,6 +28,15 @@ To fit with the translation efforts described in Project 1, **any new code intro
     // Referenced @student’s TypeScript translation from P1: [PR link]
     ```
 
+!!! note "Requirements for using JavaScript"
+    If you use JavaScript instead of TypeScript for a given code change, then **you must perform all of the following sanity checks for each affected function.**
+    
+    - Document the type signature in code comments
+    - Assert function parameter types in the body
+    - Assert function return types in the body or write unit tests that execute and validate that the function returns the expected type.
+    
+    You can use [`typeof` operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof) and [`assert()` method](https://developer.mozilla.org/en-US/docs/Web/API/console/assert) to perform the above.
+
 Every member of your team **must** contribute to the implementation. One way we will evaluate this is that each team member must have at least one commit as a part of the solution. Failure to do so will result in a significant penalty to your grade.
 
 You must commit all of your changes to the main branch of your **team repository** before the homework deadline. Unlike the previous assignment, you should **not** submit your changes to the parent NodeBB repository.
@@ -35,9 +44,9 @@ You must commit all of your changes to the main branch of your **team repository
 Submit a link to your repository and your Github Project board onto Gradescope. For grading, we will take a snapshot of your repository and board right at the deadline and grade based on your progress there.
 
 
-## Checkpoint Presentation (50 pts)
+## Checkpoint Presentation (45 pts)
 
-During the Week 5 recitation slot (**Monday February 13th**), your group will give a 10-minute presentation describing your current progress, followed by a short 1-2 minute Q&A session where you can get feedback from the TAs and your peers.
+During the Week 5 recitation slot (**Wednesday September 27th / Friday September 29th**), your group will give a 10-minute presentation describing your current progress, followed by a short 1-2 minute Q&A session where you can get feedback from the TAs and your peers.
 
 Your slides should include the following information (the recommended slides amount is in parentheses):
 

@@ -31,24 +31,24 @@ This will be the first assignment with your group. There are three (3) deadlines
 Detailed information for each of the deadlines has been split into its own subpage on the left.
 
 !!! tip
-    This is a large assignment spanning from now until Spring Break. We estimate that this project will take each student on the team on average 8 hours/week over the next 5 weeks, for a total of 40 hours. We highly recommend reading through the entire assignment before starting so you are aware of our expectations for the later deliverables.
+    This is a large assignment spanning from now until Fall Break. We estimate that this project will take each student on the team on average 8 hours/week over the next 5 weeks, for a total of 40 hours. We highly recommend reading through the entire assignment before starting so you are aware of our expectations for the later deliverables.
     
     To manage all of the write-ups, we recommend saving the pages as a PDF to print or annotate on as you work through the assignment with your team.
 
-A) [**Team Process & Planning**](/projects/P2/1_teamprocess) – 80 points – due Thursday, February 2nd, 11:59pm
+A) [**Team Process & Planning**](/projects/P2/1_teamprocess) – 70 points – due Thursday, September 14th, 11:59pm
 
 - **Prerequisite:** Team Setup
-- Teamwork Contract (40 pts)
-- Project Planning (40 pts)
-- *Extra Credit (8 pts)*
+- Teamwork Contract (35 pts)
+- Project Planning (35 pts)
+- *Extra Credit (7 pts)*
 
-B) [**First Sprint**](/projects/P2/2_firstsprint) – 100 points – due Tuesday, February 14th, 11:59pm
+B) [**First Sprint**](/projects/P2/2_firstsprint) – 95 points – due Tuesday, September 26th, 11:59pm
 
 - Process & Implementation Interim Snapshot (50 pts)
-- Checkpoint Presentation (50 pts) - **Held in Recitation on Monday, February 13th**
+- Checkpoint Presentation (45 pts) - **Held in Recitation on Wednesday September 27th / Friday September 29th**
 
-C) [**Second Sprint**](/projects/P2/3_secondsprint) – 140 points – due Thursday, March 2nd, 11:59pm
+C) [**Second Sprint**](/projects/P2/3_secondsprint) – 110 points – due Thursday, October 12th, 11:59pm
 
-- Process & Implementation Final Snapshot (60 pts)
-- Team Reflection (50 pts)
+- Process & Implementation Final Snapshot (50 pts)
+- Team Reflection (30 pts)
 - Individual Reflection (30 pts)
