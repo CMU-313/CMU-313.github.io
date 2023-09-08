@@ -19,7 +19,7 @@ You should follow best practices for collaborative development such as using fea
 
 Be sure to **review each other’s code** - both from a quality assurance standpoint, but also so you have a better understanding of the codebase. Although code reviews can be done asynchronously, we encourage the first few to be done synchronously so you can discuss the changes with your teammates and learn more about the codebase.
 
-To fit with the translation efforts described in Project 1, ** we strongly encourage that any new code introduced to the codebase should be in TypeScript**. This does mean that you may need to translate existing files to fulfill this requirement.
+To fit with the translation efforts described in Project 1, ** we strongly encourage that any new code introduced to the codebase should be in TypeScript**. This does mean that you may want to translate existing files that you work with to TypeScript.
 
 !!! note "Using Translations from Project 1"
     Most of the existing files should have been translated by your classmates in Project 1! Feel free to reference their translations for your own uses - for citation purposes, include a short comment at the top of your file that cites the original translator and a link to where you found the translation, for example:
