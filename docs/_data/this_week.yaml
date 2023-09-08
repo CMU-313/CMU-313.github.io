@@ -7,18 +7,12 @@ lectures:
   name: Project Planning
 
 projects:
-- date: Mon Sep 04
-  deadline: Due Sep 7 @ 11:59pm
-  end_date: 2023-09-08 00:00:00
-  link: projects/P1
-  name: P1B - Starter Task
-  numDays: 4
 - date: Fri Sep 08
-  deadline: Due Oct 12 @ 11:59pm
-  end_date: 2023-10-13 00:00:00
-  link: ''
-  name: Project 2
-  numDays: 25
+  deadline: Due Sep 13 @ 11:59pm
+  end_date: 2023-09-14 00:00:00
+  link: projects/P2
+  name: Project 2A
+  numDays: 4
 
 recitation:
   date: Mon Sep 04
