@@ -13,9 +13,9 @@ Throughout this recitation, students will:
 
 * Learn about CI/CD and the basics of how to set it up in a Github repo
 
-* Get hands on experience deploying with multiple cloud providers - render.com and Google Cloud Platform.
+* Get hands on experience deploying with multiple cloud providers - Render and Google Cloud Platform.
 
-* Set up the _Extreme Startup_ web app for use in Tuesday's (9/19) lecture
+* Set up and get familiarized with the _Extreme Startup_ web app for use in Tuesday's (9/19) lecture
 
   
 
@@ -43,7 +43,7 @@ There's quite a lot to learn about CI/CD. If you're interested in learning more,
 
   
 
-## Task 0: Prep
+## Task 0: Setting up your repository
 
   
 
@@ -53,7 +53,7 @@ For this recitation, we'll be working with a basic web app built on Next.js that
 
 The steps to do this are as follows:
 
-!!! warning
+!!! Warning
 	Do not use codespaces for this task, and the rest of the recitation. Everything must be done locally.
 
 1. Fork this repo: [https://github.com/CMU-313/basic-web-app](https://github.com/CMU-313/basic-web-app).
@@ -63,21 +63,27 @@ The steps to do this are as follows:
 
 ## Task 1: Continuous Deployment
 
-Render.com
+To start off, you'll be deploying the app you just forked on two cloud platforms - Render and Google Cloud Platform. The goal here is to make your app accessible over the internet via two platforms. You'll also be setting up continuous deployment such that both of these deployments are updated with the latest version of the app, whenever you push code to the main branch of your repository.
+
+### Task 1A: Deploy on Render
   
-1. Create an account on [render.com](https://render.com)
+1. Create an account on [Render](https://render.com)
 2. Create a new Web Service
 3. Choose "Build and deploy from a Git repository"
-4. Click on Configure account, to give render access to your GitHub repositories - this is necessary to setup continuous deployment.
+4. Click on Configure account under GitHub, to give Render access to your GitHub repositories - this is necessary to setup continuous deployment.
 5. Connect your basic-web-app fork to the Web Service you just created
 6. Give your web service a name
 7. Set the Runtime to "Node", Build Command to `npm install; npm run build` and Start Command to `npm start`
 8. Make sure that the "Free" Instance Type is selected, and click "Create Web Service"
 9. When the build completes, click on the link of the form `*.onrender.com` at the top of the page to view the deployment.
 
-GCP
+### Task 1B: Deploy on Google Cloud Platform
 
-setup account/coupon instructions go here
+First, you need to redeem your GCP credits using the following instructions.
+
+** TODO: add GCP coupon redemption instructions **
+
+Now that you've redeemed your coupon, use the following instructions to deploy on GCP.
 
 1. Create a project called "Extreme Startup" using the [GCP Cloud Console](https://console.cloud.google.com/projectcreate?previousPage=%2Fwelcome%3Fproject%3Dextreme-startup&organizationId=703967796528) (you can set the location to "Students")
 2. Visit the [Cloud Run console](https://console.cloud.google.com/run) and select the project you just created using the project selector drop down(top-left)
@@ -87,44 +93,20 @@ setup account/coupon instructions go here
 6. Set the Build Type to the "Go, Node.js, Python, ..." option
 7. Set the Entrypoint to be `npm install; npm run build; npm start`
 8. In the "Authentication" section select "Allow unauthenticated invocations" and hit "Create"
-9. Once the deployment is complete, click on URL of the form `*.run.app` at the top of the page to view the deployment.
+9. Once the deployment is complete, click on the URL of the form `*.run.app` at the top of the page to view the deployment.
 
+With this complete, you'll be able to quickly iterate and any changes you make and push to your fork will be automatically deployed on both Render and GCP. Cool!
 
-Next, we'll setup CD. Our goal is to set up a GitHub action that links to our Fly.io account and automatically redeploys a new version of our app whenever a new change is pushed into the main branch.
+## Task 2: Implement "What is your Andrew ID?"
 
-  
+To test that the continuous deployments are working as expected, and familiarize yourself with the basic web app codebase, let's implement support for the query "What is your Andrew ID?"
 
-The steps to do this are as follows:
-
-  
-
-1. Get a Fly API token with `flyctl auth token`.
-
-2. Go to your fork on GitHub and click Settings.
-
-3. Go to Secrets and Variables > Actions and create a repository secret called `FLY_API_TOKEN` with the value of the token from the previous step. This is how GitHub will link to your Fly.io account.
-
-4. Double check that `fly.toml` (the config file fly.io uses for deployment) is not listed in your `.gitignore`.
-
-5. Create a new file `.github/workflows/fly.yml`.This is the file that will outline instructions for the GitHub action.
-
-6. Fill the file with the contents listed under step 8 [here](https://fly.io/docs/app-guides/continuous-deployment-with-github-actions/).
-
-7. Commit and push your changes!
-
-  
-
-Now let's take a step back and understand what we've done. First, we generated an authorization token and used it to connect Fly.io to our GitHub repo. Then, we created a `fly.yml` file setting up a GitHub action that automatically runs the deployment commands whenever a push is made to the main branch. See if you can figure out which lines do what in the code above!
-
-  
-
-Now, look through the codebase and try to change the header on your app's frontend while testing with the local development server. Once you have made your changes, commit and push them. Back on GitHub, you should see the Action trigger and your app will redeploy!
-
-  
-
-With this complete, you'll be able to quickly iterate and any changes you make and push to your fork will be automatically deployed. Cool!
-
-  
+1. Extend the `QueryProcessor` function to support this question in `utils/QueryProcessor.tsx` - this is where all the Query Processing logic exists
+2. Verify that the implementation is correct by running the app locally and testing manually.
+2. Write a test for the query you just implemented in `__tests__/utils/QueryProcess.test.ts`
+3. Verify that the tests function correctly by running `npm run test`.
+5. Commit and push your changes
+6. Once pushed, verify that CD is functioning correctly by checking that the GCP and Render deployments support the query you just implemented.
 
 ## Bonus Task: Continuous Integration
 
@@ -178,15 +160,13 @@ steps:
 
 Hint: Look at the readme of the basic-web-app repo!
 
-  
+!!! note "Conditional CD"
+    In an ideal world, you would condition the deployment action on this action, such that your app is only deployed if the linter and tests pass. Sadly, our world is not ideal :(, but if you want to learn more, click [here](https://docs.github.com/en/actions/using-jobs/using-conditions-to-control-job-execution) and [here](https://docs.github.com/en/actions/learn-github-actions/expressions)!
 
-**Note: In an ideal world, you would condition the deployment action on this action, such that your app is only deployed if the linter and tests pass. Sadly, our world is not ideal :(, but if you want to learn more, click [here](https://docs.github.com/en/actions/using-jobs/using-conditions-to-control-job-execution) and [here](https://docs.github.com/en/actions/learn-github-actions/expressions)!**
-
-  
 
 Once this is complete, you will be ready for the game next week. Good job and good luck!
 
   
 
-Remember to do Recitation 6 Quiz on Gradescope!
+Remember to do Recitation 3 Quiz on Gradescope!
 
