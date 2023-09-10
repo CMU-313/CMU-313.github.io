@@ -1,5 +1,5 @@
 
-# Recitation 6: Deployment
+# Recitation 3: Deployment
 
   
 
@@ -13,9 +13,9 @@ Throughout this recitation, students will:
 
 * Learn about CI/CD and the basics of how to set it up in a Github repo
 
-* Get hands on experience deploying with Fly.io (or Vercel as a backup)
+* Get hands on experience deploying with multiple cloud providers - render.com and Google Cloud Platform.
 
-* Set up the Extreme Startup web app for use in Tuesday's (3/14) lecture
+* Set up the _Extreme Startup_ web app for use in Tuesday's (9/19) lecture
 
   
 
@@ -47,7 +47,7 @@ There's quite a lot to learn about CI/CD. If you're interested in learning more,
 
   
 
-For this recitation, we'll be working with a basic web app built on Next.js that responds to HTTP requests. Your job on Tuesday during the ~Extreme Startup~ game will be to parse these requests and figure out what the correct response is. Today we'll focus on setting up the app so that everything is in place for the game.
+For this recitation, we'll be working with a basic web app built on Next.js that responds to HTTP requests. Your job on Tuesday during the _Extreme Startup_ game will be to parse these requests and figure out what the correct response is. Today we'll focus on setting up the app so that everything is in place for the game.
 
   
 
@@ -58,29 +58,37 @@ The steps to do this are as follows:
 
 1. Fork this repo: [https://github.com/CMU-313/basic-web-app](https://github.com/CMU-313/basic-web-app).
 
-2. Follow the instructions in the readme to run the development server locally.
-
-3. Install the Fly.io CLI and set up the Fly.io account that you'll use to host your app. Complete steps 1-3 of the instructions [here](https://fly.io/docs/hands-on/).
-
-4. In your local basic-web-app repo, run `fly launch` followed by `fly open`
-
-  
-
-Now check your [fly.io dashboard](https://fly.io/dashboard) to monitor your app deployment.
-
-  
-
-This has already been a lot of instructions, so good job for getting this far!!!
-
-  
-
-**Note: Fly.io offers a free tier and you should not be required to enter any credit card info for the purposes of this recitation. If you get a message saying that a credit card is required, you can complete the recitation using Vercel instead. See the backup instructions below.**
-
+2. Follow the instructions in the readme to run and test the development server locally.
   
 
 ## Task 1: Continuous Deployment
 
+Render.com
   
+1. Create an account on [render.com](https://render.com)
+2. Create a new Web Service
+3. Choose "Build and deploy from a Git repository"
+4. Click on Configure account, to give render access to your GitHub repositories - this is necessary to setup continuous deployment.
+5. Connect your basic-web-app fork to the Web Service you just created
+6. Give your web service a name
+7. Set the Runtime to "Node", Build Command to `npm install; npm run build` and Start Command to `npm start`
+8. Make sure that the "Free" Instance Type is selected, and click "Create Web Service"
+9. When the build completes, click on the link of the form `*.onrender.com` at the top of the page to view the deployment.
+
+GCP
+
+setup account/coupon instructions go here
+
+1. Create a project called "Extreme Startup" using the [GCP Cloud Console](https://console.cloud.google.com/projectcreate?previousPage=%2Fwelcome%3Fproject%3Dextreme-startup&organizationId=703967796528) (you can set the location to "Students")
+2. Visit the [Cloud Run console](https://console.cloud.google.com/run) and select the project you just created using the project selector drop down(top-left)
+3. Click on "Create Service"
+4. Select "Continuously deploy new revisions from a source repository" and click "Set up with Cloud Build"
+5. Set the Source repository to be your basic-web-app fork - you may need to click on "Manage connected repositories" and authenticate with GitHub if you don't see the repository.
+6. Set the Build Type to the "Go, Node.js, Python, ..." option
+7. Set the Entrypoint to be `npm install; npm run build; npm start`
+8. In the "Authentication" section select "Allow unauthenticated invocations" and hit "Create"
+9. Once the deployment is complete, click on URL of the form `*.run.app` at the top of the page to view the deployment.
+
 
 Next, we'll setup CD. Our goal is to set up a GitHub action that links to our Fly.io account and automatically redeploys a new version of our app whenever a new change is pushed into the main branch.
 
@@ -122,7 +130,7 @@ With this complete, you'll be able to quickly iterate and any changes you make a
 
   
 
-While the steps above are all that is required for the ~Extreme Startup~ game, we'll spend the rest of the recitation setting up CI for our repo as well. For our purposes, we'll set up an action that runs ESLint and our Jest tests whenever we push to the repo.
+While the steps above are all that is required for the _Extreme Startup_ game, we'll spend the rest of the recitation setting up CI for our repo as well. For our purposes, we'll set up an action that runs ESLint and our Jest tests whenever we push to the repo.
 
   
 
@@ -176,26 +184,9 @@ Hint: Look at the readme of the basic-web-app repo!
 
   
 
-Once this is complete, you will be ready for the game tomorrow. Good job and good luck!
+Once this is complete, you will be ready for the game next week. Good job and good luck!
 
   
 
 Remember to do Recitation 6 Quiz on Gradescope!
 
-  
-
-## Vercel Backup Instructions
-
-  
-
-### Task 0
-
-See the instructions [here](https://docs.google.com/document/d/1FINHlDBRLeBjR65KyJ1zDtObvQC8ydjqV36-w6Zwex0/edit#heading=h.xbhcc8nupq1s) to setup a Vercel deployment.
-
-### Task 1
-
-To learn how to setup a deployment GitHub action for Vercel, see [here](https://vercel.com/guides/how-can-i-use-github-actions-with-vercel).
-
-### Task 2
-
-Same as above!
