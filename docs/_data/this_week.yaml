@@ -1,10 +1,10 @@
 lectures:
-- date: Tue Sep 05
-  link: assets/pdfs/03-measurement-wide.pdf
-  name: Metrics and Measurement
-- date: Thu Sep 07
-  link: assets/pdfs/04-planning-wide.pdf
-  name: Project Planning
+- date: Tue Sep 12
+  link: assets/pdfs/05-teams-communication-wide.pdf
+  name: Teams and Communication
+- date: Thu Sep 14
+  link: ''
+  name: 'Case Study: Boeing 737 MAX'
 
 projects:
 - date: Fri Sep 08
@@ -13,10 +13,11 @@ projects:
   link: projects/P2
   name: Project 2A
   numDays: 5
+- date: Fri Sep 15
+  deadline: Due Sep 26 @ 11:59pm
+  end_date: 2023-09-27 00:00:00
+  link: projects/P2/2_firstsprint
+  name: Project 2B
+  numDays: 8
 
-recitation:
-  date: Mon Sep 04
-  handout: recitations/reci2-teamcontract/
-  name: Recitation 2 - Team Contract Workshop
-  quiz: https://www.gradescope.com/courses/583198/assignments/3256944
-  slides: https://docs.google.com/presentation/d/1-Ksbtt4AATfuf1w99NKBRWSyQJIydUQAQLfBkp9cPzU/edit?usp=sharing
+recitation: null
