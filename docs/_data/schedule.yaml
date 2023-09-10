@@ -203,7 +203,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/05-teams-communication-wide.pdf'
     name: 'Teams and Communication'
   reading:
     link: ''
