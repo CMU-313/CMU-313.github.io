@@ -23,4 +23,9 @@ projects:
   name: Project 2B
   numDays: 8
 
-recitation: null
+recitation:
+  date: Mon Sep 11
+  handout: ''
+  name: Recitation 3 - Deploy a simple web app
+  quiz: ''
+  slides: ''
