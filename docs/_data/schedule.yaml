@@ -242,8 +242,8 @@
     link: ''
     name: 'Case Study: Boeing 737 MAX'
   reading:
-    link: ''
-    name: ''
+    link: 'https://www.gradescope.com/courses/583198/assignments/3307307'
+    name: 'Boeing 737 Max'
   recitation:
     handout: ''
     name: ''
@@ -282,7 +282,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: "Recitation 4 - Code Archaeology"
     quiz: ''
     slides: ''
 
@@ -372,7 +372,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: "Recitation 5 - P2 Presentations"
     quiz: ''
     slides: ''
 
@@ -462,7 +462,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: "Recitation 6 - Midterm Review"
     quiz: ''
     slides: ''
 
@@ -552,7 +552,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'No recitation (midterms)'
     quiz: ''
     slides: ''
 
@@ -642,7 +642,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'No recitation (fall break)'
     quiz: ''
     slides: ''
 
@@ -732,7 +732,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: "Recitation 7 - Team Dysfunction"
     quiz: ''
     slides: ''
 

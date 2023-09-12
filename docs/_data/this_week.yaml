@@ -5,6 +5,9 @@ lectures:
 - date: Thu Sep 14
   link: ''
   name: 'Case Study: Boeing 737 MAX'
+  reading:
+    link: https://www.gradescope.com/courses/583198/assignments/3307307
+    name: Boeing 737 Max
 
 projects:
 - date: Fri Sep 08
@@ -20,4 +23,9 @@ projects:
   name: Project 2B
   numDays: 8
 
-recitation: null
+recitation:
+  date: Mon Sep 11
+  handout: ''
+  name: Recitation 3 - Deploy a simple web app
+  quiz: ''
+  slides: ''
