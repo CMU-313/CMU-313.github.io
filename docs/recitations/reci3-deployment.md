@@ -59,6 +59,10 @@ The steps to do this are as follows:
 1. Fork this repo: [https://github.com/CMU-313/basic-web-app](https://github.com/CMU-313/basic-web-app).
 
 2. Follow the instructions in the readme to run and test the development server locally.
+
+3. Once you have it running locally visit [http://localhost:3000](http://localhost:3000) and try different queries like "Who was Shakespeare?" and "What is your Andrew ID?"
+
+4. Also visit [http://localhost:3000/api?q=shakespeare](http://localhost:3000/api?q=shakespeare) - this is the API endpoint that our game server will use at next week's lecture.
   
 
 ## Task 1: Continuous Deployment
