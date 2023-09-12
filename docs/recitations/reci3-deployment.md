@@ -72,7 +72,7 @@ To start off, you'll be deploying the app you just forked on two cloud platforms
 3. Choose "Build and deploy from a Git repository"
 4. Click on Configure account under GitHub, to give Render access to your GitHub repositories - this is necessary to setup continuous deployment.
 5. Connect your basic-web-app fork to the Web Service you just created
-6. Give your web service a name
+6. Name your web server `<andrewID>-313`
 7. Set the Runtime to "Node", Build Command to `npm install; npm run build` and Start Command to `npm start`
 8. Make sure that the "Free" Instance Type is selected, and click "Create Web Service"
 9. When the build completes, click on the link of the form `*.onrender.com` at the top of the page to view the deployment.
