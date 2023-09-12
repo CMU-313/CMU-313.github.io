@@ -81,7 +81,9 @@ To start off, you'll be deploying the app you just forked on two cloud platforms
 
 First, you need to redeem your GCP credits using the following instructions.
 
-** TODO: add GCP coupon redemption instructions **
+1. Fill out the form within [this](https://gcp.secure.force.com/GCPEDU?cid=jNiJXsspdHxisefhvWgRB4vlYgFHf25hnlxWcQ9A4B7TORUD40BjE6%2F6DBVwqQwL/) link with your first and last name and andrew ID
+2. Go to your school email and click the link in an email from "Google Cloud Notifications" to verify your email address
+3. Go back to your email, click on the link ("click here to redeem") within a second email from "Google Cloud Notifications," and copy the provided code into the field within the new link
 
 Now that you've redeemed your coupon, use the following instructions to deploy on GCP.
 
