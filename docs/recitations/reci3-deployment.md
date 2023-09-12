@@ -148,19 +148,19 @@ jobs:
 
 __BLANK 2__:
 
-runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-name: __BLANK 3__
+    name: __BLANK 3__
 
-steps:
+    steps:
 
-- uses: actions/checkout@v3
+    - uses: actions/checkout@v3
 
-- uses: bahmutov/npm-install@v1
+    - uses: bahmutov/npm-install@v1
 
-- run: npm run __BLANK 4__ (Run ESLint)
+    - run: npm run __BLANK 4__ (Run ESLint)
 
-- run: __BLANK 5__ (Run Jest)
+    - run: __BLANK 5__ (Run Jest)
 
 ```
 
