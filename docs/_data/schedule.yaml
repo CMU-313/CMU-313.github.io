@@ -191,9 +191,9 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: "Recitation 3 - Deploy a simple web app"
-    quiz: ''
+    handout: "recitations/reci3-deployment/"
+    name: "Recitation 3 - Deployment"
+    quiz: "https://www.gradescope.com/courses/583198/assignments/3301087/"
     slides: ''
 
 - date: Tue Sep 12
