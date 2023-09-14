@@ -239,7 +239,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/06-boeing-case-study.pdf'
     name: 'Case Study: Boeing 737 MAX'
   reading:
     link: 'https://www.gradescope.com/courses/583198/assignments/3307307'
