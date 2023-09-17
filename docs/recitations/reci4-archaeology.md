@@ -10,11 +10,11 @@ In today’s recitation, we will practice getting to know an unknown codebase sp
 
 **Let's fix some bugs!**
 
-Check out [this issue](https://github.com/CMU-313/CMU-313-spring23-sw-archaeology-recitation/issues/1) of the bug. Currently, comments can’t be deleted. Even if we click on the delete button, it does not work.
+Check out [this issue](https://github.com/CMU-313/CMU-313-fall23-sw-archaeology-recitation/issues/1) of the bug. Currently, comments can’t be deleted. Even if we click on the delete button, it does not work.
 
 ## Task 0: Clone the repo
 
-- Fork [this repository](https://github.com/CMU-313/CMU-313-spring23-sw-archaeology-recitation) and clone it. Follow the README to install the necessary modules and run Albumy.
+- Fork [this repository](https://github.com/CMU-313/CMU-313-fall23-sw-archaeology-recitation) and clone it. Follow the README to install the necessary modules and run Albumy.
 
 ## Task 1: Reproduce the bug
 
