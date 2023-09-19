@@ -16,7 +16,7 @@ projects:
 
 recitation:
   date: Mon Sep 18
-  handout: ''
+  handout: recitations/reci4-archaeology/
   name: Recitation 4 - Code Archaeology
-  quiz: ''
-  slides: ''
+  quiz: 'https://www.gradescope.com/courses/583198/assignments/3347773'
+  slides: 'https://docs.google.com/presentation/d/15rgSBUlpZPRJMPlt8vmgryiSeKvNG7x0-IJNYPd-M_M/edit?usp=sharing'
