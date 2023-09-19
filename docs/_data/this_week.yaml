@@ -1,21 +1,12 @@
 lectures:
-- date: Tue Sep 12
-  link: assets/pdfs/05-teams-communication-wide.pdf
-  name: Teams and Communication
-- date: Thu Sep 14
-  link: assets/pdfs/06-boeing-case-study.pdf
-  name: 'Case Study: Boeing 737 MAX'
-  reading:
-    link: https://www.gradescope.com/courses/583198/assignments/3307307
-    name: Boeing 737 Max
+- date: Tue Sep 19
+  link: ''
+  name: Deployment Workshop
+- date: Thu Sep 21
+  link: ''
+  name: 'Software Quality: Testing and Continuous Integration'
 
 projects:
-- date: Fri Sep 08
-  deadline: Due Sep 14 @ 11:59pm
-  end_date: 2023-09-15 00:00:00
-  link: projects/P2
-  name: Project 2A
-  numDays: 5
 - date: Fri Sep 15
   deadline: Due Sep 26 @ 11:59pm
   end_date: 2023-09-27 00:00:00
