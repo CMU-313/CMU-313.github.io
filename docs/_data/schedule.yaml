@@ -293,8 +293,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Deployment Workshop'
+    link: 'assets/pdfs/07-deployment-workshop-extreme-startup.pdf'
+    name: 'SE Deployment Workshop: Extreme Startup'
   reading:
     link: ''
     name: ''

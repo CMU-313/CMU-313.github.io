@@ -1,7 +1,7 @@
 lectures:
 - date: Tue Sep 19
-  link: ''
-  name: Deployment Workshop
+  link: assets/pdfs/07-deployment-workshop-extreme-startup.pdf
+  name: 'SE Deployment Workshop: Extreme Startup'
 - date: Thu Sep 21
   link: ''
   name: 'Software Quality: Testing and Continuous Integration'
