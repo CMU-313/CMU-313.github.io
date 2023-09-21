@@ -329,8 +329,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Software Quality: Testing and Continuous Integration'
+    link: 'assets/pdfs/08-software-testing.pdf'
+    name: 'Software Testing'
   reading:
     link: ''
     name: ''
