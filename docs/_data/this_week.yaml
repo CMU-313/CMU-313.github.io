@@ -1,10 +1,10 @@
 lectures:
-- date: Tue Sep 19
-  link: assets/pdfs/07-deployment-workshop-extreme-startup.pdf
-  name: 'SE Deployment Workshop: Extreme Startup'
-- date: Thu Sep 21
-  link: assets/pdfs/08-software-testing.pdf
-  name: Software Testing
+- date: Tue Sep 26
+  link: ''
+  name: 'Architecture: Introduction'
+- date: Thu Sep 28
+  link: ''
+  name: 'Architecture: Design Documentation'
 
 projects:
 - date: Fri Sep 15
@@ -13,10 +13,16 @@ projects:
   link: projects/P2/2_firstsprint
   name: Project 2B
   numDays: 8
+- date: Wed Sep 27
+  deadline: Due Oct 12 @ 11:59pm
+  end_date: 2023-10-13 00:00:00
+  link: projects/P2/3_secondsprint
+  name: Project 2C
+  numDays: 12
 
 recitation:
-  date: Mon Sep 18
-  handout: recitations/reci4-archaeology/
-  name: Recitation 4 - Code Archaeology
-  quiz: https://www.gradescope.com/courses/583198/assignments/3347773
-  slides: https://docs.google.com/presentation/d/15rgSBUlpZPRJMPlt8vmgryiSeKvNG7x0-IJNYPd-M_M/edit?usp=sharing
+  date: Mon Sep 25
+  handout: ''
+  name: Recitation 5 - P2 Presentations
+  quiz: ''
+  slides: ''
