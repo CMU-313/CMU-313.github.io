@@ -383,8 +383,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Architecture: Introduction'
+    link: 'assets/pdfs/09-Architecture-Intro.pdf'
+    name: 'Introduction to Software Architecture'
   reading:
     link: ''
     name: ''

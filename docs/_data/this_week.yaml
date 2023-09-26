@@ -1,7 +1,7 @@
 lectures:
 - date: Tue Sep 26
-  link: ''
-  name: 'Architecture: Introduction'
+  link: assets/pdfs/09-Architecture-Intro.pdf
+  name: Introduction to Software Architecture
 - date: Thu Sep 28
   link: ''
   name: 'Architecture: Design Documentation'
