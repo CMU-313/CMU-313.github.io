@@ -3,16 +3,10 @@ lectures:
   link: assets/pdfs/09-Architecture-Intro.pdf
   name: Introduction to Software Architecture
 - date: Thu Sep 28
-  link: ''
+  link: assets/pdfs/10-arch-design-docs.pdf
   name: 'Architecture: Design Documentation'
 
 projects:
-- date: Fri Sep 15
-  deadline: Due Sep 26 @ 11:59pm
-  end_date: 2023-09-27 00:00:00
-  link: projects/P2/2_firstsprint
-  name: Project 2B
-  numDays: 8
 - date: Wed Sep 27
   deadline: Due Oct 12 @ 11:59pm
   end_date: 2023-10-13 00:00:00
