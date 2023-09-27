@@ -419,7 +419,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/10-arch-design-docs.pdf'
     name: 'Architecture: Design Documentation'
   reading:
     link: ''
