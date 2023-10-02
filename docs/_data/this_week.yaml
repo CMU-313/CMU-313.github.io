@@ -1,10 +1,10 @@
 lectures:
-- date: Tue Sep 26
-  link: assets/pdfs/09-Architecture-Intro.pdf
-  name: Introduction to Software Architecture
-- date: Thu Sep 28
-  link: assets/pdfs/10-arch-design-docs.pdf
-  name: 'Architecture: Design Documentation'
+- date: Tue Oct 03
+  link: ''
+  name: 'Architecture: Microservices'
+- date: Thu Oct 05
+  link: ''
+  name: Software Risk Management
 
 projects:
 - date: Wed Sep 27
@@ -15,8 +15,8 @@ projects:
   numDays: 12
 
 recitation:
-  date: Mon Sep 25
+  date: Mon Oct 02
   handout: ''
-  name: Recitation 5 - P2 Presentations
+  name: Recitation 6 - Midterm Review
   quiz: ''
   slides: ''
