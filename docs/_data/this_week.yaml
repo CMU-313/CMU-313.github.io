@@ -1,6 +1,6 @@
 lectures:
 - date: Tue Oct 03
-  link: ''
+  link: assets/pdfs/11-microservices.pdf
   name: 'Architecture: Microservices'
 - date: Thu Oct 05
   link: ''
