@@ -1,5 +1,5 @@
 ---
-title: Recitation 5 - Midterm Review
+title: Recitation 6 - Midterm Review
 ---
 
 # Recitation 6: Midterm Review
