@@ -3,8 +3,8 @@ lectures:
   link: assets/pdfs/11-microservices.pdf
   name: 'Architecture: Microservices'
 - date: Thu Oct 05
-  link: ''
-  name: Software Risk Management
+  link: assets/pdfs/12-code-review.pdf
+  name: 'Software Risk Management: Code Review'
 
 projects:
 - date: Wed Sep 27
