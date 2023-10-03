@@ -509,8 +509,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Software Risk Management'
+    link: 'assets/pdfs/12-code-review.pdf'
+    name: 'Software Risk Management: Code Review'
   reading:
     link: ''
     name: ''
