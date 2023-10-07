@@ -2,7 +2,6 @@
 
 This document will provide instructions to create a serverless deployment of NodeBB on GCP.
 
-
 ## Setup Redis Database on upstash
 
 We'll be using a database-as-a-service called upstash to host the Redis database associated with our NodeBB deployment.
@@ -43,7 +42,7 @@ You should see a form that says "NodeBB Web Installer".
 
 ## Create Config Script
 
-Since we'll be
+At this point, we could use the web installer to generate the `config.json` file in our container and setup NodeBB. However, since this a serverless deployment, we're not guaranteed any persistence of data generated at runtime.
 
 Congratulations, you have now successfully deployed NodeBB!
 
