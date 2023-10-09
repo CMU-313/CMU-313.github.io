@@ -1,10 +1,10 @@
 lectures:
-- date: Tue Oct 03
-  link: assets/pdfs/11-microservices.pdf
-  name: 'Architecture: Microservices'
-- date: Thu Oct 05
-  link: assets/pdfs/12-code-review.pdf
-  name: 'Software Risk Management: Code Review'
+- date: Tue Oct 10
+  link: ''
+  name: MIDTERM EXAM
+- date: Thu Oct 12
+  link: ''
+  name: Organization of Software Teams
 
 projects:
 - date: Wed Sep 27
@@ -15,8 +15,8 @@ projects:
   numDays: 12
 
 recitation:
-  date: Mon Oct 02
-  handout: recitations/reci6-midterm-review/
-  name: Recitation 6 - Midterm Review
+  date: Mon Oct 09
+  handout: ''
+  name: No recitation (midterms)
   quiz: ''
   slides: ''
