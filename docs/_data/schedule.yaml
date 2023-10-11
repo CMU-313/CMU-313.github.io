@@ -836,8 +836,8 @@
     link: ''
     name: 'Software Process'
   reading:
-    link: ''
-    name: ''
+    link: 'assets/readings/teaching_case_teamwork_short3.pdf'
+    name: 'Teamwork in a first Scrum project'
   recitation:
     handout: ''
     name: ''
