@@ -599,8 +599,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Organization of Software Teams'
+    link: 'assets/pdfs/14-software-team-roles.pdf'
+    name: 'Software Team Roles'
   reading:
     link: ''
     name: ''
