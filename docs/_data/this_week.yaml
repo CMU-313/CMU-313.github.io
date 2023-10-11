@@ -3,8 +3,8 @@ lectures:
   link: ''
   name: MIDTERM EXAM
 - date: Thu Oct 12
-  link: ''
-  name: Organization of Software Teams
+  link: assets/pdfs/14-software-team-roles.pdf
+  name: Software Team Roles
 
 projects:
 - date: Wed Sep 27
