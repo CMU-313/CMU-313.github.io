@@ -20,18 +20,17 @@ Secondly, evaluating existing tools and practices beyond simple linting or unit 
 ## Deliverables and Deadlines
 There are two (2) deadlines for this project. This project is worth a total of 120 points.
 
-**Checkpoint Deliverables** – 35 points – due ~~Thursday, March 16th~~ Friday, March 17th, 11:59pm
+**Checkpoint Deliverables** – 35 points – due Thursday, October 26th, 11:59pm
 
 - [Deployed Application (25 pts)](#deployed-application-25-pts)
 - [Tools Checkpoint (10 pts)](#tools-checkpoint-10-pts)
 
-**Final Deliverables** – 85 points – due Thursday, March 23rd, 11:59pm
+**Final Deliverables** – 65 points – due Thursday, November 2, 11:59pm 
 
-- [CD Implementation (10 pts)](#cd-implementation-10-pts)
-- [Tool Analysis Design Doc (60 pts)](#tool-analysis-design-doc-60-pts)
+- [Tool Analysis Design Doc (50 pts)](#tool-analysis-design-doc-60-pts)
 - [Tool Integration (15 pts)](#tool-integration-15-pts)
 
-**Extra Credit (Individual) ** - 6 points - due Thursday, March 23rd, 11:59pm
+**Extra Credit (Individual)** - 6 points - due Thursday, November 2, 11:59pm
 
 - [Feature Review (6 pts)](#feature-review-6-pts)
 
@@ -43,7 +42,7 @@ There are two (2) deadlines for this project. This project is worth a total of 1
 
 ### Deployed Application (25 pts)
 
-Your team will be using the website fly.io for the deployment of the NodeBB application. Further instructions on how to deploy can be found [here](/projects/P3/deployment).
+Your team will be using Google Cloud Platform for the deployment of the NodeBB application. Further instructions on how to deploy can be found [here](/projects/P3/deployment).
 
 Once you have successfully deployed your website, make sure to test within your team to ensure that your added feature(s) from Project 2 are properly integrated. 
 
@@ -98,16 +97,7 @@ By the checkpoint deadline, your team will submit
 
 ## Final Deliverables
 
-### CD Implementation (10 pts)
-Now that you have successfully deployed your application manually for the checkpoint deadline, add a workflow to your team repository that will automatically deploy your application. In doing so, consider how often you would want to deploy, and if you would need to make changes to your repository to ensure best development practices.
-
-!!! warning "GitHub Secrets"
-    You may have sensitive or secret values that will be required by your workflow in order to successfully deploy your application. As your team repository is public, be sure to follow best GitHub practice in [creating secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets) to prevent such values from being leaked.
-
-Submit a link to a successful deployment GitHub Action run along with a brief description/justification of how you set up the workflow to Gradescope.
-
-
-### Tool Analysis Design Doc (60 pts)
+### Tool Analysis Design Doc (50 pts)
 
 Create a Design Document/RFC that includes:
 
