@@ -49,7 +49,7 @@ Once you have successfully deployed your website, make sure to test within your 
 By the checkpoint deadline you should
 
 - Submit a link to the deployed site onto Gradescope
-- Add your deployed site to this [public spreadsheet](https://docs.google.com/spreadsheets/d/1MjR3MC6kRoXZCfIKmrR-SAiZCXOYRsug6NzAoIhFm8Q/), alongside your team name & UserGuide.md that your team submitted for Project 2. This will be used in [Feature Review](#feature-review-6-pts) for extra credit.
+- Add your deployed site to this [public spreadsheet](https://docs.google.com/spreadsheets/d/155eTtRrJGFE0QtTapAca3MhTSZ9qh9NlhENS4MRDN80/edit?usp=sharing), alongside your team name & UserGuide.md that your team submitted for Project 2. This will be used in [Feature Review](#feature-review-6-pts) for extra credit.
 
 ### Tools Checkpoint (10 pts)
 
@@ -184,7 +184,7 @@ Note that this is an **individual** task, unlike the rest of project.
 
 ### Feature Review (6 pts)
 
-For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1MjR3MC6kRoXZCfIKmrR-SAiZCXOYRsug6NzAoIhFm8Q/) to review, 1 from your own section, and 2 from other sections. 
+For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/155eTtRrJGFE0QtTapAca3MhTSZ9qh9NlhENS4MRDN80/edit?usp=sharing) to review, 1 from your own section, and 2 from other sections. 
 
 For each team, you will submit a review of their feature(s). You will need to test the feature(s) as described in their UserGuide and provide feedback on the following:
 
@@ -195,7 +195,7 @@ For each team, you will submit a review of their feature(s). You will need to te
 To qualify for extra credit, you will have to submit your review:
 
 - on Gradescope
-- in the appropriate sheet in the [public spreadsheet](https://docs.google.com/spreadsheets/d/1MjR3MC6kRoXZCfIKmrR-SAiZCXOYRsug6NzAoIhFm8Q/). There should be one sheet per team, and you should add your review to the sheet for the team you are reviewing.
+- in the appropriate sheet in the [public spreadsheet](https://docs.google.com/spreadsheets/d/155eTtRrJGFE0QtTapAca3MhTSZ9qh9NlhENS4MRDN80/edit?usp=sharing). There should be one sheet per team, and you should add your review to the sheet for the team you are reviewing.
 
 ## Grading
 To receive full credit for the checkpoint, we expect:
@@ -215,7 +215,7 @@ To receive full credit for the final deadline, we expect:
 
 To receive full credit for the extra credit, we expect:
 
-- [ ] Your review of three different teams' features on Gradescope and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/1MjR3MC6kRoXZCfIKmrR-SAiZCXOYRsug6NzAoIhFm8Q/), addressing the three questions described.
+- [ ] Your review of three different teams' features on Gradescope and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/155eTtRrJGFE0QtTapAca3MhTSZ9qh9NlhENS4MRDN80/edit?usp=sharing), addressing the three questions described.
 ## Resources & Documentation
 
 ### Starter List of Tools
