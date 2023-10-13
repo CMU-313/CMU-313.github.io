@@ -154,6 +154,6 @@ CMD  ./create_config.sh -n "${SETUP}" && ./nodebb setup || node ./nodebb build; 
 
 We're making two changes here: (1) installing the jq package to read/edit json files from our bash script, and (2) running the `create_config.sh` script on container startup.
 
-Once you push your changes, a new deployment should get triggered and it should be good to go once complete - congratulations!
+Once you push your changes, a new deployment should get triggered and it should be good to go once complete. Congratulations! You've now setup a continuous deployment of NodeBB on GCP.
 
 Be sure to share the application link with your teammates to ensure they can also access the application and test that all your added features from Project 2 have been successfully applied.
