@@ -1,22 +1,16 @@
 lectures:
-- date: Tue Oct 10
+- date: Tue Oct 17
   link: ''
-  name: MIDTERM EXAM
-- date: Thu Oct 12
-  link: assets/pdfs/14-software-team-roles.pdf
-  name: Software Team Roles
+  name: NO CLASS (Fall Break)
+- date: Thu Oct 19
+  link: ''
+  name: NO CLASS (Fall Break)
 
-projects:
-- date: Wed Sep 27
-  deadline: Due Oct 12 @ 11:59pm
-  end_date: 2023-10-13 00:00:00
-  link: projects/P2/3_secondsprint
-  name: Project 2C
-  numDays: 12
+projects: []
 
 recitation:
-  date: Mon Oct 09
+  date: Mon Oct 16
   handout: ''
-  name: No recitation (midterms)
+  name: No recitation (fall break)
   quiz: ''
   slides: ''
