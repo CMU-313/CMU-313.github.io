@@ -34,8 +34,8 @@ Once you're logged into the right credit-bearing Google account, use the followi
 5. Set the Source repository to be your team's NodeBB repository - you may need to click on "Manage connected repositories" and authenticate with GitHub if you don't see the repository.
 6. Set the Build Type to the "Dockerfile" option
 7. In the "Autoscaling" section, set the minimum number of instances to 1
-8. In the "Authentication" section select "Allow unauthenticated invocations" and hit "Create"
-9. Click on the "Container, Networking, and Security" dropdown and set the "Container Port" to 4567
+8. In the "Authentication" section select "Allow unauthenticated invocations"
+9. Click on the "Container, Networking, and Security" dropdown, set the "Container Port" to 4567 and hit create
 10. Once the deployment is complete, click on the URL of the form `*.run.app` at the top of the page to view the deployment.
 
 You should see a form that says "NodeBB Web Installer". Keep this URL handy because you'll need it later :)
