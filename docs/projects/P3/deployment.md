@@ -7,7 +7,7 @@ This document will provide instructions to create a serverless deployment of Nod
 We'll be using a database-as-a-service called upstash to host the Redis database associated with our NodeBB deployment.
 
 1. Visit [upstash](https://upstash.com) and create an account.
-2. Make sure Redis and selected, and click "Create Database"
+2. Make sure Redis is selected, and click "Create Database"
 3. Name your database, select an appropriate region and hit "Create"
 
 You should see a page that contains the endpoint, port, password, and other details associated with the redis instance you just created.
