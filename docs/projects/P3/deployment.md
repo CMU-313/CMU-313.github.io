@@ -27,7 +27,7 @@ Make sure you're logged into the Google account you used to redeem your GCP cred
 
 Once you're logged into the right credit-bearing Google account, use the following instructions to deploy on GCP Cloud Run.
 
-1. Create a project called "NodeBB" using the [GCP Cloud Console](https://console.cloud.google.com/projectcreate?previousPage=%2Fwelcome%3Fproject%3Dextreme-startup&organizationId=703967796528) (you can set the location to "Students")
+1. Create a project called "NodeBB" using the [GCP Cloud Console](https://console.cloud.google.com/projectcreate) (you can set the location to "Students")
 2. Enable the IAM API using [this link](https://console.cloud.google.com/apis/api/iam.googleapis.com/metrics). Make sure the project you just created is selected in the project selector drop down
 2. Visit the [Cloud Run console](https://console.cloud.google.com/run) and select the project you just created using the project selector drop down(top-left)
 3. Click on "Create Service"
