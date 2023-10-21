@@ -18,7 +18,7 @@ Secondly, evaluating existing tools and practices beyond simple linting or unit 
 
 
 ## Deliverables and Deadlines
-There are two (2) deadlines for this project. This project is worth a total of 120 points.
+There are two (2) deadlines for this project. This project is worth a total of 100 points.
 
 **Checkpoint Deliverables** – 35 points – due Thursday, October 26th, 11:59pm
 
@@ -35,7 +35,7 @@ There are two (2) deadlines for this project. This project is worth a total of 1
 - [Feature Review (6 pts)](#feature-review-6-pts)
 
 !!! info "Work Distribution"
-    There are two main focuses in this project: deployment and static/dynamic analysis. For the purposes of equitable distribution of labor, we recommend that you nominate one of your members to act as the SRE for this assignment who will be primarily responsible for deployment, and have all other teammates focus on tool research and integration. 
+    There are two main focuses in this project: deployment and static/dynamic analysis. For the purposes of equitable distribution of labor, we recommend that you nominate one of your members to act as the Site Reliability Engineer(SRE) for this assignment who will be primarily responsible for deployment, and have all other teammates focus on tool research and integration. 
 
 
 ## Checkpoint Deliverables
