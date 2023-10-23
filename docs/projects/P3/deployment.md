@@ -21,6 +21,9 @@ To have all the packages we need to build NodeBB, we need to change our Dockerfi
 + RUN npm install && \
 ```
 
+!!! Pushing directly to `main`
+    Feel free to push deployment configurations made throughout these instructions directly to the `main` branch. For larger configuration changes, we'd want to configure everything on a separate feature branch, and then create a PR to merge the code changes. However, since this makes the external GCP configuration more complex, you can push directly to `main`.
+
 ## Deploy on GCP Cloud Run
 
 Make sure you're logged into the Google account you used to redeem your GCP credits. If you haven't redeemed your GCP credits yet, follow the instructions in the [Deployment Recitation](/recitations/reci3-deployment/#task-1b-deploy-on-google-cloud-platform).
