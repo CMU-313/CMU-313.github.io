@@ -40,6 +40,7 @@ First, create another branch for setting up a code formatter.
 
 Then, run the following commands to install it locally and try running it:
 
+* `pip install pipenv`: install `pipenv`, a virtual environment management tool. Automatically creates and manages a virtual environment for your current project.
 * `pipenv install --dev black`: `black` is only a _development dependency_. Your package doesn't actually use it.
 * `pipenv run black . --check`: 
   * Runs `black` in the current directory. `--check` dry-runs `black` and don't alter any files.
