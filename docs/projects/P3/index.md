@@ -18,39 +18,38 @@ Secondly, evaluating existing tools and practices beyond simple linting or unit 
 
 
 ## Deliverables and Deadlines
-There are two (2) deadlines for this project. This project is worth a total of 120 points.
+There are two (2) deadlines for this project. This project is worth a total of 100 points.
 
-**Checkpoint Deliverables** – 35 points – due ~~Thursday, March 16th~~ Friday, March 17th, 11:59pm
+**Checkpoint Deliverables** – 35 points – due Friday, October 27th, 11:59pm
 
 - [Deployed Application (25 pts)](#deployed-application-25-pts)
 - [Tools Checkpoint (10 pts)](#tools-checkpoint-10-pts)
 
-**Final Deliverables** – 85 points – due Thursday, March 23rd, 11:59pm
+**Final Deliverables** – 65 points – due Thursday, November 2, 11:59pm 
 
-- [CD Implementation (10 pts)](#cd-implementation-10-pts)
-- [Tool Analysis Design Doc (60 pts)](#tool-analysis-design-doc-60-pts)
+- [Tool Analysis Design Doc (50 pts)](#tool-analysis-design-doc-60-pts)
 - [Tool Integration (15 pts)](#tool-integration-15-pts)
 
-**Extra Credit (Individual) ** - 6 points - due Thursday, March 23rd, 11:59pm
+**Extra Credit (Individual)** - 6 points - due Thursday, November 2, 11:59pm
 
 - [Feature Review (6 pts)](#feature-review-6-pts)
 
 !!! info "Work Distribution"
-    There are two main focuses in this project: deployment and static/dynamic analysis. For the purposes of equitable distribution of labor, we recommend that you nominate one of your members to act as the SRE for this assignment who will be primarily responsible for deployment, and have all other teammates focus on tool research and integration. 
+    There are two main focuses in this project: deployment and static/dynamic analysis. For the purposes of equitable distribution of labor, we recommend that you nominate one of your members to act as the Site Reliability Engineer(SRE) for this assignment who will be primarily responsible for deployment, and have all other teammates focus on tool research and integration. 
 
 
 ## Checkpoint Deliverables
 
 ### Deployed Application (25 pts)
 
-Your team will be using the website fly.io for the deployment of the NodeBB application. Further instructions on how to deploy can be found [here](/projects/P3/deployment).
+Your team will be using Google Cloud Platform for the deployment of the NodeBB application. Further instructions on how to deploy can be found [here](/projects/P3/deployment).
 
 Once you have successfully deployed your website, make sure to test within your team to ensure that your added feature(s) from Project 2 are properly integrated. 
 
 By the checkpoint deadline you should
 
 - Submit a link to the deployed site onto Gradescope
-- Add your deployed site to this [public spreadsheet](https://docs.google.com/spreadsheets/d/1MjR3MC6kRoXZCfIKmrR-SAiZCXOYRsug6NzAoIhFm8Q/), alongside your team name & UserGuide.md that your team submitted for Project 2. This will be used in [Feature Review](#feature-review-6-pts) for extra credit.
+- Add your deployed site to this [public spreadsheet](https://docs.google.com/spreadsheets/d/155eTtRrJGFE0QtTapAca3MhTSZ9qh9NlhENS4MRDN80/edit?usp=sharing), alongside your team name & UserGuide.md that your team submitted for Project 2. This will be used in [Feature Review](#feature-review-6-pts) for extra credit.
 
 ### Tools Checkpoint (10 pts)
 
@@ -98,16 +97,7 @@ By the checkpoint deadline, your team will submit
 
 ## Final Deliverables
 
-### CD Implementation (10 pts)
-Now that you have successfully deployed your application manually for the checkpoint deadline, add a workflow to your team repository that will automatically deploy your application. In doing so, consider how often you would want to deploy, and if you would need to make changes to your repository to ensure best development practices.
-
-!!! warning "GitHub Secrets"
-    You may have sensitive or secret values that will be required by your workflow in order to successfully deploy your application. As your team repository is public, be sure to follow best GitHub practice in [creating secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets) to prevent such values from being leaked.
-
-Submit a link to a successful deployment GitHub Action run along with a brief description/justification of how you set up the workflow to Gradescope.
-
-
-### Tool Analysis Design Doc (60 pts)
+### Tool Analysis Design Doc (50 pts)
 
 Create a Design Document/RFC that includes:
 
@@ -194,7 +184,7 @@ Note that this is an **individual** task, unlike the rest of project.
 
 ### Feature Review (6 pts)
 
-For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1MjR3MC6kRoXZCfIKmrR-SAiZCXOYRsug6NzAoIhFm8Q/) to review, 1 from your own section, and 2 from other sections. 
+For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/155eTtRrJGFE0QtTapAca3MhTSZ9qh9NlhENS4MRDN80/edit?usp=sharing) to review, 1 from your own section, and 2 from other sections. 
 
 For each team, you will submit a review of their feature(s). You will need to test the feature(s) as described in their UserGuide and provide feedback on the following:
 
@@ -205,7 +195,7 @@ For each team, you will submit a review of their feature(s). You will need to te
 To qualify for extra credit, you will have to submit your review:
 
 - on Gradescope
-- in the appropriate sheet in the [public spreadsheet](https://docs.google.com/spreadsheets/d/1MjR3MC6kRoXZCfIKmrR-SAiZCXOYRsug6NzAoIhFm8Q/). There should be one sheet per team, and you should add your review to the sheet for the team you are reviewing.
+- in the appropriate sheet in the [public spreadsheet](https://docs.google.com/spreadsheets/d/155eTtRrJGFE0QtTapAca3MhTSZ9qh9NlhENS4MRDN80/edit?usp=sharing). There should be one sheet per team, and you should add your review to the sheet for the team you are reviewing.
 
 ## Grading
 To receive full credit for the checkpoint, we expect:
@@ -225,7 +215,7 @@ To receive full credit for the final deadline, we expect:
 
 To receive full credit for the extra credit, we expect:
 
-- [ ] Your review of three different teams' features on Gradescope and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/1MjR3MC6kRoXZCfIKmrR-SAiZCXOYRsug6NzAoIhFm8Q/), addressing the three questions described.
+- [ ] Your review of three different teams' features on Gradescope and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/155eTtRrJGFE0QtTapAca3MhTSZ9qh9NlhENS4MRDN80/edit?usp=sharing), addressing the three questions described.
 ## Resources & Documentation
 
 ### Starter List of Tools
