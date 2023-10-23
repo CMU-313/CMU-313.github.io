@@ -1,16 +1,22 @@
 lectures:
-- date: Tue Oct 17
+- date: Tue Oct 24
   link: ''
-  name: NO CLASS (Fall Break)
-- date: Thu Oct 19
+  name: 'Quality Assurance: Static and Dynamic Analysis'
+- date: Thu Oct 26
   link: ''
-  name: NO CLASS (Fall Break)
+  name: 'Quality Assurance: Automated Testing'
 
-projects: []
+projects:
+- date: Mon Oct 23
+  deadline: Due Nov 2 @ 11:59pm
+  end_date: 2023-11-03 00:00:00
+  link: ''
+  name: Project 3
+  numDays: 9
 
 recitation:
-  date: Mon Oct 16
+  date: Mon Oct 23
   handout: ''
-  name: No recitation (fall break)
+  name: Recitation 7 - Team Dysfunction
   quiz: ''
   slides: ''
