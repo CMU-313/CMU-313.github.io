@@ -94,6 +94,7 @@ nav:
       - Recitation 3 - Deployment: recitations/reci3-deployment.md
       - Recitation 4 - Archaeology: recitations/reci4-archaeology.md
       - Recitation 6 - Midterm Review: recitations/reci6-midterm-review.md
+      - Recitation 7 - Static Analysis and Continuous Integration: recitations/reci7-static-analysis-ci.md
       # - Recitation 6 - Deployment: recitations/reci6-deployment.md
       # - Recitation 7 - Docker and Containerization: recitations/reci7-docker.md
       # - Recitation 8 - Team Feedback: recitations/reci8-team-feedback.md
