@@ -20,7 +20,7 @@ Secondly, evaluating existing tools and practices beyond simple linting or unit 
 ## Deliverables and Deadlines
 There are two (2) deadlines for this project. This project is worth a total of 100 points.
 
-**Checkpoint Deliverables** – 35 points – due Thursday, October 26th, 11:59pm
+**Checkpoint Deliverables** – 35 points – due Friday, October 27th, 11:59pm
 
 - [Deployed Application (25 pts)](#deployed-application-25-pts)
 - [Tools Checkpoint (10 pts)](#tools-checkpoint-10-pts)
