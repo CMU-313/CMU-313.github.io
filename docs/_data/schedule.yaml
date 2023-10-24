@@ -743,7 +743,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/15-analysis-tools.pdf'
     name: 'Quality Assurance: Static and Dynamic Analysis'
   reading:
     link: ''
