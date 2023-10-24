@@ -834,9 +834,9 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Software Process'
+    name: 'Effective Agile Teams'
   reading:
-    link: 'assets/readings/teaching_case_teamwork_short3.pdf'
+    link: 'readings/teaching_case_teamwork_short3.pdf'
     name: 'Teamwork in a first Scrum project'
   recitation:
     handout: ''
