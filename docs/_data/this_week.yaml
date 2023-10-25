@@ -16,7 +16,7 @@ projects:
 
 recitation:
   date: Mon Oct 23
-  handout: ''
-  name: Recitation 7 - Team Dysfunction
-  quiz: ''
-  slides: ''
+  handout: recitations/reci7-static-analysis-ci/
+  name: Recitation 7 - Static Analysis & Continuous Integration
+  quiz: https://www.gradescope.com/courses/583198/assignments/3568154/
+  slides: https://docs.google.com/presentation/d/1BcnnvSKX3wCGiB2f_ewZTn7oJ6drKbgxbZjJA1LTXQo/edit?usp=sharing
