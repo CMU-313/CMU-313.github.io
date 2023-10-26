@@ -3,8 +3,8 @@ lectures:
   link: assets/pdfs/15-analysis-tools.pdf
   name: 'Quality Assurance: Static and Dynamic Analysis'
 - date: Thu Oct 26
-  link: ''
-  name: 'Quality Assurance: Automated Testing'
+  link: assets/pdfs/16-advanced-testing.pdf
+  name: 'Quality Assurance: Automated Testing and Dynamic Analysis'
 
 projects:
 - date: Mon Oct 23

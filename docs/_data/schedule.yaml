@@ -779,8 +779,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Quality Assurance: Automated Testing'
+    link: 'assets/pdfs/16-advanced-testing.pdf'
+    name: 'Quality Assurance: Automated Testing and Dynamic Analysis'
   reading:
     link: ''
     name: ''
