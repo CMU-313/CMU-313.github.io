@@ -8,7 +8,7 @@ For this recitation and Project 4, you'll be using Google's Vertex AI Platform i
 
 1.  Enable the Vertex AI API using [this link](https://console.cloud.google.com/flows/enableapi?apiid=aiplatform.googleapis.com). Make sure your NodeBB project from P3 is selected in the project selector dropdown.
     
-2.  Open the Colab notebook using [this link](https://colab.research.google.com/drive/1bgO0xIj1QMWKOHru6viSknJGCFu9Dnkd?usp=sharing). Click on File --> Save as a copy in Drive to create your own copy.
+2.  Open the Colab notebook using [this link](https://colab.research.google.com/drive/1bgO0xIj1QMWKOHru6viSknJGCFu9Dnkd?usp=sharing). Click on File --> Save as a copy in Drive to create your own copy that you will work on.
     
 3.  Click on Share and make sure the Colab notebook is accessible to anyone in Carnegie Mellon University. You will submit a link to this notebook for Gradescope.
 
@@ -39,3 +39,4 @@ we will use [_cosine similarity_](https://en.wikipedia.org/wiki/Cosine_similarit
 
 Follow the notebook instructions to calculate cosine similarity for a sample of 10 questions. What are some limitations with this metric? Are there ways of changing the prompt to make the outputs better?
 
+Once you are done, submit the link to your Colab notebook to gradescope at [this link](https://www.gradescope.com/courses/583198/assignments/3599220/).
