@@ -16,7 +16,7 @@ For this recitation and Project 4, you'll be using Google's Vertex AI Platform i
 
 During this recitation, students will able to run and evaluate a large language model on an example dataset. This is an individual activity so everyone should be running the notebook; however, feel free to discuss the activity and your approach with other students!
 
-## Activity 0: Running the Notebook and Installing Dependencies (5 min)
+## Activity 0: Install Dependencies and Authenticate GCP (5 min)
 
 Run the first cell of the notebook to install any Python dependencies. Follow the rest of the instructions in the notebook to authenticate GCP.
 
