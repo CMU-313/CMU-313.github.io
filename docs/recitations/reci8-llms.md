@@ -12,19 +12,24 @@ For this recitation and Project 4, you'll be using Google's Vertex AI Platform i
     
 3.  Install the gcloud CLI following the instructions in [this link](https://cloud.google.com/sdk/docs/install).
     
-4.  In your terminal, run `gcloud auth login` and open the authentication URL that is displayed. Choose the account linked to the NodeBB project, and copy the verification code and paste it into the terminal.
+4.  In your terminal, run `gcloud auth application-default login` and open the authentication URL that is displayed. Choose the account linked to the NodeBB project, and copy the verification code and paste it into the terminal.
     
-5.  In your terminal, run `gcloud config set project PROJECT_ID`, where the `PROJECT_ID` is the ID of your NodeBB project.
+5.  In your terminal, run `gcloud config set project PROJECT_ID`, where the `PROJECT_ID` is the ID of your NodeBB project. You can find this by going to [https://console.cloud.google.com](https://console.cloud.google.com), selecting the NodeBB project
+from the dropdown, and copying the Project ID.
 
 ## Overview
 
 During this recitation, students will able to run and evaluate a large language model on an example dataset. This is an individual activity so everyone should be running the notebook; however, feel free to discuss the activity and your approach with other students!
 
+## Activity 0: Running the Notebook and Installing Dependencies (5 min)
+
+Download and run the notebook from [this repository](https://github.com/CMU-313/fa23-recitation-8) and run the first cell of the Jupyter notebook to install any Python dependencies and load in the dataset.
+
 ## Activity 1: Examine the Stanford Question Answering (SQuAD) Dataset (10 mins)
 
-The dataset contains a set of questions and answers to test a system for reading comprehension. Download the notebook from [this repository](https://github.com/CMU-313/fa23-recitation-8) and go through the first part of the Jupyter notebook to install any Python dependencies and load in the dataset. 
+The dataset contains a set of questions and answers to test a system for reading comprehension. Load in the dataset and understand the format.
 
-For one example, print out the context, question, and expected answer. 
+For one example, print out the context, question, and expected answer.
 
 ## Activity 2: Use the Vertex AI API to query the chat-bison LLM (5 min)
 
