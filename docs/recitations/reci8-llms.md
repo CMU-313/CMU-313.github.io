@@ -9,6 +9,7 @@ During this recitation, students will be able to run and evaluate a large langua
 
 ## Setup Instructions (5 min)
 For this recitation and Project 4, you'll be using Google's Vertex AI Platform in a Colab notebook to query a large language model on a question/answer dataset. First, we need to set up our GCP project to enable the API and create a copy of the Colab notebook.
+Note: if you have not yet created a GCP project and redeemed your credits, please refer to the instructions in Task 1B of [Recitation 3](https://cmu-313.github.io/recitations/reci3-deployment/). 
 
 1.  Enable the Vertex AI API using [this link](https://console.cloud.google.com/flows/enableapi?apiid=aiplatform.googleapis.com). Make sure your NodeBB project from P3 is selected in the project selector dropdown.
     
