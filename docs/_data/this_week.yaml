@@ -1,22 +1,26 @@
 lectures:
-- date: Tue Oct 24
-  link: assets/pdfs/15-analysis-tools.pdf
-  name: 'Quality Assurance: Static and Dynamic Analysis'
-- date: Thu Oct 26
-  link: assets/pdfs/16-advanced-testing.pdf
-  name: 'Quality Assurance: Automated Testing and Dynamic Analysis'
+- date: Tue Oct 31
+  link: ''
+  name: Effective Agile Teams
+  reading:
+    link: readings/teaching_case_teamwork_short3.pdf
+    name: Teamwork in a first Scrum project
+- date: Thu Nov 02
+  link: ''
+  name: AI in Software Engineering
 
 projects:
-- date: Mon Oct 23
-  deadline: Due Oct 27 @ 11:59pm
-  end_date: 2023-10-30 00:00:00
+- date: Mon Oct 30
+  deadline: Due Nov 2 @ 11:59pm
+  end_date: 2023-11-03 00:00:00
   link: projects/P3/
-  name: Project 3A
-  numDays: 5
+  name: Project 3B
+  numDays: 4
+- date: Fri Nov 03
+  deadline: Due Nov 16 @ 11:59pm
+  end_date: 2023-11-17 00:00:00
+  link: ''
+  name: Project 4
+  numDays: 10
 
-recitation:
-  date: Mon Oct 23
-  handout: recitations/reci7-static-analysis-ci/
-  name: Recitation 7 - Static Analysis & Continuous Integration
-  quiz: https://www.gradescope.com/courses/583198/assignments/3568154/
-  slides: https://docs.google.com/presentation/d/1BcnnvSKX3wCGiB2f_ewZTn7oJ6drKbgxbZjJA1LTXQo/edit?usp=sharing
+recitation: null
