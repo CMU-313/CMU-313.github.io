@@ -749,9 +749,9 @@
     link: ''
     name: ''
   recitation:
-    handout: 'recitations/reci8-llms/'
-    name: 'Recitation 8 - Large Language Models'
-    quiz: 'https://www.gradescope.com/courses/583198/assignments/3599220/'
+    handout: ''
+    name: ''
+    quiz: ''
     slides: ''
 
 - date: Wed Oct 25
@@ -821,9 +821,9 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
+    handout: 'recitations/reci8-llms/'
+    name: 'Recitation 8 - Large Language Models'
+    quiz: 'https://www.gradescope.com/courses/583198/assignments/3599220/'
     slides: ''
 
 - date: Tue Oct 31
