@@ -1,7 +1,7 @@
 lectures:
 - date: Tue Oct 31
-  link: ''
-  name: Effective Agile Teams
+  link: assets/pdfs/17-agile-effectiveness.pdf
+  name: Agile Team Effectiveness
   reading:
     link: readings/teaching_case_teamwork_short3.pdf
     name: Teamwork in a first Scrum project
