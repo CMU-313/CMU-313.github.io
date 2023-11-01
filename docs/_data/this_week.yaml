@@ -17,10 +17,15 @@ projects:
   name: Project 3B
   numDays: 4
 - date: Fri Nov 03
-  deadline: Due Nov 16 @ 11:59pm
-  end_date: 2023-11-17 00:00:00
+  deadline: Due Nov 21 @ 11:59pm
+  end_date: 2023-11-22 00:00:00
   link: ''
   name: Project 4
-  numDays: 10
+  numDays: 13
 
-recitation: null
+recitation:
+  date: Mon Oct 30
+  handout: recitations/reci8-llms/
+  name: Recitation 8 - Large Language Models
+  quiz: https://www.gradescope.com/courses/583198/assignments/3599220/
+  slides: ''
