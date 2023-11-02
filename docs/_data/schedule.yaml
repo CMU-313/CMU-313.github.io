@@ -720,10 +720,10 @@
 
 - date: Mon Oct 23
   homework:
-    deadline: 'Due Nov 2 @ 11:59pm'
-    link: ''
-    name: 'Project 3'
-    numDays: 9
+    deadline: 'Due Oct 27 @ 11:59pm'
+    link: 'projects/P3/'
+    name: 'Project 3A'
+    numDays: 5
   lecture:
     link: ''
     name: ''
@@ -743,7 +743,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/15-analysis-tools.pdf'
     name: 'Quality Assurance: Static and Dynamic Analysis'
   reading:
     link: ''
@@ -779,8 +779,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Quality Assurance: Automated Testing'
+    link: 'assets/pdfs/16-advanced-testing.pdf'
+    name: 'Quality Assurance: Automated Testing and Dynamic Analysis'
   reading:
     link: ''
     name: ''
@@ -810,10 +810,10 @@
 
 - date: Mon Oct 30
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Nov 2 @ 11:59pm'
+    link: 'projects/P3/'
+    name: 'Project 3B'
+    numDays: 4
   lecture:
     link: ''
     name: ''
@@ -821,9 +821,9 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
+    handout: 'recitations/reci8-llms/'
+    name: 'Recitation 8 - Large Language Models'
+    quiz: 'https://www.gradescope.com/courses/583198/assignments/3599220/'
     slides: ''
 
 - date: Tue Oct 31
@@ -833,10 +833,10 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Software Process'
+    link: 'assets/pdfs/17-agile-effectiveness.pdf'
+    name: 'Agile Team Effectiveness'
   reading:
-    link: 'assets/readings/teaching_case_teamwork_short3.pdf'
+    link: 'readings/teaching_case_teamwork_short3.pdf'
     name: 'Teamwork in a first Scrum project'
   recitation:
     handout: ''
@@ -869,8 +869,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Quality Assurance: Machine Learning Explainability'
+    link: 'assets/pdfs/18-llms.pdf'
+    name: 'A Software Engineer''s Guide to LLMs'
   reading:
     link: ''
     name: ''
@@ -882,10 +882,10 @@
 
 - date: Fri Nov 03
   homework:
-    deadline: 'Due Nov 16 @ 11:59pm'
+    deadline: 'Due Nov 21 @ 11:59pm'
     link: ''
     name: 'Project 4'
-    numDays: 10
+    numDays: 13
   lecture:
     link: ''
     name: ''
@@ -960,7 +960,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'DevOps and Scaling'
+    name: '(Tentative) Teams Workshop'
   reading:
     link: ''
     name: ''
