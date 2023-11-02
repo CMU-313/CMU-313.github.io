@@ -6,8 +6,8 @@ lectures:
     link: readings/teaching_case_teamwork_short3.pdf
     name: Teamwork in a first Scrum project
 - date: Thu Nov 02
-  link: ''
-  name: AI in Software Engineering
+  link: assets/pdfs/18-llms.pdf
+  name: A Software Engineer's Guide to LLMs
 
 projects:
 - date: Mon Oct 30
