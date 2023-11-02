@@ -869,8 +869,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'AI in Software Engineering'
+    link: 'assets/pdfs/18-llms.pdf'
+    name: 'A Software Engineer''s Guide to LLMs'
   reading:
     link: ''
     name: ''
