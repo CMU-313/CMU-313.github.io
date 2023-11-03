@@ -21,8 +21,8 @@ While learning about different open source projects, think about what type of pr
 
 ## Reflection (10 min)
 With your team, discuss the following questions:
-- Which attributes make a good open source project? A bad open source project?
-- Which projects did you find that you would most like to work on? Which would you least like to work on? Why?
+* Which attributes make a good open source project? A bad open source project?
+* Which projects did you find that you would most like to work on? Which would you least like to work on? Why?
 
 Pick 3 projects that you are interested in pursing for Project 5.
 
@@ -37,3 +37,7 @@ Once your team has decided on an open source project, add it to the [Public Proj
 - Apache projects: [http://www.apache.org/](http://www.apache.org/)
 - Mozilla projects: [https://developer.mozilla.org/en-US/docs/MDN/Community/Contributing](https://developer.mozilla.org/en-US/docs/MDN/Community/Contributing)
     - Mozilla has a number of Open Source projects (including Firefox and Thunderbird) that are actively being developed and they recommend bugs for new contributors
+
+## Hall of Fame
+Here's some extra motivation for picking merging your final pull requests into your open source project!
+Explore some merged PRs in open source projects from previous semesters in the [Hall of Fame](https://cmu-313.github.io/hall-of-fame/).
