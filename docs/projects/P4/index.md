@@ -111,7 +111,8 @@ You should download and submit a .ipynb copy of your Colab notebook (with output
 ### Final LLM Experiment (40 points)
 
 Now that you’ve implemented a basic LLM integration to answer syllabus questions, you need to implement the following to decide whether or not the feature can be shipped to production:
-* Retrieval Augmented Generation(RAG) to reduce prompt length.
+
+* Retrieval Augmented Generation (RAG) to reduce prompt length.
 * Pipeline to improve performance on complex grading questions.
 
 Complete the Colab Notebook you copied for the Basic LLM Integration.
@@ -144,6 +145,7 @@ Based on the pricing of your chosen LLM, how much will it cost to provide users 
 Provide a final decision on whether the syllabus answering feature should be implemented based on the evaluation results, operational costs and other relevant factors.
 
 On Gradescope submit the following:
+
 * Link to your Colab notebook (with output) that contains your code, analysis. Make sure it is editable so that we can run the notebook if necessary.
 * PDF of your evaluation report
 
