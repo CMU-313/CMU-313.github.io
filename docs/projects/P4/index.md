@@ -88,157 +88,72 @@ More resources to assist you with creating your design document can be found in 
 
 By the checkpoint deadline, your team will submit your design document to Gradescope as a PDF.
 
-### Jupyter Notebook Setup (20 points)
-As the previous engineer left in a hurry, the model that was provided to you is pre-trained and you do not have any information on how it was trained. You are tasked with evaluating the model's performance and fairness.
+### Basic LLM Experiment (15 pts)
 
-When it comes to training the model itself, the ML engineer who worked on the project before you had the following assumptions:
+To explore the feasibility of LLMs for this task, your manager would like you to prototype the basic functionality of an LLM to answer questions about the CMU 17-313 syllabus. Due to the company’s existing deal with Google, your team will use the **chat-bison** language model from Google’s Vertex AI Platform. 
 
-- The model is used to predict whether a student will be a good candidate for a software engineering job. It is a binary classifier, where 1 means the student is a good candidate, and 0 means the student is not a good candidate.
-- The model is trained on a dataset of students who have graduated from CMU, and have been working in the industry for at least 1 year.
-- In order to prevent bias, they assumed that removing `Gender (M, F)` and `Student ID` from the dataset would be sufficient when it comes to training the model. They claimed that it is now *Group Unaware*, thus the model would be fair.
+To get setup, make sure you're logged into the Google account you used to redeem your GCP credits. If you haven't redeemed your GCP credits yet, follow the instructions in the [Deployment Recitation.](https://cmu-313.github.io/recitations/reci3-deployment/#task-1b-deploy-on-google-cloud-platform)
 
-The model specification is as follows:
-```
-X variable (input parameters)
-- Age (18 - 25)
-- Major (Computer Science, Information Systems, Business, Math, 
-         Electrical and Computer Engineering, Statistics and Machine Learning)
-- GPA (0 - 4.0)
-- Extra Curricular Activities (Student Theatre, Buggy, Teaching Assistant, Student Government, 
-    Society of Women Engineers, Women in CS, Volleyball, Sorority, Men's Basketball, 
-    American Football, Men's Golf, Fraternity)
-- Number of Programming Languages (1, 2, 3, 4, 5)
-- Number of Past Internships (0, 1, 2, 3, 4)
+Once you're logged into the right credit-bearing Google account, follow these instructions:
+1. Enable the Vertex AI API using [this link](https://console.cloud.google.com/flows/enableapi?apiid=aiplatform.googleapis.com). Make sure your NodeBB project from P3 is selected in the project selector dropdown.
+2. Open the Colab notebook using [this link](https://colab.research.google.com/drive/18ppvk_XiZZ3OyqiKmOaEtk_u3fm_D5NZ?authuser=1#scrollTo=7523ca64-678a-453f-8d3a-4a7b86eda972). Click on File --> Save as a copy in Drive to create your own copy that you will work on. Only one team member needs to do this, and the team should collaborate using this notebook. 
+3. Click on Share and make sure the Colab notebook is **editable** by anyone in Carnegie Mellon University. You will submit a link to this notebook on Gradescope.
 
-Y variable (output)
-- Good Candidate (0, 1)
-```
-The previous engineer has provided some examples on the usage of the model in the [draft pull request](https://github.com/CMU-313/NodeBB/pull/186).
+Now, you should be ready to experiment with chat-bison! Follow the instructions in the notebook through the end of the Basic LLM Experiment.
 
-You are provided with a [test dataset](/assets/project/student_data.csv), which contains a similar set of features and output (whether the student is a good candidate or not). This test dataset is a different set of students from the training dataset, and the evaluation of whether the student is a good candidate **is done by a fair panel of recruiters, so it can be considered to be unbiased. **Additionally, the panel of recruiters have provided you with **additional context on the extracurricular activities in comments** (marked with #).
-
-Your test dataset is provided to you in the following format:
-```
-X variable
-- Student ID
-- Gender (M, F)
-- Age (18 - 25)
-- Major (Computer Science, Information Systems, Business, Math, 
-         Electrical and Computer Engineering, Statistics and Machine Learning)
-- GPA (0 - 4.0)
-- Extra Curricular Activities (Student Theatre, Buggy, Teaching Assistant, Student Government, 
-    Society of Women Engineers, Women in CS, Volleyball, Sorority, Men's Basketball, 
-    American Football, Men's Golf, Fraternity)
-  # Likely Co-Ed (Student Theatre, Buggy, Teaching Assistant, Student Government)
-  # Likely Majority Female (Society of Women Engineers, Women in CS, Volleyball, Sorority)
-  # Likely Majority Male (Men's Basketball, American Football, Men's Golf, Fraternity)
-- Number of Programming Languages (1, 2, 3, 4, 5)
-- Number of Past Internships (0, 1, 2, 3, 4)
-
-Y variable
-- Good Candidate (0, 1)
-```
-
-Before doing a thorough evaluation of the fairness of the model, you will start by doing preliminary analysis on the [test dataset](/assets/project/student_data.csv), and run the model on the test dataset to get the accuracy of the model. To do so, you will need to set up a Jupyter notebook to do this, you can either:
-
-- Use [Google Colab](https://colab.research.google.com/) to run the notebook in the cloud. (Recommended if you do not have experience with Jupyter notebooks)
-- Alternatively, set up a [JupyterLab](https://jupyter.org/install) on your local machine. Additionally, you can use [VSCode](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) to run the notebook as well. (Recommended if you are experienced)
-
-It is recommended that you use **Python 3.9 or above** when setting up the notebook.
-
-After you have set up the notebook, you should:
-
-1. Load the model and test dataset
-2. Plot the distribution of the test dataset across all features (except Student ID) using any visualization library of your choice (e.g. pandas, matplotlib, seaborn, plotly, etc.). You should choose the appropriate visualization for each feature.
-3. Predict the output of the test dataset using the model
-4. Report the accuracy of the model, and the confusion matrix
-
-Refer to the [Resources & Documentation](#resource-documentation) section if you need help with any of the above steps.
-
-By the checkpoint deadline, your team will commit the Jupyter notebook to your repository, and submit a link to the Jupyter notebook with the basic analysis and usage of the model done. 
+You should download and submit a .ipynb copy of your Colab notebook (with outputs) to Gradescope.
 
 ## Final Deliverables
 
-### Feature Integration Implementation (60 points)
+### Final LLM Experiment (40 points)
 
-Complete the integration of the ML-based candidate recommendation feature into your team repository for NodeBB. Your implementation should follow your selected design from your checkpoint design document.
+Now that you’ve implemented a basic LLM integration to answer syllabus questions, you need to implement the following to decide whether or not the feature can be shipped to production:
+* Retrieval Augmented Generation(RAG) to reduce prompt length.
+* Pipeline to improve performance on complex grading questions.
 
-Revisiting the [project context](#project-context), the feature:
- > - adds a new recruiter user type
-   - adds a new career tab on NodeBB, that leads to a new career page
-   - the new career page will
-      - allow students to submit relevant information about themselves for recruiters to see
-      - allow recruiters to see a list of students who have submitted their information, together with the prediction of their success in industry
+Complete the Colab Notebook you copied for the Basic LLM Integration.
 
-You may freely use any and/or all of the development progress made available in the [draft pull request](https://github.com/CMU-313/NodeBB/pull/186) in your implementation. In fact, if the draft pull request matches your proposed design, you are highly encouraged to directly integrate all code from the draft pull request as a starting point for your implementation.
 
-On Gradescope, you should:
+### Evaluation Report (30 points)
 
-- **Submit a link to your deployed site** that has the career features successfully integrated
-- **Answer the discussion questions** regarding your implementation and any additional design decisions made by your team
+Now that you’ve experimented with an LLM integration, write a report that summarizes your findings for the rest of the team. In particular, you will need to decide whether your findings justify completing and shipping this feature.
 
-??? info "Partial Credit"
-    For partial credit, you may instead submit your repository with a locally working integration of the career feature. You should then answer the presented questions on Gradescope for how to get your feature working locally.
+Your report should include the following with clear headings:
 
-!!! note "A Note on CD"
-    While we encourage CD workflows, your deployment does **not** have to be automated for this assignment. In other words, it is acceptable to manually deploy your site without modifying your workflow from the previous project.
+**1. Introduction (&lt;0.5 pages)**
 
-### Evaluation Report (40 points)
+Provide a brief introduction to the LLM integration you’re evaluating, and the context of its use, i.e. the syllabus question answering feature.
 
-Now you have to decide whether the model should be used in production. You will need to evaluate the performance and the fairness of the model. You should do all your work in the Jupyter notebook that you set up in the checkpoint deliverables.
+**2. LLM integration (&lt;1 page)**
 
-#### Performance Evaluation
-You should have already evaluated the performance of the model in the checkpoint deliverables. You should now do a more thorough evaluation of the model's performance. You should:
+Describe the end-to-end implementation of your final solution to answering syllabus questions. Given an arbitrary syllabus question, how do you integrate with an LLM to return an answer? Feel free to include any prompts and diagrams.
 
-- Evaluate the model's performance on the test dataset, and report the accuracy and confusion matrix
+**4. Evaluation Results (&lt;0.5  page)**
 
-#### Fairness Evaluation
-When evaluating the fairness of the model, you should 
+Provide a summary of the results from applying the evaluation strategy on your final LLM experiment. Feel free to include any evidence/output from your notebook.
 
-- Revisit the assumptions made by the previous engineer
-- Revisit the fairness discussion we had in class, and also in [ML Discrimination](https://research.google.com/bigpicture/attacking-discrimination-in-ml/)
-- Consider the fairness strategies and corresponding metrics that can be used to evaluate the fairness of the model
+**5. Operational Costs (&lt;0.5 pages)**
 
-#### Report 
-After evaluating the performance and fairness of the model, you should now write a report on your findings. You will also need to provide a decision on whether the model should be used in production.
+Based on the pricing of your chosen LLM, how much will it cost to provide users with this feature? How long does it take to generate an answer to a syllabus question? State any assumptions made in making these estimates. Is the cost associated with providing this feature reasonable? 
 
-Your report should include the following sections with clear headings:
+**6. Final Recommendation (&lt;0.5 pages)** 
 
-1. **Introduction (< 0.5 page)**  
-   Provide a brief introduction to the model that you are evaluating, and the test dataset that you are using, and the context of use of the model.
-2. **Description of the test data (< 1 page)**  
-   Provide descriptive statistics of the test dataset (e.g. mean, median, mode, standard deviation, etc.) for each feature, preferably in a table. You should also provide a brief discussion on the distribution of the features.
-3. **Model Performance (< 0.5 page)**  
-   Provide the accuracy and confusion matrix of the model on the test dataset and a brief discussion on the performance of the model.
-4. **Feature Exploration (< 1 page)**  
-   Identify features that you think are important when it comes to evaluating the fairness of the model, and explain why.
-5. **Fairness Evaluation (~ 1.5 page)**  
-   Consider **three fairness strategies** that were discussed in class and then:
-
-    1. Provide the corresponding **fairness metrics** for the model (if applicable) based on the features you selected in step 4.
-    2. Determine whether the model is fair under each fairness strategy, and provide a brief discussion on why.
-    3. Determine which fairness strategy is the most appropriate for the model, given the context of what the model is used for. Provide a brief discussion on why.
-
-6. **Recommendation (< 0.5 page)**  
-   Make a recommendation on whether the model should be used in production, and provide a brief discussion on why. 
+Provide a final decision on whether the syllabus answering feature should be implemented based on the evaluation results, operational costs and other relevant factors.
 
 On Gradescope submit the following:
-
-- A link to your Jupyter notebook that contains your code and analysis that is committed to your GitHub repository.
-- A PDF of your report
+* Link to your Colab notebook (with output) that contains your code, analysis. Make sure it is editable so that we can run the notebook if necessary.
+* PDF of your evaluation report
 
 ## Grading
 To receive full credit for the checkpoint, we expect:
 
-- [ ] A design document outlining your research into the existing codebase architecture, the quality requirements considered by your team, alternative solutions, and a final justification & timeline for your selected integration plan
-- [ ] A link to a Jupyter notebook completing all of the setup steps outlined by the previous section
+- [ ] An uploaded PDF design document outlining your research into the existing codebase architecture, the quality requirements considered by your team, alternative solutions, and a final justification & timeline for your selected integration plan
+- [ ] A link to your Colab notebook completing all of the setup and basic LLM experiment steps outlined by the previous section
 
 To receive full credit for the final deadline, we expect:
 
-- [ ] A link to your successfully deployed web application for your team repository which demonstrates the integration of the ML-based career feature
-- [ ] A link to a Jupyter notebook containing all research/data gathered during your evaluation of the ML model
-- [ ] An uploaded PDF report discussing the fairness of the model addressing all the sections outlined above
-- [ ] Everyone in the team has contributed to a pull request to the team repository (Note: Either for the Jupyter notebook or the career feature integration)
+- [ ] A link to your Colab notebook containing implementation of all of the final LLM experiment steps 
+- [ ] An uploaded PDF report discussing your evaluation findings addressing all the sections outlined above
 
 ## Resource & Documentation
 
@@ -254,32 +169,9 @@ There are a few additional reference materials available in the CMU library that
 - [Software Architecture in Practice, Third Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30264): You may wish to review appropriate sections within Part Two to help find appropriate tactics, techniques you can use in your design to promote particular quality attributes.
 - [Documenting Software Architectures: Views and Beyond, Second Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30386): useful book to generally reference for creating architecture documentation.
 
-### Integration
+### LLMs
 
-- [Making HTTP Requests](https://www.geeksforgeeks.org/how-to-make-http-requests-in-node-js/)
-- [FastAPI](https://fastapi.tiangolo.com/)
-- [Deploying with Docker](https://fly.io/docs/languages-and-frameworks/dockerfile/)
-
-### Model Analysis
-
-#### Jupyter Notebooks
-- [How to Use Jupyter Notebooks](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
-- [How to Use Jupyter Notebooks on Google Colab](https://colab.research.google.com/notebooks/intro.ipynb)
-
-#### Pandas
-- [How to Use Pandas](https://www.w3schools.com/python/pandas/default.asp)
-- [Reading CSV Files](https://www.w3schools.com/python/pandas/pandas_csv.asp)
-- [Dataframe](https://www.w3schools.com/python/pandas/pandas_dataframes.asp)
-
-#### Data Analysis
-- [Descriptive Statistics](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html)
-- [What is Accuracy of a Model?](https://developers.google.com/machine-learning/crash-course/classification/accuracy)
-- [Accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html)
-- [What is a Confusion Matrix?](https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/)
-- [Confusion Matrix](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html)
-
-#### Visualization
-- [Plotting with Pandas](https://pandas.pydata.org/docs/user_guide/visualization.html)
-- [Matplotlib](https://matplotlib.org/stable/tutorials/introductory/pyplot.html)
-- [Seaborn](https://seaborn.pydata.org/tutorial.html)
-- [Plotly](https://plotly.com/python/)
+- [Vertex AI Docs](https://cloud.google.com/vertex-ai/docs/generative-ai/chat/test-chat-prompts#chat-query-python_vertex_ai_sdk)
+- [Vertex AI Pricing](https://cloud.google.com/vertex-ai/pricing)
+- [SBert Cosine Similarity Documentation](https://www.sbert.net/docs/quickstart.html#comparing-sentence-similarities)
+- [SBert Semantic Search Documentation](https://www.sbert.net/examples/applications/semantic-search/README.html)
