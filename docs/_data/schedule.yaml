@@ -882,10 +882,10 @@
 
 - date: Fri Nov 03
   homework:
-    deadline: 'Due Nov 21 @ 11:59pm'
-    link: ''
-    name: 'Project 4'
-    numDays: 13
+    deadline: 'Due Nov 9 @ 11:59pm'
+    link: 'projects/P4/'
+    name: 'Project 4A'
+    numDays: 5
   lecture:
     link: ''
     name: ''
@@ -972,10 +972,10 @@
 
 - date: Fri Nov 10
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Nov 21 @ 11:59pm'
+    link: 'projects/P4/'
+    name: 'Project 4B'
+    numDays: 8
   lecture:
     link: ''
     name: ''
