@@ -100,7 +100,7 @@ Once you're logged into the right credit-bearing Google account, follow these in
 
 2.  Open the Colab notebook using [this link](https://colab.research.google.com/drive/18ppvk_XiZZ3OyqiKmOaEtk_u3fm_D5NZ?authuser=1#scrollTo=7523ca64-678a-453f-8d3a-4a7b86eda972). Click on File --> Save as a copy in Drive to create your own copy that you will work on. Only one team member needs to do this, and the team should collaborate using this notebook. 
 
-3.  Click on Share and make sure the Colab notebook is **editable** by anyone in Carnegie Mellon University. You will submit a link to this notebook on Gradescope.
+3.  Click on Share and make sure the Colab notebook is **editable** by anyone in Carnegie Mellon University.
 
 Now, you should be ready to experiment with chat-bison! Follow the instructions in the notebook through the end of the Basic LLM Experiment.
 
