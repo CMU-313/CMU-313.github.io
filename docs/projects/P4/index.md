@@ -1,62 +1,48 @@
 # Project 4: Software Architecture + ML Evaluation
 
 ## Learning Goals
-- Design a software architecture for software system that incorporates machine learning
+- Design a software architecture for a software system that incorporates a foundational large language model
 - Decide the appropriate architecture for a given problem
-- Assess and describe the tradeoffs of different architectures
-- Integration of machine learning into a software system and reason about their implications
-- Evaluate the performance and fairness of machine learning models
-- Engage meaningfully with engineering ethics
+- Address and describe the tradeoffs of different architectures
+- Integrate pre-trained foundational large language models into an existing software system
+- Evaluate the performance/quality of LLM powered features
+- Engineer techniques to improve the performance of pre-trained models on application-specific tasks
+- Decide whether an LLM powered solution is production ready
+
 
 ## Project Context 
-As you and your team continue developing the new system, your CMU contact suddenly bursts into the room shouting, “Careers! Hiring! Machine learning!”
+As you and your team continue developing the new Q&A forum system for CMU, your CEO suddenly bursts into the room shouting, “LLMs! AI! Why are we building a Q&A forum without integrating LLMs?!”
 
-Your manager follows closely behind and provides an explanation: a significant number of job recruiters have taken interest in your project and would like to use the platform as a means to reach out to students for career opportunities. However, the population of students is too large, and increasing annually. They are concerned by the sheer number of students to review for job applications, and recruiters want a simpler way to narrow the applicant pool.
+After your CEO calms down, your manager calls an all-hands meeting. At the meeting, everyone agrees that we don’t have the resources to build a completely new Q&A forum, and also automate the whole question answering problem. 
 
-While your team had been working on deployment, your buzzword-enamored clients had hired another engineer to work on an extra ML-based feature to take in student performance data and provide a prediction of which applicants are more likely to succeed in industry. Specifically, the new career feature would:
-
-- adds a new recruiter user type
-- adds a new career tab on NodeBB, that leads to a new career page
-- the new career page will
-     - allow students to submit relevant information about themselves for recruiters to see
-     - allow recruiters to see a list of students who have submitted their information, together with the prediction of their success in industry
-
-However, the engineer left shortly after and the project was abandoned. They have left an unfinished draft pull request on the repository, and you have been tasked with completing the project.
+However, to better compete with Piazza, your CEO and manager decide to put your team in charge of exploring an LLM integration to answer questions about the course syllabus since this is a popular question type across all courses. In particular, instructors would upload their course syllabus when setting up their class on NodeBB. This syllabus would then be used with an LLM to automatically answer any questions tagged with the “Syllabus” or “Course Policy” tags.
 
 Your manager wants you to:
 
-1. **Assess the current architecture**, and decide what would be the best way to incorporate the work done by the previous engineer
-2. **Reason about, document and select an appropriate architecture** for the project
-3. **Finish integrating the feature** made by the previous engineer based on your team's new design
+1. **Architect the feature** - reason about, document and select an appropriate architecture for integrating this feature into the existing system.
+2. **Build an experimental integration** with the 17-313 course syllabus to evaluate feasibility.
+3. **Evaluate the feature** and decide whether the feature should be fully implemented.
 
-Along with architectural issues, as the feature will be evaluating student information, you are also concerned about the fairness of the model. You have been tasked with:
-
-1. **Evaluating** the pre-trained model's performance and fairness
-2. **Writing a report** on the evaluation of the model
-3. **Provide a decision** on whether the model should be used in production
-  
 ## Deliverables and Deadlines
-There are two (2) deadlines for this project. This project is worth a total of 180 points.
+There are two (2) deadlines for the project. This project is worth a total of 125 points. 
 
-**Checkpoint Deliverables** – 80 points - due Tuesday, April 4th, 11:59pm
+**Checkpoint Deliverables** – 55 pts - due Thursday, November 9, 11:59pm
 
-- [Architectural Design Document (60 pts)](#architectural-design-document-60-points)
-- [Jupyter Notebook Setup (20 pts)](#jupyter-notebook-setup-20-points)
+- [Architectural Design Document (40 pts)](#architectural-design-document-40-points)
+- [Basic LLM Experiment (15 pts)](#basic-llm-experiment-15-points)
 
-**Final Deliverables** – 100 points - due Tuesday, April 11th, 11:59pm
+**Final Deliverables** - 70 pts - due Tuesday, November 21, 11:59pm
 
-- [Feature Integration Implementation (60 pts)](#feature-integration-implementation-60-points)
-- [Evaluation Report (40 pts)](#evaluation-report-40-points)
+- [Final LLM Experiment Implementation (40 pts)](#final-llm-experiment-implementation-40-points)
+- [Evaluation Report (30 pts)](#evaluation-report-30-points)
 
 ## Checkpoint Deliverables
 
-### Architectural Design Document (60 points)
+### Architectural Design Document (40 points)
 
-To start off, your manager has requested a **concrete design document** on how you plan on integrating the new ML-based career feature into the existing codebase. One of your manager's requirements is that the career feature **should work on a deployed site**.
+To start off, your manager has requested a concrete design document on how you plan on integrating the new LLM-powered syllabus question answering feature into the existing codebase. One of your manager's requirements is that this feature should work on a deployed site.
 
-==You will later follow this design document in order to fully integrate this feature into NodeBB.==
-
-Your team should start by evaluating what components of the feature have been implemented for you by the previous engineer as detailed in their [draft pull request](https://github.com/CMU-313/NodeBB/pull/186), then consider potential architectural solutions. It is **highly recommended** that at least one team member does a fresh clone and run the draft pull request locally to get a better understanding of the feature before proceeding. (Note: You can clone template repositories without forking them.)
+If the team decides to go ahead with the feature, this design document will be followed in order to fully integrate this feature into NodeBB.
 
 Some initial solutions to consider include:
 
@@ -64,33 +50,29 @@ Some initial solutions to consider include:
 2.  **Implementing a Python-based microservice** and deploying it as a separate service; then, integrating the service with your existing monolith via a REST API
 3.  **Refactoring part or all of the existing monolith** into a microservices-based architecture
 
-!!! warning "Implementation Efforts"
-    Keep in mind that **your team will have to integrate the feature as part of the final deliverable**. This should be a factor that affects your final decision on which architecture to pursue.
-
 Once you have finished evaluating the codebase, create the design document highlighting your findings and decisions. Below is a sample outline for your design document along with recommended page lengths.
 
 1. **Feature Overview (<1 pages)**  
-    Describe concisely how the career feature works and how it will be used by the relevant stakeholders, with screenshots if necessary.
+    Describe concisely how the syllabus question answering feature works and how it will be used by the relevant stakeholders, with screenshots if necessary.
 
-2. **Current Architecture (<1 page)**  
-    Provide a brief description of the current NodeBB architecture and the current state of the new career feature (i.e. unintegrated with the rest of the codebase).
+2. **Assessing LLM Suitability (<1 page)**  
+    Use the framework discussed in class to discuss why an LLM may be a good solution for automating syllabus question answering on NodeBB.
 
-    Include an **architectural diagram** to support your description.
+3. **Current Architecture (<1 page)**  
+    Provide a brief description of the current NodeBB architecture. Include an **architectural diagram** to support your description.
 
-3. **Quality Requirements (<1 page)**  
+4. **Quality Requirements (<1 page)**  
     Provide a concise, prioritized list of the overall quality requirements you considered in arguing for the integration of the feature into the system and a short justification for each. Your team should decide on **at least three** requirements to focus on.
 
     Rank your requirements in decreasing order of importance. This allows readers to quickly understand what you were designing for.
 
-4. **Potential Solutions (~1 page each)**  
+5. **Potential Solutions (~1 page each)**  
     Your team should consider **at least two** different potential solutions for integrating the new feature. For each, provide at least one architectural diagram, a brief description of the solution's architectural design, and a discussion of the design's tradeoffs.
 
     Tradeoffs must involve (but are not limited to) the quality attributes described in the previous section. Justify such arguments with reference to appropriate diagrams and concrete examples, as appropriate.
 
-5. **Selected Architecture + Justification (<1 page)**  
+6. **Selected Architecture + Justification (<1 page)**  
     Describe which design your team decided to proceed with in architecturally integrating the feature into existing codebase. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design (if any).
-
-    Within your justification, you should explicitly include a timeline demonstrating how you plan on dividing development work within your team to ensure you **finish implementation before the final deadline.**.
 
 !!! note "On Diagrams"
     Diagrams should **involve suitable architectural views**; **must include a legend**; and **should involve appropriate levels of abstraction** for the components in the diagram. If necessary, use color/shape/text to differentiate between types of components and connectors.
