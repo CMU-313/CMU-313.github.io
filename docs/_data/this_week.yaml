@@ -10,12 +10,6 @@ lectures:
   name: A Software Engineer's Guide to LLMs
 
 projects:
-- date: Mon Oct 30
-  deadline: Due Nov 2 @ 11:59pm
-  end_date: 2023-11-03 00:00:00
-  link: projects/P3/
-  name: Project 3B
-  numDays: 4
 - date: Fri Nov 03
   deadline: Due Nov 21 @ 11:59pm
   end_date: 2023-11-22 00:00:00
