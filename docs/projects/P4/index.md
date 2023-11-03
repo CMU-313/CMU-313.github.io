@@ -1,4 +1,4 @@
-# Project 4: Software Architecture + ML Evaluation
+# Project 4: Architecting an LLM Integration 
 
 ## Learning Goals
 - Design a software architecture for a software system that incorporates a foundational large language model
