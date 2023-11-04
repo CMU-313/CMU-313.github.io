@@ -960,7 +960,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: '(Tentative) Teams Workshop'
+    name: 'Team Feedback Workshop'
   reading:
     link: ''
     name: ''
@@ -1140,7 +1140,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'NO CLASS (Thanksgiving)'
+    name: 'NO CLASS (Happy Thanksgiving!)'
   reading:
     link: ''
     name: ''
@@ -1194,7 +1194,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Engineering Ethics'
   reading:
     link: ''
     name: ''
@@ -1230,7 +1230,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Security and Privacy'
   reading:
     link: ''
     name: ''
@@ -1284,7 +1284,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Engineering Jobs, Offers, and Negotiation'
   reading:
     link: ''
     name: ''
@@ -1320,7 +1320,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Software Engineering Jobs and Course Review'
+    name: 'Course Review'
   reading:
     link: ''
     name: ''
@@ -1374,7 +1374,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Final 5:30pm-8:30pm (Room TBA)'
   reading:
     link: ''
     name: ''
