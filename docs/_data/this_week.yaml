@@ -4,7 +4,10 @@ lectures:
   name: NO CLASS (Democracy Day)
 - date: Thu Nov 09
   link: ''
-  name: Team Feedback Workshop
+  name: Teamwork Feedback Workshop
+  reading:
+    link: https://cmu.ca1.qualtrics.com/jfe/form/SV_097gZEPgTzOYvC6
+    name: Pre-class survey (required)
 
 projects:
 - date: Fri Nov 03
@@ -20,4 +23,9 @@ projects:
   name: Project 4B
   numDays: 8
 
-recitation: null
+recitation:
+  date: Mon Nov 06
+  handout: ''
+  name: Open-Source Scavenger Hunt
+  quiz: ''
+  slides: ''

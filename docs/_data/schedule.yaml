@@ -912,7 +912,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Open-Source Scavenger Hunt'
     quiz: ''
     slides: ''
 
@@ -960,10 +960,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Team Feedback Workshop'
+    name: 'Teamwork Feedback Workshop'
   reading:
-    link: ''
-    name: ''
+    link: 'https://cmu.ca1.qualtrics.com/jfe/form/SV_097gZEPgTzOYvC6'
+    name: 'Pre-class survey (required)'
   recitation:
     handout: ''
     name: ''
@@ -1002,7 +1002,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Feedback debriefing'
     quiz: ''
     slides: ''
 
@@ -1182,7 +1182,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'P5 Checkpoint Presentations'
     quiz: ''
     slides: ''
 
@@ -1272,7 +1272,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'TBD'
     quiz: ''
     slides: ''
 
