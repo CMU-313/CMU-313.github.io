@@ -1,31 +1,31 @@
 lectures:
-- date: Tue Oct 31
-  link: assets/pdfs/17-agile-effectiveness.pdf
-  name: Agile Team Effectiveness
+- date: Tue Nov 07
+  link: ''
+  name: NO CLASS (Democracy Day)
+- date: Thu Nov 09
+  link: ''
+  name: Teamwork Feedback Workshop
   reading:
-    link: readings/teaching_case_teamwork_short3.pdf
-    name: Teamwork in a first Scrum project
-- date: Thu Nov 02
-  link: assets/pdfs/18-llms.pdf
-  name: A Software Engineer's Guide to LLMs
+    link: https://cmu.ca1.qualtrics.com/jfe/form/SV_097gZEPgTzOYvC6
+    name: Pre-class survey (required)
 
 projects:
-- date: Mon Oct 30
-  deadline: Due Nov 2 @ 11:59pm
-  end_date: 2023-11-03 00:00:00
-  link: projects/P3/
-  name: Project 3B
-  numDays: 4
 - date: Fri Nov 03
+  deadline: Due Nov 9 @ 11:59pm
+  end_date: 2023-11-10 00:00:00
+  link: projects/P4/
+  name: Project 4A
+  numDays: 5
+- date: Fri Nov 10
   deadline: Due Nov 21 @ 11:59pm
   end_date: 2023-11-22 00:00:00
-  link: ''
-  name: Project 4
-  numDays: 13
+  link: projects/P4/
+  name: Project 4B
+  numDays: 8
 
 recitation:
-  date: Mon Oct 30
-  handout: recitations/reci8-llms/
-  name: Recitation 8 - Large Language Models
-  quiz: https://www.gradescope.com/courses/583198/assignments/3599220/
+  date: Mon Nov 06
+  handout: ''
+  name: Open-Source Scavenger Hunt
+  quiz: ''
   slides: ''

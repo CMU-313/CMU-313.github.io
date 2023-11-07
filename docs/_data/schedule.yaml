@@ -882,10 +882,10 @@
 
 - date: Fri Nov 03
   homework:
-    deadline: 'Due Nov 21 @ 11:59pm'
-    link: ''
-    name: 'Project 4'
-    numDays: 13
+    deadline: 'Due Nov 9 @ 11:59pm'
+    link: 'projects/P4/'
+    name: 'Project 4A'
+    numDays: 5
   lecture:
     link: ''
     name: ''
@@ -912,7 +912,7 @@
     name: ''
   recitation:
     handout: 'recitations/reci9-open-source/'
-    name: 'Recitation 9 - Open Source Projects'
+    name: 'Recitation 9 - Open Source Scavenger Hunt'
     quiz: 'https://www.gradescope.com/courses/583198/assignments/3631034'
     slides: 'https://docs.google.com/presentation/d/1nUa1rRiP9ZjfUEKEUDDHdsPUpzmdmzZziZA0dGqfto0/edit?usp=sharing'
 
@@ -960,10 +960,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: '(Tentative) Teams Workshop'
+    name: 'Teamwork Feedback Workshop'
   reading:
-    link: ''
-    name: ''
+    link: 'https://cmu.ca1.qualtrics.com/jfe/form/SV_097gZEPgTzOYvC6'
+    name: 'Pre-class survey (required)'
   recitation:
     handout: ''
     name: ''
@@ -972,10 +972,10 @@
 
 - date: Fri Nov 10
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Nov 21 @ 11:59pm'
+    link: 'projects/P4/'
+    name: 'Project 4B'
+    numDays: 8
   lecture:
     link: ''
     name: ''
@@ -1002,7 +1002,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Feedback debriefing'
     quiz: ''
     slides: ''
 
@@ -1062,10 +1062,10 @@
 
 - date: Fri Nov 17
   homework:
-    deadline: 'Due Dec 15 @ 11:59pm'
+    deadline: ''
     link: ''
-    name: 'Project 5'
-    numDays: 21
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -1116,10 +1116,10 @@
 
 - date: Wed Nov 22
   homework:
-    deadline: ''
+    deadline: 'Due Dec 15 @ 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Project 5'
+    numDays: 18
   lecture:
     link: ''
     name: ''
@@ -1140,7 +1140,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'NO CLASS (Thanksgiving)'
+    name: 'NO CLASS (Happy Thanksgiving!)'
   reading:
     link: ''
     name: ''
@@ -1182,7 +1182,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'P5 Checkpoint Presentations'
     quiz: ''
     slides: ''
 
@@ -1194,7 +1194,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Engineering Ethics'
   reading:
     link: ''
     name: ''
@@ -1230,7 +1230,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Security and Privacy'
   reading:
     link: ''
     name: ''
@@ -1272,7 +1272,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'TBD'
     quiz: ''
     slides: ''
 
@@ -1284,7 +1284,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Engineering Jobs, Offers, and Negotiation'
   reading:
     link: ''
     name: ''
@@ -1320,7 +1320,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Software Engineering Jobs and Course Review'
+    name: 'Course Review'
   reading:
     link: ''
     name: ''
@@ -1374,7 +1374,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Final 5:30pm-8:30pm (Room TBA)'
   reading:
     link: ''
     name: ''
