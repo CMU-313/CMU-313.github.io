@@ -25,7 +25,7 @@ projects:
 
 recitation:
   date: Mon Nov 06
-  handout: ''
-  name: Open-Source Scavenger Hunt
-  quiz: ''
-  slides: ''
+  handout: recitations/reci9-open-source/
+  name: Recitation 9 - Open Source Scavenger Hunt
+  quiz: https://www.gradescope.com/courses/583198/assignments/3631034
+  slides: https://docs.google.com/presentation/d/1nUa1rRiP9ZjfUEKEUDDHdsPUpzmdmzZziZA0dGqfto0/edit?usp=sharing
