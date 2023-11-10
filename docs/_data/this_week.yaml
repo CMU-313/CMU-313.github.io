@@ -10,12 +10,6 @@ lectures:
     name: Pre-class survey (required)
 
 projects:
-- date: Fri Nov 03
-  deadline: Due Nov 9 @ 11:59pm
-  end_date: 2023-11-10 00:00:00
-  link: projects/P4/
-  name: Project 4A
-  numDays: 5
 - date: Fri Nov 10
   deadline: Due Nov 21 @ 11:59pm
   end_date: 2023-11-22 00:00:00
