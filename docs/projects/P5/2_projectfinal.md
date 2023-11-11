@@ -4,8 +4,8 @@
 
 **Project Report and Presentation** – due Monday, December 11th, 11:59pm
 
-- [Project Report](#project-report-120-pts) (120 pts) 
-- [Extra Credit](#project-report-120-pts) (20 pts)
+- [Project Report](#project-report-200-pts) (200 pts) 
+- [Extra Credit](#project-report-200-pts) (20 pts)
 - [Project Presentation Slides](#project-presentations-100-pts) (100 points, graded based on presentation)
 
 **Presentation Date** – Tuesday, December 12th, 5:30-8:30pm, during exam timeslot
@@ -27,7 +27,7 @@ Create any necessary documentation to enable acceptance of your code. Common con
 **You are required to submit your work to the open-source project**
 
 1. **BONUS: Get your changes accepted**  
-You will get a bonus **20 (6%) bonus points** upon acceptance. If your code is accepted after the homework deadline but before final grades are released, inform the course staff.
+You will get a bonus **20 (5%) bonus points** upon acceptance. If your code is accepted after the homework deadline but before final grades are released, inform the course staff.
 
 ## Report, Presentation and Reflection
 You will report on your project and task selection, work, and experience in several ways (see below). This will include a group presentation to the class.
@@ -68,7 +68,7 @@ The goal of the presentation is primarily to share with the class the project to
 
 You must upload your slides as **a single PDF document** to Gradescope by **Monday, December 11th, 11:59pm**.
 
-## Project Report (120 pts)
+## Project Report (200 pts)
 
 After completing and submitting the modification, write a report about the tasks you have performed.
 
