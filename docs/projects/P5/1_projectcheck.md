@@ -54,7 +54,7 @@ As per previous project, ^^plan before you start coding^^. You should identify r
 
 ## Check-In Presentation (80 pts)
 
-The recitation after Spring Carnival will be dedicated to an **in-person** group presentation about your project and task selection.
+The recitation after Thanksgiving break will be dedicated to an **in-person** group presentation about your project and task selection.
 
 - Presentations are **7 minutes long, with 3 minutes of feedback and Q&A**
 - The order of presentations will be randomly determined
@@ -107,4 +107,4 @@ Your **7-minute** check-in presentation should include (the recommended slides a
     - We expect you to identify risks that are specific to your project and team. For example, if you are working on a project that is written in a language that none of your team members have used before, you should identify this as a risk and discuss how you will mitigate it. 
     - We will not accept risks that are generic to all open source projects (e.g., "the project may be abandoned"), or risks that are generic to all software development projects (e.g., "the project may have bugs").
 
-Submit the presentation deck listed above as a **single PDF** file per team to **Gradescope**. You will be presenting this in the recitation after Spring Carnival.
+Submit the presentation deck listed above as a **single PDF** file per team to **Gradescope**. You will be presenting this in the recitation after Thanksgiving break.
