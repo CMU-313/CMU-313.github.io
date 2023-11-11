@@ -36,7 +36,7 @@ You will report on your project and task selection, work, and experience in seve
 
 The Final Exam time is dedicated to group presentations **(in-person)** about your open source contributions.
 
-- Presentations are **7 minutes long, with 3 minutes Q&A**.
+- Presentations are **4 minutes long, with 2 minutes Q&A**.
 - The order of presentations is randomly determined.
 - Participation from all team members during the presentation is **required**.
 - Every individual will be asked to provide constructive feedback for other presentations in class via an paper form (which we will provide day-of).
@@ -51,20 +51,16 @@ The goal of the presentation is primarily to share with the class the project to
 
 2. **Brief Task Description(s)** (~2 slides)
       - **Brief** description of the task(s) you performed, such that the audience has sufficient context to understand your explanation of your experiences.
-      - A table that **briefly summarizes** the contribution(s) each team member made towards completing the task(s).
-      - We **do not expect you to include, for example, any code or diagrams from your report**, unless they’re helpful for supporting a point about your interactions with the project.
       - Include a demo of your contribution(s), if applicable. Please do a **screen recording** of your demo instead of a live demo.
+      - We **do not expect you to include, for example, any code or diagrams from your report**, unless they’re helpful for supporting a point about your interactions with the project.
 
-3.	**Project Processes and Communication** (~2 slides)  
-        Describe the processes and tools the project uses to coordinate among contributors. For example: Are these processes formal or informal? Provide an explicit description (possibly with a diagram) of the acceptance process used for efforts like the task you completed. <br/> If applicable, include standards or expectations regarding software engineering activities including requirements, architecture, and quality assurance; alternatively mention that no such standards exist.
-
-4.	**Your Experiences** (~2 slides)  
+3.	**Your Experiences** (~1 slides)  
     Summarize your experiences (and what you learned!) interacting with this community of open source developers, focusing on any surprising or unusual aspects of the process or interaction. For example
       - Did you run into any trouble understanding, changing, or contributing to a large, pre-existing project?
       - Were there unanticipated challenges in either implementing your change, or in getting the change submitted to and accepted by the project maintainers?
       - Did the project collaboration process or culture help or hinder your effort in any way? Characterize any interaction you had with the team leadership and community, highlighting especially any useful/useless input you received. You may (but are not required to) also relate the experience from this homework assignment with relevant experience from internships or other projects.
 
-    Your summary of your experiences can be at whatever level of detail you think is interesting or informative. Given the time limit, selecting and highlighting the two or three most important or interesting observations is likely more useful than trying to be complete.
+    Your summary of your experiences can be at whatever level of detail you think is interesting or informative. Given the time limit, selecting and highlighting the one or two most important or interesting observations is likely more useful than trying to be complete.
 
 You must upload your slides as **a single PDF document** to Gradescope by **Monday, December 11th, 11:59pm**.
 
@@ -80,22 +76,29 @@ A brief description of the open source system to which you contributed. You may 
 2.	**Project Context and Business Model**  (<0.5 page)   
 An analysis of the open-source project’s context and business model. This may include a short history of the project, competing open- and closed-source projects, or a discussion of the developers’ motivations to build this system. Essentially, we want to know why this project exists and why it is important.
 
-3.	**Task Description (per task)** (<0.5 page)    
+3.	**Project Processes and Communication**  (<1 page)   
+Describe the processes and tools the project uses to coordinate among contributors. For example: Are these processes formal or informal? Provide an explicit description (possibly with a diagram) of the acceptance process used for efforts like the task you completed.
+If applicable, include standards or expectations regarding software engineering activities including requirements, architecture, and quality assurance; alternatively mention that no such standards exist.
+
+4.	**Task Description (per task)** (<0.5 page)    
 A description of the tasks you have implemented and a high-level description of how you implemented them.
 
-4.	**Submitted Artifacts (per task)**  
+5.	**Submitted Artifacts (per task)**  
 Evidence of the code, documentation, or other artifacts you produced for the task, and evidence that you submitted them to the project. This would likely be links to publicly available resources (repository, email, pull request, etc).
 
-5.	**QA Strategy** (<1 page)  
+6.	**QA Strategy** (<1 page)  
 Describe which QA activities you performed and justify why you selected these QA activities over others. Describe metrics if appropriate. The justification will likely refer to relevant requirements as well as to the project’s practices. 
 
-6.	**QA Evidence**  
+7.	**QA Evidence**  
 Evidence of your quality assurance activities described above. For example, provide source code or links to source code of tests, provide test protocols, comments or protocols from code reviews, reports from static analysis tools, links to or screenshots from a continuous integration platform, and so forth.
 
-7.	**Plan Updates** (<1 page)  
+8.	**Plan Updates** (<1 page)  
 A description and justification of deviations between your initial plans and your performed activities (as in Homework 2). Changes are expected, but they should be tracked and explained. Describe changes in scope (e.g., fewer tasks) and in the schedule and work allocation. Provide an updated schedule and note differences. Explain the causes of the changes, such as unanticipated risks. 
 
-8.	**Extra Credit**  
+9.	**Summary of Final Contributions** (<0.5 page)  
+A table that **briefly summarizes** the contribution(s) each team member made towards completing the task(s).
+
+10.	**Extra Credit**  
 Evidence that your changes have been accepted into the code base of the open source project in forms of links or screenshots. **Note: You can also send the merged PR link via Slack to Rohan Padhye by 18th May 1pm to claim this bonus as well**
 
 Page limits are provided for guidance; we will not enforce them. Collect all parts in a **single PDF document with clear subsections** and the names of all team members and submit that file to **Gradescope**.
