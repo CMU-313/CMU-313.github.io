@@ -96,7 +96,7 @@ Evidence of your quality assurance activities described above. For example, prov
 A description and justification of deviations between your initial plans and your performed activities (as in Homework 2). Changes are expected, but they should be tracked and explained. Describe changes in scope (e.g., fewer tasks) and in the schedule and work allocation. Provide an updated schedule and note differences. Explain the causes of the changes, such as unanticipated risks. 
 
 8.	**Extra Credit**  
-Evidence that your changes have been accepted into the code base of the open source project in forms of links or screenshots. **Note: You can also send the merged PR link via Slack to Michael Hilton by 10th May 1pm to claim this bonus as well**
+Evidence that your changes have been accepted into the code base of the open source project in forms of links or screenshots. **Note: You can also send the merged PR link via Slack to Rohan Padhye by 18th May 1pm to claim this bonus as well**
 
 Page limits are provided for guidance; we will not enforce them. Collect all parts in a **single PDF document with clear subsections** and the names of all team members and submit that file to **Gradescope**.
 
