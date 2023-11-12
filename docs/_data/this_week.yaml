@@ -1,13 +1,10 @@
 lectures:
-- date: Tue Nov 07
+- date: Tue Nov 14
   link: ''
-  name: NO CLASS (Democracy Day)
-- date: Thu Nov 09
+  name: Product Sales and Marketing
+- date: Thu Nov 16
   link: ''
-  name: Teamwork Feedback Workshop
-  reading:
-    link: https://cmu.ca1.qualtrics.com/jfe/form/SV_097gZEPgTzOYvC6
-    name: Pre-class survey (required)
+  name: Open Source Software Processes
 
 projects:
 - date: Fri Nov 10
@@ -20,6 +17,6 @@ projects:
 recitation:
   date: Mon Nov 13
   handout: recitations/reci10-team-feedback/
-  name: Recitation 10 - Team Feedback
+  name: Recitation 10 - Feedback debriefing
   quiz: https://www.gradescope.com/courses/583198/assignments/3670915
   slides: https://docs.google.com/presentation/d/1yu27ami8-b4cEaU-p9d4NCNV6iFwxMKtP5xpWgPkiEc/edit?usp=sharing
