@@ -1116,10 +1116,10 @@
 
 - date: Wed Nov 22
   homework:
-    deadline: 'Due Dec 15 @ 11:59pm'
-    link: ''
-    name: 'Project 5'
-    numDays: 18
+    deadline: 'Due Nov 28 @ 11:59pm'
+    link: 'projects/P5/'
+    name: 'Project 5 Checkpoint'
+    numDays: 5
   lecture:
     link: ''
     name: ''
@@ -1206,10 +1206,10 @@
 
 - date: Wed Nov 29
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Dec 11 @ 11:59pm'
+    link: 'projects/P5/'
+    name: 'Project 5 Final'
+    numDays: 9
   lecture:
     link: ''
     name: ''
@@ -1374,7 +1374,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Final 5:30pm-8:30pm (Room TBA)'
+    name: 'Final Presentation 5:30pm-8:30pm (Room TBA)'
   reading:
     link: ''
     name: ''
