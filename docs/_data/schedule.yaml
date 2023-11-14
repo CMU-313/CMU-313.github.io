@@ -1013,7 +1013,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/20-product-sales-and-marketing.pdf'
     name: 'Product Sales and Marketing'
   reading:
     link: ''
