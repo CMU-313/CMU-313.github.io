@@ -99,7 +99,7 @@ A description and justification of deviations between your initial plans and you
 A table that **briefly summarizes** the contribution(s) each team member made towards completing the task(s).
 
 10.	**Extra Credit**  
-Evidence that your changes have been accepted into the code base of the open source project in forms of links or screenshots. **Note: You can also send the merged PR link via Slack to Rohan Padhye by 18th May 1pm to claim this bonus as well**
+Evidence that your changes have been accepted into the code base of the open source project in forms of links or screenshots. **Note: You can also send the merged PR link to the insturctors via Slack to Group DM or e-mail(to both) by 18th May 1pm to claim this bonus as well**
 
 Page limits are provided for guidance; we will not enforce them. Collect all parts in a **single PDF document with clear subsections** and the names of all team members and submit that file to **Gradescope**.
 
