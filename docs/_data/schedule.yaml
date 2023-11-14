@@ -1001,10 +1001,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: 'Feedback debriefing'
-    quiz: ''
-    slides: ''
+    handout: 'recitations/reci10-team-feedback/'
+    name: 'Recitation 10 - Feedback debriefing'
+    quiz: 'https://www.gradescope.com/courses/583198/assignments/3670915'
+    slides: 'https://docs.google.com/presentation/d/1yu27ami8-b4cEaU-p9d4NCNV6iFwxMKtP5xpWgPkiEc/edit?usp=sharing'
 
 - date: Tue Nov 14
   homework:
