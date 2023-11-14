@@ -10,7 +10,7 @@
 
 **Presentation Date** – Tuesday, December 12th, 5:30-8:30pm, during exam timeslot
 
-**Reflection** – due Tuesday, December 12th, 11:59pm
+**Reflection** – due Monday, December 11th, 11:59pm
 
 - [Reflections & Peer Review](#individual-reflection-peer-evaluations-20-pts) (20 pts)
 

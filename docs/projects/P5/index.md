@@ -31,7 +31,7 @@ B) [**Project Final Report & Presentations**](/projects/P5/2_projectfinal) – 3
 - *Extra Credit (20 pts)*
 - Project Presentation (100 points) - **Held during exam timeslot on Tuesday, December 12th, 5:30-8:30pm**
 
-C) [**Individual Reflections**](/projects/P5/2_projectfinal) – 20 points – due Tuesday, December 12th, 11:59pm
+C) [**Individual Reflections**](/projects/P5/2_projectfinal) – 20 points – due Monday, December 11th, 11:59pm
 
 - Reflections & Peer Review (20 pts)
 
