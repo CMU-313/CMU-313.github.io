@@ -1049,8 +1049,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Open Source Software Processes'
+    link: 'assets/pdfs/21-open-source.pdf'
+    name: 'Open Source Software'
   reading:
     link: ''
     name: ''
