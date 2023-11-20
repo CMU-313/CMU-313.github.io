@@ -1,10 +1,10 @@
 lectures:
-- date: Tue Nov 14
-  link: assets/pdfs/20-product-sales-and-marketing.pdf
-  name: Product Sales and Marketing
-- date: Thu Nov 16
-  link: assets/pdfs/21-open-source.pdf
-  name: Open Source Software
+- date: Tue Nov 21
+  link: ''
+  name: NO CLASS (Voluntary)
+- date: Thu Nov 23
+  link: ''
+  name: NO CLASS (Happy Thanksgiving!)
 
 projects:
 - date: Fri Nov 10
@@ -13,10 +13,11 @@ projects:
   link: projects/P4/
   name: Project 4B
   numDays: 8
+- date: Wed Nov 22
+  deadline: Due Nov 28 @ 11:59pm
+  end_date: 2023-11-29 00:00:00
+  link: projects/P5/
+  name: Project 5 Checkpoint
+  numDays: 5
 
-recitation:
-  date: Mon Nov 13
-  handout: recitations/reci10-team-feedback/
-  name: Recitation 10 - Feedback debriefing
-  quiz: https://www.gradescope.com/courses/583198/assignments/3670915
-  slides: https://docs.google.com/presentation/d/1yu27ami8-b4cEaU-p9d4NCNV6iFwxMKtP5xpWgPkiEc/edit?usp=sharing
+recitation: null
