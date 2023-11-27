@@ -1,23 +1,28 @@
 lectures:
-- date: Tue Nov 21
+- date: Tue Nov 28
   link: ''
-  name: NO CLASS (Voluntary)
-- date: Thu Nov 23
+  name: Software Engineering Ethics
+- date: Thu Nov 30
   link: ''
-  name: NO CLASS (Happy Thanksgiving!)
+  name: Security and Privacy
 
 projects:
-- date: Fri Nov 10
-  deadline: Due Nov 21 @ 11:59pm
-  end_date: 2023-11-22 00:00:00
-  link: projects/P4/
-  name: Project 4B
-  numDays: 8
 - date: Wed Nov 22
   deadline: Due Nov 28 @ 11:59pm
   end_date: 2023-11-29 00:00:00
   link: projects/P5/
   name: Project 5 Checkpoint
   numDays: 5
+- date: Wed Nov 29
+  deadline: Due Dec 11 @ 11:59pm
+  end_date: 2023-12-12 00:00:00
+  link: projects/P5/
+  name: Project 5 Final
+  numDays: 9
 
-recitation: null
+recitation:
+  date: Mon Nov 27
+  handout: ''
+  name: P5 Checkpoint Presentations
+  quiz: ''
+  slides: ''
