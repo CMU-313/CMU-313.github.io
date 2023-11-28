@@ -1193,7 +1193,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/22-ethics.pdf'
     name: 'Software Engineering Ethics'
   reading:
     link: ''
