@@ -15,8 +15,8 @@ projects:
   numDays: 9
 
 recitation:
-  date: Mon Nov 27
-  handout: recitations/reci11-p5-checkin/
-  name: Recitation 11 - Open Source Project and Task Selection Check In
-  quiz: ''
+  date: Mon Dec 4
+  handout: ''
+  name: Recitation 12 - Open Source Round table + Office Hours
+  quiz: 'https://www.gradescope.com/courses/583198/assignments/3754243'
   slides: ''
