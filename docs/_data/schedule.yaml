@@ -1283,7 +1283,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/24-employment.pdf'
     name: 'Software Engineering Jobs, Offers, and Negotiation'
   reading:
     link: ''
