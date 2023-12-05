@@ -1272,8 +1272,8 @@
     name: ''
   recitation:
     handout: ''
-    name: 'TBD'
-    quiz: ''
+    name: 'Recitation 12 - Open Source Round table + Office Hours'
+    quiz: 'https://www.gradescope.com/courses/583198/assignments/3754243'
     slides: ''
 
 - date: Tue Dec 05
