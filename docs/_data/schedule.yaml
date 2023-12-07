@@ -1319,8 +1319,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Course Review'
+    link: 'assets/pdfs/25-final_thoughts.pdf'
+    name: 'Final Thoughts for the Semester'
   reading:
     link: ''
     name: ''

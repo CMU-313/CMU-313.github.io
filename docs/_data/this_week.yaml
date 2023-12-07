@@ -3,8 +3,8 @@ lectures:
   link: assets/pdfs/24-employment.pdf
   name: Software Engineering Jobs, Offers, and Negotiation
 - date: Thu Dec 07
-  link: ''
-  name: Course Review
+  link: 'assets/pdfs/25-final_thoughts.pdf'
+  name: 'Final Thoughts for the Semester'
 
 projects:
 - date: Wed Nov 29
