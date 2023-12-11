@@ -1,10 +1,7 @@
 lectures:
-- date: Tue Dec 05
-  link: assets/pdfs/24-employment.pdf
-  name: Software Engineering Jobs, Offers, and Negotiation
-- date: Thu Dec 07
-  link: assets/pdfs/25-final_thoughts.pdf
-  name: Final Thoughts for the Semester
+- date: Tue Dec 12
+  link: ''
+  name: Final Presentation 5:30pm-8:30pm (Room TBA)
 
 projects:
 - date: Wed Nov 29
@@ -14,9 +11,4 @@ projects:
   name: Project 5 Final
   numDays: 9
 
-recitation:
-  date: Mon Dec 04
-  handout: ''
-  name: Recitation 12 - Open Source Round table + Office Hours
-  quiz: https://www.gradescope.com/courses/583198/assignments/3754243
-  slides: ''
+recitation: null
