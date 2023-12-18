@@ -1,14 +1,5 @@
-lectures:
-- date: Tue Dec 12
-  link: ''
-  name: Final Presentation 5:30pm-8:30pm (Room PH 100)
+lectures: []
 
-projects:
-- date: Wed Nov 29
-  deadline: Due Dec 11 @ 11:59pm
-  end_date: 2023-12-12 00:00:00
-  link: projects/P5/
-  name: Project 5 Final
-  numDays: 9
+projects: []
 
 recitation: null
