@@ -62,48 +62,48 @@ nav:
   - Course Overview: overview.md
   - Syllabus: syllabus.md
   - Projects:
-      # projects/index.md # Dummy home page; remove once we start adding homework below
-      - "Project 1: Hello, NodeBB!":
-          - projects/P1/index.md
-          - 1A Build Checkpoint: projects/P1/1_checkpoint.md
-          - 1B Starter Task: projects/P1/2_translation.md
-          - NodeBB Installation:
-              - Mac: projects/P1/installation/mac.md
-              - Windows: projects/P1/installation/windows.md
-              - Linux (Ubuntu): projects/P1/installation/ubuntu.md
-          - Resources and Documentation: projects/P1/documentation.md
-          - FAQ: projects/P1/faq.md
-      - "Project 2: Collaborative Development":
-          - projects/P2/index.md
-          - "2A Team Process & Planning": projects/P2/1_teamprocess.md
-          - "2B First Sprint": projects/P2/2_firstsprint.md
-          - "2C Second Sprint": projects/P2/3_secondsprint.md
-      - "Project 3: Continuous Integration + Deployment":
-          - projects/P3/index.md
-          - "GCP Deployment Instructions": projects/P3/deployment.md
-      - "Project 4: Architecting an LLM Integration":
-          - projects/P4/index.md
-      - "Project 5: Open Source Excursion":
-          - projects/P5/index.md
-          - "5A Project and Task Selection": projects/P5/1_projectcheck.md
-          - "5B Project Presentations, Final Report, and Reflections": projects/P5/2_projectfinal.md
+      - projects/index.md # Dummy home page; remove once we start adding homework below
+      # - "Project 1: Hello, NodeBB!":
+      #     - projects/P1/index.md
+      #     - 1A Build Checkpoint: projects/P1/1_checkpoint.md
+      #     - 1B Starter Task: projects/P1/2_translation.md
+      #     - NodeBB Installation:
+      #         - Mac: projects/P1/installation/mac.md
+      #         - Windows: projects/P1/installation/windows.md
+      #         - Linux (Ubuntu): projects/P1/installation/ubuntu.md
+      #     - Resources and Documentation: projects/P1/documentation.md
+      #     - FAQ: projects/P1/faq.md
+      # - "Project 2: Collaborative Development":
+      #     - projects/P2/index.md
+      #     - "2A Team Process & Planning": projects/P2/1_teamprocess.md
+      #     - "2B First Sprint": projects/P2/2_firstsprint.md
+      #     - "2C Second Sprint": projects/P2/3_secondsprint.md
+      # - "Project 3: Continuous Integration + Deployment":
+      #     - projects/P3/index.md
+      #     - "GCP Deployment Instructions": projects/P3/deployment.md
+      # - "Project 4: Architecting an LLM Integration":
+      #     - projects/P4/index.md
+      # - "Project 5: Open Source Excursion":
+      #     - projects/P5/index.md
+      #     - "5A Project and Task Selection": projects/P5/1_projectcheck.md
+      #     - "5B Project Presentations, Final Report, and Reflections": projects/P5/2_projectfinal.md
   - Recitations:
-      # recitations/index.md # Dummy home page; remove once we start adding recitations below
-      - Recitation 1 - Git, GitHub and TypeScript: recitations/reci1-github.md
-      - Recitation 2 - Team Contract Workshop: recitations/reci2-teamcontract.md
-      - Recitation 3 - Deployment: recitations/reci3-deployment.md
-      - Recitation 4 - Archaeology: recitations/reci4-archaeology.md
-      - Recitation 6 - Midterm Review: recitations/reci6-midterm-review.md
-      - Recitation 7 - Static Analysis and Continuous Integration: recitations/reci7-static-analysis-ci.md
-      - Recitation 8 - Large Language Models: recitations/reci8-llms.md
-      - Recitation 9 - Open Source Projectss: recitations/reci9-open-source.md
-      - Recitation 10 - Team Feedback: recitations/reci10-team-feedback.md
+      - recitations/index.md # Dummy home page; remove once we start adding recitations below
+      # - Recitation 1 - Git, GitHub and TypeScript: recitations/reci1-github.md
+      # - Recitation 2 - Team Contract Workshop: recitations/reci2-teamcontract.md
+      # - Recitation 3 - Deployment: recitations/reci3-deployment.md
+      # - Recitation 4 - Archaeology: recitations/reci4-archaeology.md
+      # - Recitation 6 - Midterm Review: recitations/reci6-midterm-review.md
+      # - Recitation 7 - Static Analysis and Continuous Integration: recitations/reci7-static-analysis-ci.md
+      # - Recitation 8 - Large Language Models: recitations/reci8-llms.md
+      # - Recitation 9 - Open Source Projectss: recitations/reci9-open-source.md
+      # - Recitation 10 - Team Feedback: recitations/reci10-team-feedback.md
       # - Recitation 7 - Docker and Containerization: recitations/reci7-docker.md
       # - Recitation 8 - Team Feedback: recitations/reci8-team-feedback.md
       # - Recitation 9 - Machine Learning: recitations/reci9-ml.md
       # - Recitation 10 - Open Source Projects: recitations/reci10-open-source.md
-      - Recitation 11 - Open Source Project and Task Selection Check In: recitations/reci11-p5-checkin.md
+      # - Recitation 11 - Open Source Project and Task Selection Check In: recitations/reci11-p5-checkin.md
   - Hall of Fame: hall-of-fame.md
-  - Canvas: https://canvas.cmu.edu/courses/36599
-  - Gradescope: https://www.gradescope.com/courses/583198
-  - Slack: https://join.slack.com/t/cmu-17313-f23/signup
+  - Canvas: https://canvas.cmu.edu/courses/36599 # edit upon canvas creation
+  - Gradescope: https://www.gradescope.com/courses/583198 # edit upon gradescope creation
+  - Slack: https://join.slack.com/t/cmu-17313-s24/signup

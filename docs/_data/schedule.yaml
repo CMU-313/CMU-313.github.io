@@ -1,4 +1,4 @@
-- date: Mon Aug 28
+- date: Mon Jan 15
   homework:
     deadline: ''
     link: ''
@@ -11,20 +11,20 @@
     link: ''
     name: ''
   recitation:
-    handout: "recitations/reci1-github/"
-    name: "Recitation 1 - GitHub and TS"
-    quiz: "https://www.gradescope.com/courses/583198/assignments/3141880/"
-    slides: "https://docs.google.com/presentation/d/1yFOzbN59GNt2o_prlfBztnweQw9cufFv/edit?usp=sharing&ouid=103835569344818242692&rtpof=true&sd=true"
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
 
-- date: Tue Aug 29
+- date: Tue Jan 16
   homework:
-    deadline: 'Due Sep 1 @ 11:59pm'
-    link: 'projects/P1'
-    name: 'P1A - Build Checkpoint'
-    numDays: 4
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
-    link: 'assets/pdfs/01-introduction-wide.pdf'
-    name: 'Introduction'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -34,7 +34,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Aug 30
+- date: Wed Jan 17
   homework:
     deadline: ""
     link: ""
@@ -52,15 +52,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Aug 31
+- date: Thu Jan 18
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/02-archaelogy-and-anthropology.pdf'
-    name: 'Software Archaeology and Anthropology'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -70,7 +70,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Sep 01
+- date: Fri Jan 19
   homework:
     deadline: ''
     link: ''
@@ -88,12 +88,12 @@
     quiz: ''
     slides: ''
 
-- date: Mon Sep 04
+- date: Mon Jan 22
   homework:
-    deadline: 'Due Sep 7 @ 11:59pm'
-    link: 'projects/P1'
-    name: 'P1B - Starter Task'
-    numDays: 4
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -101,20 +101,20 @@
     link: ''
     name: ''
   recitation:
-    handout: "recitations/reci2-teamcontract/"
-    name: "Recitation 2 - Team Contract Workshop"
-    quiz: "https://www.gradescope.com/courses/583198/assignments/3256944"
-    slides: "https://docs.google.com/presentation/d/1-Ksbtt4AATfuf1w99NKBRWSyQJIydUQAQLfBkp9cPzU/edit?usp=sharing"
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
 
-- date: Tue Sep 05
+- date: Tue Jan 23
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/03-measurement-wide.pdf'
-    name: 'Metrics and Measurement'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -124,7 +124,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Sep 06
+- date: Wed Jan 24
   homework:
     deadline: ''
     link: ''
@@ -142,15 +142,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Sep 07
+- date: Thu Jan 25
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/04-planning-wide.pdf'
-    name: 'Project Planning'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -160,12 +160,12 @@
     quiz: ''
     slides: ''
 
-- date: Fri Sep 08
+- date: Fri Jan 26
   homework:
-    deadline: 'Due Sep 14 @ 11:59pm'
-    link: 'projects/P2'
-    name: 'Project 2A'
-    numDays: 5
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -178,7 +178,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Sep 11
+- date: Mon Jan 29
   homework:
     deadline: ''
     link: ''
@@ -191,20 +191,20 @@
     link: ''
     name: ''
   recitation:
-    handout: "recitations/reci3-deployment/"
-    name: "Recitation 3 - Deployment"
-    quiz: "https://www.gradescope.com/courses/583198/assignments/3301087/"
+    handout: ''
+    name: ''
+    quiz: ''
     slides: ''
 
-- date: Tue Sep 12
+- date: Tue Jan 30
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/05-teams-communication-wide.pdf'
-    name: 'Teams and Communication'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -214,7 +214,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Sep 13
+- date: Wed Jan 31
   homework:
     deadline: ''
     link: ''
@@ -232,30 +232,30 @@
     quiz: ''
     slides: ''
 
-- date: Thu Sep 14
+- date: Thu Feb 1
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/06-boeing-case-study.pdf'
-    name: 'Case Study: Boeing 737 MAX'
+    link: ''
+    name: ''
   reading:
-    link: 'https://www.gradescope.com/courses/583198/assignments/3307307'
-    name: 'Boeing 737 Max'
+    link: ''
+    name: ''
   recitation:
     handout: ''
     name: ''
     quiz: ''
     slides: ''
 
-- date: Fri Sep 15
+- date: Fri Feb 2
   homework:
-    deadline: 'Due Sep 26 @ 11:59pm'
-    link: 'projects/P2/2_firstsprint'
-    name: 'Project 2B'
-    numDays: 8
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -268,7 +268,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Sep 18
+- date: Mon Feb 5
   homework:
     deadline: ''
     link: ''
@@ -281,20 +281,20 @@
     link: ''
     name: ''
   recitation:
-    handout: 'recitations/reci4-archaeology/'
-    name: "Recitation 4 - Code Archaeology"
-    quiz: 'https://www.gradescope.com/courses/583198/assignments/3347773' 
-    slides: 'https://docs.google.com/presentation/d/15rgSBUlpZPRJMPlt8vmgryiSeKvNG7x0-IJNYPd-M_M/edit?usp=sharing'
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
 
-- date: Tue Sep 19
+- date: Tue Feb 6
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/07-deployment-workshop-extreme-startup.pdf'
-    name: 'SE Deployment Workshop: Extreme Startup'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -304,7 +304,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Sep 20
+- date: Wed Feb 7
   homework:
     deadline: ''
     link: ''
@@ -322,15 +322,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Sep 21
+- date: Thu Feb 8
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/08-software-testing.pdf'
-    name: 'Software Testing'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -340,7 +340,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Sep 22
+- date: Fri Feb 9
   homework:
     deadline: ''
     link: ''
@@ -358,7 +358,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Sep 25
+- date: Mon Feb 12
   homework:
     deadline: ''
     link: ''
@@ -372,19 +372,19 @@
     name: ''
   recitation:
     handout: ''
-    name: "Recitation 5 - P2 Presentations"
+    name: ''
     quiz: ''
     slides: ''
 
-- date: Tue Sep 26
+- date: Tue Feb 13
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/09-Architecture-Intro.pdf'
-    name: 'Introduction to Software Architecture'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -394,12 +394,12 @@
     quiz: ''
     slides: ''
 
-- date: Wed Sep 27
+- date: Wed Feb 14
   homework:
-    deadline: 'Due Oct 12 @ 11:59pm'
-    link: 'projects/P2/3_secondsprint'
-    name: 'Project 2C'
-    numDays: 12
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -412,15 +412,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Sep 28
+- date: Thu Feb 15
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/10-arch-design-docs.pdf'
-    name: 'Architecture: Design Documentation'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -430,7 +430,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Sep 29
+- date: Fri Feb 16
   homework:
     deadline: ''
     link: ''
@@ -448,7 +448,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Oct 02
+- date: Mon Feb 19
   homework:
     deadline: ''
     link: ''
@@ -461,20 +461,20 @@
     link: ''
     name: ''
   recitation:
-    handout: "recitations/reci6-midterm-review/"
-    name: "Recitation 6 - Midterm Review"
+    handout: ''
+    name: ''
     quiz: ''
     slides: ''
 
-- date: Tue Oct 03
+- date: Tue Feb 20
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/11-microservices.pdf'
-    name: 'Architecture: Microservices'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -484,7 +484,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Oct 04
+- date: Wed Feb 21
   homework:
     deadline: ''
     link: ''
@@ -502,15 +502,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Oct 05
+- date: Thu Feb 22
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/12-code-review.pdf'
-    name: 'Software Risk Management: Code Review'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -520,7 +520,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Oct 06
+- date: Fri Feb 23
   homework:
     deadline: ''
     link: ''
@@ -538,7 +538,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Oct 09
+- date: Mon Feb 26
   homework:
     deadline: ''
     link: ''
@@ -552,11 +552,11 @@
     name: ''
   recitation:
     handout: ''
-    name: 'No recitation (midterms)'
+    name: ''
     quiz: ''
     slides: ''
 
-- date: Tue Oct 10
+- date: Tue Feb 27
   homework:
     deadline: ''
     link: ''
@@ -564,7 +564,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'MIDTERM EXAM'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -574,7 +574,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Oct 11
+- date: Wed Feb 28
   homework:
     deadline: ''
     link: ''
@@ -592,15 +592,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Oct 12
+- date: Thu Feb 29
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/14-software-team-roles.pdf'
-    name: 'Software Team Roles'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -610,7 +610,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Oct 13
+- date: Fri Mar 1
   homework:
     deadline: ''
     link: ''
@@ -628,7 +628,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Oct 16
+- date: Mon Mar 4
   homework:
     deadline: ''
     link: ''
@@ -642,11 +642,11 @@
     name: ''
   recitation:
     handout: ''
-    name: 'No recitation (fall break)'
+    name: ''
     quiz: ''
     slides: ''
 
-- date: Tue Oct 17
+- date: Tue Mar 5
   homework:
     deadline: ''
     link: ''
@@ -654,7 +654,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'NO CLASS (Fall Break)'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -664,7 +664,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Oct 18
+- date: Wed Mar 6
   homework:
     deadline: ''
     link: ''
@@ -682,7 +682,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Oct 19
+- date: Thu Mar 7
   homework:
     deadline: ''
     link: ''
@@ -690,7 +690,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'NO CLASS (Fall Break)'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -700,7 +700,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Oct 20
+- date: Fri Mar 8
   homework:
     deadline: ''
     link: ''
@@ -718,12 +718,12 @@
     quiz: ''
     slides: ''
 
-- date: Mon Oct 23
+- date: Mon Mar 11
   homework:
-    deadline: 'Due Oct 27 @ 11:59pm'
-    link: 'projects/P3/'
-    name: 'Project 3A'
-    numDays: 5
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -731,20 +731,20 @@
     link: ''
     name: ''
   recitation:
-    handout: 'recitations/reci7-static-analysis-ci/'
-    name: "Recitation 7 - Static Analysis & Continuous Integration"
-    quiz: 'https://www.gradescope.com/courses/583198/assignments/3568154/' 
-    slides: 'https://docs.google.com/presentation/d/1BcnnvSKX3wCGiB2f_ewZTn7oJ6drKbgxbZjJA1LTXQo/edit?usp=sharing'
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
 
-- date: Tue Oct 24
+- date: Tue Mar 12
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/15-analysis-tools.pdf'
-    name: 'Quality Assurance: Static and Dynamic Analysis'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -754,7 +754,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Oct 25
+- date: Wed Mar 13
   homework:
     deadline: ''
     link: ''
@@ -772,15 +772,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Oct 26
+- date: Thu Mar 14
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/16-advanced-testing.pdf'
-    name: 'Quality Assurance: Automated Testing and Dynamic Analysis'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -790,7 +790,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Oct 27
+- date: Fri Mar 15
   homework:
     deadline: ''
     link: ''
@@ -808,12 +808,12 @@
     quiz: ''
     slides: ''
 
-- date: Mon Oct 30
+- date: Mon Mar 18
   homework:
-    deadline: 'Due Nov 2 @ 11:59pm'
-    link: 'projects/P3/'
-    name: 'Project 3B'
-    numDays: 4
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -821,30 +821,30 @@
     link: ''
     name: ''
   recitation:
-    handout: 'recitations/reci8-llms/'
-    name: 'Recitation 8 - Large Language Models'
-    quiz: 'https://www.gradescope.com/courses/583198/assignments/3599220/'
+    handout: ''
+    name: ''
+    quiz: ''
     slides: ''
 
-- date: Tue Oct 31
+- date: Tue Mar 19
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/17-agile-effectiveness.pdf'
-    name: 'Agile Team Effectiveness'
+    link: ''
+    name: ''
   reading:
-    link: 'readings/teaching_case_teamwork_short3.pdf'
-    name: 'Teamwork in a first Scrum project'
+    link: ''
+    name: ''
   recitation:
     handout: ''
     name: ''
     quiz: ''
     slides: ''
 
-- date: Wed Nov 01
+- date: Wed Mar 20
   homework:
     deadline: ''
     link: ''
@@ -862,15 +862,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Nov 02
+- date: Thu Mar 21
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/18-llms.pdf'
-    name: 'A Software Engineer''s Guide to LLMs'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -880,12 +880,12 @@
     quiz: ''
     slides: ''
 
-- date: Fri Nov 03
+- date: Fri Mar 22
   homework:
-    deadline: 'Due Nov 9 @ 11:59pm'
-    link: 'projects/P4/'
-    name: 'Project 4A'
-    numDays: 5
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -898,7 +898,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Nov 06
+- date: Mon Mar 25
   homework:
     deadline: ''
     link: ''
@@ -911,12 +911,12 @@
     link: ''
     name: ''
   recitation:
-    handout: 'recitations/reci9-open-source/'
-    name: 'Recitation 9 - Open Source Scavenger Hunt'
-    quiz: 'https://www.gradescope.com/courses/583198/assignments/3631034'
-    slides: 'https://docs.google.com/presentation/d/1nUa1rRiP9ZjfUEKEUDDHdsPUpzmdmzZziZA0dGqfto0/edit?usp=sharing'
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
 
-- date: Tue Nov 07
+- date: Tue Mar 26
   homework:
     deadline: ''
     link: ''
@@ -924,7 +924,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'NO CLASS (Democracy Day)'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -934,7 +934,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Nov 08
+- date: Mar 27
   homework:
     deadline: ''
     link: ''
@@ -952,7 +952,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Nov 09
+- date: Thu Mar 28
   homework:
     deadline: ''
     link: ''
@@ -960,22 +960,22 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Teamwork Feedback Workshop'
+    name: ''
   reading:
-    link: 'https://cmu.ca1.qualtrics.com/jfe/form/SV_097gZEPgTzOYvC6'
-    name: 'Pre-class survey (required)'
+    link: ''
+    name: ''
   recitation:
     handout: ''
     name: ''
     quiz: ''
     slides: ''
 
-- date: Fri Nov 10
+- date: Fri Mar 29
   homework:
-    deadline: 'Due Nov 21 @ 11:59pm'
-    link: 'projects/P4/'
-    name: 'Project 4B'
-    numDays: 8
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -988,7 +988,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Nov 13
+- date: Mon Apr 1
   homework:
     deadline: ''
     link: ''
@@ -1001,20 +1001,20 @@
     link: ''
     name: ''
   recitation:
-    handout: 'recitations/reci10-team-feedback/'
-    name: 'Recitation 10 - Feedback debriefing'
-    quiz: 'https://www.gradescope.com/courses/583198/assignments/3670915'
-    slides: 'https://docs.google.com/presentation/d/1yu27ami8-b4cEaU-p9d4NCNV6iFwxMKtP5xpWgPkiEc/edit?usp=sharing'
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
 
-- date: Tue Nov 14
+- date: Tue Apr 2
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/20-product-sales-and-marketing.pdf'
-    name: 'Product Sales and Marketing'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1024,7 +1024,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Nov 15
+- date: Wed Apr 3
   homework:
     deadline: ''
     link: ''
@@ -1042,15 +1042,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Nov 16
+- date: Thu Apr 4
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/21-open-source.pdf'
-    name: 'Open Source Software'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1060,7 +1060,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Nov 17
+- date: Fri Apr 5
   homework:
     deadline: ''
     link: ''
@@ -1078,7 +1078,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Nov 20
+- date: Mon Apr 8
   homework:
     deadline: ''
     link: ''
@@ -1096,7 +1096,7 @@
     quiz: ''
     slides: ''
 
-- date: Tue Nov 21
+- date: Tue Apr 9
   homework:
     deadline: ''
     link: ''
@@ -1104,7 +1104,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'NO CLASS (Voluntary)'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1114,12 +1114,12 @@
     quiz: ''
     slides: ''
 
-- date: Wed Nov 22
+- date: Wed Apr 10
   homework:
-    deadline: 'Due Nov 28 @ 11:59pm'
-    link: 'projects/P5/'
-    name: 'Project 5 Checkpoint'
-    numDays: 5
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -1132,7 +1132,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Nov 23
+- date: Thu Apr 11
   homework:
     deadline: ''
     link: ''
@@ -1140,7 +1140,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'NO CLASS (Happy Thanksgiving!)'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1150,7 +1150,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Nov 24
+- date: Fri Apr 12
   homework:
     deadline: ''
     link: ''
@@ -1168,7 +1168,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Nov 27
+- date: Mon Apr 15
   homework:
     deadline: ''
     link: ''
@@ -1181,20 +1181,20 @@
     link: ''
     name: ''
   recitation:
-    handout: 'recitations/reci11-p5-checkin/'
-    name: 'Recitation 11 - Open Source Project and Task Selection Check In'
+    handout: ''
+    name: ''
     quiz: ''
     slides: ''
 
-- date: Tue Nov 28
+- date: Tue Apr 16
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/22-ethics.pdf'
-    name: 'Software Engineering Ethics'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1204,12 +1204,12 @@
     quiz: ''
     slides: ''
 
-- date: Wed Nov 29
+- date: Wed Apr 17
   homework:
-    deadline: 'Due Dec 11 @ 11:59pm'
-    link: 'projects/P5/'
-    name: 'Project 5 Final'
-    numDays: 9
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -1222,15 +1222,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Nov 30
+- date: Thu Apr 18
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/23-security.pdf'
-    name: 'Security and Privacy'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1240,7 +1240,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Dec 01
+- date: Fri Apr 19
   homework:
     deadline: ''
     link: ''
@@ -1258,7 +1258,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Dec 04
+- date: Mon Apr 22
   homework:
     deadline: ''
     link: ''
@@ -1272,19 +1272,19 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Recitation 12 - Open Source Round table + Office Hours'
-    quiz: 'https://www.gradescope.com/courses/583198/assignments/3754243'
+    name: ''
+    quiz: ''
     slides: ''
 
-- date: Tue Dec 05
+- date: Tue Apr 23
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/24-employment.pdf'
-    name: 'Software Engineering Jobs, Offers, and Negotiation'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1294,7 +1294,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Dec 06
+- date: Wed Apr 24
   homework:
     deadline: ''
     link: ''
@@ -1312,15 +1312,15 @@
     quiz: ''
     slides: ''
 
-- date: Thu Dec 07
+- date: Thu Apr 25
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/25-final_thoughts.pdf'
-    name: 'Final Thoughts for the Semester'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1330,7 +1330,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Dec 08
+- date: Fri Apr 26
   homework:
     deadline: ''
     link: ''
@@ -1348,7 +1348,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Dec 11
+- date: Mon Apr 29
   homework:
     deadline: ''
     link: ''
@@ -1366,7 +1366,7 @@
     quiz: ''
     slides: ''
 
-- date: Tue Dec 12
+- date: Tue Apr 30
   homework:
     deadline: ''
     link: ''
@@ -1374,7 +1374,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Final Presentation 5:30pm-8:30pm (Room PH 100)'
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1384,7 +1384,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Dec 13
+- date: Wed May 1
   homework:
     deadline: ''
     link: ''
@@ -1402,7 +1402,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Dec 14
+- date: Thu May 2
   homework:
     deadline: ''
     link: ''
@@ -1420,7 +1420,7 @@
     quiz: ''
     slides: ''
 
-- date: Fri Dec 15
+- date: Fri May 3
   homework:
     deadline: ''
     link: ''
@@ -1438,7 +1438,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Dec 18
+- date: Mon May 6
   homework:
     deadline: ''
     link: ''
@@ -1456,7 +1456,7 @@
     quiz: ''
     slides: ''
 
-- date: Tue Dec 19
+- date: Tue May 7
   homework:
     deadline: ''
     link: ''
