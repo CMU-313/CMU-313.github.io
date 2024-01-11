@@ -2,14 +2,14 @@
 - name: Michael Hilton
   role: Instructor
   email: mhilton@cmu.edu
-  website: 
-  photo: blank.jpg
+  website: https://www.cs.cmu.edu/~mhilton/
+  photo: michael.jpg
 
 - name: Eduardo Feo Flushing
   role: Instructor
   email: efeoflus@andrew.cmu.edu
-  website: 
-  photo: blank.jpg
+  website: https://www.efeoflushing.com/
+  photo: eduardo.jpg
 
 - name: Sophia Witt
   role: Teaching Assistant
@@ -53,8 +53,8 @@
   website:
   photo: jenny.jpg
 
-- name: Leo Li
+- name: Ao Li
   role: Teaching Assistant
   email: aoli@andrew.cmu.edu
   website:
-  photo: blank.jpg
+  photo: ao.jpg
