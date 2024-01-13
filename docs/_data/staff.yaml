@@ -1,26 +1,21 @@
-- name: Anuda Weerasinghe
-  role: Teaching Assistant
-  email: wweerasi@andrew.cmu.edu
-  website:
-  photo: anuda.jpg
 
-- name: Rohan Padhye
+- name: Michael Hilton
   role: Instructor
-  email: rohanpadhye@cmu.edu
-  website: https://rohan.padhye.org/
-  photo: rohan.jpeg
+  email: mhilton@cmu.edu
+  website: https://www.cs.cmu.edu/~mhilton/
+  photo: michael.jpg
 
-- name: Andrew Begel
+- name: Eduardo Feo Flushing
   role: Instructor
-  email: abegel@cmu.edu
-  website: https://andrewbegel.com/
-  photo: andy.jpeg
+  email: efeoflus@andrew.cmu.edu
+  website: https://www.efeoflushing.com/
+  photo: eduardo.jpg
 
-- name: Antara Pal
+- name: Sophia Witt
   role: Teaching Assistant
-  email: antarap@andrew.cmu.edu
+  email: switt@andrew.cmu.edu
   website:
-  photo: antara.jpg
+  photo: sophia.jpg
 
 - name: Alexis Axon
   role: Teaching Assistant
@@ -40,20 +35,26 @@
   website:
   photo: blank.jpg
 
-- name: Michael Zhou
+- name: Laura Marinov
   role: Teaching Assistant
-  email: mhzhou@andrew.cmu.edu
+  email: lmarinov@andrew.cmu.edu
   website:
-  photo: michael.jpg
+  photo: blank.jpg
 
-- name: Sophia Witt
+- name: Jesse Ding
   role: Teaching Assistant
-  email: switt@andrew.cmu.edu
+  email: jessedin@andrew.cmu.edu
   website:
-  photo: sophia.jpg
+  photo: jesse.jpg
 
-- name: Vasu Vikram
+- name: Jenny Liang
   role: Teaching Assistant
-  email: vvikram@andrew.cmu.edu
+  email: jtliang@andrew.cmu.edu
   website:
-  photo: vasu.jpg
+  photo: jenny.jpg
+
+- name: Ao Li
+  role: Teaching Assistant
+  email: aoli@andrew.cmu.edu
+  website:
+  photo: ao.jpg
