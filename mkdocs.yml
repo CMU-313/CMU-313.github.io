@@ -62,7 +62,6 @@ nav:
   - Course Overview: overview.md
   - Syllabus: syllabus.md
   - Projects:
-      - Projects:
       # projects/index.md # Dummy home page; remove once we start adding homework below
       - "Project 1: Hello, NodeBB!":
           - projects/P1/index.md
