@@ -135,7 +135,7 @@ hide:
 
 ## Class Calendar
 
-Coming Soon!
+<iframe src="https://calendar.google.com/calendar/embed?src=c_35e13ce96c69df6612d46b0bc0664acdea6e76bdaafcceb86e040b410cda5e50%40group.calendar.google.com&ctz=America%2FNew_York&mode=WEEK" style="border: 0" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Weekly Schedule
 
