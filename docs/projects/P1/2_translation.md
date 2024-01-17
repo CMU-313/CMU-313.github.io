@@ -75,7 +75,7 @@ You should soon see another comment by the `github-actions` bot informing you th
 ### Task (10 pts)
 For this task you will chose one (1) of the following tasks:
   
-  TypeScript Tranlation
+  TypeScript Translation
   
   OR
 
@@ -112,6 +112,7 @@ Back in **your own fork**, create a feature branch and implement the change. You
 - Locate the tests that are currently covering that file.
 - Write tests that will add coverage to at least five (5) lines that are currently uncovered in the file, as measured by line coverage.  
 - All new tests added by you must pass.
+- The tests that you write should be similar to the existing tests (e.g., do not introduce a new testing framework).
 
 **NOTE: each test should actually test something, meaning it must have at least 1 assert statement**
 
