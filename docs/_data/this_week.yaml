@@ -1,8 +1,15 @@
 lectures:
-- date: Mon Jan 15
+- date: Tue Jan 16
   link: assets/pdfs/01-introduction-wide.pdf
   name: Introduction
 
-projects: []
+projects:
+- date: Tue Jan 16
+  deadline: Due Friday Jan 19th, 11:59pm
+  end_date: 2024-01-22 00:00:00
+  homework: null
+  link: /projects/P1
+  name: P1A - Build Checkpoint
+  numDays: 4
 
 recitation: null
