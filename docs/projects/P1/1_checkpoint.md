@@ -2,7 +2,7 @@
 
 ## Deliverables
 
-**Build Checkpoint** – 5 points – due Friday, September 1st, 11:59pm
+**Build Checkpoint** – 5 points – due Friday, January 19th, 11:59pm
 
 ## Getting Started
 
@@ -52,7 +52,7 @@ Upon completing the above steps, take screenshots of
 
 opened in your browser. **Be sure the URL is clearly visible in both screenshots** (i.e. `localhost:4567` and the file path to your coverage file), so we can confirm that you have everything running locally.
 
-Submit the two screenshots to [Gradescope](https://www.gradescope.com/courses/583198).
+Submit the two screenshots to [Gradescope](https://www.gradescope.com/courses/703665).
 
 ## Grading
 To receive full credit for this checkpoint, we expect:

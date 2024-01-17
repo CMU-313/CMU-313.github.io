@@ -1,9 +1,9 @@
 # Project 1B: TypeScript Translation
 ## Deliverables
-Starter Task - 95 points - due Thursday, September 7th, 11:59PM
+Starter Task - 95 points - due Thursday, January 25th, 11:59PM
 
 - [GitHub Issue](#github-issue-20-pts) (20 pts)
-- [TypeScript Translation](#typescript-translation-10-pts) (10 pts)
+- [TypeScript Translation or Test Coverage](#task-10-pts) (10 pts)
 - [GitHub Pull Request](#github-pull-request-25-pts) (25 pts)
 - [Gradescope Written Assignment](#written-assignment-40-pts) (40 pts)
 
@@ -12,14 +12,15 @@ Now that you have explored the repository, the development team would like to gi
 
 *Types types types!* Driven by their programming language enthusiast, the team is currently undertaking a major code overhaul and converting the repository from JavaScript to [TypeScript](https://www.typescriptlang.org/). This language is a superset of JavaScript and comes with many advantages, including better support for code editors, compile time error-checking and, of course, types!
 
-As part of the efforts to integrate this new language into the repository, all future code will be written using TypeScript and the old files are translated as necessary. To prepare you for TypeScript development, the team would like you to contribute towards rewriting the codebase.
+To ensure the translation is done properly, we also want all files to achieve total test coverage with JavaScript.  If you are not up to translating to TypeScript, you can also improve the code base by increasing the code coverage.
+<!-- As part of the efforts to integrate this new language into the repository, all future code will be written using TypeScript and the old files are translated as necessary. To prepare you for TypeScript development, the team would like you to contribute towards rewriting the codebase. -->
 
 ## Prerequisites
 ### Onboarding Materials
 Before jumping into the codebase, please review the [course syllabus](/syllabus) and be sure you have access to each of the following:
 
 - Course Slack - check your email for an invite link
-- [Canvas](https://canvas.cmu.edu/courses/36599)
+- [Canvas](https://canvas.cmu.edu/courses/39244)
 - [Gradescope](https://www.gradescope.com/courses/583198)
 
 If you run into any trouble accessing the above or have any questions, reach out to the instructors.
@@ -37,15 +38,23 @@ If you are not familiar with any of these steps, you are **highly recommended** 
 
 
 ### GitHub Issue (20 pts)
-First, choose a single JavaScript file to translate and open a GitHub Issue in the [class repository](https://github.com/CMU-313/NodeBB/issues) to declare which file you will be translating.
+First, choose a single JavaScript file to either translate or complete the test coverage, and open a GitHub Issue in the [class repository](https://github.com/CMU-313/NodeBB/issues) to declare which file you will be translating.
 
-There are some restrictions on the `.js` file that you can pick. Specifically, the file must:
+There are some restrictions on the `.js` file that you can pick. 
+
+For the TypeScript Translation, the file must:
 
 - **Be in the `src/` folder**
 - **Contain at least 50 lines of non-import statement code** before you start translating it. Files like [`src/api/index.js`](https://github.com/CMU-313/NodeBB/blob/main/src/api/index.js) and [`src/controllers/admin.js`](https://github.com/CMU-313/NodeBB/blob/main/src/controllers/admin.js) are not allowed
-- **Be a file that no one else in the class has picked and created an issue for**. We expect you to look through existing issues, if any, to avoid such duplication (thus, there is an incentive for you to start early!)
+- **Be a file that no one else in the class has picked for TypeScript Translation and created an issue for**. We expect you to look through existing issues, if any, to avoid such duplication (thus, there is an incentive for you to start early!)
 
-Title the task appropriately, such as `Converting <file name> from JS to TS`, and mention the file name in the description. To prevent ambiguities between similarly-named files, be sure to use the **full file path** (`src/../xx.js`) in the title and description. 
+For Completing the Test Coverage, the file must:
+- **Be in the `src/` folder**
+- **Contain at least 5 lines of not covered by existing tests** 
+- **Be a file that no one else in the class has picked for completing test coverage and created an issue for**. We expect you to look through existing issues, if any, to avoid such duplication (thus, there is an incentive for you to start early!)
+
+
+Title the task appropriately, such as `Converting <file name> from JS to TS` or `Adding test coverage for <file name>`,  and mention the file name in the description. To prevent ambiguities between similarly-named files, be sure to use the **full file path** (`src/../xx.js`) in the title and description. 
 
 ??? info "Issue Guidelines"
     **Issues titles** should provide a high-level overview of what the problem is (e.g. *"Navbar button UI bugs"*, *"Unexpected registration validation errors"*). Sometimes, issues are used to propose new features (e.g. *"Add CSV export feature"*).
@@ -63,7 +72,18 @@ You should soon see another comment by the `github-actions` bot informing you th
 	
 	For future projects, you will have full control over these GitHub features such as managing assignees, adding labels, creating milestones, and more.
 
-### TypeScript Translation (10 pts)
+### Task (10 pts)
+For this task you will chose one (1) of the following tasks:
+  
+  TypeScript Tranlation
+  
+  OR
+
+  Complete Test Coverage
+
+  You only need to do one (1) of these tasks. Each file can be claimed once for each task, so if someone else has claimed the TypeScript Translation, you could still claim the Complete Test Coverage.
+
+#### TypeScript Translation 
 Back in **your own fork**, create a feature branch and implement the change. You should start with the following steps:
 
 - [Install TypeScript](https://www.typescriptlang.org/download)
@@ -83,6 +103,19 @@ Your changes must still pass both the linter and the test suite, so be sure to t
 	```
 
 	We will check your files to make sure you are only suppressing these warnings when absolutely necessary. For examples and more details, see the [Additional TypeScript Background](/projects/P1/documentation#additional-typescript-background) section under "Resources and Documentation".
+
+#### Complete Test Coverage 
+
+Back in **your own fork**, create a feature branch and implement the change. You should start with the following steps:
+
+- Run tests to determine the initial coverage.
+- Locate the tests that are currently covering that file.
+- Write tests that will add coverage to at least five (5) lines that are currently uncovered in the file, as measured by line coverage.  
+- All new tests added by you must pass.
+
+**NOTE: each test should actually test something, meaning it must have at least 1 assert statement**
+
+
 
 ### GitHub Pull Request (25 pts)
 As you work, be sure to periodically commit your changes. Your commit message(s) must clearly describe what is changing. If you’d like, you can also make use of branching and pull requests in your own repository to practice working with GitHub.
