@@ -13,7 +13,7 @@ projects:
   numDays: 4
 
 recitation:
-- date: Mon Jan 22
+  date: Mon Jan 22
   handout: /recitations/reci1-github/
   name: Recitation 1 - Git, GitHub and TypeScript
   quiz: https://www.gradescope.com/courses/703665/assignments/3967904
