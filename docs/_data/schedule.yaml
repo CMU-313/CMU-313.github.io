@@ -60,8 +60,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+     link: 'assets/pdfs/02-archaelogy-and-anthropology.pdf'
+    name: 'Software Archaelogy'
   reading:
     link: ''
     name: ''
