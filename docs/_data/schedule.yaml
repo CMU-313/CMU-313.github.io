@@ -145,9 +145,9 @@
 
 - date: Thu Jan 25
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: 'Thursday, Feb 1st, 11:59pm'
+    link: '/projects/P2'
+    name: 'P2A - Team Process & Planning'
     numDays: 0
   lecture:
     link: ''
@@ -235,9 +235,9 @@
 
 - date: Thu Feb 1
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: 'Tuesday, Feb 13st, 11:59pm'
+    link: '/projects/P2'
+    name: 'P2B - Collaborative Development'
     numDays: 0
   lecture:
     link: ''
@@ -415,9 +415,9 @@
 
 - date: Thu Feb 15
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: 'Thursday, Feb 29st, 11:59pm'
+    link: '/projects/P2'
+    name: 'P2C - Collaborative Development'
     numDays: 0
   lecture:
     link: ''
