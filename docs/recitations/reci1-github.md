@@ -47,6 +47,10 @@ Our GH actions pipeline suggests that the main branch is broken! Let’s walk th
 - In your local machine, create a new branch with a relevant name to the issue you are addressing (e.g. _"fix-header-sizing-issue"_, _"fix-multiple-dialog-bug"_, _"add-sorting-feature"_)
 - Fix the issue that you were assigned to, then add and commit the changes
   - Commits should start with a verb, and what it does to the codebase (e.g. _"Remove faulty condition from getCustomerDetails"_, _"Fix failing CompositeTestCase"_, _"Fix issue #21"_ )
+  - Potentially helpful TypeScript resources:
+    - exporting: https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html#exporting-from-modules 
+    - functions: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#functions 
+    - Express req, res types - https://stackoverflow.com/a/58567246 
 - Push the branch to remote
 
 ```
@@ -76,4 +80,4 @@ git push --set-upstream origin <your-branch-name>
 
 - Click on the **Actions** tab. If you have resolved all the issues correctly, the tests and linter should now pass, and a green check should show
 
-Remember to do [Recitation Quiz 1 on Gradescope!](https://www.gradescope.com/courses/583198/assignments/3141880/) Please only open it after you have completed all the steps above.
+Remember to do [Recitation Quiz 1 on Gradescope!](https://www.gradescope.com/courses/703665/assignments/3967904/) Please only open it after you have completed all the steps above.

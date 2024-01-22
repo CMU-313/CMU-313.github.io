@@ -8,4 +8,9 @@ projects:
   name: P1B - Starter Task
   numDays: 4
 
-recitation: null
+recitation:
+  date: Mon Jan 22
+  handout: /recitations/reci1-github/
+  name: Recitation 1 - Git, GitHub and TypeScript
+  quiz: https://www.gradescope.com/courses/703665/assignments/3967904
+  slides: https://docs.google.com/presentation/d/1js-OQoNlUZ32OO8U3-Tz4IpCwTeKl7j7/edit?usp=sharing&ouid=116435991719159948286&rtpof=true&sd=true
