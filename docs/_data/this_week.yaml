@@ -1,4 +1,10 @@
-lectures: []
+lectures:
+- date: Tue Jan 23
+  link: ''
+  name: Metrics and Measurement
+- date: Thu Jan 25
+  link: ''
+  name: 'Case Study: Boeing 737 MAX'
 
 projects:
 - date: Mon Jan 22
