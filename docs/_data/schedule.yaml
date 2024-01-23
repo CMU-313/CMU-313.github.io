@@ -61,7 +61,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Archaeology and Anthropology'
   reading:
     link: ''
     name: ''
@@ -115,7 +115,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Metrics and Measurement'
   reading:
     link: ''
     name: ''
@@ -151,7 +151,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Case Study: Boeing 737 MAX'
   reading:
     link: ''
     name: ''
@@ -205,7 +205,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Project Planning'
   reading:
     link: ''
     name: ''
@@ -241,7 +241,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Teams and Communication'
   reading:
     link: ''
     name: ''
@@ -295,7 +295,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Architecture: Intro and Overview'
   reading:
     link: ''
     name: ''
@@ -331,7 +331,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Architecture: Design Docs'
   reading:
     link: ''
     name: ''
@@ -385,7 +385,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Architecture: Microservices'
   reading:
     link: ''
     name: ''
@@ -421,7 +421,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Risk Management'
   reading:
     link: ''
     name: ''
@@ -475,7 +475,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Teams - Roles and Collaborations'
   reading:
     link: ''
     name: ''
@@ -511,7 +511,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'QA: Static + Dynamic Analysis Tools'
   reading:
     link: ''
     name: ''
@@ -565,7 +565,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'MIDTERM'
   reading:
     link: ''
     name: ''
@@ -601,7 +601,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'QA: Advanced Automated Testing'
   reading:
     link: ''
     name: ''
@@ -655,7 +655,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS (Spring Break)'
   reading:
     link: ''
     name: ''
@@ -691,7 +691,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS (Spring Break)'
   reading:
     link: ''
     name: ''
@@ -745,7 +745,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Quality'
   reading:
     link: ''
     name: ''
@@ -781,7 +781,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Deployment Workshop Game'
   reading:
     link: ''
     name: ''
@@ -835,7 +835,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Feedback Workshop - Guest Lecture'
   reading:
     link: ''
     name: ''
@@ -871,7 +871,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'LLMs'
   reading:
     link: ''
     name: ''
@@ -925,7 +925,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'SE Ethics'
   reading:
     link: ''
     name: ''
@@ -961,7 +961,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Open-Source Software'
   reading:
     link: ''
     name: ''
@@ -1015,7 +1015,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Dependencies & Patents'
   reading:
     link: ''
     name: ''
@@ -1051,7 +1051,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Security'
   reading:
     link: ''
     name: ''
@@ -1105,7 +1105,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'TBD'
   reading:
     link: ''
     name: ''
@@ -1141,7 +1141,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS (Carnival)'
   reading:
     link: ''
     name: ''
@@ -1195,7 +1195,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'TBD'
   reading:
     link: ''
     name: ''
@@ -1231,7 +1231,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'MIDTERM'
   reading:
     link: ''
     name: ''
@@ -1285,7 +1285,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'SE Jobs, Offers & Negotiation'
   reading:
     link: ''
     name: ''
@@ -1321,7 +1321,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Semester Review'
   reading:
     link: ''
     name: ''
