@@ -145,10 +145,10 @@
 
 - date: Thu Jan 25
   homework:
-    deadline: 'Thursday, Feb 1st, 11:59pm'
-    link: '/projects/P2'
-    name: 'P2A - Team Process & Planning'
-    numDays: 7
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -163,10 +163,10 @@
 
 - date: Fri Jan 26
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Thursday, Feb 1st, 11:59pm'
+    link: '/projects/P2'
+    name: 'P2A - Team Process & Planning'
+    numDays: 7
   lecture:
     link: ''
     name: ''
@@ -235,10 +235,10 @@
 
 - date: Thu Feb 1
   homework:
-    deadline: 'Tuesday, Feb 13st, 11:59pm'
-    link: '/projects/P2'
-    name: 'P2B - Collaborative Development'
-    numDays: 14
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -253,10 +253,10 @@
 
 - date: Fri Feb 2
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Tuesday, Feb 13th, 11:59pm'
+    link: '/projects/P2'
+    name: 'P2B - Collaborative Development'
+    numDays: 11
   lecture:
     link: ''
     name: ''
@@ -415,7 +415,7 @@
 
 - date: Thu Feb 15
   homework:
-    deadline: 'Thursday, Feb 29st, 11:59pm'
+    deadline: 'Thursday, Feb 29th, 11:59pm'
     link: '/projects/P2'
     name: 'P2C - Collaborative Development'
     numDays: 14
