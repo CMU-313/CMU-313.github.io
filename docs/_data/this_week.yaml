@@ -5,6 +5,9 @@ lectures:
 - date: Thu Jan 25
   link: ''
   name: 'Case Study: Boeing 737 MAX'
+  reading:
+    link: https://github.com/CMU-313/CMU-313.github.io/blob/bfd1bcc47c313bb9d8b869c0145133756daa4278/docs/readings/flawed_analysis_boeing737_max.pdf
+    name: Boeing Case Study Reading
 
 projects:
 - date: Mon Jan 22
