@@ -50,10 +50,8 @@ For each code-based deliverable, we will look at a snapshot of your repository a
 To help you to understand your contributions through the semester. We added an `activity-action` for you, which automatically pulls the commit and issue histories and updates the `README.md` file in the main branch. Once you start working on the project, you will see the action adding your contributions to the `README.md` file.
 
 !!! warning
-    Do not change anything in the  `README.md`, this file will be modified and overrided by the action. If you want to change anything, please change `README.md.tpl`.
+    Do not remove the `activity-resources` branch in your repo. This branch is used to store activity info.
 
-!!! warning
-    If you protect the main branch in your repository, it will prevents the action from updating the `README.md` file. To solve this issue, you you have to enable force pushes to the protected branch. See [documentation](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule).
 
 
 
