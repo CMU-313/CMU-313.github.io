@@ -45,15 +45,9 @@ For this project, you will create issues or pull requests **directly in your tea
 
 For each code-based deliverable, we will look at a snapshot of your repository at the deadline. This will often be done by asking you for a screenshot or commit link submitted via Gradescope.
 
-### Setup Activity Action
+### Activity Action
 
-To help you to understand your contributions through the semester. We added an `activity-action` for you, which automatically pulls the commit and issue histories and updates the `README.md` file in the main branch.
-
-To enable `activity-action`, you need to create a Github token and add that to your team repository. You can create a new token by going to your profile settings: `Developer settings` > `Personal access tokens` > `Tokens (classic)` > `Generate new token`. You do **NOT** need to select any scopes. Set the expiration date on `May 24, 2024`, and put note `17-313 Project Token`. > `Generate token`. Copy the generated token. **Do not close the page unless you finish the next step. You won't be albe to see it again!**
-
-Next, you need to add the generated Github token to your repository secrets. Goto your repository page. Select `Settings` > `Secrets and variables` > `Actions` > `Secrets` > `New repository secret`. Name: `PERSONAL_GITHUB_TOKEN`; Value: the token you have just generated.
-
-Once you start working on the project, you will see the action adding your contributions to the `README.md` file.
+To help you to understand your contributions through the semester. We added an `activity-action` for you, which automatically pulls the commit and issue histories and updates the `README.md` file in the main branch. Once you start working on the project, you will see the action adding your contributions to the `README.md` file.
 
 !!! warning
     Do not change anything in the  `README.md`, this file will be modified and overrided by the action. If you want to change anything, please change `README.md.tpl`.
