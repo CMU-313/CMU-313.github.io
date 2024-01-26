@@ -150,7 +150,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/04-BoeingCaseStudy.pdf'
     name: 'Case Study: Boeing 737 MAX'
   reading:
     link: 'https://github.com/CMU-313/CMU-313.github.io/blob/bfd1bcc47c313bb9d8b869c0145133756daa4278/docs/readings/flawed_analysis_boeing737_max.pdf'
