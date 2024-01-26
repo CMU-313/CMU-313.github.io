@@ -12,8 +12,8 @@ lectures:
 projects: []
 
 recitation:
-  date: Mon Jan 22
-  handout: /recitations/reci1-github/
-  name: Recitation 1 - Git, GitHub and TypeScript
-  quiz: https://www.gradescope.com/courses/703665/assignments/3967904
-  slides: https://docs.google.com/presentation/d/1js-OQoNlUZ32OO8U3-Tz4IpCwTeKl7j7/edit?usp=sharing&ouid=116435991719159948286&rtpof=true&sd=true
+  date: Mon Jan 29
+  handout: /recitations/reci2-teamcontract/
+  name: Recitation 2 - Team Contract Workshop
+  quiz: https://www.gradescope.com/courses/703665/assignments/4006103
+  slides: https://docs.google.com/presentation/d/1QuX5Ylp3ColNwc-YUpkHO0_HzCRtL8PUAJT2qX5mSUE/edit?usp=sharing

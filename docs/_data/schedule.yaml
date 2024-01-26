@@ -192,10 +192,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
+    handout: '/recitations/reci2-teamcontract/'
+    name: 'Recitation 2 - Team Contract Workshop'
+    quiz: 'https://www.gradescope.com/courses/703665/assignments/4006103'
+    slides: 'https://docs.google.com/presentation/d/1QuX5Ylp3ColNwc-YUpkHO0_HzCRtL8PUAJT2qX5mSUE/edit?usp=sharing'
 
 - date: Tue Jan 30
   homework:
@@ -1476,16 +1476,3 @@
     slides: ''
     deadline: ""
     link: ""
-    name: ""
-    numDays: 0
-  lecture:
-    link: ""
-    name: ""
-  reading:
-    link: ""
-    name: ""
-  recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
