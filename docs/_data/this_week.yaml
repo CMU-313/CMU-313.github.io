@@ -9,7 +9,13 @@ lectures:
     link: https://github.com/CMU-313/CMU-313.github.io/blob/bfd1bcc47c313bb9d8b869c0145133756daa4278/docs/readings/flawed_analysis_boeing737_max.pdf
     name: Boeing Case Study Reading
 
-projects: []
+projects:
+- date: Fri Jan 26
+  deadline: Due Thursday, Feb 1st, 11:59pm
+  end_date: 2024-02-02 00:00:00
+  link: /projects/P2/1_teamprocess
+  name: P2A - Team Process & Planning
+  numDays: 5
 
 recitation:
   date: Mon Jan 22
