@@ -35,19 +35,19 @@ Detailed information for each of the deadlines has been split into its own subpa
     
     To manage all of the write-ups, we recommend saving the pages as a PDF to print or annotate on as you work through the assignment with your team.
 
-A) [**Team Process & Planning**](/projects/P2/1_teamprocess) – 70 points – due Thursday, September 14th, 11:59pm
+A) [**Team Process & Planning**](/projects/P2/1_teamprocess) – 70 points – due Thursday, Feburary 1st, 11:59pm
 
 - **Prerequisite:** Team Setup
 - Teamwork Contract (35 pts)
 - Project Planning (35 pts)
 - *Extra Credit (7 pts)*
 
-B) [**First Sprint**](/projects/P2/2_firstsprint) – 95 points – due Tuesday, September 26th, 11:59pm
+B) [**First Sprint**](/projects/P2/2_firstsprint) – 95 points – due Tuesday, Feburary 13th, 11:59pm
 
 - Process & Implementation Interim Snapshot (50 pts)
-- Checkpoint Presentation (45 pts) - **Held in Recitation on Wednesday September 27th / Friday September 29th**
+- Checkpoint Presentation (45 pts) - **Held in Recitation on Monday Feburary 12th**
 
-C) [**Second Sprint**](/projects/P2/3_secondsprint) – 110 points – due Thursday, October 12th, 11:59pm
+C) [**Second Sprint**](/projects/P2/3_secondsprint) – 110 points – due Monday, Feburary 29th, 11:59pm
 
 - Process & Implementation Final Snapshot (50 pts)
 - Team Reflection (30 pts)
