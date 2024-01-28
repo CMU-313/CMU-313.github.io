@@ -1,13 +1,10 @@
 lectures:
-- date: Tue Jan 23
-  link: assets/pdfs/03-measurement.pdf
-  name: Metrics and Measurement
-- date: Thu Jan 25
-  link: assets/pdfs/04-BoeingCaseStudy.pdf
-  name: 'Case Study: Boeing 737 MAX'
-  reading:
-    link: https://github.com/CMU-313/CMU-313.github.io/blob/bfd1bcc47c313bb9d8b869c0145133756daa4278/docs/readings/flawed_analysis_boeing737_max.pdf
-    name: Boeing Case Study Reading
+- date: Tue Jan 30
+  link: ''
+  name: Project Planning
+- date: Thu Feb 1
+  link: ''
+  name: Teams and Communication
 
 projects:
 - date: Fri Jan 26
@@ -16,6 +13,12 @@ projects:
   link: /projects/P2/1_teamprocess
   name: P2A - Team Process & Planning
   numDays: 5
+- date: Fri Feb 2
+  deadline: Due Tuesday, Feb 13th, 11:59pm
+  end_date: 2024-02-14 00:00:00
+  link: /projects/P2/2_firstsprint
+  name: P2B - Collaborative Development
+  numDays: 8
 
 recitation:
   date: Mon Jan 29
