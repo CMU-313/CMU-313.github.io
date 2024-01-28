@@ -90,7 +90,7 @@ nav:
   - Recitations:
       # - recitations/index.md # Dummy home page; remove once we start adding recitations below
       - Recitation 1 - Git, GitHub and TypeScript: recitations/reci1-github.md
-      # - Recitation 2 - Team Contract Workshop: recitations/reci2-teamcontract.md
+      - Recitation 2 - Team Contract Workshop: recitations/reci2-teamcontract.md
       # - Recitation 3 - Deployment: recitations/reci3-deployment.md
       # - Recitation 4 - Archaeology: recitations/reci4-archaeology.md
       # - Recitation 6 - Midterm Review: recitations/reci6-midterm-review.md
