@@ -92,7 +92,7 @@ nav:
       - Recitation 1 - Git, GitHub and TypeScript: recitations/reci1-github.md
       - Recitation 2 - Team Contract Workshop: recitations/reci2-teamcontract.md
       # - Recitation 3 - Deployment: recitations/reci3-deployment.md
-      # - Recitation 4 - Archaeology: recitations/reci4-archaeology.md
+      - Recitation 3 - Archaeology: recitations/reci4-archaeology.md
       # - Recitation 6 - Midterm Review: recitations/reci6-midterm-review.md
       # - Recitation 7 - Static Analysis and Continuous Integration: recitations/reci7-static-analysis-ci.md
       # - Recitation 8 - Large Language Models: recitations/reci8-llms.md
@@ -104,6 +104,6 @@ nav:
       # - Recitation 10 - Open Source Projects: recitations/reci10-open-source.md
       # - Recitation 11 - Open Source Project and Task Selection Check In: recitations/reci11-p5-checkin.md
   - Hall of Fame: hall-of-fame.md
-  - Canvas: https://canvas.cmu.edu/courses/39244 
+  - Canvas: https://canvas.cmu.edu/courses/39244
   - Gradescope: https://www.gradescope.com # edit upon gradescope creation
   - Slack: https://join.slack.com/t/cmu-17313-s24/signup
