@@ -11,7 +11,7 @@ In today’s recitation, we will practice implementing a new feature for the Nod
 
 **Let's implement a new feature!**
 
-Check out [this issue](https://github.com/CMU-313/NodeBB-S24-r4/issues/1) of the feature request. The user wants NodeBB to suggest a new username if existing usernmae is taken.
+Check out [this issue](https://github.com/CMU-313/NodeBB-S24-r4/issues/1) of the feature request. The user wants NodeBB to suggest a new username if an existing username is taken.
 
 ## Task 0: Clone the repo
 
