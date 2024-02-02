@@ -37,7 +37,7 @@ Try some or all of the following tasks:
 - Use your IDE to jump to a definition implicated in the code you’re debugging
 
 !!! warning
-    Since error message involves [i18n and l10n](https://en.wikipedia.org/wiki/Internationalization_and_localization), please only implement the English version.
+    Since error message involves [i18n and l10n](https://en.wikipedia.org/wiki/Internationalization_and_localization), please implement only the English version.
 
 ## Task 3: Making a Pull Request
 
