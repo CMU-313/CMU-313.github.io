@@ -30,7 +30,7 @@ Try some or all of the following tasks:
 - Explore the NodeBB directory
 - Understand how current features are implemented.
 - Can you identify whether to modify the front-end or back-end code of the program?
-    - Frontend code is located in public directory
+    - Frontend code is located in `public` directory
     - Backend code is located in `src` directory
 - Can you identify the keywords that you would like to search in the repository?
     - Error message that is currently showing.
