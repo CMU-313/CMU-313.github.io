@@ -1,18 +1,12 @@
 lectures:
-- date: Tue Jan 30
-  link: assets/pdfs/05-process.pdf
-  name: Project Planning
-- date: Thu Feb 1
-  link: assets/pdfs/06-teams-communication-wide.pdf
-  name: Teams and Communication
+- date: Tue Feb 6
+  link: ''
+  name: 'Architecture: Intro and Overview'
+- date: Thu Feb 8
+  link: ''
+  name: 'Architecture: Design Docs'
 
 projects:
-- date: Fri Jan 26
-  deadline: Due Thursday, Feb 1st, 11:59pm
-  end_date: 2024-02-02 00:00:00
-  link: /projects/P2/1_teamprocess
-  name: P2A - Team Process & Planning
-  numDays: 5
 - date: Fri Feb 2
   deadline: Due Tuesday, Feb 13th, 11:59pm
   end_date: 2024-02-14 00:00:00
@@ -21,8 +15,8 @@ projects:
   numDays: 8
 
 recitation:
-  date: Mon Jan 29
-  handout: /recitations/reci2-teamcontract/
-  name: Recitation 2 - Team Contract Workshop
-  quiz: https://www.gradescope.com/courses/703665/assignments/4006103
-  slides: https://docs.google.com/presentation/d/1QuX5Ylp3ColNwc-YUpkHO0_HzCRtL8PUAJT2qX5mSUE/edit?usp=sharing
+  date: Mon Feb 5
+  handout: /recitations/reci4-archaeology/
+  name: Recitation 3 - Software Archaeology
+  quiz: https://www.gradescope.com/courses/703665/assignments/4021872
+  slides: https://docs.google.com/presentation/d/1Fg375RKJc7X8Ckqp-POXDGu1BONnM35AFc5_Tg__F0E/edit?usp=sharing
