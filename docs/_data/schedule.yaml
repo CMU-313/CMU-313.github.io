@@ -330,7 +330,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/08-arch-design-docs.pdf'
     name: 'Architecture: Design Docs'
   reading:
     link: ''
