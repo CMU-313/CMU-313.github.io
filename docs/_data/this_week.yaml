@@ -3,7 +3,7 @@ lectures:
   link: assets/pdfs/07-Intro-to-Arch.pdf
   name: 'Architecture: Intro and Overview'
 - date: Thu Feb 8
-  link: ''
+  link: assets/pdfs/08-arch-design-docs.pdf
   name: 'Architecture: Design Docs'
 
 projects:
