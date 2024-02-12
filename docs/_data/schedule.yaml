@@ -372,8 +372,8 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
+    handout: '/recitations/reci4-checkpoint/'
+    name: 'Recitation 4 - Checkpoint Presentations'
     quiz: ''
     slides: ''
 
