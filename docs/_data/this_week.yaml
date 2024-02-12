@@ -22,7 +22,7 @@ projects:
 
 recitation:
   date: Mon Feb 12
-  handout: /recitations/reci4-checkpoint
+  handout: /recitations/reci4-checkpoint/
   name: Recitation 4 - Checkpoint Presentations
-  quiz: ""
-  slides: ""
+  quiz: ''
+  slides: ''
