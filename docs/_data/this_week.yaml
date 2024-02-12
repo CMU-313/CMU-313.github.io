@@ -20,4 +20,9 @@ projects:
   name: P2C - Collaborative Development
   numDays: 12
 
-recitation: null
+recitation:
+  date: Mon Feb 12
+  handout: /recitations/reci4-checkpoint
+  name: Recitation 4 - Checkpoint Presentations
+  quiz: ""
+  slides: ""
