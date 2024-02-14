@@ -384,7 +384,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/09-Microservices.pdf'
     name: 'Architecture: Microservices'
   reading:
     link: ''
