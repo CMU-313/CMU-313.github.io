@@ -7,12 +7,6 @@ lectures:
   name: Software Risk Management
 
 projects:
-- date: Fri Feb 2
-  deadline: Due Tuesday, Feb 13th, 11:59pm
-  end_date: 2024-02-14 00:00:00
-  link: /projects/P2/2_firstsprint
-  name: P2B - Collaborative Development
-  numDays: 8
 - date: Wed Feb 14
   deadline: Due Thursday, Feb 29th, 11:59pm
   end_date: 2024-03-01 00:00:00
