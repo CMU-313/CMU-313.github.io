@@ -16,7 +16,8 @@ To know how you are supposed to act, reference page 2 of this document for the r
 ## Part 1: Trade-off and task planning meeting (15 minutes)
 As a team, research and find a tool to support the payment system of your graduate application. Compare the strengths and weaknesses of the tools. At the end of this activity, your group should have agreed on a tool to use. At the same time, assign each member a task to do to integrate the payment system into the graduate application.
 
-!!! Warning As part of the preparation, each team member should have a role assigned. Each member should keep their role secret and try to act accordingly during the meeting. Try to identify the roles played by your team members and, if possible, fix the dysfunction.
+!!! Warning
+	As part of the preparation, each team member should have a role assigned. Each member should keep their role secret and try to act accordingly during the meeting. Try to identify the roles played by your team members and, if possible, fix the dysfunction.
 
 ## Part 2: Trade-off and task planning meeting (10 minutes)
 As a group, discuss the following questions:
