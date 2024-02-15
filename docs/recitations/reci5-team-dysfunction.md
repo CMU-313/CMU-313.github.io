@@ -5,35 +5,33 @@ title: Recitation 5 - Team Dysfunction
 # Recitation 5: Team Dysfunction
 
 ## Learning objectives
-1. Practice and reflect about being within a team.
-2. Reinforce the knowledge of team dysfunction issues and mitigation strategies.
+* Practice and reflect about being within a team.
+* Reinforce the knowledge of team dysfunction issues and mitigation strategies.
 
-## Activity
-### Part 0: Preparation
+## Part 0: Preparation
 Use the [number generator to get a random number from 1-7](https://numbergenerator.org/randomnumbergenerator/1-7) that will determine your role. Keep your role secret from the other people in your group!
 
 To know how you are supposed to act, reference page 2 of this document for the role description based on your number.
 
-### Part 1: Trade-off and task planning meeting (15 minutes)
+## Part 1: Trade-off and task planning meeting (15 minutes)
 As a team, research and find a tool to support the payment system of your graduate application. Compare the strengths and weaknesses of the tools. At the end of this activity, your group should have agreed on a tool to use. At the same time, assign each member a task to do to integrate the payment system into the graduate application.
 
-**IMPORTANT:** As part of the preparation, each team member should have a role assigned. Each member should keep their role secret and try to act accordingly during the meeting. Try to identify the roles played by your team members and, if possible, fix the dysfunction.
+!!! Important As part of the preparation, each team member should have a role assigned. Each member should keep their role secret and try to act accordingly during the meeting. Try to identify the roles played by your team members and, if possible, fix the dysfunction.
 
-### Part 2: Trade-off and task planning meeting (10 minutes)
+## Part 2: Trade-off and task planning meeting (10 minutes)
 As a group, discuss the following questions:
 1. What dysfunctional characteristic did your teammates display?
 2. How would you handle those dysfunctional characteristics in future situations?
 3. Prepare responses for the questions in part 3. Some of the questions will have already been addressed by the group discussion.
 
-### Part 3: Trade-off and task planning meeting (20 minutes)
+## Part 3: Trade-off and task planning meeting (20 minutes)
 As a class, discuss the following questions:
 1. Was the meeting effective? Why? Or why not?
 2. What team dysfunctions did you observe during the meeting?
 3. Are you able to identify the roles played by the other members of the pair? What problems can be caused by this behavior? Can you think of mitigation strategies and solutions to avoid them?
 
-### Roles & personality traits
+## Roles & personality traits
 Here’s a description of the roles and the behavior each role has.
-
 
 | Role      | Behavior |
 | ----------- | ----------- |
