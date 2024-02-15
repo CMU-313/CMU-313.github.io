@@ -11,7 +11,7 @@ title: Recitation 5 - Team Dysfunction
 ## Part 0: Preparation
 Use the [number generator to get a random number from 1-7](https://numbergenerator.org/randomnumbergenerator/1-7) that will determine your role. Keep your role secret from the other people in your group!
 
-To know how you are supposed to act, reference page 2 of this document for the role description based on your number.
+To know how you are supposed to act, reference the **Roles & personality traits** section ([link](https://deploy-preview-111--17313.netlify.app/recitations/reci5-team-dysfunction/#roles-personality-traits)) for the role description based on your number.
 
 ## Part 1: Trade-off and task planning meeting (15 minutes)
 As a team, research and find a tool to support the payment system of your graduate application. Compare the strengths and weaknesses of the tools. At the end of this activity, your group should have agreed on a tool to use. At the same time, assign each member a task to do to integrate the payment system into the graduate application.
@@ -32,6 +32,9 @@ As a class, discuss the following questions:
 1. Was the meeting effective? Why? Or why not?
 2. What team dysfunctions did you observe during the meeting?
 3. Are you able to identify the roles played by the other members of the pair? What problems can be caused by this behavior? Can you think of mitigation strategies and solutions to avoid them?
+
+## Part 4: Submit on Gradescope
+To receive participation for this activity, please complete the quiz on Gradescope ([link](https://www.gradescope.com/courses/703665/assignments/4106622)).
 
 ## Roles & personality traits
 Here’s a description of the roles and the behavior each role has.
