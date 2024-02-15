@@ -15,8 +15,8 @@ projects:
   numDays: 12
 
 recitation:
-  date: Mon Feb 12
-  handout: /recitations/reci4-checkpoint/
-  name: Recitation 4 - Checkpoint Presentations
-  quiz: ''
-  slides: ''
+  date: Mon Feb 19
+  handout: /recitations/reci5-team-dysfunction/
+  name: Recitation 5 - Team Dysfunction
+  quiz: 'https://www.gradescope.com/courses/703665/assignments/4106622'
+  slides: 'https://docs.google.com/presentation/d/1HRRKiX-dE24dBZbXs3OWgxc4YNSO08fkoeI0JuYtw90/edit#slide=id.p'
