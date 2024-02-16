@@ -9,32 +9,30 @@ title: Recitation 5 - Team Dysfunction
 * Reinforce the knowledge of team dysfunction issues and mitigation strategies.
 
 ## Part 0: Preparation
-Use the [number generator to get a random number from 1-7](https://numbergenerator.org/randomnumbergenerator/1-7) that will determine your role. Keep your role secret from the other people in your group!
+Use the [number generator to get a random number from 1-7](https://numbergenerator.org/randomnumbergenerator/1-7) that will determine your role.
 
-To know how you are supposed to act, reference the **Roles & personality traits** section ([link](https://deploy-preview-111--17313.netlify.app/recitations/reci5-team-dysfunction/#roles-personality-traits)) for the role description based on your number.
+To know how you are supposed to act, reference the [**Roles & personality traits** section](https://deploy-preview-111--17313.netlify.app/recitations/reci5-team-dysfunction/#roles-personality-traits) for the role description based on your number.
 
-## Part 1: Trade-off and task planning meeting (15 minutes)
-As a team, research and find a tool to support the payment system of your graduate application. Compare the strengths and weaknesses of the tools. At the end of this activity, your group should have agreed on a tool to use. At the same time, assign each member a task to do to integrate the payment system into the graduate application.
+## Part 1: Skit planning (15 minutes)
+You will be planning a 3-5 minute skit to perform in front of the class. Your skit will be about a team that is finding a tool to support the payment system of your graduate application. Here are some ideas of what the skit can include:
+* Researching tools to support the payment system
+* Comparing the strengths and weaknesses of the tools
+* Trying to agree on a tool to use
+* Assigning each member a task to do to integrate the payment system into the graduate application
 
-!!! Warning
-	As part of the preparation, each team member should have a role assigned. Each member should keep their role secret and try to act accordingly during the meeting. Try to identify the roles played by your team members and, if possible, fix the dysfunction.
+Have fun with the skit!
 
-## Part 2: Trade-off and task planning meeting (10 minutes)
-As a group, discuss the following questions:
-
-1. What dysfunctional characteristic did your teammates display?
-2. How would you handle those dysfunctional characteristics in future situations?
-3. Prepare responses for the questions in part 3. Some of the questions will have already been addressed by the group discussion.
+## Part 2: Skit performance (15 minutes)
+You will perform the skits in front of the class. As a class, try to guess for each performer:
+* What dysfunctional characteristic did your teammates display?
 
 ## Part 3: Trade-off and task planning meeting (20 minutes)
-As a class, discuss the following questions:
-
-1. Was the meeting effective? Why? Or why not?
-2. What team dysfunctions did you observe during the meeting?
-3. Are you able to identify the roles played by the other members of the pair? What problems can be caused by this behavior? Can you think of mitigation strategies and solutions to avoid them?
+As a class, for each dysfunctional characteristic, discuss the following questions:
+* How would you handle the dysfunctional characteristics in future situations?
+* What problems can be caused by this behavior? Can you think of mitigation strategies and solutions to avoid them?
 
 ## Part 4: Submit on Gradescope
-To receive participation for this activity, please complete the quiz on Gradescope ([link](https://www.gradescope.com/courses/703665/assignments/4106622)).
+To receive participation for this activity, please complete the [quiz on Gradescope]((https://www.gradescope.com/courses/703665/assignments/4106622)).
 
 ## Roles & personality traits
 Here’s a description of the roles and the behavior each role has.
