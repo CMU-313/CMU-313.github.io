@@ -15,6 +15,7 @@ To know how you are supposed to act, reference the [**Roles & personality traits
 
 ## Part 1: Skit planning (15 minutes)
 You will be planning a 3-5 minute skit to perform in front of the class. Your skit will be about a team that is finding a tool to support the payment system of your graduate application. Here are some ideas of what the skit can include:
+
 * Researching tools to support the payment system
 * Comparing the strengths and weaknesses of the tools
 * Trying to agree on a tool to use
@@ -24,10 +25,12 @@ Have fun with the skit!
 
 ## Part 2: Skit performance (15 minutes)
 You will perform the skits in front of the class. As a class, try to guess for each performer:
+
 * What dysfunctional characteristic did your teammates display?
 
 ## Part 3: Trade-off and task planning meeting (20 minutes)
 As a class, for each dysfunctional characteristic, discuss the following questions:
+
 * How would you handle the dysfunctional characteristics in future situations?
 * What problems can be caused by this behavior? Can you think of mitigation strategies and solutions to avoid them?
 
