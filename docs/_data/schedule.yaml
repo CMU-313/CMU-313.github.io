@@ -474,8 +474,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Software Teams - Roles and Collaborations'
+    link: 'assets/pdfs/11-dynamic-analysis.pdf'
+    name: 'QA: Dynamic Analysis Tools'
   reading:
     link: ''
     name: ''
@@ -511,7 +511,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'QA: Static + Dynamic Analysis Tools'
+    name: 'QA: Static Analysis Tools'
   reading:
     link: ''
     name: ''
