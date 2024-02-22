@@ -1,10 +1,10 @@
 lectures:
 - date: Tue Feb 20
-  link: ''
-  name: Software Teams - Roles and Collaborations
+  link: assets/pdfs/11-dynamic-analysis.pdf
+  name: 'QA: Dynamic Analysis Tools'
 - date: Thu Feb 22
   link: ''
-  name: 'QA: Static + Dynamic Analysis Tools'
+  name: 'QA: Static Analysis Tools'
 
 projects:
 - date: Wed Feb 14
