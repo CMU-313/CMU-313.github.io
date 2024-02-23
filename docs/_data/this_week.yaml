@@ -3,7 +3,7 @@ lectures:
   link: assets/pdfs/11-dynamic-analysis.pdf
   name: 'QA: Dynamic Analysis Tools'
 - date: Thu Feb 22
-  link: ''
+  link: assets/pdfs/12-analysis-tools.pdf
   name: 'QA: Static Analysis Tools'
 
 projects:
