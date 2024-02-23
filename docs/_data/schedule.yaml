@@ -510,7 +510,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/12-analysis-tools.pdf'
     name: 'QA: Static Analysis Tools'
   reading:
     link: ''
