@@ -600,7 +600,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/14-ethics.pdf'
     name: 'QA: Advanced Automated Testing'
   reading:
     link: ''
