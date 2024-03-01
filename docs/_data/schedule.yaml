@@ -384,7 +384,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/09-Microservices.pdf'
     name: 'Architecture: Microservices'
   reading:
     link: ''
@@ -420,7 +420,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/10-code-review-risk.pdf'
     name: 'Software Risk Management'
   reading:
     link: ''
@@ -462,10 +462,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
+    handout: '/recitations/reci5-team-dysfunction/'
+    name: 'Recitation 5 - Team Dysfunction'
+    quiz: 'https://www.gradescope.com/courses/703665/assignments/4106622'
+    slides: 'https://docs.google.com/presentation/d/1HRRKiX-dE24dBZbXs3OWgxc4YNSO08fkoeI0JuYtw90/edit#slide=id.p'
 
 - date: Tue Feb 20
   homework:
@@ -474,8 +474,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Software Teams - Roles and Collaborations'
+    link: 'assets/pdfs/11-dynamic-analysis.pdf'
+    name: 'QA: Dynamic Analysis Tools'
   reading:
     link: ''
     name: ''
@@ -510,8 +510,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'QA: Static + Dynamic Analysis Tools'
+    link: 'assets/pdfs/12-analysis-tools.pdf'
+    name: 'QA: Static Analysis Tools'
   reading:
     link: ''
     name: ''
@@ -600,7 +600,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/14-ethics.pdf'
     name: 'QA: Advanced Automated Testing'
   reading:
     link: ''
