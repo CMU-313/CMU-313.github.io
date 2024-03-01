@@ -721,10 +721,10 @@
 
 - date: Mon Mar 11
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Friday Mar 15th, 11:59pm'
+    link: '/projects/P3'
+    name: 'P3A - Checkpoint'
+    numDays: 5
   lecture:
     link: ''
     name: ''
@@ -811,10 +811,10 @@
 
 - date: Mon Mar 18
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Thursday Mar 21st, 11:59pm'
+    link: '/projects/P3'
+    name: 'P3B - Final Deliverables and Extra Credit'
+    numDays: 4
   lecture:
     link: ''
     name: ''
