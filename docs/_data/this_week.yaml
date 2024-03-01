@@ -21,8 +21,8 @@ projects:
   numDays: 12
 
 recitation:
-  date: Mon Feb 12
-  handout: /recitations/reci4-checkpoint
-  name: Recitation 4 - Checkpoint Presentations
-  quiz: ""
-  slides: ""
+  date: Mon Mar 11
+  handout: /recitations/reci6-deployment
+  name: Recitation 6 - Deployment
+  quiz: "https://www.gradescope.com/courses/703665/assignments/4181607/"
+  slides: "https://docs.google.com/presentation/d/1947sIuYbrv_KrT_mLJjcRXNQZXA-EhduQQbpDJYLEBg/edit?usp=sharing"
