@@ -78,9 +78,9 @@ nav:
           - 2A Team Process & Planning: projects/P2/1_teamprocess.md
           - 2B First Sprint: projects/P2/2_firstsprint.md
           - 2C Second Sprint: projects/P2/3_secondsprint.md
-      # - "Project 3: Continuous Integration + Deployment":
-      #     - projects/P3/index.md
-      #     - "GCP Deployment Instructions": projects/P3/deployment.md
+      - "Project 3: Continuous Integration + Deployment":
+          - projects/P3/index.md
+          - "GCP Deployment Instructions": projects/P3/deployment.md
       # - "Project 4: Architecting an LLM Integration":
       #     - projects/P4/index.md
       # - "Project 5: Open Source Excursion":
@@ -95,7 +95,6 @@ nav:
       - Recitation 4 - Checkpoint Presentations: recitations/reci4-checkpoint.md
       - Recitation 5 - Team Dysfunction: recitations/reci5-team-dysfunction.md
       - Recitation 6 - Deployment: recitations/reci6-deployment.md
-
       # - Recitation 7 - Static Analysis and Continuous Integration: recitations/reci7-static-analysis-ci.md
       # - Recitation 8 - Large Language Models: recitations/reci8-llms.md
       # - Recitation 9 - Open Source Projectss: recitations/reci9-open-source.md
