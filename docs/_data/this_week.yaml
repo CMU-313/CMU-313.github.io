@@ -6,7 +6,13 @@ lectures:
   link: ''
   name: Deployment Workshop Game
 
-projects: []
+projects:
+- date: Mon Mar 11
+  deadline: Due Friday Mar 15th, 11:59pm
+  end_date: 2024-03-18 00:00:00
+  link: /projects/P3
+  name: P3A - Checkpoint
+  numDays: 5
 
 recitation:
   date: Mon Mar 11
