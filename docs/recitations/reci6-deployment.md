@@ -72,7 +72,7 @@ To start off, you'll be deploying the app you just forked on two cloud platforms
 
 ### Task 1A: Deploy on Vercel
   
-1. Create an account on [Vercel](https://vercel.com/) by clicking "Log in" and then "Continue with GitHub"
+1. Create an account on [Vercel](https://vercel.com/) by clicking "Sign up", choose a hobby account, then "Continue with GitHub"
 2. Add a new project
 3. Choose "Import Git Repository"
 4. Connect your basic-web-app fork to the Web Service you just created
