@@ -553,7 +553,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'No Recitation!'
     quiz: ''
     slides: ''
 
@@ -732,10 +732,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
+    handout: '/recitations/reci6-deployment/'
+    name: 'Recitation 6 - Deployment'
+    quiz: 'https://www.gradescope.com/courses/703665/assignments/4181607/'
+    slides: 'https://docs.google.com/presentation/d/1947sIuYbrv_KrT_mLJjcRXNQZXA-EhduQQbpDJYLEBg/edit?usp=sharing'
 
 - date: Tue Mar 12
   homework:
