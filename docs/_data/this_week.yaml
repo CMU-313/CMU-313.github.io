@@ -1,18 +1,12 @@
 lectures:
-- date: Tue Feb 20
-  link: assets/pdfs/11-dynamic-analysis.pdf
-  name: 'QA: Dynamic Analysis Tools'
-- date: Thu Feb 22
-  link: assets/pdfs/12-analysis-tools.pdf
-  name: 'QA: Static Analysis Tools'
+- date: Tue Mar 12
+  link: ''
+  name: Software Quality
+- date: Thu Mar 14
+  link: ''
+  name: Deployment Workshop Game
 
-projects:
-- date: Wed Feb 14
-  deadline: Due Thursday, Feb 29th, 11:59pm
-  end_date: 2024-03-01 00:00:00
-  link: /projects/P2/3_secondsprint
-  name: P2C - Collaborative Development
-  numDays: 12
+projects: []
 
 recitation:
   date: Mon Mar 11
@@ -20,3 +14,4 @@ recitation:
   name: Recitation 6 - Deployment
   quiz: "https://www.gradescope.com/courses/703665/assignments/4181607/"
   slides: "https://docs.google.com/presentation/d/1947sIuYbrv_KrT_mLJjcRXNQZXA-EhduQQbpDJYLEBg/edit?usp=sharing"
+

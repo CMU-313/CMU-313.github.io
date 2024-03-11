@@ -43,7 +43,7 @@ if schedule:
     current_date = start_date
 
     for schedule_day in schedule:
-        schedule_date = datetime.strptime(schedule_day['date'], "%a %b %d").replace(year=current_date.year)
+        schedule_date = datetime.strptime((schedule_day['date']+ ' ' + str(today.year)), "%a %b %d %Y").replace(year=current_date.year)
         if not week_start_date and schedule_date > current_date:
             # We're at the current week!
             week_start_date = schedule_date
