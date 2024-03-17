@@ -35,8 +35,7 @@ Try running the model on one of the examples from the SQuAD dataset. Does the ou
 
 ## Activity 3: Check Correctness of Output (10 min)
 
-When using an LLM, it is important to design an evaluation strategy for the task. This involves choosing a method of evaluating the correctness of the LLM output. Since the output in our task is textual, there are many difference ways of checking similarity to an expected answer. For this recitation,
-we will use [_cosine similarity_](https://en.wikipedia.org/wiki/Cosine_similarity). 
+When using an LLM, it is important to design an evaluation strategy for the task. This involves choosing a method of evaluating the correctness of the LLM output. Since the output in our task is textual, there are many difference ways of checking similarity to an expected answer. For now we will proceed with simply taking the percent of correct asnwers given by the LLM.
 
 Follow the notebook instructions to calculate cosine similarity for a sample of 10 questions. What are some limitations with this metric? Are there ways of changing the prompt to make the outputs better?
 
