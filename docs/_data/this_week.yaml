@@ -14,4 +14,9 @@ projects:
   name: P3B - Final Deliverables and Extra Credit
   numDays: 4
 
-recitation: null
+recitation:
+  date: Mon Mar 18
+  handout: /recitations/reci7-llms/
+  name: Recitation 7 - Large Language Models
+  quiz: https://www.gradescope.com/courses/703665/assignments/4237502/
+  slides: https://docs.google.com/presentation/d/1OpJpOKSEISbDIBoiB15t-p1aLZZb16UoIbhQfi-zvJw/edit?usp=sharing
