@@ -1,4 +1,4 @@
-# Project 4: Architecting an LLM Integration 
+# Project 4: Architecting an LLM Integration
 
 ## Learning Goals
 - Design a software architecture for a software system that incorporates a foundational large language model
@@ -10,95 +10,106 @@
 - Decide whether an LLM powered solution is production ready
 
 
-## Project Context 
+## Project Context
+
 As you and your team continue developing the new Q&A forum system for CMU, your CEO suddenly bursts into the room shouting, “LLMs! AI! Why are we building a Q&A forum without integrating LLMs?!”
 
-After your CEO calms down, your manager calls an all-hands meeting. At the meeting, everyone agrees that we don’t have the resources to build a completely new Q&A forum, and also automate the whole question answering problem. 
+After your CEO calms down, your manager calls an all-hands meeting. At the meeting, everyone agrees that we don’t have the resources to build a completely new Q&A forum, and also automate the whole question-answering problem.
 
-However, to better compete with Piazza, your CEO and manager decide to put your team in charge of exploring an LLM integration to answer questions about the course syllabus since this is a popular question type across all courses. In particular, instructors would upload their course syllabus when setting up their class on NodeBB. This syllabus would then be used with an LLM to automatically answer any questions tagged with the “Syllabus” or “Course Policy” tags.
+However, to better compete with Piazza, your CEO and manager decide to put your team in charge of exploring using an LLM to implement a translation feature. This feature will automatically translate posts written in languages other than English into English. This initiative aims to foster inclusivity and ensure that language barriers do not hinder participation in the forum.
 
 Your manager wants you to:
 
 1. **Architect the feature** - reason about, document and select an appropriate architecture for integrating this feature into the existing system.
-2. **Build an experimental integration** with the 17-313 course syllabus to evaluate feasibility.
+2. **Build an experimental integration** with the existing NodeBB codebase to evaluate feasibility.
 3. **Evaluate the feature** and decide whether the feature should be fully implemented.
 
 ## Deliverables and Deadlines
-There are two (2) deadlines for the project. This project is worth a total of 125 points. 
+There are three (3) deadlines for the project. This project is worth a total of 125 points.
 
-**Checkpoint Deliverables** – 55 pts - due Thursday, November 9, 11:59pm
+**Checkpoint #1 Deliverables** – 55 pts - due Wednesday, March 27, 11:59pm
 
 - [Architectural Design Document (40 pts)](#architectural-design-document-40-points)
 - [Basic LLM Experiment (15 pts)](#basic-llm-experiment-15-points)
 
-**Final Deliverables** - 70 pts - due Tuesday, November 21, 11:59pm
+**Checkpoint #2 Deliverables** – 10 pts - due Monday, April 1, 11:59pm
 
-- [Final LLM Experiment Implementation (40 pts)](#final-llm-experiment-implementation-40-points)
+- [Preliminary LLM Experiment Integration](#llm-experiment-integration-10-points)
+
+**Final Deliverables** - 60 pts - due Thursday, April 4, 11:59pm
+
+- [Final LLM Experiment Implementation (30 pts)](#final-llm-experiment-implementation-30-points)
 - [Evaluation Report (30 pts)](#evaluation-report-30-points)
 
-## Checkpoint Deliverables
+## Checkpoint #1 Deliverables
 
 ### Architectural Design Document (40 points)
 
-To start off, your manager has requested a concrete design document on how you plan on integrating the new LLM-powered syllabus question answering feature into the existing codebase. One of your manager's requirements is that this feature should work on a deployed site.
+To start, your manager has requested a concrete design document outlining how you plan to integrate the new LLM-powered translation feature into the existing codebase. One of your manager's requirements is that this feature should work on a deployed site.
 
 If the team decides to go ahead with the feature, this design document will be followed in order to fully integrate this feature into NodeBB.
 
 Some initial solutions to consider include:
 
-1.  **Rewriting the all aspects of the feature in Typescript** and incorporating it into the monolith
-2.  **Implementing a Python-based microservice** and deploying it as a separate service; then, integrating the service with your existing monolith via a REST API
+1.  **Implementing a Python-based microservice** and deploying it as a separate service; then, integrating the service with your existing monolith via a REST API
+2.  **Integrate a Python-based serverless function** triggered via a REST API, then integrate the function with your existing monolith via a REST API.
 3.  **Refactoring part or all of the existing monolith** into a microservices-based architecture
+
+Your design document must advocate for one of these three approaches.
 
 Once you have finished evaluating the codebase, create the design document highlighting your findings and decisions. Below is a sample outline for your design document along with recommended page lengths.
 
-1. **Feature Overview (<1 pages)**  
-    Describe concisely how the syllabus question answering feature works and how it will be used by the relevant stakeholders, with screenshots if necessary.
+1. **Feature Overview (<1 pages)**
+    Describe concisely how the translation feature works and how it will be used by the relevant stakeholders, with screenshots if necessary.
 
-2. **Assessing LLM Suitability (<1 page)**  
-    Use the framework discussed in class to discuss why an LLM may be a good solution for automating syllabus question answering on NodeBB.
+2. **Assessing LLM Suitability (<1 page)**
+    Use the framework discussed in class to discuss why an LLM may be a good solution for translating posts on NodeBB.
 
-3. **Current Architecture (<1 page)**  
+3. **Current Architecture (<1 page)**
     Provide a brief description of the current NodeBB architecture. Include an **architectural diagram** to support your description.
 
-4. **Quality Requirements (<1 page)**  
+4. **Quality Requirements (<1 page)**
     Provide a concise, prioritized list of the overall quality requirements you considered in arguing for the integration of the feature into the system and a short justification for each. Your team should decide on **at least three** requirements to focus on.
 
     Rank your requirements in decreasing order of importance. This allows readers to quickly understand what you were designing for.
 
-5. **Potential Solutions (~1 page each)**  
+5. **Potential Solutions (~1 page each)**
     Your team should consider **at least two** different potential solutions for integrating the new feature. For each, provide at least one architectural diagram, a brief description of the solution's architectural design, and a discussion of the design's tradeoffs.
 
     Tradeoffs must involve (but are not limited to) the quality attributes described in the previous section. Justify such arguments with reference to appropriate diagrams and concrete examples, as appropriate.
 
-6. **Selected Architecture + Justification (<1 page)**  
+6. **Selected Architecture + Justification (<1 page)**
     Describe which design your team decided to proceed with in architecturally integrating the feature into existing codebase. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design (if any).
 
 !!! note "On Diagrams"
     Diagrams should **involve suitable architectural views**; **must include a legend**; and **should involve appropriate levels of abstraction** for the components in the diagram. If necessary, use color/shape/text to differentiate between types of components and connectors.
-    
+
     You may find it appropriate to merge more than one view into a single diagram. If you do this, **you must be explicit about what views you are merging**, and why. Otherwise, diagrams should clearly represent legitimate architectural views. Make sure that multiple views of the architecture are consistent with each other and the links are clear; if necessary provide a mapping in additional text.
 
 !!! info "Drawing Diagrams"
     Drawing diagrams is much easier with the right software. Consider tools like [draw.io](https://draw.io/) (free, online, and collaborative), [Dia](http://dia-installer.de/), [OmniGraffle](https://www.omnigroup.com/omnigraffle), [MS Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software), or even just the drawing editor of [Google Docs](https://docs.google.com/). [Google Slides](https://slides.google.com/) will also likely work for this purpose.
-    
+
     Pictures of whiteboard drawings are also acceptable, if clearly readable.
 
 More resources to assist you with creating your design document can be found in the [Resources & Documentation](#resource-documentation) section below.
+
+!!! note “On Generative AI”
+    In the past, students have utilized generative AI tools to generate diagrams with mixed success. While some diagrams have been useful and accurate, others have fallen short due to inaccuracies or oversimplifications not aligned with specific project requirements. Be cautious and review them carefully for accuracy and relevance. You’ve been warned.
 
 By the checkpoint deadline, your team will submit your design document to Gradescope as a PDF.
 
 ### Basic LLM Experiment (15 pts)
 
-To explore the feasibility of LLMs for this task, your manager would like you to prototype the basic functionality of an LLM to answer questions about the CMU 17-313 syllabus. Due to the company’s existing deal with Google, your team will use the **chat-bison** language model from Google’s Vertex AI Platform. 
+To explore the feasibility of LLMs for this task, your manager would like you to prototype the basic functionality of an LLM to translate text. Due to the company’s existing deal with Google, your team will use the chat-bison language model from Google’s Vertex AI Platform.
 
-To get setup, make sure you're logged into the Google account you used to redeem your GCP credits. If you haven't redeemed your GCP credits yet, follow the instructions in the [Deployment Recitation.](https://cmu-313.github.io/recitations/reci3-deployment/#task-1b-deploy-on-google-cloud-platform)
+
+To get setup, make sure you're logged into the Google account you used to redeem your GCP credits. If you haven't redeemed your GCP credits yet, follow the instructions in the [Deployment Recitation.](https://cmu-313.github.io/recitations/reci6-deployment/#task-1b-deploy-on-google-cloud-platform)
 
 Once you're logged into the right credit-bearing Google account, follow these instructions:
 
 1.  Enable the Vertex AI API using [this link](https://console.cloud.google.com/flows/enableapi?apiid=aiplatform.googleapis.com). Make sure your NodeBB project from P3 is selected in the project selector dropdown.
 
-2.  Open the Colab notebook using [this link](https://colab.research.google.com/drive/18ppvk_XiZZ3OyqiKmOaEtk_u3fm_D5NZ?authuser=1#scrollTo=7523ca64-678a-453f-8d3a-4a7b86eda972). Click on File --> Save as a copy in Drive to create your own copy that you will work on. Only one team member needs to do this, and the team should collaborate using this notebook. 
+2.  Open the Colab notebook using [this link](https://colab.research.google.com/drive/1e_9Ka4Oq4a9UZfoF570MaQqQqnvjclc1?usp=sharing). Click on File --> Save as a copy in Drive to create your own copy that you will work on. Only one team member needs to do this, and the team should collaborate using this notebook.
 
 3.  Click on Share and make sure the Colab notebook is **editable** by anyone in Carnegie Mellon University.
 
@@ -106,14 +117,17 @@ Now, you should be ready to experiment with chat-bison! Follow the instructions 
 
 You should download and submit a .ipynb copy of your Colab notebook (with outputs) to Gradescope.
 
+## Checkpoint #2 Deliverables
+### LLM Experiment Integration (10 pts)
+
+For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track.
+
+
 ## Final Deliverables
 
-### Final LLM Experiment (40 points)
+### Final LLM Experiment (30 points)
 
-Now that you’ve implemented a basic LLM integration to answer syllabus questions, you need to implement the following to decide whether or not the feature can be shipped to production:
-
-* Retrieval Augmented Generation (RAG) to reduce prompt length.
-* Pipeline to improve performance on complex grading questions.
+Now that you’ve implemented a basic LLM integration to translate posts, you need to implement the following to finalize the implementation to decide whether or not the feature can be shipped to production.
 
 Complete the Colab Notebook you copied for the Basic LLM Integration.
 
@@ -126,11 +140,11 @@ Your report should include the following with clear headings:
 
 **1. Introduction (&lt;0.5 pages)**
 
-Provide a brief introduction to the LLM integration you’re evaluating, and the context of its use, i.e. the syllabus question answering feature.
+Provide a brief introduction to the LLM integration you’re evaluating, and the context of its use, i.e. the translation feature.
 
 **2. LLM integration (&lt;1 page)**
 
-Describe the end-to-end implementation of your final solution to answering syllabus questions. Given an arbitrary syllabus question, how do you integrate with an LLM to return an answer? Feel free to include any prompts and diagrams.
+Describe the end-to-end implementation of your final solution to translating posts. Given an arbitrary post in any language, how do you integrate with an LLM to return an answer? Feel free to include any prompts and diagrams.
 
 **4. Evaluation Results (&lt;0.5  page)**
 
@@ -138,11 +152,11 @@ Provide a summary of the results from applying the evaluation strategy on your f
 
 **5. Operational Costs (&lt;0.5 pages)**
 
-Based on the pricing of your chosen LLM, how much will it cost to provide users with this feature? How long does it take to generate an answer to a syllabus question? State any assumptions made in making these estimates. Is the cost associated with providing this feature reasonable? 
+Based on the pricing of your chosen LLM, how much will it cost to provide users with this feature? How long does it take to translate a post? State any assumptions made in making these estimates. Is the cost associated with providing this feature reasonable?
 
-**6. Final Recommendation (&lt;0.5 pages)** 
+**6. Final Recommendation (&lt;0.5 pages)**
 
-Provide a final decision on whether the syllabus answering feature should be implemented based on the evaluation results, operational costs and other relevant factors.
+Provide a final decision on whether the translation feature should be implemented based on the evaluation results, operational costs and other relevant factors.
 
 On Gradescope submit the following:
 
@@ -157,7 +171,7 @@ To receive full credit for the checkpoint, we expect:
 
 To receive full credit for the final deadline, we expect:
 
-- [ ] A link to your Colab notebook containing implementation of all of the final LLM experiment steps 
+- [ ] A link to your Colab notebook containing implementation of all of the final LLM experiment steps
 - [ ] An uploaded PDF report discussing your evaluation findings addressing all the sections outlined above
 
 ## Resource & Documentation
