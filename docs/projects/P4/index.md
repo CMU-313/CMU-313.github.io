@@ -34,7 +34,7 @@ There are three (3) deadlines for the project. This project is worth a total of 
 
 **Checkpoint #2 Deliverables** – 10 pts - due Monday, April 1, 11:59pm
 
-- [Preliminary LLM Experiment Integration](#llm-experiment-integration-10-points)
+- [LLM Experiment Integration Checkpoint (10 pts)](#llm-experiment-integration-checkpoint-10-points)
 
 **Final Deliverables** - 60 pts - due Thursday, April 4, 11:59pm
 
@@ -98,7 +98,7 @@ More resources to assist you with creating your design document can be found in 
 
 By the checkpoint deadline, your team will submit your design document to Gradescope as a PDF.
 
-### Basic LLM Experiment (15 pts)
+### Basic LLM Experiment (15 points)
 
 To explore the feasibility of LLMs for this task, your manager would like you to prototype the basic functionality of an LLM to translate text. Due to the company’s existing deal with Google, your team will use the chat-bison language model from Google’s Vertex AI Platform.
 
@@ -124,7 +124,7 @@ You should download and submit a .ipynb copy of your Colab notebook (with output
 
 ## Checkpoint #2 Deliverables
 
-### LLM Experiment Integration (10 pts)
+### LLM Experiment Integration Checkpoint (10 points)
 
 For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track. We have provided some initial code on [this repo](https://github.com/CMU-313/translator-service).
 
@@ -132,7 +132,7 @@ Furthermore, your server-side code must include unit tests. For this task, you s
 
 ## Final Deliverables
 
-### Final LLM Experiment (30 points)
+### Final LLM Experiment Implementation (30 points)
 
 Now that you’ve implemented a basic LLM integration to translate posts, you need to implement the following to finalize the implementation to decide whether or not the feature can be shipped to production.
 
