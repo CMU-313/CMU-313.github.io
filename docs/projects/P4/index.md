@@ -93,7 +93,7 @@ Once you have finished evaluating the codebase, create the design document highl
 
 More resources to assist you with creating your design document can be found in the [Resources & Documentation](#resource-documentation) section below.
 
-!!! note “On Generative AI”
+!!! warning "On Generative AI"
     In the past, students have utilized generative AI tools to generate diagrams with mixed success. While some diagrams have been useful and accurate, others have fallen short due to inaccuracies or oversimplifications not aligned with specific project requirements. Be cautious and review them carefully for accuracy and relevance. You’ve been warned.
 
 By the checkpoint deadline, your team will submit your design document to Gradescope as a PDF.
