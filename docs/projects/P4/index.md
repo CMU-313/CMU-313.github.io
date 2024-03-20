@@ -115,13 +115,20 @@ Once you're logged into the right credit-bearing Google account, follow these in
 
 Now, you should be ready to experiment with chat-bison! Follow the instructions in the notebook through the end of the Basic LLM Experiment.
 
+
+Given the unpredictable nature of LLM responses, it is crucial to test whether your application can handle a range of outcomes. Your Colab notebook should also include tests for your code. We have provided a starter code.
+For this task, you should write at least two tests that deal with unexpected model behavior. At least one of these tests should involve the model returning unexpected text.
+
+
 You should download and submit a .ipynb copy of your Colab notebook (with outputs) to Gradescope.
 
 ## Checkpoint #2 Deliverables
+
 ### LLM Experiment Integration (10 pts)
 
-For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track.
+For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track. We have provided some initial code on [this repo](https://github.com/CMU-313/translator-service).
 
+Furthermore, your server-side code must include unit tests. For this task, you should move the tests you wrote in the previous checkpoint to the repo to integrate them unto the CI pipeline.
 
 ## Final Deliverables
 
