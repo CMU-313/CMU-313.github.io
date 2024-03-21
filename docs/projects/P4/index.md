@@ -134,10 +134,7 @@ Furthermore, your server-side code must include unit tests. For this task, you s
 
 ### Final LLM Experiment Implementation (30 points)
 
-Now that you’ve implemented a basic LLM integration to translate posts, you need to implement the following to finalize the implementation to decide whether or not the feature can be shipped to production.
-
-Complete the Colab Notebook you copied for the Basic LLM Integration.
-
+The final step is to implement this LLM feature into your team's NodeBB project, following your design document. Your implementation should include the UI code you integrated in Checkpoint #2.  Your implementation should match the design you settled on in your design doc.  You should also integrate the code you developed as a part of the LLM experiment, but you may modify it as needed to successfully integrate the functionality into your code.  
 
 ### Evaluation Report (30 points)
 
@@ -178,7 +175,7 @@ To receive full credit for the checkpoint, we expect:
 
 To receive full credit for the final deadline, we expect:
 
-- [ ] A link to your Colab notebook containing implementation of all of the final LLM experiment steps
+- [ ] A functional translation feature, as described in your design document, integrated into your NodeBB application
 - [ ] An uploaded PDF report discussing your evaluation findings addressing all the sections outlined above
 
 ## Resource & Documentation
