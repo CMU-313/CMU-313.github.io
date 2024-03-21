@@ -6,6 +6,7 @@
 - Address and describe the tradeoffs of different architectures
 - Integrate pre-trained foundational large language models into an existing software system
 - Evaluate the performance/quality of LLM powered features
+- Design test suites that include unit, integration, and mock testing, to ensure robustness and reliability
 - Engineer techniques to improve the performance of pre-trained models on application-specific tasks
 - Decide whether an LLM powered solution is production ready
 
@@ -117,7 +118,11 @@ Now, you should be ready to experiment with chat-bison! Follow the instructions 
 
 
 Given the unpredictable nature of LLM responses, it is crucial to test whether your application can handle a range of outcomes. Your Colab notebook should also include tests for your code. We have provided a starter code.
-For this task, you should write at least two tests that deal with unexpected model behavior. At least one of these tests should involve the model returning unexpected text.
+In this task, you are required to employ mocking techniques to test your code resilience against unexpected results from API calls to the LLM. Mocking is a method used in testing to replace real system components with mock objects that simulate the behavior of those components. This approach allows developers to emulate various scenarios, including errors or atypical responses from external services, without having to make actual API calls. Here you will be using mocking to mimic different unexpected outcomes to check if your code can handle such anomalies gracefully.
+
+For full credit, your submission should have at least two mock tests that deal with unexpected model behavior. At least one of these tests should involve the model returning unexpected text.
+
+
 
 
 You should download and submit a .ipynb copy of your Colab notebook (with outputs) to Gradescope.
@@ -128,13 +133,13 @@ You should download and submit a .ipynb copy of your Colab notebook (with output
 
 For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track. We have provided some initial code on [this repo](https://github.com/CMU-313/translator-service).
 
-Furthermore, your server-side code must include unit tests. For this task, you should move the tests you wrote in the previous checkpoint to the repo to integrate them unto the CI pipeline.
+Furthermore, your server-side code must include unit tests. To accomplish this, you must move the tests you wrote in the previous checkpoint to the repo and integrate them into the CI pipeline.
 
 ## Final Deliverables
 
 ### Final LLM Experiment Implementation (30 points)
 
-The final step is to implement this LLM feature into your team's NodeBB project, following your design document. Your implementation should include the UI code you integrated in Checkpoint #2.  Your implementation should match the design you settled on in your design doc.  You should also integrate the code you developed as a part of the LLM experiment, but you may modify it as needed to successfully integrate the functionality into your code.  
+The final step is to implement this LLM feature into your team's NodeBB project, following your design document. Your implementation should include the UI code you integrated in Checkpoint #2.  Your implementation should match the design you settled on in your design doc.  You should also integrate the code you developed as a part of the LLM experiment, but you may modify it as needed to successfully integrate the functionality into your code.
 
 ### Evaluation Report (30 points)
 
