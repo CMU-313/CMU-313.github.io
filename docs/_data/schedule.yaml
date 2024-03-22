@@ -883,10 +883,10 @@
 
 - date: Fri Mar 22
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Wednesday Mar 27th, 11:59pm'
+    link: '/projects/P4'
+    name: 'P4A - Checkpoint#1'
+    numDays: 4
   lecture:
     link: ''
     name: ''
@@ -935,7 +935,7 @@
     quiz: ''
     slides: ''
 
-- date: Mar 27
+- date: Wed Mar 27
   homework:
     deadline: ''
     link: ''
@@ -955,10 +955,10 @@
 
 - date: Thu Mar 28
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Monday Apr 1st, 11:59pm'
+    link: '/projects/P4'
+    name: 'P4B - Checkpoint#2'
+    numDays: 3
   lecture:
     link: ''
     name: 'Open-Source Software'
@@ -1009,10 +1009,10 @@
 
 - date: Tue Apr 2
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Thursday Apr 4th, 11:59pm'
+    link: '/projects/P4'
+    name: 'P4C - Final Deliverables'
+    numDays: 3
   lecture:
     link: ''
     name: 'Dependencies & Patents'
