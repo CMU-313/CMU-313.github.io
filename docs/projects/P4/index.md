@@ -120,7 +120,9 @@ Now, you should be ready to experiment with chat-bison! Follow the instructions 
 Given the unpredictable nature of LLM responses, it is crucial to test whether your application can handle a range of outcomes. Your Colab notebook should also include tests for your code. We have provided a starter code.
 In this task, you are required to employ mocking techniques to test your code resilience against unexpected results from API calls to the LLM. Mocking is a method used in testing to replace real system components with mock objects that simulate the behavior of those components. This approach allows developers to emulate various scenarios, including errors or atypical responses from external services, without having to make actual API calls. Here you will be using mocking to mimic different unexpected outcomes to check if your code can handle such anomalies gracefully.
 
-For full credit, your submission should have at least four mock tests that deal with unexpected model behavior. At least one of these tests should involve the model returning unexpected text.
+For full credit, your submission should have at least four mock tests that deal
+with differente unexpected model behaviors. At least one of these tests should involve the
+model returning unexpected text. All tests should relate to the `query_llm_robust` function.
 
 
 You should download and submit a .ipynb copy of your Colab notebook (with outputs) to Gradescope.
@@ -137,7 +139,7 @@ Furthermore, your server-side code must include unit and mock tests. To accompli
 
 ### Final LLM Experiment Implementation (30 points)
 
-The final step is to implement this LLM feature into your team's NodeBB project, following your design document. Your implementation should include the UI code you integrated in Checkpoint #2.  Your implementation should match the design you settled on in your design doc.  You should also integrate the code you developed as a part of the LLM experiment, but you may modify it as needed to successfully integrate the functionality into your code.
+The final step is to implement this LLM feature into your team's NodeBB project, following your design document. Your implementation should include the UI code you integrated in Checkpoint #2. You should also integrate the code you developed as a part of the LLM experiment, but you may modify it as needed to successfully integrate the functionality into your code.
 
 ### Evaluation Report (30 points)
 
@@ -171,14 +173,20 @@ On Gradescope submit the following:
 * PDF of your evaluation report
 
 ## Grading
-To receive full credit for the checkpoint, we expect:
+To receive full credit for the first checkpoint, we expect:
 
 - [ ] An uploaded PDF design document outlining your research into the existing codebase architecture, the quality requirements considered by your team, alternative solutions, and a final justification & timeline for your selected integration plan
 - [ ] A link to your Colab notebook completing all of the setup and basic LLM experiment steps outlined by the previous section
 
+To receive full credit for the second checkpoint, we expect:
+
+- [ ] A functional integration of the UI code into your NodeBB application.
+- [ ] A preliminary implementation of the translation feature using the starter code, including CI with unit and mock tests.
+- [ ] An integrated deployment of your NodeBB and the translation service on GCP.
+
 To receive full credit for the final deadline, we expect:
 
-- [ ] A functional translation feature, as described in your design document, integrated into your NodeBB application
+- [ ] A functional translation feature, as described in your design document, integrated into your NodeBB application and deployed on GCP.
 - [ ] An uploaded PDF report discussing your evaluation findings addressing all the sections outlined above
 
 ## Resource & Documentation
