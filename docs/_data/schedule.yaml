@@ -870,7 +870,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/17-LLMs.pdf'
     name: 'LLMs'
   reading:
     link: ''
