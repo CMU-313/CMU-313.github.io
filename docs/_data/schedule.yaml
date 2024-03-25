@@ -883,10 +883,10 @@
 
 - date: Fri Mar 22
   homework:
-    deadline: 'Due Wednesday Mar 27th, 11:59pm'
+    deadline: 'Due Thursday Mar 28th, 11:59pm'
     link: '/projects/P4'
     name: 'P4A - Checkpoint#1'
-    numDays: 4
+    numDays: 7
   lecture:
     link: ''
     name: ''

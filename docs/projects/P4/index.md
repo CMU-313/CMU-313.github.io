@@ -28,7 +28,7 @@ Your manager wants you to:
 ## Deliverables and Deadlines
 There are three (3) deadlines for the project. This project is worth a total of 125 points.
 
-**Checkpoint #1 Deliverables** – 55 pts - due Wednesday, March 27, 11:59pm
+**Checkpoint #1 Deliverables** – 55 pts - due Thursday, March 28, 11:59pm
 
 - [Architectural Design Document (40 pts)](#architectural-design-document-40-points)
 - [Basic LLM Experiment (15 pts)](#basic-llm-experiment-15-points)
