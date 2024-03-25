@@ -8,12 +8,12 @@ lectures:
 
 projects:
 - date: Fri Mar 22
-  deadline: Due Wednesday Mar 27th, 11:59pm
-  end_date: 2024-03-28 00:00:00
+  deadline: Due Thursday Mar 28th, 11:59pm
+  end_date: 2024-03-29 00:00:00
   link: /projects/P4
   name: P4A - Checkpoint#1
-  numDays: 4
-- date: Thu Mar 28
+  numDays: 7
+- date: Fri Mar 29
   deadline: Due Monday Apr 1st, 11:59pm
   end_date: 2024-04-02 00:00:00
   link: /projects/P4
