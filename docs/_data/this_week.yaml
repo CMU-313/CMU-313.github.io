@@ -1,10 +1,10 @@
 lectures:
-- date: Tue Mar 19
+- date: Tue Mar 26
   link: ''
-  name: Feedback Workshop - Guest Lecture
-- date: Thu Mar 21
+  name: SE Ethics
+- date: Thu Mar 28
   link: ''
-  name: LLMs
+  name: Open-Source Software
 
 projects:
 - date: Fri Mar 22
@@ -13,10 +13,16 @@ projects:
   link: /projects/P4
   name: P4A - Checkpoint#1
   numDays: 4
+- date: Thu Mar 28
+  deadline: Due Monday Apr 1st, 11:59pm
+  end_date: 2024-04-02 00:00:00
+  link: /projects/P4
+  name: P4B - Checkpoint#2
+  numDays: 3
 
 recitation:
-  date: Mon Mar 18
-  handout: /recitations/reci7-llms/
-  name: Recitation 7 - Large Language Models
-  quiz: https://www.gradescope.com/courses/703665/assignments/4237502/
-  slides: https://docs.google.com/presentation/d/1OpJpOKSEISbDIBoiB15t-p1aLZZb16UoIbhQfi-zvJw/edit?usp=sharing
+  date: Mon Mar 25
+  handout: /recitations/reci8-team-feedback
+  name: Recitation 8 - Team Feedback
+  quiz: https://www.gradescope.com/courses/703665/assignments/4255110
+  slides: https://docs.google.com/presentation/d/1lL2KRPPkw3IHMJlgw_IHX2xNBx0Vk4a-AIrivw6fZrk/edit?usp=sharing
