@@ -1,7 +1,7 @@
 lectures:
 - date: Tue Mar 26
-  link: ''
-  name: SE Ethics
+  link: assets/pdfs/19-LLM-Tool-Lecture.pdf
+  name: LLM as Tools
 - date: Thu Mar 28
   link: ''
   name: Open-Source Software
