@@ -798,8 +798,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/15-CI-deployment.pdf'
+    name: 'CI and Deployment'
   reading:
     link: ''
     name: ''
