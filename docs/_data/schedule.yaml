@@ -960,8 +960,8 @@
     name: 'P4B - Checkpoint#2'
     numDays: 3
   lecture:
-    link: ''
-    name: 'Open-Source Software'
+    link: 'assets/pdfs/20-software-quality.pdf'
+    name: 'Software Quality'
   reading:
     link: ''
     name: ''
