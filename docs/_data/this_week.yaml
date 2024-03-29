@@ -3,8 +3,8 @@ lectures:
   link: assets/pdfs/19-LLM-Tool-Lecture.pdf
   name: LLM as Tools
 - date: Thu Mar 28
-  link: ''
-  name: Open-Source Software
+  link: assets/pdfs/20-software-quality.pdf
+  name: Software Quality
 
 projects:
 - date: Fri Mar 22
