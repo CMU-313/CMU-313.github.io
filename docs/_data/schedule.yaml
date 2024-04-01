@@ -1002,10 +1002,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
+    handout: '/recitations/reci9-open-source/'
+    name: 'Open Source Scavenger Hunt'
+    quiz: 'https://www.gradescope.com/courses/703665/assignments/4301035'
+    slides: 'https://docs.google.com/presentation/d/18jHBU7SKKfIAJUiUFzToYqqDBn6kl--r9q-XbNOV4JU/edit?usp=sharing'
 
 - date: Tue Apr 2
   homework:

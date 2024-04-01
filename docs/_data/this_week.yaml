@@ -26,4 +26,9 @@ projects:
   name: P4C - Final Deliverables
   numDays: 3
 
-recitation: null
+recitation:
+  date: Mon Apr 1
+  handout: /recitations/reci9-open-source/
+  name: Recitation 9 - Open Source Scavenger Hunt
+  quiz: https://www.gradescope.com/courses/703665/assignments/4301035
+  slides: https://docs.google.com/presentation/d/18jHBU7SKKfIAJUiUFzToYqqDBn6kl--r9q-XbNOV4JU/edit?usp=sharing
