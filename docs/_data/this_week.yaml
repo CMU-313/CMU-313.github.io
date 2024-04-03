@@ -1,24 +1,12 @@
 lectures:
 - date: Tue Apr 2
-  link: ''
-  name: Dependencies & Patents
+  link: assets/pdfs/docs/assets/pdfs/21-Open\ Source.pdf
+  name: Open Source
 - date: Thu Apr 4
   link: ''
   name: Software Security
 
 projects:
-- date: Fri Mar 22
-  deadline: Due Thursday Mar 28th, 11:59pm
-  end_date: 2024-04-02 00:00:00
-  link: /projects/P4
-  name: P4A - Checkpoint#1
-  numDays: 7
-- date: Thu Mar 28
-  deadline: Due Monday Apr 1st, 11:59pm
-  end_date: 2024-04-02 00:00:00
-  link: /projects/P4
-  name: P4B - Checkpoint#2
-  numDays: 3
 - date: Tue Apr 2
   deadline: Due Thursday Apr 4th, 11:59pm
   end_date: 2024-04-05 00:00:00
