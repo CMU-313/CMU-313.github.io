@@ -1014,8 +1014,8 @@
     name: 'P4C - Final Deliverables'
     numDays: 3
   lecture:
-    link: ''
-    name: 'Dependencies & Patents'
+    link: 'assets/pdfs/docs/assets/pdfs/21-Open\ Source.pdf'
+    name: 'Open Source'
   reading:
     link: ''
     name: ''
