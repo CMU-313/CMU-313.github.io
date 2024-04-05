@@ -6,17 +6,11 @@ lectures:
   link: ''
   name: Software Security
 
-projects:
-- date: Mon Mar 11
-  deadline: Due Sunday Apr 28th, 11:59pm
-  end_date: 2024-03-18 00:00:00
-  link: /projects/P5
-  name: P5 - Open Source Excursion
-  numDays: 5
+projects: []
 
 recitation:
-  date: Mon Apr 8
-  handout: /recitations/reci10-p5-checkin/
-  name: Recitation 10 - Open Source Excursion Project and Task Selection Check In
-  quiz: https://forms.gle/FGwc37uTahoRQCkL9
-  slides: ''
+  date: Mon Apr 1
+  handout: /recitations/reci9-open-source/
+  name: Open Source Scavenger Hunt
+  quiz: https://www.gradescope.com/courses/703665/assignments/4301035
+  slides: https://docs.google.com/presentation/d/18jHBU7SKKfIAJUiUFzToYqqDBn6kl--r9q-XbNOV4JU/edit?usp=sharing
