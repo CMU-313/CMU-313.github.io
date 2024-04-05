@@ -23,7 +23,7 @@ This will is your final project with your group. There are 3 deadlines for this 
 
 A) [**Project & Task Selection**](/projects/P5/1_projectcheck) – 80 points – due Tuesday, April 9th, 11:59pm
 
-- Check-In Presentation (80 pts) - **Held in Recitation on Monday, April 8th**
+- Check-In Presentation (80 pts) - **Submitted Recording by Tuesday April 9th**
 
 B) [**Project Final Report & Presentations**](/projects/P5/2_projectfinal) – 300 points – due Sunday, April 28th, 11:59pm
 
