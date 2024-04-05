@@ -1063,9 +1063,9 @@
 
 - date: Fri Apr 5
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: ''Due Sunday April 28th, 11:59pm'
+    link: '/projects/P5'
+    name: 'P5 - Open Source Excursion'
     numDays: 0
   lecture:
     link: ''
@@ -1092,10 +1092,9 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
+    handout: '/recitations/reci10-p5-checkin/'
+    name: 'Recitation 10 - Open Source Project and Task Selection Check In'
+    quiz: 'https://forms.gle/FGwc37uTahoRQCkL9'
 
 - date: Tue Apr 9
   homework:

@@ -2,10 +2,10 @@
 
 ## Deliverables
 
-**Project & Task Selection** – 80 points – due Tuesday, November 28th, 11:59pm
+**Project & Task Selection** – 80 points – due Monday, April 8th, 11:59pm
 
-- [Check-In Presentation Slides](#check-in-presentation-80-pts) – due Tuesday, November 28th, 11:59pm
-- **Presentation Date** – During your recitation time on Wednesday, November 29th / Friday December 1st.
+- [Check-In Presentation Slides](#check-in-presentation-80-pts) – due Monday, April 8th, 11:59pm
+- **Presentation Date** – During your recitation time on Monday April 8th.
 
 
 ## Open Source Project Selection
@@ -28,7 +28,7 @@ The open source project you pick should be ^^active^^ and ^^have multiple contri
 
 If you have questions on if we would consider a project active, contact the course staff.
 
-Once you have selected a project, add it to the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1UTogivA8FraWcPC6DC_fi70g33_ugmslAQsXmsSA4jc/edit?usp=sharing)**.
+Once you have selected a project, add it to the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1Y361Z1H-oZsyQUvrHyWKMOPPWSsA7-pHn32pRrvNRns/edit?usp=sharing)**.
 
 ## Task Selection
 
@@ -54,17 +54,11 @@ As per previous project, ^^plan before you start coding^^. You should identify r
 
 ## Check-In Presentation (80 pts)
 
-The recitation after Thanksgiving break will be dedicated to an **in-person** group presentation about your project and task selection.
+The recitation before carnival will be asynchronous to allow for viewing of the eclipse. 
 
-- Presentations are **7 minutes long, with 3 minutes of feedback and Q&A**
-- The order of presentations will be randomly determined
+- Presentations are **7 minutes long**
 - Participation from all team members during the presentation is **required**
 
-!!! warning "Presentation Attendance"
-    For full credit, you would have to be on time for the presentation session (within 5 minutes of recitation start time). If you are unable to attend in-person, you must
-
-      - Send a Slack message to your TA with justifications **at least 24 hours before the start of your recitation**, else you will receive **no credit** for this part of the assignment, and
-      - Pre-record your segment of the presentation, which your teammate will play during the presentation
 
 **Your group presentation will serve as a check-in to determine if the open source project and task(s) chosen were reasonable**
 
