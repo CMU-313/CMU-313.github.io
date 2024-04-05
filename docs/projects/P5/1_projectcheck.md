@@ -5,7 +5,7 @@
 **Project & Task Selection** – 80 points – due Monday, April 8th, 11:59pm
 
 - [Check-In Presentation Slides](#check-in-presentation-80-pts) – due Monday, April 8th, 11:59pm
-- **Presentation Date** – During your recitation time on Monday April 8th.
+- **Presentation Date** – During your recitation time on Monday April 8th (asynchronous).
 
 
 ## Open Source Project Selection
