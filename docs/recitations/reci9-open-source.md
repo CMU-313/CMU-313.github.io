@@ -15,7 +15,7 @@ The general criteria for an open source project:
 - Repository must have an open source license
 
 ## Scavenger Hunt (30 min)
-Join the slide deck made by your TA for your class and make a copy of the slide for your team. Then, search for open source projects to fill each square in the Scavenger Hunt table. Each project can only count for one square. The goal is to have as many squares filled as possible!
+Join the slide deck [here](https://docs.google.com/presentation/d/18jHBU7SKKfIAJUiUFzToYqqDBn6kl--r9q-XbNOV4JU/edit?usp=sharing) made for your class and make a copy of the slide for your team. Then, search for open source projects to fill each square in the Scavenger Hunt table. Each project can only count for one square. The goal is to have as many squares filled as possible!
 
 While learning about different open source projects, think about what type of projects you would be interested in working on for Project 5.
 
@@ -28,9 +28,13 @@ Pick 3 projects that you are interested in pursing for Project 5.
 
 ## Public Project Selection
 
-Once your team has decided on an open source project, add it to the [Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1UTogivA8FraWcPC6DC_fi70g33_ugmslAQsXmsSA4jc/edit?usp=sharing).
+Once your team has decided on an open source project, add it to the [Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1N2uQNHZ9AbqyItvpVK22EwbDpPXRTmslVyQ7-SGaiww/edit?usp=sharing).
  
 ## Resources
+- A list of good first issues: [https://goodfirstissues.com/](https://goodfirstissues.com/)
+- Another list of good first issues: [https://goodfirstissue.dev/](https://goodfirstissue.dev/)
+- Another good first issue list: [https://finder.eddiehub.io/](https://finder.eddiehub.io/)
+- The GitHub page for the good-first-issue topic: [https://github.com/topics/good-first-issue](https://github.com/topics/good-first-issue)
 - A list of beginner friendly projects: [https://github.com/MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)
 - Github Showcase for new contributors: [https://github.com/showcases/great-for-new-contributors](https://github.com/MunGell/awesome-for-beginners)
 - Issues that are labeled “up-for-grabs”: [https://up-for-grabs.net](https://up-for-grabs.net)
@@ -41,3 +45,4 @@ Once your team has decided on an open source project, add it to the [Public Proj
 ## Hall of Fame
 Here's some extra motivation for picking merging your final pull requests into your open source project!
 Explore some merged PRs in open source projects from previous semesters in the [Hall of Fame](https://cmu-313.github.io/hall-of-fame/).
+

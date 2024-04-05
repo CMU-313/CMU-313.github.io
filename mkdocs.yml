@@ -81,12 +81,13 @@ nav:
       - "Project 3: Continuous Integration + Deployment":
           - projects/P3/index.md
           - "GCP Deployment Instructions": projects/P3/deployment.md
-      # - "Project 4: Architecting an LLM Integration":
-      #     - projects/P4/index.md
+      - "Project 4: Architecting an LLM Integration":
+          - projects/P4/index.md
       - "Project 5: Open Source Excursion":
           - projects/P5/index.md
           - "5A Project and Task Selection": projects/P5/1_projectcheck.md
           - "5B Project Presentations, Final Report, and Reflections": projects/P5/2_projectfinal.md
+
   - Recitations:
       # - recitations/index.md # Dummy home page; remove once we start adding recitations below
       - Recitation 1 - Git, GitHub and TypeScript: recitations/reci1-github.md
@@ -95,9 +96,9 @@ nav:
       - Recitation 4 - Checkpoint Presentations: recitations/reci4-checkpoint.md
       - Recitation 5 - Team Dysfunction: recitations/reci5-team-dysfunction.md
       - Recitation 6 - Deployment: recitations/reci6-deployment.md
-      # - Recitation 7 - Static Analysis and Continuous Integration: recitations/reci7-static-analysis-ci.md
-      # - Recitation 8 - Large Language Models: recitations/reci8-llms.md
-      # - Recitation 9 - Open Source Projectss: recitations/reci9-open-source.md
+      - Recitation 7 - Large Language Models: recitations/reci7-llms.md
+      - Recitation 8 - Team Feedback: recitations/reci8-team-feedback.md
+      - Recitation 9 - Open Source Scavenger Hunt: recitations/reci9-open-source.md
       # - Recitation 10 - Team Feedback: recitations/reci10-team-feedback.md
       # - Recitation 7 - Docker and Containerization: recitations/reci7-docker.md
       # - Recitation 8 - Team Feedback: recitations/reci8-team-feedback.md

@@ -798,8 +798,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/15-CI-deployment.pdf'
+    name: 'CI and Deployment'
   reading:
     link: ''
     name: ''
@@ -822,10 +822,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
+    handout: '/recitations/reci7-llms/'
+    name: 'Recitation 7 - Large Language Models'
+    quiz: 'https://www.gradescope.com/courses/703665/assignments/4237502/'
+    slides: 'https://docs.google.com/presentation/d/1OpJpOKSEISbDIBoiB15t-p1aLZZb16UoIbhQfi-zvJw/edit?usp=sharing'
 
 - date: Tue Mar 19
   homework:
@@ -870,7 +870,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/17-LLMs.pdf'
     name: 'LLMs'
   reading:
     link: ''
@@ -883,10 +883,10 @@
 
 - date: Fri Mar 22
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Thursday Mar 28th, 11:59pm'
+    link: '/projects/P4'
+    name: 'P4A - Checkpoint#1'
+    numDays: 7
   lecture:
     link: ''
     name: ''
@@ -912,10 +912,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
+    handout: '/recitations/reci8-team-feedback'
+    name: 'Recitation 8 - Team Feedback'
+    quiz: 'https://www.gradescope.com/courses/703665/assignments/4255110'
+    slides: 'https://docs.google.com/presentation/d/1lL2KRPPkw3IHMJlgw_IHX2xNBx0Vk4a-AIrivw6fZrk/edit?usp=sharing'
 
 - date: Tue Mar 26
   homework:
@@ -924,8 +924,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'SE Ethics'
+    link: 'assets/pdfs/19-LLM-Tool-Lecture.pdf'
+    name: 'LLM as Tools'
   reading:
     link: ''
     name: ''
@@ -935,7 +935,7 @@
     quiz: ''
     slides: ''
 
-- date: Mar 27
+- date: Wed Mar 27
   homework:
     deadline: ''
     link: ''
@@ -955,13 +955,13 @@
 
 - date: Thu Mar 28
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Monday Apr 1st, 11:59pm'
+    link: '/projects/P4'
+    name: 'P4B - Checkpoint#2'
+    numDays: 3
   lecture:
-    link: ''
-    name: 'Open-Source Software'
+    link: 'assets/pdfs/20-software-quality.pdf'
+    name: 'Software Quality'
   reading:
     link: ''
     name: ''
@@ -1002,20 +1002,20 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
+    handout: '/recitations/reci9-open-source/'
+    name: 'Open Source Scavenger Hunt'
+    quiz: 'https://www.gradescope.com/courses/703665/assignments/4301035'
+    slides: 'https://docs.google.com/presentation/d/18jHBU7SKKfIAJUiUFzToYqqDBn6kl--r9q-XbNOV4JU/edit?usp=sharing'
 
 - date: Tue Apr 2
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Thursday Apr 4th, 11:59pm'
+    link: '/projects/P4'
+    name: 'P4C - Final Deliverables'
+    numDays: 3
   lecture:
-    link: ''
-    name: 'Dependencies & Patents'
+    link: 'assets/pdfs/docs/assets/pdfs/21-Open\ Source.pdf'
+    name: 'Open Source'
   reading:
     link: ''
     name: ''
