@@ -2,10 +2,10 @@
 
 ## Deliverables
 
-**Project & Task Selection** – 80 points – due Monday, April 8th, 11:59pm
+**Project & Task Selection** – 80 points – due Tuesday, April 9th, 11:59pm
 
-- [Check-In Presentation Slides](#check-in-presentation-80-pts) – due Monday, April 8th, 11:59pm
-- **Presentation Date** – During your recitation time on Monday April 8th (asynchronous).
+- [Check-In Presentation Slides](#check-in-presentation-80-pts) – due Tuesday, April 9th, 11:59pm
+- **Presentation Date** – Upload your presentation video [here](https://drive.google.com/drive/folders/1nHW97a6oRaQrVLqTo-F1bKwVc6G3IFZA?usp=sharing)
 
 
 ## Open Source Project Selection
