@@ -21,9 +21,9 @@ If you demonstrate to us that your change has been accepted and integrated into 
 ## Deliverables and Deadlines
 This will is your final project with your group. There are 3 deadlines for this project. The project is worth a total of 400 points (~24% of your final grade). 
 
-A) [**Project & Task Selection**](/projects/P5/1_projectcheck) – 80 points – due Tuesday, April 9th, 11:59pm
+A) [**Project & Task Selection**](/projects/P5/1_projectcheck) – 80 points – due ~~Tuesday, April 9th, 11:59pm~~ Wednesday, April 10th, 11:59pm
 
-- Check-In Presentation (80 pts) - **Submitted Recording by Tuesday April 9th**
+- Check-In Presentation (80 pts) - **Submitted Recording by Wednesday April 10th**
 
 B) [**Project Final Report & Presentations**](/projects/P5/2_projectfinal) – 300 points – due Sunday, April 28th, 11:59pm
 
