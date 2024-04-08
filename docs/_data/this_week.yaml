@@ -1,16 +1,16 @@
 lectures:
-- date: Tue Apr 2
-  link: assets/pdfs/docs/assets/pdfs/21-Open\ Source.pdf
-  name: Open Source
-- date: Thu Apr 4
+- date: Tue Apr 9
   link: ''
-  name: Software Security
+  name: TBD
+- date: Thu Apr 11
+  link: ''
+  name: NO CLASS (Carnival)
 
 projects: []
 
 recitation:
-  date: Mon Apr 1
-  handout: /recitations/reci9-open-source/
-  name: Open Source Scavenger Hunt
-  quiz: https://www.gradescope.com/courses/703665/assignments/4301035
-  slides: https://docs.google.com/presentation/d/18jHBU7SKKfIAJUiUFzToYqqDBn6kl--r9q-XbNOV4JU/edit?usp=sharing
+  date: Mon Apr 8
+  handout: /recitations/reci10-p5-checkin/
+  name: Recitation 10 - Open Source Project and Task Selection Check In
+  quiz: https://forms.gle/FGwc37uTahoRQCkL9
+  slides: ''
