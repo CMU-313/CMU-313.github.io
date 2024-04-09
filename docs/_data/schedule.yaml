@@ -1051,7 +1051,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Software Security'
+    name: 'Patents'
   reading:
     link: ''
     name: ''
@@ -1104,8 +1104,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'TBD'
+    link: 'assets/pdfs/23-security-and-privacy.pdf'
+    name: 'Security and Privacy'
   reading:
     link: ''
     name: ''
