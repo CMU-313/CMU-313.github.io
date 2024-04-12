@@ -1050,7 +1050,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/docs/assets/pdfs/22-patents-dependencies.pdf'
     name: 'Patents / Dependencies'
   reading:
     link: ''
