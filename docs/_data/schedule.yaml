@@ -1014,7 +1014,7 @@
     name: 'P4C - Final Deliverables'
     numDays: 3
   lecture:
-    link: 'assets/pdfs/docs/assets/pdfs/21-open-source.pdf'
+    link: 'assets/pdfs/21-open-source.pdf'
     name: 'Open Source'
   reading:
     link: ''
@@ -1050,7 +1050,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/docs/assets/pdfs/22-patents-dependencies.pdf'
+    link: 'assets/pdfs/22-patents-dependencies.pdf'
     name: 'Patents / Dependencies'
   reading:
     link: ''
