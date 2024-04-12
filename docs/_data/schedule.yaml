@@ -744,8 +744,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Cloud Deployment'
+    link: 'assets/pdfs/15-CI-deployment.pdf'
+    name: 'CI and Deployment'
   reading:
     link: ''
     name: ''
@@ -798,8 +798,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/15-CI-deployment.pdf'
-    name: 'CI and Deployment'
+    link: ''
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1014,7 +1014,7 @@
     name: 'P4C - Final Deliverables'
     numDays: 3
   lecture:
-    link: 'assets/pdfs/docs/assets/pdfs/21-Open\ Source.pdf'
+    link: 'assets/pdfs/docs/assets/pdfs/21-open-source.pdf'
     name: 'Open Source'
   reading:
     link: ''
