@@ -1,16 +1,11 @@
 lectures:
-- date: Tue Apr 9
-  link: assets/pdfs/23-security-and-privacy.pdf
-  name: Security and Privacy
-- date: Thu Apr 11
+- date: Tue Apr 16
   link: ''
-  name: NO CLASS (Carnival)
+  name: TBD
+- date: Thu Apr 18
+  link: ''
+  name: MIDTERM
 
 projects: []
 
-recitation:
-  date: Mon Apr 8
-  handout: /recitations/reci10-p5-checkin/
-  name: Recitation 10 - Open Source Project and Task Selection Check In
-  quiz: https://forms.gle/FGwc37uTahoRQCkL9
-  slides: ''
+recitation: null
