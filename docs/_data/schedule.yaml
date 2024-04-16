@@ -834,7 +834,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/16-delivering-effective-feedback.pdf'
     name: 'Feedback Workshop - Guest Lecture'
   reading:
     link: ''
