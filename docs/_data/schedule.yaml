@@ -1194,8 +1194,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'TBD'
+    link: 'assets/pdfs/25-SRE.pdf'
+    name: 'SLO'
   reading:
     link: ''
     name: ''
