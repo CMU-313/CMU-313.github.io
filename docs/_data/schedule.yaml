@@ -1284,7 +1284,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/27-employment.pdf'
     name: 'SE Jobs, Offers & Negotiation'
   reading:
     link: ''
