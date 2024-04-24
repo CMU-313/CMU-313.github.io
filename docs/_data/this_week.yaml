@@ -1,16 +1,11 @@
 lectures:
-- date: Tue Apr 16
+- date: Tue Apr 23
   link: ''
-  name: TBD
-- date: Thu Apr 18
+  name: SE Jobs, Offers & Negotiation
+- date: Thu Apr 25
   link: ''
-  name: MIDTERM
+  name: Semester Review
 
 projects: []
 
-recitation:
-  date: Mon Apr 15
-  handout: recitations/reci11-midterm-review/
-  name: Recitation 11 - Midterm Review
-  quiz: https://www.gradescope.com/courses/703665/assignments/4359746
-  slides: https://docs.google.com/presentation/d/1bh2Hh1j7sUNIljtm0x4IRCV6oImgTNSDNiFYny0IOCo/edit?usp=sharing
+recitation: null
