@@ -6,6 +6,16 @@ hide:
 
 A list of student groups with links to their merged PRs in open source projects.
 
+## 2024 Spring 
+| Group Name | Team Members | Project | Merged PRs |
+| ---------- | ------------ | ------- | ---------- |
+| CCC | Kevin Ren, Kareem Segizekov, Daniel Chen, Juan Ageitos, Justin Park | [OpenLibrary](https://github.com/internetarchive/openlibrary) | [#9093](https://github.com/internetarchive/openlibrary/pull/9093), [#9170](https://github.com/internetarchive/openlibrary/pull/9170) |
+| Wildcats | Tiger Huo, Amanda Zhu, Wen Hu, Cassandra Zhou | [PyTorch](https://github.com/pytorch) | [#123581](https://github.com/pytorch/pytorch/pull/123581) |
+| Capibaras | Xinyi Chen, Rebecca (Baijia) Li, Larissa Tyagi, Nicolas Marulanda | [developerFolio](https://github.com/saadpasta/developerFolio) | [#698](https://github.com/saadpasta/developerFolio/pull/698) |
+| Roger | Shreya Choksi, Bryce Zhang, Chenjia Fan, Theo Kroening, Feiyang Xu | [CounterForMessenger](https://github.com/Kubis10/CounterForMessenger) | [#7](https://github.com/tkroening/CounterForMessenger/pull/7), [#56](https://github.com/Kubis10/CounterForMessenger/pull/56)  |
+| Cute Capybaras | Oliver Zhang, Tishyaa Chaudhry, Parth Rustagi, Alina Fang | [Presto](https://github.com/prestodb) | [#22519](https://github.com/prestodb/presto/pull/22519) |
+| Allegra | Prina Doshi, Bennett Li, Jason Kwok, Albert Lin | [SvelteJS](https://github.com/sveltejs) | [#170007](https://github.com/Homebrew/homebrew-core/pull/170007) |
+
 ## 2023 Fall
 
 | Group Name | Team Members | Project | Merged PRs |
