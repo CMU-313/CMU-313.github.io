@@ -45,6 +45,15 @@ For this project, you will create issues or pull requests **directly in your tea
 
 For each code-based deliverable, we will look at a snapshot of your repository at the deadline. This will often be done by asking you for a screenshot or commit link submitted via Gradescope.
 
+### Activity Action
+
+To help you to understand your contributions through the semester. We added an `activity-action` for you, which automatically pulls the commit and issue histories and updates the `README.md` file in the main branch. Once you start working on the project, you will see the action adding your contributions to the `README.md` file.
+
+!!! warning
+    Do not remove the `activity-resources` branch in your repo. This branch is used to store activity info.
+
+
+
 
 ### Teamwork Self-Assessment
 
