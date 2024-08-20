@@ -1,0 +1,1478 @@
+- date: Mon Jan 15
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Jan 16
+  homework:
+    homework:
+    deadline: 'Due Friday Jan 19th, 11:59pm'
+    link: '/projects/P1'
+    name: 'P1A - Build Checkpoint'
+    numDays: 4
+  lecture:
+    link: 'assets/pdfs/01-introduction-wide.pdf'
+    name: 'Introduction'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Jan 17
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Jan 18
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/02-archaelogy-and-anthropology.pdf'
+    name: 'Software Archaeology and Anthropology'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Jan 19
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Jan 22
+  homework:
+    deadline: 'Due Thursday Jan 25th, 11:59pm'
+    link: '/projects/P1/2_translation'
+    name: 'P1B - Starter Task'
+    numDays: 4
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: '/recitations/reci1-github/'
+    name: 'Recitation 1 - Git, GitHub and TypeScript'
+    quiz: 'https://www.gradescope.com/courses/703665/assignments/3967904'
+    slides: 'https://docs.google.com/presentation/d/1js-OQoNlUZ32OO8U3-Tz4IpCwTeKl7j7/edit?usp=sharing&ouid=116435991719159948286&rtpof=true&sd=true'
+
+- date: Tue Jan 23
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/03-measurement.pdf'
+    name: 'Metrics and Measurement'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Jan 24
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Jan 25
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/04-BoeingCaseStudy.pdf'
+    name: 'Case Study: Boeing 737 MAX'
+  reading:
+    link: 'https://github.com/CMU-313/CMU-313.github.io/blob/bfd1bcc47c313bb9d8b869c0145133756daa4278/docs/readings/flawed_analysis_boeing737_max.pdf'
+    name: 'Boeing Case Study Reading'
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Jan 26
+  homework:
+    deadline: 'Due Thursday, Feb 1st, 11:59pm'
+    link: '/projects/P2/1_teamprocess'
+    name: 'P2A - Team Process & Planning'
+    numDays: 5
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Jan 29
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: '/recitations/reci2-teamcontract/'
+    name: 'Recitation 2 - Team Contract Workshop'
+    quiz: 'https://www.gradescope.com/courses/703665/assignments/4006103'
+    slides: 'https://docs.google.com/presentation/d/1QuX5Ylp3ColNwc-YUpkHO0_HzCRtL8PUAJT2qX5mSUE/edit?usp=sharing'
+
+- date: Tue Jan 30
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/05-process.pdf'
+    name: 'Project Planning'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Jan 31
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Feb 1
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/06-teams-communication-wide.pdf'
+    name: 'Teams and Communication'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Feb 2
+  homework:
+    deadline: 'Due Tuesday, Feb 13th, 11:59pm'
+    link: '/projects/P2/2_firstsprint'
+    name: 'P2B - Collaborative Development'
+    numDays: 8
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Feb 5
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: '/recitations/reci4-archaeology/'
+    name: 'Recitation 3 - Software Archaeology'
+    quiz: 'https://www.gradescope.com/courses/703665/assignments/4021872'
+    slides: 'https://docs.google.com/presentation/d/1Fg375RKJc7X8Ckqp-POXDGu1BONnM35AFc5_Tg__F0E/edit?usp=sharing'
+
+- date: Tue Feb 6
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/07-Intro-to-Arch.pdf'
+    name: 'Architecture: Intro and Overview'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Feb 7
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Feb 8
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/08-arch-design-docs.pdf'
+    name: 'Architecture: Design Docs'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Feb 9
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Feb 12
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: '/recitations/reci4-checkpoint/'
+    name: 'Recitation 4 - Checkpoint Presentations'
+    quiz: ''
+    slides: ''
+
+- date: Tue Feb 13
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/09-Microservices.pdf'
+    name: 'Architecture: Microservices'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Feb 14
+  homework:
+    deadline: 'Due Thursday, Feb 29th, 11:59pm'
+    link: '/projects/P2/3_secondsprint'
+    name: 'P2C - Collaborative Development'
+    numDays: 12
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Feb 15
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/10-code-review-risk.pdf'
+    name: 'Software Risk Management'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Feb 16
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Feb 19
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: '/recitations/reci5-team-dysfunction/'
+    name: 'Recitation 5 - Team Dysfunction'
+    quiz: 'https://www.gradescope.com/courses/703665/assignments/4106622'
+    slides: 'https://docs.google.com/presentation/d/1HRRKiX-dE24dBZbXs3OWgxc4YNSO08fkoeI0JuYtw90/edit#slide=id.p'
+
+- date: Tue Feb 20
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/11-dynamic-analysis.pdf'
+    name: 'QA: Dynamic Analysis Tools'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Feb 21
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Feb 22
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/12-analysis-tools.pdf'
+    name: 'QA: Static Analysis Tools'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Feb 23
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Feb 26
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: 'No Recitation!'
+    quiz: ''
+    slides: ''
+
+- date: Tue Feb 27
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'MIDTERM'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Feb 28
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Feb 29
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/14-ethics.pdf'
+    name: 'Ethics'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Mar 1
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Mar 4
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Mar 5
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'NO CLASS (Spring Break)'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Mar 6
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Mar 7
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'NO CLASS (Spring Break)'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Mar 8
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Mar 11
+  homework:
+    deadline: 'Due Friday Mar 15th, 11:59pm'
+    link: '/projects/P3'
+    name: 'P3A - Checkpoint'
+    numDays: 5
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: '/recitations/reci6-deployment/'
+    name: 'Recitation 6 - Deployment'
+    quiz: 'https://www.gradescope.com/courses/703665/assignments/4181607/'
+    slides: 'https://docs.google.com/presentation/d/1947sIuYbrv_KrT_mLJjcRXNQZXA-EhduQQbpDJYLEBg/edit?usp=sharing'
+
+- date: Tue Mar 12
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/15-CI-deployment.pdf'
+    name: 'CI and Deployment'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Mar 13
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Mar 14
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'Deployment Workshop Game'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Mar 15
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Mar 18
+  homework:
+    deadline: 'Due Thursday Mar 21st, 11:59pm'
+    link: '/projects/P3'
+    name: 'P3B - Final Deliverables and Extra Credit'
+    numDays: 4
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: '/recitations/reci7-llms/'
+    name: 'Recitation 7 - Large Language Models'
+    quiz: 'https://www.gradescope.com/courses/703665/assignments/4237502/'
+    slides: 'https://docs.google.com/presentation/d/1OpJpOKSEISbDIBoiB15t-p1aLZZb16UoIbhQfi-zvJw/edit?usp=sharing'
+
+- date: Tue Mar 19
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/16-delivering-effective-feedback.pdf'
+    name: 'Feedback Workshop - Guest Lecture'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Mar 20
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Mar 21
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/17-LLMs.pdf'
+    name: 'LLMs'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Mar 22
+  homework:
+    deadline: 'Due Thursday Mar 28th, 11:59pm'
+    link: '/projects/P4'
+    name: 'P4A - Checkpoint#1'
+    numDays: 7
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Mar 25
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: '/recitations/reci8-team-feedback'
+    name: 'Recitation 8 - Team Feedback'
+    quiz: 'https://www.gradescope.com/courses/703665/assignments/4255110'
+    slides: 'https://docs.google.com/presentation/d/1lL2KRPPkw3IHMJlgw_IHX2xNBx0Vk4a-AIrivw6fZrk/edit?usp=sharing'
+
+- date: Tue Mar 26
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/19-LLM-Tool-Lecture.pdf'
+    name: 'LLM as Tools'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Mar 27
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Mar 28
+  homework:
+    deadline: 'Due Monday Apr 1st, 11:59pm'
+    link: '/projects/P4'
+    name: 'P4B - Checkpoint#2'
+    numDays: 3
+  lecture:
+    link: 'assets/pdfs/20-software-quality.pdf'
+    name: 'Software Quality'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Mar 29
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Apr 1
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: '/recitations/reci9-open-source/'
+    name: 'Open Source Scavenger Hunt'
+    quiz: 'https://www.gradescope.com/courses/703665/assignments/4301035'
+    slides: 'https://docs.google.com/presentation/d/18jHBU7SKKfIAJUiUFzToYqqDBn6kl--r9q-XbNOV4JU/edit?usp=sharing'
+
+- date: Tue Apr 2
+  homework:
+    deadline: 'Due Thursday Apr 4th, 11:59pm'
+    link: '/projects/P4'
+    name: 'P4C - Final Deliverables'
+    numDays: 3
+  lecture:
+    link: 'assets/pdfs/21-open-source.pdf'
+    name: 'Open Source'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Apr 3
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Apr 4
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/22-patents-dependencies.pdf'
+    name: 'Patents / Dependencies'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Apr 5
+  homework:
+    deadline: 'Due Sunday April 28th, 11:59pm'
+    link: '/projects/P5'
+    name: 'P5 - Open Source Excursion'
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Apr 8
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: '/recitations/reci10-p5-checkin/'
+    name: 'Recitation 10 - Open Source Project and Task Selection Check In'
+    quiz: 'https://forms.gle/FGwc37uTahoRQCkL9'
+    slides: ''
+
+- date: Tue Apr 9
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/23-security-and-privacy.pdf'
+    name: 'Security and Privacy'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Apr 10
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Apr 11
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'NO CLASS (Carnival)'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Apr 12
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Apr 15
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: 'recitations/reci11-midterm-review/'
+    name: 'Recitation 11 - Midterm Review'
+    quiz: 'https://www.gradescope.com/courses/703665/assignments/4359746'
+    slides: 'https://docs.google.com/presentation/d/1bh2Hh1j7sUNIljtm0x4IRCV6oImgTNSDNiFYny0IOCo/edit?usp=sharing'
+
+- date: Tue Apr 16
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/25-SRE.pdf'
+    name: 'SLO'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Apr 17
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Apr 18
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'MIDTERM'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Apr 19
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Apr 22
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Apr 23
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: 'assets/pdfs/27-employment.pdf'
+    name: 'SE Jobs, Offers & Negotiation'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Apr 24
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Apr 25
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'Semester Review'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri Apr 26
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Apr 29
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Apr 30
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed May 1
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu May 2
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Fri May 3
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon May 6
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue May 7
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+    deadline: ""
+    link: ""
