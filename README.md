@@ -1,4 +1,8 @@
 # 17-313 Course Website
+
+## VSCode Container
+The website is now setup so you can run in a VScode Devcontainer. This is optional, but the container config file has been added. 
+
 ## Quick Start
 
 To run the built-in development server:
