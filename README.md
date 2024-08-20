@@ -30,7 +30,7 @@ mkdocs build
 
 2. Rename the static `site` folder to its semester-name (i.e. `F22`). Delete the `_old` folder within this and move the the folder into the `docs/_old` directory
 
-3. Add a link to the old semester in `docs/index.md`. Test that the old site is still accessible
+3. Add a link to the old semester in `docs/overview.md`. Test that the old site is still accessible
 
 4. Within the `docs/_data` directory, set up information for course links, new staff members, and the semester's schedule. A `generate_dates.py` script is provided to auto-populate the `schedule.yaml` file with the expected format - this can be replaced with a csv parsing script later on
 
