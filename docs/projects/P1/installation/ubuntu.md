@@ -16,11 +16,11 @@ Then, update the apt packages and install nodejs:
 % sudo apt-get install -y nodejs
 ```
 
-Verify installation of Node.js and npm. You should have version LTS of Node.js installed, and version 8 of npm installed:
+Verify installation of Node.js and npm by checking their installed versions.
 
 ```console
-% node -v
-% npm -v      # this should output "8.11.0" or similar
+% node -v     # ideally v18.x or v20.x
+% npm -v      # ideally 9.x or above
 ```
 
 ### Installing Redis
@@ -28,15 +28,6 @@ Verify installation of Node.js and npm. You should have version LTS of Node.js i
 The original NodeBB installation guide suggests the use of MongoDB database, but for simplicity and consistency across the installation guides, we will be using Redis as our database.
 
 Here is an abbreviated version of the installation instructions provided by [Redis](https://redis.io/docs/getting-started/installation/install-redis-on-linux/):
-
-Add Redis repository to the apt index:
-
-```console
-% curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
-% echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
-```
-
-Update the apt packages and install redis:
 
 ```console
 % sudo apt-get update
@@ -94,13 +85,7 @@ The first time you run the `setup` command, you will also be asked to configure 
 
 Once everything has finished installing, a configuration file `config.json` will be created. This file can be modified if you need to make changes to the above settings, such as the database location or credentials used to access the database.
 
-After the installation, build the files:
-
-```console
-% ./nodebb build
-```
-
-And start the NodeBB server:
+After the installation, start the NodeBB server:
 
 ```console
 % ./nodebb start

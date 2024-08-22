@@ -21,11 +21,11 @@ Our fork contains some tweaks to make the project easier to modify and debug. Th
 ## Deliverables and Deadlines
 This is an **individual assignment**. There are four (4) deliverables and two (2) deadlines for this homework.
 
-A) [**Build Checkpoint**](/projects/P1/1_checkpoint) - 5 points - due Friday, Januaray 19th, 11:59pm
+A) [**Build Checkpoint**](/projects/P1/1_checkpoint) - 5 points - due Friday, August 30th, 11:59pm
 
-B) [**Starter Task**](/projects/P1/2_translation) - 95 points - due Thursday, January 25th, 11:59PM
+B) [**Starter Task**](/projects/P1/2_refactoring) - 95 points - due Thursday, September 5th, 11:59PM
 
 - GitHub Issue (20 pts)
-- TypeScript Translation or Test Completion (10 pts)
+- Code Refactoring and Validation (10 pts)
 - GitHub Pull Request (25 pts)
 - Gradescope Written Assignment (40 pts)

@@ -2,7 +2,7 @@
 
 ## Deliverables
 
-**Build Checkpoint** – 5 points – due Friday, January 19th, 11:59pm
+**Build Checkpoint** – 5 points – due Friday, August 30th, 11:59pm
 
 ## Getting Started
 
@@ -27,10 +27,16 @@ Once you have run NodeBB successfully, you should be able to navigate to [http:/
 
 Take some time to click through the pages and explore the different features that NodeBB has to offer.
 
-### Analysis Tools
+### Lint and Test
 When working on an existing codebase, especially in a collaborative setting, we want to ensure that none of our changes introduce unexpected bugs or issues for other developers. To fulfill these goals, we often use different tools to help us evaluate our code. Luckily, NodeBB is already packaged with a number of neat tools!
 
-Follow the **Development Tools** section in the repository README to run both the linter and testing tools provided by NodeBB on your computer. Without any changes to the repository, both tools should pass. 
+You can run the linter and test suite using the following two commands:
+```
+npm run lint
+npm run test
+```
+
+The first time you run the above commands, you may have to run `npm install` to fetch dependencies and also edit your `config.json` file to add test dependencies. See the [FAQ](/projects/p1/faq/) page for more.
 
 After the test suite finishes running, NodeBB will also generate a **code coverage report**. This report gives you measurements with regards to what percentage of the codebase is covered by the test suite. Open the `index.html` file in the `coverage` folder to see the full report.
 
@@ -52,7 +58,7 @@ Upon completing the above steps, take screenshots of
 
 opened in your browser. **Be sure the URL is clearly visible in both screenshots** (i.e. `localhost:4567` and the file path to your coverage file), so we can confirm that you have everything running locally.
 
-Submit the two screenshots to [Gradescope](https://www.gradescope.com/courses/703665).
+Submit the two screenshots to [Gradescope](https://www.gradescope.com/courses/835182).
 
 ## Grading
 To receive full credit for this checkpoint, we expect:

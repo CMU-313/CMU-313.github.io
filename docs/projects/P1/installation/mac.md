@@ -58,13 +58,7 @@ The first time you run the `setup` command, you will also be asked to configure 
 
 Once everything has finished installing, a configuration file `config.json` will be created. This file can be modified if you need to make changes to the above settings, such as the database location or credentials used to access the database.
 
-After the installation, build the files:
-
-```console
-% ./nodebb build
-```
-
-And start the NodeBB server:
+After the installation, start the NodeBB server:
 
 ```console
 % ./nodebb start
