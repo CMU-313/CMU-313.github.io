@@ -2,21 +2,27 @@
 
 This section is meant to contain frequently asked questions about the homework. We will continue to update this throughout the period the assignment is released!
 
-## Installation
+## Installation and Running the Instance
 
 ### I'm running into errors about missing files when running `./nodebb start`!
 
-Be sure you've compiled a build by running the build command `./nodebb build` first, then try running the start command again.
+Try re-building some of the assets by running `./nodebb build` first, then try running the start command again.
+
+### I can't start a NodeBB instance and I get an error message saying that port 4567 is already in use.
+
+Maybe you have another NodeBB instance already running. Try stopping it via `./nodebb stop`. Otherwise, try using a differnt port.
 
 ## Analysis Tools
 
+### I can't run the `test` or `lint` commands because I have missing dependencies.
+
+Run `npm install` after `./nodebb setup` to make sure you have all the dependencies needed for running tests.
+
 ### Running the test suite stops immediately and throws a bunch of errors!
 
-This usually happens if you don't have a test database configured correctly. Scroll up past the errors and copy over the test database configuration into the local `config.json` file.
+This usually happens if you don't have a test database configured correctly. Scroll up past the errors and copy over the test database configuration into the local `config.json` file under the `"test_database"` field. For redis: if you are using database `0` for running the local instance, you can use database `1` for testing so that the test data remains separate.
 
-For redis, you won't have to do any additional setup; for mongodb, you may have to explicitly create another test database. You can reference the installation instructions to get the commands for setting this up. Ask in Slack if you need assistance!
-
-## Other
+## Reset
 
 ### How do I reset my NodeBB configurations?
 
