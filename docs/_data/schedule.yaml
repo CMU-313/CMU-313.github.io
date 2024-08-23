@@ -12,7 +12,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'REMOTE Recitation 1 - Understand NodeBB'
     quiz: ''
     slides: ''
 
@@ -24,7 +24,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Introduction'
   reading:
     link: ''
     name: ''
@@ -60,7 +60,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Archaeology'
   reading:
     link: ''
     name: ''
@@ -114,7 +114,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Case Study Boeing 737-MAX'
   reading:
     link: ''
     name: ''
@@ -150,7 +150,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Metrics and Measurement'
   reading:
     link: ''
     name: ''
@@ -204,7 +204,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Project Planning'
   reading:
     link: ''
     name: ''
@@ -240,7 +240,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Teams and Communication'
   reading:
     link: ''
     name: ''
@@ -294,7 +294,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Architecture: Intro and Overview'
   reading:
     link: ''
     name: ''
@@ -330,7 +330,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Architecture: Design Docs'
   reading:
     link: ''
     name: ''
@@ -384,7 +384,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Architecture: Microservices'
   reading:
     link: ''
     name: ''
@@ -420,7 +420,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Risk Management - Code Review'
   reading:
     link: ''
     name: ''
@@ -474,7 +474,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'QA: Static + Dynamic Analysis Tools'
   reading:
     link: ''
     name: ''
@@ -510,7 +510,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'QA: Advanced Automated Testing'
   reading:
     link: ''
     name: ''
@@ -564,7 +564,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Midterm 1'
   reading:
     link: ''
     name: ''
@@ -600,7 +600,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'SE Ethics'
   reading:
     link: ''
     name: ''
@@ -654,7 +654,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Fall Break - No Class'
   reading:
     link: ''
     name: ''
@@ -690,7 +690,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Fall Break - No Class'
   reading:
     link: ''
     name: ''
@@ -744,7 +744,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Quality'
   reading:
     link: ''
     name: ''
@@ -780,7 +780,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Deployment Workshop'
   reading:
     link: ''
     name: ''
@@ -834,7 +834,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'ML for Software Engineering'
   reading:
     link: ''
     name: ''
@@ -870,7 +870,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Feedback'
   reading:
     link: ''
     name: ''
@@ -924,7 +924,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Democracy Day - No Class'
   reading:
     link: ''
     name: ''
@@ -960,7 +960,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'TBD'
   reading:
     link: ''
     name: ''
@@ -1014,7 +1014,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Technical Debt'
   reading:
     link: ''
     name: ''
@@ -1050,7 +1050,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Open Source Software'
   reading:
     link: ''
     name: ''
@@ -1104,7 +1104,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'TBD'
   reading:
     link: ''
     name: ''
@@ -1140,7 +1140,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Midterm 2'
   reading:
     link: ''
     name: ''
@@ -1194,7 +1194,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Thanksgiving - No Class'
   reading:
     link: ''
     name: ''
@@ -1230,7 +1230,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Thanksgiving - No Class'
   reading:
     link: ''
     name: ''
@@ -1284,7 +1284,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Jobs and Compensation'
   reading:
     link: ''
     name: ''
@@ -1320,7 +1320,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Semester Review'
   reading:
     link: ''
     name: ''
