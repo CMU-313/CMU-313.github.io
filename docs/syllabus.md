@@ -8,7 +8,7 @@ hide:
 The course is currently planned to be entirely in person for lectures and recitations. Most office hours will be in person, but some may be held over Zoom as well. The course uses Canvas and Gradescope for homework submission, grading, discussions, questions, and supplementary documents; slides and handouts are posted here on the course website; GitHub is used to coordinate group work. We also use Slack for communication and group work: check your email during the first week of classes for the Slack sign up link.
 
 ## Waitlist
-The class has a waitlist long enough that we don't expect to clear it all. However, we will add as many students as we can. Waitlists are processed in FIFO order. Please do not email the instructors about waitlist status individually unless 17-313 is a required class for you to graduate this year. If you are on the waitlist, we recommend attending the first couple of weeks of class and attempting the individual project HW1. If you do make it through, there won't be extra time provided to catch up since HW2 is a team activity and every team member will be expected to be up to speed.
+We anticipate being able to add all students on the waitlist into the course. 
 
 ## Prerequisites
 There are no formal prerequisites, but we strongly recommend having a solid foundation in programming before taking this class (e.g. 15-121, 15-122). You will also get more out of the course if you have experience with some larger development projects, for example, through larger class projects (e.g. 17-214, 15-410), internships, or open-source contributions. If you have questions, please don't hesitate to reach out to the class instructors.
