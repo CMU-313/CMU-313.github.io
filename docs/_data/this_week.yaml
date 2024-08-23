@@ -1,5 +1,16 @@
-lectures: []
+lectures:
+- date: Tue Aug 27
+  link: ''
+  name: Introduction
+- date: Thu Aug 29
+  link: ''
+  name: Software Archaeology
 
 projects: []
 
-recitation: null
+recitation:
+  date: Mon Aug 26
+  handout: ''
+  name: Recitation 1 - Understand NodeBB
+  quiz: ''
+  slides: ''
