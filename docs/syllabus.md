@@ -11,7 +11,7 @@ The course is currently planned to be entirely in person for lectures and recita
 We anticipate being able to add all students on the waitlist into the course. 
 
 ## Prerequisites
-The prerequisites for this class are 15-122 OR 15121.  If you think you have the experience necesary to be succesful without these classes, please don't hesitate to reach out to the class instructors.
+This class has a pre-requisite of 15-122 or 15-121.  If you have not taken those classes, but you think you have similar experiences, please reach out to the instructors.  
 
 ## Communication
 The primary form of communication within this course is through Slack. We will make announcements through a dedicated channel in Slack, and also provide channels for homework clarifications and team-based communication. As such, we **highly recommend** that students install Slack on their phones / desktop with notifications enabled.
