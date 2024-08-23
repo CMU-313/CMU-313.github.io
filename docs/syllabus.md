@@ -11,7 +11,7 @@ The course is currently planned to be entirely in person for lectures and recita
 We anticipate being able to add all students on the waitlist into the course. 
 
 ## Prerequisites
-There are no formal prerequisites, but we strongly recommend having a solid foundation in programming before taking this class (e.g. 15-121, 15-122). You will also get more out of the course if you have experience with some larger development projects, for example, through larger class projects (e.g. 17-214, 15-410), internships, or open-source contributions. If you have questions, please don't hesitate to reach out to the class instructors.
+The prerequisites for this class are 15-122 OR 15121.  If you think you have the experience necesary to be succesful without these classes, please don't hesitate to reach out to the class instructors.
 
 ## Communication
 The primary form of communication within this course is through Slack. We will make announcements through a dedicated channel in Slack, and also provide channels for homework clarifications and team-based communication. As such, we **highly recommend** that students install Slack on their phones / desktop with notifications enabled.
