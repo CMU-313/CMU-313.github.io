@@ -11,7 +11,7 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
+    handout: 'recitations/reci1-nodeBB'
     name: 'Recitation 1 - Understand NodeBB'
     quiz: ''
     slides: ''
