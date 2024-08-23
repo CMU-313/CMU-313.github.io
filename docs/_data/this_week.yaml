@@ -10,7 +10,7 @@ projects: []
 
 recitation:
   date: Mon Aug 26
-  handout: ''
+  handout: recitations/reci1-nodeBB
   name: Recitation 1 - Understand NodeBB
   quiz: ''
   slides: ''
