@@ -23,11 +23,12 @@ Create a user account using your Andrew ID as the username. You must use your An
 
 ## Activity 2: Introduce Yourself 
 You should introduce yourself to the rest of the class.  Please create a post in the “Introductions” category, which is only visible once you login*. You should include in your introduction the following info:
-* What you want to be called
-* A picture of you (ideally something that will help people recognize you when they see you in class) in the "thumbnail" of the post.
-* A short description (1-3 sentences) about a software project you have enjoyed working on in the past, e.g. during an internship or a large-ish course project. 
-* A short summary of why you're taking this course (e.g., because it is a requirement for a specific program and/or because you hope to learn about X).
-* Something that you like to do outside of work, or your favorite restaurant in Pittsburgh. Feel free to embed photos or links in the post.
+
+- What you want to be called
+- A picture of you (ideally something that will help people recognize you when they see you in class) in the "thumbnail" of the post.
+- A short description (1-3 sentences) about a software project you have enjoyed working on in the past, e.g. during an internship or a large-ish course project. 
+- A short summary of why you're taking this course (e.g., because it is a requirement for a specific program and/or because you hope to learn about X).
+- Something that you like to do outside of work, or your favorite restaurant in Pittsburgh. Feel free to embed photos or links in the post.
 
 
 
