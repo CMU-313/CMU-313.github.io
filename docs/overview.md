@@ -9,7 +9,7 @@ hide:
 - When is a program good enough to ship? Have you built what the customer wanted?
 - Why (and how) does Netflix deliberately and randomly take down its own servers?
 - What can we learn from the Boeing 737 disaster?
-- How did Twitter eradicate the Fail Whale? And what does it have to do with Ruby?
+- Why was the Crowdstrike incident so devastating? Who is to blame? How could it have been prevented?
 - How do you get a patch accepted into an open-source project?
 - You can write code. Can you build software?
 
