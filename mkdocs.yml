@@ -90,7 +90,7 @@ nav:
 
   - Recitations:
       #- recitations/index.md # Dummy home page; remove once we start adding recitations below
-      - Recitation 1 - Understand NodBB: recitations/reci1-nodeBB.md
+      - Recitation 1 - Understand NodeBB: recitations/reci1-nodeBB.md
       # - Recitation 2 - Team Contract Workshop: recitations/reci2-teamcontract.md
       # - Recitation 3 - Archaeology: recitations/reci4-archaeology.md
       # - Recitation 4 - Checkpoint Presentations: recitations/reci4-checkpoint.md
