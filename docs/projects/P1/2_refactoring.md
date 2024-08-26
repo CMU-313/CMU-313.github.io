@@ -1,6 +1,6 @@
 # Project 1B: Starter Task
 ## Deliverables
-Starter Task - 95 points - due Thursday, September 25th, 11:59PM
+Starter Task - 95 points - due Thursday, September 5th, 11:59PM
 
 - [GitHub Issue](#github-issue-20-pts) (20 pts)
 - [Code Refactoring and Validation](#task-10-pts) (10 pts)
