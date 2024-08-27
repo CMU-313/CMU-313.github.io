@@ -19,11 +19,11 @@
 - date: Tue Aug 27
   homework:
     deadline: 'Due Fri, Aug 30th @ 11:59pm'
-    link: '/projects/P1'
+    link: 'projects/P1'
     name: 'Project 1A - Build Checkpoint'
     numDays: 4
   lecture:
-    link: ''
+    link: 'assets/pdfs/01-introduction.pdf'
     name: 'Introduction'
   reading:
     link: ''
