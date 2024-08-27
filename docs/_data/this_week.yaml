@@ -6,7 +6,13 @@ lectures:
   link: ''
   name: Software Archaeology
 
-projects: []
+projects:
+- date: Tue Aug 27
+  deadline: Due Fri, Aug 30th @ 11:59pm
+  end_date: 2024-09-02 00:00:00
+  link: /projects/P1
+  name: Project 1A - Build Checkpoint
+  numDays: 4
 
 recitation:
   date: Mon Aug 26
