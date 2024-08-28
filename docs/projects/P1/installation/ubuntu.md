@@ -13,7 +13,7 @@ Node.js is available from the NodeSource Ubuntu binary distributions repository.
 Then, update the apt packages and install nodejs:
 ```console
 % sudo apt-get update
-% sudo apt-get install -y nodejs
+% sudo apt-get install -y nodejs npm
 ```
 
 Verify installation of Node.js and npm by checking their installed versions.
