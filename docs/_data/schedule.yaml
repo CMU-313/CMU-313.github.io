@@ -59,7 +59,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/02-archaelogy.pdf'
     name: 'Software Archaeology'
   reading:
     link: ''
