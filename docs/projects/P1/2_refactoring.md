@@ -41,7 +41,8 @@ For the task, the file must
 
 - **Be a Javascript file.**
 - **Be in the `src/` folder.**
-- **Be a file that no one else in the class has picked and created an issue for.** We expect you to look through existing issues, if any, to avoid such duplication (thus, there is an incentive for you to start early!)
+- **Be a file that no one else in the class has picked and created an issue for.** We expect you to look through existing *open* issues, if any, to avoid such duplication; thus, there is an incentive for you to start early! 
+  - If you really can't find a unique file because you are late to the game, then you may pick a file that has an open issue, but then identify a separate SonarCloud warning in the same file. You can reference the other issue in your description to distinguish yourself (e.g., "this is different from #123 because...").
 
 The SonarCloud warning must be categorized under the Adaptability section and contain the "Refactor" key word. The goal of this task is to refactor code in the NodeBB codebase based on the specifications of the SonarCloud warning.
 
