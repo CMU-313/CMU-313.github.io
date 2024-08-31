@@ -36,7 +36,7 @@ npm run lint
 npm run test
 ```
 
-The first time you run the above commands, you may have to run `npm install` to fetch dependencies and also edit your `config.json` file to add test dependencies. See the [FAQ](/projects/p1/faq/) page for more.
+The first time you run the above commands, you may have to run `npm install` to fetch dependencies and also edit your `config.json` file to add test dependencies. See the [FAQ](/projects/P1/faq/) page for more.
 
 After the test suite finishes running, NodeBB will also generate a **code coverage report**. This report gives you measurements with regards to what percentage of the codebase is covered by the test suite. Open the `index.html` file in the `coverage` folder to see the full report.
 
