@@ -281,10 +281,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
+    handout: 'recitations/reci3-archaeology'
+    name: 'Software Archaeology'
     quiz: ''
-    slides: ''
+    slides: 'https://docs.google.com/presentation/d/1f00eXs3RGykSBP8ncUTtpZLgwwuQTyWHL9Tl_yd5Cws/edit?usp=sharing'
 
 - date: Tue Sep 17
   homework:
