@@ -92,7 +92,7 @@
   homework:
     deadline: 'Due Thu, Sep 5th @ 11:59pm'
     link: '/projects/P1'
-    name: 'Project 1A - Build Checkpoint'
+    name: 'Project 1A - Starter Task'
     numDays: 4
   lecture:
     link: ''
