@@ -1,22 +1,20 @@
 lectures:
-- date: Tue Aug 27
-  link: assets/pdfs/01-introduction.pdf
-  name: Introduction
-- date: Thu Aug 29
-  link: assets/pdfs/02-archaelogy.pdf
-  name: Software Archaeology
+- date: Tue Sep 03
+  link: ''
+  name: Case Study Boeing 737-MAX
+  reading:
+    link: https://canvas.cmu.edu/courses/42497/quizzes/127219
+    name: Boeing Case Study Reading
+- date: Thu Sep 05
+  link: ''
+  name: Metrics and Measurement
 
 projects:
-- date: Tue Aug 27
-  deadline: Due Fri, Aug 30th @ 11:59pm
-  end_date: 2024-09-02 00:00:00
-  link: projects/P1
+- date: Mon Sep 02
+  deadline: Due Thu, Sep 5th @ 11:59pm
+  end_date: 2024-09-06 00:00:00
+  link: /projects/P1
   name: Project 1A - Build Checkpoint
   numDays: 4
 
-recitation:
-  date: Mon Aug 26
-  handout: recitations/reci1-nodeBB
-  name: Recitation 1 - Understand NodeBB
-  quiz: ''
-  slides: ''
+recitation: null
