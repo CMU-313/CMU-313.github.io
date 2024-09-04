@@ -29,7 +29,16 @@ You will be working on your team repository for this project. Once you have deci
 !!! warning
     After you join a team on GitHub, you cannot change teams! Make sure that **only one** of you creates the team, and make sure that the remaining teammates join the right team.
 
-Once you enter your team name, Github will automatically create a repository for your team. You should then create a **Github Project board** for your repository (you can follow the steps from the [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) or the first recitation).
+Once you enter your team name, Github will automatically create a repository for your team. You should then create a **Github Project board** for your repository (you can follow the steps from the [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) or the note below).
+
+!!! note "Setting up a Project Kanban Board and Creating Issues"
+    Project boards are a great way to track development. While there are lots of great external tools such as Trello or Jira, GitHub provides their own project boards for us to use with great integration support of their other features. To create a Project Kanban follow the steps below: 
+
+    - Create a project board by clicking on the Projects tab, and then "New project" under the "Link a project" drop down button. Use the "Board" template.
+    - Under the Issues tab, have a teammate create an issue for adding team member names to the README
+    - Assign yourself to the issue, and add the issues to the project Kanban board you just created under the "Todo" column using the "Projects" option(two fields below "Assignees")
+    - Share the Kanban/Project board with your team or make it public so they have access to it.
+
 
 You should use this team repository for all your development, and be sure to use good development practices, including keeping your commits cohesive and your commit messages informative. The same resources mentioned above provide more details on our guidelines.
 
