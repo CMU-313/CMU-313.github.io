@@ -10,12 +10,6 @@ lectures:
   name: Metrics and Measurement
 
 projects:
-- date: Mon Sep 02
-  deadline: Due Thu, Sep 5th @ 11:59pm
-  end_date: 2024-09-06 00:00:00
-  link: /projects/P1
-  name: Project 1A - Starter Task
-  numDays: 4
 - date: Fri Sep 06
   deadline: Due Thu, Sep 9th @ 11:59pm
   end_date: 2024-09-13 00:00:00
@@ -23,9 +17,4 @@ projects:
   name: P2A - Team Process & Planning
   numDays: 5
 
-recitation:
-  date: Mon Sep 09
-  handout: /recitations/reci2-teamcontract/
-  name: Recitation 2 - Team Contract Workshop
-  quiz: https://www.gradescope.com/courses/835182/assignments/4851919
-  slides: https://docs.google.com/presentation/d/1ZkrlTlZWXtvxPnG_vWM4GfbpJfs1pW2PDkQQ-vfNbZc/edit?usp=sharing
+recitation: null
