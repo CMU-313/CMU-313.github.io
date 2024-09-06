@@ -15,13 +15,13 @@ After this recitation, students will have met their teams and completed a rough 
 
 ## Activity 1: Get to know your team! 
 
-See team assignments [here](https://docs.google.com/spreadsheets/d/1Y8kAzHbkgem53f8KZP7hM99c742iYWvowaOcVx_YFuI/edit?usp=sharing). Do some quick intros, then get ready for.. 
+See team assignments [here](https://docs.google.com/spreadsheets/d/1YXh2AO50cue4km_C0eZDgpAPd4NKTXkHQx9Lq1hxlos/edit?usp=sharing). Do some quick intros, then get ready for.. 
   
-### **Activity 1a: Similarities!**
+### **Activity 1A: Similarities!**
 
 In your group, spend 5 minutes finding 5 things that every group member has in common. Try to avoid simple things like: everyone is a CMU student, everyone is enrolled in 313, everyone loves 313, etc…
 
-### **Activity 1b: Team Name**
+### **Activity 1B: Team Name**
 
 As part of Project 2, you’ll need to come up with a name for your team. Do so now! 
 
@@ -39,35 +39,31 @@ Next, you'll work through each of the following sections with your team and as a
 
 At the end of class, we'll discuss your ideas and see what you came up with!
 
-### **Activity 2a: Expectations**
+### **Activity 2A: Expectations**
 
 Here are **some** of the important questions to consider regarding setting expectations:
 
--  How much time is each team member expected to be putting into working on projects?
-- How will you deal with unforeseen circumstances affecting team members (sickness, interviews, competitions)?
+- How much time is each team member expected to be putting into working on 17-313 projects?
+- How will you deal with unforeseen circumstances affecting team members (e.g. sickness, interviews, competitions)?
 - How will team members be kept accountable for their contributions?
 
-### **Activity 2b: Communication and Scheduling**
+### **Activity 2B: Communication and Scheduling**
 
 Here are **some** important questions to consider regarding team communication:
 
--   When will your team meet? Setting aside a day and time to have recurring meetings is an important marker of team success.
--   What platform(s) will your team be using to communicate? 
-- How quickly should team members respond to written communications?
--   Will you meet in person or through Zoom? What will / will you not accommodate?
--   What happens if a team member can't attend a meeting?
--   If a deadline is approaching and there is still work to be done, how will you meet / communicate?
+-   When will your team meet? Setting aside a day and time for recurring meetings is a big marker of team success.
+-   What platform(s) will your team be using to communicate? How quickly should team members respond?
+-   Will you meet in person or via Zoom? What are the expectations or non-negotiables for these meetings?
+-   If a deadline is approaching and tasks remain incomplete, how will you convene and communicate to ensure completion?
 
-### **Activity 2c: Responsibilities and Conflict Resolution**
+### **Activity 2C: Responsibilities and Conflict Resolution**
 
 Here are **some** important questions to consider regarding distributing responsibilities and what your team might do in the case of any conflict:
 
--   How will you divide responsibilities and tasks between team members?
--   Who prepares the agenda for team meetings?
--   Who will be in charge of organizing, running, and taking notes during meetings ? How will you rotate this responsibility?
--   How are key decisions made?
--   How will you address any teamwork issues that may come up?
--   What are the steps the team would take to address teammates who are contributing too little, and when will the team bring this up to the instructors?
+-   How will responsibilities and tasks be divided among team members?
+-   Who will be responsible for organizing, facilitating, and taking notes during meetings? How will this responsibility rotate?
+-   How will the team address any issues related to teamwork that may arise?
+-   What steps will the team take if a member is contributing too little, and at what point will this issue be escalated to the instructors?
 
 Remember to do Recitation Quiz 2 on Gradescope! Please only open it after you have completed all the steps above.
 
