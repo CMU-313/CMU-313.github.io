@@ -2,40 +2,19 @@
 
 ## Deliverables
 
-**First Sprint** – 95 points – due Tuesday, Feburary 13th, 11:59pm
+**First Sprint** – 95 points – due Tuesday, September 24th, 11:59pm
 
 - [Process & Implementation Interim Snapshot](#process--implementation-interim-50-pts) (50 pts)
-- [Checkpoint Presentation](#checkpoint-presentation-50-pts) (45 pts) - **Held in Recitation on Monday Feburary 12th**
+- [Checkpoint Presentation](#checkpoint-presentation-50-pts) (45 pts) - **Held in Recitation on Monday September 23rd**
 
 
 ## Process & Implementation Interim (50 pts)
 
-Start by cloning the team repository and merging your individual changes from Project 1 into your team repository using proper git flow. You may also delete the `hw1.yaml` workflow found in `.github/workflows`. Once everyone has properly set up the repository on their local machines and committed their changes, you can now start development.
-
-!!! question "What if I did not successfully translate my file in Project 1?"
-    If you do not need to modify that file in order to implement your team's feature, then you do not need to merge your file into your repository. You will not be penalized for not merging in your Project 1 file.
+Start by cloning the team repository and merging your individual changes from Project 1 into your team repository using proper git flow. Once everyone has properly set up the repository on their local machines and committed their changes, you can now start development.
 
 You should follow best practices for collaborative development such as using feature branches, pull requests, and code review. Individual changes should be committed to properly named branches for each core feature being implemented and make use of pull requests to merge changes together. 
 
 Be sure to **review each other’s code** - both from a quality assurance standpoint, but also so you have a better understanding of the codebase. Although code reviews can be done asynchronously, we encourage the first few to be done synchronously so you can discuss the changes with your teammates and learn more about the codebase.
-
-To fit with the translation efforts described in Project 1, ** we strongly encourage that any new code introduced to the codebase should be in TypeScript**. This does mean that you may want to translate existing files that you work with to TypeScript.
-
-!!! note "Using Translations from Project 1"
-    Most of the existing files should have been translated by your classmates in Project 1! Feel free to reference their translations for your own uses - for citation purposes, include a short comment at the top of your file that cites the original translator and a link to where you found the translation, for example:
-
-    ```
-    // Referenced @student’s TypeScript translation from P1: [PR link]
-    ```
-
-!!! note "Requirements for using JavaScript"
-    If you use JavaScript instead of TypeScript for a given code change, then **you must perform all of the following sanity checks for each affected function.**
-    
-    - Document the type signature in code comments
-    - Assert function parameter types in the body
-    - Assert function return types in the body or write unit tests that execute and validate that the function returns the expected type.
-    
-    You can use [`typeof` operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof) and [`assert()` method](https://developer.mozilla.org/en-US/docs/Web/API/console/assert) to perform the above.
 
 Every member of your team **must** contribute to the implementation. One way we will evaluate this is that each team member must have at least one commit as a part of the solution. Failure to do so will result in a significant penalty to your grade.
 
@@ -46,7 +25,7 @@ Submit a link to your repository and your Github Project board onto Gradescope. 
 
 ## Checkpoint Presentation (45 pts)
 
-During the Week 5 recitation slot (**Monday Feburary 12th**), your group will give a 10-minute presentation describing your current progress, followed by a short 1-2 minute Q&A session where you can get feedback from the TAs and your peers.
+During the Week 5 recitation slot (**Monday September 23rd**), your group will give a 10-minute presentation describing your current progress, followed by a short 1-2 minute Q&A session where you can get feedback from the TAs and your peers.
 
 Your slides should include the following information (the recommended slides amount is in parentheses):
 

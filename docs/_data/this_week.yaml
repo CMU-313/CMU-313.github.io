@@ -1,18 +1,27 @@
 lectures:
-- date: Tue Aug 27
-  link: assets/pdfs/01-introduction.pdf
-  name: Introduction
-- date: Thu Aug 29
-  link: assets/pdfs/02-archaelogy.pdf
-  name: Software Archaeology
+- date: Tue Sep 03
+  link: assets/pdfs/03-BoeingCaseStudy.pdf
+  name: Case Study Boeing 737-MAX
+  reading:
+    link: https://canvas.cmu.edu/courses/42497/quizzes/127219
+    name: Boeing Case Study Reading
+- date: Thu Sep 05
+  link: assets/pdfs/04-metrics.pdf
+  name: Metrics and Measurement
 
 projects:
-- date: Tue Aug 27
-  deadline: Due Fri, Aug 30th @ 11:59pm
-  end_date: 2024-09-02 00:00:00
-  link: projects/P1
-  name: Project 1A - Build Checkpoint
+- date: Mon Sep 02
+  deadline: Due Thu, Sep 5th @ 11:59pm
+  end_date: 2024-09-06 00:00:00
+  link: /projects/P1
+  name: Project 1A - Starter Task
   numDays: 4
+- date: Fri Sep 06
+  deadline: Due Thu, Sep 9th @ 11:59pm
+  end_date: 2024-09-13 00:00:00
+  link: /projects/P2/1_teamprocess
+  name: P2A - Team Process & Planning
+  numDays: 5
 
 recitation:
   date: Mon Sep 09

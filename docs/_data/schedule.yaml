@@ -92,7 +92,7 @@
   homework:
     deadline: 'Due Thu, Sep 5th @ 11:59pm'
     link: '/projects/P1'
-    name: 'Project 1A - Build Checkpoint'
+    name: 'Project 1A - Starter Task'
     numDays: 4
   lecture:
     link: ''
@@ -113,7 +113,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/03-BoeingCaseStudy.pdf'
     name: 'Case Study Boeing 737-MAX'
   reading:
     link: 'https://canvas.cmu.edu/courses/42497/quizzes/127219'
@@ -149,7 +149,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/04-metrics.pdf'
     name: 'Metrics and Measurement'
   reading:
     link: ''
@@ -162,10 +162,10 @@
 
 - date: Fri Sep 06
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Thu, Sep 9th @ 11:59pm'
+    link: '/projects/P2/1_teamprocess'
+    name: 'P2A - Team Process & Planning'
+    numDays: 5
   lecture:
     link: ''
     name: ''
@@ -252,10 +252,10 @@
 
 - date: Fri Sep 13
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Tue, Sep 24th, 11:59pm'
+    link: '/projects/P2/2_firstsprint'
+    name: 'P2B - Collaborative Development'
+    numDays: 8
   lecture:
     link: ''
     name: ''
@@ -396,10 +396,10 @@
 
 - date: Wed Sep 25
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Thu, Oct 10th, 11:59pm'
+    link: '/projects/P2/3_secondsprint'
+    name: 'P2C - Collaborative Development'
+    numDays: 15
   lecture:
     link: ''
     name: ''
