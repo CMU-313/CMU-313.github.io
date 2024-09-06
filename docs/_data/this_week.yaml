@@ -17,4 +17,9 @@ projects:
   name: P2A - Team Process & Planning
   numDays: 5
 
-recitation: null
+recitation:
+  date: Mon Sep 09
+  handout: /recitations/reci2-teamcontract/
+  name: Recitation 2 - Team Contract Workshop
+  quiz: https://www.gradescope.com/courses/835182/assignments/4851919
+  slides: https://docs.google.com/presentation/d/1ZkrlTlZWXtvxPnG_vWM4GfbpJfs1pW2PDkQQ-vfNbZc/edit?usp=sharing
