@@ -2,7 +2,7 @@
 
 ## Deliverables
 
-**Team Process & Planning** – 70 points – due Thursday, Feburary 1st, 11:59pm
+**Team Process & Planning** – 70 points – due Thursday, September 12th, 11:59pm
 
 - **Prerequisite:** [Team Setup](#team-setup)
 - [Teamwork Contract](#teamwork-contract-40-pts) (35 pts)
@@ -24,12 +24,21 @@ You can use this Slack channel for subsequent project-team related discussions o
 
 You will be working on your team repository for this project. Once you have decided on a team name, go to the link below to set up your team:
 
-[https://classroom.github.com/a/bV2pXR7f](https://classroom.github.com/a/bV2pXR7f)
+[https://classroom.github.com/a/ithVU1OO](https://classroom.github.com/a/ithVU1OO)
 
 !!! warning
     After you join a team on GitHub, you cannot change teams! Make sure that **only one** of you creates the team, and make sure that the remaining teammates join the right team.
 
-Once you enter your team name, Github will automatically create a repository for your team. You should then create a **Github Project board** for your repository (you can follow the steps from the [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) or the first recitation).
+Once you enter your team name, Github will automatically create a repository for your team. You should then create a **Github Project board** for your repository (you can follow the steps from the [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) or the note below).
+
+!!! note "Setting up a Project Kanban Board and Creating Issues"
+    Project boards are a great way to track development. While there are lots of great external tools such as Trello or Jira, GitHub provides their own project boards for us to use with great integration support of their other features. To create a Project Kanban follow the steps below: 
+
+    - Create a project board by clicking on the Projects tab, and then "New project" under the "Link a project" drop down button. Use the "Board" template.
+    - Under the Issues tab, have a teammate create an issue for adding team member names to the README
+    - Assign yourself to the issue, and add the issues to the project Kanban board you just created under the "Todo" column using the "Projects" option(two fields below "Assignees")
+    - Share the Kanban/Project board with your team or make it public so they have access to it.
+
 
 You should use this team repository for all your development, and be sure to use good development practices, including keeping your commits cohesive and your commit messages informative. The same resources mentioned above provide more details on our guidelines.
 
@@ -48,7 +57,7 @@ For each code-based deliverable, we will look at a snapshot of your repository a
 
 ### Teamwork Self-Assessment
 
-As the course moves into team-based projects, we will be releasing weekly self-assessments, each worth one participation point. These are meant to be short surveys and should not take more than a few minutes. They are intended to help you reflect on your team's process and prompt you to think about how to improve it. The first one will be released on **Friday, Feburary 2nd** and due the following **Friday, Feburary 9th** (both at 11:59pm).
+As the course moves into team-based projects, we will be releasing weekly self-assessments, each worth one participation point. These are meant to be short surveys and should not take more than a few minutes. They are intended to help you reflect on your team's process and prompt you to think about how to improve it. The first one will be released on **Friday, September 13th** and due the following **Friday, September 20th** (both at 11:59pm).
 
 
 ## Main Deliverables
