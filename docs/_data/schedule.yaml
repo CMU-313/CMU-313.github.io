@@ -203,7 +203,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/05-process.pdf'
     name: 'Project Planning'
   reading:
     link: ''
