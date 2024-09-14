@@ -11,7 +11,7 @@ In today’s recitation, we will practice implementing a new feature for the Nod
 
 **Let's implement a new feature!**
 
-Check out [this issue](https://github.com/CMU-313/NodeBB-S24-R3/issues/1) of the feature request. The user wants NodeBB to suggest a new username if an existing username is taken.
+Check out [this issue](https://github.com/CMU-313/NodeBB-S24-R3/issues/1) of the feature request. The user wants NodeBB to suggest a new username if an existing username is taken. (Don't worry about searching through all the users currently registered to suggest a new name, just make it suggest the current name the user wanted but with a suffix attached to it. Querying the backend server again is harder and is part of the optional task.)
 
 ## Task 0: Clone the repo
 
@@ -23,7 +23,7 @@ Check out [this issue](https://github.com/CMU-313/NodeBB-S24-R3/issues/1) of the
 
 ## Task 2: Diving into the code and implement the new behaviour
 
-Let’s learn more about current implemnetation! Your high-level goal is to identify the code that implemnets current implementation and extends it to add the new feature. We’d like you to dive into the codebase and “excavate” the code.
+Let’s learn more about the current implementation! Your high-level goal is to identify the code that implements current implementation and extends it to add the new feature. We’d like you to dive into the codebase and “excavate” the code.
 
 Try some or all of the following tasks:
 
@@ -33,7 +33,7 @@ Try some or all of the following tasks:
     - Frontend code is located in `public` directory
     - Backend code is located in `src` directory
 - Can you identify the keywords that you would like to search in the repository?
-    - Error message that is currently showing.
+    - Maybe try searching for part of the error message that is currently showing.
 - Use your IDE to jump to a definition implicated in the code you’re debugging
 
 !!! warning
