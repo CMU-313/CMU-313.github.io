@@ -1,10 +1,10 @@
 lectures:
-- date: Tue Sep 10
-  link: assets/pdfs/05-process.pdf
-  name: Project Planning
-- date: Thu Sep 12
-  link: assets/pdfs/06-teams-communication.pdf
-  name: Teams and Communication
+- date: Tue Sep 17
+  link: ''
+  name: 'Architecture: Intro and Overview'
+- date: Thu Sep 19
+  link: ''
+  name: 'Architecture: Design Docs'
 
 projects:
 - date: Fri Sep 13
@@ -15,8 +15,8 @@ projects:
   numDays: 8
 
 recitation:
-  date: Mon Sep 09
-  handout: /recitations/reci2-teamcontract/
-  name: Recitation 2 - Team Contract Workshop
-  quiz: https://www.gradescope.com/courses/835182/assignments/4851919
-  slides: https://docs.google.com/presentation/d/1ZkrlTlZWXtvxPnG_vWM4GfbpJfs1pW2PDkQQ-vfNbZc/edit?usp=sharing
+  date: Mon Sep 16
+  handout: recitations/reci3-archaeology
+  name: Recitation 3 - Software Archaeology
+  quiz: https://www.gradescope.com/courses/835182/assignments/4872396/
+  slides: https://docs.google.com/presentation/d/1f00eXs3RGykSBP8ncUTtpZLgwwuQTyWHL9Tl_yd5Cws/edit?usp=sharing
