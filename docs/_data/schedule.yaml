@@ -293,8 +293,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Architecture: Intro and Overview'
+    link: 'assets/pdfs/07-design-docs.pdf'
+    name: 'Design Documents'
   reading:
     link: ''
     name: ''
@@ -330,7 +330,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Architecture: Design Docs'
+    name: 'Guest Lecture'
   reading:
     link: ''
     name: ''
