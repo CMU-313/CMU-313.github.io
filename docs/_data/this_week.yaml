@@ -1,10 +1,10 @@
 lectures:
 - date: Tue Sep 17
-  link: ''
-  name: 'Architecture: Intro and Overview'
+  link: assets/pdfs/07-design-docs.pdf
+  name: Design Documents
 - date: Thu Sep 19
   link: ''
-  name: 'Architecture: Design Docs'
+  name: Guest Lecture
 
 projects:
 - date: Fri Sep 13
