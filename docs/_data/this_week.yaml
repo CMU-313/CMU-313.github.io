@@ -1,10 +1,10 @@
 lectures:
-- date: Tue Sep 17
-  link: assets/pdfs/07-design-docs.pdf
-  name: Design Documents
-- date: Thu Sep 19
+- date: Tue Sep 24
   link: ''
-  name: Guest Lecture
+  name: 'Architecture: Microservices'
+- date: Thu Sep 26
+  link: ''
+  name: Software Risk Management - Code Review
 
 projects:
 - date: Fri Sep 13
@@ -13,10 +13,16 @@ projects:
   link: /projects/P2/2_firstsprint
   name: P2B - Collaborative Development
   numDays: 8
+- date: Wed Sep 25
+  deadline: Due Thu, Oct 10th, 11:59pm
+  end_date: 2024-10-16 00:00:00
+  link: /projects/P2/3_secondsprint
+  name: P2C - Collaborative Development
+  numDays: 15
 
 recitation:
-  date: Mon Sep 16
-  handout: recitations/reci3-archaeology
-  name: Recitation 3 - Software Archaeology
-  quiz: https://www.gradescope.com/courses/835182/assignments/4872396/
-  slides: https://docs.google.com/presentation/d/1f00eXs3RGykSBP8ncUTtpZLgwwuQTyWHL9Tl_yd5Cws/edit?usp=sharing
+  date: Mon Sep 23
+  handout: recitations/reci4-checkpoint
+  name: Recitation 4 - P2B Checkpoint Project Presentations
+  quiz: https://www.gradescope.com/courses/835182/assignments/5004388/
+  slides: https://docs.google.com/presentation/d/1dR9p3wi5pmly8rASzjwAPKOToTzxy3pK7_gHJDnyiVs/edit#slide=id.p
