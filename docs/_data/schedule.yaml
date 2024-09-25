@@ -419,8 +419,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Software Risk Management - Code Review'
+    link: 'assets/pdfs/10-microservices.pdf'
+    name: 'Architecture: Modularity and Microservices'
   reading:
     link: ''
     name: ''
@@ -474,7 +474,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'QA: Static + Dynamic Analysis Tools'
+    name: 'Software Risk Management - Code Review'
   reading:
     link: ''
     name: ''
@@ -510,7 +510,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'QA: Advanced Automated Testing'
+    name: 'QA: Static + Dynamic Analysis Tools'
   reading:
     link: ''
     name: ''
@@ -744,7 +744,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Software Quality'
+    name: 'QA: Continuous Integration / Testing'
   reading:
     link: ''
     name: ''
