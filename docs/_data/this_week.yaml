@@ -3,16 +3,10 @@ lectures:
   link: assets/pdfs/09-architecture-intro.pdf
   name: Intro to Software Architecture
 - date: Thu Sep 26
-  link: ''
-  name: Software Risk Management - Code Review
+  link: assets/pdfs/10-microservices.pdf
+  name: 'Architecture: Modularity and Microservices'
 
 projects:
-- date: Fri Sep 13
-  deadline: Due Tue, Sep 24th, 11:59pm
-  end_date: 2024-09-25 00:00:00
-  link: /projects/P2/2_firstsprint
-  name: P2B - Collaborative Development
-  numDays: 8
 - date: Wed Sep 25
   deadline: Due Thu, Oct 10th, 11:59pm
   end_date: 2024-10-16 00:00:00
