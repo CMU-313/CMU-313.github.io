@@ -35,7 +35,7 @@ As a class, for each dysfunctional characteristic, discuss the following questio
 * What problems can be caused by this behavior? Can you think of mitigation strategies and solutions to avoid them?
 
 ## Part 4: Submit on Gradescope
-To receive participation for this activity, please complete the [quiz on Gradescope](https://www.gradescope.com/courses/703665/assignments/4106622).
+To receive participation for this activity, please complete the [quiz on Gradescope](https://www.gradescope.com/courses/835182/assignments/5051704).
 
 
 ## Roles & personality traits
