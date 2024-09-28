@@ -35,7 +35,7 @@ As a class, for each dysfunctional characteristic, discuss the following questio
 * What problems can be caused by this behavior? Can you think of mitigation strategies and solutions to avoid them?
 
 ## Part 4: Submit on Gradescope
-To receive participation for this activity, please complete the [quiz on Gradescope](https://www.gradescope.com/courses/703665/assignments/4106622).
+To receive participation for this activity, please complete the [quiz on Gradescope](https://www.gradescope.com/courses/835182/assignments/5051704).
 
 
 ## Roles & personality traits
@@ -49,6 +49,5 @@ Act silent | Pay attention to the meeting, but simply do not suggest anything. Y
 Agree with everything| Do not question the decisions of your team. You are afraid of raising conflicts; so just agree with everything during the activity.|
 Hitchhiking | Your goal is to do as little work as possible. Be friendly but not productive. Try to get other people to step in for you, for example you can act confused with the task and say that you need someone else to do this for you. You may have to make a quick, bad attempt to make it look like you tried to figure out the task.|
 Commitment issue | Go along with the meeting, until when tasks are being assigned, say that you are busy with something (interview prep, midterm, other assignment). If asked if they could do something else, or if being pressed further continue giving excuses why you can’t contribute.|
-
 Perfectionist | You will perfect even minor details. Your role is to make sure the tool’s source code is readable and aesthetically perfect and that also includes perfect comments. You should argue for or against the tool based on these minor details.|
 
