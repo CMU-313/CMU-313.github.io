@@ -1,10 +1,10 @@
 lectures:
-- date: Tue Sep 24
-  link: assets/pdfs/09-architecture-intro.pdf
-  name: Intro to Software Architecture
-- date: Thu Sep 26
-  link: assets/pdfs/10-microservices.pdf
-  name: 'Architecture: Modularity and Microservices'
+- date: Tue Oct 01
+  link: ''
+  name: Software Risk Management - Code Review
+- date: Thu Oct 03
+  link: ''
+  name: 'QA: Static + Dynamic Analysis Tools'
 
 projects:
 - date: Wed Sep 25
@@ -15,8 +15,8 @@ projects:
   numDays: 15
 
 recitation:
-  date: Mon Sep 23
-  handout: recitations/reci4-checkpoint
-  name: Recitation 4 - P2B Checkpoint Project Presentations
-  quiz: https://www.gradescope.com/courses/835182/assignments/5004388/
-  slides: https://docs.google.com/presentation/d/1dR9p3wi5pmly8rASzjwAPKOToTzxy3pK7_gHJDnyiVs/edit#slide=id.p
+  date: Mon Sep 30
+  handout: /recitations/reci5-team-dysfunction/
+  name: Recitation 5 - Team Dysfunction
+  quiz: https://www.gradescope.com/courses/835182/assignments/5051704
+  slides: https://docs.google.com/presentation/d/1s8-XFq7hPF_Ow7HAc3abRq7xap7u1T5yYiab5sADYJk/edit?usp=sharing
