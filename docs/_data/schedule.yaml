@@ -509,8 +509,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'QA: Static + Dynamic Analysis Tools'
+    link: 'assets/pdfs/12-analysis-tools.pdf'
+    name: 'Software Analysis Tools'
   reading:
     link: ''
     name: ''
