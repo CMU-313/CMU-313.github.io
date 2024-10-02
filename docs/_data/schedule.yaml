@@ -566,8 +566,8 @@
     link: ''
     name: 'Midterm 1'
   reading:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/midterm-practice-fall2022.pdf'
+    name: 'Practice Exam'
   recitation:
     handout: ''
     name: ''
