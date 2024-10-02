@@ -3,8 +3,8 @@ lectures:
   link: assets/pdfs/11-code-review-risk.pdf
   name: Software Risk Management - Code Review
 - date: Thu Oct 03
-  link: ''
-  name: 'QA: Static + Dynamic Analysis Tools'
+  link: assets/pdfs/12-analysis-tools.pdf
+  name: Software Analysis Tools
 
 projects:
 - date: Wed Sep 25
