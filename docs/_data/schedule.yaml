@@ -329,8 +329,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Guest Lecture'
+    link: 'assets/pdfs/08-shipping-headaches.pdf'
+    name: 'Guest Lecture by Austin Henley'
   reading:
     link: ''
     name: ''
