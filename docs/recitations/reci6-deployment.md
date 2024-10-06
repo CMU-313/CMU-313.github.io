@@ -67,7 +67,7 @@ The steps to do this are as follows:
 
 ## Task 1: Continuous Deployment
 
-To start off, you'll be deploying the app you just forked on two cloud platforms - Vercel and Google Cloud Platform. The goal here is to make your app accessible over the internet via two platforms. You'll also be setting up continuous deployment such that both of these deployments are updated with the latest version of the app, whenever you push code to the main branch of your repository.
+To start off, you'll be deploying the app you just forked on Vercel. The goal here is to make your app accessible over the internet via two platforms. You'll also be setting up continuous deployment such that both of these deployments are updated with the latest version of the app, whenever you push code to the main branch of your repository.
 
 
 ### Task 1: Deploy on Vercel
