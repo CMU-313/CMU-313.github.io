@@ -1,10 +1,13 @@
 lectures:
-- date: Tue Oct 01
-  link: assets/pdfs/11-code-review-risk.pdf
-  name: Software Risk Management - Code Review
-- date: Thu Oct 03
-  link: assets/pdfs/12-analysis-tools.pdf
-  name: Software Analysis Tools
+- date: Tue Oct 08
+  link: ''
+  name: Midterm 1
+  reading:
+    link: assets/pdfs/midterm-practice-fall2022.pdf
+    name: Practice Exam
+- date: Thu Oct 10
+  link: ''
+  name: SE Ethics
 
 projects:
 - date: Wed Sep 25
