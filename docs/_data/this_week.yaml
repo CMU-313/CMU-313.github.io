@@ -18,7 +18,7 @@ projects:
   numDays: 15
 
 recitation:
-  date: Mon Oct 7
+  date: Mon Oct 07
   handout: /recitations/reci6-deployment
   name: Recitation 6 - Deployment
   quiz: https://www.gradescope.com/courses/835182/assignments/5110388
