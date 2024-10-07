@@ -17,4 +17,9 @@ projects:
   name: P2C - Collaborative Development
   numDays: 15
 
-recitation: null
+recitation:
+  date: Mon Oct 7
+  handout: /recitations/reci6-deployment
+  name: Recitation 6 - Deployment
+  quiz: https://www.gradescope.com/courses/835182/assignments/5110388
+  slides: https://docs.google.com/presentation/d/1uB7yA8M5SbIOHvj_sFHaG5VCooscnxhy-fBOnk7J130/edit#slide=id.p

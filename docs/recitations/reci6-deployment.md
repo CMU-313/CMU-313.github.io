@@ -13,9 +13,9 @@ Throughout this recitation, students will:
 
 * Learn about CI/CD and the basics of how to set it up in a Github repo
 
-* Get hands on experience deploying with multiple cloud providers - Vercel and Google Cloud Platform.
+* Get hands on experience deploying with multiple cloud providers - Vercel and Microsoft Azure
 
-* Set up and get familiarized with the _Extreme Startup_ web app for use in Tuesday's (9/19) lecture
+* Set up and get familiarized with the _Extreme Startup_ web app for use in Thursday's (10/10) lecture
 
   
 
@@ -67,10 +67,10 @@ The steps to do this are as follows:
 
 ## Task 1: Continuous Deployment
 
-To start off, you'll be deploying the app you just forked on two cloud platforms - Vercel and Google Cloud Platform. The goal here is to make your app accessible over the internet via two platforms. You'll also be setting up continuous deployment such that both of these deployments are updated with the latest version of the app, whenever you push code to the main branch of your repository.
+To start off, you'll be deploying the app you just forked on Vercel. The goal here is to make your app accessible over the internet via two platforms. You'll also be setting up continuous deployment such that both of these deployments are updated with the latest version of the app, whenever you push code to the main branch of your repository.
 
 
-### Task 1A: Deploy on Vercel
+### Task 1: Deploy on Vercel
   
 1. Create an account on [Vercel](https://vercel.com/) by clicking "Sign up", choose a hobby account, then "Continue with GitHub"
 2. Add a new project
@@ -79,31 +79,6 @@ To start off, you'll be deploying the app you just forked on two cloud platforms
 6. Name your project `basic-web-app`
 7. Click `Deploy`
 9. When the build completes, click on the link of the form `*.vercel.app` at the top of the page to view the deployment.
-
-### Task 1B: Deploy on Google Cloud Platform
-
-
-1. Fill out the [this form](https://vector.my.salesforce-sites.com/GCPEDU?cid=Y3Zhob6l7IS0gDzo%2BDinU66jXQqispu%2B%2B5X%2FbPKwkpqEi5Fmp1mR91Xv46FM%2BBiU/)  with your first/last name, and Andrew ID
-2. Redeem your GCP credits using the instructions in [this](https://github.com/CMU-313/GCP-tutorial) link.
-
-Once you submit, a $50 credit should be applied to your GCP billing account.
-
-!!! Warning "Do not misuse!"
-	We've been awarded enough credits such that each student in 17-313 can redeem one coupon. We'll be closely monitoring coupon redemption. Any and all misuse including sharing redemption instructions, redeeming multiple times, etc. will be punished.
-
-Now that you've redeemed your coupon, use the following instructions to deploy on GCP.
-
-1. Create a project called "Extreme Startup" using the [GCP Cloud Console](https://console.cloud.google.com/projectcreate?previousPage=%2Fwelcome%3Fproject%3Dextreme-startup&organizationId=703967796528) (you can set the location to "Students")
-2. Visit the [Cloud Run console](https://console.cloud.google.com/run) and select the project you just created using the project selector drop down(top-left)
-3. Click on "Create Service"
-4. Select "Continuously deploy new revisions from a source repository" and click "Set up with Cloud Build"
-5. Set the Source repository to be your basic-web-app fork - you may need to click on "Manage connected repositories" and authenticate with GitHub if you don't see the repository.
-6. Set the Build Type to the "Go, Node.js, Python, ..." option
-7. Set the Entrypoint to be `npm install; npm run build; npm start`
-8. In the "Authentication" section select "Allow unauthenticated invocations" and hit "Create"
-9. Once the deployment is complete, click on the URL of the form `*.run.app` at the top of the page to view the deployment.
-
-With this complete, you'll be able to quickly iterate and any changes you make and push to your fork will be automatically deployed on both Render and GCP. Cool!
 
 ## Task 2: Implement "What is your Andrew ID?"
 
