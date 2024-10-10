@@ -6,8 +6,8 @@ lectures:
     link: assets/pdfs/midterm-practice-fall2022.pdf
     name: Practice Exam
 - date: Thu Oct 10
-  link: ''
-  name: SE Ethics
+  link: assets/pdfs/deployment-workshop-extreme-startup.pdf
+  name: Deployment Game
 
 projects:
 - date: Wed Sep 25
