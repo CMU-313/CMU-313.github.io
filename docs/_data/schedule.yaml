@@ -599,7 +599,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/deployment-workshop-extreme-startup.pdf'
+    link: 'assets/pdfs/13-deployment-workshop-extreme-startup.pdf'
     name: 'Deployment Game'
   reading:
     link: ''
