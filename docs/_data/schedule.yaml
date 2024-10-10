@@ -599,8 +599,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'SE Ethics'
+    link: 'assets/pdfs/deployment-workshop-extreme-startup.pdf'
+    name: 'Deployment Game'
   reading:
     link: ''
     name: ''
