@@ -1,165 +1,77 @@
-# Serverless NodeBB Deployment on GCP
+# Serverless NodeBB Deployment on Azure
 
-This document will provide instructions to create a serverless deployment of NodeBB on GCP.
+This document will provide instructions to create a serverless deployment of NodeBB on Azure.
 
-## Setup Redis Database on upstash
+## Initial Setup
 
-We'll be using a database-as-a-service called upstash to host the Redis database associated with our NodeBB deployment.
+1. Visit [Azure](https://azure.com) and create an account using your school email address.
+2. There will be a wizard which will ask questions, you can select “skip” if you want.
+3. Once you are done, you should see the home screen:
+   ![image info](images/azure_homepage.png)
+4. Select "Subscriptions", and you should see a subscription from your TA. For all resources created in this class, use this subscription.
+   ![image info](images/subscriptions_page.png)
 
-1. Visit [upstash](https://upstash.com) and create an account.
-2. Make sure Redis is selected, and click "Create Database"
-3. Name your database, select an appropriate region and hit "Create"
+## Create a Redis Instance on Azure
 
-You should see a page that contains the endpoint, port, password, and other details associated with the redis instance you just created.
+1. Go back to the Azure homepage. Click "Create new Resource". Search for "Azure Cache for Redis" and select it. Make sure it is the one with the Blue logo provided by vendor "Microsoft", and not one of the third-party services. It should look like this: ![image info](images/redis_cache.png)
+2. When creating the resource, use the lab subscription you created above. For "Resource Group", if nothing exists already, just create a new one called "P3".
+3. DNS Name: Use `<team_name>-db` or something similar. This will also be the "resource name" that you will see at the homepage/dashboard later so make sure to name it something that you can identify later as being the Redis instance for your team.
+4. Cache size: Select the lowest available (e.g. Standard C0 - 250 MB)
+5. Next—Networking: Make sure "Public Endpoint" is selected so that you can connect to the instance from outside of Azure.
+   ![image info](images/new_redis_cache.png)
+6. Next—Advanced:  
+   a. Enable the "Non-TLS port" option so that you can connect to the instance via port 6379.
+   b. Under "Authentication", disable Microsoft Entra and enable "Access Keys". ![image info](images/advanced_cache.png)
+7. Next—Tags: Ignore this page. Move forward.
+8. Next—Review + Create. You should have the same options as listed below: ![image info](images/final_cache.png)
+9. Create the instance! Wait for several steps of creation and initialization (can take several minutes) before the instance appears available from the Azure Dashboard.
+10. Test the Redis instance: Go to the resource page for your Redis resource and note the host name. It should end with ".redis.cache.windows.net". You should also see "Port 6379 enabled" and a link to "Access keys" (which you can also get to by navigating to the "Authentication" tab). From here, copy either the primary or secondary access key. ![image info](images/redis_keys.png) Then, in your terminal on your laptop, type `redis-cli -h <host-name-ending-in.redis.cache.windows.net> -p 6379 -a <access_key>`. You should be able to login to the redis instance and get a command-line interface. You should see a prompt with the hostname and port number, and you can type commands like `info` to get instance info. Type CTRL+D to exit the redis-cli.
 
-## Update your Dockerfile
+**Troubleshooting**: If your Redis resource seems to be up on the Azure dashboard but you are not able to connect to it via the CLI, check some of these things in the CLI:
+Is public networking enabled? Check "Settings > Private endpoint" if you see private endpoints, then you need to delete them and add public access via the buttons on this screen.
+Is port 6379 (the non-SSL port) enabled? Check "Settings > Advanced Settings > Access only via SSL" which should be "No".
+Did you copy the right access key? See screenshot above.
 
-To have all the packages we need to build NodeBB, we need to change our Dockerfile. Make the following change and push your changes to your repository.
+## Create a Web App
 
-```
-- RUN npm install --only=prod && \
-+ RUN npm install && \
-```
+1. From the Azure dashboard, select "Create Resource" and choose "Web App". Choose the same Subscription and Resource Group as above.
+2. Basics:  
+   a. Choose a web app name, e.g. `nodebb-<team_name>` (the suffix will be `.azurewebsites.net`). Make sure to disable "Try a unique name" so you don't get a long hash in the name.
+   b. For Runtime stack, choose "Node 20 LTS".
+   c. For Region, “Canada Central” should be fine
+   d. For "App Service Plan" / "Pricing Plan" choose "Basic B1"
+3. Next—Deployment:  
+   a. **Enable basic authentication. Make sure to scroll down to the bottom of the page and enable this before doing the next step (at the top of the page).**
+   ![image info](images/basic_authentication.png)
+   b. Scroll back up and enable "Continuous Deployment" via GitHub, and link to your GitHub account and choose the team repo you are working on. You will need to give Azure access to your GitHub account. You can optionally skip this step if you are confident about configuring CI separately later on manually.
+   c. NOTE: The repository name is your team’s repository
+   ![image info](images/github_settings.png)
+4. Next—Network: Defaults should be fine. Just make sure public access is ON.
+5. Next—Monitor & Secure: You can disable App Insights to avoid this extra billing.
+6. Next—Tags: Ignore, just move forward.
+7. Review+Create. Make sure you are on the Basic B1 plan (about $12.41 USD/month). Confirm all details and create. This will again take some time to create.
 
-!!! info "Pushing directly to `main`"
-    Feel free to push deployment configurations made throughout these instructions directly to the `main` branch. For larger configuration changes, we'd want to configure everything on a separate feature branch, and then create a PR to merge the code changes. However, since this makes the external GCP configuration more complex, you can push directly to `main` for the deployment part of this assignment.
+## Setup CI via GitHub Actions
 
-## Deploy on GCP Cloud Run
+1. From the Azure dashboard, go to the resource page for your Web App created above.
+2. Navigate to the "Settings > Configuration" tab from the sidebar and in the start-up command type `node app`. Save this setting. ![image info](images/node_app.png)
+3. Navigate to the "Deployment > Deployment Center" tab from the sidebar. Configure the deployment to build from source: GitHub and make sure it is connected to your repository (Org/Repo/Branch) as above.  
+   a. If your Deployment center is already connected to your repository, then you can go to the next step. If it is not connected, then For "Workflow Option", choose "Use Available Workflow". We will use the Azure Deploy workflow already in the CMU-313/NodeBB repo. This workflow deploys to azure, but it depends on several secret variables like ADMIN_PASSWORD (for your NodeBB admin user), REDIS_HOST, REDIS_PASSWORD (for your database), and AZUREAPPSERVICE_PUBLISHPROFILE_XXX (for allowing GitHub to deploy to your Azure instance). Save these changes.
+4. Now let's set up these secret variables on GitHub.com.
+   a. Go to your team's NodeBB repository and navigate to Settings > Secrets and Variables > Actions. You should already see a secret called AZUREAPPSERVICE_PUBLISHPROFILE_XXX which Azure put there when you linked your GitHub account and created the web app resource. ![image info](images/actions_secrets.png)
+   b. Use the "New repository secret" button three times to create three secrets needed for your workflow:
+   > **ADMIN_PASSWORD**: Choose something easy to remember.
+   > **REDIS_HOST**: Put the full domain of your Redis cache instance of the form `<name>.redis.cache.windows.net`.
+   > **REDIS_PASSWORD**: Put the secret access key (either primary or secondary) for your Redis cache instance; the same one used to connect via CLI. It can be accessed from the "Authentication" tab in the Redis resource page on Azure.
+5. Delete the .yml file that was committed by Azure. It might be named something like: ".github/workflows/f24_nodebb-<teamname\>.yml"
+6. Finally, edit the workflow file `.github/workflows/azure-deploy-f24.yml` in your own repository and modify four lines:
+   a. Edit the [name of the repository](https://github.com/CMU-313/NodeBB/blob/e7cfda55ca93beae87c8cce4407ca6c84c8cd739/.github/workflows/azure-deploy-f24.yml#L22) to match your repository name from GitHub. This guard is used here so that forks of the repo don't accidentally trigger deployments to the wrong target hostname.
+   b. Edit the [NodeBB setup URL](https://github.com/CMU-313/NodeBB/blob/e7cfda55ca93beae87c8cce4407ca6c84c8cd739/.github/workflows/azure-deploy-f24.yml#L37) to match the domain where your web app will be deployed. You can get this from the Overview page of the Web App resource on Azure; it should be of the form `<name>.azurewebsites.net`. Make sure that the workflow file retains the `https://` prefix and the `:443` suffix around the domain.
+   c. Edit the [app name](https://github.com/CMU-313/NodeBB/blob/e7cfda55ca93beae87c8cce4407ca6c84c8cd739/.github/workflows/azure-deploy-f24.yml#L51) to the <name\> part, which is the name of your app on Azure.
+   d. Edit the [name of the publish profile secret key](https://github.com/CMU-313/NodeBB/blob/e7cfda55ca93beae87c8cce4407ca6c84c8cd739/.github/workflows/azure-deploy-f24.yml#L53C40-L53C70) to match the name of the secret key in your settings, as shown above. Azure auto-generates the name of this variable with a unique suffix, so we have to keep updating this one.
+7. Commit and push to GitHub to trigger the Actions workflow and Azure deployment.
 
-Make sure you're logged into the Google account you used to redeem your GCP credits. If you haven't redeemed your GCP credits yet, follow the instructions in the [Deployment Recitation](/recitations/reci6-deployment/#task-1b-deploy-on-google-cloud-platform).
+## Monitoring the Deployment
 
-Once you're logged into the right credit-bearing Google account, use the following instructions to deploy on GCP Cloud Run.
-
-1. Create a project called "NodeBB" using the [GCP Cloud Console](https://console.cloud.google.com/projectcreate) (you can set the location to "Students")
-2. Enable the IAM API using [this link](https://console.cloud.google.com/apis/api/iam.googleapis.com/metrics). Make sure the project you just created is selected in the project selector drop down
-2. Visit the [Cloud Run console](https://console.cloud.google.com/run) and select the project you just created using the project selector drop down(top-left)
-3. Click on "Create Service"
-4. Select "Continuously deploy new revisions from a source repository" and click "Set up with Cloud Build"
-5. Set the Source repository to be your team's NodeBB repository - you may need to click on "Manage connected repositories" and authenticate with GitHub if you don't see the repository.
-6. Set the Build Type to the "Dockerfile" option
-7. In the "Autoscaling" section, set the minimum number of instances to 0
-8. In the "Authentication" section select "Allow unauthenticated invocations"
-9. Click on the "Container, Networking, and Security" dropdown, set the "Container Port" to 4567 and hit create
-10. Once the deployment is complete, click on the URL of the form `*.run.app` at the top of the page to view the deployment.
-
-You should see a form that says "NodeBB Web Installer". Keep this URL handy because you'll need it later :)
-
-## Create Config Script
-
-At this point, we could use the web installer to generate the `config.json` file in our container and setup NodeBB. However, since this a serverless deployment, we're not guaranteed any persistence of data generated at runtime.
-
-Therefore, we need to change our Dockerfile to generate the `config.json` file at build time of the container.
-
-To do so, first create a template file called `config_template.json` that looks exactly like the following, and push your changes to your repository.
-
-```
-{
-  "url": "",
-  "secret": "c5502d62-84a5-41f1-87eb-ee33a76fb7bc",
-  "database": "redis",
-  "redis": {
-    "host": "",
-    "port": "",
-    "password": "",
-    "database": "0"
-  },
-  "port": "4567"
-}
-```
-
-!!! info "Why can't we just push a pre-populated `config.json` file?"
-    This would solve the persistence problem and deploy NodeBB correctly. However, as a result, we expose secrets like the upstash redis connection details on a public GitHub repository. Injecting these secrets as environment variables at runtime gives our deployment access to them, while ensuring that the secrets remain secret. 
-
-Configure the following environment variables by visiting the Cloud Run dashboard for your deployment, clicking on "Edit and deploy new revision" and then clicking on "Add Variable" in the "Environment Variables" section.
-
-* `DEPLOYMENT_URL`: URL of the form `*.run.app` that your Cloud Run deployment is live at.
-* `REDIS_HOST`: Endpoint value from your upstash redis database dashboard.
-* `REDIS_PORT`: Port value from your upstash redis database dashboard.
-* `REDIS_PASSWORD`: Password value from your upstash redis database dashboard.
-
-Click on "Deploy" at the bottom of the page to save your changes.
-
-We'll now add a bash script that will populate this template with environment variables defined at build time of our Docker container. Create a file called `create_config.sh` in your NodeBB repo, and populate the file with the following bash script.
-
-```
-#!/bin/bash
-
-# Check that environment variables have been defined
-if [[ -z "${REDIS_HOST+x}" ]]; then
-  # var is not defined
-  echo "Error: REDIS_HOST is not defined!"
-  exit 1
-fi
-
-if [[ -z "${REDIS_PORT+x}" ]]; then
-  # var is not defined
-  echo "Error: REDIS_PORT is not defined!"
-  exit 1
-fi
-
-if [[ -z "${REDIS_PASSWORD+x}" ]]; then
-  # var is not defined
-  echo "Error: REDIS_PASSWORD is not defined!"
-  exit 1
-fi
-
-if [[ -z "${DEPLOYMENT_URL+x}" ]]; then
-  # var is not defined
-  echo "Error: DEPLOYMENT_URL is not defined!"
-  exit 1
-fi
-
-# Read the JSON file
-json_data=$(cat "/usr/src/app/config_template.json")
-
-# Update the JSON file with the environment variables
-json_data=$(jq --arg deployment_url "$DEPLOYMENT_URL" '.url = $deployment_url' <<< "$json_data")
-json_data=$(jq --arg host "$REDIS_HOST" '.redis.host = $host' <<< "$json_data")
-json_data=$(jq --arg port "$REDIS_PORT" '.redis.port = $port' <<< "$json_data")
-json_data=$(jq --arg password "$REDIS_PASSWORD" '.redis.password = $password' <<< "$json_data")
-
-# Write the updated JSON file to config.json
-echo "$json_data" > "/usr/src/app/config.json"
-
-cat /usr/src/app/config.json
-```
-
-Now, update your Dockerfile so that it looks like the following.
-
-```
-FROM node:lts
-
-RUN mkdir -p /usr/src/app && \
-    chown -R node:node /usr/src/app
-WORKDIR /usr/src/app
-
-RUN apt-get update && apt-get install -y jq
-
-ARG NODE_ENV
-ENV NODE_ENV $NODE_ENV
-
-COPY --chown=node:node install/package.json /usr/src/app/package.json
-
-USER node
-
-RUN npm install && \
-    npm cache clean --force
-
-COPY --chown=node:node . /usr/src/app
-
-ENV NODE_ENV=production \
-    daemon=false \
-    silent=false
-
-EXPOSE 4567
-
-RUN chmod +x create_config.sh
-
-CMD  ./create_config.sh -n "${SETUP}" && ./nodebb setup || node ./nodebb build; node ./nodebb start
-```
-
-We're making two changes here: (1) installing the jq package to read/edit json files from our bash script, and (2) running the `create_config.sh` script on container startup.
-
-Once you push your changes, a new deployment should get triggered and it should be good to go once complete. Congratulations! You've now setup a continuous deployment of NodeBB on GCP.
-
-Be sure to share the application link with your teammates to ensure they can also access the application and test that all your added features from Project 2 have been successfully applied.
+- On GitHub, you should see a dot next to the commit that shows you the status of the action. This may take a couple of minutes to complete. If the action fails, you can view the logs to see what went wrong (e.g. bad configuration or failed a lint/test).
+- On the Azure dashboard, you can go to the Web App resource page, navigate to the Deployment Center tab from the sidebar, and view logs. You should see a log entry after every GitHub Action that succeeds its deployment. It can take 20-30 minutes for the deployment. If something goes wrong, you can navigate to the "Log Stream" page in the sidebar of your Web App resource. This should give you the stdout stream for the NodeBB setup and run, just like you would see on your own command-line if you ran `./nodebb setup` and `./nodebb start` locally. This can help you debug issues with wrong configuration, etc. if you missed any of the steps above.
