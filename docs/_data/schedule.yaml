@@ -731,10 +731,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
+    handout: '/recitations/reci7-azure-setup'
+    name: 'Recitation 7 - Azure Setup'
+    quiz: 'hhttps://www.gradescope.com/courses/835182/assignments/5165038'
+    slides: 'https://docs.google.com/presentation/d/1mLbnX45e3xjK6-OQiZgH5NST9hajPX_OO05RBf_G6JA'
 
 - date: Tue Oct 22
   homework:
