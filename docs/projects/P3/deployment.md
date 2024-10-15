@@ -60,9 +60,9 @@ Did you copy the right access key? See screenshot above.
 4. Now let's set up these secret variables on GitHub.com.
    a. Go to your team's NodeBB repository and navigate to Settings > Secrets and Variables > Actions. You should already see a secret called AZUREAPPSERVICE_PUBLISHPROFILE_XXX which Azure put there when you linked your GitHub account and created the web app resource. ![image info](images/actions_secrets.png)
    b. Use the "New repository secret" button three times to create three secrets needed for your workflow:
-   > **ADMIN_PASSWORD**: Choose something easy to remember.
-   > **REDIS_HOST**: Put the full domain of your Redis cache instance of the form `<name>.redis.cache.windows.net`.
-   > **REDIS_PASSWORD**: Put the secret access key (either primary or secondary) for your Redis cache instance; the same one used to connect via CLI. It can be accessed from the "Authentication" tab in the Redis resource page on Azure.
+      i. **ADMIN_PASSWORD**: Choose something easy to remember.
+      ii. **REDIS_HOST**: Put the full domain of your Redis cache instance of the form `<name>.redis.cache.windows.net`.
+      iii. **REDIS_PASSWORD**: Put the secret access key (either primary or secondary) for your Redis cache instance; the same one used to connect via CLI. It can be accessed from the "Authentication" tab in the Redis resource page on Azure.
 5. Delete the .yml file that was committed by Azure. It might be named something like: ".github/workflows/f24_nodebb-<teamname\>.yml"
 6. Finally, edit the workflow file `.github/workflows/azure-deploy-f24.yml` in your own repository and modify four lines:
    a. Edit the [name of the repository](https://github.com/CMU-313/NodeBB/blob/e7cfda55ca93beae87c8cce4407ca6c84c8cd739/.github/workflows/azure-deploy-f24.yml#L22) to match your repository name from GitHub. This guard is used here so that forks of the repo don't accidentally trigger deployments to the wrong target hostname.
