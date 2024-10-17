@@ -91,7 +91,7 @@
 - date: Mon Sep 02
   homework:
     deadline: 'Due Thu, Sep 5th @ 11:59pm'
-    link: '/projects/P1'
+    link: 'projects/P1'
     name: 'Project 1A - Starter Task'
     numDays: 4
   lecture:
@@ -163,7 +163,7 @@
 - date: Fri Sep 06
   homework:
     deadline: 'Due Thu, Sep 9th @ 11:59pm'
-    link: '/projects/P2/1_teamprocess'
+    link: 'projects/P2/1_teamprocess'
     name: 'P2A - Team Process & Planning'
     numDays: 5
   lecture:
@@ -191,7 +191,7 @@
     link: ''
     name: ''
   recitation:
-    handout: '/recitations/reci2-teamcontract/'
+    handout: 'recitations/reci2-teamcontract/'
     name: 'Recitation 2 - Team Contract Workshop'
     quiz: 'https://www.gradescope.com/courses/835182/assignments/4851919'
     slides: 'https://docs.google.com/presentation/d/1ZkrlTlZWXtvxPnG_vWM4GfbpJfs1pW2PDkQQ-vfNbZc/edit?usp=sharing'
@@ -253,7 +253,7 @@
 - date: Fri Sep 13
   homework:
     deadline: 'Due Tue, Sep 24th, 11:59pm'
-    link: '/projects/P2/2_firstsprint'
+    link: 'projects/P2/2_firstsprint'
     name: 'P2B - Collaborative Development'
     numDays: 8
   lecture:
@@ -397,7 +397,7 @@
 - date: Wed Sep 25
   homework:
     deadline: 'Due Thu, Oct 10th, 11:59pm'
-    link: '/projects/P2/3_secondsprint'
+    link: 'projects/P2/3_secondsprint'
     name: 'P2C - Collaborative Development'
     numDays: 15
   lecture:
@@ -461,7 +461,7 @@
     link: ''
     name: ''
   recitation:
-    handout: '/recitations/reci5-team-dysfunction/'
+    handout: 'recitations/reci5-team-dysfunction/'
     name: 'Recitation 5 - Team Dysfunction'
     quiz: 'https://www.gradescope.com/courses/835182/assignments/5051704'
     slides: 'https://docs.google.com/presentation/d/1s8-XFq7hPF_Ow7HAc3abRq7xap7u1T5yYiab5sADYJk/edit?usp=sharing'
@@ -551,7 +551,7 @@
     link: ''
     name: ''
   recitation:
-    handout: '/recitations/reci6-deployment'
+    handout: 'recitations/reci6-deployment'
     name: 'Recitation 6 - Deployment'
     quiz: 'https://www.gradescope.com/courses/835182/assignments/5110388'
     slides: 'https://docs.google.com/presentation/d/1uB7yA8M5SbIOHvj_sFHaG5VCooscnxhy-fBOnk7J130/edit#slide=id.p'
@@ -731,7 +731,7 @@
     link: ''
     name: ''
   recitation:
-    handout: '/recitations/reci7-azure-setup'
+    handout: 'recitations/reci7-azure-setup'
     name: 'Recitation 7 - Azure Setup'
     quiz: 'hhttps://www.gradescope.com/courses/835182/assignments/5165038'
     slides: 'https://docs.google.com/presentation/d/1mLbnX45e3xjK6-OQiZgH5NST9hajPX_OO05RBf_G6JA'
