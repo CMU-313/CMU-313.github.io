@@ -1,0 +1,17 @@
+lectures:
+- date: Tue Oct 15
+  link: ''
+  name: Fall Break - No Class
+- date: Thu Oct 17
+  link: ''
+  name: Fall Break - No Class
+
+projects:
+- date: Thu Oct 17
+  deadline: Due Thu, Oct 24th, 11:59pm
+  end_date: 2024-10-25 00:00:00
+  link: /projects/P3/
+  name: P3A - Checkpoint
+  numDays: 6
+
+recitation: null
