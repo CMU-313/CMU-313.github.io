@@ -684,10 +684,10 @@
 
 - date: Thu Oct 17
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Thu, Oct 24th, 11:59pm'
+    link: '/projects/P3/'
+    name: 'P3A - Checkpoint'
+    numDays: 7
   lecture:
     link: ''
     name: 'Fall Break - No Class'
@@ -774,10 +774,10 @@
 
 - date: Thu Oct 24
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Thu, Oct 31st, 11:59pm'
+    link: '/projects/P3/'
+    name: 'P3B - Final Deliverables'
+    numDays: 7
   lecture:
     link: ''
     name: 'Deployment Workshop'
