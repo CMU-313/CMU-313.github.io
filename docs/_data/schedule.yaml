@@ -743,8 +743,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'QA: Continuous Integration / Testing'
+    link: 'assets/pdfs/14-ethics.pdf'
+    name: 'Deployment Game'
   reading:
     link: ''
     name: ''
