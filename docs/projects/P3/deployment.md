@@ -1,6 +1,6 @@
-# Serverless NodeBB Deployment on Azure
+# NodeBB Deployment on Azure
 
-This document will provide instructions to create a serverless deployment of NodeBB on Azure.
+This document will provide instructions to create a web-app deployment of NodeBB on Azure.
 
 ## Initial Setup
 
