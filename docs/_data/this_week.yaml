@@ -1,7 +1,7 @@
 lectures:
 - date: Tue Oct 22
-  link: ''
-  name: 'QA: Continuous Integration / Testing'
+  link: assets/pdfs/14-ethics.pdf
+  name: Deployment Game
 - date: Thu Oct 24
   link: ''
   name: Deployment Workshop
