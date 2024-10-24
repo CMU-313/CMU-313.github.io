@@ -779,8 +779,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Deployment Workshop'
+    link: 'assets/pdfs/15-LLMs-ML-Lecture.pdf'
+    name: 'ML in SE'
   reading:
     link: ''
     name: ''
