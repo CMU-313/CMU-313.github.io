@@ -1,0 +1,28 @@
+lectures:
+- date: Tue Oct 22
+  link: assets/pdfs/14-ethics.pdf
+  name: Deployment Game
+- date: Thu Oct 24
+  link: assets/pdfs/15-LLMs-ML-Lecture.pdf
+  name: ML in SE
+
+projects:
+- date: Thu Oct 17
+  deadline: Due Thu, Oct 24th, 11:59pm
+  end_date: 2024-10-25 00:00:00
+  link: /projects/P3/
+  name: P3A - Checkpoint
+  numDays: 6
+- date: Fri Oct 25
+  deadline: Due Thu, Oct 31st, 11:59pm
+  end_date: 2024-11-04 00:00:00
+  link: /projects/P3/
+  name: P3B - Final Deliverables
+  numDays: 6
+
+recitation:
+  date: Mon Oct 21
+  handout: recitations/reci7-azure-setup
+  name: Recitation 7 - Azure Setup
+  quiz: https://www.gradescope.com/courses/835182/assignments/5165038
+  slides: https://docs.google.com/presentation/d/1mLbnX45e3xjK6-OQiZgH5NST9hajPX_OO05RBf_G6JA
