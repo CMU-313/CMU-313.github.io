@@ -3,8 +3,8 @@ lectures:
   link: assets/pdfs/14-ethics.pdf
   name: Deployment Game
 - date: Thu Oct 24
-  link: ''
-  name: Deployment Workshop
+  link: assets/pdfs/15-LLMs-ML-Lecture.pdf
+  name: ML in SE
 
 projects:
 - date: Thu Oct 17
