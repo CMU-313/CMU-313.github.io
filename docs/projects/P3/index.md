@@ -182,7 +182,7 @@ Note that this is an **individual** task, unlike the rest of project.
 
 ### Feature Review (6 pts)
 
-For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1OjXgULfHYlSKW_4aPmBGwMOAJhz_Zww5iFe1rvwSlpQ/edit?usp=sharing) to review, 1 from your own section, and 2 from other sections.
+For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1w0DiDJxOrRX8pDeT-jgAkunmptfPLW2wa-eYFhkcPUM/edit?usp=sharing) to review, 1 from your own section, and 2 from other sections.
 
 For each team, you will submit a review of their feature(s). You will need to test the feature(s) as described in their UserGuide and provide feedback on the following:
 
@@ -193,7 +193,7 @@ For each team, you will submit a review of their feature(s). You will need to te
 To qualify for extra credit, you will have to submit your review:
 
 - on Gradescope
-- in the appropriate sheet in the [public spreadsheet](https://docs.google.com/spreadsheets/d/1OjXgULfHYlSKW_4aPmBGwMOAJhz_Zww5iFe1rvwSlpQ/edit?usp=sharing). There should be one sheet per team, and you should add your review to the sheet for the team you are reviewing.
+- in the appropriate sheet in the [public spreadsheet](https://docs.google.com/spreadsheets/d/1w0DiDJxOrRX8pDeT-jgAkunmptfPLW2wa-eYFhkcPUM/edit?usp=sharing). There should be one sheet per team, and you should add your review to the sheet for the team you are reviewing.
 
 ## Grading
 
@@ -214,7 +214,7 @@ To receive full credit for the final deadline, we expect:
 
 To receive full credit for the extra credit, we expect:
 
-- [ ] Your review of three different teams' features on Gradescope and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/1OjXgULfHYlSKW_4aPmBGwMOAJhz_Zww5iFe1rvwSlpQ/edit?usp=sharing), addressing the three questions described.
+- [ ] Your review of three different teams' features on Gradescope and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/1w0DiDJxOrRX8pDeT-jgAkunmptfPLW2wa-eYFhkcPUM/edit?usp=sharing), addressing the three questions described.
 
 ## Resources & Documentation
 
