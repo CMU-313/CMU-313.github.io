@@ -15,8 +15,8 @@ projects:
   numDays: 6
 
 recitation:
-  date: Mon Oct 21
-  handout: recitations/reci7-azure-setup
-  name: Recitation 7 - Azure Setup
-  quiz: https://www.gradescope.com/courses/835182/assignments/5165038
-  slides: https://docs.google.com/presentation/d/1mLbnX45e3xjK6-OQiZgH5NST9hajPX_OO05RBf_G6JA
+  date: Mon Oct 28
+  handout: recitations/reci5-llms
+  name: Recitation 8 - LLMs
+  quiz: https://www.gradescope.com/courses/835182/assignments/5227274
+  slides: https://docs.google.com/presentation/d/1rjAUPLHvRE7jiuuXtrWMxQETDwKjNuqJOstXRD6b1XM/edit?usp=sharing
