@@ -821,10 +821,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
+    handout: '/recitations/reci8-llms/'
+    name: 'Recitation 8 - LLMs'
+    quiz: 'https://www.gradescope.com/courses/835182/assignments/5227274'
+    slides: 'https://docs.google.com/presentation/d/1rjAUPLHvRE7jiuuXtrWMxQETDwKjNuqJOstXRD6b1XM/edit?usp=sharing'
 
 - date: Tue Oct 29
   homework:
