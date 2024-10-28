@@ -1,6 +1,6 @@
 lectures:
 - date: Tue Oct 29
-  link: ''
+  link: assets/pdfs/16-dynamic-analysis.pdf
   name: 'QA: Dynamic Analysis + Advanced Testing'
 - date: Thu Oct 31
   link: ''
@@ -10,13 +10,13 @@ projects:
 - date: Fri Oct 25
   deadline: Due Thu, Oct 31st, 11:59pm
   end_date: 2024-11-04 00:00:00
-  link: /projects/P3/
+  link: projects/P3/
   name: P3B - Final Deliverables
   numDays: 6
 
 recitation:
   date: Mon Oct 28
-  handout: /recitations/reci8-llms/
+  handout: recitations/reci8-llms/
   name: Recitation 8 - LLMs
   quiz: https://www.gradescope.com/courses/835182/assignments/5227274
   slides: https://docs.google.com/presentation/d/1rjAUPLHvRE7jiuuXtrWMxQETDwKjNuqJOstXRD6b1XM/edit?usp=sharing
