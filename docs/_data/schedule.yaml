@@ -960,7 +960,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'TBD'
+    name: 'Technical Debt'
   reading:
     link: ''
     name: ''
@@ -1014,7 +1014,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Technical Debt'
+    name: 'Open Soruce Software'
   reading:
     link: ''
     name: ''
@@ -1050,7 +1050,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Open Source Software'
+    name: 'Security and Dependency Management'
   reading:
     link: ''
     name: ''
