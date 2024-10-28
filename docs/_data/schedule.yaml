@@ -744,7 +744,7 @@
     numDays: 0
   lecture:
     link: 'assets/pdfs/14-ethics.pdf'
-    name: 'Deployment Game'
+    name: 'SE Ethics'
   reading:
     link: ''
     name: ''
