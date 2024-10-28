@@ -685,7 +685,7 @@
 - date: Thu Oct 17
   homework:
     deadline: 'Due Thu, Oct 24th, 11:59pm'
-    link: '/projects/P3/'
+    link: 'projects/P3/'
     name: 'P3A - Checkpoint'
     numDays: 6
   lecture:
@@ -793,7 +793,7 @@
 - date: Fri Oct 25
   homework:
     deadline: 'Due Thu, Oct 31st, 11:59pm'
-    link: '/projects/P3/'
+    link: 'projects/P3/'
     name: 'P3B - Final Deliverables'
     numDays: 6
   lecture:
@@ -821,7 +821,7 @@
     link: ''
     name: ''
   recitation:
-    handout: '/recitations/reci8-llms/'
+    handout: 'recitations/reci8-llms/'
     name: 'Recitation 8 - LLMs'
     quiz: 'https://www.gradescope.com/courses/835182/assignments/5227274'
     slides: 'https://docs.google.com/presentation/d/1rjAUPLHvRE7jiuuXtrWMxQETDwKjNuqJOstXRD6b1XM/edit?usp=sharing'
