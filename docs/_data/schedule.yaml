@@ -833,7 +833,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/16-dynamic-analysis.pdf'
     name: 'QA: Dynamic Analysis + Advanced Testing'
   reading:
     link: ''
