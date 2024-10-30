@@ -106,7 +106,7 @@ To get setup, you will need to setup your Azure NodeBB instance and set up LLM u
 1. [Recitation 7 instructions](https://docs.google.com/document/d/1cC95F2752ZNmAJ_VPjZmEd8UoUhBi7-lQElx6OaZFd0) on setting up NodeBB instance on Azure
 2. [Recitation 8 instructions](https://docs.google.com/document/d/1cTvANh2R6WChDXFz3HDXepcIeciUasAZhB9jScGRdJ4/edit?usp=sharing) on setting up Azure for LLM use
 
-Once you're all set up, open the Colab notebook using [this link](). Click on File --> Save as a copy in Drive to create your own copy that you will work on. Only one team member needs to do this, and the team should collaborate using this notebook. Click on Share and make sure the Colab notebook is **editable** by anyone in Carnegie Mellon University.
+Once you're all set up, open the Colab notebook using [this link](https://colab.research.google.com/drive/1KO34Y0de7vmt6-P1rCdKq-Z3NT8kU3fl?usp=sharing). Click on File --> Save as a copy in Drive to create your own copy that you will work on. Only one team member needs to do this, and the team should collaborate using this notebook. Click on Share and make sure the Colab notebook is **editable** by anyone in Carnegie Mellon University.
 
 Now, you should be ready to experiment with gpt-4o-mini! Follow the instructions in the notebook through the end of the Basic LLM Experiment.
 
