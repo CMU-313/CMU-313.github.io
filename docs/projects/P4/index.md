@@ -101,7 +101,7 @@ By the checkpoint deadline, your team will submit your design document to Grades
 
 To explore the feasibility of LLMs for this task, your manager would like you to prototype the basic functionality of an LLM to translate text. Due to the company’s existing deal with Microsoft, your team will use the gpt-4o-mini language model from OpenAI's Platform.
 
-To get setup, you will need to setup your Azure NodeBB instance and set up LLM use through Azure. You should already have done both of these for recitations 7 and 8, but for completeness, you should refer to these two documents if you don't have something set up.
+To get setup, you will need to setup your Azure NodeBB instance and set up LLM use through Azure. You should already have done both of these for recitations 7 and 8, but you should refer to these two documents if you don't have something set up properly.
 
 1. [Recitation 7 instructions](https://docs.google.com/document/d/1cC95F2752ZNmAJ_VPjZmEd8UoUhBi7-lQElx6OaZFd0) on setting up NodeBB instance on Azure
 2. [Recitation 8 instructions](https://docs.google.com/document/d/1cTvANh2R6WChDXFz3HDXepcIeciUasAZhB9jScGRdJ4/edit?usp=sharing) on setting up Azure for LLM use
