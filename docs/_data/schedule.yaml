@@ -869,8 +869,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Feedback'
+    link: 'assets/pdfs/17-Feedback.pdf'
+    name: 'Giving and Recieving Feedback'
   reading:
     link: ''
     name: ''
