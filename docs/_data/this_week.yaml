@@ -3,8 +3,8 @@ lectures:
   link: assets/pdfs/16-dynamic-analysis.pdf
   name: 'QA: Dynamic Analysis + Advanced Testing'
 - date: Thu Oct 31
-  link: ''
-  name: Feedback
+  link: assets/pdfs/17-Feedback.pdf
+  name: Giving and Recieving Feedback
 
 projects:
 - date: Fri Oct 25
