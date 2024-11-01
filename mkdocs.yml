@@ -98,7 +98,7 @@ nav:
       - Recitation 6 - Deployment: recitations/reci6-deployment.md
       - Recitation 7 - Azure Setup: recitations/reci7-azure-setup.md
       - Recitation 8 - LLMs: recitations/reci8-llms.md
-      # - Recitation 8 - Team Feedback: recitations/reci8-team-feedback.md
+      - Recitation 9 - Team Feedback: recitations/reci9-team-feedback.md
       # - Recitation 9 - Open Source Scavenger Hunt: recitations/reci9-open-source.md
       # # - Recitation 10 - Team Feedback: recitations/reci10-team-feedback.md
       # # - Recitation 7 - Docker and Containerization: recitations/reci7-docker.md
