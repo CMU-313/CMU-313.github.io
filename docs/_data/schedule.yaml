@@ -911,10 +911,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
+    handout: 'recitations/reci9-team-feedback/'
+    name: 'Recitation 9 - Team Feedback'
+    quiz: 'https://www.gradescope.com/courses/835182/assignments/5230533'
+    slides: 'https://docs.google.com/presentation/d/12pyLuGahemdax_2X4aDnjfs4UrJaKPjHqf-L8hi4nQw/edit?usp=sharing'
 
 - date: Tue Nov 05
   homework:
