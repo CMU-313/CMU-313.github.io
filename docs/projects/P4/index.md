@@ -197,6 +197,6 @@ There are a few additional reference materials available in the CMU library that
 ### LLMs
 
 - [Azure OpenAI docs](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview)
-- [Azure OpenAI Service pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/g)
+- [Azure OpenAI Service pricing](https://deploy-preview-159--17313.netlify.app/projects/p4/#resource-documentation)
 - [SBert Cosine Similarity Documentation](https://www.sbert.net/docs/quickstart.html#comparing-sentence-similarities)
 - [SBert Semantic Search Documentation](https://www.sbert.net/examples/applications/semantic-search/README.html)
