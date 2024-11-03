@@ -795,7 +795,7 @@
     deadline: 'Due Thu, Oct 31st, 11:59pm'
     link: 'projects/P3/'
     name: 'P3B - Final Deliverables'
-    numDays: 6
+    numDays: 5
   lecture:
     link: ''
     name: ''
@@ -882,10 +882,10 @@
 
 - date: Fri Nov 01
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Thu, Nov 7th @ 11:59pm'
+    link: 'projects/P4'
+    name: 'Project 4 - Architecting an LLM Integration'
+    numDays: 7
   lecture:
     link: ''
     name: ''

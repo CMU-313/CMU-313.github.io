@@ -10,34 +10,37 @@
 - Engineer techniques to improve the performance of pre-trained models on application-specific tasks
 - Decide whether an LLM powered solution is production ready
 
-
 ## Project Context
 
-As you and your team continue developing the new Q&A forum system for CMU, your CEO suddenly bursts into the room shouting, “LLMs! AI! Why are we building a Q&A forum without integrating LLMs?!”
+The development of the new Q&A forum system for CMU is in full swing when your CEO suddenly bursts into the room shouting, “LLMs! AI! Why are we building a Q&A forum without integrating LLMs?!”
 
-After your CEO calms down, your manager calls an all-hands meeting. At the meeting, everyone agrees that we don’t have the resources to build a completely new Q&A forum, and also automate the whole question-answering problem.
+Once your CEO has finally calmed down, your manager calls an all-hands meeting. At the meeting, everyone agrees that you don’t have the resources to build a completely new Q&A forum and also automate the whole question-answering problem.
 
-However, to better compete with Piazza, your CEO and manager decide to put your team in charge of exploring using an LLM to implement a translation feature. This feature will automatically translate posts written in languages other than English into English. This initiative aims to foster inclusivity and ensure that language barriers do not hinder participation in the forum.
+But, to better compete with Piazza, your CEO and manager decide to put your team in charge of exploring using an LLM to implement a translation feature. This feature will automatically translate posts written in languages other than English into English. This initiative aims to foster inclusivity and ensure that language barriers do not hinder participation in the forum.
 
-Your manager wants you to:
+In light of this new direction, your manager wants you to:
 
 1. **Architect the feature** - reason about, document and select an appropriate architecture for integrating this feature into the existing system.
 2. **Build an experimental integration** with the existing NodeBB codebase to evaluate feasibility.
 3. **Evaluate the feature** and decide whether the feature should be fully implemented.
 
+As everything is just settling down, your CEO bursts back into the room!! There's a new catch: the company is strapped for funding and must be very careful with its spending. As a result, your team is now required to conduct all experimentation and implementation of the LLM-powered translation feature **using only the Azure credits currently at your disposal**. If your team successfully stays within your available credits and doesn't need to request any more, you’ll earn **bonus points** for your ingenuity and efficiency.
+
+Some of you may think that it’s unfair for this change to come up unexpectedly, especially since we didn’t inform you before P3, but keep in mind that this is just like real life! Working in a company means having to deal with unexpected circumstances, which more often than not contain some aspect concerning money. We're looking to see how well you can adapt to this new situation, and we want you to have this experience before you're dealing with the pressure of real company money. Rest assured, if your team needs more credits to finish the project, we will not be taking off points.
+
 ## Deliverables and Deadlines
 There are three (3) deadlines for the project. This project is worth a total of 125 points.
 
-**Checkpoint #1 Deliverables** – 55 pts - due Thursday, March 28, 11:59pm
+**Checkpoint #1 Deliverables** – 55 pts - due Friday, November 8, 11:59pm
 
 - [Architectural Design Document (40 pts)](#architectural-design-document-40-points)
 - [Basic LLM Experiment (15 pts)](#basic-llm-experiment-15-points)
 
-**Checkpoint #2 Deliverables** – 10 pts - due Monday, April 1, 11:59pm
+**Checkpoint #2 Deliverables** – 10 pts - due Thursday, November 14, 11:59pm
 
 - [LLM Experiment Integration Checkpoint (10 pts)](#llm-experiment-integration-checkpoint-10-points)
 
-**Final Deliverables** - 60 pts - due Thursday, April 4, 11:59pm
+**Final Deliverables** - 60 pts - due Thursday, November 14, 11:59pm
 
 - [Final LLM Experiment Implementation (30 pts)](#final-llm-experiment-implementation-30-points)
 - [Evaluation Report (30 pts)](#evaluation-report-30-points)
@@ -50,13 +53,12 @@ To start, your manager has requested a concrete design document outlining how yo
 
 If the team decides to go ahead with the feature, this design document will be followed in order to fully integrate this feature into NodeBB.
 
-Some initial solutions to consider include:
+Two initial solutions to consider are:
 
 1.  **Implementing a Python-based microservice** and deploying it as a separate service; then, integrating the service with your existing monolith via a REST API
-2.  **Integrate a Python-based serverless function** triggered via a REST API, then integrate the function with your existing monolith via a REST API.
-3.  **Refactoring part or all of the existing monolith** into a microservices-based architecture
+2.  **Refactoring part or all of the existing monolith** into a microservices-based architecture
 
-Your design document must advocate for one of these three approaches.
+Your design document must discuss both of these approaches and **include a third approach of your choosing**. You must advocate for one of these three approaches as the best solution.
 
 Once you have finished evaluating the codebase, create the design document highlighting your findings and decisions. Below is a sample outline for your design document along with recommended page lengths.
 
@@ -75,55 +77,43 @@ Once you have finished evaluating the codebase, create the design document highl
     Rank your requirements in decreasing order of importance. This allows readers to quickly understand what you were designing for.
 
 5. **Potential Solutions (~1 page each)**
-    Your team should consider **at least two** different potential solutions for integrating the new feature. For each, provide at least one architectural diagram, a brief description of the solution's architectural design, and a discussion of the design's tradeoffs.
+    Your team should consider **three** different potential solutions for integrating the new feature. For each, provide at least one architectural diagram, a brief description of the solution's architectural design, and a discussion of the design's tradeoffs.
 
     Tradeoffs must involve (but are not limited to) the quality attributes described in the previous section. Justify such arguments with reference to appropriate diagrams and concrete examples, as appropriate.
 
 6. **Selected Architecture + Justification (<1 page)**
     Describe which design your team decided to proceed with in architecturally integrating the feature into existing codebase. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design (if any).
 
-!!! note "On Diagrams"
-    Diagrams should **involve suitable architectural views**; **must include a legend**; and **should involve appropriate levels of abstraction** for the components in the diagram. If necessary, use color/shape/text to differentiate between types of components and connectors.
+> [!NOTE]
+> Diagrams should **involve suitable architectural views**; **must include a legend**; and **should involve appropriate levels of abstraction** for the components in the diagram. If necessary, use color/shape/text to differentiate between types of components and connectors. You may find it appropriate to merge more than one view into a single diagram. If you do this, **you must be explicit about what views you are merging**, and why. Otherwise, diagrams should clearly represent legitimate architectural views. Make sure that multiple views of the architecture are consistent with each other and the links are clear; if necessary provide a mapping in additional text.
 
-    You may find it appropriate to merge more than one view into a single diagram. If you do this, **you must be explicit about what views you are merging**, and why. Otherwise, diagrams should clearly represent legitimate architectural views. Make sure that multiple views of the architecture are consistent with each other and the links are clear; if necessary provide a mapping in additional text.
-
-!!! info "Drawing Diagrams"
-    Drawing diagrams is much easier with the right software. Consider tools like [draw.io](https://draw.io/) (free, online, and collaborative), [Dia](http://dia-installer.de/), [OmniGraffle](https://www.omnigroup.com/omnigraffle), [MS Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software), or even just the drawing editor of [Google Docs](https://docs.google.com/). [Google Slides](https://slides.google.com/) will also likely work for this purpose.
-
-    Pictures of whiteboard drawings are also acceptable, if clearly readable.
+> [!TIP]
+> Drawing diagrams is much easier with the right software. Consider tools like [draw.io](https://draw.io/) (free, online, and collaborative), [Dia](http://dia-installer.de/), [OmniGraffle](https://www.omnigroup.com/omnigraffle), [MS Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software), or even just the drawing editor of [Google Docs](https://docs.google.com/). [Google Slides](https://slides.google.com/) will also likely work for this purpose. Pictures of whiteboard drawings are also acceptable, if clearly readable.
 
 More resources to assist you with creating your design document can be found in the [Resources & Documentation](#resource-documentation) section below.
 
-!!! warning "On Generative AI"
-    In the past, students have utilized generative AI tools to generate diagrams with mixed success. While some diagrams have been useful and accurate, others have fallen short due to inaccuracies or oversimplifications not aligned with specific project requirements. Be cautious and review them carefully for accuracy and relevance. You’ve been warned.
+> [!WARNING] 
+> **On Generative AI**: In the past, students have utilized generative AI tools to generate diagrams with mixed success. While some diagrams have been useful and accurate, others have fallen short due to inaccuracies or oversimplifications not aligned with specific project requirements. Be cautious and review them carefully for accuracy and relevance. If we suspect you've abused generative AI and your diagrams are **inadequate**, we won't consider regrade requests. You’ve been warned.
 
 By the checkpoint deadline, your team will submit your design document to Gradescope as a PDF.
 
 ### Basic LLM Experiment (15 points)
 
-To explore the feasibility of LLMs for this task, your manager would like you to prototype the basic functionality of an LLM to translate text. Due to the company’s existing deal with Google, your team will use the chat-bison language model from Google’s Vertex AI Platform.
+To explore the feasibility of LLMs for this task, your manager would like you to prototype the basic functionality of an LLM to translate text. Due to the company’s existing deal with Microsoft, your team will use the gpt-4o-mini language model from OpenAI's Platform.
 
+To get setup, you will need to setup your Azure NodeBB instance and set up LLM use through Azure. You should already have done both of these for recitations 7 and 8, but you should refer to these two documents if you don't have something set up properly.
 
-To get setup, make sure you're logged into the Google account you used to redeem your GCP credits. If you haven't redeemed your GCP credits yet, follow the instructions in the [Deployment Recitation.](https://cmu-313.github.io/recitations/reci6-deployment/#task-1b-deploy-on-google-cloud-platform)
+1. [Recitation 7 instructions](https://docs.google.com/document/d/1cC95F2752ZNmAJ_VPjZmEd8UoUhBi7-lQElx6OaZFd0) on setting up NodeBB instance on Azure
+2. [Recitation 8 instructions](https://docs.google.com/document/d/1cTvANh2R6WChDXFz3HDXepcIeciUasAZhB9jScGRdJ4/edit?usp=sharing) on setting up Azure for LLM use
 
-Once you're logged into the right credit-bearing Google account, follow these instructions:
+Once you're all set up, open the Colab notebook using [this link](https://colab.research.google.com/drive/1KO34Y0de7vmt6-P1rCdKq-Z3NT8kU3fl?usp=sharing). Click on File --> Save as a copy in Drive to create your own copy that you will work on. Only one team member needs to do this, and the team should collaborate using this notebook. Click on Share and make sure the Colab notebook is **editable** by anyone in Carnegie Mellon University.
 
-1.  Enable the Vertex AI API using [this link](https://console.cloud.google.com/flows/enableapi?apiid=aiplatform.googleapis.com). Make sure your NodeBB project from P3 is selected in the project selector dropdown.
-
-2.  Open the Colab notebook using [this link](https://colab.research.google.com/drive/1e_9Ka4Oq4a9UZfoF570MaQqQqnvjclc1?usp=sharing). Click on File --> Save as a copy in Drive to create your own copy that you will work on. Only one team member needs to do this, and the team should collaborate using this notebook.
-
-3.  Click on Share and make sure the Colab notebook is **editable** by anyone in Carnegie Mellon University.
-
-Now, you should be ready to experiment with chat-bison! Follow the instructions in the notebook through the end of the Basic LLM Experiment.
-
+Now, you should be ready to experiment with gpt-4o-mini! Follow the instructions in the notebook through the end of the Basic LLM Experiment.
 
 Given the unpredictable nature of LLM responses, it is crucial to test whether your application can handle a range of outcomes. Your Colab notebook should also include tests for your code. We have provided a starter code.
 In this task, you are required to employ mocking techniques to test your code resilience against unexpected results from API calls to the LLM. Mocking is a method used in testing to replace real system components with mock objects that simulate the behavior of those components. This approach allows developers to emulate various scenarios, including errors or atypical responses from external services, without having to make actual API calls. Here you will be using mocking to mimic different unexpected outcomes to check if your code can handle such anomalies gracefully.
 
-For full credit, your submission should have at least four mock tests that deal
-with differente unexpected model behaviors. At least one of these tests should involve the
-model returning unexpected text. All tests should relate to the `query_llm_robust` function.
-
+For full credit, your submission should have at least four mock tests that deal with different unexpected model behaviors. At least one of these tests should involve the model returning unexpected text. All tests should relate to the `query_llm_robust` function.
 
 You should download and submit a .ipynb copy of your Colab notebook (with outputs) to Gradescope.
 
@@ -131,7 +121,7 @@ You should download and submit a .ipynb copy of your Colab notebook (with output
 
 ### LLM Experiment Integration Checkpoint (10 points)
 
-For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track. We have provided some initial code on [this repo](https://github.com/CMU-313/translator-service).
+For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track. We have provided some initial code on [this repo](https://github.com/CMU-313/translator-service/tree/f24).
 
 Furthermore, your server-side code must include unit and mock tests. To accomplish this, you must move the tests you wrote in the previous checkpoint to the repo and integrate them into the CI pipeline.
 
@@ -141,7 +131,6 @@ Furthermore, your server-side code must include unit and mock tests. To accompli
 
 The final step is to implement this LLM feature into your team's NodeBB project. Your implementation should include the UI code you integrated in Checkpoint #2. You should also integrate the code you developed as a part of the LLM experiment, but you may modify it as needed to successfully integrate the functionality into your code.
 **Because this is the last Project to use NodeBB, commit to your repo, and we will grade your final repository state**  Reach out to your TA if you have any questions. 
-**Note:** This final implementation can use EITHER Vertex AI, or Gemeni as the LLM you use for translation.
 
 ### Evaluation Report (30 points)
 
@@ -184,11 +173,11 @@ To receive full credit for the second checkpoint, we expect:
 
 - [ ] A functional integration of the UI code into your NodeBB application.
 - [ ] A preliminary implementation of the translation feature using the starter code, including CI with unit and mock tests.
-- [ ] An integrated deployment of your NodeBB and the translation service on GCP.
+- [ ] An integrated deployment of your NodeBB and the translation service on Azure.
 
 To receive full credit for the final deadline, we expect:
 
-- [ ] A functional translation feature, as described in your design document, integrated into your NodeBB application and deployed on GCP.
+- [ ] A functional translation feature, as described in your design document, integrated into your NodeBB application and deployed on Azure.
 - [ ] An uploaded PDF report discussing your evaluation findings addressing all the sections outlined above
 
 ## Resource & Documentation
@@ -207,7 +196,7 @@ There are a few additional reference materials available in the CMU library that
 
 ### LLMs
 
-- [Vertex AI Docs](https://cloud.google.com/vertex-ai/docs/generative-ai/chat/test-chat-prompts#chat-query-python_vertex_ai_sdk)
-- [Vertex AI Pricing](https://cloud.google.com/vertex-ai/pricing)
+- [Azure OpenAI docs](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview)
+- [Azure OpenAI Service pricing](https://deploy-preview-159--17313.netlify.app/projects/p4/#resource-documentation)
 - [SBert Cosine Similarity Documentation](https://www.sbert.net/docs/quickstart.html#comparing-sentence-similarities)
 - [SBert Semantic Search Documentation](https://www.sbert.net/examples/applications/semantic-search/README.html)
