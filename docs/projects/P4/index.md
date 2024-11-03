@@ -31,12 +31,12 @@ Some of you may think that it’s unfair for this change to come up unexpectedly
 ## Deliverables and Deadlines
 There are three (3) deadlines for the project. This project is worth a total of 125 points.
 
-**Checkpoint #1 Deliverables** – 55 pts - due Thursday, November 7, 11:59pm
+**Checkpoint #1 Deliverables** – 55 pts - due Friday, November 8, 11:59pm
 
 - [Architectural Design Document (40 pts)](#architectural-design-document-40-points)
 - [Basic LLM Experiment (15 pts)](#basic-llm-experiment-15-points)
 
-**Checkpoint #2 Deliverables** – 10 pts - due Monday, November 12, 11:59pm
+**Checkpoint #2 Deliverables** – 10 pts - due Thursday, November 14, 11:59pm
 
 - [LLM Experiment Integration Checkpoint (10 pts)](#llm-experiment-integration-checkpoint-10-points)
 
