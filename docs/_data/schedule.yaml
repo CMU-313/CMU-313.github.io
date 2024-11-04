@@ -990,10 +990,10 @@
 
 - date: Mon Nov 11
   homework:
-    deadline: 'Due Thu, Nov 14th @ 11:59pm'
+    deadline: 'Due Wed, Nov 13th @ 11:59pm'
     link: 'projects/P4'
-    name: 'Project 4B/C - LLM Integration and Experiment'
-    numDays: 4
+    name: 'Project 4B - LLM Integration Checkpoint'
+    numDays: 3
   lecture:
     link: ''
     name: ''
@@ -1044,10 +1044,10 @@
 
 - date: Thu Nov 14
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Fri, Nov 15th @ 11:59pm'
+    link: 'projects/P4'
+    name: 'Project 4C - LLM Integration Evaluation'
+    numDays: 2
   lecture:
     link: ''
     name: 'Security and Dependency Management'
