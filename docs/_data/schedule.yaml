@@ -882,10 +882,10 @@
 
 - date: Fri Nov 01
   homework:
-    deadline: 'Due Fri, Nov 8th @ 11:59pm'
-    link: 'projects/P4'
-    name: 'Project 4 - Architecting an LLM Integration'
-    numDays: 7
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -900,10 +900,10 @@
 
 - date: Mon Nov 04
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Fri, Nov 8th @ 11:59pm'
+    link: 'projects/P4'
+    name: 'Project 4A - Architecting an LLM Integration'
+    numDays: 5
   lecture:
     link: ''
     name: ''
@@ -990,10 +990,10 @@
 
 - date: Mon Nov 11
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Thu, Nov 14th @ 11:59pm'
+    link: 'projects/P4'
+    name: 'Project 4B/C - LLM Integration and Experiment'
+    numDays: 4
   lecture:
     link: ''
     name: ''
