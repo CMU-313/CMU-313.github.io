@@ -7,12 +7,12 @@ lectures:
   name: Technical Debt
 
 projects:
-- date: Fri Nov 01
+- date: Mon Nov 04
   deadline: Due Fri, Nov 8th @ 11:59pm
-  end_date: 2024-11-12 00:00:00
+  end_date: 2024-11-11 00:00:00
   link: projects/P4
-  name: Project 4 - Architecting an LLM Integration
-  numDays: 7
+  name: Project 4A - Architecting an LLM Integration
+  numDays: 5
 
 recitation:
   date: Mon Nov 04
