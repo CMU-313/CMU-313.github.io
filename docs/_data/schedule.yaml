@@ -882,7 +882,7 @@
 
 - date: Fri Nov 01
   homework:
-    deadline: 'Due Thu, Nov 7th @ 11:59pm'
+    deadline: 'Due Fri, Nov 8th @ 11:59pm'
     link: 'projects/P4'
     name: 'Project 4 - Architecting an LLM Integration'
     numDays: 7
