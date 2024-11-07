@@ -959,7 +959,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/19-software-quality.pdf'
     name: 'Technical Debt'
   reading:
     link: ''
