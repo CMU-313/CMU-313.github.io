@@ -66,7 +66,7 @@ Once you have finished evaluating the codebase, create the design document highl
     Describe concisely how the translation feature works and how it will be used by the relevant stakeholders, with screenshots if necessary.
 
 2. **Assessing LLM Suitability (<1 page)**
-    Use the framework discussed in class to discuss why an LLM may be a good solution for translating posts on NodeBB.
+    Use proprities of LLMs discussed in class to discuss why an LLM may be a good solution for translating posts on NodeBB.
 
 3. **Current Architecture (<1 page)**
     Provide a brief description of the current NodeBB architecture. Include an **architectural diagram** to support your description.
