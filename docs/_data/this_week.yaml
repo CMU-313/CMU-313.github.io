@@ -8,10 +8,10 @@ lectures:
 
 projects:
 - date: Mon Nov 04
-  deadline: Due Fri, Nov 8th @ 11:59pm
-  end_date: 2024-11-11 00:00:00
-  link: projects/P4
-  name: Project 4A - Architecting an LLM Integration
+  deadline: Due Sun, Dec 8th @ 11:59pm
+  end_date: 2024-12-09 00:00:00
+  link: projects/P5
+  name: Project 5 - Open Source Excursion
   numDays: 5
 
 recitation:
