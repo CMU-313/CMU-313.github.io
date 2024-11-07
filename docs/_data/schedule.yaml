@@ -1062,9 +1062,9 @@
 
 - date: Fri Nov 15
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: 'Due Sunday December 8th, 11:59pm'
+    link: '/projects/P5'
+    name: 'P5 - Open Source Excursion'
     numDays: 0
   lecture:
     link: ''
