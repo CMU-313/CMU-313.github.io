@@ -252,7 +252,7 @@
 
 - date: Fri Sep 13
   homework:
-    deadline: 'Due Tue, Sep 24th, 11:59pm'
+    deadline: 'Due Tue, Sep 24th @ 11:59pm'
     link: 'projects/P2/2_firstsprint'
     name: 'P2B - Collaborative Development'
     numDays: 8
@@ -396,7 +396,7 @@
 
 - date: Wed Sep 25
   homework:
-    deadline: 'Due Thu, Oct 10th, 11:59pm'
+    deadline: 'Due Thu, Oct 10th @ 11:59pm'
     link: 'projects/P2/3_secondsprint'
     name: 'P2C - Collaborative Development'
     numDays: 15
@@ -684,7 +684,7 @@
 
 - date: Thu Oct 17
   homework:
-    deadline: 'Due Thu, Oct 24th, 11:59pm'
+    deadline: 'Due Thu, Oct 24th @ 11:59pm'
     link: 'projects/P3/'
     name: 'P3A - Checkpoint'
     numDays: 6
@@ -792,7 +792,7 @@
 
 - date: Fri Oct 25
   homework:
-    deadline: 'Due Thu, Oct 31st, 11:59pm'
+    deadline: 'Due Thu, Oct 31st @ 11:59pm'
     link: 'projects/P3/'
     name: 'P3B - Final Deliverables'
     numDays: 5
@@ -1080,7 +1080,7 @@
 
 - date: Mon Nov 18
   homework:
-    deadline: 'Due Tuesday November 19th, 11:59pm'
+    deadline: 'Due Tue, November 19th @ 11:59pm'
     link: 'projects/P5'
     name: 'P5A - Project & Tasks Selection Check-In'
     numDays: 2
@@ -1116,7 +1116,7 @@
 
 - date: Wed Nov 20
   homework:
-    deadline: 'Due Sunday December 9th, 11:59pm'
+    deadline: 'Due Sun, December 9th @ 11:59pm'
     link: 'projects/P5'
     name: 'P5B and P5C - Open Source Excursion'
     numDays: 0
