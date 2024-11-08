@@ -2,15 +2,15 @@
 
 ## Deliverables
 
-**Project & Task Selection** – 80 points – due ~~Tuesday, April 9th, 11:59pm~~ Wednesday, April 10th, 11:59pm
+**Project & Task Selection** – 80 points – due Tuesday, November 19th, 11:59pm
 
-- [Check-In Presentation Slides](#check-in-presentation-80-pts) – due ~~Tuesday, April 9th, 11:59pm~~ Wednesday, April 10th, 11:59pm
-- **Presentation Date** – Upload your presentation video [here](https://drive.google.com/drive/folders/1nHW97a6oRaQrVLqTo-F1bKwVc6G3IFZA?usp=sharing)
+- [Check-In Presentation Slides](#check-in-presentation-80-pts) – due Wednesday, November 20th, 11:59pm
+- **Presentation Date** – Upload your presentation video [here](https://drive.google.com/drive/folders/1jnwGV4qbPs_DATSLHeagPXM9YpYwrlvG?usp=drive_link)
 
 
 ## Open Source Project Selection
 
-You may select any active open source project in any language, as long as it's not already being selected on by another team. You can find a list of open source projects selected by other teams on the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1UTogivA8FraWcPC6DC_fi70g33_ugmslAQsXmsSA4jc/edit?usp=sharing)**.
+You may select any active open source project in any language, as long as it's not already being selected on by another team. You can find a list of open source projects selected by other teams on the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1IokRZCYi2j8McCQ9BZQPeTp1yY6PZ4psq2D24rPU7N0/edit?gid=1777881413#gid=1777881413)**.
 
 Here are some helpful resources for finding open source projects:
 
@@ -21,6 +21,7 @@ Here are some helpful resources for finding open source projects:
 - [A list of beginner friendly projects](https://github.com/MunGell/awesome-for-beginners)
 - [Apache projects](http://www.apache.org/)
 - [Mozilla projects](https://firefox-source-docs.mozilla.org/contributing/contributing_to_mozilla.html)
+- You may also check the other sheets in the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1IokRZCYi2j8McCQ9BZQPeTp1yY6PZ4psq2D24rPU7N0/edit?gid=1777881413#gid=1777881413)** which will include Projects and whether they were merged into main.
 
 You may want to consider any open-source projects you have used before, or are interested in using in the future!
 
@@ -28,7 +29,7 @@ The open source project you pick should be ^^active^^ and ^^have multiple contri
 
 If you have questions on if we would consider a project active, contact the course staff.
 
-Once you have selected a project, add it to the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1Y361Z1H-oZsyQUvrHyWKMOPPWSsA7-pHn32pRrvNRns/edit?usp=sharing)**.
+Once you have selected a project, add it to the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1IokRZCYi2j8McCQ9BZQPeTp1yY6PZ4psq2D24rPU7N0/edit?gid=1777881413#gid=1777881413)**.
 
 ## Task Selection
 
