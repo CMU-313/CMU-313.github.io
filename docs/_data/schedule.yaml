@@ -1062,10 +1062,10 @@
 
 - date: Fri Nov 15
   homework:
-    deadline: 'Due Sunday December 8th, 11:59pm'
+    deadline: 'Due Tuesday November 19th, 11:59pm'
     link: '/projects/P5'
-    name: 'P5 - Open Source Excursion'
-    numDays: 0
+    name: 'P5A - Project & Tasks Selection Check-In'
+    numDays: 5
   lecture:
     link: ''
     name: ''
@@ -1116,9 +1116,9 @@
 
 - date: Wed Nov 20
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: 'Due Tuesday December 9th, 11:59pm'
+    link: '/projects/P5'
+    name: 'P5B and P5C - Open Source Excursion'
     numDays: 0
   lecture:
     link: ''
