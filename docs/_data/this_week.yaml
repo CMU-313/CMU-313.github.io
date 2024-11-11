@@ -1,7 +1,7 @@
 lectures:
 - date: Tue Nov 12
-  link: ''
-  name: Open Source Software
+  link: assets/pdfs/20-open-source.pdf
+  name: Open Soruce Software
 - date: Thu Nov 14
   link: ''
   name: Security and Dependency Management
