@@ -1,22 +1,22 @@
 lectures:
-- date: Tue Nov 05
-  link: ''
-  name: Democracy Day - No Class
-- date: Thu Nov 07
-  link: assets/pdfs/19-software-quality.pdf
-  name: Technical Debt
+  - date: Tue Nov 05
+    link: ""
+    name: Democracy Day - No Class
+  - date: Thu Nov 07
+    link: assets/pdfs/19-software-quality.pdf
+    name: Technical Debt
 
 projects:
-- date: Mon Nov 04
-  deadline: Due Fri, Nov 8th @ 11:59pm
-  end_date: 2024-11-11 00:00:00
-  link: projects/P4
-  name: Project 4A - Architecting an LLM Integration
-  numDays: 5
+  - date: Mon Nov 04
+    deadline: Due Fri, Nov 8th @ 11:59pm
+    end_date: 2024-11-11 00:00:00
+    link: projects/P4
+    name: Project 4A - Architecting an LLM Integration
+    numDays: 5
 
 recitation:
-  date: Mon Nov 04
-  handout: recitations/reci9-team-feedback/
-  name: Recitation 9 - Team Feedback
-  quiz: https://www.gradescope.com/courses/835182/assignments/5230533
-  slides: https://docs.google.com/presentation/d/12pyLuGahemdax_2X4aDnjfs4UrJaKPjHqf-L8hi4nQw/edit?usp=sharing
+  date: Mon Nov 11
+  handout: /recitations/reci10-open-source
+  name: Recitation 10 - Open Source Scavenger Hunt
+  quiz: https://www.gradescope.com/courses/835182/assignments/5287621
+  slides: https://docs.google.com/presentation/d/1b1UgmHlnHz355sjatV06jBLbm874FfJkHJeYtayo-fo/edit?usp=sharing
