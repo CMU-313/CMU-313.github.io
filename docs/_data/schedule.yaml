@@ -1013,8 +1013,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: "Open Source Software"
+    link: 'assets/pdfs/20-open-source.pdf'
+    name: 'Open Soruce Software'
   reading:
     link: ""
     name: ""
