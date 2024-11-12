@@ -2,10 +2,10 @@
 
 ## Deliverables
 
-**Project & Task Selection** – 80 points – due Tuesday, November 19th, 11:59pm
+**Project & Task Selection** – 80 points
 
-- [Check-In Presentation Slides](#check-in-presentation-80-pts) – due Wednesday, November 20th, 11:59pm
-- **Presentation Date** – Upload your presentation video [here](https://drive.google.com/drive/folders/1jnwGV4qbPs_DATSLHeagPXM9YpYwrlvG?usp=drive_link)
+- [Project Selectiion](#open-source-project-selection) - enter project name and URL in the spreadsheet by Tuesday, November 19th, 11:59pm
+- [Task Selection Checkpoint Presentation](#checkpoint-presentation-80-pts) – slides and video recording due Sunday, November 24th, 11:59pm
 
 
 ## Open Source Project Selection
@@ -29,7 +29,7 @@ The open source project you pick should be ^^active^^ and ^^have multiple contri
 
 If you have questions on if we would consider a project active, contact the course staff.
 
-Once you have selected a project, add it to the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1IokRZCYi2j8McCQ9BZQPeTp1yY6PZ4psq2D24rPU7N0/edit?gid=1777881413#gid=1777881413)**.
+Once you have selected a project, add it to the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1IokRZCYi2j8McCQ9BZQPeTp1yY6PZ4psq2D24rPU7N0/edit?gid=1777881413#gid=1777881413)**. We highly recommend you also think about potential tasks (see below) before finalizing on a project, as your success depends heavily on the chosen task.
 
 ## Task Selection
 
@@ -49,11 +49,11 @@ If you have questions on these criteria, contact the course staff.
 
 Once you have selected a project and task(s), break them down into subtasks, consider their priority and assign them to each team member. Identify a set of tasks as your core goal for this project, and another set of tasks as stretch goals.
 
-You are expected to **achieve your core goal for this project**, and stretch goals as much as possible. We will work with you to adjust your goals during the check-in presentation to ensure that they are appropriate your team size and timeframe.
+You are expected to **achieve your core goal for this project**, and stretch goals as much as possible. We will work with you to adjust your goals during the checkpoint presentation to ensure that they are appropriate your team size and timeframe.
 
 As per previous project, ^^plan before you start coding^^. You should identify risks and requirements, and develop a collaboration plan and schedule. 
 
-## Check-In Presentation (80 pts)
+## Checkpoint Presentation (80 pts)
 
 The recitation before carnival will be asynchronous to allow for viewing of the eclipse. 
 
@@ -63,7 +63,7 @@ The recitation before carnival will be asynchronous to allow for viewing of the 
 
 **Your group presentation will serve as a check-in to determine if the open source project and task(s) chosen were reasonable**
 
-Your **7-minute** check-in presentation should include (the recommended slides amount is in parenthesis):
+Your **7-minute** checkpoint presentation should include (the recommended slides amount is in parenthesis):
 
 1.	**Overview and Justification** (~1 slide)     
     An overview on the project you selected, summarizing the relevant characteristics you considered when making your selection. Beyond whatever additional information you collect in your research, include at least a name, a website link, and a brief description of the project (what it does, who uses it, etc). 
@@ -102,4 +102,4 @@ Your **7-minute** check-in presentation should include (the recommended slides a
     - We expect you to identify risks that are specific to your project and team. For example, if you are working on a project that is written in a language that none of your team members have used before, you should identify this as a risk and discuss how you will mitigate it. 
     - We will not accept risks that are generic to all open source projects (e.g., "the project may be abandoned"), or risks that are generic to all software development projects (e.g., "the project may have bugs").
 
-Submit the presentation deck listed above as a **single PDF** file per team to **Gradescope**. You will be presenting this in the recitation after Thanksgiving break.
+Submit the presentation deck listed above as a **single PDF** file per team to **Gradescope** and upload a video recording in this [Google drive folder](https://drive.google.com/drive/folders/1jnwGV4qbPs_DATSLHeagPXM9YpYwrlvG?usp=drive_link). You will be presenting this in the recitation on Monday, November 25th.
