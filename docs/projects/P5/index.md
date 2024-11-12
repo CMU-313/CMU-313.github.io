@@ -37,7 +37,7 @@ C) [**Individual Reflections**](2_projectfinal.md) – 20 points – due Monday,
 
 !!! tip
 
-    **This is a large assignment spanning from now until your final exam timeslot.** We estimate that this project will take each student on the team on average 8 hours/week over the next 5 weeks, for a total of 40 hours. We **highly recommend** reading through the entire assignment before starting so you are aware of our expectations for the later deliverables.
+    **This is a large assignment spanning from now until your final exam timeslot.** We estimate that this project will take each student on the team on average 8 hours/week over the next 4 weeks. We **highly recommend** reading through the entire assignment before starting so you are aware of our expectations for the later deliverables.
     
     To manage all of the write-ups, we recommend saving the pages as a PDF to print or annotate on as you work through the assignment with your team.
 
