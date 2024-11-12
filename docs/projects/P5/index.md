@@ -21,23 +21,24 @@ If you demonstrate to us that your change has been accepted and integrated into 
 ## Deliverables and Deadlines
 This will is your final project with your group. There are 3 deadlines for this project. The project is worth a total of 400 points (~24% of your final grade). 
 
-A) [**Project & Task Selection**](/projects/P5/1_projectcheck) – 80 points – due ~~Tuesday, April 9th, 11:59pm~~ Wednesday, April 10th, 11:59pm
+A) [**Project & Task Selection**](1_projectcheck.md) – 80 points – due Tuesday, November 19th, 11:59pm
 
-- Check-In Presentation (80 pts) - **Submitted Recording by Wednesday April 10th**
+- Project selection - **due Tuesday, November 19th**
+- Check-In Presentation (slides + recording) (80 pts) - **due Sunday November 24th**
 
-B) [**Project Final Report & Presentations**](/projects/P5/2_projectfinal) – 300 points – due Sunday, April 28th, 11:59pm
+B) [**Project Final Report & Presentations**](2_projectfinal.md) – 300 points – due Sunday, December 8th, 11:59pm
 
 - Project Report (200 pts) 
 - *Extra Credit (20 pts)*
-- Project Presentation (100 points) - **Held during exam timeslot on Monday, April 29th, 5:30-8:30pm**
+- Project Presentation (100 points) - **Held during exam timeslot on Monday, December 9th, 1:00-4:00pm**
 
-C) [**Individual Reflections**](/projects/P5/2_projectfinal) – 20 points – due Monday, April 29th, 11:59pm
+C) [**Individual Reflections**](2_projectfinal.md) – 20 points – due Monday, December 9th, 11:59pm
 
 - Reflections & Peer Review (20 pts)
 
 !!! tip
 
-    **This is a large assignment spanning from now until your final exam timeslot.** We estimate that this project will take each student on the team on average 8 hours/week over the next 5 weeks, for a total of 40 hours. We **highly recommend** reading through the entire assignment before starting so you are aware of our expectations for the later deliverables.
+    **This is a large assignment spanning from now until your final exam timeslot.** We estimate that this project will take each student on the team on average 8 hours/week over the next 4 weeks. We **highly recommend** reading through the entire assignment before starting so you are aware of our expectations for the later deliverables.
     
     To manage all of the write-ups, we recommend saving the pages as a PDF to print or annotate on as you work through the assignment with your team.
 
