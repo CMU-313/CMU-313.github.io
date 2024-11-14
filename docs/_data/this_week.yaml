@@ -3,16 +3,10 @@ lectures:
   link: assets/pdfs/20-open-source.pdf
   name: Open Soruce Software
 - date: Thu Nov 14
-  link: ''
-  name: Security and Dependency Management
+  link: assets/pdfs/21-dependencies.pdf
+  name: Dependency Management
 
 projects:
-- date: Mon Nov 11
-  deadline: Due Wed, Nov 13th @ 11:59pm
-  end_date: 2024-11-14 00:00:00
-  link: projects/P4
-  name: Project 4B - LLM Integration Checkpoint
-  numDays: 3
 - date: Thu Nov 14
   deadline: Due Fri, Nov 15th @ 11:59pm
   end_date: 2024-11-18 00:00:00
