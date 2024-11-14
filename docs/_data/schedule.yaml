@@ -1049,8 +1049,8 @@
     name: "Project 4C - LLM Integration Evaluation"
     numDays: 2
   lecture:
-    link: ""
-    name: "Security and Dependency Management"
+    link: "assets/pdfs/21-dependencies.pdf"
+    name: "Dependency Management"
   reading:
     link: ""
     name: ""
