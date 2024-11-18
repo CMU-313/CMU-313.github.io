@@ -55,7 +55,7 @@ As per previous project, ^^plan before you start coding^^. You should identify r
 
 ## Checkpoint Presentation (80 pts)
 
-The recitation before carnival will be asynchronous to allow for viewing of the eclipse. 
+The recitation before Thanksgiving will be an open office hours. The subsequent recitation right after the due date of the recordings, we will be watching the recordings of your classmates checkin presentations in order to learn what others are doing and give advice.
 
 - Presentations are **7 minutes long**
 - Participation from all team members during the presentation is **required**
