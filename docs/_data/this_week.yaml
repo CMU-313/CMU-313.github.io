@@ -1,22 +1,23 @@
 lectures:
-- date: Tue Nov 12
-  link: assets/pdfs/20-open-source.pdf
-  name: Open Soruce Software
-- date: Thu Nov 14
-  link: assets/pdfs/21-dependencies.pdf
-  name: Dependency Management
+- date: Tue Nov 19
+  link: ''
+  name: TBD
+- date: Thu Nov 21
+  link: ''
+  name: Midterm 2
 
 projects:
-- date: Thu Nov 14
-  deadline: Due Fri, Nov 15th @ 11:59pm
-  end_date: 2024-11-18 00:00:00
-  link: projects/P4
-  name: Project 4C - LLM Integration Evaluation
+- date: Mon Nov 18
+  deadline: Due Tue, November 19th @ 11:59pm
+  end_date: 2024-11-20 00:00:00
+  link: projects/P5
+  name: P5A - Project & Tasks Selection Check-In
   numDays: 2
+- date: Wed Nov 20
+  deadline: Due Sun, December 9th @ 11:59pm
+  end_date: 2024-11-20 00:00:00
+  link: projects/P5
+  name: P5B and P5C - Open Source Excursion
+  numDays: 0
 
-recitation:
-  date: Mon Nov 11
-  handout: /recitations/reci10-open-source/
-  name: Recitation 10 - Open Source Projects
-  quiz: https://www.gradescope.com/courses/835182/assignments/5287621
-  slides: https://docs.google.com/presentation/d/1b1UgmHlnHz355sjatV06jBLbm874FfJkHJeYtayo-fo/edit?usp=sharing
+recitation: null
