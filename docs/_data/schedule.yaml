@@ -1103,8 +1103,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: "TBD"
+    link: "assets/pdfs/22-meiklejohn-doordash.pdf"
+    name: "Guest Lecture: Chris Meiklejohn"
   reading:
     link: ""
     name: ""
