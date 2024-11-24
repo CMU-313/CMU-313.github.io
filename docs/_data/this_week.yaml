@@ -1,16 +1,16 @@
 lectures:
-- date: Tue Nov 19
-  link: assets/pdfs/22-meiklejohn-doordash.pdf
-  name: 'Guest Lecture: Chris Meiklejohn'
-- date: Thu Nov 21
+- date: Tue Nov 26
   link: ''
-  name: Midterm 2
+  name: Thanksgiving - No Class
+- date: Thu Nov 28
+  link: ''
+  name: Thanksgiving - No Class
 
 projects: []
 
 recitation:
-  date: Mon Nov 18
-  handout: ''
-  name: P5 Office Hours
-  quiz: ''
+  date: Mon Nov 25
+  handout: /recitations/reci11-p5-checkin/
+  name: Recitation 11 - Open Source Project and Task Selection Check In
+  quiz: https://docs.google.com/forms/d/e/1FAIpQLSdLLAp1N-zGR5fy8weRzwTv5tynwZ-AjArBNwWUBnOvE6160A/viewform?usp=sf_link
   slides: ''
