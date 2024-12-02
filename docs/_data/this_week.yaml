@@ -1,16 +1,16 @@
 lectures:
-- date: Tue Nov 26
+- date: Tue Dec 03
   link: ''
-  name: Thanksgiving - No Class
-- date: Thu Nov 28
+  name: Jobs and Compensation
+- date: Thu Dec 05
   link: ''
-  name: Thanksgiving - No Class
+  name: Semester Review
 
 projects: []
 
 recitation:
-  date: Mon Nov 25
-  handout: /recitations/reci11-p5-checkin/
-  name: Recitation 11 - Open Source Project and Task Selection Check In
-  quiz: https://docs.google.com/forms/d/e/1FAIpQLSdLLAp1N-zGR5fy8weRzwTv5tynwZ-AjArBNwWUBnOvE6160A/viewform?usp=sf_link
+  date: Mon Dec 02
+  handout: ''
+  name: P5 Office Hours
+  quiz: ''
   slides: ''
