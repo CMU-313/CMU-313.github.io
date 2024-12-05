@@ -1014,7 +1014,7 @@
     numDays: 0
   lecture:
     link: 'assets/pdfs/20-open-source.pdf'
-    name: 'Open Soruce Software'
+    name: 'Open Source Software'
   reading:
     link: ""
     name: ""
@@ -1283,7 +1283,7 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
+    link: 'assets/pdfs/23-employment.pdf'
     name: "Jobs and Compensation"
   reading:
     link: ""
@@ -1319,7 +1319,7 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
+    link: 'assets/pdfs/24-final-lecture.pdf'
     name: "Semester Review"
   reading:
     link: ""
