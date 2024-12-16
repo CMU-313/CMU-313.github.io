@@ -1,0 +1,809 @@
+%PDF-1.3
+1 0 obj
+<< /Type /Catalog
+/Outlines 2 0 R
+/Pages 3 0 R >>
+endobj
+2 0 obj
+<< /Type /Outlines /Count 0 >>
+endobj
+3 0 obj
+<< /Type /Pages
+/Kids [6 0 R
+12 0 R
+28 0 R
+34 0 R
+38 0 R
+]
+/Count 5
+/Resources <<
+/ProcSet 4 0 R
+/Font << 
+/F1 8 0 R
+/F2 9 0 R
+>>
+>>
+/MediaBox [0.000 0.000 595.280 841.890]
+ >>
+endobj
+4 0 obj
+[/PDF /Text ]
+endobj
+5 0 obj
+<<
+/Creator (DOMPDF)
+/CreationDate (D:20201116185210+00'00')
+/ModDate (D:20201116185210+00'00')
+>>
+endobj
+6 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Annots [ 10 0 R ]
+/Contents 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/Length 6031 >>
+stream
+
+0.000 0.000 0.000 rg
+BT 34.016 768.985 Td /F1 24.0 Tf  [(17-313: Foundations of Software Engineering)] TJ ET
+BT 34.016 724.393 Td /F1 24.0 Tf  [(Homework 5: Quality Assurance for the People)] TJ ET
+BT 34.016 691.205 Td /F2 12.0 Tf  [(In this assignment, you will carefully consider and engage in several QA-related processes to evaluate and )] TJ ET
+BT 34.016 676.949 Td /F2 12.0 Tf  [(look for defects in your prototype Mayan-EDMS-based graduate admissions system. The goals of this )] TJ ET
+BT 34.016 662.693 Td /F2 12.0 Tf  [(assignment are:)] TJ ET
+0.000 0.000 0.000 RG
+57.816 639.542 m 
+57.816 640.092 57.589 640.638 57.201 641.027 c
+56.812 641.416 56.266 641.642 55.716 641.642 c
+55.166 641.642 54.620 641.416 54.231 641.027 c
+53.842 640.638 53.616 640.092 53.616 639.542 c
+53.616 638.992 53.842 638.446 54.231 638.057 c
+54.620 637.669 55.166 637.442 55.716 637.442 c
+56.266 637.442 56.812 637.669 57.201 638.057 c
+57.589 638.446 57.816 638.992 57.816 639.542 c f
+BT 64.016 624.437 Td /F2 12.0 Tf  [(Gain hands-on experience with analysis tools, including setting up, customizing, and using them.)] TJ ET
+57.816 601.286 m 
+57.816 601.836 57.589 602.382 57.201 602.771 c
+56.812 603.160 56.266 603.386 55.716 603.386 c
+55.166 603.386 54.620 603.160 54.231 602.771 c
+53.842 602.382 53.616 601.836 53.616 601.286 c
+53.616 600.736 53.842 600.190 54.231 599.801 c
+54.620 599.413 55.166 599.186 55.716 599.186 c
+56.266 599.186 56.812 599.413 57.201 599.801 c
+57.589 600.190 57.816 600.736 57.816 601.286 c f
+BT 64.016 586.181 Td /F2 12.0 Tf  [(Practically assess and compare the costs and benefits of existing static bug-finding tools.)] TJ ET
+57.816 563.030 m 
+57.816 563.580 57.589 564.126 57.201 564.515 c
+56.812 564.904 56.266 565.130 55.716 565.130 c
+55.166 565.130 54.620 564.904 54.231 564.515 c
+53.842 564.126 53.616 563.580 53.616 563.030 c
+53.616 562.480 53.842 561.934 54.231 561.545 c
+54.620 561.157 55.166 560.930 55.716 560.930 c
+56.266 560.930 56.812 561.157 57.201 561.545 c
+57.589 561.934 57.816 562.480 57.816 563.030 c f
+BT 64.016 547.925 Td /F2 12.0 Tf  [(Develop a plan to integrate and roll out tools in development practice.)] TJ ET
+57.816 524.774 m 
+57.816 525.324 57.589 525.870 57.201 526.259 c
+56.812 526.648 56.266 526.874 55.716 526.874 c
+55.166 526.874 54.620 526.648 54.231 526.259 c
+53.842 525.870 53.616 525.324 53.616 524.774 c
+53.616 524.224 53.842 523.678 54.231 523.289 c
+54.620 522.901 55.166 522.674 55.716 522.674 c
+56.266 522.674 56.812 522.901 57.201 523.289 c
+57.589 523.678 57.816 524.224 57.816 524.774 c f
+BT 64.016 509.669 Td /F2 12.0 Tf  [(Explain the predictions of a Machine Learning Model, and reason about their implications.)] TJ ET
+BT 34.016 467.453 Td /F1 12.0 Tf  [(Project Context and Tasks)] TJ ET
+BT 34.016 437.237 Td /F2 12.0 Tf  [(Quality Assurance is a critical part of software development. Although you have been testing your new )] TJ ET
+BT 34.016 422.981 Td /F2 12.0 Tf  [(graduate admissions system this whole time, you are now setting out to establish a sustained QA practice )] TJ ET
+BT 34.016 408.725 Td /F2 12.0 Tf  [(that can be used moving forward as you iterate over and continue to improve your system. Your CTO has )] TJ ET
+BT 34.016 394.469 Td /F2 12.0 Tf  [(assigned you the task of evaluating existing tools and practices beyond unit testing, and producing a report )] TJ ET
+BT 34.016 380.213 Td /F2 12.0 Tf  [(on \(A\) the cost/benefit tradeoffs and risks of several tools and processes and \(B\) how they might fit in )] TJ ET
+BT 34.016 365.957 Td /F2 12.0 Tf  [(development practice.)] TJ ET
+BT 34.016 335.741 Td /F1 12.0 Tf  [(Static Analysis)] TJ ET
+BT 34.016 305.525 Td /F2 12.0 Tf  [(First, you will evaluate and choose between a set of static analysis tools, integrate it into your )] TJ ET
+BT 34.016 291.269 Td /F2 12.0 Tf  [(build/deployment pipeline, and document your decisions/process by way of a design document/RFC. For the )] TJ ET
+BT 34.016 277.013 Td /F2 12.0 Tf  [(purposes of this RFC, you must identify and experiment with at least N potential static analysis tools that are )] TJ ET
+BT 34.016 262.757 Td /F2 12.0 Tf  [(applicable to your system, where N is the size of your group. We provide a starter list below; at least one )] TJ ET
+BT 34.016 248.501 Td /F2 12.0 Tf  [(tool must be taken from either a Google search or from the Awesome Static Analysis page \(that is, cannot )] TJ ET
+BT 34.016 234.245 Td /F2 12.0 Tf  [(otherwise be listed in the bulleted list\).)] TJ ET
+BT 34.016 207.989 Td /F2 12.0 Tf  [(Import the latest/best version of your code \(ideally one with a large number of commits, see part \(3\)\) from )] TJ ET
+BT 34.016 193.733 Td /F2 12.0 Tf  [(any prior homework into a fresh repository. You can create a HW 5 repository using this link:)] TJ ET
+0.000 0.000 0.800 rg
+BT 34.016 167.477 Td /F2 12.0 Tf  [(Create Assignment with Github Classroom)] TJ ET
+0.000 0.000 0.800 RG
+0.6 w 0 J [  ] 0 d
+34.016 164.777 m 240.680 164.777 l S
+0.000 0.000 0.000 rg
+BT 34.016 141.221 Td /F2 12.0 Tf  [(Apply the tools to your project. You may also apply it to one or more other programs if you wish to assess it )] TJ ET
+BT 34.016 126.965 Td /F2 12.0 Tf  [(in different contexts. Consider and experiment with the types of customization that are appropriate or )] TJ ET
+BT 34.016 112.709 Td /F2 12.0 Tf  [(necessary for this tool, both a priori \(before they can be used in your project\) and possibly over time. Assess )] TJ ET
+BT 34.016 98.453 Td /F2 12.0 Tf  [(the strengths and weaknesses of each tool/technique, both quantitatively and qualitatively. You might )] TJ ET
+BT 34.016 84.197 Td /F2 12.0 Tf  [(consider issues like, but not limited to: what types of problems are you hoping your tooling will catch? What )] TJ ET
+BT 34.016 69.941 Td /F2 12.0 Tf  [(types of problems does a particular tool catch? What types of customization are possible or necessary? How )] TJ ET
+BT 34.016 55.685 Td /F2 12.0 Tf  [(can/should this tool be integrated into a development process? Are there many false positives? False )] TJ ET
+endstream
+endobj
+8 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F1
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+>>
+endobj
+9 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F2
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 11 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 34.0157 166.3975 240.6797 178.2775 ]
+>>
+endobj
+11 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://classroom.github.com/g/HQHxrion)
+>>
+endobj
+12 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Annots [ 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R ]
+/Contents 13 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 7904 >>
+stream
+
+0.000 0.000 0.000 rg
+0.000 0.000 0.800 RG
+0.6 w 0 J [  ] 0 d
+BT 34.016 796.469 Td /F2 12.0 Tf  [(negatives? True positive reports about things you don't care about?)] TJ ET
+BT 34.016 770.213 Td /F2 12.0 Tf  [(The deliverable for this part, at a high level, is a Design Document/RFC that explains and justifies the static )] TJ ET
+BT 34.016 755.957 Td /F2 12.0 Tf  [(analysis tooling you propose to incorporate into your process, and how you propose to do so. This decision )] TJ ET
+BT 34.016 741.701 Td /F2 12.0 Tf  [(should be feature- and data-driven, and should consider usability and process questions like how and when )] TJ ET
+BT 34.016 727.445 Td /F2 12.0 Tf  [(the tooling will be applied, and by whom. See below for more details.)] TJ ET
+BT 34.016 701.189 Td /F1 12.0 Tf  [(NOTE: you do not need to integrate ALL N tools into your repo, but you should integrate at least \(1\) )] TJ ET
+BT 34.016 686.933 Td /F1 12.0 Tf  [(tool so that it runs via CI, and have one commit on which it was run. You should reference this )] TJ ET
+BT 34.016 672.677 Td /F1 12.0 Tf  [(commit in your design document)] TJ ET
+BT 34.016 646.421 Td /F1 12.0 Tf  [(Starter list of Tools:)] TJ ET
+0.000 0.000 0.000 RG
+57.816 623.270 m 
+57.816 623.820 57.589 624.366 57.201 624.755 c
+56.812 625.144 56.266 625.370 55.716 625.370 c
+55.166 625.370 54.620 625.144 54.231 624.755 c
+53.842 624.366 53.616 623.820 53.616 623.270 c
+53.616 622.720 53.842 622.174 54.231 621.785 c
+54.620 621.397 55.166 621.170 55.716 621.170 c
+56.266 621.170 56.812 621.397 57.201 621.785 c
+57.589 622.174 57.816 622.720 57.816 623.270 c f
+0.000 0.000 0.800 rg
+BT 64.016 608.165 Td /F2 12.0 Tf  [(Pylint)] TJ ET
+0.000 0.000 0.800 RG
+0.6 w 0 J [  ] 0 d
+64.016 605.465 m 92.696 605.465 l S
+0.000 0.000 0.000 rg
+BT 92.696 608.165 Td /F2 12.0 Tf  [(, one of the best-known and most widely-used Python static analysis suite, provides a collection )] TJ ET
+BT 64.016 593.909 Td /F2 12.0 Tf  [(of tools, including a linter/style checker, pyreverse \(which reverse-engineers UML diagrams\), etc.)] TJ ET
+0.000 0.000 0.000 RG
+57.816 570.758 m 
+57.816 571.308 57.589 571.854 57.201 572.243 c
+56.812 572.632 56.266 572.858 55.716 572.858 c
+55.166 572.858 54.620 572.632 54.231 572.243 c
+53.842 571.854 53.616 571.308 53.616 570.758 c
+53.616 570.208 53.842 569.662 54.231 569.273 c
+54.620 568.885 55.166 568.658 55.716 568.658 c
+56.266 568.658 56.812 568.885 57.201 569.273 c
+57.589 569.662 57.816 570.208 57.816 570.758 c f
+0.000 0.000 0.800 rg
+BT 64.016 555.653 Td /F2 12.0 Tf  [(Pyflakes)] TJ ET
+0.000 0.000 0.800 RG
+0.6 w 0 J [  ] 0 d
+64.016 552.953 m 105.344 552.953 l S
+0.000 0.000 0.000 rg
+BT 105.344 555.653 Td /F2 12.0 Tf  [( is similar to the core linter in pylint, but with an emphasis on speed and low false positives.)] TJ ET
+0.000 0.000 0.000 RG
+57.816 532.502 m 
+57.816 533.052 57.589 533.598 57.201 533.987 c
+56.812 534.376 56.266 534.602 55.716 534.602 c
+55.166 534.602 54.620 534.376 54.231 533.987 c
+53.842 533.598 53.616 533.052 53.616 532.502 c
+53.616 531.952 53.842 531.406 54.231 531.017 c
+54.620 530.629 55.166 530.402 55.716 530.402 c
+56.266 530.402 56.812 530.629 57.201 531.017 c
+57.589 531.406 57.816 531.952 57.816 532.502 c f
+0.000 0.000 0.800 rg
+BT 64.016 517.397 Td /F2 12.0 Tf  [(Mypy)] TJ ET
+0.000 0.000 0.800 RG
+0.6 w 0 J [  ] 0 d
+64.016 514.697 m 92.684 514.697 l S
+0.000 0.000 0.000 rg
+BT 92.684 517.397 Td /F2 12.0 Tf  [( provides static type checking for Python)] TJ ET
+0.000 0.000 0.000 RG
+57.816 494.246 m 
+57.816 494.796 57.589 495.342 57.201 495.731 c
+56.812 496.120 56.266 496.346 55.716 496.346 c
+55.166 496.346 54.620 496.120 54.231 495.731 c
+53.842 495.342 53.616 494.796 53.616 494.246 c
+53.616 493.696 53.842 493.150 54.231 492.761 c
+54.620 492.373 55.166 492.146 55.716 492.146 c
+56.266 492.146 56.812 492.373 57.201 492.761 c
+57.589 493.150 57.816 493.696 57.816 494.246 c f
+0.000 0.000 0.800 rg
+BT 64.016 479.141 Td /F2 12.0 Tf  [(sonarQube)] TJ ET
+0.000 0.000 0.800 RG
+0.6 w 0 J [  ] 0 d
+64.016 476.441 m 116.000 476.441 l S
+0.000 0.000 0.000 rg
+BT 116.000 479.141 Td /F2 12.0 Tf  [( is a proprietary product targeting multiple languages, including Python; it has an open-)] TJ ET
+BT 64.016 464.885 Td /F2 12.0 Tf  [(source version you may want to try.)] TJ ET
+0.000 0.000 0.000 RG
+57.816 441.734 m 
+57.816 442.284 57.589 442.830 57.201 443.219 c
+56.812 443.608 56.266 443.834 55.716 443.834 c
+55.166 443.834 54.620 443.608 54.231 443.219 c
+53.842 442.830 53.616 442.284 53.616 441.734 c
+53.616 441.184 53.842 440.638 54.231 440.249 c
+54.620 439.861 55.166 439.634 55.716 439.634 c
+56.266 439.634 56.812 439.861 57.201 440.249 c
+57.589 440.638 57.816 441.184 57.816 441.734 c f
+0.000 0.000 0.800 rg
+BT 64.016 426.629 Td /F2 12.0 Tf  [(Flake8)] TJ ET
+0.000 0.000 0.800 RG
+0.6 w 0 J [  ] 0 d
+64.016 423.929 m 96.680 423.929 l S
+0.000 0.000 0.000 rg
+BT 96.680 426.629 Td /F2 12.0 Tf  [( provides a wrapper around a number of other tools.)] TJ ET
+0.000 0.000 0.000 RG
+57.816 403.478 m 
+57.816 404.028 57.589 404.574 57.201 404.963 c
+56.812 405.352 56.266 405.578 55.716 405.578 c
+55.166 405.578 54.620 405.352 54.231 404.963 c
+53.842 404.574 53.616 404.028 53.616 403.478 c
+53.616 402.928 53.842 402.382 54.231 401.993 c
+54.620 401.605 55.166 401.378 55.716 401.378 c
+56.266 401.378 56.812 401.605 57.201 401.993 c
+57.589 402.382 57.816 402.928 57.816 403.478 c f
+BT 64.016 388.373 Td /F2 12.0 Tf  [(Others are available. )] TJ ET
+0.000 0.000 0.800 rg
+BT 165.980 388.373 Td /F2 12.0 Tf  [(Awesome Static Analysis page/repo)] TJ ET
+0.000 0.000 0.800 RG
+0.6 w 0 J [  ] 0 d
+165.980 385.673 m 339.620 385.673 l S
+0.000 0.000 0.000 rg
+BT 339.620 388.373 Td /F2 12.0 Tf  [( has an extensive listing of available static )] TJ ET
+BT 64.016 374.117 Td /F2 12.0 Tf  [(analysis tools for a pretty hefty list of programming languages, including Python. Other tools target )] TJ ET
+BT 64.016 359.861 Td /F2 12.0 Tf  [(Django specifically; use your Googling skills, and see what you find!)] TJ ET
+BT 34.016 317.645 Td /F1 12.0 Tf  [(ML Model Assessment)] TJ ET
+BT 34.016 287.429 Td /F2 12.0 Tf  [(In the last homework assignment, you created a Machine Learning model. Your CTO is seriously )] TJ ET
+BT 34.016 273.173 Td /F2 12.0 Tf  [(considering adding it into your product. However, before announcing it as a feature, she wants to ensure that )] TJ ET
+BT 34.016 258.917 Td /F2 12.0 Tf  [(your team has a deep understanding of how the ML model is working, as well as that it is tested with respect )] TJ ET
+BT 34.016 244.661 Td /F2 12.0 Tf  [(to any concerns that may have surfaced previously.)] TJ ET
+BT 34.016 218.405 Td /F2 12.0 Tf  [(For this task, your team is tasked with writing a data-driven report for your CTO. You should evaluate the )] TJ ET
+BT 34.016 204.149 Td /F2 12.0 Tf  [(model, test outcomes, present your findings, and discuss them.)] TJ ET
+BT 34.016 177.893 Td /F2 12.0 Tf  [(Your first task to to present a data-driven analysis of the predictions that your model is making. You will do )] TJ ET
+BT 34.016 163.637 Td /F2 12.0 Tf  [(this using the LIME tool we have previously looked at in class: )] TJ ET
+0.000 0.000 0.800 rg
+BT 340.664 163.637 Td /F2 12.0 Tf  [(https://github.com/marcotcr/lime)] TJ ET
+0.6 w 0 J [  ] 0 d
+340.664 160.937 m 499.004 160.937 l S
+0.000 0.000 0.000 rg
+BT 34.016 137.381 Td /F2 12.0 Tf  [(Run this tool on your model, and collect data on how the model is making predictions. You should use this )] TJ ET
+BT 34.016 123.125 Td /F2 12.0 Tf  [(data to report on the behavior of the ML recommendation system.)] TJ ET
+BT 34.016 96.869 Td /F2 12.0 Tf  [(This step will allow your company to ensure that the ML is working properly. However, you are also )] TJ ET
+BT 34.016 82.613 Td /F2 12.0 Tf  [(concerned with fairness.)] TJ ET
+BT 34.016 56.357 Td /F2 12.0 Tf  [(You should also include in your report a data-driven analysis of the fairness of your algorithm. To analyze )] TJ ET
+endstream
+endobj
+14 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 15 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 64.0157 607.0855 92.6957 618.9655 ]
+>>
+endobj
+15 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://www.pylint.org/)
+>>
+endobj
+16 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 17 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 64.0157 554.5735 105.3437 566.4535 ]
+>>
+endobj
+17 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://pypi.org/project/pyflakes/)
+>>
+endobj
+18 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 19 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 64.0157 516.3175 92.6837 528.1975 ]
+>>
+endobj
+19 0 obj
+<< /Type /Action
+/S /URI
+/URI (http://www.mypy-lang.org/)
+>>
+endobj
+20 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 21 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 64.0157 478.0615 115.9997 489.9415 ]
+>>
+endobj
+21 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://www.sonarqube.org/features/multi-languages/)
+>>
+endobj
+22 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 23 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 64.0157 425.5495 96.6797 437.4295 ]
+>>
+endobj
+23 0 obj
+<< /Type /Action
+/S /URI
+/URI (http://flake8.pycqa.org/en/latest/)
+>>
+endobj
+24 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 25 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 165.9797 387.2935 339.6197 399.1735 ]
+>>
+endobj
+25 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://endler.dev/awesome-static-analysis/)
+>>
+endobj
+26 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 27 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 340.6637 162.5575 499.0037 174.4375 ]
+>>
+endobj
+27 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://github.com/marcotcr/lime)
+>>
+endobj
+28 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Annots [ 30 0 R 32 0 R ]
+/Contents 29 0 R
+>>
+endobj
+29 0 obj
+<<
+/Length 9015 >>
+stream
+
+0.000 0.000 0.000 rg
+0.000 0.000 0.800 RG
+0.6 w 0 J [  ] 0 d
+BT 34.016 796.469 Td /F2 12.0 Tf  [(the fairness, you should remember the fairness discussion we had in class, based on this tool: )] TJ ET
+0.000 0.000 0.800 rg
+BT 483.296 796.469 Td /F2 12.0 Tf  [(ML )] TJ ET
+0.6 w 0 J [  ] 0 d
+483.296 793.769 m 504.296 793.769 l S
+BT 34.016 782.213 Td /F2 12.0 Tf  [(Discrimination)] TJ ET
+0.6 w 0 J [  ] 0 d
+34.016 779.513 m 106.016 779.513 l S
+0.000 0.000 0.000 rg
+BT 34.016 755.957 Td /F2 12.0 Tf  [(Finally, you report should include a recommendation if you want to use the ML, scrap it, or make specific )] TJ ET
+BT 34.016 741.701 Td /F2 12.0 Tf  [(improvements before rolling it out. Specifically your report should include the following information:)] TJ ET
+0.000 0.000 0.000 RG
+57.816 718.550 m 
+57.816 719.100 57.589 719.646 57.201 720.035 c
+56.812 720.424 56.266 720.650 55.716 720.650 c
+55.166 720.650 54.620 720.424 54.231 720.035 c
+53.842 719.646 53.616 719.100 53.616 718.550 c
+53.616 718.000 53.842 717.454 54.231 717.065 c
+54.620 716.677 55.166 716.450 55.716 716.450 c
+56.266 716.450 56.812 716.677 57.201 717.065 c
+57.589 717.454 57.816 718.000 57.816 718.550 c f
+BT 64.016 703.445 Td /F2 12.0 Tf  [(Data-driven analysis of the predictions the model is making.)] TJ ET
+57.816 680.294 m 
+57.816 680.844 57.589 681.390 57.201 681.779 c
+56.812 682.168 56.266 682.394 55.716 682.394 c
+55.166 682.394 54.620 682.168 54.231 681.779 c
+53.842 681.390 53.616 680.844 53.616 680.294 c
+53.616 679.744 53.842 679.198 54.231 678.809 c
+54.620 678.421 55.166 678.194 55.716 678.194 c
+56.266 678.194 56.812 678.421 57.201 678.809 c
+57.589 679.198 57.816 679.744 57.816 680.294 c f
+BT 64.016 665.189 Td /F2 12.0 Tf  [(Any concerns you have about the quality of the predictions in light of this data.)] TJ ET
+57.816 642.038 m 
+57.816 642.588 57.589 643.134 57.201 643.523 c
+56.812 643.912 56.266 644.138 55.716 644.138 c
+55.166 644.138 54.620 643.912 54.231 643.523 c
+53.842 643.134 53.616 642.588 53.616 642.038 c
+53.616 641.488 53.842 640.942 54.231 640.553 c
+54.620 640.165 55.166 639.938 55.716 639.938 c
+56.266 639.938 56.812 640.165 57.201 640.553 c
+57.589 640.942 57.816 641.488 57.816 642.038 c f
+BT 64.016 626.933 Td /F2 12.0 Tf  [(Any features in the data you are concerned about from a fairness perspective. HINT: you might want )] TJ ET
+BT 64.016 612.677 Td /F2 12.0 Tf  [(to consult your last homework when considering this.)] TJ ET
+57.816 589.526 m 
+57.816 590.076 57.589 590.622 57.201 591.011 c
+56.812 591.400 56.266 591.626 55.716 591.626 c
+55.166 591.626 54.620 591.400 54.231 591.011 c
+53.842 590.622 53.616 590.076 53.616 589.526 c
+53.616 588.976 53.842 588.430 54.231 588.041 c
+54.620 587.653 55.166 587.426 55.716 587.426 c
+56.266 587.426 56.812 587.653 57.201 588.041 c
+57.589 588.430 57.816 588.976 57.816 589.526 c f
+BT 64.016 574.421 Td /F2 12.0 Tf  [(A data-driven analysis of the interplay between these features and your ML model. There are various )] TJ ET
+BT 64.016 560.165 Td /F2 12.0 Tf  [(ways to do this, but a simple approach might consider the following:)] TJ ET
+0.48 w 1 J 1 j
+87.816 537.014 m 
+87.816 537.564 87.589 538.110 87.201 538.499 c
+86.812 538.888 86.266 539.114 85.716 539.114 c
+85.166 539.114 84.620 538.888 84.231 538.499 c
+83.842 538.110 83.616 537.564 83.616 537.014 c
+83.616 536.464 83.842 535.918 84.231 535.529 c
+84.620 535.141 85.166 534.914 85.716 534.914 c
+86.266 534.914 86.812 535.141 87.201 535.529 c
+87.589 535.918 87.816 536.464 87.816 537.014 c s
+BT 94.016 521.909 Td /F2 12.0 Tf  [(Distribution of this feature in your dataset.)] TJ ET
+0.48 w 1 J 1 j
+87.816 498.758 m 
+87.816 499.308 87.589 499.854 87.201 500.243 c
+86.812 500.632 86.266 500.858 85.716 500.858 c
+85.166 500.858 84.620 500.632 84.231 500.243 c
+83.842 499.854 83.616 499.308 83.616 498.758 c
+83.616 498.208 83.842 497.662 84.231 497.273 c
+84.620 496.885 85.166 496.658 85.716 496.658 c
+86.266 496.658 86.812 496.885 87.201 497.273 c
+87.589 497.662 87.816 498.208 87.816 498.758 c s
+BT 94.016 483.653 Td /F2 12.0 Tf  [(Distribution of this feature in your accepted and rejected recommendation populations)] TJ ET
+0.48 w 1 J 1 j
+87.816 460.502 m 
+87.816 461.052 87.589 461.598 87.201 461.987 c
+86.812 462.376 86.266 462.602 85.716 462.602 c
+85.166 462.602 84.620 462.376 84.231 461.987 c
+83.842 461.598 83.616 461.052 83.616 460.502 c
+83.616 459.952 83.842 459.406 84.231 459.017 c
+84.620 458.629 85.166 458.402 85.716 458.402 c
+86.266 458.402 86.812 458.629 87.201 459.017 c
+87.589 459.406 87.816 459.952 87.816 460.502 c s
+BT 94.016 445.397 Td /F2 12.0 Tf  [(Relationship between this feature and your false positives and false negatives.)] TJ ET
+57.816 422.246 m 
+57.816 422.796 57.589 423.342 57.201 423.731 c
+56.812 424.120 56.266 424.346 55.716 424.346 c
+55.166 424.346 54.620 424.120 54.231 423.731 c
+53.842 423.342 53.616 422.796 53.616 422.246 c
+53.616 421.696 53.842 421.150 54.231 420.761 c
+54.620 420.373 55.166 420.146 55.716 420.146 c
+56.266 420.146 56.812 420.373 57.201 420.761 c
+57.589 421.150 57.816 421.696 57.816 422.246 c f
+BT 64.016 407.141 Td /F2 12.0 Tf  [(Based on this data, you should consider what is the fairness strategy that you are trying to achieve. )] TJ ET
+BT 64.016 392.885 Td /F2 12.0 Tf  [(You may use one of the fairness strategies we considered in class, or define your own. If you define a )] TJ ET
+BT 64.016 378.629 Td /F2 12.0 Tf  [(new fairness strategy, you should describe it, and present why you think it is a better fit than any of the )] TJ ET
+BT 64.016 364.373 Td /F2 12.0 Tf  [(existing strategies for this product.)] TJ ET
+57.816 341.222 m 
+57.816 341.772 57.589 342.318 57.201 342.707 c
+56.812 343.096 56.266 343.322 55.716 343.322 c
+55.166 343.322 54.620 343.096 54.231 342.707 c
+53.842 342.318 53.616 341.772 53.616 341.222 c
+53.616 340.672 53.842 340.126 54.231 339.737 c
+54.620 339.349 55.166 339.122 55.716 339.122 c
+56.266 339.122 56.812 339.349 57.201 339.737 c
+57.589 340.126 57.816 340.672 57.816 341.222 c f
+BT 64.016 326.117 Td /F2 12.0 Tf  [(If you are not happy with the performance of the system, based on the data you have collected, you )] TJ ET
+BT 64.016 311.861 Td /F2 12.0 Tf  [(should do the following:)] TJ ET
+0.48 w 1 J 1 j
+87.816 288.710 m 
+87.816 289.260 87.589 289.806 87.201 290.195 c
+86.812 290.584 86.266 290.810 85.716 290.810 c
+85.166 290.810 84.620 290.584 84.231 290.195 c
+83.842 289.806 83.616 289.260 83.616 288.710 c
+83.616 288.160 83.842 287.614 84.231 287.225 c
+84.620 286.837 85.166 286.610 85.716 286.610 c
+86.266 286.610 86.812 286.837 87.201 287.225 c
+87.589 287.614 87.816 288.160 87.816 288.710 c s
+BT 94.016 273.605 Td /F2 12.0 Tf  [(Report on what aspects of the system you are unhappy with)] TJ ET
+0.48 w 1 J 1 j
+87.816 250.454 m 
+87.816 251.004 87.589 251.550 87.201 251.939 c
+86.812 252.328 86.266 252.554 85.716 252.554 c
+85.166 252.554 84.620 252.328 84.231 251.939 c
+83.842 251.550 83.616 251.004 83.616 250.454 c
+83.616 249.904 83.842 249.358 84.231 248.969 c
+84.620 248.581 85.166 248.354 85.716 248.354 c
+86.266 248.354 86.812 248.581 87.201 248.969 c
+87.589 249.358 87.816 249.904 87.816 250.454 c s
+BT 94.016 235.349 Td /F2 12.0 Tf  [(Iterate your model 1 iteration, and see if you can improve its performance. Most likely, this will )] TJ ET
+BT 94.016 221.093 Td /F2 12.0 Tf  [(NOT be enough to fix it, but your goal in this assignment is to learn enough to make a )] TJ ET
+BT 94.016 206.837 Td /F2 12.0 Tf  [(reasonable estimate of the effort needed to fix the model.)] TJ ET
+0.48 w 1 J 1 j
+87.816 183.686 m 
+87.816 184.236 87.589 184.782 87.201 185.171 c
+86.812 185.560 86.266 185.786 85.716 185.786 c
+85.166 185.786 84.620 185.560 84.231 185.171 c
+83.842 184.782 83.616 184.236 83.616 183.686 c
+83.616 183.136 83.842 182.590 84.231 182.201 c
+84.620 181.813 85.166 181.586 85.716 181.586 c
+86.266 181.586 86.812 181.813 87.201 182.201 c
+87.589 182.590 87.816 183.136 87.816 183.686 c s
+BT 94.016 168.581 Td /F2 12.0 Tf  [(Make an estimate of how long it will take to bring the model up to acceptable performance. This )] TJ ET
+BT 94.016 154.325 Td /F2 12.0 Tf  [(can be a )] TJ ET
+BT 136.328 154.325 Td /F2 12.0 Tf  [(")] TJ ET
+BT 141.224 154.325 Td /F2 12.0 Tf  [(T-Shirt)] TJ ET
+BT 175.892 154.325 Td /F2 12.0 Tf  [(")] TJ ET
+BT 180.788 154.325 Td /F2 12.0 Tf  [( estimate \(e.g., S/M/L/XL\) but it should also include completion criteria. This )] TJ ET
+BT 94.016 140.069 Td /F2 12.0 Tf  [(will look like specific thresholds that your model should achieve before you would be )] TJ ET
+BT 94.016 125.813 Td /F2 12.0 Tf  [(comfortable shipping it as a part of your product.)] TJ ET
+57.816 102.662 m 
+57.816 103.212 57.589 103.758 57.201 104.147 c
+56.812 104.536 56.266 104.762 55.716 104.762 c
+55.166 104.762 54.620 104.536 54.231 104.147 c
+53.842 103.758 53.616 103.212 53.616 102.662 c
+53.616 102.112 53.842 101.566 54.231 101.177 c
+54.620 100.789 55.166 100.562 55.716 100.562 c
+56.266 100.562 56.812 100.789 57.201 101.177 c
+57.589 101.566 57.816 102.112 57.816 102.662 c f
+endstream
+endobj
+30 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 31 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 483.2957 795.3895 504.2957 807.2695 ]
+>>
+endobj
+31 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://research.google.com/bigpicture/attacking-discrimination-in-ml/)
+>>
+endobj
+32 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 33 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 34.0157 781.1335 106.0157 793.0135 ]
+>>
+endobj
+33 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://research.google.com/bigpicture/attacking-discrimination-in-ml/)
+>>
+endobj
+34 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Annots [ 36 0 R ]
+/Contents 35 0 R
+>>
+endobj
+35 0 obj
+<<
+/Length 5824 >>
+stream
+
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+0.48 w 1 J 1 j
+BT 64.016 784.469 Td /F2 12.0 Tf  [(At the end of this report, make a recommendation to your CTO. This recommendation should be one )] TJ ET
+BT 64.016 770.213 Td /F2 12.0 Tf  [(of the following:)] TJ ET
+0.48 w 1 J 1 j
+87.816 747.062 m 
+87.816 747.612 87.589 748.158 87.201 748.547 c
+86.812 748.936 86.266 749.162 85.716 749.162 c
+85.166 749.162 84.620 748.936 84.231 748.547 c
+83.842 748.158 83.616 747.612 83.616 747.062 c
+83.616 746.512 83.842 745.966 84.231 745.577 c
+84.620 745.189 85.166 744.962 85.716 744.962 c
+86.266 744.962 86.812 745.189 87.201 745.577 c
+87.589 745.966 87.816 746.512 87.816 747.062 c s
+BT 94.016 731.957 Td /F2 12.0 Tf  [(It is good enough to use now, we should ship it.)] TJ ET
+0.48 w 1 J 1 j
+87.816 708.806 m 
+87.816 709.356 87.589 709.902 87.201 710.291 c
+86.812 710.680 86.266 710.906 85.716 710.906 c
+85.166 710.906 84.620 710.680 84.231 710.291 c
+83.842 709.902 83.616 709.356 83.616 708.806 c
+83.616 708.256 83.842 707.710 84.231 707.321 c
+84.620 706.933 85.166 706.706 85.716 706.706 c
+86.266 706.706 86.812 706.933 87.201 707.321 c
+87.589 707.710 87.816 708.256 87.816 708.806 c s
+BT 94.016 693.701 Td /F2 12.0 Tf  [(It is not good enough to ship, but we have a plan to improve it)] TJ ET
+0.48 w 1 J 1 j
+87.816 670.550 m 
+87.816 671.100 87.589 671.646 87.201 672.035 c
+86.812 672.424 86.266 672.650 85.716 672.650 c
+85.166 672.650 84.620 672.424 84.231 672.035 c
+83.842 671.646 83.616 671.100 83.616 670.550 c
+83.616 670.000 83.842 669.454 84.231 669.065 c
+84.620 668.677 85.166 668.450 85.716 668.450 c
+86.266 668.450 86.812 668.677 87.201 669.065 c
+87.589 669.454 87.816 670.000 87.816 670.550 c s
+BT 94.016 655.445 Td /F2 12.0 Tf  [(We don't feel comfortable shipping this feature, we should scrap it.)] TJ ET
+BT 34.016 613.229 Td /F1 12.0 Tf  [(Deadlines and Deliverables)] TJ ET
+BT 34.016 583.013 Td /F2 12.0 Tf  [(This homework has one \(1\) deadline and two \(2\) deliverables. The deadline \()] TJ ET
+BT 404.264 583.013 Td /F1 12.0 Tf  [(Tuesday,)] TJ ET
+BT 453.608 583.013 Td /F1 12.0 Tf  [(Nov 24th)] TJ ET
+BT 499.940 583.013 Td /F2 12.0 Tf  [(\) is for all )] TJ ET
+BT 34.016 568.757 Td /F2 12.0 Tf  [(the deliverables: the static analysis design doc, and the report on the ML model.)] TJ ET
+BT 34.016 542.501 Td /F1 12.0 Tf  [(Part A: Static Analysis - Group \(due Nov 24\) - 100 points \(50%\))] TJ ET
+BT 34.016 516.245 Td /F2 12.0 Tf  [(The deliverable for this part is a Design Document/RFC that provides \(1\) a justified explanation for which )] TJ ET
+BT 34.016 501.989 Td /F2 12.0 Tf  [(tool\(s\) you think the project should use moving forward, and \(2\) how it shall be integrated into your process )] TJ ET
+BT 34.016 487.733 Td /F2 12.0 Tf  [(\(you must recommend at least one tool, even if it's with reservations\). This latter point should address both )] TJ ET
+BT 34.016 473.477 Td /F2 12.0 Tf  [(technical \(e.g., at what point in the development/deployment process shall it be integrated? What sorts of )] TJ ET
+BT 34.016 459.221 Td /F2 12.0 Tf  [(customization or configuration will you be using?\) and social issues \(e.g., how will you incentivize the )] TJ ET
+BT 34.016 444.965 Td /F2 12.0 Tf  [(change?\), as applicable. The justification should be based on your experiences running the tools and, as )] TJ ET
+BT 34.016 430.709 Td /F2 12.0 Tf  [(much as possible, be grounded in data about, for example, tool usability, output, and customizability.)] TJ ET
+BT 34.016 404.453 Td /F2 12.0 Tf  [(Be sure the RFC also explains/justifies the alternative tools \(or process options, if pertinent\) that have been )] TJ ET
+BT 34.016 390.197 Td /F2 12.0 Tf  [(rejected. To receive full credit, you must consider at least N total tool options in your RFC, where N is the )] TJ ET
+BT 34.016 375.941 Td /F2 12.0 Tf  [(size of your team.)] TJ ET
+BT 34.016 349.685 Td /F2 12.0 Tf  [(The document should also contain other relevant sections for a Design Document/RFC for this type of )] TJ ET
+BT 34.016 335.429 Td /F2 12.0 Tf  [(\(development process\) feature. Are there open questions? Issues you consider out of scope? Drawbacks of )] TJ ET
+BT 34.016 321.173 Td /F2 12.0 Tf  [(the proposed process/tooling that you are accepting for some \(good\) reason? Etc. That is: make sure it's a )] TJ ET
+BT 34.016 306.917 Td /F2 12.0 Tf  [(good/complete design document!)] TJ ET
+BT 34.016 280.661 Td /F1 12.0 Tf  [(NOTE: in your PDF submitted to gradescope, you should explictly reference at least one commit on )] TJ ET
+BT 34.016 266.405 Td /F1 12.0 Tf  [(which your tool has been run in your repo.)] TJ ET
+BT 34.016 240.149 Td /F2 12.0 Tf  [(Submit the Design Document as a single PDF to Gradescope.)] TJ ET
+BT 34.016 213.893 Td /F1 12.0 Tf  [(Part B: ML Explainability -- Group \(due Nov 24\) -- 100 points \(50%\))] TJ ET
+BT 34.016 187.637 Td /F2 12.0 Tf  [(After your success with HW4, your team has started collecing data in production.)] TJ ET
+BT 34.016 161.381 Td /F2 12.0 Tf  [(This new data for your ML service goes well beyond the data you used for testing. You can find the updated )] TJ ET
+BT 34.016 147.125 Td /F2 12.0 Tf  [(data here: )] TJ ET
+0.000 0.000 0.800 rg
+BT 83.996 147.125 Td /F2 12.0 Tf  [(Production Data)] TJ ET
+0.000 0.000 0.800 RG
+0.6 w 0 J [  ] 0 d
+83.996 144.425 m 162.320 144.425 l S
+0.000 0.000 0.000 rg
+BT 162.320 147.125 Td /F2 12.0 Tf  [( For the rest of the assignment, you should be using the more complete production )] TJ ET
+BT 34.016 132.869 Td /F2 12.0 Tf  [(data in the place of the previous limited training data.)] TJ ET
+BT 34.016 106.613 Td /F2 12.0 Tf  [(For this deliverable, you will be collecting data, and writing a report. The report should include the data you )] TJ ET
+BT 34.016 92.357 Td /F2 12.0 Tf  [(collect as well as your interpretation of the data.)] TJ ET
+endstream
+endobj
+36 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 37 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 83.9957 146.0455 162.3197 157.9255 ]
+>>
+endobj
+37 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://cmu-313.github.io/homeworks/ProductionData.csv.zip)
+>>
+endobj
+38 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents 39 0 R
+>>
+endobj
+39 0 obj
+<<
+/Length 1577 >>
+stream
+
+0.000 0.000 0.000 rg
+0.000 0.000 0.800 RG
+0.6 w 0 J [  ] 0 d
+BT 34.016 784.469 Td /F2 12.0 Tf  [(First, you should collect data by running LIME on your ML model from the last homework, with the new )] TJ ET
+BT 34.016 770.213 Td /F2 12.0 Tf  [(data. You should present the results of this as data in your report.)] TJ ET
+BT 34.016 743.957 Td /F2 12.0 Tf  [(Then, you will interpret the data to explain why your machine learning model is making predictions. This )] TJ ET
+BT 34.016 729.701 Td /F2 12.0 Tf  [(information should include the features that provide the most predictive power.)] TJ ET
+BT 34.016 703.445 Td /F2 12.0 Tf  [(You should also evaluate your machine learning model considering fairness issues. You will evaluate the )] TJ ET
+BT 34.016 689.189 Td /F2 12.0 Tf  [(performance of your model with a specific target fairness strategy in mind, and if you are unhappy with the )] TJ ET
+BT 34.016 674.933 Td /F2 12.0 Tf  [(fairness of the model, you will come up with thresholds that you feel the model must meet before you would )] TJ ET
+BT 34.016 660.677 Td /F2 12.0 Tf  [(feel comfortable using it.s)] TJ ET
+BT 34.016 634.421 Td /F2 12.0 Tf  [(Based on your findings, you should recommend one of three options. You might feel that the Model is good )] TJ ET
+BT 34.016 620.165 Td /F2 12.0 Tf  [(enough to deploy as is, you might recommend specific changes before you deploy, or you might recommend )] TJ ET
+BT 34.016 605.909 Td /F2 12.0 Tf  [(it not be deployed at all.)] TJ ET
+BT 34.016 579.653 Td /F2 12.0 Tf  [(Submit this report as a PDF via Gradescope.)] TJ ET
+endstream
+endobj
+xref
+0 40
+0000000000 65535 f 
+0000000009 00000 n 
+0000000074 00000 n 
+0000000120 00000 n 
+0000000312 00000 n 
+0000000341 00000 n 
+0000000455 00000 n 
+0000000537 00000 n 
+0000006620 00000 n 
+0000006728 00000 n 
+0000006837 00000 n 
+0000006964 00000 n 
+0000007055 00000 n 
+0000007181 00000 n 
+0000015138 00000 n 
+0000015264 00000 n 
+0000015339 00000 n 
+0000015466 00000 n 
+0000015552 00000 n 
+0000015678 00000 n 
+0000015755 00000 n 
+0000015882 00000 n 
+0000015985 00000 n 
+0000016111 00000 n 
+0000016197 00000 n 
+0000016325 00000 n 
+0000016420 00000 n 
+0000016548 00000 n 
+0000016632 00000 n 
+0000016723 00000 n 
+0000025791 00000 n 
+0000025919 00000 n 
+0000026041 00000 n 
+0000026168 00000 n 
+0000026290 00000 n 
+0000026374 00000 n 
+0000032251 00000 n 
+0000032378 00000 n 
+0000032488 00000 n 
+0000032553 00000 n 
+trailer
+<<
+/Size 40
+/Root 1 0 R
+/Info 5 0 R
+>>
+startxref
+34183
+%%EOF
