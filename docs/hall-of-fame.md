@@ -6,7 +6,7 @@ hide:
 
 A list of student groups with links to their merged PRs in open source projects.
 
-## 2024 Spring 
+## 2024 Fall 
 | Group Name | Team Members | Project | Merged PRs |
 | ---------- | ------------ | ------- | ---------- |
 | Sweethearts | Jullia Andrei Montejo, Jasmine Shi, Mia Li, Cheyu Tu, Alice Kang | [Daily.dev](https://github.com/dailydotdev/daily) | [#3897](https://github.com/dailydotdev/apps/pull/3897) |
