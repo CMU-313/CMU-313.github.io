@@ -66,7 +66,7 @@ nav:
       - "Project 1: Hello, NodeBB!":
           - projects/P1/index.md
           - 1A Build Checkpoint: projects/P1/1_checkpoint.md
-          # - 1B Starter Task: projects/P1/2_refactoring.md
+          - 1B Starter Task: projects/P1/2_refactoring.md
           - NodeBB Installation:
               - Mac: projects/P1/installation/mac.md
               - Windows: projects/P1/installation/windows.md
