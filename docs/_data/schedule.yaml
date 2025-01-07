@@ -59,8 +59,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/02-archaelogy.pdf"
-    name: "Software Archaeology"
+    link: "assets/pdfs/03-BoeingCaseStudy.pdf"
+    name: "Boeing Case Study"
   reading:
     link: ""
     name: ""
