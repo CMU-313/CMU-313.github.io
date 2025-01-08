@@ -2,7 +2,7 @@
 title: Recitation 1 - Understand NodeBB 
 ---
 
-# Recitation 1: Understand NodeBB - DUE Friday August 30, 11:59pm
+# Recitation 1: Understand NodeBB - DUE Friday January 17th, 11:59pm
 ### NOTE: because this recitation falls before the first day of class, we are having this recitation ONLY by asynchronous.  You will complete online, and not attend recitation in person until week 2.
 
 ## Overview
