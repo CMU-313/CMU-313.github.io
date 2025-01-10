@@ -14,9 +14,16 @@ Fork the [class-specific repository](https://github.com/CMU-313/NodeBB) into you
 
 Ensure that GitHub Actions are enabled (click the green button under the "Actions" tab), then follow the below installation instructions based on your computer's operating system:
 
+
 - [Mac](/projects/P1/installation/mac/)
 - [Windows](/projects/P1/installation/windows/)
 - [Ubuntu (Linux)](/projects/P1/installation/ubuntu/)
+
+
+!!! note "Devcontainers"
+	Note: if you are having problems with installing directly on your machine, you might want to try installing using a development container. See instructions for that here: [development container instructions](/projects/P1/developmentContainer.md)
+
+
 
 Once you have run NodeBB successfully, you should be able to navigate to [http://localhost:4567](http://localhost:4567) and see the main forum page. By default, NodeBB will be deployed to port `4567` on your machine. You may change this port number (e.g. to avoid conflict with another process running on your machine).
 
