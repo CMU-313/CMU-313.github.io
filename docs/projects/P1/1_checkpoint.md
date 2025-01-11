@@ -21,7 +21,7 @@ Ensure that GitHub Actions are enabled (click the green button under the "Action
 
 
 !!! note "Devcontainers"
-	Note: if you are having problems with installing directly on your machine, you might want to try installing using a development container. See instructions for that here: [development container instructions](/projects/P1/developmentContainer.md)
+	Note: if you are having problems with installing directly on your machine, you might want to try installing using a development container. See instructions for that here: [development container instructions](/projects/P1/developmentContainer)
 
 
 
