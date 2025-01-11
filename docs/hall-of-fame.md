@@ -6,6 +6,18 @@ hide:
 
 A list of student groups with links to their merged PRs in open source projects.
 
+## 2024 Fall 
+| Group Name | Team Members | Project | Merged PRs |
+| ---------- | ------------ | ------- | ---------- |
+| Sweethearts | Jullia Andrei Montejo, Jasmine Shi, Mia Li, Cheyu Tu, Alice Kang | [Daily.dev](https://github.com/dailydotdev/daily) | [#3897](https://github.com/dailydotdev/apps/pull/3897) |
+| Five Guys | Alexis Wang, Emily Zhu, Pauline Zhang, Ethan Tan, Justin Oeni | [Puter](https://github.com/HeyPuter/puter ) | [#980](https://github.com/HeyPuter/puter/pull/980) |
+| Craig Street Chipotle | Tracy Yang, Caroline Michalow, Yang Pan, Mathias VanBriesen, Alex Lewis | [Svelte](https://github.com/sveltejs/svelte/) | [#14615](https://github.com/sveltejs/svelte/pull/14615) |
+| Kale | Ariel Chiu, Yu Fang, Elaine Gombos, Kayla Lei | [FreeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp/) | [#57298](https://github.com/freeCodeCamp/freeCodeCamp/pull/57298)|
+| d-buggers | Omar Ghabayen, Ben Condemi, Melody Hu, Jack Sun | [Recipe Scraper](https://github.com/hhursev/recipe-scrapers) | [#1408](https://github.com/hhursev/recipe-scrapers/pull/1408), [#1411](https://github.com/hhursev/recipe-scrapers/pull/1411) [#1415](https://github.com/hhursev/recipe-scrapers/pull/1415) [#1416](https://github.com/hhursev/recipe-scrapers/pull/1416) |
+| boba | Evelynn Chen, Alice Le, Anna Shi, Vicky Chen, Cass Ma | [Harmony](https://github.com/harmonydata/harmony) | [#71](https://github.com/harmonydata/harmony/pull/71) |
+| DRY cLEaners | Daniel Sung, Reem Muhammed Hashir, Lawrence Lee, Ellia Yang, Yiyao Wang | [Fishfolk Jumpy](https://github.com/fishfolk/jumpy) | [#1046](https://github.com/fishfolk/jumpy/pull/1046) |
+
+
 ## 2024 Spring 
 | Group Name | Team Members | Project | Merged PRs |
 | ---------- | ------------ | ------- | ---------- |

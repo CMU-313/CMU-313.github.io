@@ -2,7 +2,7 @@
 
 ## Deliverables
 
-**Build Checkpoint** – 5 points – due Friday, August 30th, 11:59pm
+**Build Checkpoint** – 5 points – due Friday, January 17th, 11:59pm
 
 ## Getting Started
 
