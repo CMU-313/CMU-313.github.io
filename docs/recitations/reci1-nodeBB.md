@@ -11,7 +11,7 @@ In this course, we will be building on a piece of open source software, [NodeBB]
 
 We  will be using NodeBB for the majority of the semester, and we want to start by having you become familiar with the software. 
 
-You can find an instance of the software deployed at: TBD
+You can find an instance of the software deployed at: [Class NodeBB](https://nodebb-cmu313.azurewebsites.net/categories)
 
 To help yourself become more familiar with the site, we will ask you to interact with it in several ways. 
 
