@@ -5,6 +5,9 @@ lectures:
 - date: Thu Jan 16
   link: assets/pdfs/03-BoeingCaseStudy.pdf
   name: Boeing Case Study
+  reading:
+    link: https://canvas.cmu.edu/courses/45321/quizzes/136497
+    name: Boeing Case Study Reading
 
 projects:
 - date: Tue Jan 14
