@@ -16,6 +16,7 @@ A list of student groups with links to their merged PRs in open source projects.
 | d-buggers | Omar Ghabayen, Ben Condemi, Melody Hu, Jack Sun | [Recipe Scraper](https://github.com/hhursev/recipe-scrapers) | [#1408](https://github.com/hhursev/recipe-scrapers/pull/1408), [#1411](https://github.com/hhursev/recipe-scrapers/pull/1411) [#1415](https://github.com/hhursev/recipe-scrapers/pull/1415) [#1416](https://github.com/hhursev/recipe-scrapers/pull/1416) |
 | boba | Evelynn Chen, Alice Le, Anna Shi, Vicky Chen, Cass Ma | [Harmony](https://github.com/harmonydata/harmony) | [#71](https://github.com/harmonydata/harmony/pull/71) |
 | DRY cLEaners | Daniel Sung, Reem Muhammed Hashir, Lawrence Lee, Ellia Yang, Yiyao Wang | [Fishfolk Jumpy](https://github.com/fishfolk/jumpy) | [#1046](https://github.com/fishfolk/jumpy/pull/1046) |
+| aawaa | Haomin Ng, Owen Gometz, Rong Yuan, Nita Thaveesittikullarp, Evelyn Zheng | [Fishfolk Jumpy](https://github.com/autolab/Autolab) | [#2249](https://github.com/autolab/Autolab/pull/2249) |
 
 
 ## 2024 Spring 
