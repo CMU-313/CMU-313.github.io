@@ -59,7 +59,7 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/03-BoeingCaseStudy.pdf"
+    link: "assets/pdfs/02-BoeingCaseStudy.pdf"
     name: "Boeing Case Study"
   reading:
     link: "https://canvas.cmu.edu/courses/45321/quizzes/136497"
