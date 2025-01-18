@@ -31,23 +31,23 @@ This will be the first assignment with your group. There are three (3) deadlines
 Detailed information for each of the deadlines has been split into its own subpage on the left.
 
 !!! tip
-    This is a large assignment spanning from now until Fall Break. We estimate that this project will take each student on the team on average 8 hours/week over the next 5 weeks, for a total of 40 hours. We highly recommend reading through the entire assignment before starting so you are aware of our expectations for the later deliverables.
+    This is a large assignment spanning from now until Spring Break. We estimate that this project will take each student on the team on average 8 hours/week over the next 5 weeks, for a total of 40 hours. We highly recommend reading through the entire assignment before starting so you are aware of our expectations for the later deliverables.
     
     To manage all of the write-ups, we recommend saving the pages as a PDF to print or annotate on as you work through the assignment with your team.
 
-A) [**Team Process & Planning**](1_teamprocess.md) – 70 points – due Thursday, September 12th, 11:59pm
+A) [**Team Process & Planning**](1_teamprocess.md) – 70 points – due Thursday, January 30th, 11:59pm
 
 - **Prerequisite:** Team Setup
 - Teamwork Contract (35 pts)
 - Project Planning (35 pts)
 - *Extra Credit (7 pts)*
 
-B) [**First Sprint**](2_firstsprint.md) – 95 points – due Tuesday, September 24th, 11:59pm
+B) [**First Sprint**](2_firstsprint.md) – 95 points – due Tuesday, February 11th, 11:59pm
 
 - Process & Implementation Interim Snapshot (50 pts)
 - Checkpoint Presentation (45 pts) - **Held in Recitation on Monday Feburary 12th**
 
-C) [**Second Sprint**](3_secondsprint.md) – 110 points – due Thursday, October 10th, 11:59pm
+C) [**Second Sprint**](3_secondsprint.md) – 110 points – due Thursday, February 27th, 11:59pm
 
 - Process & Implementation Final Snapshot (50 pts)
 - Team Reflection (30 pts)
