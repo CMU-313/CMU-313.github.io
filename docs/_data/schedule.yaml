@@ -23,7 +23,7 @@
     name: "Project 1A - Build Checkpoint"
     numDays: 4
   lecture:
-    link: "assets/pdfs/01-introduction.pdf"
+    link: "assets/pdfs/01-introduction-wide.pdf"
     name: "Introduction"
   reading:
     link: ""
@@ -59,11 +59,11 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/03-BoeingCaseStudy.pdf"
+    link: "assets/pdfs/02-BoeingCaseStudy.pdf"
     name: "Boeing Case Study"
   reading:
-    link: ""
-    name: ""
+    link: "https://canvas.cmu.edu/courses/45321/quizzes/136497"
+    name: "Boeing Case Study Reading"
   recitation:
     handout: ""
     name: ""

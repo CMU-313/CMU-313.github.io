@@ -1,22 +1,11 @@
-lectures:
-- date: Tue Jan 14
-  link: assets/pdfs/01-introduction.pdf
-  name: Introduction
-- date: Thu Jan 16
-  link: assets/pdfs/03-BoeingCaseStudy.pdf
-  name: Boeing Case Study
+lectures: []
 
 projects:
-- date: Tue Jan 14
-  deadline: Due Fri, Jan 17th @ 11:59pm
-  end_date: 2025-01-20 00:00:00
+- date: Mon Jan 20
+  deadline: Due Thu, Jan 23rd @ 11:59pm
+  end_date: 2025-01-24 00:00:00
   link: projects/P1
-  name: Project 1A - Build Checkpoint
+  name: Project 1B - Starter Task
   numDays: 4
 
-recitation:
-  date: Mon Jan 13
-  handout: recitations/reci1-nodeBB
-  name: Recitation 1 - Understand NodeBB
-  quiz: ''
-  slides: ''
+recitation: null
