@@ -1,0 +1,11 @@
+lectures: []
+
+projects:
+- date: Mon Jan 20
+  deadline: Due Thu, Jan 23rd @ 11:59pm
+  end_date: 2025-01-24 00:00:00
+  link: projects/P1
+  name: Project 1B - Starter Task
+  numDays: 4
+
+recitation: null
