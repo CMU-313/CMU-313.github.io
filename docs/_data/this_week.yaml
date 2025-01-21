@@ -1,4 +1,10 @@
-lectures: []
+lectures:
+- date: Tue Jan 21
+  link: assets/pdfs/03-achaeology.pdf
+  name: Software Archaeology
+- date: Thu Jan 23
+  link: ''
+  name: Measurements and Metrics
 
 projects:
 - date: Mon Jan 20
