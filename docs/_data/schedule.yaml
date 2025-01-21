@@ -113,8 +113,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/03-achaeology.pdf"
+    name: "Software Archaeology"
   reading:
     link: ""
     name: ""
@@ -150,7 +150,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Measurements and Metrics"
   reading:
     link: ""
     name: ""
