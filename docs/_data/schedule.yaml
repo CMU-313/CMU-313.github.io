@@ -149,7 +149,7 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
+    link: "assets/pdfs/04-metrics.pdf"
     name: "Measurements and Metrics"
   reading:
     link: ""
