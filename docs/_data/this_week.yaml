@@ -6,17 +6,6 @@ lectures:
   link: assets/pdfs/04-metrics.pdf
   name: Measurements and Metrics
 
-projects:
-- date: Mon Jan 20
-  deadline: Due Thu, Jan 23rd @ 11:59pm
-  end_date: 2025-01-24 00:00:00
-  link: projects/P1
-  name: Project 1B - Starter Task
-  numDays: 4
+projects: []
 
-recitation:
-  date: Mon Jan 27
-  handout: /recitations/reci2-teamcontract/
-  name: Recitation 2 - Team Contract Workshop
-  quiz: https://www.gradescope.com/courses/942846/assignments/5659888
-  slides: https://docs.google.com/presentation/d/13fX2_1rMIul7xSqff1HlTGi6T0GKb_wXnv73W7l7IYo/edit?usp=sharing
+recitation: null
