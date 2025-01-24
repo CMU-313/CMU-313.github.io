@@ -14,4 +14,9 @@ projects:
   name: Project 1B - Starter Task
   numDays: 4
 
-recitation: null
+recitation:
+  date: Mon Jan 27
+  handout: /recitations/reci2-teamcontract/
+  name: Recitation 2 - Team Contract Workshop
+  quiz: https://www.gradescope.com/courses/942846/assignments/5659888
+  slides: https://docs.google.com/presentation/d/13fX2_1rMIul7xSqff1HlTGi6T0GKb_wXnv73W7l7IYo/edit?usp=sharing
