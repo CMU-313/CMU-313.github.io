@@ -2,14 +2,14 @@
 
 ## Deliverables
 
-**Second Sprint** – 110 points – due Thursday, October 10th, 11:59pm
+**Second Sprint** – 110 points – due Thursday, February 27th, 11:59pm
 
-- [Process & Implementation Final Snapshot](#process--implementation-final-60-pts) (50 pts)
-- [Process & Team Reflection](#process-team-reflection-50-pts) (30 pts)
+- [Process & Implementation Final](#process-and-implementation-final-50-pts) (50 pts)
+- [Process & Team Reflection](#process-and-team-reflection-30-pts) (30 pts)
 - [Individual Reflection](#individual-reflection-30-pts) (30 pts)
 
 
-## Process & Implementation Final (50 pts)
+## Process and Implementation Final (50 pts)
 Continue working on the implementation of your feature(s). Be sure to continue following best practices for collaborative development similar to the previous sprint.
 
 As you become more familiar with the codebase, we have higher expectations for the final deliverables of this sprint. Specifically, along with your feature changes, we expect to see:
@@ -33,7 +33,7 @@ You must commit all of your changes to the main branch of your team repository b
 Submit a link to your repository and your Github Project board onto Gradescope. For grading, we will take a snapshot of your repository and board right at the deadline and grade based on your progress there.
 
 
-## Process & Team Reflection (30 pts)
+## Process and Team Reflection (30 pts)
 
 !!! warning "Use of Generative AI Forbidden"
     As described in [the syllabus,](/syllabus/#policy-on-use-of-generative-ai-for-writing) the use of generative AI tools for this part of the assignment is forbidden, and will be considered to be an academic integrity violation. 
