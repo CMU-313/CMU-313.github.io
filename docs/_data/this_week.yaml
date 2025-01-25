@@ -6,6 +6,12 @@ lectures:
   link: assets/pdfs/04-metrics.pdf
   name: Measurements and Metrics
 
-projects: []
+projects:
+- date: Fri Jan 24
+  deadline: Thursday, January 30th, 11:59pm
+  end_date: 2025-01-31 00:00:00
+  link: /projects/P2
+  name: Project 2A - Team Process & Planning
+  numDays: 5
 
 recitation: null
