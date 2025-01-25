@@ -5,9 +5,9 @@
 **Team Process & Planning** – 70 points – due Thursday, January 30th, 11:59pm
 
 - **Prerequisite:** [Team Setup](#team-setup)
-- [Teamwork Contract](#teamwork-contract-40-pts) (35 pts)
-- [Project Planning](#project-planning-40-pts) (35 pts)
-- *[Extra Credit](#extra-credit-8-pts) (7 pts)*
+- [Teamwork Contract](#teamwork-contract-35-pts) (35 pts)
+- [Project Planning](#project-planning-35-pts) (35 pts)
+- *[Extra Credit](#extra-credit-7-pts) (7 pts)*
 
 
 ## Team Setup
