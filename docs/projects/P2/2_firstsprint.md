@@ -4,11 +4,11 @@
 
 **First Sprint** – 95 points – due Tuesday, February 11th, 11:59pm
 
-- [Process & Implementation Interim](#process--implementation-interim-50-pts) (50 pts)
+- [Process & Implementation Interim](#process-and-implementation-interim-50-pts) (50 pts)
 - [Checkpoint Presentation](#checkpoint-presentation-45-pts) (45 pts) - **Held in Recitation on Monday February 10th**
 
 
-## Process & Implementation Interim (50 pts)
+## Process and Implementation Interim (50 pts)
 
 Start by cloning the team repository and merging your individual changes from Project 1 into your team repository using proper git flow. Once everyone has properly set up the repository on their local machines and committed their changes, you can now start development.
 
