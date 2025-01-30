@@ -1,7 +1,10 @@
 lectures:
+- date: Tue Jan 28
+  link: 05-process.pdf
+  name: Software Engineering Process
 - date: Thu Jan 30
-  link: 05-teams-communication-wide.pdf
-  name: teams and communication
+  link: 05-teams-communication.pdf
+  name: Teams and Communication
 
 projects:
 - date: Fri Jan 24
