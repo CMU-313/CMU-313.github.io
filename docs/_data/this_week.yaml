@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Thu Jan 30
+  link: 05-teams-communication-wide.pdf
+  name: teams and communication
 
 projects:
 - date: Fri Jan 24
