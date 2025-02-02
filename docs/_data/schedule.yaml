@@ -281,10 +281,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "/recitations/reci3-archaeology"
+    name: "Recitation 3 - Software Archaeology"
+    quiz: "https://www.gradescope.com/courses/942846/assignments/5715571/"
+    slides: "https://docs.google.com/presentation/d/1sakvPEekZcfS6IagM3DFOlLnLya07NRzx7V1MUEF670/edit?usp=sharing"
 
 - date: Tue Feb 4
   homework:
