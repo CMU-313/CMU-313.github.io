@@ -1,18 +1,6 @@
-lectures:
-- date: Tue Jan 28
-  link: assets/pdfs/05-process.pdf
-  name: Software Engineering Process
-- date: Thu Jan 30
-  link: assets/pdfs/06-teams-communication.pdf
-  name: teams and communication
+lectures: []
 
 projects:
-- date: Fri Jan 24
-  deadline: Thursday, January 30th, 11:59pm
-  end_date: 2025-01-31 00:00:00
-  link: /projects/P2
-  name: Project 2A - Team Process & Planning
-  numDays: 5
 - date: Fri Jan 31
   deadline: Tuesday, Feb 11th, 11:59pm
   end_date: 2025-02-12 00:00:00
