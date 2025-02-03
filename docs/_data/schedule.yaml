@@ -294,7 +294,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Introduction to Software Architecture"
   reading:
     link: ""
     name: ""
@@ -330,7 +330,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Architecture: Microservices"
   reading:
     link: ""
     name: ""
