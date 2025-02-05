@@ -371,10 +371,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "/recitations/reci4-checkpoint"
+    name: "Recitation 4 - Project Presentations"
+    quiz: "https://www.gradescope.com/courses/942846/assignments/5737580/"
+    slides: "https://docs.google.com/presentation/d/1exXtiQSMGOM8gmjM0MlLXfVpXFCncJ5-zNUYt-GAvSg/edit?usp=sharing"
 
 - date: Tue Feb 11
   homework:
