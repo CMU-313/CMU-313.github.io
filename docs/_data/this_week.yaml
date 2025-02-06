@@ -1,4 +1,10 @@
-lectures: []
+lectures:
+- date: Tue Feb 4
+  link: assets/pdfs/07-architecture-intro.pdf
+  name: Introduction to Software Architecture
+- date: Thu Feb 6
+  link: ''
+  name: 'Architecture: Microservices'
 
 projects:
 - date: Fri Jan 31
