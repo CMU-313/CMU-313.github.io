@@ -3,7 +3,7 @@ lectures:
   link: assets/pdfs/07-architecture-intro.pdf
   name: Introduction to Software Architecture
 - date: Thu Feb 6
-  link: ''
+  link: assets/pdfs/08-architecture-microservices.pdf
   name: 'Architecture: Microservices'
 
 projects:
