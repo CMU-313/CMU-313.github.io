@@ -1,10 +1,4 @@
-lectures:
-- date: Tue Feb 4
-  link: assets/pdfs/07-architecture-intro.pdf
-  name: Introduction to Software Architecture
-- date: Thu Feb 6
-  link: assets/pdfs/08-architecture-microservices.pdf
-  name: 'Architecture: Microservices'
+lectures: []
 
 projects:
 - date: Fri Jan 31
@@ -13,10 +7,16 @@ projects:
   link: /projects/P2
   name: Project 2B - Collaborative Development
   numDays: 8
+- date: Wed Feb 12
+  deadline: Thursday, Feb 27th, 11:59pm
+  end_date: 2025-02-28 00:00:00
+  link: /projects/P2
+  name: Project 2C - Collaborative Development
+  numDays: 12
 
 recitation:
-  date: Mon Feb 3
-  handout: /recitations/reci3-archaeology
-  name: Recitation 3 - Software Archaeology
-  quiz: https://www.gradescope.com/courses/942846/assignments/5715571/
-  slides: https://docs.google.com/presentation/d/1sakvPEekZcfS6IagM3DFOlLnLya07NRzx7V1MUEF670/edit?usp=sharing
+  date: Mon Feb 10
+  handout: /recitations/reci4-checkpoint
+  name: Recitation 4 - Project Presentations
+  quiz: https://www.gradescope.com/courses/942846/assignments/5737580/
+  slides: https://docs.google.com/presentation/d/1exXtiQSMGOM8gmjM0MlLXfVpXFCncJ5-zNUYt-GAvSg/edit?usp=sharing
