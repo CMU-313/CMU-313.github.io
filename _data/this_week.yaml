@@ -1,0 +1,25 @@
+lectures:
+- date: Tue Feb 11
+  link: assets/pdfs/09-design-docs.pdf
+  name: 'Architecture: Design Docs'
+
+projects:
+- date: Fri Jan 31
+  deadline: Tuesday, Feb 11th, 11:59pm
+  end_date: 2025-02-12 00:00:00
+  link: /projects/P2
+  name: Project 2B - Collaborative Development
+  numDays: 8
+- date: Wed Feb 12
+  deadline: Thursday, Feb 27th, 11:59pm
+  end_date: 2025-02-28 00:00:00
+  link: /projects/P2
+  name: Project 2C - Collaborative Development
+  numDays: 12
+
+recitation:
+  date: Mon Feb 10
+  handout: /recitations/reci4-checkpoint
+  name: Recitation 4 - Project Presentations
+  quiz: https://www.gradescope.com/courses/942846/assignments/5737580/
+  slides: https://docs.google.com/presentation/d/1exXtiQSMGOM8gmjM0MlLXfVpXFCncJ5-zNUYt-GAvSg/edit?usp=sharing
