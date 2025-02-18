@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Tue Feb 18
+  link: assets/pdfs/11-code-review-risk.pdf
+  name: Risk, CI and Code Review
 
 projects:
 - date: Wed Feb 12
