@@ -473,8 +473,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link:  "assets/pdfs/11-code-review-risk.pdf"
+    name: "Risk, CI and Code Review"
   reading:
     link: ""
     name: ""
