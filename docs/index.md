@@ -17,6 +17,10 @@ hide:
         Lectures & Readings
     </div>
     <div class="content">
+      Sample exams:
+      - [Fall 2020](/assets/pdfs/practice-midterms/f2020midterm.pdf)
+      - [Fall 2021](/assets/pdfs/practice-midterms/f2021midterm.pdf)
+      - [Fall 2022](/assets/pdfs/practice-midterms/f2022midterm.pdf)
         {% if this_week.lectures %}
             {% for lecture in this_week.lectures %}
                 <div class="lecture-name">
