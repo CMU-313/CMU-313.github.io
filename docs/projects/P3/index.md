@@ -19,17 +19,17 @@ Secondly, evaluating existing tools and practices beyond simple linting or unit 
 
 There are two (2) deadlines for this project. This project is worth a total of 100 points.
 
-**Checkpoint Deliverables** – 35 points – due Thursday, October 24th, 11:59pm
+**Checkpoint Deliverables** – 35 points – due Thursday, March 13th, 11:59pm
 
 - [Deployed Application (25 pts)](#deployed-application-25-pts)
 - [Tools Checkpoint (10 pts)](#tools-checkpoint-10-pts)
 
-**Final Deliverables** – 65 points – due Thursday, October 31st, 11:59pm
+**Final Deliverables** – 65 points – due Thursday, March 20th, 11:59pm
 
 - [Tool Analysis Design Doc (50 pts)](#tool-analysis-design-doc-60-pts)
 - [Tool Integration (15 pts)](#tool-integration-15-pts)
 
-**Extra Credit (Individual)** - 6 points - due Thursday, November 7th, 11:59pm
+**Extra Credit (Individual)** - 6 points - due Thursday, March 27th, 11:59pm
 
 - [Feature Review (6 pts)](#feature-review-6-pts)
 
@@ -47,7 +47,7 @@ Once you have successfully deployed your website, make sure to test within your 
 By the checkpoint deadline you should
 
 - Submit a link to the deployed site onto Gradescope
-- Add your deployed site to this [public spreadsheet](https://docs.google.com/spreadsheets/d/1w0DiDJxOrRX8pDeT-jgAkunmptfPLW2wa-eYFhkcPUM/edit?usp=sharing), alongside your team name & UserGuide.md that your team submitted for Project 2. This will be used in [Feature Review](#feature-review-6-pts) for extra credit.
+- Add your deployed site to this [public spreadsheet](https://docs.google.com/spreadsheets/d/1O9xocYpMOV73vb3-sFwH5cNDO6sec5WhuiGY37bFPAw/edit?usp=sharing), alongside your team name & UserGuide.md that your team submitted for Project 2. This will be used in [Feature Review](#feature-review-6-pts) for extra credit.
 
 ### Tools Checkpoint (10 pts)
 
@@ -182,7 +182,7 @@ Note that this is an **individual** task, unlike the rest of project.
 
 ### Feature Review (6 pts)
 
-For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1w0DiDJxOrRX8pDeT-jgAkunmptfPLW2wa-eYFhkcPUM/edit?usp=sharing) to review, 1 from your own section, and 2 from other sections.
+For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1O9xocYpMOV73vb3-sFwH5cNDO6sec5WhuiGY37bFPAw/edit?usp=sharing) to review, 1 from your own section, and 2 from other sections.
 
 For each team, you will submit a review of their feature(s). You will need to test the feature(s) as described in their UserGuide and provide feedback on the following:
 
@@ -193,7 +193,7 @@ For each team, you will submit a review of their feature(s). You will need to te
 To qualify for extra credit, you will have to submit your review:
 
 - on Gradescope
-- in the appropriate sheet in the [public spreadsheet](https://docs.google.com/spreadsheets/d/1w0DiDJxOrRX8pDeT-jgAkunmptfPLW2wa-eYFhkcPUM/edit?usp=sharing). There should be one sheet per team, and you should add your review to the sheet for the team you are reviewing.
+- in the appropriate sheet in the [public spreadsheet](https://docs.google.com/spreadsheets/d/1O9xocYpMOV73vb3-sFwH5cNDO6sec5WhuiGY37bFPAw/edit?usp=sharing). There should be one sheet per team, and you should add your review to the sheet for the team you are reviewing.
 
 ## Grading
 
@@ -214,7 +214,7 @@ To receive full credit for the final deadline, we expect:
 
 To receive full credit for the extra credit, we expect:
 
-- [ ] Your review of three different teams' features on Gradescope and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/1w0DiDJxOrRX8pDeT-jgAkunmptfPLW2wa-eYFhkcPUM/edit?usp=sharing), addressing the three questions described.
+- [ ] Your review of three different teams' features on Gradescope and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/1O9xocYpMOV73vb3-sFwH5cNDO6sec5WhuiGY37bFPAw/edit?usp=sharing), addressing the three questions described.
 
 ## Resources & Documentation
 
