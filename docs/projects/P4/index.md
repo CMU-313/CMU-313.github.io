@@ -12,11 +12,9 @@
 
 ## Project Context
 
-The development of the new Q&A forum system for CMU is in full swing when your CEO suddenly bursts into the room shouting, “LLMs! AI! Why are we building a Q&A forum without integrating LLMs?!”
+The development of the new Q&A forum system for CMU is in full swing, but the forum is facing a upswing in the number of toxic comments. Your CEO suddenly bursts into the room shouting, “LLMs! AI! Why are we using LLMs to solve this problem?!”
 
-Once your CEO has finally calmed down, your manager calls an all-hands meeting. At the meeting, everyone agrees that you don’t have the resources to build a completely new Q&A forum and also automate the whole question-answering problem.
-
-But, to better compete with Piazza, your CEO and manager decide to put your team in charge of exploring using an LLM to implement a translation feature. This feature will automatically translate posts written in languages other than English into English. This initiative aims to foster inclusivity and ensure that language barriers do not hinder participation in the forum.
+Once your CEO has finally calmed down, your manager calls an all-hands meeting. Your CEO and manager decide to put your team in charge of exploring using an LLM to help detect toxic comments. This feature will automatically flag toxic comments and also generate a summary of all toxic comments found on the forum for administrators.
 
 In light of this new direction, your manager wants you to:
 
@@ -24,7 +22,7 @@ In light of this new direction, your manager wants you to:
 2. **Build an experimental integration** with the existing NodeBB codebase to evaluate feasibility.
 3. **Evaluate the feature** and decide whether the feature should be fully implemented.
 
-As everything is just settling down, your CEO bursts back into the room!! There's a new catch: the company is strapped for funding and must be very careful with its spending. As a result, your team is now required to conduct all experimentation and implementation of the LLM-powered translation feature **using only the Azure credits currently at your disposal**. If your team successfully stays within your available credits and doesn't need to request any more, you’ll earn **bonus points** for your ingenuity and efficiency.
+As everything is just settling down, your CEO bursts back into the room!! There's a new catch: the company is strapped for funding and must be very careful with its spending. As a result, your team is now required to conduct all experimentation and implementation of the LLM-powered toxic comment detection and summarization features **using only the Azure credits currently at your disposal**. If your team successfully stays within your available credits and doesn't need to request any more, you’ll earn **bonus points** for your ingenuity and efficiency.
 
 Some of you may think that it’s unfair for this change to come up unexpectedly, especially since we didn’t inform you before P3, but keep in mind that this is just like real life! Working in a company means having to deal with unexpected circumstances, which more often than not contain some aspect concerning money. We're looking to see how well you can adapt to this new situation, and we want you to have this experience before you're dealing with the pressure of real company money. Rest assured, if your team needs more credits to finish the project, we will not be taking off points.
 
@@ -49,7 +47,7 @@ There are three (3) deadlines for the project. This project is worth a total of 
 
 ### Architectural Design Document (40 points)
 
-To start, your manager has requested a concrete design document outlining how you plan to integrate the new LLM-powered translation feature into the existing codebase. One of your manager's requirements is that this feature should work on a deployed site.
+To start, your manager has requested a concrete design document outlining how you plan to integrate the new LLM-powered toxic comment detection and toxic comment summarization features into the existing codebase. One of your manager's requirements is that this feature should work on a deployed site.
 
 If the team decides to go ahead with the feature, this design document will be followed in order to fully integrate this feature into NodeBB.
 
@@ -63,7 +61,7 @@ Your design document must discuss both of these approaches and **include a third
 Once you have finished evaluating the codebase, create the design document highlighting your findings and decisions. Below is a sample outline for your design document along with recommended page lengths.
 
 1. **Feature Overview (<1 pages)**
-    Describe concisely how the translation feature works and how it will be used by the relevant stakeholders, with screenshots if necessary.
+    Describe concisely how the toxic comment detection feature works and how it will be used by the relevant stakeholders, with screenshots if necessary. Do the same for the toxic comment summarization feature as well.
 
 2. **Assessing LLM Suitability (<1 page)**
     Use proprities of LLMs discussed in class to discuss why an LLM may be a good solution for translating posts on NodeBB.
@@ -71,17 +69,20 @@ Once you have finished evaluating the codebase, create the design document highl
 3. **Current Architecture (<1 page)**
     Provide a brief description of the current NodeBB architecture. Include an **architectural diagram** to support your description.
 
-4. **Quality Requirements (<1 page)**
+4. **Prompt Design (<1 page)**
+    Describe how you plan to design prompts for detecting toxic comments and summarizing all toxic comments. What type of prompting strategy do you plan to use and why? If you plan to have it be multiple prompts include a **flow diagram** that shows the prompt workflow. 
+
+5. **Quality Requirements (<1 page)**
     Provide a concise, prioritized list of the overall quality requirements you considered in arguing for the integration of the feature into the system and a short justification for each. Your team should decide on **at least three** requirements to focus on.
 
     Rank your requirements in decreasing order of importance. This allows readers to quickly understand what you were designing for.
 
-5. **Potential Solutions (~1 page each)**
+6. **Potential Solutions (~1 page each)**
     Your team should consider **three** different potential solutions for integrating the new feature. For each, provide at least one architectural diagram, a brief description of the solution's architectural design, and a discussion of the design's tradeoffs.
 
     Tradeoffs must involve (but are not limited to) the quality attributes described in the previous section. Justify such arguments with reference to appropriate diagrams and concrete examples, as appropriate.
 
-6. **Selected Architecture + Justification (<1 page)**
+7. **Selected Architecture + Justification (<1 page)**
     Describe which design your team decided to proceed with in architecturally integrating the feature into existing codebase. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design (if any).
 
 !!! note
@@ -97,9 +98,9 @@ More resources to assist you with creating your design document can be found in 
 
 By the checkpoint deadline, your team will submit your design document to Gradescope as a PDF.
 
-### Basic LLM Experiment (15 points)
+### Prompting Experiment (15 points)
 
-To explore the feasibility of LLMs for this task, your manager would like you to prototype the basic functionality of an LLM to translate text. Due to the company’s existing deal with Microsoft, your team will use the gpt-4o-mini language model from OpenAI's Platform.
+To explore the feasibility of LLMs for this task, your manager would like you to prototype the basic functionality of using an LLM to detect toxic comments and summarizing toxic comments. Due to the company’s existing deal with Microsoft, your team will use the gpt-4o-mini language model from OpenAI's Platform.
 
 To get setup, you will need to setup your Azure NodeBB instance and set up LLM use through Azure. You should already have done both of these for recitations 7 and 8, but you should refer to these two documents if you don't have something set up properly.
 
@@ -113,7 +114,9 @@ Now, you should be ready to experiment with gpt-4o-mini! Follow the instructions
 Given the unpredictable nature of LLM responses, it is crucial to test whether your application can handle a range of outcomes. Your Colab notebook should also include tests for your code. We have provided a starter code.
 In this task, you are required to employ mocking techniques to test your code resilience against unexpected results from API calls to the LLM. Mocking is a method used in testing to replace real system components with mock objects that simulate the behavior of those components. This approach allows developers to emulate various scenarios, including errors or atypical responses from external services, without having to make actual API calls. Here you will be using mocking to mimic different unexpected outcomes to check if your code can handle such anomalies gracefully.
 
-For full credit, your submission should have at least four mock tests that deal with different unexpected model behaviors. At least one of these tests should involve the model returning unexpected text. All tests should relate to the `query_llm_robust` function.
+You should also document all prompts that you tried and the evolution of your strategy over time. Submit this document in addition to the notebook.
+
+For full credit, your submission should have at least four mock tests for each task that deal with different unexpected model behaviors. At least one of these tests should involve the model returning unexpected text. All tests should relate to the `query_llm_robust` function.
 
 You should download and submit a .ipynb copy of your Colab notebook (with outputs) to Gradescope.
 
@@ -140,23 +143,23 @@ Your report should include the following with clear headings:
 
 **1. Introduction (&lt;0.5 pages)**
 
-Provide a brief introduction to the LLM integration you’re evaluating, and the context of its use, i.e. the translation feature.
+Provide a brief introduction to the LLM integration you’re evaluating, and the context of its use, i.e. the toxic comment detection and toxic comment summarization features.
 
 **2. LLM integration (&lt;1 page)**
 
-Describe the end-to-end implementation of your final solution to translating posts. Given an arbitrary post in any language, how do you integrate with an LLM to return an answer? Feel free to include any prompts and diagrams.
+Describe the end-to-end implementation of your final solution for detecting and summarizing toxic comments. Given an arbitrary discussion, how do you integrate with an LLM to find all toxic comments, and summarize the toxic comments flagged? Feel free to include any prompts and diagrams.
 
-**4. Evaluation Results (&lt;0.5  page)**
+**3. Evaluation Results (&lt;0.5  page)**
 
 Provide a summary of the results from applying the evaluation strategy on your final LLM experiment. Feel free to include any evidence/output from your notebook.
 
-**5. Operational Costs (&lt;0.5 pages)**
+**4. Operational Costs (&lt;0.5 pages)**
 
 Based on the pricing of your chosen LLM, how much will it cost to provide users with this feature? How long does it take to translate a post? State any assumptions made in making these estimates. Is the cost associated with providing this feature reasonable?
 
-**6. Final Recommendation (&lt;0.5 pages)**
+**5. Final Recommendation (&lt;0.5 pages)**
 
-Provide a final decision on whether the translation feature should be implemented based on the evaluation results, operational costs and other relevant factors.
+Provide a final decision on whether the toxic comment detection and the toxic comment summarization features should be implemented based on the evaluation results, operational costs and other relevant factors.
 
 On Gradescope submit the following:
 
@@ -172,12 +175,12 @@ To receive full credit for the first checkpoint, we expect:
 To receive full credit for the second checkpoint, we expect:
 
 - [ ] A functional integration of the UI code into your NodeBB application.
-- [ ] A preliminary implementation of the translation feature using the starter code, including CI with unit and mock tests.
-- [ ] An integrated deployment of your NodeBB and the translation service on Azure.
+- [ ] A preliminary implementation of the toxic comment detection and toxic comment summarization feature using the starter code, including CI with unit and mock tests.
+- [ ] An integrated deployment of your NodeBB and the toxic comment detection and toxic comment summarization services on Azure.
 
 To receive full credit for the final deadline, we expect:
 
-- [ ] A functional translation feature, as described in your design document, integrated into your NodeBB application and deployed on Azure.
+- [ ] Functional toxic comment detection and summarization features, as described in your design document, integrated into your NodeBB application and deployed on Azure.
 - [ ] An uploaded PDF report discussing your evaluation findings addressing all the sections outlined above
 
 ## Resource & Documentation
