@@ -151,7 +151,7 @@ Describe the end-to-end implementation of your final solution for detecting and 
 
 **3. Evaluation Results (&lt;0.5  page)**
 
-Provide a summary of the results from applying the evaluation strategy on your final LLM experiment. Feel free to include any evidence/output from your notebook.
+Provide a summary of the results from applying the evaluation strategy (e.g. precision, recall, LLM as a judge) on your final LLM experiment. Feel free to include any evidence/output from your notebook.
 
 **4. Operational Costs (&lt;0.5 pages)**
 
