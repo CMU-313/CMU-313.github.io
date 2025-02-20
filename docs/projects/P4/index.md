@@ -12,7 +12,7 @@
 
 ## Project Context
 
-The development of the new Q&A forum system for CMU is in full swing, but the forum is facing a upswing in the number of toxic comments. Your CEO suddenly bursts into the room shouting, “LLMs! AI! Why are we using LLMs to solve this problem?!”
+The development of the new Q&A forum system for CMU is in full swing, but the forum is facing a upswing in the number of toxic comments. Your CEO suddenly bursts into the room shouting, “LLMs! AI! Why are we not using LLMs to solve this problem?!”
 
 Once your CEO has finally calmed down, your manager calls an all-hands meeting. Your CEO and manager decide to put your team in charge of exploring using an LLM to help detect toxic comments. This feature will automatically flag toxic comments and also generate a summary of all toxic comments found on the forum for administrators.
 
