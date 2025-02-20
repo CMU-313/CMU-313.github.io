@@ -509,8 +509,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/12-dynamic-analysis-tools.pdf"
+    name: "Dynamic Analysis Tools"
   reading:
     link: ""
     name: ""
