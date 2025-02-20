@@ -203,3 +203,4 @@ There are a few additional reference materials available in the CMU library that
 - [Azure OpenAI Service pricing](https://deploy-preview-159--17313.netlify.app/projects/p4/#resource-documentation)
 - [SBert Cosine Similarity Documentation](https://www.sbert.net/docs/quickstart.html#comparing-sentence-similarities)
 - [SBert Semantic Search Documentation](https://www.sbert.net/examples/applications/semantic-search/README.html)
+- [Prompting Guide](https://www.promptingguide.ai/)
