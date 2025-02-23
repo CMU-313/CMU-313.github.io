@@ -551,10 +551,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "/recitations/reci6-deployment.md"
+    name: "Recitation 6 - Deployment"
+    quiz: "https://www.gradescope.com/courses/942846/assignments/5835730/submissions"
+    slides: "https://docs.google.com/presentation/d/1_I1K40dqZYxamm9VssNPuJakQ8KZjrXIukiT-gfGE3A/edit#slide=id.g339215f743c_0_901"
 
 - date: Tue Feb 25
   homework:
