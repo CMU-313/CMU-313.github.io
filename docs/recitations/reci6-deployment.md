@@ -15,7 +15,7 @@ Throughout this recitation, students will:
 
 * Get hands on experience deploying with multiple cloud providers - Vercel and Microsoft Azure
 
-* Set up and get familiarized with the _Extreme Startup_ web app for use in Thursday's (10/10) lecture
+* Set up and get familiarized with the _Extreme Startup_ web app for use in Tuesday's (02/25) lecture
 
   
 

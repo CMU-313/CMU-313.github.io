@@ -12,8 +12,8 @@ projects:
   numDays: 12
 
 recitation:
-  date: Mon Feb 17
-  handout: /recitations/reci5-team-dysfunction
-  name: Recitation 5 - Team Dysfunction
-  quiz: https://www.gradescope.com/courses/942846/assignments/5752555/
-  slides: https://docs.google.com/presentation/d/17Nz_7Jgl4rkxDKltXnxBGjqObRXW_CPbPJbSb5ZEuNU/edit?usp=sharing
+  date: Mon Feb 24
+  handout: /recitations/reci6-deployment
+  name: Recitation 6 - Deployment
+  quiz: https://www.gradescope.com/courses/942846/assignments/5835730/submissions
+  slides: https://docs.google.com/presentation/d/1_I1K40dqZYxamm9VssNPuJakQ8KZjrXIukiT-gfGE3A/edit#slide=id.g339215f743c_0_901
