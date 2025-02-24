@@ -89,7 +89,7 @@ To test that the continuous deployments are working as expected, and familiarize
 2. Write a test for the query you just implemented in `__tests__/utils/QueryProcess.test.ts`
 3. Verify that the tests function correctly by running `npm run test`.
 5. Commit and push your changes
-6. Once pushed, verify that CD is functioning correctly by checking that a new deployment is triggered on the GCP and Render dashboards.
+6. Once pushed, verify that CD is functioning correctly by checking that a new deployment is triggered on the Vercel dashboard.
 7. Once the deployments are complete manually verify that both support the query you just implemented.
 
 ## Bonus Task: Continuous Integration
