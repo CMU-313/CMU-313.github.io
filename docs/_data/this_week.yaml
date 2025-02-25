@@ -1,4 +1,7 @@
 lectures:
+- date: Tue Feb 25
+  link: assets/pdfs/13-deployment-workshop-extreme-startup.pdf
+  name: Deployment Workshop
 - date: Thu Feb 27
   link: https://drive.google.com/drive/folders/1oD_K_XNTGzH4HjWqrvTCSzuCGmp-TNby?usp=drive_link
   name: Midterm 1
