@@ -1,22 +1,11 @@
 lectures:
-- date: Tue Feb 25
-  link: assets/pdfs/13-deployment-workshop-extreme-startup.pdf
-  name: Deployment Workshop
-- date: Thu Feb 27
-  link: https://drive.google.com/drive/folders/1oD_K_XNTGzH4HjWqrvTCSzuCGmp-TNby?usp=drive_link
-  name: Midterm 1
+- date: Tue Mar 4
+  link: ''
+  name: Spring Break - No Class
+- date: Thu Mar 6
+  link: ''
+  name: Spring Break - No Class
 
-projects:
-- date: Wed Feb 12
-  deadline: Thursday, Feb 27th, 11:59pm
-  end_date: 2025-02-28 00:00:00
-  link: /projects/P2
-  name: Project 2C - Collaborative Development
-  numDays: 12
+projects: []
 
-recitation:
-  date: Mon Feb 24
-  handout: /recitations/reci6-deployment
-  name: Recitation 6 - Deployment
-  quiz: https://www.gradescope.com/courses/942846/assignments/5835730/submissions
-  slides: https://docs.google.com/presentation/d/1_I1K40dqZYxamm9VssNPuJakQ8KZjrXIukiT-gfGE3A/edit#slide=id.g339215f743c_0_901
+recitation: null
