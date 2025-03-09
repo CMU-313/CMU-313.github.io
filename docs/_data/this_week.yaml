@@ -1,19 +1,17 @@
 lectures:
-- date: Tue Feb 18
-  link: assets/pdfs/11-code-review-risk.pdf
-  name: Risk, CI and Code Review
+- date: Tue Mar 4
+  link: ''
+  name: Spring Break - No Class
+- date: Thu Mar 6
+  link: ''
+  name: Spring Break - No Class
 
 projects:
-- date: Wed Feb 27
+- date: Mon Mar 7
   deadline: Thursday, March 13th, 11:59pm
   end_date: 2025-03-14 00:00:00
   link: /projects/P3
   name: Project 3A - Checkpoint
-  numDays: 14
+  numDays: 7
 
-recitation:
-  date: Mon Feb 17
-  handout: /recitations/reci5-team-dysfunction
-  name: Recitation 5 - Team Dysfunction
-  quiz: https://www.gradescope.com/courses/942846/assignments/5752555/
-  slides: https://docs.google.com/presentation/d/17Nz_7Jgl4rkxDKltXnxBGjqObRXW_CPbPJbSb5ZEuNU/edit?usp=sharing
+recitation: null
