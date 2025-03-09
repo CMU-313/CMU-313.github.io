@@ -26,7 +26,7 @@ There are two (2) deadlines for this project. This project is worth a total of 1
 
 **Final Deliverables** – 65 points – due Thursday, March 20th, 11:59pm
 
-- [Tool Analysis Design Doc (50 pts)](#tool-analysis-design-doc-60-pts)
+- [Tool Analysis Design Doc (50 pts)](#tool-analysis-design-doc-50-pts)
 - [Tool Integration (15 pts)](#tool-integration-15-pts)
 
 **Extra Credit (Individual)** - 6 points - due Thursday, March 27th, 11:59pm
@@ -40,7 +40,7 @@ There are two main focuses in this project: deployment and static/dynamic analys
 
 ### Deployed Application (25 pts)
 
-Your team will be using Azure for the deployment of the NodeBB application. Further instructions on how to deploy can be found [here](/projects/P3/deployment).
+Your team will be using Linux Virtual Machines (VMs) hosted at CMU for the deployment of the NodeBB application. Further instructions on how to deploy can be found [here](https://docs.google.com/document/d/17EWLdJUShw_R23FfH5HeYhH2rfqcgKbTvSpe3oeHLfQ/edit?tab=t.0#heading=h.1fm2pva37our).
 
 Once you have successfully deployed your website, make sure to test within your team to ensure that your added feature(s) from Project 2 are properly integrated.
 
