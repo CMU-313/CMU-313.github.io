@@ -80,7 +80,7 @@ nav:
           - 2C Second Sprint: projects/P2/3_secondsprint.md
       - "Project 3: Continuous Integration + Deployment":
           - projects/P3/index.md
-          - "Azure Deployment Instructions": projects/P3/deployment.md
+          # - "Azure Deployment Instructions": projects/P3/deployment.md
       # - "Project 4: Architecting an LLM Integration":
       #     - projects/P4/index.md
       # - "Project 5: Open Source Excursion":
