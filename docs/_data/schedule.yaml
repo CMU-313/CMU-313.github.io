@@ -731,7 +731,7 @@
     link: ""
     name: ""
   recitation:
-    handout: "/recitations/reci7-onprem-setup.md"
+    handout: "/recitations/reci7-onprem-setup"
     name: "Recitation 7 - On Prem Deployment"
     quiz: "https://www.gradescope.com/courses/942846/assignments/5911747"
     slides: ""
