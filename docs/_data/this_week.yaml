@@ -1,11 +1,22 @@
 lectures: []
 
 projects:
-- date: Mon Mar 7
-  deadline: Thursday, March 13th, 11:59pm
-  end_date: 2025-03-14 00:00:00
-  link: /projects/P3
-  name: Project 3A - Checkpoint
+- date: Thu Feb 27
+  deadline: Due Thu, March 13th, 11:59pm
+  end_date: 2025-03-19 00:00:00
+  link: /projects/P3/
+  name: P3A - Checkpoint
+  numDays: 14
+- date: Thu Mar 13
+  deadline: Due Thu, March 20th, 11:59pm
+  end_date: 2025-03-24 00:00:00
+  link: /projects/P3/
+  name: P3B - Final Deliverables
   numDays: 7
 
-recitation: null
+recitation:
+  date: Mon Mar 10
+  handout: /recitations/reci7-onprem-setup.md
+  name: Recitation 7 - On Prem Deployment
+  quiz: https://www.gradescope.com/courses/942846/assignments/5911747
+  slides: ''
