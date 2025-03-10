@@ -162,9 +162,9 @@
 
 - date: Fri Jan 24
   homework:
-    deadline: 'Thursday, January 30th, 11:59pm'
-    link: '/projects/P2'
-    name: 'Project 2A - Team Process & Planning'
+    deadline: "Thursday, January 30th, 11:59pm"
+    link: "/projects/P2"
+    name: "Project 2A - Team Process & Planning"
     numDays: 5
   lecture:
     link: ""
@@ -203,7 +203,7 @@
     name: ""
     numDays: 0
   lecture:
-    link:  "assets/pdfs/05-process.pdf"
+    link: "assets/pdfs/05-process.pdf"
     name: "Software Engineering Process"
   reading:
     link: ""
@@ -252,9 +252,9 @@
 
 - date: Fri Jan 31
   homework:
-    deadline: 'Tuesday, Feb 11th, 11:59pm'
-    link: '/projects/P2'
-    name: 'Project 2B - Collaborative Development'
+    deadline: "Tuesday, Feb 11th, 11:59pm"
+    link: "/projects/P2"
+    name: "Project 2B - Collaborative Development"
     numDays: 8
   lecture:
     link: ""
@@ -396,9 +396,9 @@
 
 - date: Wed Feb 12
   homework:
-    deadline: 'Thursday, Feb 27th, 11:59pm'
-    link: '/projects/P2'
-    name: 'Project 2C - Collaborative Development'
+    deadline: "Thursday, Feb 27th, 11:59pm"
+    link: "/projects/P2"
+    name: "Project 2C - Collaborative Development"
     numDays: 12
   lecture:
     link: ""
@@ -473,7 +473,7 @@
     name: ""
     numDays: 0
   lecture:
-    link:  "assets/pdfs/11-code-review-risk.pdf"
+    link: "assets/pdfs/11-code-review-risk.pdf"
     name: "Risk, CI and Code Review"
   reading:
     link: ""
@@ -594,10 +594,10 @@
 
 - date: Thu Feb 27
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Thu, March 13th, 11:59pm"
+    link: "/projects/P3/"
+    name: "P3A - Checkpoint"
+    numDays: 14
   lecture:
     link: "https://drive.google.com/drive/folders/1oD_K_XNTGzH4HjWqrvTCSzuCGmp-TNby?usp=drive_link"
     name: "Midterm 1"
@@ -774,10 +774,10 @@
 
 - date: Thu Mar 13
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: 'Due Thu, March 20th, 11:59pm'
+    link: '/projects/P3/'
+    name: 'P3B - Final Deliverables'
+    numDays: 7
   lecture:
     link: ""
     name: ""

@@ -1,5 +1,11 @@
 lectures: []
 
-projects: []
+projects:
+- date: Mon Mar 7
+  deadline: Thursday, March 13th, 11:59pm
+  end_date: 2025-03-14 00:00:00
+  link: /projects/P3
+  name: Project 3A - Checkpoint
+  numDays: 7
 
 recitation: null
