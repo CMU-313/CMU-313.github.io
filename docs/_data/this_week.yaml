@@ -15,8 +15,8 @@ projects:
   numDays: 7
 
 recitation:
-  date: Mon Mar 10
-  handout: /recitations/reci7-onprem-setup
-  name: Recitation 7 - On Prem Deployment
-  quiz: https://www.gradescope.com/courses/942846/assignments/5911747
+  date: Mon Mar 17
+  handout: /recitations/reci8-llms
+  name: Recitation 8 - Large Language Models
+  quiz: https://www.gradescope.com/courses/942846/assignments/5920526
   slides: ''
