@@ -19,4 +19,4 @@ Note: if you have not yet set up Azure, please refer to the instructions from [h
 
 4. Have fun with the activity!
 
-Once you are done, submit the link to your Colab notebook and the answers to the two questions in Gradescope at [this link](https://www.gradescope.com/courses/942846/assignments/5920526).
+Once you are done, submit the link to your Colab notebook and the answers to the question in Gradescope at [this link](https://www.gradescope.com/courses/942846/assignments/5920526).
