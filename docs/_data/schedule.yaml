@@ -780,7 +780,7 @@
     numDays: 7
   lecture:
     link: ""
-    name: ""
+    name: "AI/ML/LLM and SE"
   reading:
     link: ""
     name: ""
@@ -834,7 +834,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Engineering AI Systems"
   reading:
     link: ""
     name: ""
