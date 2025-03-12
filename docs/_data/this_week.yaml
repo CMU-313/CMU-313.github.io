@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Thu Mar 13
+  link: ''
+  name: AI/ML/LLM and SE
 
 projects:
 - date: Thu Feb 27
