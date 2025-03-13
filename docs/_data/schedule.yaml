@@ -779,7 +779,7 @@
     name: "P3B - Final Deliverables"
     numDays: 7
   lecture:
-    link: ""
+    link: "assets/pdfs/16-AI-for-SE.pdf"
     name: "AI/ML/LLM and SE"
   reading:
     link: ""
