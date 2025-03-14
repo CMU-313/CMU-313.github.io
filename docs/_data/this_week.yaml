@@ -4,18 +4,12 @@ lectures:
   name: AI/ML/LLM and SE
 
 projects:
-- date: Fri Feb 28
-  deadline: Due Thu, March 13th, 11:59pm
-  end_date: 2025-03-19 00:00:00
-  link: /projects/P3/
-  name: P3A - Checkpoint
-  numDays: 13
-- date: Thu Mar 13
+- date: Fri Mar 14
   deadline: Due Thu, March 20th, 11:59pm
-  end_date: 2025-03-24 00:00:00
+  end_date: 2025-03-21 00:00:00
   link: /projects/P3/
   name: P3B - Final Deliverables
-  numDays: 7
+  numDays: 5
 
 recitation:
   date: Mon Mar 10
