@@ -594,10 +594,10 @@
 
 - date: Thu Feb 27
   homework:
-    deadline: "Due Thu, March 13th, 11:59pm"
-    link: "/projects/P3/"
-    name: "P3A - Checkpoint"
-    numDays: 14
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
   lecture:
     link: "https://drive.google.com/drive/folders/1oD_K_XNTGzH4HjWqrvTCSzuCGmp-TNby?usp=drive_link"
     name: "Midterm 1"
@@ -612,10 +612,10 @@
 
 - date: Fri Feb 28
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Thu, March 13th, 11:59pm"
+    link: "/projects/P3/"
+    name: "P3A - Checkpoint"
+    numDays: 13
   lecture:
     link: ""
     name: ""
