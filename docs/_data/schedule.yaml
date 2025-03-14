@@ -615,7 +615,7 @@
     deadline: "Due Thu, March 13th, 11:59pm"
     link: "/projects/P3/"
     name: "P3A - Checkpoint"
-    numDays: 13
+    numDays: 10
   lecture:
     link: ""
     name: ""
@@ -774,10 +774,10 @@
 
 - date: Thu Mar 13
   homework:
-    deadline: "Due Thu, March 20th, 11:59pm"
-    link: "/projects/P3/"
-    name: "P3B - Final Deliverables"
-    numDays: 7
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
   lecture:
     link: "assets/pdfs/16-AI-for-SE.pdf"
     name: "AI/ML/LLM and SE"
@@ -792,10 +792,10 @@
 
 - date: Fri Mar 14
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Thu, March 20th, 11:59pm"
+    link: "/projects/P3/"
+    name: "P3B - Final Deliverables"
+    numDays: 5
   lecture:
     link: ""
     name: ""
