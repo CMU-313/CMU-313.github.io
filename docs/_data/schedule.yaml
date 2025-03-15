@@ -839,9 +839,9 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
+    handout: "/recitations/reci8-llms"
+    name: "Recitation 8 - Large Language Models"
+    quiz: "https://www.gradescope.com/courses/942846/assignments/5920526"
     slides: ""
 
 - date: Wed Mar 19
