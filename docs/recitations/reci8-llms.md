@@ -8,8 +8,7 @@ title: Recitation 8 - Large Language Models
 During this recitation, you will be able to run and evaluate a large language model on an example question/answer dataset. This is an individual activity so everyone should be running the notebook; however, feel free to discuss the activity and your approach with other students!
 
 ## Instructions
-For this recitation and Project 4, you'll be using the OpenAI Platform in a Colab notebook to query a large language model on a question/answer dataset. First, we need to set up our Azure project to enable the API and create a copy of the Colab notebook.
-Note: if you have not yet set up Azure, please refer to the instructions from [here](https://docs.google.com/document/d/1cTvANh2R6WChDXFz3HDXepcIeciUasAZhB9jScGRdJ4/edit?usp=sharing). 
+For this recitation and Project 4, you'll be using the OpenAI Platform in a Colab notebook to query a large language model on a question/answer dataset. First, we need to create a copy of the Colab notebook. 
 
 1.  Open the Colab notebook using [this link](https://colab.research.google.com/drive/1Xqbt6U7wBwQk4swyYlwZPwaJ1gbbiDod?usp=sharing). Click on File --> Save as a copy in Drive to create your own copy that you will work on.
 
