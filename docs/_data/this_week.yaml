@@ -1,7 +1,7 @@
 lectures:
-- date: Thu Mar 13
-  link: assets/pdfs/16-AI-for-SE.pdf
-  name: AI/ML/LLM and SE
+- date: Tue Mar 18
+  link: ''
+  name: Engineering AI Systems
 
 projects:
 - date: Fri Mar 14
@@ -16,4 +16,4 @@ recitation:
   handout: /recitations/reci8-llms
   name: Recitation 8 - Large Language Models
   quiz: https://www.gradescope.com/courses/942846/assignments/5920526
-  slides: 'https://docs.google.com/presentation/d/1xU4sfWpH7EHgDL0-Lj2geey_1Q1t_4zzwn6KI0iTyFA/edit?usp=sharing'
+  slides: https://docs.google.com/presentation/d/1xU4sfWpH7EHgDL0-Lj2geey_1Q1t_4zzwn6KI0iTyFA/edit?usp=sharing
