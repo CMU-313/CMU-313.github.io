@@ -821,10 +821,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "/recitations/reci8-llms"
+    name: "Recitation 8 - Large Language Models"
+    quiz: "https://www.gradescope.com/courses/942846/assignments/5920526"
+    slides: "https://docs.google.com/presentation/d/1xU4sfWpH7EHgDL0-Lj2geey_1Q1t_4zzwn6KI0iTyFA/edit?usp=sharing"
 
 - date: Tue Mar 18
   homework:
