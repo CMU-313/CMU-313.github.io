@@ -14,8 +14,6 @@ For this recitation and Project 4, you'll be using the OpenAI Platform in a Cola
 
 2.  Click on Share and make sure the Colab notebook is editable by anyone in Carnegie Mellon University. You will submit a link to this notebook for Gradescope.
 
-3. Follow the instructions in the notebook to set up Azure for LLM use.
-
-4. Have fun with the activity!
+3. Have fun with the activity!
 
 Once you are done, submit the link to your Colab notebook and the answers to the question in Gradescope at [this link](https://www.gradescope.com/courses/942846/assignments/5920526).
