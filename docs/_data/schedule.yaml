@@ -743,8 +743,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/15-analysis-tools.pdf"
+    name: "Static Analysis Tools"
   reading:
     link: ""
     name: ""
