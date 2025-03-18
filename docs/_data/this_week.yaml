@@ -1,7 +1,7 @@
 lectures:
 - date: Tue Mar 18
-  link: ''
-  name: Engineering AI Systems
+  link: assets/pdfs/17-SE-for-AI.pdf
+  name: Engineering ML Systems
 
 projects:
 - date: Fri Mar 14
