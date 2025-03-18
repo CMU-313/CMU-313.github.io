@@ -833,8 +833,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: "Engineering AI Systems"
+    link: "assets/pdfs/17-SE-for-AI.pdf"
+    name: "Engineering ML Systems"
   reading:
     link: ""
     name: ""
