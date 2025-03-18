@@ -864,10 +864,10 @@
 
 - date: Thu Mar 20
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Thu, April 3rd, 11:59pm"
+    link: "/projects/P4/"
+    name: "P4 - Final Deliverables"
+    numDays: 14
   lecture:
     link: ""
     name: ""
