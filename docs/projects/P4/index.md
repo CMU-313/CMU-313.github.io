@@ -24,7 +24,7 @@ In light of this new direction, your manager wants you to:
 2. **Build an experimental integration** with the existing NodeBB codebase to evaluate feasibility.
 3. **Evaluate the feature** and decide whether the feature should be fully implemented.
 
-As everything is just settling down, your CEO bursts back into the room!! There's a new catch: the company is strapped for funding and must be very careful with its spending. As a result, your team is now required to conduct all experimentation and implementation of the LLM-powered translation feature **using only the Azure credits currently at your disposal**. If your team successfully stays within your available credits and doesn't need to request any more, you’ll earn **bonus points** for your ingenuity and efficiency.
+As everything is just settling down, your CEO bursts back into the room!! There's a new catch: the company is strapped for funding and must be very careful with its spending. As a result, your team is now required to conduct all experimentation and implementation of the LLM-powered translation feature **using only the OpenAI credits currently at your disposal**. If your team successfully stays within your available credits and doesn't need to request any more, you’ll earn **bonus points** for your ingenuity and efficiency.
 
 Some of you may think that it’s unfair for this change to come up unexpectedly, especially since we didn’t inform you before P3, but keep in mind that this is just like real life! Working in a company means having to deal with unexpected circumstances, which more often than not contain some aspect concerning money. We're looking to see how well you can adapt to this new situation, and we want you to have this experience before you're dealing with the pressure of real company money. Rest assured, if your team needs more credits to finish the project, we will not be taking off points.
 
@@ -101,12 +101,7 @@ By the checkpoint deadline, your team will submit your design document to Grades
 
 To explore the feasibility of LLMs for this task, your manager would like you to prototype the basic functionality of an LLM to translate text. Due to the company’s existing deal with Microsoft, your team will use the gpt-4o-mini language model from OpenAI's Platform.
 
-To get setup, you will need to setup your Azure NodeBB instance and set up LLM use through Azure. You should already have done both of these for recitations 7 and 8, but you should refer to these two documents if you don't have something set up properly.
-
-1. [Recitation 7 instructions](https://docs.google.com/document/d/1cC95F2752ZNmAJ_VPjZmEd8UoUhBi7-lQElx6OaZFd0) on setting up NodeBB instance on Azure
-2. [Recitation 8 instructions](https://docs.google.com/document/d/1cTvANh2R6WChDXFz3HDXepcIeciUasAZhB9jScGRdJ4/edit?usp=sharing) on setting up Azure for LLM use
-
-Once you're all set up, open the Colab notebook using [this link](https://colab.research.google.com/drive/1KO34Y0de7vmt6-P1rCdKq-Z3NT8kU3fl?usp=sharing). Click on File --> Save as a copy in Drive to create your own copy that you will work on. Only one team member needs to do this, and the team should collaborate using this notebook. Click on Share and make sure the Colab notebook is **editable** by anyone in Carnegie Mellon University.
+Once you're all set up, open the Colab notebook using [this link](https://colab.research.google.com/drive/1ubDjMa-YhKq2kuHaiy_JfotWam_VlmSm?usp=sharing). Click on File --> Save as a copy in Drive to create your own copy that you will work on. Only one team member needs to do this, and the team should collaborate using this notebook. Click on Share and make sure the Colab notebook is **editable** by anyone in Carnegie Mellon University.
 
 Now, you should be ready to experiment with gpt-4o-mini! Follow the instructions in the notebook through the end of the Basic LLM Experiment.
 
@@ -173,11 +168,11 @@ To receive full credit for the second checkpoint, we expect:
 
 - [ ] A functional integration of the UI code into your NodeBB application.
 - [ ] A preliminary implementation of the translation feature using the starter code, including CI with unit and mock tests.
-- [ ] An integrated deployment of your NodeBB and the translation service on Azure.
+- [ ] An integrated deployment of your NodeBB and the translation service.
 
 To receive full credit for the final deadline, we expect:
 
-- [ ] A functional translation feature, as described in your design document, integrated into your NodeBB application and deployed on Azure.
+- [ ] A functional translation feature, as described in your design document, integrated into your NodeBB application.
 - [ ] An uploaded PDF report discussing your evaluation findings addressing all the sections outlined above
 
 ## Resource & Documentation
@@ -196,7 +191,7 @@ There are a few additional reference materials available in the CMU library that
 
 ### LLMs
 
-- [Azure OpenAI docs](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview)
-- [Azure OpenAI Service pricing](https://deploy-preview-159--17313.netlify.app/projects/p4/#resource-documentation)
+- [OpenAI docs](https://platform.openai.com/docs/concepts)
+- [OpenAI pricing](https://platform.openai.com/docs/pricing)
 - [SBert Cosine Similarity Documentation](https://www.sbert.net/docs/quickstart.html#comparing-sentence-similarities)
 - [SBert Semantic Search Documentation](https://www.sbert.net/examples/applications/semantic-search/README.html)
