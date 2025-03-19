@@ -120,6 +120,8 @@ For this checkpoint, you are expected to have successfully integrated the provid
 
 Furthermore, your server-side code must include unit and mock tests. To accomplish this, you must move the tests you wrote in the previous checkpoint to the repo and integrate them into the CI pipeline.
 
+NOTE: you do not need to deploy these changes to your Linux VM, only locally (deploying would require changing Docker setup)
+
 ## Final Deliverables
 
 ### Final LLM Experiment Implementation (30 points)
@@ -168,7 +170,7 @@ To receive full credit for the second checkpoint, we expect:
 
 - [ ] A functional integration of the UI code into your NodeBB application.
 - [ ] A preliminary implementation of the translation feature using the starter code, including CI with unit and mock tests.
-- [ ] An integrated deployment of your NodeBB and the translation service.
+- [ ] Integrating NodeBB and the translation service. (NOTE: you are not required to deploy these changes to your Linux VM)
 
 To receive full credit for the final deadline, we expect:
 
