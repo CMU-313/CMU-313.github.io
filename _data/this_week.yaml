@@ -1,0 +1,19 @@
+lectures:
+- date: Tue Mar 18
+  link: assets/pdfs/17-SE-for-AI.pdf
+  name: Engineering ML Systems
+
+projects:
+- date: Fri Mar 21
+  deadline: Due Thursday, March 27th, 11:59pm
+  end_date: 2025-03-28 00:00:00
+  link: /projects/P4/
+  name: P4A - Checkpoint
+  numDays: 5
+
+recitation:
+  date: Mon Mar 17
+  handout: /recitations/reci8-llms
+  name: Recitation 8 - Large Language Models
+  quiz: https://www.gradescope.com/courses/942846/assignments/5920526
+  slides: https://docs.google.com/presentation/d/1xU4sfWpH7EHgDL0-Lj2geey_1Q1t_4zzwn6KI0iTyFA/edit?usp=sharing
