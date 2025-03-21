@@ -882,10 +882,10 @@
 
 - date: Fri Mar 21
   homework:
-    deadline: "Due Thu, April 3rd, 11:59pm"
+    deadline: "Due Thursday, March 27th, 11:59pm"
     link: "/projects/P4/"
-    name: "P4 - Final Deliverables"
-    numDays: 10
+    name: "P4A - Checkpoint"
+    numDays: 5
   lecture:
     link: ""
     name: ""
@@ -972,10 +972,10 @@
 
 - date: Fri Mar 28
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Tuesday, April 1st, 11:59pm"
+    link: "/projects/P4/"
+    name: "P4B - Checkpoint"
+    numDays: 3
   lecture:
     link: ""
     name: ""
@@ -1026,10 +1026,10 @@
 
 - date: Wed Apr 2
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Monday, April 7th, 11:59pm"
+    link: "/projects/P4/"
+    name: "P4C - Final Deliverables"
+    numDays: 4
   lecture:
     link: ""
     name: ""
