@@ -31,16 +31,16 @@ Some of you may think that it’s unfair for this change to come up unexpectedly
 ## Deliverables and Deadlines
 There are three (3) deadlines for the project. This project is worth a total of 125 points.
 
-**Checkpoint #1 Deliverables** – 55 pts - due Friday, November 8, 11:59pm
+**Checkpoint #1 Deliverables** – 55 pts - due Thursday, March 27, 11:59pm
 
 - [Architectural Design Document (40 pts)](#architectural-design-document-40-points)
 - [Basic LLM Experiment (15 pts)](#basic-llm-experiment-15-points)
 
-**Checkpoint #2 Deliverables** – 10 pts - due Wednesday, November 13, 11:59pm
+**Checkpoint #2 Deliverables** – 10 pts - due Tuesday, April 1, 11:59pm
 
 - [LLM Experiment Integration Checkpoint (10 pts)](#llm-experiment-integration-checkpoint-10-points)
 
-**Final Deliverables** - 60 pts - due Friday, November 15, 11:59pm
+**Final Deliverables** - 60 pts - due Monday, April 7, 11:59pm
 
 - [Final LLM Experiment Implementation (30 pts)](#final-llm-experiment-implementation-30-points)
 - [Evaluation Report (30 pts)](#evaluation-report-30-points)
@@ -120,8 +120,6 @@ For this checkpoint, you are expected to have successfully integrated the provid
 
 Furthermore, your server-side code must include unit and mock tests. To accomplish this, you must move the tests you wrote in the previous checkpoint to the repo and integrate them into the CI pipeline.
 
-NOTE: you do not need to deploy these changes to your Linux VM, only locally (deploying would require changing Docker setup)
-
 ## Final Deliverables
 
 ### Final LLM Experiment Implementation (30 points)
@@ -170,7 +168,7 @@ To receive full credit for the second checkpoint, we expect:
 
 - [ ] A functional integration of the UI code into your NodeBB application.
 - [ ] A preliminary implementation of the translation feature using the starter code, including CI with unit and mock tests.
-- [ ] Integrating NodeBB and the translation service. (NOTE: you are not required to deploy these changes to your Linux VM)
+- [ ] Integrating NodeBB and the translation service.
 
 To receive full credit for the final deadline, we expect:
 
