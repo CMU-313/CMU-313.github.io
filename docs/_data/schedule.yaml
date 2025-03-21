@@ -885,7 +885,7 @@
     deadline: "Due Thursday, March 27th, 11:59pm"
     link: "/projects/P4/"
     name: "P4A - Checkpoint"
-    numDays: 4
+    numDays: 5
   lecture:
     link: ""
     name: ""
@@ -975,7 +975,7 @@
     deadline: "Due Tuesday, April 1st, 11:59pm"
     link: "/projects/P4/"
     name: "P4B - Checkpoint"
-    numDays: 2
+    numDays: 3
   lecture:
     link: ""
     name: ""
