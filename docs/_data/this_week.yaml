@@ -1,7 +1,4 @@
-lectures:
-- date: Tue Mar 18
-  link: assets/pdfs/17-SE-for-AI.pdf
-  name: Engineering ML Systems
+lectures: []
 
 projects:
 - date: Fri Mar 21
@@ -10,6 +7,12 @@ projects:
   link: /projects/P4/
   name: P4A - Checkpoint
   numDays: 5
+- date: Fri Mar 28
+  deadline: Due Tuesday, April 1st, 11:59pm
+  end_date: 2025-04-02 00:00:00
+  link: /projects/P4/
+  name: P4B - Checkpoint
+  numDays: 3
 
 recitation:
   date: Mon Mar 23
