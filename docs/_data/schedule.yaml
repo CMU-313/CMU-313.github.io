@@ -551,7 +551,7 @@
     link: ""
     name: ""
   recitation:
-    handout: "/recitations/reci6-deployment"              
+    handout: "/recitations/reci6-deployment"
     name: "Recitation 6 - Deployment"
     quiz: "https://www.gradescope.com/courses/942846/assignments/5835730/submissions"
     slides: "https://docs.google.com/presentation/d/1_I1K40dqZYxamm9VssNPuJakQ8KZjrXIukiT-gfGE3A/edit#slide=id.g339215f743c_0_901"
@@ -911,10 +911,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "/recitations/reci9-open-source"
+    name: "Recitation 9 - Open Source Projects"
+    quiz: "https://www.gradescope.com/courses/942846/assignments/5975185"
+    slides: "https://docs.google.com/presentation/d/1L9IoGPQL5Pws6_qKtLfGIDi_5_TymkDXXth1U67eKyQ/edit?usp=drive_link"
 
 - date: Tue Mar 25
   homework:
