@@ -923,8 +923,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/19-Ethics.pdf"
+    name: "Usability Engineering"
   reading:
     link: ""
     name: ""
