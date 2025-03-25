@@ -869,8 +869,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/18-usability-engineering.pdf"
+    name: "Usability Engineering"
   reading:
     link: ""
     name: ""
