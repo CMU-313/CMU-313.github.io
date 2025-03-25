@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Tue Mar 25
+  link: assets/pdfs/19-Ethics.pdf
+  name: Usability Engineering
 
 projects:
 - date: Fri Mar 21
