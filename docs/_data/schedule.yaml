@@ -924,7 +924,7 @@
     numDays: 0
   lecture:
     link: "assets/pdfs/19-Ethics.pdf"
-    name: "Usability Engineering"
+    name: "Ethics"
   reading:
     link: ""
     name: ""
@@ -959,8 +959,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/20-ConverstationsWorkshopHandout.pdf"
+    name: "Difficult Conversations"
   reading:
     link: ""
     name: ""
