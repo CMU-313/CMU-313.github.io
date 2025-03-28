@@ -1,15 +1,12 @@
 lectures:
 - date: Tue Mar 25
   link: assets/pdfs/19-Ethics.pdf
-  name: Usability Engineering
+  name: Ethics
+- date: Thu Mar 27
+  link: assets/pdfs/20-ConverstationsWorkshopHandout.pdf
+  name: Difficult Conversations
 
 projects:
-- date: Fri Mar 21
-  deadline: Due Thursday, March 27th, 11:59pm
-  end_date: 2025-03-28 00:00:00
-  link: /projects/P4/
-  name: P4A - Checkpoint
-  numDays: 5
 - date: Fri Mar 28
   deadline: Due Tuesday, April 1st, 11:59pm
   end_date: 2025-04-02 00:00:00
