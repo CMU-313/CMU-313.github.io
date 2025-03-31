@@ -1001,10 +1001,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "/recitations/reci10-team-feedback"
+    name: "Recitation 10 - Team Feedback"
+    quiz: "https://www.gradescope.com/courses/942846/assignments/6004559"
+    slides: "https://docs.google.com/presentation/d/1toplj2nQ4zWQbEl4G-mmhfwhpwgudyCg4eYgeZOi9VY/edit?usp=sharing"
 
 - date: Tue Apr 1
   homework:
