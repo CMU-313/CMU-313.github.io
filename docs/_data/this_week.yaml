@@ -1,10 +1,7 @@
 lectures:
-- date: Tue Mar 25
-  link: assets/pdfs/19-Ethics.pdf
-  name: Ethics
-- date: Thu Mar 27
-  link: assets/pdfs/20-ConverstationsWorkshopHandout.pdf
-  name: Difficult Conversations
+- date: Thu Apr 3
+  link: ''
+  name: Spring Carnival - No Class
 
 projects:
 - date: Fri Mar 28
@@ -13,10 +10,11 @@ projects:
   link: /projects/P4/
   name: P4B - Checkpoint
   numDays: 3
+- date: Wed Apr 2
+  deadline: Due Monday, April 7th, 11:59pm
+  end_date: 2025-04-08 00:00:00
+  link: /projects/P4/
+  name: P4C - Final Deliverables
+  numDays: 4
 
-recitation:
-  date: Mon Mar 24
-  handout: /recitations/reci9-open-source
-  name: Recitation 9 - Open Source Projects
-  quiz: https://www.gradescope.com/courses/942846/assignments/5975185
-  slides: https://docs.google.com/presentation/d/1L9IoGPQL5Pws6_qKtLfGIDi_5_TymkDXXth1U67eKyQ/edit?usp=drive_link
+recitation: null
