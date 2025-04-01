@@ -972,10 +972,10 @@
 
 - date: Fri Mar 28
   homework:
-    deadline: "Due Tuesday, April 1st, 11:59pm"
+    deadline: "Due Sunday, April 6st, 11:59pm"
     link: "/projects/P4/"
     name: "P4B - Checkpoint"
-    numDays: 3
+    numDays: 8
   lecture:
     link: ""
     name: ""
