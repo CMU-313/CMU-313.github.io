@@ -36,7 +36,7 @@ There are three (3) deadlines for the project. This project is worth a total of 
 - [Architectural Design Document (40 pts)](#architectural-design-document-40-points)
 - [Basic LLM Experiment (15 pts)](#basic-llm-experiment-15-points)
 
-**Checkpoint #2 Deliverables** – 10 pts - due Tuesday, April 1, 11:59pm
+**Checkpoint #2 Deliverables** – 10 pts - due Sunday, April 6, 11:59pm
 
 - [LLM Experiment Integration Checkpoint (10 pts)](#llm-experiment-integration-checkpoint-10-points)
 
