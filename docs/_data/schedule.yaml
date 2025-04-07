@@ -1013,8 +1013,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/21-ai-activity.pdf"
+    name: "AI Coding Activity"
   reading:
     link: ""
     name: ""
