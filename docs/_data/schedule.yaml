@@ -1026,10 +1026,10 @@
 
 - date: Wed Apr 2
   homework:
-    deadline: "Due Monday, April 7th, 11:59pm"
+    deadline: "Due Wednesday, April 9th, 11:59pm"
     link: "/projects/P4/"
     name: "P4C - Final Deliverables"
-    numDays: 4
+    numDays: 6
   lecture:
     link: ""
     name: ""

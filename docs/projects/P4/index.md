@@ -40,7 +40,7 @@ There are three (3) deadlines for the project. This project is worth a total of 
 
 - [LLM Experiment Integration Checkpoint (10 pts)](#llm-experiment-integration-checkpoint-10-points)
 
-**Final Deliverables** - 60 pts - due Monday, April 7, 11:59pm
+**Final Deliverables** - 60 pts - due Wednesday, April 9, 11:59pm
 
 - [Final LLM Experiment Implementation (30 pts)](#final-llm-experiment-implementation-30-points)
 - [Evaluation Report (30 pts)](#evaluation-report-30-points)
