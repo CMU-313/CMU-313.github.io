@@ -1,15 +1,12 @@
-lectures:
-- date: Thu Apr 3
-  link: ''
-  name: Spring Carnival - No Class
+lectures: []
 
 projects:
 - date: Fri Mar 28
-  deadline: Due Tuesday, April 1st, 11:59pm
-  end_date: 2025-04-02 00:00:00
+  deadline: Due Sunday, April 6st, 11:59pm
+  end_date: 2025-04-09 00:00:00
   link: /projects/P4/
   name: P4B - Checkpoint
-  numDays: 3
+  numDays: 8
 - date: Wed Apr 2
   deadline: Due Monday, April 7th, 11:59pm
   end_date: 2025-04-08 00:00:00
@@ -17,9 +14,11 @@ projects:
   name: P4C - Final Deliverables
   numDays: 4
 
+
 recitation:
   date: Mon Apr 7
   handout: /recitations/reci11-midterm-review
   name: Recitation 11 - Midterm Review
   quiz: https://www.gradescope.com/courses/942846/assignments/6014229/
   slides: https://docs.google.com/document/d/1EsLks8giDRKo8wKeJO-FFy9JhBuylTzS_F8zIkxmJFQ/edit?usp=sharing
+
