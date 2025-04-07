@@ -8,11 +8,11 @@ projects:
   name: P4B - Checkpoint
   numDays: 8
 - date: Wed Apr 2
-  deadline: Due Monday, April 7th, 11:59pm
-  end_date: 2025-04-08 00:00:00
+  deadline: Due Wednesday, April 9th, 11:59pm
+  end_date: 2025-04-10 00:00:00
   link: /projects/P4/
   name: P4C - Final Deliverables
-  numDays: 4
+  numDays: 6
 
 recitation:
   date: Mon Apr 7
