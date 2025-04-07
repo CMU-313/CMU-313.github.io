@@ -1,7 +1,4 @@
-lectures:
-- date: Thu Apr 3
-  link: ''
-  name: Spring Carnival - No Class
+lectures: []
 
 projects:
 - date: Fri Mar 28
@@ -17,9 +14,4 @@ projects:
   name: P4C - Final Deliverables
   numDays: 4
 
-recitation:
-  date: Mon Mar 31
-  handout: /recitations/reci10-team-feedback
-  name: Recitation 10 - Team Feedback
-  quiz: https://www.gradescope.com/courses/942846/assignments/6004559
-  slides: https://docs.google.com/presentation/d/1toplj2nQ4zWQbEl4G-mmhfwhpwgudyCg4eYgeZOi9VY/edit?usp=sharing
+recitation: null
