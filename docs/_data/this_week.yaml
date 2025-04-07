@@ -14,11 +14,9 @@ projects:
   name: P4C - Final Deliverables
   numDays: 4
 
-
 recitation:
   date: Mon Apr 7
   handout: /recitations/reci11-midterm-review
-  name: Recitation 11 - Midterm Review
+  name: Recitation 11 - Midterm 2 Review
   quiz: https://www.gradescope.com/courses/942846/assignments/6014229/
   slides: https://docs.google.com/document/d/1EsLks8giDRKo8wKeJO-FFy9JhBuylTzS_F8zIkxmJFQ/edit?usp=sharing
-
