@@ -1103,8 +1103,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/23-GuestLecture1.pdf"
+    name: "Reliably Releasing Software"
   reading:
     link: ""
     name: ""
@@ -1139,8 +1139,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/23-GuestLecture2.pdf"
+    name: "Reliably Releasing Software (continued)"
   reading:
     link: ""
     name: ""
