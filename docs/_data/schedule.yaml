@@ -1278,10 +1278,10 @@
 
 - date: Tue Apr 22
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Tue, April 22nd @ 11:59pm"
+    link: "projects/P5"
+    name: "P5A - Project & Tasks Selection Check-In"
+    numDays: 2
   lecture:
     link: ""
     name: ""
@@ -1296,9 +1296,9 @@
 
 - date: Wed Apr 23
   homework:
-    deadline: ""
-    link: ""
-    name: ""
+    deadline: "Due Sun, May 4th @ 11:59pm"
+    link: "projects/P5"
+    name: "P5B and P5C - Open Source Excursion"
     numDays: 0
   lecture:
     link: ""
