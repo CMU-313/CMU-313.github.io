@@ -110,7 +110,7 @@ Page limits are provided for guidance; we will not enforce them. Collect all par
     We want to ensure that everyone is participating fully in the final project. For this project, we will be assessing participation in a variety of ways, including: artifact evaluation, self & peer evaluation. Credit due for the team components of this project will be awarded based on evidence of full participation in the team. **Partial participation will receive partial credit.**
 
 !!! warning "Use of Generative AI Forbidden"
-    As described in [the syllabus,](/syllabus/#policy-on-use-of-generative-ai-for-writing) the use of generative AI tools for this part of the assignment is forbidden, and will be considered to be an academic integrity violation. 
+    As described in [the syllabus,](/docs/syllabus/#policy-on-use-of-generative-ai-for-writing) the use of generative AI tools for this part of the assignment is forbidden, and will be considered to be an academic integrity violation. 
 
 Your individual reflection should include:
 
