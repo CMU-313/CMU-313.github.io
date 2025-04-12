@@ -2,15 +2,15 @@
 
 ## Deliverables
 
-**Project Report and Presentation** – due Sunday, December 8th, 11:59pm
+**Project Report and Presentation** – due Sunday, May 4th, 11:59pm
 
 - [Project Report](#project-report-200-pts) (200 pts) 
 - [Extra Credit](#project-report-200-pts) (20 pts)
 - [Project Presentation Slides](#project-presentations-100-pts) (100 points, graded based on presentation)
 
-**Presentation Date** – Monday, December 9th, 1:00-4:00pm, during exam timeslot
+**Presentation Date** – Monday, May 5th, 1:00-4:00pm, during exam timeslot
 
-**Reflection** – due Monday, December 9th, 11:59pm
+**Reflection** – due Monday, May 5th, 11:59pm
 
 - [Reflections & Peer Review](#individual-reflection-peer-evaluations-20-pts) (20 pts)
 
