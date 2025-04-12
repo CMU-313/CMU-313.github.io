@@ -1170,10 +1170,10 @@
 
 - date: Mon Apr 14
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Wed, April 16th @ 11:59pm"
+    link: "projects/P5"
+    name: "P5A - Project & Tasks Selection Check-In"
+    numDays: 2
   lecture:
     link: ""
     name: ""
@@ -1206,10 +1206,10 @@
 
 - date: Wed Apr 16
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Sun, May 4th @ 11:59pm"
+    link: "projects/P5"
+    name: "P5B and P5C - Open Source Excursion"
+    numDays: 18
   lecture:
     link: ""
     name: ""
@@ -1313,6 +1313,114 @@
     slides: ""
 
 - date: Thu Apr 24
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+    
+- date: Fri Apr 25
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Mon Apr 28
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Tue Apr 29
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Wed Apr 30
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu May 1
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+    
+- date: Fri May 2
   homework:
     deadline: ""
     link: ""

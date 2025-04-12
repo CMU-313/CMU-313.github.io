@@ -21,18 +21,18 @@ If you demonstrate to us that your change has been accepted and integrated into 
 ## Deliverables and Deadlines
 This will is your final project with your group. There are 3 deadlines for this project. The project is worth a total of 400 points (~24% of your final grade). 
 
-A) [**Project & Task Selection**](1_projectcheck.md) – 80 points – due Tuesday, November 19th, 11:59pm
+A) [**Project & Task Selection**](1_projectcheck.md) – 80 points – due Wednesday, April 16th, 11:59pm
 
-- Project selection - **due Tuesday, November 19th**
-- Check-In Presentation (slides + recording) (80 pts) - **due Sunday November 24th**
+- Project selection - **due Wednesday, April 16th**
+- Check-In Presentation (slides + recording) (80 pts) - **due Sunday April 21st**
 
-B) [**Project Final Report & Presentations**](2_projectfinal.md) – 300 points – due Sunday, December 8th, 11:59pm
+B) [**Project Final Report & Presentations**](2_projectfinal.md) – 300 points – due Sunday, May 4th, 11:59pm
 
 - Project Report (200 pts) 
 - *Extra Credit (20 pts)*
-- Project Presentation (100 points) - **Held during exam timeslot on Monday, December 9th, 1:00-4:00pm**
+- Project Presentation (100 points) - **Held during exam timeslot on Monday, May 5th, 1:00-4:00pm**
 
-C) [**Individual Reflections**](2_projectfinal.md) – 20 points – due Monday, December 9th, 11:59pm
+C) [**Individual Reflections**](2_projectfinal.md) – 20 points – due Monday, May 5th, 11:59pm
 
 - Reflections & Peer Review (20 pts)
 
