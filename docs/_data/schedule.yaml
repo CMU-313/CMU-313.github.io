@@ -1347,3 +1347,93 @@
     name: ""
     quiz: ""
     slides: ""
+
+- date: Mon Apr 28
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Tue Apr 29
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Wed Apr 30
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Thu May 1
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+    
+- date: Fri May 2
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
