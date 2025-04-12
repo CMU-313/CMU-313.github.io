@@ -1139,7 +1139,7 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/23-GuestLecture2.pdf"
+    link: "assets/pdfs/22-GuestLecture2.pdf"
     name: "Reliably Releasing Software (continued)"
   reading:
     link: ""
