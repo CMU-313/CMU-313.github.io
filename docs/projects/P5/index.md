@@ -23,7 +23,7 @@ This will is your final project with your group. There are 3 deadlines for this 
 
 A) [**Project & Task Selection**](1_projectcheck.md) – 80 points – due Wednesday, April 16th, 11:59pm
 
-- Project selection - **due Wednesday, Aprril 16th**
+- Project selection - **due Wednesday, April 16th**
 - Check-In Presentation (slides + recording) (80 pts) - **due Sunday April 21st**
 
 B) [**Project Final Report & Presentations**](2_projectfinal.md) – 300 points – due Sunday, May 4th, 11:59pm
