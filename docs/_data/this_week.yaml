@@ -17,4 +17,9 @@ projects:
   name: P5B and P5C - Open Source Excursion
   numDays: 18
 
-recitation: null
+recitation:
+  date: Mon Apr 14
+  handout: ''
+  name: Recitation 12 - Open Source Project Selection
+  quiz: ''
+  slides: ''
