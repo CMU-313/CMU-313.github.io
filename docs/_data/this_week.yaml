@@ -1,16 +1,20 @@
 lectures:
-- date: Tue Apr 8
-  link: assets/pdfs/23-GuestLecture1.pdf
-  name: Reliably Releasing Software
-- date: Thu Apr 10
-  link: assets/pdfs/22-GuestLecture2.pdf
-  name: Reliably Releasing Software (continued)
+- date: Thu Apr 17
+  link: ''
+  name: Midterm 2
 
-projects: []
+projects:
+- date: Mon Apr 14
+  deadline: Due Wed, April 16th @ 11:59pm
+  end_date: 2025-04-16 00:00:00
+  link: projects/P5
+  name: P5A - Project & Tasks Selection Check-In
+  numDays: 2
+- date: Wed Apr 16
+  deadline: Due Sun, May 4th @ 11:59pm
+  end_date: 2025-05-12 00:00:00
+  link: projects/P5
+  name: P5B and P5C - Open Source Excursion
+  numDays: 18
 
-recitation:
-  date: Mon Apr 7
-  handout: /recitations/reci11-midterm-review
-  name: Recitation 11 - Midterm 2 Review
-  quiz: https://www.gradescope.com/courses/942846/assignments/6014229/
-  slides: https://docs.google.com/document/d/1EsLks8giDRKo8wKeJO-FFy9JhBuylTzS_F8zIkxmJFQ/edit?usp=sharing
+recitation: null
