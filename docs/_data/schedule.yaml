@@ -1193,8 +1193,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/24-OpenSource.pdf"
+    name: "Open Source"
   reading:
     link: ""
     name: ""
