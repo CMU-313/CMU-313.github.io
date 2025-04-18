@@ -1271,10 +1271,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "/recitations/reci13-open-source-presentation"
+    name: "Recitation 13 - Open Source Project Presentation"
+    quiz: "https://www.gradescope.com/courses/942846/assignments/6102827/submissions"
+    slides: "https://drive.google.com/drive/folders/19YPURvjipz1BHz69tG4k-uBDbvqiFrPw?usp=drive_link"
 
 - date: Tue Apr 22
   homework:
