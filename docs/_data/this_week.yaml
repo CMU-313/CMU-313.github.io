@@ -7,12 +7,6 @@ lectures:
   name: Midterm 2
 
 projects:
-- date: Mon Apr 14
-  deadline: Due Wed, April 16th @ 11:59pm
-  end_date: 2025-04-16 00:00:00
-  link: projects/P5
-  name: P5A - Project & Tasks Selection Check-In
-  numDays: 2
 - date: Wed Apr 16
   deadline: Due Sun, May 4th @ 11:59pm
   end_date: 2025-05-12 00:00:00
@@ -21,8 +15,8 @@ projects:
   numDays: 18
 
 recitation:
-  date: Mon Apr 21
+  date: Mon Apr 14
   handout: ''
-  name: Recitation 13 - Open Source Project Presentation
+  name: Recitation 12 - Open Source Project Selection
   quiz: ''
   slides: ''
