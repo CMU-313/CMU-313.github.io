@@ -1,0 +1,22 @@
+lectures:
+- date: Tue Apr 15
+  link: assets/pdfs/24-OpenSource.pdf
+  name: Open Source
+- date: Thu Apr 17
+  link: ''
+  name: Midterm 2
+
+projects:
+- date: Wed Apr 16
+  deadline: Due Sun, May 4th @ 11:59pm
+  end_date: 2025-05-12 00:00:00
+  link: projects/P5
+  name: P5B and P5C - Open Source Excursion
+  numDays: 18
+
+recitation:
+  date: Mon Apr 14
+  handout: ''
+  name: Recitation 12 - Open Source Project Selection
+  quiz: ''
+  slides: ''
