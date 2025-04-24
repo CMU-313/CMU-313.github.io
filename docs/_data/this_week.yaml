@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Tue Apr 22
+  link: assets/pdfs/25-employment.pdf
+  name: This lecture can save you 12 million dollars
 
 projects:
 - date: Wed Apr 16
