@@ -1319,8 +1319,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/26-FinalThoughts.pdf"
+    name: "Final Thoughts"
   reading:
     link: ""
     name: ""
