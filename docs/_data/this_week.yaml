@@ -1,10 +1,4 @@
-lectures:
-- date: Tue Apr 22
-  link: assets/pdfs/25-employment.pdf
-  name: This lecture can save you 12 million dollars
-- date: Thu Apr 24
-  link: assets/pdfs/26-FinalThoughts.pdf
-  name: Final Thoughts
+lectures: []
 
 projects:
 - date: Wed Apr 16
@@ -14,9 +8,4 @@ projects:
   name: P5B and P5C - Open Source Excursion
   numDays: 18
 
-recitation:
-  date: Mon Apr 21
-  handout: /recitations/reci13-open-source-presentation
-  name: Recitation 13 - Open Source Project Presentation
-  quiz: https://www.gradescope.com/courses/942846/assignments/6102827/submissions
-  slides: https://drive.google.com/drive/folders/19YPURvjipz1BHz69tG4k-uBDbvqiFrPw?usp=drive_link
+recitation: null
