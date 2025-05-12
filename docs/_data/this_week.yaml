@@ -1,11 +1,5 @@
 lectures: []
 
-projects:
-- date: Wed Apr 16
-  deadline: Due Sun, May 4th @ 11:59pm
-  end_date: 2025-05-12 00:00:00
-  link: projects/P5
-  name: P5B and P5C - Open Source Excursion
-  numDays: 18
+projects: []
 
 recitation: null
