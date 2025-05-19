@@ -1,0 +1,1534 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Syllabus - CMU 17-313: Foundations of Software Engineering</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.08040f6c.min.css">
+        
+      
+      
+
+    
+    
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#course-syllabus-and-policies" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="CMU 17-313: Foundations of Software Engineering" class="md-header__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering" data-md-component="logo">
+      
+  <img src="../../../assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CMU 17-313: Foundations of Software Engineering
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Syllabus
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../overview/" class="md-tabs__link">
+      Course Overview
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../syllabus/" class="md-tabs__link">
+      Syllabus
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../projects/P1/" class="md-tabs__link">
+        Projects
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../recitations/reci1-nodeBB/" class="md-tabs__link">
+        Recitations
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../hall-of-fame/" class="md-tabs__link">
+      Hall of Fame
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://canvas.cmu.edu/courses/42497" class="md-tabs__link">
+      Canvas
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://www.gradescope.com/courses/835182" class="md-tabs__link">
+      Gradescope
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://join.slack.com/t/cmu-313-s25/shared_invite/zt-2x6uyc4kl-lwgvOdiIF_NSmJxMzIfZRw" class="md-tabs__link">
+      Slack
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="CMU 17-313: Foundations of Software Engineering" class="md-nav__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering" data-md-component="logo">
+      
+  <img src="../../../assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    CMU 17-313: Foundations of Software Engineering
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../overview/" class="md-nav__link">
+        Course Overview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../syllabus/" class="md-nav__link">
+        Syllabus
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Projects
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Projects" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Projects
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../projects/P1/">Project 1: Hello, NodeBB!</a>
+          
+            <label for="__nav_4_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 1: Hello, NodeBB!" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Project 1: Hello, NodeBB!
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/P1/1_checkpoint/" class="md-nav__link">
+        1A Build Checkpoint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/P1/2_refactoring/" class="md-nav__link">
+        1B Starter Task
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1_4" type="checkbox" id="__nav_4_1_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4_1_4">
+          NodeBB Installation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="NodeBB Installation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          NodeBB Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/P1/installation/mac/" class="md-nav__link">
+        Mac
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/P1/installation/windows/" class="md-nav__link">
+        Windows
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/P1/installation/ubuntu/" class="md-nav__link">
+        Linux (Ubuntu)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/P1/documentation/" class="md-nav__link">
+        Resources and Documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/P1/faq/" class="md-nav__link">
+        FAQ
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../projects/P2/">Project 2: Collaborative Development</a>
+          
+            <label for="__nav_4_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 2: Collaborative Development" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Project 2: Collaborative Development
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/P2/1_teamprocess/" class="md-nav__link">
+        2A Team Process & Planning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/P2/2_firstsprint/" class="md-nav__link">
+        2B First Sprint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/P2/3_secondsprint/" class="md-nav__link">
+        2C Second Sprint
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../projects/P3/">Project 3: Continuous Integration + Deployment</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 3: Continuous Integration + Deployment" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Project 3: Continuous Integration + Deployment
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../projects/P4/">Project 4: Architecting an LLM Integration</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 4: Architecting an LLM Integration" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Project 4: Architecting an LLM Integration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_5" type="checkbox" id="__nav_4_5" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../projects/P5/">Project 5: Open Source Excursion</a>
+          
+            <label for="__nav_4_5">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 5: Open Source Excursion" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          Project 5: Open Source Excursion
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/P5/1_projectcheck/" class="md-nav__link">
+        5A Project and Task Selection
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/P5/2_projectfinal/" class="md-nav__link">
+        5B & C Project Presentations, Final Report, and Reflections
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Recitations
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Recitations" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Recitations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci1-nodeBB/" class="md-nav__link">
+        Recitation 1 - Understand NodeBB
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci2-teamcontract/" class="md-nav__link">
+        Recitation 2 - Team Contract Workshop
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci3-archaeology/" class="md-nav__link">
+        Recitation 3 - Software Archaeology
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci4-checkpoint/" class="md-nav__link">
+        Recitation 4 - Checkpoint Presentations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci5-team-dysfunction/" class="md-nav__link">
+        Recitation 5 - Team Dysfunction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci6-deployment/" class="md-nav__link">
+        Recitation 6 - Deployment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci7-onprem-setup/" class="md-nav__link">
+        Recitation 7 - On Prem Deployment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci8-llms/" class="md-nav__link">
+        Recitation 8 - LLMs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci10-open-source/" class="md-nav__link">
+        Recitation 9 - Open Source Scavenger Hunt
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci10-team-feedback/" class="md-nav__link">
+        Recitation 10 - Team Feedback
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci13-open-source-presentation/" class="md-nav__link">
+        Recitation 13 - Open Source Projects Presentation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../hall-of-fame/" class="md-nav__link">
+        Hall of Fame
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://canvas.cmu.edu/courses/42497" class="md-nav__link">
+        Canvas
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.gradescope.com/courses/835182" class="md-nav__link">
+        Gradescope
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://join.slack.com/t/cmu-313-s25/shared_invite/zt-2x6uyc4kl-lwgvOdiIF_NSmJxMzIfZRw" class="md-nav__link">
+        Slack
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#course-syllabus-and-policies" class="md-nav__link">
+    Course Syllabus and Policies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#waitlist" class="md-nav__link">
+    Waitlist
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#communication" class="md-nav__link">
+    Communication
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teamwork" class="md-nav__link">
+    Teamwork
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#textbook" class="md-nav__link">
+    Textbook
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#devices-in-lecture-and-recitation" class="md-nav__link">
+    Devices in Lecture and Recitation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assessment" class="md-nav__link">
+    Assessment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regrades" class="md-nav__link">
+    Regrades
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#late-work-and-absence-policy" class="md-nav__link">
+    Late Work and Absence Policy
+  </a>
+  
+    <nav class="md-nav" aria-label="Late Work and Absence Policy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#participation" class="md-nav__link">
+    Participation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#projects" class="md-nav__link">
+    Projects
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#time-management" class="md-nav__link">
+    Time Management
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing" class="md-nav__link">
+    Writing
+  </a>
+  
+    <nav class="md-nav" aria-label="Writing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#policy-on-use-of-generative-ai-for-writing" class="md-nav__link">
+    Policy on use of Generative AI for Writing
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#professionalism" class="md-nav__link">
+    Professionalism
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#academic-honesty-and-collaboration" class="md-nav__link">
+    Academic Honesty and Collaboration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accommodations" class="md-nav__link">
+    Accommodations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#policy-on-healthcare-related-absence" class="md-nav__link">
+    Policy on Healthcare-Related Absence
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-note-on-self-care" class="md-nav__link">
+    A Note on Self Care
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Syllabus</h1>
+
+<h2 id="course-syllabus-and-policies">Course Syllabus and Policies<a class="headerlink" href="#course-syllabus-and-policies" title="Permanent link">&para;</a></h2>
+<p>The course is currently planned to be entirely in person for lectures and recitations. Most office hours will be in person, but some may be held over Zoom as well. The course uses Canvas and Gradescope for homework submission, grading, discussions, questions, and supplementary documents; slides and handouts are posted here on the course website; GitHub is used to coordinate group work. We also use Slack for communication and group work: check your email during the first week of classes for the Slack sign up link.</p>
+<h2 id="waitlist">Waitlist<a class="headerlink" href="#waitlist" title="Permanent link">&para;</a></h2>
+<p>We anticipate being able to add all students on the waitlist into the course. </p>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
+<p>This class has a pre-requisite of 15-122 or 15-121.  If you have not taken those classes, but you think you have similar experiences, please reach out to the instructors.  </p>
+<h2 id="communication">Communication<a class="headerlink" href="#communication" title="Permanent link">&para;</a></h2>
+<p>The primary form of communication within this course is through Slack. We will make announcements through a dedicated channel in Slack, and also provide channels for homework clarifications and team-based communication. As such, we <strong>highly recommend</strong> that students install Slack on their phones / desktop with notifications enabled.</p>
+<p>The instructors and TAs will also hold weekly office hours to provide support with course materials and projects. You can find the office hours schedule updated weekly here on the course website.</p>
+<p>You can contact the course instructors and TAs via both Slack and email. Your team will also have assigned TAs as your primary point of contact for additional support with assignment or recitation-related questions. When contacting instructors or your designated TAs, please email/message all instructors/both TAs at the same time.</p>
+<h2 id="teamwork">Teamwork<a class="headerlink" href="#teamwork" title="Permanent link">&para;</a></h2>
+<p>Teamwork is an essential part of this course. Most projects are done in teams of 3-5 students. Teams will be assigned by the instructors and stay together for multiple projects. Most projects have a component that is graded for the entire group and a component that is graded individually. </p>
+<p>Being able to address team issues in software projects is one of the core learning objectives of this class. Guidance on teamwork, reflection, and conflict resolution will be provided throughout the semester and are an essential component of the class. We expect significant efforts in attempting to address the team issues before asking instructors and teaching assistants to step in. However, we will always be available to provide advice on how to navigate these issues.</p>
+<h2 id="textbook">Textbook<a class="headerlink" href="#textbook" title="Permanent link">&para;</a></h2>
+<p>Various readings throughout the semester are available online or through the library; we do not have a single textbook but rather assemble readings from different sources.</p>
+<p>As optional supplementary reading consider the (freely available) <a href="https://abseil.io/resources/swe-book">Software Engineering at Google, Lessons Learned from Programming Over Time</a>.</p>
+<h2 id="devices-in-lecture-and-recitation">Devices in Lecture and Recitation<a class="headerlink" href="#devices-in-lecture-and-recitation" title="Permanent link">&para;</a></h2>
+<p>Research shows that using devices on non-class related activities harms both the device user's learning, and other students' learning as well. Therefore, in general, we do not allow the use of devices during lecture. If you genuinely use your laptop for class-related activities (note-taking, etc), tell us, and we will make an exception. However, we ask that if you do so, you are careful to keep your devices in note-taking mode (and don’t stray to Facebook, homework, etc). In addition, you will be required to sit in the back row of the lecture to minimize the impact your screen has on others. </p>
+<p>Note that recitation activities will often involve devices, so please do bring your laptop!</p>
+<h2 id="assessment">Assessment<a class="headerlink" href="#assessment" title="Permanent link">&para;</a></h2>
+<p>Evaluation will be based on the following distribution: 60% projects, 20% midterm, 20% participation (including lecture exercises, pre-lecture reading quizzes, and recitation exercises). </p>
+<p><strong>Project Points Breakdown (tentative)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th># Days Given</th>
+<th>Points</th>
+<th>% of HW grade</th>
+<th>% of total grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>9</td>
+<td>100</td>
+<td>10%</td>
+<td>6%</td>
+</tr>
+<tr>
+<td>2</td>
+<td>35</td>
+<td>275</td>
+<td>27.5%</td>
+<td>16.5%</td>
+</tr>
+<tr>
+<td>3</td>
+<td>10</td>
+<td>100</td>
+<td>10%</td>
+<td>6%</td>
+</tr>
+<tr>
+<td>4</td>
+<td>14</td>
+<td>125</td>
+<td>12.5%</td>
+<td>7.5%</td>
+</tr>
+<tr>
+<td>5</td>
+<td>27</td>
+<td>400</td>
+<td>40%</td>
+<td>24%</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>TOTAL</strong></td>
+<td>1000</td>
+<td>100%</td>
+<td>60%</td>
+</tr>
+</tbody>
+</table>
+<h2 id="regrades">Regrades<a class="headerlink" href="#regrades" title="Permanent link">&para;</a></h2>
+<p>Regrade requests can be submitted via Gradescope. The regrade period is open for one week after grades have been released for a particular assignment.</p>
+<h2 id="late-work-and-absence-policy">Late Work and Absence Policy<a class="headerlink" href="#late-work-and-absence-policy" title="Permanent link">&para;</a></h2>
+<h3 id="participation">Participation<a class="headerlink" href="#participation" title="Permanent link">&para;</a></h3>
+<p>Participation points in this class are earned through a series of pre-lecture reading assignments, lecture activities, and recitations. To accommodate for life's uncertainties (e.g. health issues, scheduling conflicts), you will automatically get full points for up to <strong>four</strong> missed participation activities to account for any absences. You do not need to email instructors individually for one-off absences of this sort.</p>
+<p>There will be <strong>no make-ups</strong> for participation points, but you are strongly encouraged to come to office hours to learn or review the materials that you may have missed.</p>
+<p>If you find yourself in a situation that calls for an extended absence, please have your academic advisor reach out to the instructors, and they will work to find a solution on a case by case basis.</p>
+<h3 id="projects">Projects<a class="headerlink" href="#projects" title="Permanent link">&para;</a></h3>
+<p>Late work will receive feedback but no credit. Due to heavy emphasis on planning &amp; teamwork in this course there are no late days; we expect that you <strong>anticipate unexpected events in your planning</strong>, and coordinate with your teammates when they arise. Exceptions to this policy will be made only in extraordinary circumstances, almost always involving a family or medical emergency, with your academic advisor or the Dean of Student Affairs requesting the exception on your behalf. </p>
+<h2 id="time-management">Time Management<a class="headerlink" href="#time-management" title="Permanent link">&para;</a></h2>
+<p>This is a 12-unit course, and it is our intention to manage it so that you spend close to 12 hours a week on the course, on average. In general, 4 hours/week will be spent in lectures &amp; recitation and 8 hours on readings and projects. Notice that most projects are done in groups, so please account for the overhead and decreased time flexibility that comes with group work. Throughout the semester, please feel free to give the course staff feedback on how much time the course is taking for you.</p>
+<h2 id="writing">Writing<a class="headerlink" href="#writing" title="Permanent link">&para;</a></h2>
+<p>Describing tradeoffs among decisions and communication with less technical stakeholders are key aspects of this class. Most projects have a component that requires discussing issues in written form or reflecting about experiences. To practice writing skills, the <a href="https://www.cmu.edu/student-success/programs/communication-support/index.html">Global Communications Center</a> (GCC) offers one-on-one help for students, along with workshops. The instructors are also happy to provide additional guidance if requested.</p>
+<h3 id="policy-on-use-of-generative-ai-for-writing">Policy on use of Generative AI for Writing<a class="headerlink" href="#policy-on-use-of-generative-ai-for-writing" title="Permanent link">&para;</a></h3>
+<p>You may use generative AI technologies such as <em>ChatGPT</em> or <em>CoPilot</em> for assisting in code development or writing responses to homework questions, <strong>unless the question specifically prohibits it</strong>. However, any use of AI comes with two caveats: (1) you must clearly indicate the use of such technology (and name the tool) in every homework question or source code file where an AI tool was used as a form of attribution, just as you would if you had taken help from a friend; (2) you are liable for factually inaccurate answers or unspecific rambling produced by AI tools; it is your responsibility to edit AI-produced content before submitting it for class purposes. </p>
+<h2 id="professionalism">Professionalism<a class="headerlink" href="#professionalism" title="Permanent link">&para;</a></h2>
+<p>Your classmates are your colleagues. This is particularly true in this course, where we aim to provide you with principles, practices, tools, and paradigms that will enable you to be an effective, real-world Software Engineer. We ask that you treat one another like the professionals you are and that you are preparing to be.</p>
+<p>To that end, we will not tolerate harassment in this class. We define harassment as unwelcome or hostile behavior of an ad hominem nature, i.e., that focuses not on ideas but on people and identity. This includes offensive verbal or written comments in reference to gender, sexual orientation, national origin, disability, physical appearance, race, or religion; sexual images in public spaces; deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of class meetings, inappropriate physical contact, and unwelcome sexual attention.</p>
+<p>Harassment is against the law and we have no tolerance for it, and neither does the university. Even when behavior does not rise to the level of harassment (even if you think you're "just joking!"), it can still make people very uncomfortable, and harm their educational and professional career by forcing them to devote mental energy to something other than the material they are trying to learn or the professional successes they are trying to achieve. However, we expect that we do not need to threaten you to earn your respect on this matter: we simply ask that you treat one another like professionals, in the most positive sense.</p>
+<p>This has two implications:</p>
+<ul>
+<li>If you feel someone is violating these principles (for example, with a joke that could be interpreted as sexist, racist, or exclusionary), and you feel you have the standing to do so, speak up! Do not be a bystander to unprofessional behavior.</li>
+<li>If you do not feel comfortable doing so, and/or if the behavior persists, send a private email to the course instructors or set up a meeting with us to discuss the matter. We will preserve your anonymity. We, the course staff, are committed to affording you the same respect we ask you to afford one another. If you feel that we are not doing so, we hope you will feel comfortable either telling us so directly, or approaching another one of the course staff with your concerns.</li>
+</ul>
+<p>(Thank you to Shriram Krishnamurthi and Evan Peck for sharing their own policies, from which we drew inspiration for this one.)</p>
+<h2 id="academic-honesty-and-collaboration">Academic Honesty and Collaboration<a class="headerlink" href="#academic-honesty-and-collaboration" title="Permanent link">&para;</a></h2>
+<p>The usual policies apply, especially the <a href="https://www.cmu.edu/policies/student-and-student-life/academic-integrity.html">University Policy on Academic Integrity</a>. Many of the projects will be done in groups. We expect that group members collaborate with one another, but that groups work independently from one another, not exchanging results with other groups. Within groups, we expect that you are honest about your contribution to the group's work. This implies not taking credit for others' work and not covering for team members that have not contributed to the team. Otherwise, our expectations regarding academic honesty and collaboration for group work are the same as for individual work, substituting elevated to the level of "group."</p>
+<p>The course includes both individual projects  and individual components of group projects. Although your solutions for individual parts will be based on the content produced for the group component (e.g., written reflections on lessons learned), we treat individual components of group projects as equivalent to individual projects overall, and expect you to complete such components independently of your groupmates.</p>
+<p>The rest of this academic honesty and collaboration content is an adaption of the policy used in 17-214:</p>
+<p>"You may not copy any part of a solution to a problem that was written by another student, or was developed together with another student, or was copied from another unauthorized source such as the Internet. You may not look at another student's solution, even if you have completed your own, nor may you knowingly give your solution to another student or leave your solution where another student can see it.</p>
+<p>Here are some examples of behavior that are inappropriate:</p>
+<ul>
+<li>Copying or retyping, or referring to, files or parts of files (such as source code, written text, or unit tests) from another person or source (whether in final or draft form, regardless of the permissions set on the associated files) while producing your own. This is true even if your version includes minor modifications such as style or variable name changes or minor logic modifications.</li>
+<li>Getting help that you do not fully understand, and from someone whom you do not acknowledge on your solution.</li>
+<li>Writing, using, or submitting a program that attempts to alter or erase grading information or otherwise compromise security of course resources.</li>
+<li>Lying to course staff.</li>
+<li>Giving copies of work to others, or allowing someone else to copy or refer to your code or written assignment to produce their own, either in draft or final form. This includes making your work publicly available in a way that other students (current or future) can access your solutions, even if others' access is accidental or incidental to your goals. Beware the privacy settings on your open source accounts!</li>
+<li>Coaching others step-by-step without them understanding your help."</li>
+</ul>
+<p>If any of your work contains a statement that was was copied verbatim from an external source, you must put it in quotes and cite the source. If you are paraphrasing an idea you read elsewhere, you must acknowledge the source. If you are using a tool to help format or structure text significantly based on content and facts that you provided, you must acknowledge the use of such tools (see policy on generative AI tools above). Using existing material without proper citation is plagiarism, a form of cheating. If there is any question about whether the material is permitted, you must get permission in advance. We will be using automated systems to detect software plagiarism.</p>
+<p>"It is not considered cheating to clarify vague points in the assignments, lectures, lecture notes; to give help or receive help in using the computer systems, compilers, debuggers, profilers, or other facilities; or to discuss ideas at a very high level, without referring to or producing code.</p>
+<p>Any violation of this policy is cheating. The minimum penalty for cheating (including plagiarism) will be a zero grade for the whole assignment. Cheating incidents will also be reported through University channels, with possible additional disciplinary action (see the above-linked University Policy on Academic Integrity).</p>
+<p>If you have any question about how this policy applies in a particular situation, ask the instructors or TAs for clarification."</p>
+<p>Note that the instructors respect honesty in these (and indeed most!) situations.</p>
+<h2 id="accommodations">Accommodations<a class="headerlink" href="#accommodations" title="Permanent link">&para;</a></h2>
+<p>If you wish to request an accommodation due to a documented disability, please contact <a href="https://www.cmu.edu/disability-resources/">Disability Resources</a> at 412-268-6121 or <a href="mailto:access@andrew.cmu.edu">access@andrew.cmu.edu</a>.</p>
+<h2 id="policy-on-healthcare-related-absence">Policy on Healthcare-Related Absence<a class="headerlink" href="#policy-on-healthcare-related-absence" title="Permanent link">&para;</a></h2>
+<p>We don't record our lectures, because they are highly interactive and tricky to record, but we do post slides at the end of the day. Please go over them and feel free to attend any of the instructors' office hours to catch up on the material. Please see the late-work policy above for how healthcare-related absences are accounted for in participation points.</p>
+<h2 id="a-note-on-self-care">A Note on Self Care<a class="headerlink" href="#a-note-on-self-care" title="Permanent link">&para;</a></h2>
+<p>Please take care of yourself. Do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress. All of us benefit from support during times of struggle. You are not alone. There are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is often helpful.</p>
+<p>If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help: call 412-268-2922 and visit their website at <a href="http://www.cmu.edu/counseling/">http://www.cmu.edu/counseling/</a>. Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help.</p>
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.top", "navigation.tracking", "navigation.indexes", "announce.dismiss"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>
