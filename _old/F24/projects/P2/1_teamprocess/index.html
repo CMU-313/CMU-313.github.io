@@ -1,0 +1,1490 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Project 2A: Collaborative Development - CMU 17-313: Foundations of Software Engineering</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.08040f6c.min.css">
+        
+      
+      
+
+    
+    
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#project-2a-collaborative-development" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../../.." title="CMU 17-313: Foundations of Software Engineering" class="md-header__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering" data-md-component="logo">
+      
+  <img src="../../../../../assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CMU 17-313: Foundations of Software Engineering
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Project 2A: Collaborative Development
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../../../overview/" class="md-tabs__link">
+      Course Overview
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../../../syllabus/" class="md-tabs__link">
+      Syllabus
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../../projects/P1/" class="md-tabs__link">
+        Projects
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../../recitations/reci1-nodeBB/" class="md-tabs__link">
+        Recitations
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../../../hall-of-fame/" class="md-tabs__link">
+      Hall of Fame
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://canvas.cmu.edu/courses/42497" class="md-tabs__link">
+      Canvas
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://www.gradescope.com/courses/835182" class="md-tabs__link">
+      Gradescope
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://join.slack.com/t/cmu-313-s25/shared_invite/zt-2x6uyc4kl-lwgvOdiIF_NSmJxMzIfZRw" class="md-tabs__link">
+      Slack
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../.." title="CMU 17-313: Foundations of Software Engineering" class="md-nav__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering" data-md-component="logo">
+      
+  <img src="../../../../../assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    CMU 17-313: Foundations of Software Engineering
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../overview/" class="md-nav__link">
+        Course Overview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../syllabus/" class="md-nav__link">
+        Syllabus
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Projects
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Projects" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Projects
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../../../projects/P1/">Project 1: Hello, NodeBB!</a>
+          
+            <label for="__nav_4_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 1: Hello, NodeBB!" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Project 1: Hello, NodeBB!
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../projects/P1/1_checkpoint/" class="md-nav__link">
+        1A Build Checkpoint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../projects/P1/2_refactoring/" class="md-nav__link">
+        1B Starter Task
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1_4" type="checkbox" id="__nav_4_1_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4_1_4">
+          NodeBB Installation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="NodeBB Installation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          NodeBB Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../projects/P1/installation/mac/" class="md-nav__link">
+        Mac
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../projects/P1/installation/windows/" class="md-nav__link">
+        Windows
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../projects/P1/installation/ubuntu/" class="md-nav__link">
+        Linux (Ubuntu)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../projects/P1/documentation/" class="md-nav__link">
+        Resources and Documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../projects/P1/faq/" class="md-nav__link">
+        FAQ
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../../../projects/P2/">Project 2: Collaborative Development</a>
+          
+            <label for="__nav_4_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 2: Collaborative Development" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Project 2: Collaborative Development
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../projects/P2/1_teamprocess/" class="md-nav__link">
+        2A Team Process & Planning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../projects/P2/2_firstsprint/" class="md-nav__link">
+        2B First Sprint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../projects/P2/3_secondsprint/" class="md-nav__link">
+        2C Second Sprint
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../../../projects/P3/">Project 3: Continuous Integration + Deployment</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 3: Continuous Integration + Deployment" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Project 3: Continuous Integration + Deployment
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../../../projects/P4/">Project 4: Architecting an LLM Integration</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 4: Architecting an LLM Integration" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Project 4: Architecting an LLM Integration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_5" type="checkbox" id="__nav_4_5" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../../../projects/P5/">Project 5: Open Source Excursion</a>
+          
+            <label for="__nav_4_5">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 5: Open Source Excursion" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          Project 5: Open Source Excursion
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../projects/P5/1_projectcheck/" class="md-nav__link">
+        5A Project and Task Selection
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../projects/P5/2_projectfinal/" class="md-nav__link">
+        5B & C Project Presentations, Final Report, and Reflections
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Recitations
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Recitations" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Recitations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../recitations/reci1-nodeBB/" class="md-nav__link">
+        Recitation 1 - Understand NodeBB
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../recitations/reci2-teamcontract/" class="md-nav__link">
+        Recitation 2 - Team Contract Workshop
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../recitations/reci3-archaeology/" class="md-nav__link">
+        Recitation 3 - Software Archaeology
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../recitations/reci4-checkpoint/" class="md-nav__link">
+        Recitation 4 - Checkpoint Presentations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../recitations/reci5-team-dysfunction/" class="md-nav__link">
+        Recitation 5 - Team Dysfunction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../recitations/reci6-deployment/" class="md-nav__link">
+        Recitation 6 - Deployment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../recitations/reci7-onprem-setup/" class="md-nav__link">
+        Recitation 7 - On Prem Deployment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../recitations/reci8-llms/" class="md-nav__link">
+        Recitation 8 - LLMs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../recitations/reci10-open-source/" class="md-nav__link">
+        Recitation 9 - Open Source Scavenger Hunt
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../recitations/reci10-team-feedback/" class="md-nav__link">
+        Recitation 10 - Team Feedback
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../recitations/reci13-open-source-presentation/" class="md-nav__link">
+        Recitation 13 - Open Source Projects Presentation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../hall-of-fame/" class="md-nav__link">
+        Hall of Fame
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://canvas.cmu.edu/courses/42497" class="md-nav__link">
+        Canvas
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.gradescope.com/courses/835182" class="md-nav__link">
+        Gradescope
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://join.slack.com/t/cmu-313-s25/shared_invite/zt-2x6uyc4kl-lwgvOdiIF_NSmJxMzIfZRw" class="md-nav__link">
+        Slack
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#deliverables" class="md-nav__link">
+    Deliverables
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#team-setup" class="md-nav__link">
+    Team Setup
+  </a>
+  
+    <nav class="md-nav" aria-label="Team Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#slack-channel" class="md-nav__link">
+    Slack Channel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github-repository" class="md-nav__link">
+    GitHub Repository
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teamwork-self-assessment" class="md-nav__link">
+    Teamwork Self-Assessment
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main-deliverables" class="md-nav__link">
+    Main Deliverables
+  </a>
+  
+    <nav class="md-nav" aria-label="Main Deliverables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#teamwork-contract-35-pts" class="md-nav__link">
+    Teamwork Contract (35 pts)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#project-planning-35-pts" class="md-nav__link">
+    Project Planning (35 pts)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extra-credit-7-pts" class="md-nav__link">
+    Extra Credit (7 pts)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grading" class="md-nav__link">
+    Grading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="project-2a-collaborative-development">Project 2A: Collaborative Development<a class="headerlink" href="#project-2a-collaborative-development" title="Permanent link">&para;</a></h1>
+<h2 id="deliverables">Deliverables<a class="headerlink" href="#deliverables" title="Permanent link">&para;</a></h2>
+<p><strong>Team Process &amp; Planning</strong> – 70 points – due Thursday, September 12th, 11:59pm</p>
+<ul>
+<li><strong>Prerequisite:</strong> <a href="#team-setup">Team Setup</a></li>
+<li><a href="#teamwork-contract-40-pts">Teamwork Contract</a> (35 pts)</li>
+<li><a href="#project-planning-40-pts">Project Planning</a> (35 pts)</li>
+<li><em><a href="#extra-credit-8-pts">Extra Credit</a> (7 pts)</em></li>
+</ul>
+<h2 id="team-setup">Team Setup<a class="headerlink" href="#team-setup" title="Permanent link">&para;</a></h2>
+<h3 id="slack-channel">Slack Channel<a class="headerlink" href="#slack-channel" title="Permanent link">&para;</a></h3>
+<p>On the 17-313 Slack workspace, create a new <strong>private</strong> Slack channel that includes all your team members and the two TAs who are your team mentors (these are the same TAs that run your recitation — if you are unsure of who they are, ask in <code>#general</code>).</p>
+<p>Use this Slack channel to collectively decide on a <strong>team name</strong>. Your team name should be unique, pronounceable, short, and something you would be proud to shout in your team cheer on the streets of Pittsburgh in the presence of small, impressionable, multilingual children. Once you have a team name, rename your team Slack channel to <code>#team-&lt;teamname&gt;</code>.</p>
+<p>You can use this Slack channel for subsequent project-team related discussions or specialized Q&amp;A with your TA mentors for the rest of the semester.</p>
+<h3 id="github-repository">GitHub Repository<a class="headerlink" href="#github-repository" title="Permanent link">&para;</a></h3>
+<p>You will be working on your team repository for this project. Once you have decided on a team name, go to the link below to set up your team:</p>
+<p><a href="https://classroom.github.com/a/ithVU1OO">https://classroom.github.com/a/ithVU1OO</a></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>After you join a team on GitHub, you cannot change teams! Make sure that <strong>only one</strong> of you creates the team, and make sure that the remaining teammates join the right team.</p>
+</div>
+<p>Once you enter your team name, Github will automatically create a repository for your team. You should then create a <strong>Github Project board</strong> for your repository (you can follow the steps from the <a href="/projects/P1/github/#setting-up-a-project-board">GitHub Exercise</a> or the note below).</p>
+<div class="admonition note">
+<p class="admonition-title">Setting up a Project Kanban Board and Creating Issues</p>
+<p>Project boards are a great way to track development. While there are lots of great external tools such as Trello or Jira, GitHub provides their own project boards for us to use with great integration support of their other features. To create a Project Kanban follow the steps below: </p>
+<ul>
+<li>Create a project board by clicking on the Projects tab, and then "New project" under the "Link a project" drop down button. Use the "Board" template.</li>
+<li>Under the Issues tab, have a teammate create an issue for adding team member names to the README</li>
+<li>Assign yourself to the issue, and add the issues to the project Kanban board you just created under the "Todo" column using the "Projects" option(two fields below "Assignees")</li>
+<li>Share the Kanban/Project board with your team or make it public so they have access to it.</li>
+</ul>
+</div>
+<p>You should use this team repository for all your development, and be sure to use good development practices, including keeping your commits cohesive and your commit messages informative. The same resources mentioned above provide more details on our guidelines.</p>
+<p>We will be grading you on how well you follow the process we used for Project 1 and utilize this Project board:</p>
+<ul>
+<li>Create issues for feature improvements or bug-fixes</li>
+<li>When creating issue, assign team members and tag with appropriate labels</li>
+<li>Create a pull request and reference the issue it will be resolving</li>
+<li>Provide feedback to pull requests</li>
+<li>Use a Kanban board to track your workflow</li>
+</ul>
+<p>For this project, you will create issues or pull requests <strong>directly in your team repository</strong>. We will use your commit history and issue/pull request activity on Github to assess both your teamwork process and each member’s individual contributions towards the project. It is <strong>not</strong> acceptable for one person to commit all the work after synchronizing through other means.</p>
+<p>For each code-based deliverable, we will look at a snapshot of your repository at the deadline. This will often be done by asking you for a screenshot or commit link submitted via Gradescope.</p>
+<h3 id="teamwork-self-assessment">Teamwork Self-Assessment<a class="headerlink" href="#teamwork-self-assessment" title="Permanent link">&para;</a></h3>
+<p>As the course moves into team-based projects, we will be releasing weekly self-assessments, each worth one participation point. These are meant to be short surveys and should not take more than a few minutes. They are intended to help you reflect on your team's process and prompt you to think about how to improve it. The first one will be released on <strong>Friday, September 13th</strong> and due the following <strong>Friday, September 20th</strong> (both at 11:59pm).</p>
+<h2 id="main-deliverables">Main Deliverables<a class="headerlink" href="#main-deliverables" title="Permanent link">&para;</a></h2>
+<h3 id="teamwork-contract-35-pts">Teamwork Contract (35 pts)<a class="headerlink" href="#teamwork-contract-35-pts" title="Permanent link">&para;</a></h3>
+<p>When working with a team, it is important to discuss each team member’s background, and establish common expectations of the team. Miscommunication or the general lack of communication are often the most common causes of team conflict. </p>
+<div class="admonition note">
+<p class="admonition-title">Team Conflict Example</p>
+<p>A common conflict in working style is when there are team members who always want to get a headstart on their work, while there are team members who are fine with doing work a few days before the deadline. It causes panic in the former team members, while the latter team members feel frustrated as to why they are being rushed. </p>
+</div>
+<p>As such, your first process task of the semester will be creating a teamwork contract with your teammates. It is a <strong>1 - 2 page</strong> document containing information that all teammates agree to follow. You should work on the contract <strong>with all members present</strong>. We recommend that you keep it to around 1 page, 2 page is a <strong>hard limit.</strong></p>
+<p>Additionally, <strong>it is more important that you only include statements that the team will adhere to</strong> than it is to fulfill the length requirement (quality over quantity!) You do not need to write full sentences (bullet points are okay), but your decisions must be clearly conveyed in the document.</p>
+<p>You are free to include anything that your team deems necessary, but you should minimally address the following sections:</p>
+<ol>
+<li>
+<p><strong>Expectations</strong><br/>
+How much time is each team member expected to be putting into working on projects? Punctuality? How would your team accommodate when unexpected commitments come up for a team member (e.g. interviews, sickness, competitions)?<br/><br/>
+Do accommodate for the fact that project load can get heavier towards the end of the semester.<br/><br/> </p>
+</li>
+<li>
+<p><strong>Communication</strong><br/>
+What platform (s) will your team be using to communicate? What’s the expected time to get a response? <br/><br/>
+For any communication platforms you decide on, please test that everyone can receive notifications. We highly recommend using apps (Slack, Discord) over browser-based sites.<br/><br/></p>
+</li>
+<li>
+<p><strong>Meeting Schedule</strong><br/>
+When and how will your team meet? What modality would it be? <br/><br/>
+A strong recommendation would be to set up a recurring 1hr meeting blocked out for the rest of the semester, so that your team does not have to scramble to find a common meeting time each week. Teams that have recurring meetings are generally more successful in the class.<br/><br/></p>
+</li>
+<li>
+<p><strong>Responsibilities</strong><br/>
+How will you divide responsibilities for each project? During meetings, who will be in charge of note taking, organizing &amp; running those meetings? <br/><br/>
+From past courses, we noticed the natural emergence of a project manager in teams, who ensures the project moves towards completion. We highly suggest that you consider how your team would rotate that role amongst team members over the course of the remaining projects. Throughout the semester, we will ask for documentation of your meeting notes, so be sure to keep them organized (we recommend using a shared Drive folder).<br/><br/></p>
+</li>
+<li>
+<p><strong>Equitable Contribution &amp; Conflict Resolution</strong><br/>
+What are the steps the team would take to address teammates who are contributing too little, and when will the team bring this up to the instructors? What are the steps to bring up and discuss potential teamwork issues? <br/><br/>
+The first thing the staff will ask the student when they mention that they are facing team issues is if they have followed the steps on their team contract.<br/></p>
+</li>
+</ol>
+<p>Feel free to seek the assistance of TAs and instructors in drafting this document. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>We will ask you to reference, reflect upon, and refine this document throughout this semester, and we will evaluate your team's process strategies and interactions through what you outline in this contract. Please ensure that everyone on your team thoroughly discusses each of the above sections and agree with the final decisions.</p>
+</div>
+<p>Once you have completed the contract itself, have all members sign and date the document as an indicator that all members have read the document and agreed to uphold all outlined items. Then, save the file as a PDF and upload it to Gradescope. Only one team member needs to make the submission; they can then add the rest of the teammates as group members for a group submission. </p>
+<p>We also <strong>highly recommend</strong> that you <a href="https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links">bookmark</a> the teamwork contract in your team’s Slack channel.</p>
+<h3 id="project-planning-35-pts">Project Planning (35 pts)<a class="headerlink" href="#project-planning-35-pts" title="Permanent link">&para;</a></h3>
+<p>Before your team jumps into development, you must first determine what features to implement. Schedule and hold an initial project planning meeting with your team to complete the steps outlined below.</p>
+<h4 id="functional-requirements-user-stories">Functional Requirements - User Stories<a class="headerlink" href="#functional-requirements-user-stories" title="Permanent link">&para;</a></h4>
+<p>During this meeting, discuss potential functional requirements of this project. Consider what possible use cases may be for this system and what features it should have to fulfill those needs. </p>
+<p>Then, document these functional requirements in the form of user stories that follow the guidelines discussed in lecture. All of your user stories should be in the format of "As a [role], I want [function], so that [value]".</p>
+<p><strong>You should come up with at least two user stories per student in your group.</strong></p>
+<div class="admonition note">
+<p class="admonition-title">Formulating User Stories</p>
+<p>Consider what are the different types of users that will be interacting with your system (your stakeholders) and what features they would want to have that the current NodeBB does not provide. You may want to reference features in existing Q&amp;A systems (e.g. Piazza, Diderot) that may be desirable, or conduct interviews with your peers who could be a potential users of this system.</p>
+</div>
+<p>As a team, you should then come up with a prioritization ranking for each user story. The prioritization should be based on two factors </p>
+<ul>
+<li><strong>Impact</strong>: how essential is this user story to the overall functionality of the application to your stakeholders, how beneficial it would be to your stakeholders, and</li>
+<li><strong>Effort</strong>: how much time/effort is required to implement this user story</li>
+</ul>
+<p>Once you have your list of user stories, create a new GitHub Project board (click into Projects on your team repository). Then create two new columns to the left called <strong>"User Stories"</strong> and <strong>"Backlog"</strong>. At this point in time, you should have <strong>"User Stories", "Backlog", "To-Do", "In Progress" and "Done"</strong>, in that order from left to right. Feel free to add more columns if your teams decide that you need them during your development process</p>
+<p>Add your user stories into the <strong>"User Stories"</strong> column using the <strong>“+ Add item”</strong> button at the bottom, create draft issues for each of your user stories.In the body of each of these draft issues, provide a brief but concrete justification of its prioritization ranking that your team decided on. You should order all the user stories in this column from highest to lowest priority.</p>
+<h4 id="technical-requirements-issues">Technical Requirements - Issues<a class="headerlink" href="#technical-requirements-issues" title="Permanent link">&para;</a></h4>
+<p>Now that you have your prioritized list, consider the <em>technical requirements</em> of the various user stories and collectively decide on which one(s) you will be focusing on over the next two sprints. In this project (as like most projects), your team is aiming to maximize the amount of value you are delivering to your stakeholders given your constraints.</p>
+<p>Your selected user stories should have relatively high priority based on your team's ranking, and you should actively take factors into consideration that may impact your development.</p>
+<div class="admonition note">
+<p class="admonition-title">Selecting Appropriate User Stories</p>
+<p>Given the amount of variations in each team's user stories, it's hard to give concrete guideline on the number of user stories that a team needs to tackle. Teams could tackle 1 user story that requires major effort, or a few user stories that each requires lesser effort. </p>
+<p>In general, we are expecting that user stories be selected given:</p>
+<ul>
+<li>2 sprints of 2 weeks each</li>
+<li>number of team members on your team</li>
+<li>assumption of 8 hours/week available per individual</li>
+</ul>
+<p>The course staff <strong>is happy to discuss this with your team during OH</strong> and we highly recommend you do so if your team is unsure. We will also be providing you with feedback during your first sprint's <a href="/projects/P2/2_firstsprint/#checkpoint-presentation-50-pts">checkpoint presentation</a>.</p>
+</div>
+<p>The feature(s) you plan to implement should not be purely cosmetic or arbitrary. We expect this to be a non-issue as most high priority features to make NodeBB usable in a course environment would require changes that span across the development stack.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>An example of what would <strong>not</strong> be accepted is a cosmetic feature that only modifies a frontend UI component (i.e. changing the color of the navbar), or just the renaming of a field in the database.</p>
+<p>You may want to look ahead into parts 2B and 2C to check our specific requirements for your implementation.</p>
+</div>
+<p>Convert the feature(s) you decide to implement into technical requirements (i.e. what needs to be developed for this feature to work). Then, break these requirements down into manageable, assignable issues and document them on your Project board by adding them to “Backlog” column. At minimum, these issues should make use of GitHub features like milestones/labels/descriptions to denote:</p>
+<ul>
+<li><strong>Estimated effort</strong> for each task</li>
+<li><strong>Dependencies</strong> among tasks (if any)</li>
+<li>Initial <strong>assignments</strong> for team members</li>
+<li><strong>Milestones</strong> to indicate which sprint the issue should be completed in (Sprint 1, Sprint 2, Stretch)</li>
+<li><strong>Acceptance criteria</strong> that describes how you know this task is done - think about how you will test this feature</li>
+</ul>
+<p>You should actively assign and move these issues across your Kanban board as your team makes progress. </p>
+<div class="admonition note">
+<p class="admonition-title">A Note on Grading</p>
+<p>We <strong>will not</strong> assess how accurately you predicted your development process, nor will we be giving points based on the complexity or quality of your changes. The focus of our evaluations will be on how you decompose the problem, how you respond to unexpected circumstances, and how you analyze and reflect on your experience later on.</p>
+<p>We <strong>will</strong> check your development progress at the end of each sprint. Please be proactive in your planning to ensure that you make notable progress in both of your sprints. We highly recommend reading ahead on what our expectations are for the end of each sprint as you plan your milestone goals.</p>
+</div>
+<p>Include a link to your GitHub board in your Gradescope submission. If you are unsure about your planned changes, you can ask for feedback from a member of the course staff!</p>
+<h3 id="extra-credit-7-pts">Extra Credit (7 pts)<a class="headerlink" href="#extra-credit-7-pts" title="Permanent link">&para;</a></h3>
+<p>Getting to know your colleagues in a friendly context can often lead to more effective collaboration; for example, healthy teams often get lunch together. To incentivize this, we will give your team extra credit for this assignment if you meet for a team bonding experience outside of a working session.</p>
+<p>You might want to eat together, go out for boba, or hold a board game session. If someone on your team is not feeling well, you may also do a virtual activity such as an online gaming session (Drawphone, Skribbl.io, etc.) or social "Zoom lunch". </p>
+<p>To receive extra credit, share the photo or screenshot of your team activity with your TA mentors by sending it in your team Slack channel before the deadline. We encourage you to do these types of meetings often throughout the semester!</p>
+<h2 id="grading">Grading<a class="headerlink" href="#grading" title="Permanent link">&para;</a></h2>
+<p>To receive full credit for the teamwork contract, we expect:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> All sections listed above are addressed in a roughly 1-2 page PDF document submitted to Gradescope</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Document demonstrates a clear process outline that was discussed between and agreed upon by the teammates</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> All group members’ signatures at the end of the document</li>
+</ul>
+<p>To receive full credit for the project planning, we expect:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A GitHub project board linked to your team repository with:<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A User Story column containing at least two user stories per group member that satisfy the guidelines outlined in the sections above and in lecture</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A Backlog column containing a series of GitHub issues describing the feature(s) that the team will tackle. Each issue makes use of GitHub features to denote all of the required information listed above</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.tabs", "navigation.top", "navigation.tracking", "navigation.indexes", "announce.dismiss"], "search": "../../../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>
