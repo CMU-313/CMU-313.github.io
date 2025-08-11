@@ -1,6 +1,6 @@
 # Project 1B: Starter Task
 ## Deliverables
-Starter Task - 95 points - due Thursday, January 23rd, 11:59PM
+Starter Task - 95 points - due Thursday, September 4th, 11:59PM
 
 - [GitHub Issue](#github-issue-20-pts) (20 pts)
 - [Code Refactoring and Validation](#task-10-pts) (10 pts)
@@ -41,7 +41,7 @@ For the task, the file must
 
 - **Be a Javascript file.**
 - **Be in the `src/` folder.**
-- **Be a file that no one else in the class has picked and created an issue for.** We expect you to look through existing *open* issues, if any, to avoid such duplication; thus, there is an incentive for you to start early! 
+- **Be a file that no one else in the class has picked and created an issue for.** We expect you to look through existing *open* issues, if any, to avoid such duplication; thus, there is an incentive for you to start early!
   - If you really can't find a unique file because you are late to the game, then you may pick a file that has an open issue, but then identify a separate SonarCloud warning in the same file. You can reference the other issue in your description to distinguish yourself (e.g., "this is different from #123 because...").
 
 The SonarCloud warning must be categorized under the Adaptability section and contain the "Refactor" key word. The goal of this task is to refactor code in the NodeBB codebase based on the specifications of the SonarCloud warning.
@@ -61,7 +61,7 @@ You should soon see another comment by the `github-actions` bot informing you th
 
 ??? info "Why Bot Assignment?"
 	You might be curious as to why we are using a GitHub bot instead of directly assigning yourself to the issue. As you aren’t officially recognized as a collaborator of CMU-313/NodeBB, GitHub adds some restrictions to your permissions for security purposes, including not being able to assign yourself to an issue. Hence, we are using a bot to work around these restrictions. This is similar to how you would request issues on an Open Source project!
-	
+
 	For future projects, you will have full control over these GitHub features such as managing assignees, adding labels, creating milestones, and more.
 
 ### Task (10 pts)
@@ -87,7 +87,7 @@ For the validation part of the task, you only need to validate the refactored co
 
 We also want you to manually test your changes in a running NodeBB instance. The purpose is to trigger the refactored code's execution from the user interface (UI) with the following steps:
 
-- Within your implementation, add a print statement (e.g. console.log(YOUR_NAME)) immediately before, after, or in the middle of your refactored code. 
+- Within your implementation, add a print statement (e.g. console.log(YOUR_NAME)) immediately before, after, or in the middle of your refactored code.
 - Restart the NodeBB instance and watch its logs via `./nodebb log`.
 - Perform any necessary UI operations that execute the refactored code (e.g. clicking buttons for an action)
 - Take a screenshot of these logs to include within your report with an explanation of the steps taken to trigger the code.
@@ -97,7 +97,7 @@ As you work, be sure to periodically commit your changes. Your commit message(s)
 
 ??? info "Branch and Commit Guidelines"
     **Branch names** should be short and provide a description of what you will be doing on that branch (e.g. *"fix-header-sizing-issue"*, *"fix-multiple-dialog-bug"*, *"add-sorting-feature"*). When working with others, you can also append your username to signal which branches are yours (e.g. *"313ta/add-sorting-feature"*).
-	
+
 	**Commits** should start with a verb and provide a description of what they are doing to the codebase (e.g. *"Remove faulty condition from getCustomerDetails"*, *"Fix failing CompositeTestCase"*, *"Fix issue #21"* ).
 
 Once you are satisfied, open a pull request from your personal branch back to the **class** repository. Similar to the Issue, your PR title should mention the full path of the file you’ve changed. The PR body should summarize the changes you made and [use one of the linking keywords](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) to link the issue that you previously opened (e.g. adding `resolves #313` will signal to GitHub that this PR resolves issue number 313).
