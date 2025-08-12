@@ -1,19 +1,26 @@
 # Project 1B: Starter Task
+
 ## Deliverables
+
 Starter Task - 95 points - due Thursday, September 4th, 11:59PM
 
 - [GitHub Issue](#github-issue-20-pts) (20 pts)
-- [Code Refactoring and Validation](#task-10-pts) (10 pts)
+- [Code Refactoring and Validation](#code-refactoring-and-validation-10-pts) (10 pts)
 - [GitHub Pull Request](#github-pull-request-25-pts) (25 pts)
 - [Gradescope Written Assignment](#written-assignment-40-pts) (40 pts)
 
 ## Onboarding
+
 Now that you have explored the repository, the development team would like to give you an onboarding assignment.
 
-The team has noticed an accumulation of warnings in [SonarCloud](https://sonarcloud.io/project/issues?issueStatuses=OPEN%2CCONFIRMED&id=CMU-313_NodeBB), a continuous code quality inspection tool. Your task is to remove SonarCloud warnings by refactoring code and validating that your change takes effect within the NodeBB codebase.
+The team has noticed an accumulation of maintainability issues detected by **[Qlty](https://github.com/qltysh/qlty)**, a static analysis tool.
+Qlty detects “code smells” such as high function complexity, too many parameters, deep nesting, and duplicated code.
+Your task is to remove one or more Qlty-reported issues by refactoring code and validating that your change takes effect within the NodeBB codebase.
 
 ## Prerequisites
+
 ### Onboarding Materials
+
 Before jumping into the codebase, please review the [course syllabus](/syllabus) and be sure you have access to each of the following:
 
 - Course Slack - check your email for an invite link
@@ -23,6 +30,7 @@ Before jumping into the codebase, please review the [course syllabus](/syllabus)
 If you run into any trouble accessing the above or have any questions, reach out to the instructors.
 
 ### Git & GitHub
+
 In this project and throughout the rest of this course, you will be expected to work extensively with Git and GitHub. Specifically for this project, you should be familiar with:
 
 - [x] Forking/cloning GitHub repositories
@@ -33,20 +41,28 @@ In this project and throughout the rest of this course, you will be expected to 
 
 If you are not familiar with any of these steps, you are **highly recommended** to first complete Recitation 2 - Git, GitHub, as it will cover the standards we are expecting in this class (which you will be graded upon). Refer to the [Resources & Documentation](/projects/P1/documentation/#git--github-documentation) section if needed.
 
+## Tasks
 
 ### GitHub Issue (20 pts)
-First, choose a single file that has SonarCloud warning(s) and open a github issue in the [class repository](https://github.com/CMU-313/NodeBB/issues) to declare which file and SonarCloud warning(s) that you will be working on.
 
-For the task, the file must
+First, choose a single Qlty-reported “smell” in a JavaScript file and open a GitHub issue in the [class repository](https://github.com/CMU-313/NodeBB/issues) to declare which file and issue you will be working on.
+
+For the task, the file must:
 
 - **Be a Javascript file.**
-- **Be in the `src/` folder.**
-- **Be a file that no one else in the class has picked and created an issue for.** We expect you to look through existing *open* issues, if any, to avoid such duplication; thus, there is an incentive for you to start early!
-  - If you really can't find a unique file because you are late to the game, then you may pick a file that has an open issue, but then identify a separate SonarCloud warning in the same file. You can reference the other issue in your description to distinguish yourself (e.g., "this is different from #123 because...").
+- **Be in the `src/` or `public/src/` directory.**
+- **Be a file that no one else in the class has picked and created an issue for.** We expect you to look through existing *open* issues, if any, to avoid duplication.
+  - If you really cannot find a unique file because you are late to the game, then you may pick a file that has an open issue, but identify a different Qlty-reported smell in the same file.
+  Reference the other issue in your description to distinguish yourself (e.g., "this is different from #124 because...").
 
-The SonarCloud warning must be categorized under the Adaptability section and contain the "Refactor" key word. The goal of this task is to refactor code in the NodeBB codebase based on the specifications of the SonarCloud warning.
+The Qlty issue you pick should be a maintainability smell (e.g., high function complexity, too many parameters, deep nesting, or duplicated code) that requires real code restructuring.
 
-Title the task appropriately, such as `Refactoring code in <file name>`, and mention the file name in the description. To prevent ambiguities between similarly-named files, be sure to use the **full file path** (`src/../xx.js`) in the title and description. Additionally, within the issue description, be sure to include an explanation of the SonarCloud warnings that you are working on.
+Title the task appropriately, such as `Refactoring code in <file name>`, and mention the file name in the description. Use the **full file path** (`src/../xx.js`) in the title and description to avoid ambiguity.
+
+Additionally, include in the description:
+
+- A copy/paste or screenshot of the relevant Qlty output (from `qlty check`).
+- A brief explanation of the issue you will address.
 
 ??? info "Issue Guidelines"
     **Issues titles** should provide a high-level overview of what the problem is (e.g. *"Navbar button UI bugs"*, *"Unexpected registration validation errors"*). Sometimes, issues are used to propose new features (e.g. *"Add CSV export feature"*).
@@ -64,7 +80,7 @@ You should soon see another comment by the `github-actions` bot informing you th
 
 	For future projects, you will have full control over these GitHub features such as managing assignees, adding labels, creating milestones, and more.
 
-### Task (10 pts)
+### Code Refactoring and Validation (10 pts)
 
 For this task, you will focus on refactoring the code and removing all the corresponding SonarCloud warning(s) from your chosen file. As part of the task, you would also need to validate your changes for **one SonarCloud warning** utilizing code coverage and running a NodeBB instance.
 
@@ -74,9 +90,6 @@ Back in your own fork, create a feature branch and implement the changes needed 
 - Identify the necessary code changes to address each warning.
 - Implement the changes and ensure that they do not introduce new warnings or issues.
 - Run the linter and test suite to ensure your changes pass all checks.
-
-*NOTE*: because of recent changes to SonarCloud, you are not required to ensure the warning has been removed as per this paragraph:
-~~You can check that your refactored code removes the warning by following the SonarCloud links automatically generated in the PR after the checks are run. You could also go to [SonarCloud's Pull Request list](https://sonarcloud.io/project/pull_requests_list?id=CMU-313_NodeBB) and search for your PR there.~~ ~~
 
 For the validation part of the task, you only need to validate the refactored code you have worked on for one SonarCloud warning in the file you chose. You should examine the code coverage report (either the local HTML report or the online one generated by [CoverAlls](https://coveralls.io/github/CMU-313/NodeBB) when you make a pull request) to ensure that the refactored code are included in the test coverage. If not, continue with the following steps:
 
@@ -93,6 +106,7 @@ We also want you to manually test your changes in a running NodeBB instance. The
 - Take a screenshot of these logs to include within your report with an explanation of the steps taken to trigger the code.
 
 ### GitHub Pull Request (25 pts)
+
 As you work, be sure to periodically commit your changes. Your commit message(s) must clearly describe what is changing. If you’d like, you can also make use of branching and pull requests in your own repository to practice working with GitHub.
 
 ??? info "Branch and Commit Guidelines"
@@ -115,9 +129,12 @@ There will be automated checks that run on your pull request to ensure you meet 
  You should ensure that all checks including SonarCloud Quality Gate as well as Lint & Test are green. If all of the actions have passed, you will see a green checkmark next to your pull request. This signals that you have completed the implementation aspect of this assignment! ✅
 
 ### Written Assignment (40 pts)
-After you have completed all of the above tasks, we will ask you some questions relevant to the NodeBB project and the course [syllabus](/syllabus). Fill out and submit the HW1 Written Assignment available on Gradescope.
+
+After you have completed all of the above tasks, we will ask you some questions relevant to the NodeBB project and the course [syllabus](/syllabus).
+Fill out and submit the HW1 Written Assignment available on Gradescope.
 
 ## Grading
+
 To receive full credit for this project, we expect:
 
 - [ ] A GitHub Issue with:
