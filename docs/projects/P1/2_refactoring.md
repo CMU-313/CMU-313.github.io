@@ -13,7 +13,7 @@ Starter Task - 95 points - due Thursday, September 4th, 11:59PM
 
 Now that you have explored the repository, the development team would like to give you an onboarding assignment.
 
-The team has noticed an accumulation of maintainability issues detected by **[Qlty](https://github.com/qltysh/qlty)**, a static analysis tool.
+The team has noticed an accumulation of maintainability issues detected by **[Qlty](https://github.com/qltysh/qlty)**, a multi-language code quality tool.
 Qlty detects “code smells” such as high function complexity, too many parameters, deep nesting, and duplicated code.
 Your task is to remove one or more Qlty-reported issues by refactoring code and validating that your change takes effect within the NodeBB codebase.
 
@@ -41,6 +41,36 @@ In this project and throughout the rest of this course, you will be expected to 
 
 If you are not familiar with any of these steps, you are **highly recommended** to first complete Recitation 2 - Git, GitHub, as it will cover the standards we are expecting in this class (which you will be graded upon). Refer to the [Resources & Documentation](/projects/P1/documentation/#git--github-documentation) section if needed.
 
+### Qlty
+
+[Qlty](https://github.com/qltysh/qlty) is a multi-language static analysis tool that supports linting, scanning, and auto-formatting across a large number of languages and technologies, including Javascript.
+For this assignment, you will locally install and configure the Qlty command-line tool to identify maintainability issues within the codebase.
+
+To get started, you will need to install Qlty on your machine: https://github.com/qltysh/qlty?tab=readme-ov-file#-quick-start.
+If you are using the DevContainer, everything should already be installed for you.
+
+To use Qlty to show all of the code smells within the project, you should run:
+
+```bash
+qlty smells --all
+```
+
+Note that, by default, Qlty only analyzes the files that you've modified since your last commit.
+`--all` tells Qlty to scan the entire codebase.
+
+This will a large list of issues and likely fill up your terminal with lots of code snippets.
+To make it easier to find which files have issues, you can disable code snippets in the output via the `--no-snippet` option:
+
+```bash
+qlty smells --all --no-snippet
+```
+
+Once you've narrowed in on a particular file, you can produce a list of smells for just that file as follows:
+
+```bash
+qlty smells public/src/path/to/file.js
+```
+
 ## Tasks
 
 ### GitHub Issue (20 pts)
@@ -61,7 +91,7 @@ Title the task appropriately, such as `Refactoring code in <file name>`, and men
 
 Additionally, include in the description:
 
-- A copy/paste or screenshot of the relevant Qlty output (from `qlty check`).
+- A copy/paste or screenshot of the relevant Qlty output (from `qlty check --all`).
 - A brief explanation of the issue you will address.
 
 ??? info "Issue Guidelines"
@@ -88,7 +118,7 @@ As part of the task, you must validate your changes for **one Qlty-reported smel
 Back in your own fork, create a feature branch and implement the changes needed to address the chosen Qlty issue(s).
 You should start with the following steps:
 
-- Review the Qlty smells for the file (via `qlty check`).
+- Review the Qlty smells for the file (via ` qlty smells --all`).
 - Identify the necessary code changes to address the chosen smell.
 - Implement the changes and ensure that they do not introduce new Qlty warnings or issues.
 - Run the linter and test suite to ensure your changes pass all checks (via `npm run lint` and `npm run test`).
