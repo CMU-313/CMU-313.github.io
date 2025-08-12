@@ -88,10 +88,10 @@ As part of the task, you must validate your changes for **one Qlty-reported smel
 Back in your own fork, create a feature branch and implement the changes needed to address the chosen Qlty issue(s).
 You should start with the following steps:
 
-- Review the Qlty smells for the file via `qlty check`.
+- Review the Qlty smells for the file (via `qlty check`).
 - Identify the necessary code changes to address the chosen smell.
 - Implement the changes and ensure that they do not introduce new Qlty warnings or issues.
-- Run the linter and test suite to ensure your changes pass all checks. **[we don't need them to pass all other qlty issues]**
+- Run the linter and test suite to ensure your changes pass all checks (via `npm run lint` and `npm run test`).
 
 We also want you to manually test your changes in a running NodeBB instance.
 The purpose is to trigger the refactored code's execution from the user interface (UI) with the following steps:
@@ -104,26 +104,33 @@ The purpose is to trigger the refactored code's execution from the user interfac
 
 ### GitHub Pull Request (25 pts)
 
-As you work, be sure to periodically commit your changes. Your commit message(s) must clearly describe what is changing. If you’d like, you can also make use of branching and pull requests in your own repository to practice working with GitHub.
+As you work, be sure to periodically commit your changes.
+Your commit message(s) must clearly describe what is changing.
+If you’d like, you can also make use of branching and pull requests in your own repository to practice working with GitHub.
 
 ??? info "Branch and Commit Guidelines"
     **Branch names** should be short and provide a description of what you will be doing on that branch (e.g. *"fix-header-sizing-issue"*, *"fix-multiple-dialog-bug"*, *"add-sorting-feature"*). When working with others, you can also append your username to signal which branches are yours (e.g. *"313ta/add-sorting-feature"*).
 
 	**Commits** should start with a verb and provide a description of what they are doing to the codebase (e.g. *"Remove faulty condition from getCustomerDetails"*, *"Fix failing CompositeTestCase"*, *"Fix issue #21"* ).
 
-Once you are satisfied, open a pull request from your personal branch back to the **class** repository. Similar to the Issue, your PR title should mention the full path of the file you’ve changed. The PR body should summarize the changes you made and [use one of the linking keywords](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) to link the issue that you previously opened (e.g. adding `resolves #313` will signal to GitHub that this PR resolves issue number 313).
+Once you are satisfied, open a pull request from your personal branch back to the **class** repository.
+Similar to the Issue, your PR title should mention the full path of the file you’ve changed.
+The PR body should summarize the changes you made and [use one of the linking keywords](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) to link the issue that you previously opened (e.g. adding `resolves #313` will signal to GitHub that this PR resolves issue number 313).
 
 ??? info "Pull Request Guidelines"
 	**Pull request titles** should describe what high-level changes were made to the codebase. Generally, they give a concise summary of all the commit messages.
 
     **Pull request descriptions** should describe what changes have been made in more detail and how the changes have been tested.
 
-There will be automated checks that run on your pull request to ensure you meet the requirements of this assignment. Some of them take a while to run, so be sure to check on your pull request periodically to ensure that all these actions pass and everything is working properly!
+There will be automated checks that run on your pull request to ensure you meet the requirements of this assignment.
+Some of them take a while to run, so be sure to check on your pull request periodically to ensure that all these actions pass and everything is working properly!
 
 !!! note "Test Suite Failures"
 	If the tests are failing on GitHub but work locally, it may be caused by server overload. Re-running the failing GitHub Action 1-2 times will resolve this.
 
- You should ensure that all checks including SonarCloud Quality Gate as well as Lint & Test are green. If all of the actions have passed, you will see a green checkmark next to your pull request. This signals that you have completed the implementation aspect of this assignment! ✅
+ You should ensure that all checks including SonarCloud Quality Gate as well as Lint & Test are green.
+ If all of the actions have passed, you will see a green checkmark next to your pull request.
+ This signals that you have completed the implementation aspect of this assignment! ✅
 
 ### Written Assignment (40 pts)
 
