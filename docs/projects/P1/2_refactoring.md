@@ -128,7 +128,7 @@ Some of them take a while to run, so be sure to check on your pull request perio
 !!! note "Test Suite Failures"
 	If the tests are failing on GitHub but work locally, it may be caused by server overload. Re-running the failing GitHub Action 1-2 times will resolve this.
 
- You should ensure that all checks including SonarCloud Quality Gate as well as Lint & Test are green.
+ You should ensure that all checks are green.
  If all of the actions have passed, you will see a green checkmark next to your pull request.
  This signals that you have completed the implementation aspect of this assignment! ✅
 
