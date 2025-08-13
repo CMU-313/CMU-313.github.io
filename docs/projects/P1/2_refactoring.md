@@ -91,7 +91,7 @@ Title the task appropriately, such as `Refactoring code in <file name>`, and men
 
 Additionally, include in the description:
 
-- A copy/paste or screenshot of the relevant Qlty output (from `qlty check --all`).
+- A copy/paste or screenshot of the relevant Qlty output (from `qlty smells --all`).
 - A brief explanation of the issue you will address.
 
 ??? info "Issue Guidelines"
