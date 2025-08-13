@@ -29,6 +29,7 @@ It gives you a fully configured environment and makes it easier for the course s
 
 - [Docker](https://docs.docker.com/get-docker/)
 - [Visual Studio Code](https://code.visualstudio.com/) with the [Dev Containers extension](https://code.visualstudio.com/docs/devcontainers/tutorial)
+- [Ubuntu WSL2](https://learn.microsoft.com/en-us/windows/wsl/setup/environment#get-started) (if using Windows)
 
 
 #### Installation
@@ -39,6 +40,15 @@ It gives you a fully configured environment and makes it easier for the course s
 	git clone https://github.com/<your-username>/NodeBB.git
 	cd NodeBB
    	```
+
+	!!! warning "Windows WSL2 Warning"
+	    For Windows WSL2 users, you should [**store your project files on the same operating system as the tools you plan to use**](https://learn.microsoft.com/en-us/windows/wsl/filesystems#file-storage-and-performance-across-file-systems). When it comes to cloning the NodeBB repository, it means that you should clone it in:
+
+	    - the Linux file system root directory: `\\wsl$\Ubuntu\home\<user name>\`
+	    - **NOT** the Windows file system root directory: `/mnt/c/Users/<user name>/$` or `C:\Users\<user name>\`
+
+	    You can use `% cd ~` to access the Linux home directory, then clone the repository there.
+
 2.	Open the repository in VS Code, then choose **“Reopen in Container”** when prompted (bottom-right).
 	Alternatively, open the Command Palette (`Ctrl/Cmd+Shift+P`) and run **“Dev Containers: Reopen in Container”**.
 
