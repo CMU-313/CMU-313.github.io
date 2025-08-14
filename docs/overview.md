@@ -45,4 +45,4 @@ This course has a strong technical focus, and includes assignments with and with
 
 ## Previous Course Iterations
 
-[Fall 2020](/_old/2020) | [Fall 2021](/_old/2021) | [Fall 2022](/_old/F22) | [Spring 2023](/_old/S23) | [Fall 2023](/_old/F23) | [Spring 2024](/_old/S24) | [Fall 2024](/_old/F24)
+[Fall 2020](/_old/2020) | [Fall 2021](/_old/2021) | [Fall 2022](/_old/F22) | [Spring 2023](/_old/S23) | [Fall 2023](/_old/F23) | [Spring 2024](/_old/S24) | [Fall 2024](/_old/F24) | [Spring 2025](/_old/S25)
