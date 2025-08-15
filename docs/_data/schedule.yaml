@@ -1226,11 +1226,11 @@
   homework:
     deadline: ""
     link: ""
-    name: "Thanksgiving Break - No Class"
+    name: ""
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Thanksgiving Break - No Class"
   reading:
     link: ""
     name: ""
