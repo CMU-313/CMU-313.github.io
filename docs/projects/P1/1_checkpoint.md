@@ -55,11 +55,23 @@ It gives you a fully configured environment and makes it easier for the course s
 	![VSCode Rebuild Container](/assets/images/hw/vscode_rebuild_container.png)
 
 3. 	The container will take a few minutes to build the first time.
-	The DevContainer will automatically configure NodeBB, create an admin user (`admin:password123!`), and install dependencies (no manual `./nodebb setup` is required).
-
-4.	Confirm that installation was successful by checking the `node` and `npm` versions from the integrated terminal:
+	Confirm that installation was successful by checking the `node` and `npm` versions from the integrated terminal:
 
 	![VSCode Check Versions](/assets/images/hw/vscode_check_versions.png)
+
+4.	Setup your NodeBB installation via the integrated terminal using the command below.
+	This will use the environment variables from the DevContainer (specified in `.devcontainer/devcontainer.json`).
+	As part of the process, an admin account (`admin`) will be created with password `password123!`.
+
+	```bash
+	./nodebb setup
+	```
+
+5. Finally, you should install all of the NodeBB development dependencies via:
+
+	```bash
+	npm install
+	```
 
 #### Launch
 
