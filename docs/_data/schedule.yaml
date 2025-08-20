@@ -59,8 +59,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/03-BoeingCaseStudy.pdf"
-    name: "Boeing Case Study"
+    link: 
+    name: "Software Archaeology and Anthropology"
   reading:
     link: ""
     name: ""
@@ -114,7 +114,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Boeing Case Study"
   reading:
     link: ""
     name: ""
@@ -1140,7 +1140,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Midterm 2"
   reading:
     link: ""
     name: ""
