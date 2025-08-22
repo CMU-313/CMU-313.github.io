@@ -5,9 +5,8 @@
 Starter Task - 95 points - due Thursday, September 4th, 11:59PM
 
 - [GitHub Issue](#github-issue-20-pts) (20 pts)
-- [Code Refactoring and Validation](#code-refactoring-and-validation-10-pts) (10 pts)
-- [GitHub Pull Request](#github-pull-request-25-pts) (25 pts)
-- [Gradescope Written Assignment](#written-assignment-40-pts) (40 pts)
+- [Code Refactoring and Validation](#code-refactoring-and-validation-35-pts) (35 pts)
+- [GitHub Pull Request](#github-pull-request-40-pts) (40 pts)
 
 ## Onboarding
 
@@ -71,28 +70,39 @@ Once you've narrowed in on a particular file, you can produce a list of smells f
 qlty smells public/src/path/to/file.js
 ```
 
+You can use the `--no-snippets` option to find the associated line number for each smell on the left.
+
+```bash
+qlty smells --no-snippets src/controllers/mods.js
+...
+
+src/controllers/mods.js
+ 236  Complex binary expression
+   1  High total complexity (count = 55)
+  22  Function with high complexity (count = 23): list
+ 131  Function with high complexity (count = 20): detail
+ 214  Function with high complexity (count = 14): postQueue
+```
+
 ## Tasks
 
 ### GitHub Issue (20 pts)
 
-First, choose a single Qlty-reported “smell” in a JavaScript file and open a GitHub issue in the [class repository](https://github.com/CMU-313/NodeBB/issues) to declare which file and issue you will be working on.
+First, choose a single Qlty-reported “smell” in a JavaScript file and open a GitHub issue in the [class repository](https://github.com/CMU-313/NodeBB/issues) using the **P1B Starter Task Issue template** to declare which smell you will be working on.
 
-For the task, the file must:
+![GitHub Issue Template](/assets/images/hw/p1b_issue_template.png)
 
-- **Be a Javascript file.**
+For the task, the smell must:
+
+- **Be in a Javascript file.**
 - **Be in the `src/` or `public/src/` directory.**
-- **Be a file that no one else in the class has picked and created an issue for.** We expect you to look through existing *open* issues, if any, to avoid duplication.
-  - If you really cannot find a unique file because you are late to the game, then you may pick a file that has an open issue, but identify a different Qlty-reported smell in the same file.
-  Reference the other issue in your description to distinguish yourself (e.g., "this is different from #124 because...").
+- **Be a smell that no one else in the class has picked and created an issue for.**
+  We expect you to look through existing *open* issues, if any, to avoid duplication.
 
-The Qlty issue you pick should be a maintainability smell (e.g., high function complexity, too many parameters, deep nesting, or duplicated code) that requires real code restructuring.
+The Qlty smell that you pick should be a maintainability smell (e.g., high function complexity, too many parameters, deep nesting, or duplicated code) that requires real code restructuring.
 
-Title the task appropriately, such as `Refactoring code in <file name>`, and mention the file name in the description. Use the **full file path** (`src/../xx.js`) in the title and description to avoid ambiguity.
-
-Additionally, include in the description:
-
-- A copy/paste or screenshot of the relevant Qlty output (from `qlty smells --all`).
-- A brief explanation of the issue you will address.
+You should fill out all of the fields in the provided issue template and title the issue appropriately.
+Specifically, you include both the **full file path** and **line number** (reported by Qlty) in the title to avoid ambiguity and make it easier for others to identify which smells have already been claimed (e.g., `Refactor (src/controllers/groups.js:70): Function with high complexity (details)`).
 
 ??? info "Issue Guidelines"
     **Issues titles** should provide a high-level overview of what the problem is (e.g. *"Navbar button UI bugs"*, *"Unexpected registration validation errors"*). Sometimes, issues are used to propose new features (e.g. *"Add CSV export feature"*).
@@ -110,15 +120,15 @@ You should soon see another comment by the `github-actions` bot informing you th
 
 	For future projects, you will have full control over these GitHub features such as managing assignees, adding labels, creating milestones, and more.
 
-### Code Refactoring and Validation (10 pts)
+### Code Refactoring and Validation (35 pts)
 
 For this task, you will focus on refactoring the code and removing the corresponding Qlty issue(s) from your chosen file.
 As part of the task, you must validate your changes for **one Qlty-reported smell** by re-running Qlty locally.
 
-Back in your own fork, create a feature branch and implement the changes needed to address the chosen Qlty issue(s).
+Back in your own fork, create a feature branch and implement the changes needed to address the chosen Qlty smell.
 You should start with the following steps:
 
-- Review the Qlty smells for the file (via ` qlty smells --all`).
+- Review the Qlty smells for the file (via ` qlty smells <selected/file.js>`).
 - Identify the necessary code changes to address the chosen smell.
 - Implement the changes and ensure that they do not introduce new Qlty warnings or issues.
 - Run the linter and test suite to ensure your changes pass all checks (via `npm run lint` and `npm run test`).
@@ -129,10 +139,10 @@ The purpose is to trigger the refactored code's execution from the user interfac
 - Within your implementation, add a print statement (e.g., `console.log(YOUR_NAME)`) immediately before, after, or in the middle of your refactored code.
 - Restart the NodeBB instance and watch its logs via `./nodebb log`.
 - Perform any necessary UI operations that execute the refactored code (e.g., clicking buttons for an action)
-- Take a screenshot of these logs and include it in your written report, along with a brief explanation of the steps you took to trigger the code.
+- Take a screenshot of these logs and include it in your pull request description, along with a brief explanation of the steps you took to trigger the code.
 - Remove the temporary print statement before committing your final code.
 
-### GitHub Pull Request (25 pts)
+### GitHub Pull Request (40 pts)
 
 As you work, be sure to periodically commit your changes.
 Your commit message(s) must clearly describe what is changing.
@@ -143,41 +153,45 @@ If you’d like, you can also make use of branching and pull requests in your ow
 
 	**Commits** should start with a verb and provide a description of what they are doing to the codebase (e.g. *"Remove faulty condition from getCustomerDetails"*, *"Fix failing CompositeTestCase"*, *"Fix issue #21"* ).
 
-Once you are satisfied, open a pull request from your personal branch back to the **class** repository.
-Similar to the Issue, your PR title should mention the full path of the file you’ve changed.
-The PR body should summarize the changes you made and [use one of the linking keywords](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) to link the issue that you previously opened (e.g. adding `resolves #313` will signal to GitHub that this PR resolves issue number 313).
+Once you are satisfied, open a pull request from your personal branch back to the class repository using the the **P1B: Starter Task: Refactoring** PR template.
+Fill out all of the fields and attach the required screenshots.
+You should use a clear PR title that includes the full path (e.g., `Refactor (public/src/client/categories.js): reduce nesting in render()`).
 
 ??? info "Pull Request Guidelines"
 	**Pull request titles** should describe what high-level changes were made to the codebase. Generally, they give a concise summary of all the commit messages.
 
     **Pull request descriptions** should describe what changes have been made in more detail and how the changes have been tested.
 
-There will be automated checks that run on your pull request to ensure you meet the requirements of this assignment.
-Some of them take a while to run, so be sure to check on your pull request periodically to ensure that all these actions pass and everything is working properly!
+Automated checks (lint/tests) will run on your PR.
+If CI fails but your local machine passes, try re-running the job once; if it still fails, comment in the PR and ping the staff.
 
 !!! note "Test Suite Failures"
 	If the tests are failing on GitHub but work locally, it may be caused by server overload. Re-running the failing GitHub Action 1-2 times will resolve this.
 
- You should ensure that all checks are green.
- If all of the actions have passed, you will see a green checkmark next to your pull request.
- This signals that you have completed the implementation aspect of this assignment! ✅
+You should ensure that **all checks are green.**
+A green checkmark on the PR signals that you’ve completed the implementation aspect of this assignment. ✅
 
-### Written Assignment (40 pts)
+## Submission
 
-After you have completed all of the above tasks, we will ask you some questions relevant to the NodeBB project and the course [syllabus](/syllabus).
-Fill out and submit the HW1 Written Assignment available on Gradescope.
+Finally, once you have created an issue and submitted a pull request, you should use the following Gradescope link to submit your work to be graded: **[TODO: include Gradescope link]**
 
 ## Grading
 
 To receive full credit for this project, we expect:
 
-- [ ] A GitHub Issue with:
-	- [ ] A selected JavaScript file that follows our requirements above
-	- [ ] A meaningful title and description that includes the full path of the file
-	- [ ] A successful self-assignment as an assignee
-- [ ] A GitHub Pull Request with:
-	- [ ] A meaningful title that includes the full path of the file
-	- [ ] A description body that describes the changes made and links the pull request to the issue
-	- [ ] Meaningful commit messages
-	- [ ] A green checkmark signaling that all checks have passed
-- [ ] Answers to the Gradescope Written Assignment that demonstrate successful completion of the project and understanding of the benefits and limitations of software metrics in the context of NodeBB
+- [ ] **GitHub Issue (20 pts)**
+	- [ ] JavaScript file under src/ or public/src/
+ 	- [ ] Meaningful title with full path + line number
+ 	- [ ] Issue form fields completed with focused Qlty before evidence
+ 	- [ ] Successful bot assignment
+
+- [ ] **Code Refactoring & Validation (35 pts)**
+	- [ ] Target smell reduced/removed (same scope) with before/after Qlty evidence
+ 	- [ ] `npm run lint` and `npm run test` pass locally
+ 	- [ ] Runtime trigger demonstrated (logs + UI screenshot)
+
+- [ ] **GitHub Pull Request (40 pts)**
+ 	- [ ] PR uses the P1B Refactoring PR template and all fields are completed
+ 	- [ ] PR title includes full path
+ 	- [ ] Commit messages are meaningful
+ 	- [ ] All CI checks green
