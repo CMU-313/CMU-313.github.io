@@ -135,7 +135,7 @@ hide:
 
 ## Class Calendar
 
-<iframe src="https://calendar.google.com/calendar/embed?src=c_a08f6d45bdc017bdc404ee1f16947012ec92843fc9e12f73f608671993fb117f%40group.calendar.google.com&ctz=America%2FNew_York&mode=WEEK" style="border: 0" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=c_803efbadce86c13037dc321e11b3e83e2f914ea9d477df0101aabd6367c1e23d%40group.calendar.google.com&ctz=America%2FNew_York&mode=WEEK" style="border: 0" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Weekly Schedule
 

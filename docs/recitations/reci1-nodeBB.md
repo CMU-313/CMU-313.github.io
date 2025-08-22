@@ -2,7 +2,7 @@
 title: Recitation 1 - Understand NodeBB 
 ---
 
-# Recitation 1: Understand NodeBB - DUE Friday January 17th, 11:59pm
+# Recitation 1: Understand NodeBB - DUE Friday August 29th, 11:59pm
 ### NOTE: because this recitation falls before the first day of class, we are having this recitation ONLY by asynchronous.  You will complete online, and not attend recitation in person until week 2.
 
 ## Overview
@@ -11,7 +11,7 @@ In this course, we will be building on a piece of open source software, [NodeBB]
 
 We  will be using NodeBB for the majority of the semester, and we want to start by having you become familiar with the software. 
 
-You can find an instance of the software deployed at: [Class NodeBB](https://nodebb-cmu313.azurewebsites.net/categories)
+You can find an instance of the software deployed at: [Class NodeBB](http://17313-nodebb.s3d.cmu.edu/)
 
 To help yourself become more familiar with the site, we will ask you to interact with it in several ways. 
 

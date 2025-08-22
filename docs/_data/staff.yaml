@@ -5,17 +5,12 @@
   website: https://www.cs.cmu.edu/~mhilton/
   photo: michael.jpg
 
-- name: Austin Henley
+- name: Christopher Timperley
   role: Instructor
   email: azhenley@cmu.edu
-  website: https://austinhenley.com/
-  photo: Henley.jpg
+  website: https://chris.timperley.info/
+  photo: ChrisT.jpg
 
-- name: Nadia Nahar
-  role: Instructor
-  email: nadian@andrew.cmu.edu
-  website: https://nadianahar.me/
-  photo: Nadia.jpg
 
 - name: Juan Ageitos
   role: Teaching Assistant
@@ -23,17 +18,17 @@
   website:
   photo: Juan.png
   
-- name: Sophia Witt
+- name: Bing Bhakdibhumi
   role: Teaching Assistant
-  email: switt@andrew.cmu.edu
+  email: barameeb@andrew.cmu.edu
   website:
-  photo: sophia.jpeg
+  photo: bing.jpeg
   
-- name: Yerim Song
+- name: Savannah Xu
   role: Teaching Assistant
-  email: yerims@andrew.cmu.edu
+  email: savannax@andrew.cmu.edu
   website:
-  photo: ysong.jpg
+  photo: Savannah.jpeg
 
 - name: Kareem Segizekov
   role: Teaching Assistant
@@ -41,21 +36,26 @@
   website:
   photo: Kareem.jpg
 
-- name: Kush Jain
+- name: Jonathan Oh
   role: Teaching Assistant
-  email: kdjain@andrew.cmu.edu
+  email: jjo2@andrew.cmu.edu
   website:
-  photo: Kush.jpg
+  photo: JonathanOh.jpeg
 
-- name: Yu Fang
+- name: Autumn Qiu
   role: Teaching Assistant
-  email: yufang@andrew.cmu.edu
+  email: autumnq@andrew.cmu.edu
   website:
-  photo: Yu.png
+  photo: Autumn.jpg
 
-- name: Haomin Ng
+- name: Rathi Murugan
   role: Teaching Assistant
-  email: hdng@andrew.cmu.edu
+  email: rmurugan@andrew.cmu.edu
   website:
-  photo: Haomin.jpg
+  photo: blank.jpg
 
+- name: Sarah Cross
+  role: Teaching Assistant
+  email: sarahcro@andrew.cmu.edu
+  website:
+  photo: Sarah.jpg
