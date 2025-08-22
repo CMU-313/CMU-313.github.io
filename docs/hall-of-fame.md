@@ -6,6 +6,14 @@ hide:
 
 A list of student groups with links to their merged PRs in open source projects.
 
+## 2025 Spring 
+| Group Name | Team Members | Project | Merged PRs |
+| ---------- | ------------ | ------- | ---------- |
+| Bearries | Yuki Ma, Julie Wu, Lynn Zhang, Doris Gao | [JupyterLab](https://github.com/jupyterlab/jupyterlab) | [#17540](https://github.com/jupyterlab/jupyterlab/pull/17540) |
+| Information Swimmers | Savannah Xu, Daniel Contreras, Bo Xie, Jonathan Oh | [FreeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp/) | [#60108](https://github.com/freeCodeCamp/freeCodeCamp/pull/60108), [#60134](https://github.com/freeCodeCamp/freeCodeCamp/pull/60134) |
+| MR Steaks | Baron Niu, Autumn Qiu, Alvin Tang, Amelia Kratzer | [Dinosaur Exploder](https://github.com/jvondermarck/dinosaur-exploder/) | [#196](https://github.com/jvondermarck/dinosaur-exploder/pull/196/), [#197](https://github.com/jvondermarck/dinosaur-exploder/pull/197/) |
+
+
 ## 2024 Fall 
 | Group Name | Team Members | Project | Merged PRs |
 | ---------- | ------------ | ------- | ---------- |
@@ -13,7 +21,7 @@ A list of student groups with links to their merged PRs in open source projects.
 | Five Guys | Alexis Wang, Emily Zhu, Pauline Zhang, Ethan Tan, Justin Oeni | [Puter](https://github.com/HeyPuter/puter ) | [#980](https://github.com/HeyPuter/puter/pull/980) |
 | Craig Street Chipotle | Tracy Yang, Caroline Michalow, Yang Pan, Mathias VanBriesen, Alex Lewis | [Svelte](https://github.com/sveltejs/svelte/) | [#14615](https://github.com/sveltejs/svelte/pull/14615) |
 | Kale | Ariel Chiu, Yu Fang, Elaine Gombos, Kayla Lei | [FreeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp/) | [#57298](https://github.com/freeCodeCamp/freeCodeCamp/pull/57298)|
-| d-buggers | Omar Ghabayen, Ben Condemi, Melody Hu, Jack Sun | [Recipe Scraper](https://github.com/hhursev/recipe-scrapers) | [#1408](https://github.com/hhursev/recipe-scrapers/pull/1408), [#1411](https://github.com/hhursev/recipe-scrapers/pull/1411) [#1415](https://github.com/hhursev/recipe-scrapers/pull/1415) [#1416](https://github.com/hhursev/recipe-scrapers/pull/1416) |
+| d-buggers | Omar Ghabayen, Ben Condemi, Melody Hu, Jack Sun | [Recipe Scraper](https://github.com/hhursev/recipe-scrapers) | [#1408](https://github.com/hhursev/recipe-scrapers/pull/1408), [#1411](https://github.com/hhursev/recipe-scrapers/pull/1411), [#1415](https://github.com/hhursev/recipe-scrapers/pull/1415), [#1416](https://github.com/hhursev/recipe-scrapers/pull/1416) |
 | boba | Evelynn Chen, Alice Le, Anna Shi, Vicky Chen, Cass Ma | [Harmony](https://github.com/harmonydata/harmony) | [#71](https://github.com/harmonydata/harmony/pull/71) |
 | DRY cLEaners | Daniel Sung, Reem Muhammed Hashir, Lawrence Lee, Ellia Yang, Yiyao Wang | [Fishfolk Jumpy](https://github.com/fishfolk/jumpy) | [#1046](https://github.com/fishfolk/jumpy/pull/1046) |
 | aawaa | Haomin Ng, Owen Gometz, Rong Yuan, Nita Thaveesittikullarp, Evelyn Zheng | [Fishfolk Jumpy](https://github.com/autolab/Autolab) | [#2249](https://github.com/autolab/Autolab/pull/2249) |
