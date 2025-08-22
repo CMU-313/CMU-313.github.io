@@ -19,13 +19,14 @@ For your own development, you will be forking your own repository off of a class
 Our fork contains some tweaks to make the project easier to modify and debug. This will also allow you to create issues and pull requests that are visible to the instructors, which will be the primary way of submitting code deliverables for this project.
 
 ## Deliverables and Deadlines
-This is an **individual assignment**. There are four (4) deliverables and two (2) deadlines for this homework.
+
+This is an **individual assignment**.
+There are four (4) deliverables and two (2) deadlines for this homework.
 
 A) [**Build Checkpoint**](1_checkpoint.md) - 5 points - due Friday, August 29th, 11:59pm
 
 B) [**Starter Task**](2_refactoring.md) - 95 points - due Thursday, September 4th, 11:59PM
 
 - GitHub Issue (20 pts)
-- Code Refactoring and Validation (10 pts)
-- GitHub Pull Request (25 pts)
-- Gradescope Written Assignment (40 pts)
+- Code Refactoring and Validation (35 pts)
+- GitHub Pull Request (40 pts)
