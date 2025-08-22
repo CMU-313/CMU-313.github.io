@@ -40,7 +40,7 @@ After you have introduced yourself, you should reply to at least one other intro
 Login again after a few hours to see if anyone has responded to your Introduction post, and answer their questions, if any.
 
 
-!!! note "Introductions" are not public
+!!! note Introductions are not public
     The "Introductions" category is configured so that it will not be indexed by search engines, etc. and are only visible to logged-in users.
 
 
