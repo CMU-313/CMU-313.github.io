@@ -59,10 +59,10 @@ Note that, by default, Qlty only analyzes the files that you've modified since y
 `--all` tells Qlty to scan the entire codebase.
 
 This will a large list of issues and likely fill up your terminal with lots of code snippets.
-To make it easier to find which files have issues, you can disable code snippets in the output via the `--no-snippet` option:
+To make it easier to find which files have issues, you can disable code snippets in the output via the `--no-snippets` option:
 
 ```bash
-qlty smells --all --no-snippet
+qlty smells --all --no-snippets
 ```
 
 Once you've narrowed in on a particular file, you can produce a list of smells for just that file as follows:
