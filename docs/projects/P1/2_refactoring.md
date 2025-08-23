@@ -153,9 +153,28 @@ If you’d like, you can also make use of branching and pull requests in your ow
 
 	**Commits** should start with a verb and provide a description of what they are doing to the codebase (e.g. *"Remove faulty condition from getCustomerDetails"*, *"Fix failing CompositeTestCase"*, *"Fix issue #21"* ).
 
-Once you are satisfied, open a pull request from your personal branch back to the class repository using the the **P1B: Starter Task: Refactoring** PR template.
-Fill out all of the fields and attach the required screenshots.
-You should use a clear PR title that includes the full path (e.g., `Refactor (public/src/client/categories.js): reduce nesting in render()`).
+Once you are satisfied, create a pull request from your personal branch back to the class repository **using the widget below.**
+This will redirect you to a pull request template for this assignment where you should fill out all of the fields, attach the required screenshots, and provide a clear PR title that includes the full path (e.g., `Refactor (public/src/client/categories.js): reduce nesting in render()`).
+
+<div class="p1b-card md-typeset">
+    <form onsubmit="event.preventDefault();
+      const handle = document.getElementById('handle').value.trim();
+      const branch = document.getElementById('branch').value.trim();
+      if (!handle || !branch) { alert('Enter your GitHub username and branch name.'); return; }
+      const url = `https://github.com/CMU-313/NodeBB/compare/main...${encodeURIComponent(handle)}:${encodeURIComponent(branch)}?expand=1&template=p1b-starter-task.md`;
+      window.open(url, '_blank');
+    ">
+        <label>
+            <span>GitHub Username</span>
+            <input id="handle" required placeholder="your-username">
+        </label>
+        <label>
+            <span>Branch</span>
+            <input id="branch" required placeholder="main">
+        </label>
+        <button type="submit" class="md-button md-button--primary">Create pull request with template</button>
+    </form>
+</div>
 
 ??? info "Pull Request Guidelines"
 	**Pull request titles** should describe what high-level changes were made to the codebase. Generally, they give a concise summary of all the commit messages.

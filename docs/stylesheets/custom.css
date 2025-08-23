@@ -1,5 +1,24 @@
+.p1b-card input {
+    width: 22rem;
+    max-width: 100%;
+    padding: .6rem .7rem;
+    color: #000;
+}
+.p1b-card label { display: block; margin: .25rem 0; }
+.p1b-card label span { display: block; font-weight: 600; margin-bottom: .25rem; }
+
+.p1b-card button { margin-top: .5rem; }
+
+.p1b-card {
+    border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
+    border-radius: .75rem;
+    padding: 1rem 1.25rem;
+    background: var(--md-default-bg-color);
+    box-shadow: 0 6px 18px rgba(0,0,0,.06);
+}
+
 .md-grid {
-    max-width: 66rem; 
+    max-width: 66rem;
 }
 
 .md-typeset h1 {
