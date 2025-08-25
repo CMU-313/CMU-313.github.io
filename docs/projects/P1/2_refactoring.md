@@ -192,7 +192,7 @@ A green checkmark on the PR signals that you’ve completed the implementation a
 
 ## Submission
 
-Finally, once you have created an issue and submitted a pull request, you should use the following Gradescope link to submit your work to be graded: **[TODO: include Gradescope link]**
+Finally, once you have created an issue and submitted a pull request, you should use the following Gradescope link to submit your work to be graded [Gradescope](https://www.gradescope.com/courses/1086939) 
 
 ## Grading
 

@@ -151,7 +151,7 @@ Upon completing the above steps, take screenshots of
 opened in your browser.
 **Be sure the URL is clearly visible in both screenshots** (i.e. `localhost:4567` and the file path to your coverage file), so we can confirm that you have everything running locally.
 
-Submit the two screenshots to [Gradescope](https://www.gradescope.com/courses/835182).
+Submit the two screenshots to [Gradescope](https://www.gradescope.com/courses/1086939).
 
 ## Grading
 
