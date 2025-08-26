@@ -18,7 +18,7 @@
 
 - date: Tue Aug 26
   homework:
-    deadline: "Due Fri, Jan 17th @ 11:59pm"
+    deadline: "Due Fri, August 29th @ 11:59pm"
     link: "projects/P1"
     name: "Project 1A - Build Checkpoint"
     numDays: 4
@@ -90,7 +90,7 @@
 
 - date: Mon Sep 1
   homework:
-    deadline: "Due Thu, Jan 23rd @ 11:59pm"
+    deadline: "Due Thu, Sept 4th @ 11:59pm"
     link: "projects/P1"
     name: "Project 1B - Starter Task"
     numDays: 4
