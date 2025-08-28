@@ -59,8 +59,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: 
-    name: "Software Archaeology and Anthropology"
+    link: "assets/pdfs/02-archaeology.pdf"
+    name: "Software Archaeology"
   reading:
     link: ""
     name: ""
@@ -195,7 +195,7 @@
     name: ""
     quiz: ""
     slides: ""
-    
+
 - date: Tue Sep 9
   homework:
     deadline: ""
