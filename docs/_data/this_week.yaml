@@ -3,8 +3,8 @@ lectures:
   link: assets/pdfs/01-introduction.pdf
   name: Introduction
 - date: Thu Aug 28
-  link: null
-  name: Software Archaeology and Anthropology
+  link: assets/pdfs/02-archaeology.pdf
+  name: Software Archaeology
 
 projects:
 - date: Tue Aug 26
