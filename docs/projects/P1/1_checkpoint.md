@@ -49,17 +49,29 @@ It gives you a fully configured environment and makes it easier for the course s
 
 	    You can use `% cd ~` to access the Linux home directory, then clone the repository there.
 
-2.	Open the repository in VS Code, then choose **“Reopen in Container”** when prompted (bottom-right).
+2. 	Open the repository directory in VS Code.
+	**<span style="color:red">(Be careful not to open a parent directory, otherwise VS Code will not pick up the DevContainer configuration.).</span>**
+	You can double check that you are in the right directory by seeing that `.devcontainer` is at the top level (rather than below a `nodebb` directory, for example).
+
+	![Check the Directory in VS Code](/assets/images/hw/vscode_check_directory.png)
+
+3.	Once you have the right directory open in VS Code, choose **“Reopen in Container”** when prompted (bottom-right).
 	Alternatively, open the Command Palette (`Ctrl/Cmd+Shift+P`) and run **“Dev Containers: Reopen in Container”**.
 
 	![VSCode Rebuild Container](/assets/images/hw/vscode_rebuild_container.png)
 
-3. 	The container will take a few minutes to build the first time.
+	To double check that you have built the right DevContainer, you can open up the Command Palette and run **“Dev Containers: Open Container Configuration File”**.
+	The file should look similar to the one below.
+	Specifically, the `name` should be `NodeBB`.
+
+	![VSCode Confirm DevContainer Setup](/assets/images/hw/vscode_confirm_devcontainer.png)
+
+4. 	The container will take a few minutes to build the first time.
 	Confirm that installation was successful by checking the `node` and `npm` versions from the integrated terminal:
 
 	![VSCode Check Versions](/assets/images/hw/vscode_check_versions.png)
 
-4.	Setup your NodeBB installation via the integrated terminal using the command below.
+5.	Setup your NodeBB installation via the integrated terminal using the command below.
 	This will use the environment variables from the DevContainer (specified in `.devcontainer/devcontainer.json`).
 	As part of the process, an admin account (`admin`) will be created with password `password123!`.
 
@@ -67,7 +79,7 @@ It gives you a fully configured environment and makes it easier for the course s
 	./nodebb setup
 	```
 
-5. Finally, you should install all of the NodeBB development dependencies via:
+6. Finally, you should install all of the NodeBB development dependencies via:
 
 	```bash
 	npm install
@@ -78,7 +90,7 @@ It gives you a fully configured environment and makes it easier for the course s
 Start the server from the integrated terminal in VSCode:
 
 ```bash
-nodebb start
+./nodebb start
 ```
 
 You should be able to navigate to [http://localhost:4567](http://localhost:4567) and see the main forum page, as shown below.
@@ -99,13 +111,13 @@ Take some time to click through the pages and explore the different features tha
 To **shut down** the server:
 
 ```bash
-nodebb stop
+./nodebb stop
 ```
 
-You can also use the `--help` option to learn more about other `nodebb` commands.
+You can also use the `--help` option to learn more about other `./nodebb` commands.
 
 ```bash
-nodebb --help
+./nodebb --help
 ```
 
 #### Lint and Test
