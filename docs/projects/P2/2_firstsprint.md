@@ -2,7 +2,7 @@
 
 ## Deliverables
 
-**First Sprint** – 95 points – due Tuesday, February 11th, 11:59pm
+**First Sprint** – 95 points – due Friday, September 26th, 11:59pm
 
 - [Process & Implementation Interim](#process-and-implementation-interim-50-pts) (50 pts)
 - [Checkpoint Presentation](#checkpoint-presentation-45-pts) (45 pts) - **Held in Recitation on Monday February 10th**
