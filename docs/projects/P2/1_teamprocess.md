@@ -32,7 +32,7 @@ You will be working on your team repository for this project. Once you have deci
 Once you enter your team name, Github will automatically create a repository for your team. You should then create a **Github Project board** for your repository (you can follow the steps from the [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) or the note below).
 
 !!! tip
-We highly recommend taking a look at [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) to get more specifics on good issue writing, commit writing and PRs. TAs have also created this [guide](https://docs.google.com/document/d/1X490SwaJbtus0KPBsjKlnNZOxUs30upkSyIvWykXkrA/edit?tab=t.0#heading=h.yfcvmuhkukvu) for making good PRs and commits:
+    We highly recommend taking a look at [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) to get more specifics on good issue writing, commit writing and PRs. TAs have also created this [guide](https://docs.google.com/document/d/1X490SwaJbtus0KPBsjKlnNZOxUs30upkSyIvWykXkrA/edit?tab=t.0#heading=h.yfcvmuhkukvu) for making good PRs and commits:
 
 !!! note "Setting up a Project Kanban Board and Creating Issues"
     Project boards are a great way to track development. While there are lots of great external tools such as Trello or Jira, GitHub provides their own project boards for us to use with great integration support of their other features. To create a Project Kanban follow the steps below: 
