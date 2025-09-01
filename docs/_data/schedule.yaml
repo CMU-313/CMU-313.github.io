@@ -165,7 +165,7 @@
     deadline: "Due Mon, Sept 15th @ 11:59pm"
     link: "projects/P2"
     name: "Project 2A - Team Contract & Project Planning"
-    numDays: 7
+    numDays: 5
   lecture:
     link: ""
     name: ""
@@ -273,7 +273,7 @@
     deadline: "Due Fri, Sept 26th @ 11:59pm"
     link: "projects/P2"
     name: "Project 2B - Presentation Slides & Process and Implementation"
-    numDays: 10
+    numDays: 7
   lecture:
     link: ""
     name: ""
@@ -435,7 +435,7 @@
     deadline: "Due Fri, Oct 10th @ 11:59pm"
     link: "projects/P2"
     name: "Project 2C - Final"
-    numDays: 13
+    numDays: 10
   lecture:
     link: ""
     name: ""
