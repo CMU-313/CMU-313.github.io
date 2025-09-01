@@ -66,6 +66,7 @@ To receive full credit for the implementation, we expect:
 - [ ] Reasonable code structure and style, including documentation where appropriate
 - [ ] Coherent commits of reasonable size with meaningful commit messages by all team members
 - [ ] High quality usage of Git/GitHub tools, such as issues, milestones, pull requests, and commits
+- [ ] Well written and meaningful Github Pull Requests
 
 To receive full credit for the presentation, we expect:
 
