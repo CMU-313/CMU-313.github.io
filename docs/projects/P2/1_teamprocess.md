@@ -2,7 +2,7 @@
 
 ## Deliverables
 
-**Team Process & Planning** – 70 points – due Thursday, January 30th, 11:59pm
+**Team Process & Planning** – 70 points – due Monday, September 15th, 11:59pm
 
 - **Prerequisite:** [Team Setup](#team-setup)
 - [Teamwork Contract](#teamwork-contract-35-pts) (35 pts)
