@@ -303,40 +303,6 @@ test('addition works correctly', () => {
 
 ---
 
-## Connection to Real-World Development
-
-### **Industry Relevance** 💼
-
-These aren't just academic exercises - they're industry standard practices:
-
-- **Docker**: Used by companies like Netflix, Uber, Spotify for deploying applications
-- **Testing**: Critical for companies like banks, healthcare, aerospace where bugs have serious consequences  
-- **Linting**: Standard at Google, Facebook, Microsoft for maintaining code quality
-- **CI/CD**: How companies like Amazon deploy code hundreds of times per day safely
-
-### **Career Preparation** 🚀
-
-Understanding these tools prepares you for:
-- **Internships**: You'll recognize and use similar tools
-- **Job interviews**: Demonstrate knowledge of professional development practices
-- **Open source contributions**: Most projects use similar workflows
-- **Personal projects**: Build applications the "right way" from the start
-
----
-
-## What's Next?
-
-Now that you understand these foundational concepts, you're ready to:
-
-1. **Complete the Build Checkpoint**: Set up your environment with confidence
-2. **Explore NodeBB**: Navigate the codebase with better understanding
-3. **Use the tools effectively**: Leverage linting, testing, and debugging
-4. **Collaborate successfully**: Work with teammates using professional practices
-
-Remember: If any step takes more than a few hours, ask for help! These tools are designed to make development faster and easier, not to create roadblocks.
-
----
-
 ## Glossary
 
 | Term | Definition |
