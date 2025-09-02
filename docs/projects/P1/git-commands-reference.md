@@ -5,9 +5,7 @@ This reference covers the essential Git commands you'll need for this project. G
 !!! tip "Golden Rule"
     **Commit early and often** - Git can only help you recover work that's been committed!
 
----
-
-## **🎯 Commands You'll Use 90% of the Time**
+## Commands You'll Use 90% of the Time
 
 For daily development, these 10 commands handle most situations:
 
@@ -26,9 +24,7 @@ gh pr create         # Make pull request
 
 Remember: **When in doubt, check `git status`** - it will tell you what state you're in and often suggest what to do next!
 
----
-
-## **🔧 Setup & Configuration**
+## Setup and Configuration
 
 ### Initial Repository Setup
 ```bash
@@ -47,9 +43,7 @@ git remote -v
 
 **What this does**: Sets up your local copy and connects it to both your fork (origin) and the class repository (upstream).
 
----
-
-## **📊 Status & Information**
+## Status and Information
 
 ### Check What's Happening
 ```bash
@@ -71,9 +65,7 @@ git diff --name-only
 
 **When to use**: Run `git status` frequently to understand what Git sees. Use `git diff` before committing to review your changes.
 
----
-
-## **🌿 Branch Management**
+## Branch Management
 
 ### Working with Branches
 ```bash
@@ -95,13 +87,12 @@ git branch -D feature-branch-name
 ```
 
 **Best practices**: 
+
 - Create descriptive branch names: `add-user-profile-editing`, `fix-login-redirect-bug`
 - One branch per feature/issue
 - Always start from an up-to-date `main` branch
 
----
-
-## **💾 Saving Changes**
+## Saving Changes
 
 ### Committing Your Work
 ```bash
@@ -138,9 +129,7 @@ git commit -m "Fix user authentication redirect loop
 git commit -m "fixed stuff"
 ```
 
----
-
-## **🔄 Syncing with Remotes**
+## Syncing with Remotes
 
 ### Keeping in Sync
 ```bash
@@ -169,9 +158,7 @@ git checkout main
 git pull upstream main
 ```
 
----
-
-## **🚨 Emergency & Fixing Mistakes**
+## Emergency and Fixing Mistakes
 
 ### When Things Go Wrong
 ```bash
@@ -200,9 +187,7 @@ git checkout -b fresh-start
     - `git rebase -i` - Interactive rebase (advanced)
     - `git push --force` - Can overwrite others' work
 
----
-
-## **🔍 NodeBB Project Specific**
+## NodeBB Project Specific
 
 ### Useful for Class Workflow
 ```bash
@@ -222,9 +207,7 @@ git log --oneline filename.js
 git log --grep="search terms"
 ```
 
----
-
-## **📋 GitHub Integration (using gh CLI)**
+## GitHub Integration
 
 ### Pull Request Commands
 ```bash
@@ -246,9 +229,7 @@ gh pr view 123
 
 **Alternative**: You can always create PRs through the GitHub web interface.
 
----
-
-## **📖 Essential Daily Workflow**
+## Essential Daily Workflow
 
 ### Step-by-Step Process
 ```bash
@@ -281,9 +262,7 @@ git pull upstream main
 git branch -d new-feature-name  # Clean up old branch
 ```
 
----
-
-## **⚡ Pro Tips & Best Practices**
+## Pro Tips and Best Practices
 
 ### Habits for Success
 ```bash
@@ -307,14 +286,13 @@ git commit -m "Clear description"
 ```
 
 ### Commit Message Guidelines
+
 - **First line**: Brief summary (50 characters or less)
 - **Blank line** if adding more detail
 - **Body**: Explain what and why, not how
 - Use present tense: "Fix bug" not "Fixed bug"
 
----
-
-## **🆘 Troubleshooting Common Issues**
+## Troubleshooting Common Issues
 
 ### "I Made a Mistake"
 ```bash
@@ -346,16 +324,16 @@ git add conflicted-file.js
 git commit -m "Resolve merge conflict"
 ```
 
----
-
-## **📚 Additional Resources**
+## Additional Resources
 
 ### Quick References
+
 - `git --help` - General help
 - `git <command> --help` - Help for specific command
 - `git status` - Your best friend, use it constantly
 
 ### Visual Git Tools
+
 - **VS Code**: Built-in Git integration with visual diff
 - **GitKraken**: GUI for complex Git operations
 - **GitHub Desktop**: Simple GUI for basic operations
