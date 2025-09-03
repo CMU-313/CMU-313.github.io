@@ -24,10 +24,12 @@ You can use this Slack channel for subsequent project-team related discussions o
 
 You will be working on your team repository for this project. Once you have decided on a team name, go to the link below to set up your team:
 
-[https://classroom.github.com/a/fBWN52gG](https://classroom.github.com/a/fBWN52gG)
+[https://classroom.github.com/a/fBWN52gG](https://classroom.github.com/a/DtVuqfZe)
 
+ 
 !!! warning
     After you join a team on GitHub, you cannot change teams! Make sure that **only one** of you creates the team, and make sure that the remaining teammates join the right team.
+ 
 
 Once you enter your team name, Github will automatically create a repository for your team. You should then create a **Github Project board** for your repository (you can follow the steps from the [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) or the note below).
 
