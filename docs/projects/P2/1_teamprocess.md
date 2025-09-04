@@ -24,7 +24,7 @@ You can use this Slack channel for subsequent project-team related discussions o
 
 You will be working on your team repository for this project. Once you have decided on a team name, go to the link below to set up your team:
 
-[https://classroom.github.com/a/fBWN52gG](https://classroom.github.com/a/DtVuqfZe)
+[https://classroom.github.com/a/DtVuqfZe](https://classroom.github.com/a/DtVuqfZe)
 
  
 !!! warning
