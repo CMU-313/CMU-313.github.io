@@ -113,7 +113,7 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
+    link: "assets/pdfs/03-737MAX.pdf"
     name: "Boeing Case Study"
   reading:
     link: "https://canvas.cmu.edu/courses/48397/quizzes/146241"
@@ -149,8 +149,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/04-metrics.pdf"
+    name: "Metrics and Measurement"
   reading:
     link: ""
     name: ""

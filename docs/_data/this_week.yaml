@@ -1,17 +1,14 @@
 lectures:
 - date: Tue Sep 2
-  link: ''
+  link: assets/pdfs/03-737MAX.pdf
   name: Boeing Case Study
   reading:
     link: https://canvas.cmu.edu/courses/48397/quizzes/146241
     name: Boeing Case Study Reading
+- date: Thu Sep 4
+  link: assets/pdfs/04-metrics.pdf
+  name: Metrics and Measurement
 
-projects:
-- date: Mon Sep 1
-  deadline: Due Thu, Sept 4th @ 11:59pm
-  end_date: 2025-09-05 00:00:00
-  link: projects/P1
-  name: Project 1B - Starter Task
-  numDays: 4
+projects: []
 
 recitation: null
