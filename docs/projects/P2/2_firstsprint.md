@@ -5,7 +5,7 @@
 **First Sprint** – 95 points – due Friday, September 26th, 11:59pm
 
 - [Process & Implementation Interim](#process-and-implementation-interim-50-pts) (50 pts)
-- [Checkpoint Presentation](#checkpoint-presentation-45-pts) (45 pts) - **Held in Recitation on Monday February 10th**
+- [Checkpoint Presentation](#checkpoint-presentation-45-pts) (45 pts) - **Held in Recitation on Monday, September 22nd**
 
 
 ## Process and Implementation Interim (50 pts)
@@ -23,14 +23,14 @@ Be sure to **review each other’s code** - both from a quality assurance standp
 
 Every member of your team **must** contribute to the implementation. One way we will evaluate this is that each team member must have at least one commit as a part of the solution. Failure to do so will result in a significant penalty to your grade.
 
-You must commit all of your changes to the main branch of your **team repository** before the homework deadline. Unlike the previous assignment, you should **not** submit your changes to the parent NodeBB repository.
+You must commit all of your changes to the main branch of your **team repository** before the homework deadline. Unlike the previous assignment (P1), you should **not** submit your changes to the parent NodeBB repository.
 
 Submit a link to your repository and your Github Project board onto Gradescope. For grading, we will take a snapshot of your repository and board right at the deadline and grade based on your progress there.
 
 
 ## Checkpoint Presentation (45 pts)
 
-During the Week 5 recitation slot (**Monday February 10th**), your group will give a 10-minute presentation describing your current progress, followed by a short 1-2 minute Q&A session where you can get feedback from the TAs and your peers.
+During the Week 5 recitation slot (**Monday, September 22nd**), your group will give a 10-minute presentation describing your current progress, followed by a short 1-2 minute Q&A session where you can get feedback from the TAs and your peers.
 
 Your slides should include the following information (the recommended slides amount is in parentheses):
 
@@ -54,7 +54,7 @@ If you did not meet your development goals, you should outline what you plan to 
 !!! note "A Note on Participation"
     **Participation from all team members during the presentation is required.** If you are unable to attend in-person, send a Slack message to your recitation TAs with justifications **at least 24 hours before the start of your recitation**. You will then be permitted to present by submitting a recording of your segment of the presentation, which your teammate will play during the presentation.
 
-The presentation slides should be exported into a PDF and submitted to Gradescope by the Tuesday deadline.
+The presentation slides should be exported into a PDF and submitted to Gradescope by the Sunday deadline.
 
 
 ## Grading
