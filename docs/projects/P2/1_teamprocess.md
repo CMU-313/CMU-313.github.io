@@ -62,7 +62,7 @@ For each code-based deliverable, we will look at a snapshot of your repository a
 
 ### Teamwork Self-Assessment
 
-As the course moves into team-based projects, we will be releasing weekly self-assessments, each worth one participation point. These are meant to be short surveys and should not take more than a few minutes. They are intended to help you reflect on your team's process and prompt you to think about how to improve it. The first one will be released on **Friday, January 31th** and due the following **Friday, February 7th** (both at 11:59pm).
+As the course moves into team-based projects, we will be releasing weekly self-assessments, each worth one participation point. These are meant to be short surveys and should not take more than a few minutes. They are intended to help you reflect on your team's process and prompt you to think about how to improve it. The first one will be released on **Friday, September 12th** and due the following **Thursday, September 18th** (both at 11:59pm).
 
 
 ## Main Deliverables
@@ -190,7 +190,7 @@ To receive full credit for the teamwork contract, we expect:
 
 - [ ] All sections listed above are addressed in a roughly 1-2 page PDF document submitted to Gradescope
 - [ ] Document demonstrates a clear process outline that was discussed between and agreed upon by the teammates
-- [ ] All group members’ signatures at the end of the document
+- [ ] All group members’ signatures and date at the end of the document
 
 To receive full credit for the project planning, we expect:
 
