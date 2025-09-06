@@ -37,12 +37,14 @@ Once you enter your team name, Github will automatically create a repository for
     From previous semesters, this guide [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) gives more specifics on good issue writing, commit writing and PRs. TAs have created this more recent [guide](https://docs.google.com/document/d/1X490SwaJbtus0KPBsjKlnNZOxUs30upkSyIvWykXkrA/edit?tab=t.0#heading=h.yfcvmuhkukvu) for making good PRs and commits.
 
 !!! note "Setting up a Project Kanban Board and Creating Issues"
-    Project boards are a great way to track development. While there are lots of great external tools such as Trello or Jira, GitHub provides their own project boards for us to use with great integration support of their other features. To create a Project Kanban follow the steps below: 
+    Project boards are a great way to track development. While there are lots of great external tools such as Trello or Jira, GitHub provides their own project boards for us to use with great integration support of their other features. 
+    
+    To create a Project Kanban, follow the steps below (only one member has to do this): 
 
-    - Create a project board by clicking on the Projects tab, and then "New project" under the "Link a project" drop down button. Use the "Board" template.
-    - Under the Issues tab, have a teammate create an issue for adding team member names to the README
-    - Assign yourself to the issue, and add the issues to the project Kanban board you just created under the "Todo" column using the "Projects" option(two fields below "Assignees")
-    - Share the Kanban/Project board with your team or make it public so they have access to it.
+    - Click on the Projects tab in your team repo, and then the "+ New project" button. This will create a new Project Kanban board directly linked to the team repo. Use the "Board" template.
+    - Share the Kanban/Project board with your team or make it public so they have access to it. (Even if they have access to the repo, they might not have access to the board initially. To manage acces, click on the three dots in the top right and click on "Settings" and then "Manage access.")
+    - Have a team member add an issue for adding team member names to the README into the "Todo" column using the "+ Add item" button at the bottom of the column. OR under the Issues tab of the team repo, have a teammate create an issue and then link the issue to the Project Kanban board using the "Projects" field (two fields below "Assignees") on the right-hand side. Specify the status as "Todo."
+    - Assign yourself to the issue.
 
 
 You should use this team repository for all your development, and be sure to use good development practices, including keeping your commits cohesive and your commit messages informative. The same resources mentioned above provide more details on our guidelines.
