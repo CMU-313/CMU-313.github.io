@@ -132,7 +132,7 @@ As a team, you should then come up with a prioritization ranking for each user s
 - **Impact**: how essential is this user story to the overall functionality of the application to your stakeholders, how beneficial it would be to your stakeholders, and
 - **Effort**: how much time/effort is required to implement this user story
 
-Once you have your list of user stories, create a new GitHub Project board (click into Projects on your team repository). Then create two new columns to the left called **"User Stories"** and **"Backlog"**. At this point in time, you should have **"User Stories", "Backlog", "To-Do", "In Progress" and "Done"**, in that order from left to right. Feel free to add more columns if your teams decide that you need them during your development process
+Once you have your list of user stories, go to the Project board that was created during Team Setup. Then create two new columns to the left called **"User Stories"** and **"Backlog"**. At this point in time, you should have **"User Stories", "Backlog", "Todo", "In Progress" and "Done"**, in that order from left to right. Feel free to add more columns if your teams decide that you need them during your development process
 
 Add your user stories into the **"User Stories"** column using the **“+ Add item”** button at the bottom, create draft issues for each of your user stories.In the body of each of these draft issues, provide a brief but concrete justification of its prioritization ranking that your team decided on. You should order all the user stories in this column from highest to lowest priority.
 
