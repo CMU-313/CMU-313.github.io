@@ -190,11 +190,11 @@
   reading:
     link: ""
     name: ""
-  recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+  recitation: 
+    handout: "recitations/reci2-teamcontract"
+    name: "Recitation 2 - Team Contract Workshop"
+    quiz: "https://www.gradescope.com/courses/1086939/assignments/6646974"
+    slides: "https://docs.google.com/presentation/d/1-NnmKEycNRRA6zbz4HHvRz24Zxqp8rhZ2iekMcEz7Vg/edit?usp=sharing"
 
 - date: Tue Sep 9
   homework:
