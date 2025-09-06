@@ -26,7 +26,7 @@ Despite its considerable functionality, NodeBB is still missing many of the basi
 
 ## Deliverables and Deadlines
 
-This will be the first assignment with your group. There are three (3) deadlines for this project. Each of the core deliverables are described below. This project is worth a total of 320 points.
+This will be the first assignment with your group. There are three (3) deadlines for this project. Each of the core deliverables are described below. This project is worth a total of 275 points.
 
 Detailed information for each of the deadlines has been split into its own subpage on the left.
 
