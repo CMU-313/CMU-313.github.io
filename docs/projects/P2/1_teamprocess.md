@@ -2,7 +2,7 @@
 
 ## Deliverables
 
-**Team Process & Planning** – 70 points – due Thursday, January 30th, 11:59pm
+**Team Process & Planning** – 70 points – due Monday, September 15th, 11:59pm
 
 - **Prerequisite:** [Team Setup](#team-setup)
 - [Teamwork Contract](#teamwork-contract-35-pts) (35 pts)
@@ -24,12 +24,17 @@ You can use this Slack channel for subsequent project-team related discussions o
 
 You will be working on your team repository for this project. Once you have decided on a team name, go to the link below to set up your team:
 
-[https://classroom.github.com/a/fBWN52gG](https://classroom.github.com/a/fBWN52gG)
+[https://classroom.github.com/a/DtVuqfZe](https://classroom.github.com/a/DtVuqfZe)
 
+ 
 !!! warning
     After you join a team on GitHub, you cannot change teams! Make sure that **only one** of you creates the team, and make sure that the remaining teammates join the right team.
+ 
 
 Once you enter your team name, Github will automatically create a repository for your team. You should then create a **Github Project board** for your repository (you can follow the steps from the [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) or the note below).
+
+!!! tip
+    From previous semesters, this guide [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) gives more specifics on good issue writing, commit writing and PRs. TAs have created this more recent [guide](https://docs.google.com/document/d/1X490SwaJbtus0KPBsjKlnNZOxUs30upkSyIvWykXkrA/edit?tab=t.0#heading=h.yfcvmuhkukvu) for making good PRs and commits.
 
 !!! note "Setting up a Project Kanban Board and Creating Issues"
     Project boards are a great way to track development. While there are lots of great external tools such as Trello or Jira, GitHub provides their own project boards for us to use with great integration support of their other features. To create a Project Kanban follow the steps below: 
@@ -155,7 +160,7 @@ The feature(s) you plan to implement should not be purely cosmetic or arbitrary.
 
 Convert the feature(s) you decide to implement into technical requirements (i.e. what needs to be developed for this feature to work). Then, break these requirements down into manageable, assignable issues and document them on your Project board by adding them to “Backlog” column. At minimum, these issues should make use of GitHub features like milestones/labels/descriptions to denote:
 
-- **Estimated effort** for each task
+- **Estimated effort/hours** for each task
 - **Dependencies** among tasks (if any)
 - Initial **assignments** for team members
 - **Milestones** to indicate which sprint the issue should be completed in (Sprint 1, Sprint 2, Stretch)
@@ -191,4 +196,4 @@ To receive full credit for the project planning, we expect:
 
 - [ ] A GitHub project board linked to your team repository with:
     - [ ] A User Story column containing at least two user stories per group member that satisfy the guidelines outlined in the sections above and in lecture
-    - [ ] A Backlog column containing a series of GitHub issues describing the feature(s) that the team will tackle. Each issue makes use of GitHub features to denote all of the required information listed above
+    - [ ] A Backlog column containing a series of well written GitHub issues describing the feature(s) that the team will tackle. Each issue makes use of GitHub features to denote all of the required information listed above
