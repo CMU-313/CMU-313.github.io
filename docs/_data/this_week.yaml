@@ -1,14 +1,10 @@
-lectures:
-- date: Tue Sep 2
-  link: assets/pdfs/03-737MAX.pdf
-  name: Boeing Case Study
-  reading:
-    link: https://canvas.cmu.edu/courses/48397/quizzes/146241
-    name: Boeing Case Study Reading
-- date: Thu Sep 4
-  link: assets/pdfs/04-metrics.pdf
-  name: Metrics and Measurement
+lectures: []
 
 projects: []
 
-recitation: null
+recitation:
+  date: Mon Sep 8
+  handout: recitations/reci2-teamcontract
+  name: Recitation 2 - Team Contract Workshop
+  quiz: https://www.gradescope.com/courses/1086939/assignments/6646974
+  slides: https://docs.google.com/presentation/d/1-NnmKEycNRRA6zbz4HHvRz24Zxqp8rhZ2iekMcEz7Vg/edit?usp=sharing
