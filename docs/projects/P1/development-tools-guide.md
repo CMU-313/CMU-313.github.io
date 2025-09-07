@@ -192,11 +192,8 @@ test('addition works correctly', () => {
 
 **GitHub**: Website that hosts Git repositories online and adds collaboration features.
 
-<<<<<<< HEAD
 !!! info "Detailed Git Commands"
     For a comprehensive reference of Git commands specific to this project, see our [Git Commands Reference Guide](git-commands-reference.md).
-=======
->>>>>>> ae071f4 (Update development-tools-guide.md)
 
 ### Forking and Cloning
 
