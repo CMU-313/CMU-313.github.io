@@ -2,7 +2,7 @@
 
 ## Deliverables
 
-**Team Process & Planning** – 70 points – due Thursday, January 30th, 11:59pm
+**Team Process & Planning** – 70 points – due Monday, September 15th, 11:59pm
 
 - **Prerequisite:** [Team Setup](#team-setup)
 - [Teamwork Contract](#teamwork-contract-35-pts) (35 pts)
@@ -24,20 +24,27 @@ You can use this Slack channel for subsequent project-team related discussions o
 
 You will be working on your team repository for this project. Once you have decided on a team name, go to the link below to set up your team:
 
-[https://classroom.github.com/a/fBWN52gG](https://classroom.github.com/a/fBWN52gG)
+[https://classroom.github.com/a/DtVuqfZe](https://classroom.github.com/a/DtVuqfZe)
 
+ 
 !!! warning
     After you join a team on GitHub, you cannot change teams! Make sure that **only one** of you creates the team, and make sure that the remaining teammates join the right team.
+ 
 
 Once you enter your team name, Github will automatically create a repository for your team. You should then create a **Github Project board** for your repository (you can follow the steps from the [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) or the note below).
 
-!!! note "Setting up a Project Kanban Board and Creating Issues"
-    Project boards are a great way to track development. While there are lots of great external tools such as Trello or Jira, GitHub provides their own project boards for us to use with great integration support of their other features. To create a Project Kanban follow the steps below: 
+!!! tip
+    From previous semesters, this guide [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) gives more specifics on good issue writing, commit writing and PRs. TAs have created this more recent [guide](https://docs.google.com/document/d/1X490SwaJbtus0KPBsjKlnNZOxUs30upkSyIvWykXkrA/edit?tab=t.0#heading=h.yfcvmuhkukvu) for making good PRs and commits.
 
-    - Create a project board by clicking on the Projects tab, and then "New project" under the "Link a project" drop down button. Use the "Board" template.
-    - Under the Issues tab, have a teammate create an issue for adding team member names to the README
-    - Assign yourself to the issue, and add the issues to the project Kanban board you just created under the "Todo" column using the "Projects" option(two fields below "Assignees")
-    - Share the Kanban/Project board with your team or make it public so they have access to it.
+!!! note "Setting up a Project Kanban Board and Creating Issues"
+    Project boards are a great way to track development. While there are lots of great external tools such as Trello or Jira, GitHub provides their own project boards for us to use with great integration support of their other features. 
+    
+    To create a Project Kanban, follow the steps below (only one member has to do this): 
+
+    - Click on the Projects tab in your team repo, and then the "+ New project" button. This will create a new Project Kanban board directly linked to the team repo. Use the "Board" template.
+    - Share the Kanban/Project board with your team or make it public so they have access to it. (Even if they have access to the repo, they might not have access to the board initially. To manage acces, click on the three dots in the top right and click on "Settings" and then "Manage access.")
+    - Have a team member add an issue for adding team member names to the README into the "Todo" column using the "+ Add item" button at the bottom of the column. OR under the Issues tab of the team repo, have a teammate create an issue and then link the issue to the Project Kanban board using the "Projects" field (two fields below "Assignees") on the right-hand side. Specify the status as "Todo."
+    - Assign yourself to the issue.
 
 
 You should use this team repository for all your development, and be sure to use good development practices, including keeping your commits cohesive and your commit messages informative. The same resources mentioned above provide more details on our guidelines.
@@ -57,7 +64,7 @@ For each code-based deliverable, we will look at a snapshot of your repository a
 
 ### Teamwork Self-Assessment
 
-As the course moves into team-based projects, we will be releasing weekly self-assessments, each worth one participation point. These are meant to be short surveys and should not take more than a few minutes. They are intended to help you reflect on your team's process and prompt you to think about how to improve it. The first one will be released on **Friday, January 31th** and due the following **Friday, February 7th** (both at 11:59pm).
+As the course moves into team-based projects, we will be releasing weekly self-assessments, each worth one participation point. These are meant to be short surveys and should not take more than a few minutes. They are intended to help you reflect on your team's process and prompt you to think about how to improve it. The first one will be released on **Friday, September 12th** and due the following **Thursday, September 18th** (both at 11:59pm).
 
 
 ## Main Deliverables
@@ -113,7 +120,7 @@ Before your team jumps into development, you must first determine what features 
 
 During this meeting, discuss potential functional requirements of this project. Consider what possible use cases may be for this system and what features it should have to fulfill those needs. 
 
-Then, document these functional requirements in the form of user stories that follow the guidelines discussed in lecture. All of your user stories should be in the format of "As a [role], I want [function], so that [value]".
+Then, document these functional requirements in the form of user stories that follow the guidelines discussed in [lecture](assets/pdfs/05-Process.pdf). All of your user stories should be in the format of "As a [role], I want [function], so that [value]".
 
 **You should come up with at least two user stories per student in your group.**
 
@@ -125,7 +132,7 @@ As a team, you should then come up with a prioritization ranking for each user s
 - **Impact**: how essential is this user story to the overall functionality of the application to your stakeholders, how beneficial it would be to your stakeholders, and
 - **Effort**: how much time/effort is required to implement this user story
 
-Once you have your list of user stories, create a new GitHub Project board (click into Projects on your team repository). Then create two new columns to the left called **"User Stories"** and **"Backlog"**. At this point in time, you should have **"User Stories", "Backlog", "To-Do", "In Progress" and "Done"**, in that order from left to right. Feel free to add more columns if your teams decide that you need them during your development process
+Once you have your list of user stories, go to the Project board that was created during Team Setup. Then create two new columns to the left called **"User Stories"** and **"Backlog"**. At this point in time, you should have **"User Stories", "Backlog", "Todo", "In Progress" and "Done"**, in that order from left to right. Feel free to add more columns if your teams decide that you need them during your development process
 
 Add your user stories into the **"User Stories"** column using the **“+ Add item”** button at the bottom, create draft issues for each of your user stories.In the body of each of these draft issues, provide a brief but concrete justification of its prioritization ranking that your team decided on. You should order all the user stories in this column from highest to lowest priority.
 
@@ -155,7 +162,7 @@ The feature(s) you plan to implement should not be purely cosmetic or arbitrary.
 
 Convert the feature(s) you decide to implement into technical requirements (i.e. what needs to be developed for this feature to work). Then, break these requirements down into manageable, assignable issues and document them on your Project board by adding them to “Backlog” column. At minimum, these issues should make use of GitHub features like milestones/labels/descriptions to denote:
 
-- **Estimated effort** for each task
+- **Estimated effort/hours** for each task
 - **Dependencies** among tasks (if any)
 - Initial **assignments** for team members
 - **Milestones** to indicate which sprint the issue should be completed in (Sprint 1, Sprint 2, Stretch)
@@ -185,10 +192,10 @@ To receive full credit for the teamwork contract, we expect:
 
 - [ ] All sections listed above are addressed in a roughly 1-2 page PDF document submitted to Gradescope
 - [ ] Document demonstrates a clear process outline that was discussed between and agreed upon by the teammates
-- [ ] All group members’ signatures at the end of the document
+- [ ] All group members’ signatures and date at the end of the document
 
 To receive full credit for the project planning, we expect:
 
 - [ ] A GitHub project board linked to your team repository with:
     - [ ] A User Story column containing at least two user stories per group member that satisfy the guidelines outlined in the sections above and in lecture
-    - [ ] A Backlog column containing a series of GitHub issues describing the feature(s) that the team will tackle. Each issue makes use of GitHub features to denote all of the required information listed above
+    - [ ] A Backlog column containing a series of well written GitHub issues describing the feature(s) that the team will tackle. Each issue makes use of GitHub features to denote all of the required information listed above
