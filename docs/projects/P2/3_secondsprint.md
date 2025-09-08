@@ -40,7 +40,10 @@ Submit a link to your repository and your Github Project board onto Gradescope. 
 
 After coding is complete, reflect on your experience as a team. Again, we look for honest reflection, which will likely include reflection on failures. **We will not grade whether you predicted the effort correctly, but rather what you have learned**. 
 
-You will see the following groups of questions on Gradescope. We recommend that your team use collaborative text editing tools like Google Docs to draft your answers, then submit your final answers to Gradescope.
+You will see the following groups of questions on Gradescope. We recommend that your team use collaborative text editing tools like Google Docs to draft your answers, then submit your final answers to Gradescope.  
+
+!!! note "Document Development"
+    In order to create a history of the document development, we will be requiring that develop the document in the Google Drive folder that will be shared with your team by your TA.
 
 1. **Actual Schedule:** Document the actual schedule of your development process into either an organized list or table. You should include all of the tasks that each team member actually performed and the approximate amount of time each took. Your commit history and other documentation should help you with this.
 
