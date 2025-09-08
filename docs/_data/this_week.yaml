@@ -1,6 +1,12 @@
 lectures: []
 
-projects: []
+projects:
+- date: Fri Sep 5
+  deadline: Due Mon, Sept 15th @ 11:59pm
+  end_date: 2025-09-16 00:00:00
+  link: projects/P2
+  name: Project 2A - Team Contract & Project Planning
+  numDays: 7
 
 recitation:
   date: Mon Sep 8
