@@ -203,8 +203,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/05-Process.pdf"
+    name: "Process"
   reading:
     link: ""
     name: ""
@@ -239,8 +239,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/06-Teams-Communication.pdf"
+    name: "Teams and Communication"
   reading:
     link: ""
     name: ""
