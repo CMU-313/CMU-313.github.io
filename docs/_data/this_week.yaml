@@ -1,4 +1,10 @@
-lectures: []
+lectures:
+- date: Tue Sep 9
+  link: assets/pdfs/05-Process.pdf
+  name: Process
+- date: Thu Sep 11
+  link: assets/pdfs/06-Teams-Communication.pdf
+  name: Teams and Communication
 
 projects:
 - date: Fri Sep 5
