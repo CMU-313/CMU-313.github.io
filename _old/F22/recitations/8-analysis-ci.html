@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/just-the-docs-default.css">
+    <script type="text/javascript" src="../assets/js/vendor/lunr.min.js"></script>
+    <script type="text/javascript" src="../assets/js/just-the-docs.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recitation 8 - static analysis and continuous integration | 17-313</title>
+    <meta name="generator" content="Jekyll v3.9.2" />
+    <meta property="og:title" content="Recitation 8 - static analysis and continuous integration" />
+    <meta name="author" content="Michael Hilton and Rohan Padye" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="website for CMU 17-313" />
+    <meta property="og:description" content="website for CMU 17-313" />
+    <link rel="canonical" href="../recitations/8-analysis-ci.html" />
+    <meta property="og:url" content="../recitations/8-analysis-ci.html" />
+    <meta property="og:site_name" content="17-313" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Recitation 8 - static analysis and continuous integration" />
+    <script
+        type="application/ld+json"> {"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Michael Hilton and Rohan Padye"},"description":"website for CMU 17-313","headline":"Recitation 8 - static analysis and continuous integration","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"../assets/images/17313_square.png"},"name":"Michael Hilton and Rohan Padye"},"url":"../recitations/8-analysis-ci.html"}</script>
+
+<body> <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="svg-link" viewBox="0 0 24 24">
+            <title>Link</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-link">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+            </svg>
+        </symbol>
+        <symbol id="svg-search" viewBox="0 0 24 24">
+            <title>Search</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-search">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </symbol>
+        <symbol id="svg-menu" viewBox="0 0 24 24">
+            <title>Menu</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-menu">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </symbol>
+        <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+            <title>Expand</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </symbol>
+        <symbol id="svg-doc" viewBox="0 0 24 24">
+            <title>Document</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-file">
+                <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                <polyline points="13 2 13 9 20 9"></polyline>
+            </svg>
+        </symbol>
+    </svg>
+    <div class="side-bar">
+        <div class="site-header"> <a href="/" class="site-title lh-tight">
+                <div class="site-logo"></div>
+            </a> <a href="#" id="menu-button" class="site-button"> <svg viewBox="0 0 24 24" class="icon">
+                    <use xlink:href="#svg-menu"></use>
+                </svg> </a></div>
+        <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24">
+                            <use xlink:href="#svg-arrow-right"></use>
+                        </svg></a><a href="../assignments/" class="nav-list-link">Assignments</a>
+                    <ul class="nav-list ">
+                        <li class="nav-list-item "><a href="../assignments/hw1.html" class="nav-list-link">HW01 Hello
+                                Teedy</a>
+                        <li class="nav-list-item "><a href="../assignments/hw2.html" class="nav-list-link">HW02 Learning
+                                the Codebase</a>
+                        <li class="nav-list-item "><a href="../assignments/hw3.html" class="nav-list-link">HW03
+                                Teamwork</a>
+                        <li class="nav-list-item "><a href="../assignments/hw4.html" class="nav-list-link">HW04
+                                Microservices</a>
+                        <li class="nav-list-item "><a href="../assignments/hw5.html" class="nav-list-link">HW05 Quality
+                                Assurance</a>
+                        <li class="nav-list-item "><a href="../assignments/hw6.html" class="nav-list-link">HW06 Open
+                                Source Excursion</a>
+                    </ul>
+                <li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24">
+                            <use xlink:href="#svg-arrow-right"></use>
+                        </svg></a><a href="../recitations/" class="nav-list-link">Recitations</a>
+                    <ul class="nav-list ">
+                        <li class="nav-list-item "><a href="../recitations/2-angularjs.html"
+                                class="nav-list-link">Recitation 2 - Angular.js and MVC</a>
+                        <li class="nav-list-item "><a href="../recitations/3-archaeology.html"
+                                class="nav-list-link">Recitation 3 - Software Archaeology</a>
+                        <li class="nav-list-item "><a href="../recitations/4-team-dysfunction.html"
+                                class="nav-list-link">Recitation 4 - Team Dysfunction</a>
+                        <li class="nav-list-item "><a href="../recitations/6-midterm-review.html"
+                                class="nav-list-link">Recitation 6 - Midterm Review</a>
+                        <li class="nav-list-item "><a href="../recitations/7-ml.html" class="nav-list-link">Recitation 7
+                                - Machine Learning</a>
+                        <li class="nav-list-item active"><a href="../recitations/8-analysis-ci.html"
+                                class="nav-list-link active">Recitation 8 - static analysis and continuous
+                                integration</a>
+                        <li class="nav-list-item "><a href="../recitations/9-open-source.html"
+                                class="nav-list-link">Recitation 9 - Open Source Projects</a>
+                    </ul>
+                <li class="nav-list-item"><a href="../calendar/" class="nav-list-link">Calendar</a>
+                <li class="nav-list-item"><a href="../schedule/" class="nav-list-link">Schedule</a>
+                <li class="nav-list-item"><a href="../staff/" class="nav-list-link">Staff</a>
+                <li class="nav-list-item"><a href="../syllabus/" class="nav-list-link">Syllabus</a>
+            </ul>
+        </nav>
+        <footer class="site-footer"> This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the
+                Docs</a>, a documentation theme for Jekyll.</footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+            <div class="search">
+                <div class="search-input-wrap"> <input type="text" id="search-input" class="search-input" tabindex="0"
+                        placeholder="Search 17-313" aria-label="Search 17-313" autocomplete="off"> <label
+                        for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon">
+                            <use xlink:href="#svg-search"></use>
+                        </svg></label></div>
+                <div id="search-results" class="search-results"></div>
+            </div>
+        </div>
+        <div id="main-content-wrap" class="main-content-wrap">
+            <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+                <ol class="breadcrumb-nav-list">
+                    <li class="breadcrumb-nav-list-item"><a href="../recitations/">Recitations</a>
+                    <li class="breadcrumb-nav-list-item"><span>Recitation 8 - static analysis and continuous
+                            integration</span>
+                </ol>
+            </nav>
+            <div id="main-content" class="main-content" role="main">
+                <h1 id="17-313-foundations-of-software-engineering"> <a
+                        href="#17-313-foundations-of-software-engineering" class="anchor-heading"
+                        aria-labelledby="17-313-foundations-of-software-engineering"><svg viewBox="0 0 16 16"
+                            aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> 17-313: Foundations of Software Engineering</h1>
+                <h2 id="recitation-8-static-analysis-and-continuous-integration"> <a
+                        href="#recitation-8-static-analysis-and-continuous-integration" class="anchor-heading"
+                        aria-labelledby="recitation-8-static-analysis-and-continuous-integration"><svg
+                            viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Recitation 8: static analysis and continuous integration</h2>
+                <p>Static and dynamic analysis tools help you keep the codebase healthy. In this recitation, we will
+                    learn how to set up these tools in CI (GitHub Actions).</p>
+                <h3 id="step-1-setup-your-sample-python-repo"> <a href="#step-1-setup-your-sample-python-repo"
+                        class="anchor-heading" aria-labelledby="step-1-setup-your-sample-python-repo"><svg
+                            viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Step 1: Setup your sample Python repo</h3>
+                <p>First, go to <a href="https://github.com/CMU-313/fall-2022-recitation-8-analysis-ci">this template
+                        repo</a> and <a
+                        href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template">use
+                        it</a> to create your own repo. The repo is very similar to the HW4 repo, except that it comes
+                    with a failing test.</p>
+                <p>You already learned that it’s a big no-no to push directly to <code
+                        class="language-plaintext highlighter-rouge">main</code>. We can actually enforce this using <a
+                        href="https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule">branch
+                        protect rules</a>. Read the docs to understand what they are, and set the following rules:</p>
+                <ul>
+                    <li>Requires a pull request before merging to <code
+                            class="language-plaintext highlighter-rouge">main</code>
+                    <li>Requires tests to pass before merging to <code
+                            class="language-plaintext highlighter-rouge">main</code>:<ul>
+                            <li>Search for the job name in the required checks (i.e. <code
+                                    class="language-plaintext highlighter-rouge">test</code> in this case.) You may need
+                                to save the settings first before this search box appears.
+                        </ul>
+                </ul>
+                <p>Your setting should look like this:</p>
+                <p><img src="../assets/images/reci/branch-protection.png" alt="" /></p>
+                <p>The failing test cases ❌ wouldn’t have been there if I had these rules enabled in the first place.
+                    Now, let’s fix our failing test.</p>
+                <h3 id="step-2-fix-the-broken-ci"> <a href="#step-2-fix-the-broken-ci" class="anchor-heading"
+                        aria-labelledby="step-2-fix-the-broken-ci"><svg viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Step 2: Fix the broken CI</h3>
+                <p>The ❌ really shouldn’t have been there in the first place if I had these rules enabled. Now let’s fix
+                    it. Branch off from <code class="language-plaintext highlighter-rouge">main</code> and create a PR
+                    to fix the broken CI.</p>
+                <p>Take a look in the Actions page to see which test is failing. Branch off from <code
+                        class="language-plaintext highlighter-rouge">main</code> and create a PR to fix the broken CI.
+                    (the fix should be VERY simple!)</p>
+                <p>The <code class="language-plaintext highlighter-rouge">test</code> job should pass on your PR. Click
+                    “Squash and merge”* to merge after the status checks pass.</p>
+                <p>*: It’s just a lot cleaner than the default merge.</p>
+                <p><strong>HINT:</strong> If you are <em>really</em> stuck on how to fix, click <a
+                        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">here</a></p>
+                <h3 id="step-3-make-your-code-pretty"> <a href="#step-3-make-your-code-pretty" class="anchor-heading"
+                        aria-labelledby="step-3-make-your-code-pretty"><svg viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Step 3: Make your code pretty</h3>
+                <p>Different tab sizes driving you crazy? Let’s use a tool to standardize them all. A code formatter, a
+                    static analysis tool, helps one identify and fix formatting issues in the codebase. Let’s use <a
+                        href="https://github.com/psf/black">black</a> as an example.</p>
+                <p>First, create another branch for setting up a code formatter.</p>
+                <p>Then, run the following commands to install it locally and try running it:</p>
+                <ul>
+                    <li><code class="language-plaintext highlighter-rouge">pipenv install --dev black</code>: <code
+                            class="language-plaintext highlighter-rouge">black</code> is only a <em>development
+                            dependency</em>. Your package doesn’t actually use it.
+                    <li><code class="language-plaintext highlighter-rouge">pipenv run black . --check</code>:<ul>
+                            <li>Runs <code class="language-plaintext highlighter-rouge">black</code> in the current
+                                directory. <code class="language-plaintext highlighter-rouge">--check</code> dry-runs
+                                <code class="language-plaintext highlighter-rouge">black</code> and don’t alter any
+                                files.
+                            <li>Observe some files on the list.
+                        </ul>
+                    <li><code class="language-plaintext highlighter-rouge">pipenv run black .</code>:<ul>
+                            <li>This will actually change the files.
+                            <li>Run <code class="language-plaintext highlighter-rouge">git diff</code> to observe the
+                                file changes.
+                        </ul>
+                </ul>
+                <p>Using CI, we can enforce formatting requirements using the same GH Actions + status checks. For
+                    popular tools, someone has done it before, and you can reuse their workflow.</p>
+                <ul>
+                    <li>Go to <a href="https://github.com/marketplace/actions/run-black-formatter">this existing <code
+                                class="language-plaintext highlighter-rouge">black</code> Actions on GH Marketplace</a>
+                    <li>Click “Use lastest version” to see what needs to be added to <code
+                            class="language-plaintext highlighter-rouge">.github/workflows/main.yml</code>
+                    <li>Add another job called “format” to the <code
+                            class="language-plaintext highlighter-rouge">main.yml</code> file to use <code
+                            class="language-plaintext highlighter-rouge">black</code> to check the file formatting
+                    <li>Push your formatted files to the branch and observe <code
+                            class="language-plaintext highlighter-rouge">format</code> passes.
+                    <li>Squash and merge the PR
+                </ul>
+                <h3 id="step-4-add-test-coverage-to-the-ci-workflow"> <a
+                        href="#step-4-add-test-coverage-to-the-ci-workflow" class="anchor-heading"
+                        aria-labelledby="step-4-add-test-coverage-to-the-ci-workflow"><svg viewBox="0 0 16 16"
+                            aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Step 4: Add test coverage to the CI workflow</h3>
+                <p>Finally, you can also do some dynamic analysis. Since we are already using <code
+                        class="language-plaintext highlighter-rouge">pytest</code>, let’s use <a
+                        href="https://pytest-cov.readthedocs.io/en/latest/"><code
+                            class="language-plaintext highlighter-rouge">pytest-cov</code></a>, a plugin that reports
+                    test coverage.</p>
+                <p>First, install and try to use it locally:</p>
+                <ul>
+                    <li>Create another branch
+                    <li>Install <code class="language-plaintext highlighter-rouge">pytest-cov</code> locally: <code
+                            class="language-plaintext highlighter-rouge">pipenv install --dev pytest-cov</code>
+                    <li>Runs <code class="language-plaintext highlighter-rouge">pytest</code> with coverage report:
+                        <code class="language-plaintext highlighter-rouge">pipenv run pytest --cov=app</code>
+                </ul>
+                <p>Now, let’s add another job in the workflow for reporting coverage:</p>
+                <ul>
+                    <li>From the <code class="language-plaintext highlighter-rouge">test</code> workflow, copy the steps
+                        before <code class="language-plaintext highlighter-rouge">pytest</code>
+                    <li>Now, run <code class="language-plaintext highlighter-rouge">pipenv run pytest --cov=app</code>
+                        to report coverage
+                    <li>Push and observe the new check running
+                </ul>
+                <h3 id="bonus-report-coverage-in-prs"> <a href="#bonus-report-coverage-in-prs" class="anchor-heading"
+                        aria-labelledby="bonus-report-coverage-in-prs"><svg viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Bonus: report coverage in PRs</h3>
+                <p>The coverage job doesn’t really add much to the workflow now since it doesn’t fail. Without being too
+                    strict about coverage, we can at least display the coverage status in the PR.</p>
+                <p><a href="https://github.com/marketplace/actions/pytest-coverage-commentator">Somebody has already
+                        done it</a>, so we can use it in our repo too. <strong>Hint</strong>: you should only need the
+                    last two steps in the workflow.</p>
+                <p>Note that this action will only run on pull request-based workflows, so you will need to modify your
+                    triggers.</p>
+                <p>If set up, the job will automatically comment on PRs with the coverage info: <img
+                        src="../assets/images/reci/coverage-report.png" alt="" /></p>
+                <hr>
+                <footer>
+                    <p class="text-small text-grey-dk-100 mb-0">this website is based on
+                        https://github.com/kevinlin1/just-the-class</p>
+                </footer>
+            </div>
+        </div>
+        <div class="search-overlay"></div>
+    </div>
