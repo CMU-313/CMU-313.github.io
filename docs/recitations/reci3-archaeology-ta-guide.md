@@ -14,8 +14,8 @@ By the end of this recitation, students should be able to:
 ## Preparation (Before Recitation)
 ### Required Materials
 - [ ] Slides: [Software Archaeology Slides](https://docs.google.com/presentation/d/19ym2ZT1t6W4942ayiTozBwoFtsEOPANeRBH1UB7g9k4/edit?usp=sharing)
-- [ ] NodeBB fork repository: [NodeBB-F25-R3](https://github.com/CMU-313/NodeBB-S24-R3)
-- [ ] Issue link ready to share: [Feature request issue](https://github.com/CMU-313/NodeBB-S24-R3/issues/1)
+- [ ] NodeBB fork repository: [NodeBB-F25-R3](https://github.com/CMU-313/NodeBB-F25-R3)
+- [ ] Issue link ready to share: [Feature request issue](https://github.com/CMU-313/NodeBB-F25-R3/issues/1)
 
 ### Setup Check
 - [ ] Ensure all students have access to the repository
@@ -86,80 +86,6 @@ By the end of this recitation, students should be able to:
     - Mention optional advanced task
     - Preview next recitation
 
-## Common Student Challenges & Solutions
-
-### Technical Issues
-**Problem**: Students can't get NodeBB running locally
-- **Solution**: Check Node.js version compatibility, verify all dependencies installed
-- **Prevention**: Send setup instructions day before recitation
-
-**Problem**: Students unfamiliar with the technology stack
-- **Solution**: Emphasize they don't need to understand everything, focus on following data flow
-- **Reassurance**: "You're not expected to know all of this - that's why we're learning archaeology!"
-
-**Problem**: Search results are overwhelming
-- **Solution**: Show how to narrow searches, look for recent/relevant files first
-- **Tip**: Start with error messages - they're easier to trace
-
-### Conceptual Difficulties
-**Problem**: Students don't know where to start
-- **Solution**: Guide them to search for the exact error text first
-- **Follow-up**: Then work backwards to understand the flow
-
-**Problem**: Confusion about frontend vs backend
-- **Solution**: Quick explanation: Frontend = what user sees, Backend = server logic
-- **Rule of thumb**: If it's user-facing styling/interaction → frontend; if it's data/validation → backend
-
-**Problem**: Students want to over-engineer the solution
-- **Solution**: Remind them this is about learning the process, not creating perfect code
-- **Focus**: Getting something working is more valuable than optimization
-
-### Process Issues
-**Problem**: Students try to implement immediately without exploring
-- **Solution**: Emphasize the investigation phase is crucial
-- **Analogy**: "You wouldn't perform surgery without understanding anatomy first"
-
-**Problem**: Students get frustrated with not understanding everything
-- **Solution**: Normalize this feeling - professional developers experience this daily
-- **Reframe**: Focus on finding what they *need* to know, not everything
-
-## Assessment & Participation
-
-### What to Look For
-- **Active exploration**: Are students systematically investigating the codebase?
-- **Good questions**: Do they ask about code structure, data flow, or implementation approaches?
-- **Collaboration**: Are they helping each other or sharing discoveries?
-- **Problem-solving process**: Are they breaking down the task logically?
-
-### Red Flags
-- Students jumping straight to random code changes
-- Complete silence or disengagement
-- Obvious copy-pasting without understanding
-- Not following the repository setup instructions
-
-## Extension Activities (If Time Permits)
-
-### For Fast Finishers
-1. **Code Quality Discussion**: What makes this codebase easy or hard to navigate?
-2. **Architecture Analysis**: How is the user registration flow organized?
-3. **Testing Exploration**: Find and understand the existing tests
-
-### Advanced Challenges
-1. **Multiple Suggestions**: Instead of just adding a number, suggest multiple creative alternatives
-2. **Real Uniqueness Check**: Implement server-side checking for truly unique suggestions
-3. **UI Enhancement**: Improve the user experience of the suggestion display
-
-## Post-Recitation Follow-up
-
-### For Students
-- [ ] Complete the implementation and create PR
-- [ ] Fill out recitation quiz on Gradescope
-- [ ] Optional: Attempt the advanced uniqueness checking feature
-
-### For TAs
-- [ ] Review student PRs and provide feedback
-- [ ] Note common implementation patterns for next recitation discussion
-- [ ] Document any recurring issues for future recitation improvements
 
 ## Common Code Locations (Spoiler-Free Hints)
 
@@ -173,8 +99,8 @@ By the end of this recitation, students should be able to:
 ## Resources & Links
 - [Main Recitation Page](reci3-archaeology.md)
 - [Slides](https://docs.google.com/presentation/d/19ym2ZT1t6W4942ayiTozBwoFtsEOPANeRBH1UB7g9k4/edit?usp=sharing)
-- [GitHub Repository](https://github.com/CMU-313/NodeBB-S24-R3)
-- [Feature Request Issue](https://github.com/CMU-313/NodeBB-S24-R3/issues/1)
+- [GitHub Repository](https://github.com/CMU-313/NodeBB-F25-R3)
+- [Feature Request Issue](https://github.com/CMU-313/NodeBB-F25-R3/issues)
 - [Gradescope Quiz](https://www.gradescope.com/courses/1086939/assignments/6689436/)
 
 ---
