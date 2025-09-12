@@ -11,11 +11,11 @@ In today’s recitation, we will practice implementing a new feature for the Nod
 
 **Let's implement a new feature!**
 
-Check out [this issue](https://github.com/CMU-313/NodeBB-S24-R3/issues/1) of the feature request. The user wants NodeBB to suggest a new username if an existing username is taken. (Don't worry about searching through all the users currently registered to suggest a new name, just make it suggest the current name the user wanted but with a suffix attached to it. Querying the backend server again is harder and is part of the optional task.)
+Check out [this issue](https://github.com/CMU-313/NodeBB-F25-R3/issues/1) of the feature request. The user wants NodeBB to suggest a new username if an existing username is taken. (Don't worry about searching through all the users currently registered to suggest a new name, just make it suggest the current name the user wanted but with a suffix attached to it. Querying the backend server again is harder and is part of the optional task.)
 
 ## Task 0: Clone the repo
 
-- Fork [this repository](https://github.com/CMU-313/NodeBB-S24-R3) and clone it. Follow the README to install the necessary modules and run NodeBB.
+- Fork [this repository](https://github.com/CMU-313/NodeBB-F25-R3) and clone it. Follow the README to install the necessary modules and run NodeBB.
 
 ## Task 1: Reproduce the existing behaviour
 
