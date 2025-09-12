@@ -15,7 +15,7 @@ After this recitation, students will have met their teams and completed a rough 
 
 ## Activity 1: Get to know your team! 
 
-See team assignments [here](https://docs.google.com/spreadsheets/d/1AswCqf3dFQRJMhvB9W5unyA5nSzCM5xjwzKvuARooXo/edit?usp=sharing). Do some quick intros, then get ready for.. 
+See team assignments [here](https://docs.google.com/spreadsheets/d/1L0rpNQb-tJc3Z1g_994qSaDYScMwfifmOxlUpd7gnuc/edit?usp=sharing). Do some quick intros, then get ready for.. 
   
 ### **Activity 1A: Similarities!**
 

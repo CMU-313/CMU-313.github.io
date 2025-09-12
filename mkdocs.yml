@@ -71,11 +71,11 @@ nav:
           - Git Commands Reference: projects/P1/git-commands-reference.md
           - Resources and Documentation: projects/P1/documentation.md
           - FAQ: projects/P1/faq.md
-      # - "Project 2: Collaborative Development":
-      #     - projects/P2/index.md
-      #     - 2A Team Process & Planning: projects/P2/1_teamprocess.md
-      #     - 2B First Sprint: projects/P2/2_firstsprint.md
-      #     - 2C Second Sprint: projects/P2/3_secondsprint.md
+      - "Project 2: Collaborative Development":
+          - projects/P2/index.md
+          - 2A Team Process & Planning: projects/P2/1_teamprocess.md
+          - 2B First Sprint: projects/P2/2_firstsprint.md
+          - 2C Second Sprint: projects/P2/3_secondsprint.md
       # - "Project 3: Continuous Integration + Deployment":
       #     - projects/P3/index.md
       #     # - "Azure Deployment Instructions": projects/P3/deployment.md
@@ -89,7 +89,7 @@ nav:
   - Recitations:
       #- recitations/index.md # Dummy home page; remove once we start adding recitations below
       - Recitation 1 - Understand NodeBB: recitations/reci1-nodeBB.md
-      # - Recitation 2 - Team Contract Workshop: recitations/reci2-teamcontract.md
+      - Recitation 2 - Team Contract Workshop: recitations/reci2-teamcontract.md
       # - Recitation 3 - Software Archaeology: recitations/reci3-archaeology.md
       # - Recitation 4 - Checkpoint Presentations: recitations/reci4-checkpoint.md
       # - Recitation 5 - Team Dysfunction: recitations/reci5-team-dysfunction.md

@@ -113,7 +113,7 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
+    link: "assets/pdfs/03-737MAX.pdf"
     name: "Boeing Case Study"
   reading:
     link: "https://canvas.cmu.edu/courses/48397/quizzes/146241"
@@ -149,8 +149,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/04-metrics.pdf"
+    name: "Metrics and Measurement"
   reading:
     link: ""
     name: ""
@@ -162,10 +162,10 @@
 
 - date: Fri Sep 5
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Mon, Sept 15th @ 11:59pm"
+    link: "projects/P2"
+    name: "Project 2A - Team Contract & Project Planning"
+    numDays: 7
   lecture:
     link: ""
     name: ""
@@ -190,11 +190,11 @@
   reading:
     link: ""
     name: ""
-  recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+  recitation: 
+    handout: "recitations/reci2-teamcontract"
+    name: "Recitation 2 - Team Contract Workshop"
+    quiz: "https://www.gradescope.com/courses/1086939/assignments/6646974"
+    slides: "https://docs.google.com/presentation/d/1-NnmKEycNRRA6zbz4HHvRz24Zxqp8rhZ2iekMcEz7Vg/edit?usp=sharing"
 
 - date: Tue Sep 9
   homework:
@@ -203,8 +203,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/05-Process.pdf"
+    name: "Process"
   reading:
     link: ""
     name: ""
@@ -239,8 +239,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/06-Teams-Communication.pdf"
+    name: "Teams and Communication"
   reading:
     link: ""
     name: ""
@@ -288,10 +288,10 @@
 
 - date: Tue Sep 16
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Fri, Sept 26th @ 11:59pm"
+    link: "projects/P2"
+    name: "Project 2B - Presentation Slides & Process and Implementation"
+    numDays: 9
   lecture:
     link: ""
     name: ""
@@ -450,10 +450,10 @@
 
 - date: Mon Sep 29
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Fri, Oct 10th @ 11:59pm"
+    link: "projects/P2"
+    name: "Project 2C - Final"
+    numDays: 10
   lecture:
     link: ""
     name: ""
