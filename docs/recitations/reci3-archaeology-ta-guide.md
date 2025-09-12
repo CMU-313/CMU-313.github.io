@@ -96,6 +96,57 @@ By the end of this recitation, students should be able to:
 - Error message handling: Search for the specific error text
 - API endpoints: Look for routes that handle user creation
 
+## Locate the files to change
+
+Help students find the relevant files using these search strategies:
+
+### Step 1: Initial Search
+Run `grep -r "Username taken"` in the public folder. This returns all files containing the string "Username taken" and will list several JavaScript files.
+
+### Step 2: Follow the Breadcrumbs  
+The files from Step 1 don't contain the actual implementation code. Instead, they reference a placeholder string called "username-taken".
+
+### Step 3: Search for the Placeholder
+Run `grep -r "username-taken"` in the public folder. This returns many files, most of which are translation-related.
+
+### Step 4: Filter Out Translation Files
+Run `grep -r "username-taken" --exclude-dir=language` to exclude translation files. This should return a single target file: `src/client/register.js`, which needs to be modified.
+
+## Make a string template
+
+The goal is to change the error message from 'Account taken' to 'Account taken. Maybe try ${currentUsername}suffix'. This requires converting a static error message into a dynamic template.
+
+### Understanding Message Templates
+Guide students to examine existing templated error messages in `public/language/en-US/error.json`. Look for examples like:
+```
+'wrong-parameter-type': 'A value of type %3 was expected for property \%1`, but %2 was received instead'
+```
+
+This format shows how the project uses message templates with placeholder variables (`%1`, `%2`, `%3`).
+
+### Implementation Steps
+1. **Modify the error message**: In `public/language/en-US/error.json`, find line 34:
+   ```
+   "username-taken": "Username taken",
+   ```
+   
+2. **Add template placeholder**: Change it to:
+   ```
+   "username-taken": "Username taken. Maybe try %1",
+   ```
+
+3. **Update the error call**: In `src/client/register.js`, modify the showError call from:
+   ```
+   [[error:username-taken]]
+   ```
+   to:
+   ```
+   [[error:username-taken, "${username}suffix"]]
+   ```
+
+### How It Works
+The `%1` placeholder takes the value from the second argument passed to the showError function. When calling `showError(username_notify, [[error:username-taken, "${username}suffix"]])`, the `${currentUsername}suffix` gets passed as the second argument and replaces `%1` in the template.
+
 ## Resources & Links
 - [Main Recitation Page](reci3-archaeology.md)
 - [Slides](https://docs.google.com/presentation/d/19ym2ZT1t6W4942ayiTozBwoFtsEOPANeRBH1UB7g9k4/edit?usp=sharing)
