@@ -13,8 +13,8 @@ By the end of this recitation, students should be able to:
 
 ## Preparation (Before Recitation)
 ### Required Materials
-- [ ] Slides: [Software Archaeology Slides](https://docs.google.com/presentation/d/19ym2ZT1t6W4942ayiTozBwoFtsEOPANeRBH1UB7g9k4/edit?slide=id.g2d896fab132_0_194#slide=id.g2d896fab132_0_194)
-- [ ] NodeBB fork repository: [NodeBB-S24-R3](https://github.com/CMU-313/NodeBB-S24-R3)
+- [ ] Slides: [Software Archaeology Slides](https://docs.google.com/presentation/d/19ym2ZT1t6W4942ayiTozBwoFtsEOPANeRBH1UB7g9k4/edit?usp=sharing)
+- [ ] NodeBB fork repository: [NodeBB-F25-R3](https://github.com/CMU-313/NodeBB)
 - [ ] Issue link ready to share: [Feature request issue](https://github.com/CMU-313/NodeBB-S24-R3/issues/1)
 
 ### Setup Check
