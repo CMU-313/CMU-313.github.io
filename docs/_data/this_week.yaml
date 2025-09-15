@@ -1,10 +1,4 @@
-lectures:
-- date: Tue Sep 9
-  link: assets/pdfs/05-Process.pdf
-  name: Process
-- date: Thu Sep 11
-  link: assets/pdfs/06-Teams-Communication.pdf
-  name: Teams and Communication
+lectures: []
 
 projects:
 - date: Fri Sep 5
@@ -13,10 +7,16 @@ projects:
   link: projects/P2
   name: Project 2A - Team Contract & Project Planning
   numDays: 7
+- date: Tue Sep 16
+  deadline: Due Fri, Sept 26th @ 11:59pm
+  end_date: 2025-09-29 00:00:00
+  link: projects/P2
+  name: Project 2B - Presentation Slides & Process and Implementation
+  numDays: 9
 
 recitation:
-  date: Mon Sep 8
-  handout: recitations/reci2-teamcontract
-  name: Recitation 2 - Team Contract Workshop
-  quiz: https://www.gradescope.com/courses/1086939/assignments/6646974
-  slides: https://docs.google.com/presentation/d/1-NnmKEycNRRA6zbz4HHvRz24Zxqp8rhZ2iekMcEz7Vg/edit?usp=sharing
+  date: Mon Sep 15
+  handout: recitations/reci3-archaeology
+  name: Recitation 3 - Software Archaeology
+  quiz: https://www.gradescope.com/courses/1086939/assignments/6689436/
+  slides: https://docs.google.com/presentation/d/19ym2ZT1t6W4942ayiTozBwoFtsEOPANeRBH1UB7g9k4/edit?slide=id.g2d896fab132_0_194#slide=id.g2d896fab132_0_194
