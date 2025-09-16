@@ -293,8 +293,8 @@
     name: "Project 2B - Presentation Slides & Process and Implementation"
     numDays: 9
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/07-architecture-intro.pdf"
+    name: "Introduction to Software Architecture"
   reading:
     link: ""
     name: ""
