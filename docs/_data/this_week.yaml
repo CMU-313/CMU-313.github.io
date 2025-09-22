@@ -1,7 +1,4 @@
-lectures:
-- date: Tue Sep 16
-  link: assets/pdfs/07-architecture-intro.pdf
-  name: Introduction to Software Architecture
+lectures: []
 
 projects:
 - date: Tue Sep 16
@@ -12,8 +9,8 @@ projects:
   numDays: 9
 
 recitation:
-  date: Mon Sep 15
-  handout: recitations/reci3-archaeology
-  name: Recitation 3 - Software Archaeology
-  quiz: https://www.gradescope.com/courses/1086939/assignments/6689436/
-  slides: https://docs.google.com/presentation/d/19ym2ZT1t6W4942ayiTozBwoFtsEOPANeRBH1UB7g9k4/edit?slide=id.g2d896fab132_0_194#slide=id.g2d896fab132_0_194
+  date: Mon Sep 22
+  handout: recitations/reci4-checkpoint
+  name: Recitation 4 - Checkpoint Presentations
+  quiz: https://www.gradescope.com/courses/1086939/assignments/6743079
+  slides: https://docs.google.com/presentation/d/10WjnMVX3gXdcUsExmhBrrumL-WK8OZ_Ao3WN2-eJAxo/edit?slide=id.p#slide=id.p
