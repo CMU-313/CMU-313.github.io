@@ -325,8 +325,8 @@
 - date: Thu Sep 18
   homework:
     deadline: ""
-    link: ""
-    name: ""
+    link: "assets/pdfs/08-architecture-microservices.pdf"
+    name: "Architecture: Microservices"
     numDays: 0
   lecture:
     link: ""
