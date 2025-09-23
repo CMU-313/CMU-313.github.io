@@ -325,12 +325,12 @@
 - date: Thu Sep 18
   homework:
     deadline: ""
-    link: "assets/pdfs/08-architecture-microservices.pdf"
-    name: "Architecture: Microservices"
-    numDays: 0
-  lecture:
     link: ""
     name: ""
+    numDays: 0
+  lecture:
+    link: "assets/pdfs/08-architecture-microservices.pdf"
+    name: "Architecture - Microservices"
   reading:
     link: ""
     name: ""
