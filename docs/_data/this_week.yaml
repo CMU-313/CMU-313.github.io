@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Tue Sep 23
+  link: assets/pdfs/09-design-docs.pdf
+  name: 'Architecture: Design Docs'
 
 projects:
 - date: Tue Sep 16
