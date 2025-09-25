@@ -2,6 +2,9 @@ lectures:
 - date: Tue Sep 23
   link: assets/pdfs/09-design-docs.pdf
   name: 'Architecture: Design Docs'
+- date: Thu Sep 25
+  link: assets/pdfs/10-code-review-risk.pdf
+  name: Build Software Safely
 
 projects:
 - date: Tue Sep 16
