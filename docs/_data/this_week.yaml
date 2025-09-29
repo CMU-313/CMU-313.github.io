@@ -1,18 +1,12 @@
-lectures:
-- date: Tue Sep 23
-  link: assets/pdfs/09-design-docs.pdf
-  name: 'Architecture: Design Docs'
-- date: Thu Sep 25
-  link: assets/pdfs/10-code-review-risk.pdf
-  name: Build Software Safely
+lectures: []
 
 projects:
-- date: Tue Sep 16
-  deadline: Due Fri, Sept 26th @ 11:59pm
-  end_date: 2025-09-29 00:00:00
+- date: Mon Sep 29
+  deadline: Due Fri, Oct 10th @ 11:59pm
+  end_date: 2025-10-13 00:00:00
   link: projects/P2
-  name: Project 2B - Presentation Slides & Process and Implementation
-  numDays: 9
+  name: Project 2C - Final
+  numDays: 10
 
 recitation:
   date: Mon Sep 29
@@ -20,3 +14,4 @@ recitation:
   name: Recitation 5 - Team Dysfunction
   quiz: https://www.gradescope.com/courses/1086939/assignments/6857097
   slides: https://docs.google.com/presentation/d/1_czOeyWzztSjLHZjDF7bwNETP4PsKu_j1wczt9o0aOY/edit?usp=sharing
+
