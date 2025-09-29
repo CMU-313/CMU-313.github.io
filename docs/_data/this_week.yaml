@@ -10,8 +10,7 @@ projects:
 
 recitation:
   date: Mon Sep 29
-  handout: recitations/reci5-team-dysfunction
+  handout: /recitations/reci5-team-dysfunction
   name: Recitation 5 - Team Dysfunction
   quiz: https://www.gradescope.com/courses/1086939/assignments/6857097
   slides: https://docs.google.com/presentation/d/1_czOeyWzztSjLHZjDF7bwNETP4PsKu_j1wczt9o0aOY/edit?usp=sharing
-
