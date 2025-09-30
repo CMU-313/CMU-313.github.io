@@ -473,7 +473,7 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
+    link: "assets/pdfs/11-ai-activity.pdf"
     name: "Activity: Vibe Coding"
   reading:
     link: ""
