@@ -47,7 +47,7 @@ Once you have successfully deployed your website, make sure to test within your 
 By the checkpoint deadline you should
 
 - Submit a link to the deployed site onto Gradescope
-- Add your deployed site to this [public spreadsheet](https://docs.google.com/spreadsheets/d/1O9xocYpMOV73vb3-sFwH5cNDO6sec5WhuiGY37bFPAw/edit?usp=sharing), alongside your team name & UserGuide.md that your team submitted for Project 2. This will be used in [Feature Review](#feature-review-6-pts) for extra credit.
+- Add your deployed site to this [public spreadsheet](https://docs.google.com/spreadsheets/d/1quQQ7obbUTK7yyHKqHYQV7ol17pCbR8wiktxOi_idiU/edit?usp=sharing), alongside your team name & UserGuide.md that your team submitted for Project 2. This will be used in [Feature Review](#feature-review-6-pts) for extra credit.
 
 ### Tools Checkpoint (10 pts)
 
@@ -182,7 +182,7 @@ Note that this is an **individual** task, unlike the rest of project.
 
 ### Feature Review (6 pts)
 
-For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1O9xocYpMOV73vb3-sFwH5cNDO6sec5WhuiGY37bFPAw/edit?usp=sharing) to review, 1 from your own section, and 2 from other sections.
+For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1quQQ7obbUTK7yyHKqHYQV7ol17pCbR8wiktxOi_idiU/edit?usp=sharing) to review, 1 from your own section, and 2 from other sections.
 
 For each team, you will submit a review of their feature(s). You will need to test the feature(s) as described in their UserGuide and provide feedback on the following:
 
