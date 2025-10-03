@@ -509,8 +509,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/12-ai-followup.pdf"
+    name: "Vibe to Survive"
   reading:
     link: ""
     name: ""
