@@ -238,4 +238,4 @@ Some of the tools already have existing GitHub Actions workflows on GitHub Marke
 - [Jalangi](https://github.com/Samsung/jalangi2): Framework for dynamic analyses in JavaScript
 - [Fast-Fuzz](https://www.npmjs.com/package/fast-fuzz): Fuzzing framework for TypeScript
 - [Stryker Mutator](https://stryker-mutator.io/): Mutation testing tool for JavaScript
-- [k6](https://github.com/grafana/k6) : Open source tool for load testing
+- [k6](https://github.com/grafana/k6): Open source tool for load testing
