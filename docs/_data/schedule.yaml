@@ -719,11 +719,11 @@
     slides: ""
 
 - date: Mon Oct 20
-  homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+  homework: 
+    deadline: "Due Thu, Oct 23rd @ 11:59pm"
+    link: "projects/P3"
+    name: "Project 3A - Checkpoint Deliverables"
+    numDays: 4
   lecture:
     link: ""
     name: ""
@@ -792,10 +792,10 @@
 
 - date: Fri Oct 24
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Thu, Oct 30th @ 11:59pm"
+    link: "projects/P3"
+    name: "Project 3A - Final Deliverables"
+    numDays: 5
   lecture:
     link: ""
     name: ""

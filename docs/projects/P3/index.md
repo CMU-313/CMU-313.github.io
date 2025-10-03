@@ -19,17 +19,17 @@ Secondly, evaluating existing tools and practices beyond simple linting or unit 
 
 There are two (2) deadlines for this project. This project is worth a total of 100 points.
 
-**Checkpoint Deliverables** – 35 points – due Thursday, March 13th, 11:59pm
+**Checkpoint Deliverables** – 35 points – due Thursday, October 23rd, 11:59pm
 
 - [Deployed Application (25 pts)](#deployed-application-25-pts)
 - [Tools Checkpoint (10 pts)](#tools-checkpoint-10-pts)
 
-**Final Deliverables** – 65 points – due Thursday, March 20th, 11:59pm
+**Final Deliverables** – 65 points – due Thursday, October 30th, 11:59pm
 
 - [Tool Analysis Design Doc (50 pts)](#tool-analysis-design-doc-50-pts)
 - [Tool Integration (15 pts)](#tool-integration-15-pts)
 
-**Extra Credit (Individual)** - 6 points - due Thursday, March 27th, 11:59pm
+**Extra Credit (Individual)** - 6 points - due Thursday, November 6th, 11:59pm
 
 - [Feature Review (6 pts)](#feature-review-6-pts)
 
