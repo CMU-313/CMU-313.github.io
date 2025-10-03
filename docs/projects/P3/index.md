@@ -40,7 +40,7 @@ There are two main focuses in this project: deployment and static/dynamic analys
 
 ### Deployed Application (25 pts)
 
-Your team will be using Linux Virtual Machines (VMs) hosted at CMU for the deployment of the NodeBB application. Further instructions on how to deploy can be found [here](https://docs.google.com/document/d/17EWLdJUShw_R23FfH5HeYhH2rfqcgKbTvSpe3oeHLfQ/edit?tab=t.0#heading=h.1fm2pva37our).
+Your team will be using Linux Virtual Machines (VMs) hosted at CMU for the deployment of the NodeBB application. Further instructions on how to deploy can be found [here](https://docs.google.com/document/d/15ajYWPV2nxo0lAOAPfdAQCNS9tC9njNLT3B3dEWoyC0/edit?usp=sharing).
 
 Once you have successfully deployed your website, make sure to test within your team to ensure that your added feature(s) from Project 2 are properly integrated.
 
