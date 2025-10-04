@@ -53,7 +53,7 @@ By the checkpoint deadline you should
 
 Before jumping into tool integration, your manager would like you to research what existing analysis tools are out there that can be used with NodeBB. You will evaluate the tools, and eventually document your findings in a design document for your final deliverable.
 
-First, identify and experiment with **at least N-1 potential static and dynamic analysis tools** that are applicable to your system, where N is the number of people in your team. We provide a [starter list of tools](#starter-list-of-tools) in the resources section below to help you get started, but you are not limited to these tools.
+First, identify and experiment with **at least N potential static and dynamic analysis tools** that are applicable to your system, where N is the number of people in your team. We provide a [starter list of tools](#starter-list-of-tools) in the resources section below to help you get started, but you are not limited to these tools.
 
 In your selection of tools, you should
 
@@ -90,7 +90,7 @@ Don’t spend too long for this checkpoint. Set deadlines within your team to en
 
 By the checkpoint deadline, your team will submit
 
-- your **initial list of the N-1 tools** that your team plans on exploring, and
+- your **initial list of the N tools** that your team plans on exploring, and
 - links to the **PRs that demonstrate that you have successfully installed and run each of these tools**
 
 ## Final Deliverables
@@ -108,7 +108,7 @@ Below, we provide more detailed instructions and page limit recommendations for 
 
 #### Tool Evaluations (~N pages)
 
-For each of the N-1 tools explored by your team, you must provide:
+For each of the N tools explored by your team, you must provide:
 
 - Name and high-level description of what the tool does and a link to its documentation/source
 - Whether the tool is used for static or dynamic analysis
@@ -200,11 +200,11 @@ To qualify for extra credit, you will have to submit your review:
 To receive full credit for the checkpoint, we expect:
 
 - [ ] A link to your successfully deployed web application for your team repository
-- [ ] A list of N-1 different static and dynamic analysis tools, where N is the number of members on your team. This list must satisfy all the following criteria:
+- [ ] A list of N different static and dynamic analysis tools, where N is the number of members on your team. This list must satisfy all the following criteria:
   - Contain at least one static analysis tool
   - Contain at least one dynamic analysis tool
   - Contain at least one tool not on our starter list of tools
-- [ ] Links to N-1 pull requests for each of the selected tools containing evidence of the tool being run at least once on your repository
+- [ ] Links to N pull requests for each of the selected tools containing evidence of the tool being run at least once on your repository
 
 To receive full credit for the final deadline, we expect:
 
