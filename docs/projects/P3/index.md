@@ -19,17 +19,17 @@ Secondly, evaluating existing tools and practices beyond simple linting or unit 
 
 There are two (2) deadlines for this project. This project is worth a total of 100 points.
 
-**Checkpoint Deliverables** – 35 points – due Thursday, March 13th, 11:59pm
+**Checkpoint Deliverables** – 35 points – due Thursday, October 23rd, 11:59pm
 
 - [Deployed Application (25 pts)](#deployed-application-25-pts)
 - [Tools Checkpoint (10 pts)](#tools-checkpoint-10-pts)
 
-**Final Deliverables** – 65 points – due Thursday, March 20th, 11:59pm
+**Final Deliverables** – 65 points – due Thursday, October 30th, 11:59pm
 
 - [Tool Analysis Design Doc (50 pts)](#tool-analysis-design-doc-50-pts)
 - [Tool Integration (15 pts)](#tool-integration-15-pts)
 
-**Extra Credit (Individual)** - 6 points - due Thursday, March 27th, 11:59pm
+**Extra Credit (Individual)** - 6 points - due Thursday, November 6th, 11:59pm
 
 - [Feature Review (6 pts)](#feature-review-6-pts)
 
@@ -40,20 +40,20 @@ There are two main focuses in this project: deployment and static/dynamic analys
 
 ### Deployed Application (25 pts)
 
-Your team will be using Linux Virtual Machines (VMs) hosted at CMU for the deployment of the NodeBB application. Further instructions on how to deploy can be found [here](https://docs.google.com/document/d/17EWLdJUShw_R23FfH5HeYhH2rfqcgKbTvSpe3oeHLfQ/edit?tab=t.0#heading=h.1fm2pva37our).
+Your team will be using Linux Virtual Machines (VMs) hosted at CMU for the deployment of the NodeBB application. Further instructions on how to deploy can be found [here](https://docs.google.com/document/d/15ajYWPV2nxo0lAOAPfdAQCNS9tC9njNLT3B3dEWoyC0/edit?usp=sharing).
 
 Once you have successfully deployed your website, make sure to test within your team to ensure that your added feature(s) from Project 2 are properly integrated.
 
 By the checkpoint deadline you should
 
 - Submit a link to the deployed site onto Gradescope
-- Add your deployed site to this [public spreadsheet](https://docs.google.com/spreadsheets/d/1O9xocYpMOV73vb3-sFwH5cNDO6sec5WhuiGY37bFPAw/edit?usp=sharing), alongside your team name & UserGuide.md that your team submitted for Project 2. This will be used in [Feature Review](#feature-review-6-pts) for extra credit.
+- Add your deployed site to this [public spreadsheet](https://docs.google.com/spreadsheets/d/1quQQ7obbUTK7yyHKqHYQV7ol17pCbR8wiktxOi_idiU/edit?usp=sharing), alongside your team name & UserGuide.md that your team submitted for Project 2. This will be used in [Feature Review](#feature-review-6-pts) for extra credit.
 
 ### Tools Checkpoint (10 pts)
 
 Before jumping into tool integration, your manager would like you to research what existing analysis tools are out there that can be used with NodeBB. You will evaluate the tools, and eventually document your findings in a design document for your final deliverable.
 
-First, identify and experiment with **at least N-1 potential static and dynamic analysis tools** that are applicable to your system, where N is the number of people in your team. We provide a [starter list of tools](#starter-list-of-tools) in the resources section below to help you get started, but you are not limited to these tools.
+First, identify and experiment with **at least N potential static and dynamic analysis tools** that are applicable to your system, where N is the number of people in your team. We provide a [starter list of tools](#starter-list-of-tools) in the resources section below to help you get started, but you are not limited to these tools.
 
 In your selection of tools, you should
 
@@ -90,7 +90,7 @@ Don’t spend too long for this checkpoint. Set deadlines within your team to en
 
 By the checkpoint deadline, your team will submit
 
-- your **initial list of the N-1 tools** that your team plans on exploring, and
+- your **initial list of the N tools** that your team plans on exploring, and
 - links to the **PRs that demonstrate that you have successfully installed and run each of these tools**
 
 ## Final Deliverables
@@ -108,7 +108,7 @@ Below, we provide more detailed instructions and page limit recommendations for 
 
 #### Tool Evaluations (~N pages)
 
-For each of the N-1 tools explored by your team, you must provide:
+For each of the N tools explored by your team, you must provide:
 
 - Name and high-level description of what the tool does and a link to its documentation/source
 - Whether the tool is used for static or dynamic analysis
@@ -182,7 +182,7 @@ Note that this is an **individual** task, unlike the rest of project.
 
 ### Feature Review (6 pts)
 
-For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1O9xocYpMOV73vb3-sFwH5cNDO6sec5WhuiGY37bFPAw/edit?usp=sharing) to review, 1 from your own section, and 2 from other sections.
+For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1quQQ7obbUTK7yyHKqHYQV7ol17pCbR8wiktxOi_idiU/edit?usp=sharing) to review, 1 from your own section, and 2 from other sections.
 
 For each team, you will submit a review of their feature(s). You will need to test the feature(s) as described in their UserGuide and provide feedback on the following:
 
@@ -200,11 +200,11 @@ To qualify for extra credit, you will have to submit your review:
 To receive full credit for the checkpoint, we expect:
 
 - [ ] A link to your successfully deployed web application for your team repository
-- [ ] A list of N-1 different static and dynamic analysis tools, where N is the number of members on your team. This list must satisfy all the following criteria:
+- [ ] A list of N different static and dynamic analysis tools, where N is the number of members on your team. This list must satisfy all the following criteria:
   - Contain at least one static analysis tool
   - Contain at least one dynamic analysis tool
   - Contain at least one tool not on our starter list of tools
-- [ ] Links to N-1 pull requests for each of the selected tools containing evidence of the tool being run at least once on your repository
+- [ ] Links to N pull requests for each of the selected tools containing evidence of the tool being run at least once on your repository
 
 To receive full credit for the final deadline, we expect:
 
@@ -222,21 +222,20 @@ To receive full credit for the extra credit, we expect:
 
 NodeBB is built in Javascript/Typescript using Node.js and uses Benchpress for its frontend templating. Below are non-exhaustive lists of analysis tools that are available.
 
-For other resources, [Awesome Static Analysis page](https://github.com/david-a-wheeler/awesome-static-analysis) and [Awesome Dynamic Analysis page](https://github.com/analysis-tools-dev/dynamic-analysis) have extensive listings of available static and dynamic analysis tools for a pretty hefty list of programming languages.
+For other resources, [Software Testing Magazine - Open Source JavaScript Code Analysis](https://www.softwaretestingmagazine.com/tools/open-source-javascript-code-analysis/), [Awesome Static Analysis page](https://github.com/david-a-wheeler/awesome-static-analysis), and [Awesome Dynamic Analysis page](https://github.com/analysis-tools-dev/dynamic-analysis) have extensive listings of available static and dynamic analysis tools for a pretty hefty list of programming languages.
 
 Some of the tools already have existing GitHub Actions workflows on GitHub Marketplace; use your Googling skills, and see what you find!
 
 #### Static Tools
 
 - [flow](https://flow.org/): Static type checker for JavaScript
-- [JScent](https://github.com/moskirathe/JScent): Program analyzer for detecting “code smells”
-- [JSHint](https://jshint.com/docs/): Used to flag suspicious usage in JavaScript programs
+- [jshint](https://jshint.com/docs/): Used to flag suspicious usage in JavaScript programs
 - [StandardJS](https://standardjs.com/)/[ts-standard](https://github.com/standard/ts-standard): Static analysis tool for code quality within JavaScript/TypeScript projects
 - [Retire.js](https://retirejs.github.io/retire.js/): Finds library/node module vulnerabilities within your project
 
 #### Dynamic Tools
 
-- [Iroh](https://maierfelix.github.io/Iroh/): Runtime code tracking and visualization
 - [Jalangi](https://github.com/Samsung/jalangi2): Framework for dynamic analyses in JavaScript
 - [Fast-Fuzz](https://www.npmjs.com/package/fast-fuzz): Fuzzing framework for TypeScript
 - [Stryker Mutator](https://stryker-mutator.io/): Mutation testing tool for JavaScript
+- [k6](https://github.com/grafana/k6): Open source tool for load testing
