@@ -90,9 +90,9 @@ nav:
       #- recitations/index.md # Dummy home page; remove once we start adding recitations below
       - Recitation 1 - Understand NodeBB: recitations/reci1-nodeBB.md
       - Recitation 2 - Team Contract Workshop: recitations/reci2-teamcontract.md
-      # - Recitation 3 - Software Archaeology: recitations/reci3-archaeology.md
-      # - Recitation 4 - Checkpoint Presentations: recitations/reci4-checkpoint.md
-      # - Recitation 5 - Team Dysfunction: recitations/reci5-team-dysfunction.md
+      - Recitation 3 - Software Archaeology: recitations/reci3-archaeology.md
+      - Recitation 4 - Checkpoint Presentations: recitations/reci4-checkpoint.md
+      - Recitation 5 - Team Dysfunction: recitations/reci5-team-dysfunction.md
       # - Recitation 6 - Deployment: recitations/reci6-deployment.md
       # - Recitation 7 - On Prem Deployment: recitations/reci7-onprem-setup.md
       # - Recitation 8 - LLMs: recitations/reci8-llms.md
@@ -110,6 +110,12 @@ nav:
       # - Recitation 11 - Open Source Project and Task Selection Check In: recitations/reci11-p5-checkin.md
       # - Recitation 11 - Midterm Review: recitations/reci11-midterm-review.md
   - Hall of Fame: hall-of-fame.md
+  - Resources:
+      - Development Tools Guide: projects/P1/development-tools-guide.md
+      - Git Commands Reference: projects/P1/git-commands-reference.md
+      - Documentation: projects/P1/documentation.md
+      - GitHub Guide: projects/P1/github.md
+      - Extra Resources: extra_resources.md
   - Canvas: https://canvas.cmu.edu/courses/48397 #need to update Canvas Link
   - Gradescope: https://www.gradescope.com/courses/1086939 #need to update Gradescope link
   - Slack: https://join.slack.com/t/cmu-313-f25/shared_invite/zt-3b8qpmag7-a55JyrJ8XmWl69TZDAlcpw

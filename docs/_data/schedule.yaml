@@ -281,10 +281,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "recitations/reci3-archaeology"
+    name: "Recitation 3 - Software Archaeology"
+    quiz: "https://www.gradescope.com/courses/1086939/assignments/6689436/"
+    slides: "https://docs.google.com/presentation/d/19ym2ZT1t6W4942ayiTozBwoFtsEOPANeRBH1UB7g9k4/edit?slide=id.g2d896fab132_0_194#slide=id.g2d896fab132_0_194"
 
 - date: Tue Sep 16
   homework:
@@ -293,8 +293,8 @@
     name: "Project 2B - Presentation Slides & Process and Implementation"
     numDays: 9
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/07-architecture-intro.pdf"
+    name: "Introduction to Software Architecture"
   reading:
     link: ""
     name: ""
@@ -329,8 +329,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/08-architecture-microservices.pdf"
+    name: "Architecture - Microservices"
   reading:
     link: ""
     name: ""
@@ -371,10 +371,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "recitations/reci4-checkpoint"
+    name: "Recitation 4 - Checkpoint Presentations"
+    quiz: "https://www.gradescope.com/courses/1086939/assignments/6743079"
+    slides: "https://docs.google.com/presentation/d/10WjnMVX3gXdcUsExmhBrrumL-WK8OZ_Ao3WN2-eJAxo/edit?slide=id.p#slide=id.p"
 
 - date: Tue Sep 23
   homework:
@@ -383,8 +383,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/09-design-docs.pdf"
+    name: "Architecture: Design Docs"
   reading:
     link: ""
     name: ""
@@ -419,8 +419,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/10-code-review-risk.pdf"
+    name: "Build Software Safely"
   reading:
     link: ""
     name: ""
@@ -461,10 +461,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "/recitations/reci5-team-dysfunction"
+    name: "Recitation 5 - Team Dysfunction"
+    quiz: "https://www.gradescope.com/courses/1086939/assignments/6857097"
+    slides: "https://docs.google.com/presentation/d/1_czOeyWzztSjLHZjDF7bwNETP4PsKu_j1wczt9o0aOY/edit?usp=sharing"
 
 - date: Tue Sep 30
   homework:
@@ -473,8 +473,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/11-ai-activity.pdf"
+    name: "Activity: Vibe Coding"
   reading:
     link: ""
     name: ""
@@ -509,8 +509,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/12-ai-followup.pdf"
+    name: "Vibe to Survive"
   reading:
     link: ""
     name: ""
