@@ -1,10 +1,7 @@
 lectures:
-- date: Tue Sep 30
-  link: assets/pdfs/11-ai-activity.pdf
-  name: 'Activity: Vibe Coding'
-- date: Thu Oct 2
-  link: assets/pdfs/12-ai-followup.pdf
-  name: Vibe to Survive
+- date: Thu Oct 9
+  link: ''
+  name: Midterm 1
 
 projects:
 - date: Mon Sep 29
@@ -14,9 +11,4 @@ projects:
   name: Project 2C - Final
   numDays: 10
 
-recitation:
-  date: Mon Sep 29
-  handout: /recitations/reci5-team-dysfunction
-  name: Recitation 5 - Team Dysfunction
-  quiz: https://www.gradescope.com/courses/1086939/assignments/6857097
-  slides: https://docs.google.com/presentation/d/1_czOeyWzztSjLHZjDF7bwNETP4PsKu_j1wczt9o0aOY/edit?usp=sharing
+recitation: null
