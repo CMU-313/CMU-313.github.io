@@ -1,4 +1,7 @@
 lectures:
+- date: Tue Oct 7
+  link: assets/pdfs/13-deployment-exercise.pdf
+  name: Deployment Exercise
 - date: Thu Oct 9
   link: ''
   name: Midterm 1
