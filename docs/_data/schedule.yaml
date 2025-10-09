@@ -563,8 +563,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/13-deployment-exercise.pdf"
+    name: "Deployment Exercise"
   reading:
     link: ""
     name: ""
