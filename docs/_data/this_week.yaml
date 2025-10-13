@@ -1,25 +1,11 @@
 lectures:
-- date: Tue Oct 7
-  link: assets/pdfs/13-deployment-exercise.pdf
-  name: Deployment Exercise
-- date: Thu Oct 9
+- date: Tue Oct 14
   link: ''
-  name: Midterm 1
-  reading:
-    link: https://docs.google.com/presentation/d/111Vz1ZGVDSDhwKvP2W4Feoohu8BGN487tPqUVF_PZBk/edit?usp=sharing
-    name: Midterm 1 Review Slides
+  name: Fall Break - No Class
+- date: Thu Oct 16
+  link: ''
+  name: Fall Break - No Class
 
-projects:
-- date: Mon Sep 29
-  deadline: Due Fri, Oct 10th @ 11:59pm
-  end_date: 2025-10-13 00:00:00
-  link: projects/P2
-  name: Project 2C - Final
-  numDays: 10
+projects: []
 
-recitation:
-  date: Mon Oct 6
-  handout: /recitations/reci6-deployment
-  name: Recitation 6 - Deployment
-  quiz: https://www.gradescope.com/courses/1086939/assignments/6907182/
-  slides: https://docs.google.com/presentation/d/1hZHb2oRGethq9sWWYWV3oSnrBUV5p6nbuiUH-zNLh10/edit?usp=sharing
+recitation: null
