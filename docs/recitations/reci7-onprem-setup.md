@@ -11,6 +11,6 @@ Emails were sent out to each group with instructions on how to connect to their 
 Today, we will be walking through setting up your team's NodeBB instance on an On Premises Deployment (hosted at CMU). Since each group will be working to set up one instance, make sure to help one person on each team go through the setup step by step. Make sure to follow along through each line on the slides/document presented here:
 
 See Slides on Instructions (TBA)
-and see [Document on Instructions](https://docs.google.com/document/d/17EWLdJUShw_R23FfH5HeYhH2rfqcgKbTvSpe3oeHLfQ)
+and see [Document on Instructions](https://docs.google.com/document/d/15ajYWPV2nxo0lAOAPfdAQCNS9tC9njNLT3B3dEWoyC0)
 
-Make sure to [Submit on Gradescope](https://www.gradescope.com/courses/942846/assignments/5911747) after this recitation. There should be one hosted instance per group but each team member should make a submission onto Gradescope.
+Make sure to [Submit on Gradescope](https://www.gradescope.com/courses/1086939/assignments/6968272/submissions) after this recitation. There should be one hosted instance per group but each team member should make a submission onto Gradescope.
