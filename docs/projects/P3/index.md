@@ -19,12 +19,12 @@ Secondly, evaluating existing tools and practices beyond simple linting or unit 
 
 There are two (2) deadlines for this project. This project is worth a total of 100 points.
 
-**Checkpoint Deliverables** – 35 points – due Tuesday, October 28th, 11:59pm
+**Checkpoint Deliverables** – 35 points – due Tuesday, October 23rd, 11:59pm
 
 - [Deployed Application (25 pts)](#deployed-application-25-pts)
 - [Tools Checkpoint (10 pts)](#tools-checkpoint-10-pts)
 
-**Final Deliverables** – 65 points – due Tuesday, October 28th, 11:59pm
+**Final Deliverables** – 65 points – due Thursday, October 30th, 11:59pm
 
 - [Tool Analysis Design Doc (50 pts)](#tool-analysis-design-doc-50-pts)
 - [Tool Integration (15 pts)](#tool-integration-15-pts)
@@ -96,6 +96,10 @@ By the checkpoint deadline, your team will submit
 ## Final Deliverables
 
 ### Tool Analysis Design Doc (50 pts)
+
+!!! warning "Individual Grade Adjustments"
+This document is something that we expect the team to work on together.  However, we will be asking who worked on what part of the document, and in the case that a sub-section of the document is low quality AI slop, we will be only penalizing the author of that section, NOT the entire team.
+
 
 Create a Design Document/RFC that includes:
 
@@ -170,7 +174,8 @@ To be considered successfully integrated, the tool must:
 !!! note "Ensuring Passing Checks"
 In order to ensure your checks pass successfully, you may have to make additional changes to your repository, such as fixing reported issues or tweaking tool configuration.
 
-    These changes should be documented and addressed in your design document. Continually failing builds show you have *not* completely integrated the tool into your workflow.
+!!! warning
+These changes should be documented and addressed in your design document. Continually failing builds show you have *not* completely integrated the tool into your workflow.
 
 On Gradescope, submit a link to your repository and a link to one of the successful GitHub Action runs.
 
@@ -210,7 +215,7 @@ To receive full credit for the final deadline, we expect:
 
 - [ ] A link to your successfully run CD GitHub action that deploys the website while following proper GitHub practices in handling deployment secrets
 - [ ] A design document describing your research into each of the potential tools, justification for your selection of integrated tool(s), and your final integration plan
-- [ ] A link to a succuessful run of a GitHub Action that demonstrates your integration of your selected tool(s) into your team workflow
+- [ ] A link to a successful run of a GitHub Action that demonstrates your integration of your selected tool(s) into your team workflow
 
 To receive full credit for the extra credit, we expect:
 
