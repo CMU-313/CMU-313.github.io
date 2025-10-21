@@ -1,4 +1,10 @@
-lectures: []
+lectures:
+- date: Tue Oct 21
+  link: /assets/pdfs/15-static-analysis.pdf
+  name: Shifting Left with Static Analysis
+- date: Thu Oct 23
+  link: ''
+  name: Beyond Traditional Testing with Dynamic Analysis
 
 projects:
 - date: Mon Oct 20
