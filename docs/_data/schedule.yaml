@@ -743,8 +743,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "/assets/pdfs/15-static-analysis.pdf"
+    name: "Shifting Left with Static Analysis"
   reading:
     link: ""
     name: ""
@@ -780,7 +780,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Beyond Traditional Testing with Dynamic Analysis"
   reading:
     link: ""
     name: ""
