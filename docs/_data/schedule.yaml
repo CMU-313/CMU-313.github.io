@@ -779,8 +779,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: "Beyond Traditional Testing with Dynamic Analysis"
+    link: "/assets/pdfs/15-static-analysis.pdf"
+    name: "Code Quality"
   reading:
     link: ""
     name: ""
