@@ -779,7 +779,7 @@
     name: ""
     numDays: 0
   lecture:
-    link: "/assets/pdfs/15-static-analysis.pdf"
+    link: "/assets/pdfs/17-software-quality.pdf"
     name: "Code Quality"
   reading:
     link: ""
