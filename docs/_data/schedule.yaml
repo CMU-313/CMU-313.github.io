@@ -21,7 +21,7 @@
     deadline: "Due Fri, August 29th @ 11:59pm"
     link: "projects/P1"
     name: "Project 1A - Build Checkpoint"
-    numDays: 4
+    numDays: 3
   lecture:
     link: "assets/pdfs/01-introduction.pdf"
     name: "Introduction"
@@ -72,10 +72,10 @@
 
 - date: Fri Aug 29
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Thu, Sept 4th @ 11:59pm"
+    link: "projects/P1"
+    name: "Project 1B - Starter Task"
+    numDays: 4
   lecture:
     link: ""
     name: ""
@@ -90,10 +90,10 @@
 
 - date: Mon Sep 1
   homework:
-    deadline: "Due Thu, Sept 4th @ 11:59pm"
-    link: "projects/P1"
-    name: "Project 1B - Starter Task"
-    numDays: 4
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
   lecture:
     link: ""
     name: ""
@@ -882,10 +882,10 @@
 
 - date: Fri Oct 31
   homework:
-    deadline: ""
+    deadline: "Due Thurs, Nov 6th @ 11:59pm"
     link: ""
-    name: ""
-    numDays: 0
+    name: "Project P4 - Checkpoint 1"
+    numDays: 5
   lecture:
     link: ""
     name: ""
@@ -972,10 +972,10 @@
 
 - date: Fri Nov 7
   homework:
-    deadline: ""
+    deadline: "Due Tue, Nov 11th @ 11:59pm"
     link: ""
-    name: ""
-    numDays: 0
+    name: "Project P4 - Final Deliverables"
+    numDays: 3
   lecture:
     link: ""
     name: ""
@@ -1026,10 +1026,10 @@
 
 - date: Wed Nov 12
   homework:
-    deadline: ""
+    deadline: "Due Mon, Nov 17th @ Recitation"
     link: ""
-    name: ""
-    numDays: 0
+    name: "Project P5A - Project Selection"
+    numDays: 4
   lecture:
     link: ""
     name: ""
@@ -1098,10 +1098,10 @@
 
 - date: Tue Nov 18
   homework:
-    deadline: ""
+    deadline: "Due Fri, Nov 21th @ 11:59pm"
     link: ""
-    name: ""
-    numDays: 0
+    name: "Project P5A - Task Selection"
+    numDays: 4
   lecture:
     link: ""
     name: ""
@@ -1156,6 +1156,23 @@
     link: ""
     name: ""
     numDays: 0
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+- date: Sat Nov 22
+  homework:
+    deadline: "Due Fri, Dec 12th @ 9:00am"
+    link: ""
+    name: "Project P5B - Project Final Report & Presentations "
+    numDays: 10
   lecture:
     link: ""
     name: ""
@@ -1329,3 +1346,40 @@
     name: ""
     quiz: ""
     slides: ""
+
+- date: Fri Dec 12
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: "FINAL EXAM"
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
+- date: Sat Dec 13
+  homework:
+    deadline: "Due Sat, Dec 13th @ 11:59pm"
+    link: ""
+    name: "Project P5C - Individual Reflection"
+    numDays: 4
+  lecture:
+    link: ""
+    name: ""
+  reading:
+    link: ""
+    name: ""
+  recitation:
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
+
