@@ -1,4 +1,4 @@
-# Recitation 7: Microservices and Docker
+# Recitation 8: Microservices and Docker
 
 ## Prerequisites
 
@@ -6,7 +6,7 @@ You should have downloaded Docker. If you haven't follow the installation instru
 
 ## Setup Instructions (10 min):
 
-Fork [this repo](https://github.com/CMU-313/s23-docker-recitation) and clone it.
+Fork [this repo](https://github.com/CMU-313/f25-docker-recitation) and clone it.
 Also start the docker engine.
 
 ## Overview
