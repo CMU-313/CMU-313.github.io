@@ -1,4 +1,4 @@
-# Recitation 7: Microservices and Docker
+# Recitation 8: Microservices and Docker
 
 ## Prerequisites
 
@@ -6,7 +6,7 @@ You should have downloaded Docker. If you haven't follow the installation instru
 
 ## Setup Instructions (10 min):
 
-Fork [this repo](https://github.com/CMU-313/s23-docker-recitation) and clone it.
+Fork [this repo](https://github.com/CMU-313/f25-docker-recitation) and clone it.
 Also start the docker engine.
 
 ## Overview
@@ -55,14 +55,19 @@ The endpoint has to return a JSON object in the following form:
    docker build -t YOUR_IMAGE_NAME  .
    ```
 
-6. Implement `./docker-compose.yml`. You can use the slides for reference.
-7. Create a container using the docker image using the command below.
+6. Try running your image (it should work similarly to when you run the app locally.
+   ```terminal
+   docker run --rm -p 8080:8080 YOUR_IMAGE_NAME
+   ```
+
+7. Implement `./docker-compose.yml`. You can use the slides for reference.
+8. Create a container using the docker image using the command below.
 
    ```terminal
    docker-compose up -d
    ```
 
-8. Check that your container is running correctly by locally invoking the endpoint.
+9. Check that your container is running correctly by locally invoking the endpoint.
    You can try [http://localhost:8080/section_id/a](http://localhost:8080/section_id/a).
    Change the port number (8080) according to your `docker-compose.yml`.
 
