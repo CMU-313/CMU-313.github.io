@@ -821,10 +821,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
+    handout: "/recitations/reci8-docker.md"
+    name: "Recitation 8 - Docker"
     quiz: ""
-    slides: ""
+    slides: "https://docs.google.com/presentation/d/1u0c83cHJiNl8SRBC9OIeGeLZEo4UawSCErmAo50D3T4/edit?usp=sharing"
 
 - date: Tue Oct 28
   homework:
