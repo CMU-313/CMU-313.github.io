@@ -7,6 +7,9 @@ You should have downloaded Docker. If you haven't follow the installation instru
 ## Setup Instructions (10 min):
 
 Fork [this repo](https://github.com/CMU-313/f25-docker-recitation) and clone it.
+
+It is strongly suggested you re-open in a [development container](https://code.visualstudio.com/docs/devcontainers/tutorial). NOTE: for this code, you will want to install the default "python" container, not the "node" container.
+
 Also start the docker engine.
 
 ## Overview
