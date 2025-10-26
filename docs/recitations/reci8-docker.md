@@ -74,3 +74,6 @@ The endpoint has to return a JSON object in the following form:
 ## Bonus
 
 Try deploying your container by running it in codespaces
+
+## Submission: 
+Make sure to [Submit on Gradescope](https://www.gradescope.com/courses/1086939/assignments/7049021/submissions) after this recitation. Everyone should submit individually.
