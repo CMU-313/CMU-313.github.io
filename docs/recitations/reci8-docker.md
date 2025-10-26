@@ -68,7 +68,7 @@ The endpoint has to return a JSON object in the following form:
    ```
 
 9. Check that your container is running correctly by locally invoking the endpoint.
-   You can try [http://localhost:8080/section_id/a](http://localhost:8080/section_id/a).
+   You can try [http://localhost:8080/section_info/a](http://localhost:8080/section_id/a).
    Change the port number (8080) according to your `docker-compose.yml`.
 
 ## Bonus
