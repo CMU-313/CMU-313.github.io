@@ -17,7 +17,7 @@ During this recitation, students will create a simple FastAPI app, containerize 
 
 Sadly, you still are unsure when your recitation time is AND who your TAs are. There exist a microservice that tells you which TA's are responsible for each section.
 
-Try it out using this link: [https://whos-my-ta.fly.dev/section_id/a](https://whos-my-ta.fly.dev/section_id/a)
+Try it out using this link: [http://17313-teachers2.s3d.cmu.edu:8080/section_info/a](http://17313-teachers2.s3d.cmu.edu:8080/section_info/a)
 
 All you have to do is build a new service that builds on top of this microservice by including the time of the recitation as well.
 
@@ -73,4 +73,4 @@ The endpoint has to return a JSON object in the following form:
 
 ## Bonus
 
-Try deploying your container using instructions from [here](https://fly.io/docs/languages-and-frameworks/dockerfile/).
+Try deploying your container by running it in codespaces

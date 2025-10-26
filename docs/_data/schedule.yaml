@@ -821,7 +821,7 @@
     link: ""
     name: ""
   recitation:
-    handout: "/recitations/reci8-docker.md"
+    handout: "/recitations/reci8-docker"
     name: "Recitation 8 - Docker"
     quiz: ""
     slides: "https://docs.google.com/presentation/d/1u0c83cHJiNl8SRBC9OIeGeLZEo4UawSCErmAo50D3T4/edit?usp=sharing"
