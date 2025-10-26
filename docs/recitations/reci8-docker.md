@@ -45,7 +45,7 @@ The endpoint has to return a JSON object in the following form:
    pip install -r requirements.txt
    ```
 
-3. To run the app locally use the following command. Change the port number if you need to:
+3. To run the app locally use the following command:
 
    ```terminal
    uvicorn app.main:app --host 0.0.0.0 --port 8080
@@ -71,8 +71,8 @@ The endpoint has to return a JSON object in the following form:
    ```
 
 9. Check that your container is running correctly by locally invoking the endpoint.
-   You can try [http://localhost:8080/section_info/a](http://localhost:8080/section_id/a).
-   Change the port number (8080) according to your `docker-compose.yml`.
+   You can try [http://localhost:8080/section_info/a](http://localhost:8080/section_info/a).
+    You should receive a JSON response with the section name, start_time, end_time, and TA names.
 
 ## Bonus
 
