@@ -67,12 +67,17 @@ The endpoint has to return a JSON object in the following form:
 8. Create a container using the docker image using the command below.
 
    ```terminal
-   docker-compose up -d
+   docker compose up -d --build
    ```
+   if not in a container or
+   ```terminal
+   docker-compose up -d --build
+   ```
+   while in a Dev Container
 
-9. Check that your container is running correctly by locally invoking the endpoint.
+10. Check that your container is running correctly by locally invoking the endpoint.
    You can try [http://localhost:8080/section_info/a](http://localhost:8080/section_info/a).
-    You should receive a JSON response with the section name, start_time, end_time, and TA names.
+    You should receive a JSON response with the section name, and TA names. Your job is to implement the start time and end time for all the recitations.
 
 ## Bonus
 
