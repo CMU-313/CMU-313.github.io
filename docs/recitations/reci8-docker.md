@@ -1,4 +1,4 @@
-# Recitation 7: Microservices and Docker
+# Recitation 8: Microservices and Docker
 
 ## Prerequisites
 
@@ -6,7 +6,10 @@ You should have downloaded Docker. If you haven't follow the installation instru
 
 ## Setup Instructions (10 min):
 
-Fork [this repo](https://github.com/CMU-313/s23-docker-recitation) and clone it.
+Fork [this repo](https://github.com/CMU-313/f25-docker-recitation) and clone it.
+
+You should "reopen in continer" similar to NodeBB, but this container is setup for python.
+
 Also start the docker engine.
 
 ## Overview
@@ -17,7 +20,7 @@ During this recitation, students will create a simple FastAPI app, containerize 
 
 Sadly, you still are unsure when your recitation time is AND who your TAs are. There exist a microservice that tells you which TA's are responsible for each section.
 
-Try it out using this link: [https://whos-my-ta.fly.dev/section_id/a](https://whos-my-ta.fly.dev/section_id/a)
+Try it out using this link: [http://17313-teachers2.s3d.cmu.edu:8080/section_info/a](http://17313-teachers2.s3d.cmu.edu:8080/section_info/a)
 
 All you have to do is build a new service that builds on top of this microservice by including the time of the recitation as well.
 
@@ -42,7 +45,7 @@ The endpoint has to return a JSON object in the following form:
    pip install -r requirements.txt
    ```
 
-3. To run the app locally use the following command. Change the port number if you need to:
+3. To run the app locally use the following command:
 
    ```terminal
    uvicorn app.main:app --host 0.0.0.0 --port 8080
@@ -55,17 +58,30 @@ The endpoint has to return a JSON object in the following form:
    docker build -t YOUR_IMAGE_NAME  .
    ```
 
-6. Implement `./docker-compose.yml`. You can use the slides for reference.
-7. Create a container using the docker image using the command below.
-
+6. Try running your image (it should work similarly to when you run the app locally.
    ```terminal
-   docker-compose up -d
+   docker run --rm -p 8080:8080 YOUR_IMAGE_NAME
    ```
 
-8. Check that your container is running correctly by locally invoking the endpoint.
-   You can try [http://localhost:8080/section_id/a](http://localhost:8080/section_id/a).
-   Change the port number (8080) according to your `docker-compose.yml`.
+7. Implement `./docker-compose.yml`. You can use the slides for reference.
+8. Create a container using the docker image using the command below.
+
+   ```terminal
+   docker compose up -d --build
+   ```
+   if not in a container or
+   ```terminal
+   docker-compose up -d --build
+   ```
+   while in a Dev Container
+
+10. Check that your container is running correctly by locally invoking the endpoint.
+   You can try [http://localhost:8080/section_info/a](http://localhost:8080/section_info/a).
+    You should receive a JSON response with the section name, and TA names. Your job is to implement the start time and end time for all the recitations.
 
 ## Bonus
 
-Try deploying your container using instructions from [here](https://fly.io/docs/languages-and-frameworks/dockerfile/).
+Try deploying your container by running it in codespaces
+
+## Submission: 
+Make sure to [Submit on Gradescope](https://www.gradescope.com/courses/1086939/assignments/7049021/submissions) after this recitation. Everyone should submit individually.
