@@ -8,7 +8,7 @@ You should have downloaded Docker. If you haven't follow the installation instru
 
 Fork [this repo](https://github.com/CMU-313/f25-docker-recitation) and clone it.
 
-It is strongly suggested you re-open in a [development container](https://code.visualstudio.com/docs/devcontainers/tutorial). NOTE: for this code, you will want to install the default "python" container, not the "node" container.
+You should "reopen in continer" similar to NodeBB, but this container is setup for python.
 
 Also start the docker engine.
 
