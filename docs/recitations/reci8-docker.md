@@ -8,7 +8,7 @@ You should have downloaded Docker. If you haven't follow the installation instru
 
 Fork [this repo](https://github.com/CMU-313/f25-docker-recitation) and clone it.
 
-You should "reopen in continer" similar to NodeBB, but this container is setup for python.
+Open the folder in VSCode.  Then you should "reopen in continer" similar to NodeBB, but this container is setup for python.
 
 Also start the docker engine.
 
@@ -69,11 +69,6 @@ The endpoint has to return a JSON object in the following form:
    ```terminal
    docker compose up -d --build
    ```
-   if not in a container or
-   ```terminal
-   docker-compose up -d --build
-   ```
-   while in a Dev Container
 
 10. Check that your container is running correctly by locally invoking the endpoint.
    You can try [http://localhost:8080/section_info/a](http://localhost:8080/section_info/a).
