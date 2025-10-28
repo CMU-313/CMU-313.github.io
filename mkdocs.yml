@@ -79,8 +79,11 @@ nav:
       - "Project 3: Continuous Integration + Deployment":
           - projects/P3/index.md
           - "Linux VM Deployment Instructions": projects/P3/deployment.md
-      # - "Project 4: Architecting an LLM Integration":
-      #     - projects/P4/index.md
+      - "Project 4: Architecting an LLM Integration":
+          - projects/P4/index.md
+          - 4A Design and Test: projects/P4/1_checkpoint.md
+          - 4B Integrate an LLM: projects/P4/2_checkpoint.md
+          - Final Implementation and Evaluation: projects/P4/final_deliverable.md
       # - "Project 5: Open Source Excursion":
       #     - projects/P5/index.md
       #     - "5A Project and Task Selection": projects/P5/1_projectcheck.md
