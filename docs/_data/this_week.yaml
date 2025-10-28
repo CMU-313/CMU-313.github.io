@@ -7,6 +7,12 @@ projects:
   link: projects/P3
   name: Project 3B - Final Deliverables
   numDays: 5
+- date: Fri Oct 31
+  deadline: Due Thurs, Nov 6th @ 11:59pm
+  end_date: 2025-11-07 00:00:00
+  link: ''
+  name: Project P4 - Checkpoint 1
+  numDays: 5
 
 recitation:
   date: Mon Oct 27
