@@ -1,18 +1,6 @@
-lectures:
-- date: Tue Oct 21
-  link: /assets/pdfs/15-static-analysis.pdf
-  name: Shifting Left with Static Analysis
-- date: Thu Oct 23
-  link: /assets/pdfs/15-static-analysis.pdf
-  name: Code Quality
+lectures: []
 
 projects:
-- date: Mon Oct 20
-  deadline: Due Thu, Oct 23rd @ 11:59pm
-  end_date: 2025-10-24 00:00:00
-  link: projects/P3
-  name: Project 3A - Checkpoint Deliverables
-  numDays: 4
 - date: Fri Oct 24
   deadline: Due Thu, Oct 30th @ 11:59pm
   end_date: 2025-10-31 00:00:00
@@ -21,8 +9,8 @@ projects:
   numDays: 5
 
 recitation:
-  date: Mon Oct 20
-  handout: /recitations/reci7-onprem-setup
-  name: Recitation 7 - On Prem Deployment
-  quiz: https://www.gradescope.com/courses/1086939/assignments/6968272/
-  slides: ''
+  date: Mon Oct 27
+  handout: /recitations/reci8-docker
+  name: Recitation 8 - Docker
+  quiz: ''
+  slides: https://docs.google.com/presentation/d/1u0c83cHJiNl8SRBC9OIeGeLZEo4UawSCErmAo50D3T4/edit?usp=sharing
