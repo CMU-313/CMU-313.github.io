@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Tue Oct 28
+  link: /assets/pdfs/17-dynamic-analysis.pdf
+  name: Beyond Traditional Testing with Dynamic Analysis
 
 projects:
 - date: Fri Oct 24
