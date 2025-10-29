@@ -833,8 +833,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "/assets/pdfs/17-dynamic-analysis.pdf"
+    name: "Beyond Traditional Testing with Dynamic Analysis"
   reading:
     link: ""
     name: ""
