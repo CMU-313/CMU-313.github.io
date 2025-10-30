@@ -911,8 +911,8 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
+    handout: /recitations/reci9-pbt
+    name: "Recitation 9 - Property-Based Testing"
     quiz: ""
     slides: ""
 
