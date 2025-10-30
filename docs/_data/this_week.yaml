@@ -2,6 +2,9 @@ lectures:
 - date: Tue Oct 28
   link: /assets/pdfs/17-dynamic-analysis.pdf
   name: Beyond Traditional Testing with Dynamic Analysis
+- date: Thu Oct 30
+  link: /assets/pdfs/18-testing-examples-to-properties.pdf
+  name: 'Testing: From Examples to Properties'
 
 projects:
 - date: Fri Oct 24
