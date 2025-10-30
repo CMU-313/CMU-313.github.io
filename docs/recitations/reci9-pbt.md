@@ -147,8 +147,9 @@ For each bug you find:
 Since you already wrote example-based tests for PierogIO during lecture, you're familiar with the codebase. Follow these steps to make the most of your recitation time:
 
 1. **Set up your environment** (5 minutes): Clone your team's repository and run `npm test` to ensure everything works
-2. **Pick a module** (2 minutes): Have each pair in your team claim a different module to focus on (e.g., orders, delivery, inventory)
-3. **Write 2-3 properties** (35 minutes): Start with simple properties, then get more creative. Think about edge cases and invariants!
+2. **Pick a module** (2 minutes): Have each pair in your team claim a different module to focus on (e.g., delivery, tax, discounts, total)
+3. **Write 2-3 properties** (35 minutes): Start with simple properties, then get more creative.
+    Think about edge cases and invariants!
 4. **Hunt for bugs** (20 minutes): Run your tests, find failures, fix bugs in the source code
 5. **Share findings** (5 minutes): Gather as a team and share what bugs you found
 
@@ -163,9 +164,9 @@ Since you already wrote example-based tests for PierogIO during lecture, you're 
 Before leaving recitation, **each student** should submit individually to Gradescope:
 
 1. **A brief reflection** (3-5 sentences) answering:
-   - What bugs did your team find?
-   - What was the most interesting property you wrote?
-   - What was challenging about property-based testing?
+    * What bugs did your team find?
+    * What was the most interesting property you wrote?
+    * What was challenging about property-based testing?
 
 2. **Your team's repository URL**
 
