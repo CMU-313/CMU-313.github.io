@@ -29,7 +29,7 @@ As everything is just settling down, your CEO bursts back into the room!! There'
 <!-- FOR LATER POSSIBLY: Your boss will be extra happy and give you a salary raise (bonus points) if you are able to make a NodeLingo model for the company: a pre-trained LLM that you build and customize with a prompt specifically for translation (fewer points), or fine-tune the model (more points). This is discussed in more depth in checkpoint 1. -->
 
 ## Deliverables and Deadlines
-There are three (3) deadlines for the project. This project is worth a total of 125 points.
+There are two (2) deadlines for the project. This project is worth a total of 125 points.
 
 [**Checkpoint #1 (Design and Test)**](./1_checkpoint.md) – 65 pts - due Thursday, November 6, 11:59pm
 
