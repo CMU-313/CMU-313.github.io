@@ -26,21 +26,18 @@ In light of this new direction, your manager wants you to:
 
 As everything is just settling down, your CEO bursts back into the room!! There's a new catch: the company is strapped for funding and must be very careful with its spending. As a result, your team is now required to conduct all experimentation and implementation of the LLM-powered translation feature **using an LLM hosted on the company's servers**. There will be hardware overhead in this solution, but, in the long run, will be cheaper in this use case than having to pay an external LLM provider (ex. OpenAI) for every query.
 
-Your boss will be extra happy and give you a salary raise (bonus points) if you are able to make a NodeLingo model for the company: a pre-trained LLM that you build and customize with a prompt specifically for translation (fewer points), or fine-tune the model (more points). This is discussed in more depth in checkpoint 1.
+<!-- FOR LATER POSSIBLY: Your boss will be extra happy and give you a salary raise (bonus points) if you are able to make a NodeLingo model for the company: a pre-trained LLM that you build and customize with a prompt specifically for translation (fewer points), or fine-tune the model (more points). This is discussed in more depth in checkpoint 1. -->
 
 ## Deliverables and Deadlines
 There are three (3) deadlines for the project. This project is worth a total of 125 points.
 
-[**Checkpoint #1 (Design and Test)**](./1_checkpoint.md) – 55 pts - due Thursday, November 6, 11:59pm
+[**Checkpoint #1 (Design and Test)**](./1_checkpoint.md) – 65 pts - due Thursday, November 6, 11:59pm
 
 - [Architectural Design Document (40 pts)](./1_checkpoint.md#architectural-design-document-40-points)
-- [Basic LLM Experiment (15 pts)](./2_checkpoint.md#basic-llm-experiment-15-points)
+- [Basic LLM Experiment (15 pts)](./1_checkpoint.md#basic-llm-experiment-15-points)
+- [LLM Experiment Integration Checkpoint (10 pts)](./1_checkpoint.md#llm-experiment-integration-checkpoint-10-points)
 
-[**Checkpoint #2 (Integrate an LLM)**](./2_checkpoint.md) – 10 pts - due Thursday, November 6, 11:59pm
+[**Checkpoint #2 (Implementation and Evaluation)**](./2_checkpoint.md) - 60 pts - due Tuesday, November 11, 11:59pm
 
-- [LLM Experiment Integration Checkpoint (10 pts)](#llm-experiment-integration-checkpoint-10-points)
-
-[**Final Deliverables (Implementation and Evaluation)**](./final_deliverable.md) - 60 pts - due Tuesday, November 11, 11:59pm
-
-- [Final LLM Experiment Implementation (30 pts)](./final_deliverable.md#final-llm-experiment-implementation-30-points)
-- [Evaluation Report (30 pts)](./final_deliverable.md#evaluation-report-30-points)
+- [Final LLM Experiment Implementation (30 pts)](./2_checkpoint.md#final-llm-experiment-implementation-30-points)
+- [Evaluation Report (30 pts)](./2_checkpoint.md#evaluation-report-30-points)

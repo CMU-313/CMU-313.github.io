@@ -1,72 +1,87 @@
-# Project 4A: Design and Test
+# Project 4A: Design, Test, and Implement
 
-## Deliverables
+## Basic LLM Experiment (15 points)
 
+To explore the feasibility of LLMs for this task, your manager would like you to prototype the basic functionality of an LLM to translate text. Due to the company’s financial situation, your team will be deploying an open model of your choice running locally on the company's servers.
+
+Once you're all set up, open the Colab notebook using [this link](https://colab.research.google.com/drive/1k4qETwMN5SbIfhbHk6stkhOGhoBoi3ae?usp=sharing). Click on File --> Save as a copy in Drive to create your own copy that you will work on. Only one team member needs to do this, and the team should collaborate using this notebook. Click on Share and make sure the Colab notebook is **editable** by anyone in Carnegie Mellon University. Your permissions should look like this:
+![Edit Permissions](./permissions.png)
+
+Now, you should be ready to experiment with Ollama! Follow the instructions in the notebook through the end of the Basic LLM Experiment.
+
+Given the unpredictable nature of LLM responses, it is crucial to test whether your application can handle a range of outcomes. Your Colab notebook should also include tests for your code. We have provided some starter code for this.
+
+In this task, you are required to employ mocking techniques to test your code resilience against unexpected results from API calls to the LLM. Mocking is a method used in testing to replace real system components with mock objects that simulate the behavior of those components. This approach allows developers to emulate various scenarios, including errors or atypical responses from external services, without having to make actual API calls. Here you will be using mocking to mimic different unexpected outcomes to check if your code can handle such anomalies gracefully.
+
+For full credit, your submission should have at least four mock tests that deal with different unexpected model behaviors. At least one of these tests should involve the model returning unexpected text. All tests should relate to the `query_llm_robust` function.
+
+You should download and submit a .ipynb copy of your Colab notebook (with outputs) to Gradescope.
 
 ## Architectural Design Document (40 points)
 
-To start, your manager has requested a concrete design document outlining how you plan to integrate the new LLM-powered translation feature into the existing codebase. One of your manager's requirements is that this feature should work on a deployed site.
+Now that you've demonstrated the LLM translation feature working in isolation, your manager has requested a concrete design document outlining (a) how you plan to integrate the new LLM-powered translation feature into NodeBB's existing codebase, and (b) the best model and prompt to use. One of your manager's requirements is that this feature should work on a deployed site.
 
-If the team decides to go ahead with the feature, this design document will be followed in order to fully integrate this feature into NodeBB.
+If the team decides to go ahead with the feature, this design document will be followed in order to fully integrate this feature into NodeBB. 
 
-Two initial solutions to consider are:
+After that, we want to see information about how you plan to integrate this translation feature. We would like to see details here **specific to implementing this within the NodeBB architecture**. Draw on your previous experiences working in this project and the development tools you've learned how to use!
 
-1.  **Implementing a Python-based microservice** and deploying it as a separate service; then, integrating the service with your existing monolith via a REST API
-2.  **Refactoring part or all of the existing monolith** into a microservices-based architecture
+Once you have finished evaluating the codebase, create a design document highlighting your findings and decisions. Below is a sample outline for your design document; we expect this to be **around 1,000-1,500 words** (no more than 2,500 as a hard cap; your boss is a busy person, and appreciates conciseness). We have also provided a Google Docs template [here](https://docs.google.com/document/d/17UWAdL9agJsP2kqgCmFZ4ssZHCH5WnI1Z3xsR-p6qXo/copy?usp=sharing) for you to copy and fill in with the necessary information. Also important to note: we would like for *everybody* on the team to contribute to this document; there will be a section where we will ask for each teammate to fill out what they did on this document. Please additionally write this on a Google Docs; we will ask you to share the link via Gradescope. Make sure you specify that **everybody at CMU with the link has edit access**; if we have reason to suspect that anybody has not done what they claimed, we will check the edit history of the document.
 
-Your design document must discuss both of these approaches and **include a third approach of your choosing**. You must advocate for one of these three approaches as the best solution.
+This is what you should include in your design document:
 
-Once you have finished evaluating the codebase, create the design document highlighting your findings and decisions. Below is a sample outline for your design document along with recommended page lengths.
-
-1. **Feature Overview (<1 pages)**
+1. **Feature Overview:** 
     Describe concisely how the translation feature works and how it will be used by the relevant stakeholders, with screenshots if necessary.
 
-2. **Assessing LLM Suitability (<1 page)**
-    Use proprities of LLMs discussed in class to discuss why an LLM may be a good solution for translating posts on NodeBB.
+2. **Current Architecture:** 
+    Provide a brief description of the current NodeBB architecture. Include an **architectural diagram** (see note below) to support your description.
 
-3. **Current Architecture (<1 page)**
-    Provide a brief description of the current NodeBB architecture. Include an **architectural diagram** to support your description.
+3. **Implementation Plan:** 
+    Explain how you plan to integrate the LLM into the NodeBB architecture as specifically as you can. Include a diagram and explanation of your solution.
 
-4. **Quality Requirements (<1 page)**
-    Provide a concise, prioritized list of the overall quality requirements you considered in arguing for the integration of the feature into the system and a short justification for each. Your team should decide on **at least three** requirements to focus on.
+    We'll give you an example of a different project to show you the level of detail we're looking for: integrating this with the CMU directory to populate users with their corresponding photo based on their Andrew ID (let's assume this is their username in NodeBB). To integrate this as a microservice NodeBB interacts with, this could be done by rewriting the API request when a user is created (a POST request to `/user`; details about this request are in `public/openapi/write/users.yaml`). We reach out to the CMU directory microservice and query the username that is passed in; if we are able to find it, we update the user metadata (`data`) in the `create` function within `src/user/create.js`. This could also be done by listening for the event that is fired when creating an event (`action:user.create`), and adding these additional attributes after that point.
 
-    Rank your requirements in decreasing order of importance. This allows readers to quickly understand what you were designing for.
+    `Ctrl-Shift-F` is your friend here; if you're struggling, look back at [lecture 2](https://cmu-313.github.io/assets/pdfs/02-archaeology.pdf) to get some tips on how to work through NodeBB's codebase.
 
-5. **Potential Solutions (~1 page each)**
-    Your team should consider **three** different potential solutions for integrating the new feature. For each, provide at least one architectural diagram, a brief description of the solution's architectural design, and a discussion of the design's tradeoffs.
 
-    Tradeoffs must involve (but are not limited to) the quality attributes described in the previous section. Justify such arguments with reference to appropriate diagrams and concrete examples, as appropriate.
 
-6. **Selected Architecture + Justification (<1 page)**
-    Describe which design your team decided to proceed with in architecturally integrating the feature into existing codebase. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design (if any).
+    **Quality Requirements:** 
+        Additionally provide a concise, prioritized list of the overall quality requirements you considered in arguing for the integration of the feature into the system and a short justification for each. Your team should decide on **at least three** requirements to focus on.
+        Rank your requirements in decreasing order of importance. This allows readers to quickly understand what you were designing for.
+
+4. **LLM Integration Plan:** 
+    This section of the document discusses the specifics of the LLM you will implement.
+
+    1. **Potential Solutions**
+
+        Your team should consider **&lt;number of people in your team&gt;** different models to use in the new feature. Test the pros and cons of each of these models using your Colab notebook, on top of cross-referencing with resources online (such as benchmarks) to find what would be the best possible model for your use case. You may also test out different prompts as well. **Each teammate** should run the Colab notebook on a different model and record their results in this design doc.
+        
+        For each model, provide a brief description of the model's design (how many parameters, its features, licensing, etc.), your results when testing the model, and a discussion of the design's tradeoffs.
+
+    2. **Selected Model + Justification**
+
+        Describe which model and prompt your team decided to proceed with using in your LLM. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design (if any).
+
+5. **Authors:** 
+    At the top of the document, each teammate should specify what part of the design document they contributed to.
 
 !!! note
     Diagrams should **involve suitable architectural views**; **must include a legend**; and **should involve appropriate levels of abstraction** for the components in the diagram. If necessary, use color/shape/text to differentiate between types of components and connectors. You may find it appropriate to merge more than one view into a single diagram. If you do this, **you must be explicit about what views you are merging**, and why. Otherwise, diagrams should clearly represent legitimate architectural views. Make sure that multiple views of the architecture are consistent with each other and the links are clear; if necessary provide a mapping in additional text.
 
 !!! tip
-    Drawing diagrams is much easier with the right software. Consider tools like [draw.io](https://draw.io/) (free, online, and collaborative), [Dia](http://dia-installer.de/), [OmniGraffle](https://www.omnigroup.com/omnigraffle), [MS Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software), or even just the drawing editor of [Google Docs](https://docs.google.com/). [Google Slides](https://slides.google.com/) will also likely work for this purpose. Pictures of whiteboard drawings are also acceptable, if clearly readable.
+    Drawing diagrams is much easier with the right software. Consider tools like [draw.io](https://draw.io/) (free, online, and collaborative), [Dia](http://dia-installer.de/), [Excalidraw](https://excalidraw.com/), [OmniGraffle](https://www.omnigroup.com/omnigraffle), [MS Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software), or even just the drawing editor of [Google Docs](https://docs.google.com/). [Google Slides](https://slides.google.com/) will also likely work for this purpose. Pictures of whiteboard drawings are also acceptable, if clearly readable.
 
 More resources to assist you with creating your design document can be found in the [Resources & Documentation](#resource-documentation) section below.
 
 !!! warning On Generative AI
     In the past, students have utilized generative AI tools to generate diagrams with mixed success. While some diagrams have been useful and accurate, others have fallen short due to inaccuracies or oversimplifications not aligned with specific project requirements. Be cautious and review them carefully for accuracy and relevance. If we suspect you've abused generative AI and your diagrams are **inadequate**, we won't consider regrade requests. You’ve been warned.
 
-By the checkpoint deadline, your team will submit your design document to Gradescope as a PDF.
+By the checkpoint deadline, your team will submit your design document to Gradescope as a Google Docs link.
 
-## Basic LLM Experiment (15 points)
+## LLM Experiment Integration Checkpoint (10 points)
 
-To explore the feasibility of LLMs for this task, your manager would like you to prototype the basic functionality of an LLM to translate text. Due to the company’s existing deal with Microsoft, your team will use the gpt-4o-mini language model from OpenAI's Platform.
+For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track. We have provided some initial code on [this repo](https://github.com/CMU-313/translator-service/tree/f24).
 
-Once you're all set up, open the Colab notebook using [this link](https://colab.research.google.com/drive/1ubDjMa-YhKq2kuHaiy_JfotWam_VlmSm?usp=sharing). Click on File --> Save as a copy in Drive to create your own copy that you will work on. Only one team member needs to do this, and the team should collaborate using this notebook. Click on Share and make sure the Colab notebook is **editable** by anyone in Carnegie Mellon University.
-
-Now, you should be ready to experiment with gpt-4o-mini! Follow the instructions in the notebook through the end of the Basic LLM Experiment.
-
-Given the unpredictable nature of LLM responses, it is crucial to test whether your application can handle a range of outcomes. Your Colab notebook should also include tests for your code. We have provided a starter code.
-In this task, you are required to employ mocking techniques to test your code resilience against unexpected results from API calls to the LLM. Mocking is a method used in testing to replace real system components with mock objects that simulate the behavior of those components. This approach allows developers to emulate various scenarios, including errors or atypical responses from external services, without having to make actual API calls. Here you will be using mocking to mimic different unexpected outcomes to check if your code can handle such anomalies gracefully.
-
-For full credit, your submission should have at least four mock tests that deal with different unexpected model behaviors. At least one of these tests should involve the model returning unexpected text. All tests should relate to the `query_llm_robust` function.
-
-You should download and submit a .ipynb copy of your Colab notebook (with outputs) to Gradescope.
+Furthermore, your server-side code must include unit and mock tests. To accomplish this, you must move the tests you wrote in the previous checkpoint to the repo and integrate them into the CI pipeline.
 
 ## Resource & Documentation
 
@@ -75,12 +90,10 @@ The design document task is easy to underestimate both in terms of time needed a
 
 Feel free to seek feedback from the course staff on your solution before submission!
 
-We recommend that you appoint someone in your team to track the accuracy and completeness of architectural representations throughout this assignment. **Do not** just divide up the views among your team members and assume they show everything needed. You only need to submit the final designs/documents, not intermediate steps on the process of getting there.
-
 There are a few additional reference materials available in the CMU library that your team may want to consult. We do not recommend reading through all of it; instead, skip around to sections that are relevant to you.
 
-- [Software Architecture in Practice, Third Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30264): You may wish to review appropriate sections within Part Two to help find appropriate tactics, techniques you can use in your design to promote particular quality attributes.
-- [Documenting Software Architectures: Views and Beyond, Second Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30386): useful book to generally reference for creating architecture documentation.
+- [Software Architecture in Practice, Third Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30264): You may wish to review appropriate sections within Part Two to help find appropriate tactics and techniques you can use in your design to promote particular quality attributes.
+- [Documenting Software Architectures: Views and Beyond, Second Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30386): Useful book to generally reference for creating architecture documentation.
 
 ### LLMs
 
