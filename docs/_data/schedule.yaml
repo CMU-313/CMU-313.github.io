@@ -869,8 +869,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "/assets/pdfs/18-testing-examples-to-properties.pdf"
+    name: "Testing: From Examples to Properties"
   reading:
     link: ""
     name: ""
