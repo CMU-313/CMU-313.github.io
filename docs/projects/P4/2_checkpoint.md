@@ -18,4 +18,4 @@ The reflection will be a series of questions answered on gradescope.
 To receive full credit for the final deadline, we expect:
 
 - [ ] A functional translation feature, as described in your design document, integrated into your NodeBB application.
-- [ ] An uploaded PDF report discussing your evaluation findings addressing all the sections outlined above
+- [ ] Answering questions on gradescope reflecting on your learning and teamwork experiences during P4.

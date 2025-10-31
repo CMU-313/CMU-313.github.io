@@ -29,13 +29,13 @@ In light of this new direction, your manager wants you to:
 ## Deliverables and Deadlines
 There are two (2) deadlines for the project. This project is worth a total of 125 points.
 
-[**Checkpoint #1 (Design and Test)**](./1_checkpoint.md) – 65 pts - due Thursday, November 6, 11:59pm
+[**Checkpoint #1 Deliverables (Design and Test)**](./1_checkpoint.md) – 65 pts - due Thursday, November 6, 11:59pm
 
 - [Architectural Design Document (40 pts)](./1_checkpoint.md#architectural-design-document-40-points)
 - [Basic LLM Experiment (15 pts)](./1_checkpoint.md#basic-llm-experiment-15-points)
 - [LLM Experiment Integration Checkpoint (10 pts)](./1_checkpoint.md#llm-experiment-integration-checkpoint-10-points)
 
-[**Checkpoint #2 (Implementation and Evaluation)**](./2_checkpoint.md) - 60 pts - due Tuesday, November 11, 11:59pm
+[**Final Deliverables (Implementation and Evaluation)**](./2_checkpoint.md) - 60 pts - due Tuesday, November 11, 11:59pm
 
 - [Final LLM Experiment Implementation (30 pts)](./2_checkpoint.md#final-llm-experiment-implementation-30-points)
 - [Individual Reflection (30 pts)](./2_checkpoint.md#evaluation-report-30-points)
