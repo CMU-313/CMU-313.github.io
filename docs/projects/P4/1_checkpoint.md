@@ -29,42 +29,27 @@ Once you have finished evaluating the codebase, create a design document highlig
 
 This is what you should include in your design document:
 
- **Authors:** 
-    At the top of the document, each teammate should specify what part of the design document they contributed to.
-
-**Problem:**
-    You should describe what the problem you are trying to solve with this feature.  NOTE: this problem definition should be used to help define what the Definition of Success is.
-
-**Feature Overview:** 
-    Describe concisely how the translation feature works and how it will be used by the relevant stakeholders, with screenshots if necessary.
-
- **Implementation Plan:** 
-    Explain how you plan to integrate the LLM into the NodeBB architecture as specifically as you can. Include a diagram and explanation of your solution.
-
-    We'll give you an example of a different project to show you the level of detail we're looking for: integrating this with the CMU directory to populate users with their corresponding photo based on their Andrew ID (let's assume this is their username in NodeBB). To integrate this as a microservice NodeBB interacts with, this could be done by rewriting the API request when a user is created (a POST request to `/user`; details about this request are in `public/openapi/write/users.yaml`). We reach out to the CMU directory microservice and query the username that is passed in; if we are able to find it, we update the user metadata (`data`) in the `create` function within `src/user/create.js`. This could also be done by listening for the event that is fired when creating an event (`action:user.create`), and adding these additional attributes after that point.
-
-    `Ctrl-Shift-F` is your friend here; if you're struggling, look back at [lecture 2](https://cmu-313.github.io/assets/pdfs/02-archaeology.pdf) to get some tips on how to work through NodeBB's codebase.
-
-
-
-**Quality Requirements:** 
-        Additionally provide a concise, prioritized list of the overall quality requirements you considered in arguing for the integration of the feature into the system and a short justification for each. Your team should decide on **at least three** requirements to focus on.
-        Rank your requirements in decreasing order of importance. This allows readers to quickly understand what you were designing for.
-
- **LLM Integration Plan:** 
+1. **Authors:**
+  At the top of the document, each teammate should specify what part of the design document they contributed to.
+2. **Problem:**
+  You should describe what the problem you are trying to solve with this feature.  NOTE: this problem definition should be used to help define what the Definition of Success is.
+3. **Feature Overview:** 
+  Describe concisely how the translation feature works and how it will be used by the relevant stakeholders, with screenshots if necessary.
+4. **Implementation Plan:** 
+  Explain how you plan to integrate the LLM into the NodeBB architecture as specifically as you can. Include a diagram and explanation of your solution.<BR>
+  We'll give you an example of a different project to show you the level of detail we're looking for: integrating this with the CMU directory to populate users with their corresponding photo based on their Andrew ID (let's assume this is their username in NodeBB). To integrate this as a microservice NodeBB interacts with, this could be done by rewriting the API request when a user is created (a POST request to `/user`; details about this request are in `public/openapi/write/users.yaml`). We reach out to the CMU directory microservice and query the username that is passed in; if we are able to find it, we update the user metadata (`data`) in the `create` function within `src/user/create.js`. This could also be done by listening for the event that is fired when creating an event (`action:user.create`), and adding these additional attributes after that point.<BR>
+  `Ctrl-Shift-F` is your friend here; if you're struggling, look back at [lecture 2](https://cmu-313.github.io/assets/pdfs/02-archaeology.pdf) to get some tips on how to work through NodeBB's codebase.
+5. **Quality Requirements:** 
+    Additionally provide a concise, prioritized list of the overall quality requirements you considered in arguing for the integration of the feature into the system and a short justification for each. Your team should decide on **at least three** requirements to focus on.<BR>
+    Rank your requirements in decreasing order of importance. This allows readers to quickly understand what you were designing for.
+6. **LLM Integration Plan:** 
     This section of the document discusses the specifics of the LLM you will implement.
-
-    **Potential Solutions**
-
-        Your team should consider **&lt;number of people in your team&gt;** different models to use in the new feature. Test the pros and cons of each of these models using your Colab notebook, on top of cross-referencing with resources online (such as benchmarks) to find what would be the best possible model for your use case. You may also test out different prompts as well. **Each teammate** should run the Colab notebook on a different model and record their results in this design doc.
-        
-        For each model, provide a brief description of the model's design (how many parameters, its features, licensing, etc.), your results when testing the model, and a discussion of the design's tradeoffs.
-
-    **Selected Model + Justification**
-
-        Describe which model and prompt your team decided to proceed with using in your LLM. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design (if any).
-
-**Definition of Success:** 
+    1. **Potential Solutions**
+    Your team should consider **<number of people in your team>** different models to use in the new feature. Test the pros and cons of each of these models using your Colab notebook, on top of cross-referencing with resources online (such as benchmarks) to find what would be the best possible model for your use case. You may also test out different prompts as well. **Each teammate** should run the Colab notebook on a different model and record their results in this design doc.<BR>
+    For each model, provide a brief description of the model's design (how many parameters, its features, licensing, etc.), your results when testing the model, and a discussion of the design's tradeoffs.
+    2. **Selected Model + Justification**
+    Describe which model and prompt your team decided to proceed with using in your LLM. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design (if any).
+7. **Definition of Success:** 
     Describe in detail how you will know when you are done (aka what is your definition of success).  Describe what it will look like when you are done, and how you will know when it is correct enough to be done. Describe specifically how you will evaluate your solution.  You might need to use different techniques to evaluate different parts of the solution.
 
 
