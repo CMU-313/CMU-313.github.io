@@ -131,7 +131,9 @@ To run a specific test file:
 npm test -- tests/properties/delivery.test.js
 ```
 
-**TODO: add screenshot of running tests from inside IDE.**
+Alternatively, click the Play icon to the left of the line number to run tests directly in the IDE.
+
+![An example of running the tests from within the IDE](/assets/images/reci/test-button-ide.png)
 
 ## Activity: Bug Hunt Challenge
 
