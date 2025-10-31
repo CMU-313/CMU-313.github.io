@@ -122,13 +122,7 @@ If fast-check finds an input where your predicate returns `false`, it will repor
 To run the property-based tests:
 
 ```bash
-npm test -- tests/properties/
-```
-
-To run a specific test file:
-
-```bash
-npm test -- tests/properties/delivery.test.js
+npm test
 ```
 
 Alternatively, click the Play icon to the left of the line number to run tests directly in the IDE.
