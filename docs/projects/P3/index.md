@@ -149,7 +149,7 @@ In this section, provide a brief summary of your findings along with items that 
 
 This section should be used to wrap everything up and ensure you have a good/complete design document!
 
-Submit the Design Document as a single PDF to Gradescope.
+Each member should submit a link to the document on Gradescope **individually**.
 
 ### Tool Integration (15 pts)
 
