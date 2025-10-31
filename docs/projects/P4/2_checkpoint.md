@@ -2,7 +2,7 @@
 
 ## Final LLM Experiment Implementation (30 points)
 
-The final step is to implement this LLM feature into your team's NodeBB project. Your implementation should include the UI code you integrated in Checkpoint #2. You should also integrate the code you developed as a part of the LLM experiment, but you may modify it as needed to successfully integrate the functionality into your code.
+The final step is to implement this LLM feature into your team's NodeBB project. Your implementation should include the UI code you integrated in Checkpoint #1. You should also integrate the code you developed as a part of the LLM experiment, but you may modify it as needed to successfully integrate the functionality into your code.
 **Because this is the last Project to use NodeBB, commit to your repo, and we will grade your final repository state**!
 
 Reach out to your TA if you have any questions. 

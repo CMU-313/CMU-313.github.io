@@ -63,7 +63,7 @@ By the checkpoint deadline, your team will submit your design document to Grades
 
 For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track. We have provided some initial code on [this repo](https://github.com/CMU-313/translator-service).
 
-Furthermore, your server-side code must include unit and mock tests. To accomplish this, you should use the tests you wrote as part of the **Basic LLM Experiment** to the repo and integrate them into the CI pipeline.
+Furthermore, your server-side code must include unit and mock tests. To accomplish this, you should use the tests you wrote for the **Basic LLM Experiment** to your repo, and ensure they are running as part of your CI pipeline.
 
 ## Grading
 To receive full credit for the first checkpoint, we expect:
