@@ -9,13 +9,13 @@ Reach out to your TA if you have any questions.
 
 ## Individual Reflection (30 points)
 
-Each student will be responsible for answering individual reflection questions on gradescope.  This will include questions about what tasks you took on, what you learned, challenges you encountered, as well as decribing your contributions and your perspective about the contributions of your teammates.  **Each Student will be resonsible for submitting their own reflection.** 
+Each student will be responsible for answering individual reflection questions on Gradescope.  This will include questions about what tasks you took on, what you learned, challenges you encountered, as well as describing your contributions and your perspective about the contributions of your teammates.  **Each student will be responsible for submitting their own reflection.** 
 
-The reflection will be a series of questions answered on gradescope.
+The reflection will be a series of questions answered on Gradescope.
 
 
 ## Grading
 To receive full credit for the final deadline, we expect:
 
 - [ ] A functional translation feature, as described in your design document, integrated into your NodeBB application.
-- [ ] Answering questions on gradescope reflecting on your learning and teamwork experiences during P4.
+- [ ] Answering questions on Gradescope reflecting on your learning and teamwork experiences during P4.
