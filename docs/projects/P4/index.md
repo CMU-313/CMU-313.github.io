@@ -18,15 +18,13 @@ Once your CEO has finally calmed down, your manager calls an all-hands meeting. 
 
 But, to better compete with Piazza, your CEO and manager decide to put your team in charge of exploring using an LLM to implement a translation feature. This feature will automatically translate posts written in languages other than English into English. This initiative aims to foster inclusivity and ensure that language barriers do not hinder participation in the forum.
 
+However, your firm had a bad experience last month where an intern racked up too many API charges, so your CEO manager insists that you must use a locally hosted model.
+
 In light of this new direction, your manager wants you to:
 
-1. **Architect the feature** - reason about, document and select an appropriate architecture for integrating this feature into the existing system.
-2. **Build an experimental integration** with the existing NodeBB codebase to evaluate feasibility.
-3. **Evaluate the feature** and decide whether the feature should be fully implemented.
-
-As everything is just settling down, your CEO bursts back into the room!! There's a new catch: the company is strapped for funding and must be very careful with its spending. As a result, your team is now required to conduct all experimentation and implementation of the LLM-powered translation feature **using an LLM hosted on the company's servers**. There will be hardware overhead in this solution, but, in the long run, will be cheaper in this use case than having to pay an external LLM provider (ex. OpenAI) for every query.
-
-<!-- FOR LATER POSSIBLY: Your boss will be extra happy and give you a salary raise (bonus points) if you are able to make a NodeLingo model for the company: a pre-trained LLM that you build and customize with a prompt specifically for translation (fewer points), or fine-tune the model (more points). This is discussed in more depth in checkpoint 1. -->
+1. **Design the feature** - reason about, document and select an appropriate design for integrating this feature into the existing system.
+2. **Evaluate different models** Evaluate different models and compare their performance.
+3. **Implement the feature** Implement the translation feature.
 
 ## Deliverables and Deadlines
 There are two (2) deadlines for the project. This project is worth a total of 125 points.
