@@ -28,7 +28,7 @@ A small prize will be awarded to the team that finds the most bugs at the start 
     ![Share the repository with the rest of your team](/assets/images/reci/repo-settings.png)
 
 3.  Finally, everyone should be able to access the repository.
-    You can then use Codespaces to open up the repository or you can clone it to your machine and install it as a DevContainer (CMD+SHIFT+P: "Rebuild and Reopen in Dev Container").
+    You can then use Codespaces to open up the repository or you can clone it to your machine and install it as a DevContainer (CMD/CTRL+SHIFT+P: "Rebuild and Reopen in Dev Container").
     You should now be able to interact with the codebase.
 
     ![Create a codespace](/assets/images/reci/create-codespace.png)
@@ -149,10 +149,13 @@ Since you already wrote example-based tests for PierogIO during lecture, you're 
 
 1. **Set up your environment** (5 minutes): Clone your team's repository and run `npm test` to ensure everything works
 2. **Pick a module** (2 minutes): Have each pair in your team claim a different module to focus on (e.g., delivery, tax, discounts, total)
-3. **Write 2-3 properties** (35 minutes): Start with simple properties, then get more creative.
-    Think about edge cases and invariants!
-4. **Hunt for bugs** (20 minutes): Run your tests, find failures, fix bugs in the source code
-5. **Share findings** (5 minutes): Gather as a team and share what bugs you found
+3. **Iterate: Write properties, find bugs, fix bugs** (45 minutes): Repeat this loop as many times as possible:
+    - Come up with a property that should hold for your module
+    - Turn it into a property-based test
+    - Run the test: Does it fail?
+        - **Yes** → You found a bug! Fix it in the source code, verify the test passes, then repeat
+        - **No** → Great! Your code satisfies that property. Now repeat with a new property
+4. **Share findings** (5 minutes): Gather as a team and count how many bugs you found
 
 !!! tip "Working as a Team"
     - **Pair up**: Work in pairs of 2 on different modules to cover more ground
