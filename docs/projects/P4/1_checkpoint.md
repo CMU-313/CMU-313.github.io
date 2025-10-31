@@ -64,24 +64,27 @@ This is what you should include in your design document:
 5. **Authors:** 
     At the top of the document, each teammate should specify what part of the design document they contributed to.
 
-!!! note
-    Diagrams should **involve suitable architectural views**; **must include a legend**; and **should involve appropriate levels of abstraction** for the components in the diagram. If necessary, use color/shape/text to differentiate between types of components and connectors. You may find it appropriate to merge more than one view into a single diagram. If you do this, **you must be explicit about what views you are merging**, and why. Otherwise, diagrams should clearly represent legitimate architectural views. Make sure that multiple views of the architecture are consistent with each other and the links are clear; if necessary provide a mapping in additional text.
-
-!!! tip
-    Drawing diagrams is much easier with the right software. Consider tools like [draw.io](https://draw.io/) (free, online, and collaborative), [Dia](http://dia-installer.de/), [Excalidraw](https://excalidraw.com/), [OmniGraffle](https://www.omnigroup.com/omnigraffle), [MS Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software), or even just the drawing editor of [Google Docs](https://docs.google.com/). [Google Slides](https://slides.google.com/) will also likely work for this purpose. Pictures of whiteboard drawings are also acceptable, if clearly readable.
-
-More resources to assist you with creating your design document can be found in the [Resources & Documentation](#resource-documentation) section below.
-
 !!! warning On Generative AI
-    In the past, students have utilized generative AI tools to generate diagrams with mixed success. While some diagrams have been useful and accurate, others have fallen short due to inaccuracies or oversimplifications not aligned with specific project requirements. Be cautious and review them carefully for accuracy and relevance. If we suspect you've abused generative AI and your diagrams are **inadequate**, we won't consider regrade requests. You’ve been warned.
+    In the past, we have had problems with students using generative AI tools to generate low quality text. For this assignment, we will be evaluating each contribution to the document individually.  You are not responsible for fixing other teammates' text. However, you should clearly indicate at the top of the document who was responsible for each part of the dcoument. Low quality AI slop will result in signficant penalties for the student who contributed that section.
+
 
 By the checkpoint deadline, your team will submit your design document to Gradescope as a Google Docs link.
 
 ## LLM Experiment Integration Checkpoint (10 points)
 
-For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track. We have provided some initial code on [this repo](https://github.com/CMU-313/translator-service/tree/f24).
+For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track. We have provided some initial code on [this repo](https://github.com/CMU-313/translator-service).
 
 Furthermore, your server-side code must include unit and mock tests. To accomplish this, you must move the tests you wrote in the previous checkpoint to the repo and integrate them into the CI pipeline.
+
+## Grading
+To receive full credit for the first checkpoint, we expect:
+
+- [ ] An Google Doc design document that highlights your findings and decisions.  This should follow the outline, and be around **around 1,000-1,500 words**.  It should not include low-quality AI slop in the text.
+- [ ] A link to your Colab notebook completing all of the setup and basic LLM experiment steps outlined by the previous section
+- [ ] A functional integration of the UI code into your NodeBB application.
+- [ ] A preliminary implementation of the translation feature using the starter code, including CI with unit and mock tests.
+
+
 
 ## Resource & Documentation
 
@@ -95,10 +98,3 @@ There are a few additional reference materials available in the CMU library that
 - [Software Architecture in Practice, Third Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30264): You may wish to review appropriate sections within Part Two to help find appropriate tactics and techniques you can use in your design to promote particular quality attributes.
 - [Documenting Software Architectures: Views and Beyond, Second Edition](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30386): Useful book to generally reference for creating architecture documentation.
 
-### LLMs
-
-Here is some useful information about LLMs you may want to use when comparing different architectures.
-- [OpenAI pricing](https://platform.openai.com/docs/pricing)
-- [Gemini pricing](https://ai.google.dev/gemini-api/docs/pricing)
-- [DeepSeek pricing](https://api-docs.deepseek.com/quick_start/pricing)
-- [LLM Comparison Leaderboard](https://www.vellum.ai/llm-leaderboard)
