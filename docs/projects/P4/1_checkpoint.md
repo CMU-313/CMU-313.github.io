@@ -61,9 +61,21 @@ By the checkpoint deadline, your team will submit your design document to Grades
 
 ## LLM Experiment Integration Checkpoint (10 points)
 
-For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track. We have provided some initial code on [this repo](https://github.com/CMU-313/translator-service).
+For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track. 
+For this, you will work in a seperate repository. Similar to P2, you will create a repository using the following github classroom link:
 
-Furthermore, your server-side code must include unit and mock tests. To accomplish this, you should use the tests you wrote for the **Basic LLM Experiment** to your repo, and ensure they are running as part of your CI pipeline.
+[https://classroom.github.com/a/wWl61PUF](https://classroom.github.com/a/wWl61PUF)
+
+ 
+!!! warning
+    After you join a team on GitHub, you cannot change teams! Make sure that **only one** of you creates the team, and make sure that the remaining teammates join the right team.
+ 
+
+Once you enter your team name, Github will automatically create a repository for your team.
+
+<!-- We have provided some initial code on [this repo](https://github.com/CMU-313/translator-service). -->
+
+Your server-side code must include unit and mock tests. To accomplish this, you should use the tests you wrote for the **Basic LLM Experiment** to your repo, and ensure they are running as part of your CI pipeline.
 
 ## Grading
 To receive full credit for the first checkpoint, we expect:
