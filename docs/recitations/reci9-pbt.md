@@ -86,9 +86,11 @@ it('subtotal should always be non-negative integer', () => {
 #### Generating Inputs via Arbitraries
 
 [Arbitraries](https://fast-check.dev/docs/introduction/getting-started/#arbitrary) are responsible for generating random inputs to the function that you would like to test.
-To help get you started, we have provided `orderArb` in `./tests/properties/arbitraries.js`, which will create random orders.
+To help get you started, we have provided `orderArb` which will create random orders.
 
-**To test other functions**, you'll need to write your own arbitraries. For example, to test functions that require a `context` object (like `total()`, `tax()`, or `discount()`), you'll need to create a `contextArb`. Look at how `orderArb` is defined and use the [fast-check documentation](https://fast-check.dev/docs/core-blocks/arbitraries/) to create arbitraries for other inputs.
+**To test other functions**, you'll need to write your own arbitraries.
+For example, to test functions that require a `context` object (like `total()`, `tax()`, or `discount()`), you'll need to create a `contextArb`.
+Look at how `orderArb` is defined and use the [fast-check documentation](https://fast-check.dev/docs/core-blocks/arbitraries/) to create arbitraries for other inputs.
 
 #### Verifying Properties with Predicates
 
