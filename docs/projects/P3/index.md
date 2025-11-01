@@ -78,13 +78,13 @@ Consider some of the following questions:
 - What types of problems are you hoping your tooling will catch? What types of problems does this particular tool catch?
 - What types of customization are possible or necessary?
 - How can/should this tool be integrated into a development process?
-- Are there many false positives? False negatives? True positive reports about things you don’t care about?
+- Are there many false positives? False negatives? True positive reports about things you don't care about?
 
 !!! info "Tool Evaluation"
     There are a lot of different factors to consider when evaluating a tool. We recommend discussing with your teammates and deciding on a group of metrics to focus on when performing evaluations.
 
 !!! note "Time Management"
-    Don’t spend too long for this checkpoint. Set deadlines within your team to ensure that you have enough time for both the design document and integration deliverables described below for the final deadline.
+    Don't spend too long for this checkpoint. Set deadlines within your team to ensure that you have enough time for both the design document and integration deliverables described below for the final deadline.
 
 By the checkpoint deadline, your team will submit
 

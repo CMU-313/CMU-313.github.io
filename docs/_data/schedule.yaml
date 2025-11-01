@@ -883,7 +883,7 @@
 - date: Fri Oct 31
   homework:
     deadline: "Due Thurs, Nov 6th @ 11:59pm"
-    link: ""
+    link: "projects/P4"
     name: "Project P4 - Checkpoint 1"
     numDays: 5
   lecture:
@@ -973,7 +973,7 @@
 - date: Fri Nov 7
   homework:
     deadline: "Due Tue, Nov 11th @ 11:59pm"
-    link: ""
+    link: "projects/P4"
     name: "Project P4 - Final Deliverables"
     numDays: 3
   lecture:
