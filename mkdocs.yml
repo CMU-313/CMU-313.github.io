@@ -96,6 +96,7 @@ nav:
       - Recitation 6 - Deployment: recitations/reci6-deployment.md
       - Recitation 7 - On Prem Deployment: recitations/reci7-onprem-setup.md
       - Recitation 8 - Docker and Containerization: recitations/reci8-docker.md
+      - Recitation 9 - Property-Based Testing: recitations/reci9-pbt.md
       # - Recitation 8 - LLMs: recitations/reci8-llms.md
       # - Recitation 9 - Open Source Scavenger Hunt: recitations/reci10-open-source.md
       # - Recitation 10 - Team Feedback: recitations/reci10-team-feedback.md
