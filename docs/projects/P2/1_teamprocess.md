@@ -120,7 +120,7 @@ Before your team jumps into development, you must first determine what features 
 
 During this meeting, discuss potential functional requirements of this project. Consider what possible use cases may be for this system and what features it should have to fulfill those needs. 
 
-Then, document these functional requirements in the form of user stories that follow the guidelines discussed in [lecture](assets/pdfs/05-Process.pdf). All of your user stories should be in the format of "As a [role], I want [function], so that [value]".
+Then, document these functional requirements in the form of user stories that follow the guidelines discussed in [lecture](/docs/assets/pdfs/05-Process.pdf). All of your user stories should be in the format of "As a [role], I want [function], so that [value]".
 
 **You should come up with at least two user stories per student in your group.**
 
