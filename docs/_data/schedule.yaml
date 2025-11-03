@@ -913,8 +913,8 @@
   recitation:
     handout: /recitations/reci9-pbt
     name: "Recitation 9 - Property-Based Testing"
-    quiz: ""
-    slides: ""
+    quiz: "https://www.gradescope.com/courses/1086939/assignments/7094250"
+    slides: "https://docs.google.com/presentation/d/1DBntqo3SHTjQ2YKRkfkhYQT0dXuA94EvKtNE72xJmX4"
 
 - date: Tue Nov 4
   homework:
