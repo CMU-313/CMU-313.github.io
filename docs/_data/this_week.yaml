@@ -1,10 +1,4 @@
-lectures:
-- date: Tue Oct 28
-  link: /assets/pdfs/17-dynamic-analysis.pdf
-  name: Beyond Traditional Testing with Dynamic Analysis
-- date: Thu Oct 30
-  link: /assets/pdfs/18-testing-examples-to-properties.pdf
-  name: 'Testing: From Examples to Properties'
+lectures: []
 
 projects:
 - date: Fri Oct 31
@@ -13,10 +7,16 @@ projects:
   link: ''
   name: Project P4 - Checkpoint 1
   numDays: 5
+- date: Fri Nov 7
+  deadline: Due Tue, Nov 11th @ 11:59pm
+  end_date: 2025-11-12 00:00:00
+  link: ''
+  name: Project P4 - Final Deliverables
+  numDays: 3
 
 recitation:
-  date: Mon Oct 27
-  handout: /recitations/reci8-docker
-  name: Recitation 8 - Docker
+  date: Mon Nov 3
+  handout: /recitations/reci9-pbt
+  name: Recitation 9 - Property-Based Testing
   quiz: ''
-  slides: https://docs.google.com/presentation/d/1u0c83cHJiNl8SRBC9OIeGeLZEo4UawSCErmAo50D3T4/edit?usp=sharing
+  slides: ''
