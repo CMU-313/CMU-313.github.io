@@ -1,4 +1,4 @@
-# Final (Implementation and Evaluation)
+# Project 4B: Implementation and Evaluation
 
 ## Final LLM Experiment Implementation (30 points)
 
