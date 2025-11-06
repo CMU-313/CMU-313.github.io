@@ -959,8 +959,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/19-OpenSource-Licenses-Dependencies.pdf"
+    name: "Open Source and Dependency Management"
   reading:
     link: ""
     name: ""
