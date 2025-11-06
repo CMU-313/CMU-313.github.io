@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Thu Nov 6
+  link: assets/pdfs/19-OpenSource-Licenses-Dependencies.pdf
+  name: Open Source and Dependency Management
 
 projects:
 - date: Fri Oct 31
