@@ -21,9 +21,9 @@ While learning about different open source projects, think about what type of pr
 
 ## Reflection (10 min)
 With your team, discuss the following questions:
-* Which attributes make a good open source project? A bad open source project?
-* Which 3 projects did you find that you would most like to work on? Which would you least like to work on? Why?
-* Submit your thoughts to [Gradescope] (https://www.gradescope.com/courses/1086939/assignments/7124611) Recitation 10!
+Which attributes make a good open source project? A bad open source project? Which 3 projects did you find that you would most like to work on? Which would you least like to work on? Why?
+
+Submit your thoughts to [Gradescope](https://www.gradescope.com/courses/1086939/assignments/7124611) Recitation 10!
 
 Pick 3 projects that you are interested in pursing for Project 5.
 
