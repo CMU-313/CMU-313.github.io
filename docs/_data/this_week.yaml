@@ -14,4 +14,9 @@ projects:
   name: Project P5A - Project Selection
   numDays: 4
 
-recitation: null
+recitation:
+  date: Mon Nov 10
+  handout: /recitations/reci10-open-source
+  name: Recitation 10 - Open Source Projects
+  quiz: https://www.gradescope.com/courses/1086939/assignments/7124611
+  slides: https://docs.google.com/presentation/d/1qmGXCmjzyt2xlLG7koq_C5uBh4LJtWwwGggt-bwLabo/edit?usp=sharing
