@@ -55,7 +55,7 @@ As per previous projects, ^^plan before you start coding^^. You should identify 
 
 ## Checkpoint Presentation (80 pts)
 
-Each team will create, record, and present a checkpoint presentation. The slide deck and recording will be due Sunday, November 16th, 11:59 PM. The recitation right after (November 17th), you will be present your checkpoint presentation to your classmates in order to receive feedback, suggestions, and/or advice.
+Each team will create, record, and present a checkpoint presentation. The slide deck and recording will be due Sunday, November 16th, 11:59 PM. The recitation right after (November 17th), you will present your checkpoint presentation to your classmates and receive feedback, suggestions, and/or advice.
 
 - Presentations are **7 minutes long**
 - Participation from all team members during the presentation is **required**
