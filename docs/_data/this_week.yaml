@@ -7,12 +7,12 @@ projects:
   link: projects/P4
   name: Project P4 - Final Deliverables
   numDays: 3
-- date: Tues Nov 11
+- date: Wed Nov 12
   deadline: Due Sun, Nov 16th @ 11:59pm
   end_date: 2025-11-17 00:00:00
-  link: ''
+  link: projects/P5
   name: Project P5A - Project and Task Selection
-  numDays: 4
+  numDays: 3
 
 recitation:
   date: Mon Nov 10
