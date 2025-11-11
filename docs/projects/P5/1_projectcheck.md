@@ -10,7 +10,7 @@
 
 ## Open Source Project Selection
 
-You may select any active open source project in any language, as long as it's not already selected by another team. You can find a list of open source projects selected by other teams on the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=2020937022#gid=2020937022)**.
+You may select any active open source project in any language, as long as it's not already selected by another team. You can find a list of open source projects selected by other teams on the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=2017623083#gid=2017623083)**.
 
 Here are some helpful resources for finding open source projects:
 
@@ -21,7 +21,7 @@ Here are some helpful resources for finding open source projects:
 - [A list of beginner friendly projects](https://github.com/MunGell/awesome-for-beginners)
 - [Apache projects](http://www.apache.org/)
 - [Mozilla projects](https://firefox-source-docs.mozilla.org/contributing/contributing_to_mozilla.html)
-- You may also check the other sheets in the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=2020937022#gid=2020937022)** which will include Projects and whether they were merged into main.
+- You may also check the other sheets in the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=2017623083#gid=2017623083)** which will include Projects and whether they were merged into main.
 
 You may want to consider any open-source projects you have used before, or are interested in using in the future!
 
@@ -29,7 +29,7 @@ The open source project you pick should be ^^active^^ and ^^have multiple contri
 
 If you have questions on if we would consider a project active, contact the course staff.
 
-Once you have selected a project, add it to the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=2020937022#gid=2020937022)**. We highly recommend you also think about potential tasks (see below) before finalizing on a project, as your success depends heavily on the chosen task(s).
+Once you have selected a project, add it to the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=2017623083#gid=2017623083)**. We highly recommend you also think about potential tasks (see below) before finalizing on a project, as your success depends heavily on the chosen task(s).
 
 ## Task Selection
 
