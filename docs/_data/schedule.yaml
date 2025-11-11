@@ -1029,7 +1029,7 @@
     deadline: "Due Sun, Nov 16th @ 11:59pm"
     link: "projects/P5"
     name: "Project P5A - Project and Task Selection" 
-    numDays: 5
+    numDays: 3
   lecture:
     link: ""
     name: ""
@@ -1061,42 +1061,6 @@
     slides: ""
 
 - date: Fri Nov 14
-  homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
-  lecture:
-    link: ""
-    name: ""
-  reading:
-    link: ""
-    name: ""
-  recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
-
-- date: Sat Nov 15
-  homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
-  lecture:
-    link: ""
-    name: ""
-  reading:
-    link: ""
-    name: ""
-  recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
-
-- date: Sun Nov 16
   homework:
     deadline: ""
     link: ""
