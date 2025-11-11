@@ -1026,10 +1026,10 @@
 
 - date: Wed Nov 12
   homework:
-    deadline: "Due Mon, Nov 17th @ Recitation"
-    link: ""
-    name: "Project P5A - Project Selection"
-    numDays: 4
+    deadline: "Due Sun, Nov 16th @ 11:59pm"
+    link: "projects/P5"
+    name: "Project P5A - Project and Task Selection" 
+    numDays: 3
   lecture:
     link: ""
     name: ""
@@ -1080,10 +1080,10 @@
 
 - date: Mon Nov 17
   homework:
-    deadline: ""
+    deadline: "Due Fri, Dec 12th @ 9:00am"
     link: ""
-    name: ""
-    numDays: 0
+    name: "Project P5B - Project Final Report & Presentations"
+    numDays: 16
   lecture:
     link: ""
     name: ""
@@ -1098,10 +1098,10 @@
 
 - date: Tue Nov 18
   homework:
-    deadline: "Due Fri, Nov 21th @ 11:59pm"
+    deadline: ""
     link: ""
-    name: "Project P5A - Task Selection"
-    numDays: 4
+    name: ""
+    numDays: 0
   lecture:
     link: ""
     name: ""
@@ -1169,10 +1169,10 @@
     slides: ""
 - date: Sat Nov 22
   homework:
-    deadline: "Due Fri, Dec 12th @ 9:00am"
+    deadline: ""
     link: ""
-    name: "Project P5B - Project Final Report & Presentations "
-    numDays: 10
+    name: ""
+    numDays: 0
   lecture:
     link: ""
     name: ""

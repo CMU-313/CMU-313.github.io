@@ -6,6 +6,15 @@ hide:
 
 A list of student groups with links to their merged PRs in open source projects.
 
+## 2025 Spring 
+| Group Name | Team Members | Project | Merged PRs |
+| ---------- | ------------ | ------- | ---------- |
+| Bearries | Julie Wu, Yuki Ma, Doris Gao, Lynn Zhang | [Jupyter Lab](https://github.com/jupyterlab/jupyterlab/) | [#17540](https://github.com/jupyterlab/jupyterlab/pull/17540) |
+| Information Swimmers | Daniel Contreras, Jonathan Oh, Bo Xie, Savannah Xu | [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp/) | [#60108](https://github.com/freeCodeCamp/freeCodeCamp/pull/60108), [#60134](https://github.com/freeCodeCamp/freeCodeCamp/pull/60134) |
+| MR Steaks | Baron Niu, Autumn Qiu, Amelia Kratzer | [Dinosaur Exploder](https://github.com/jvondermarck/dinosaur-exploder/) | [#196](https://github.com/jvondermarck/dinosaur-exploder/pull/196), [#197](https://github.com/jvondermarck/dinosaur-exploder/pull/197) |
+
+
+
 ## 2024 Fall 
 | Group Name | Team Members | Project | Merged PRs |
 | ---------- | ------------ | ------- | ---------- |

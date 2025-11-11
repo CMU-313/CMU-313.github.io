@@ -4,13 +4,13 @@
 
 **Project & Task Selection** – 80 points
 
-- [Project Selection](#open-source-project-selection) - enter project name and URL in the spreadsheet by Wednesday, April 16th, 11:59pm
-- [Task Selection Checkpoint Presentation](#checkpoint-presentation-80-pts) – slides and video recording due Sunday, April 20th, 11:59pm
+- [Project Selection](#open-source-project-selection) - enter project name and URL in the spreadsheet by Sunday, November 16th, 11:59pm
+- [Task Selection Checkpoint Presentation](#checkpoint-presentation-80-pts) – slides and video recording due Sunday, November 16th, 11:59pm; in-person presentation on Monday, November 17th during recitation
 
 
 ## Open Source Project Selection
 
-You may select any active open source project in any language, as long as it's not already being selected on by another team. You can find a list of open source projects selected by other teams on the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=2020937022#gid=2020937022)**.
+You may select any active open source project in any language, as long as it's not already selected by another team. You can find a list of open source projects selected by other teams on the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=2017623083#gid=2017623083)**.
 
 Here are some helpful resources for finding open source projects:
 
@@ -21,7 +21,7 @@ Here are some helpful resources for finding open source projects:
 - [A list of beginner friendly projects](https://github.com/MunGell/awesome-for-beginners)
 - [Apache projects](http://www.apache.org/)
 - [Mozilla projects](https://firefox-source-docs.mozilla.org/contributing/contributing_to_mozilla.html)
-- You may also check the other sheets in the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=2020937022#gid=2020937022)** which will include Projects and whether they were merged into main.
+- You may also check the other sheets in the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=2017623083#gid=2017623083)** which will include Projects and whether they were merged into main.
 
 You may want to consider any open-source projects you have used before, or are interested in using in the future!
 
@@ -29,7 +29,7 @@ The open source project you pick should be ^^active^^ and ^^have multiple contri
 
 If you have questions on if we would consider a project active, contact the course staff.
 
-Once you have selected a project, add it to the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=2020937022#gid=2020937022)**. We highly recommend you also think about potential tasks (see below) before finalizing on a project, as your success depends heavily on the chosen task.
+Once you have selected a project, add it to the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=2017623083#gid=2017623083)**. We highly recommend you also think about potential tasks (see below) before finalizing on a project, as your success depends heavily on the chosen task(s).
 
 ## Task Selection
 
@@ -51,15 +51,14 @@ Once you have selected a project and task(s), break them down into subtasks, con
 
 You are expected to **achieve your core goal for this project**, and stretch goals as much as possible. We will work with you to adjust your goals during the checkpoint presentation to ensure that they are appropriate your team size and timeframe.
 
-As per previous project, ^^plan before you start coding^^. You should identify risks and requirements, and develop a collaboration plan and schedule. 
+As per previous projects, ^^plan before you start coding^^. You should identify risks and requirements, and develop a collaboration plan and schedule. 
 
 ## Checkpoint Presentation (80 pts)
 
-The recitation before Thanksgiving will be an open office hours. The subsequent recitation right after the due date of the recordings, we will be watching the recordings of your classmates checkin presentations in order to learn what others are doing and give advice.
+Each team will create, record, and present a checkpoint presentation. The slide deck and recording will be due Sunday, November 16th, 11:59 PM. The recitation right after (November 17th), you will present your checkpoint presentation to your classmates and receive feedback, suggestions, and/or advice.
 
 - Presentations are **7 minutes long**
 - Participation from all team members during the presentation is **required**
-
 
 **Your group presentation will serve as a check-in to determine if the open source project and task(s) chosen were reasonable**
 
@@ -102,4 +101,4 @@ Your **7-minute** checkpoint presentation should include (the recommended slides
     - We expect you to identify risks that are specific to your project and team. For example, if you are working on a project that is written in a language that none of your team members have used before, you should identify this as a risk and discuss how you will mitigate it. 
     - We will not accept risks that are generic to all open source projects (e.g., "the project may be abandoned"), or risks that are generic to all software development projects (e.g., "the project may have bugs").
 
-Submit the presentation deck listed above as a **single PDF** file per team to **Gradescope** and upload a video recording in this [Google drive folder](https://drive.google.com/drive/folders/19YPURvjipz1BHz69tG4k-uBDbvqiFrPw). You will be presenting this in the recitation on Monday, November 25th.
+Submit the presentation deck as a **single PDF** file per team to **Gradescope** and upload a video recording to this [Google drive folder](https://drive.google.com/drive/folders/1N4ZLbdJSSWPbPvL5MZHdsf6kmAgYRy-K?usp=drive_link). You will be presenting the slide deck live in recitation on Monday, November 17th.

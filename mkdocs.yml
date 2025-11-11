@@ -83,9 +83,9 @@ nav:
           - projects/P4/index.md
           - 4A Design and Test: projects/P4/1_checkpoint.md
           - 4B Implementation and Evaluation: projects/P4/2_checkpoint.md
-      # - "Project 5: Open Source Excursion":
-      #     - projects/P5/index.md
-      #     - "5A Project and Task Selection": projects/P5/1_projectcheck.md
+      - "Project 5: Open Source Excursion":
+          - projects/P5/index.md
+          - "5A Project and Task Selection": projects/P5/1_projectcheck.md
       #     - "5B & C Project Presentations, Final Report, and Reflections": projects/P5/2_projectfinal.md
 
   - Recitations:
