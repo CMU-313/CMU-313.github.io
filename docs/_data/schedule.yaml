@@ -1013,8 +1013,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "https://canvas.cmu.edu/courses/48397/files/folder/Guest%20Lectures?preview=13541698"
+    name: "Guest Lecture: Difficult Conversations (Login required)"
   reading:
     link: ""
     name: ""
@@ -1049,8 +1049,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/21-reliably-releasing-software.pdf"
+    name: "Reliably Releasing Software"
   reading:
     link: ""
     name: ""
