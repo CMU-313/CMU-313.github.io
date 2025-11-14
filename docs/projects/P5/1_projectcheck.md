@@ -57,12 +57,14 @@ As per previous projects, ^^plan before you start coding^^. You should identify 
 
 Each team will create, record, and present a checkpoint presentation. The slide deck and recording will be due Sunday, November 16th, 11:59 PM. The recitation right after (November 17th), you will present your checkpoint presentation to your classmates and receive feedback, suggestions, and/or advice.
 
-- Presentations are **7 minutes long**
-- Participation from all team members during the presentation is **required**
+!!! note "Time Management"
+        - Both the recording and the in-person presentations should be **5-7 minutes long**
+        - Participation from all team members during the presentation is **required**
+        - Be on time for recitation!
 
 **Your group presentation will serve as a check-in to determine if the open source project and task(s) chosen were reasonable**
 
-Your **7-minute** checkpoint presentation should include (the recommended slides amount is in parenthesis):
+Your **5-7-minute** checkpoint presentation should include (the recommended slides amount is in parenthesis):
 
 1.	**Overview and Justification** (~1 slide)     
     An overview on the project you selected, summarizing the relevant characteristics you considered when making your selection. Beyond whatever additional information you collect in your research, include at least a name, a website link, and a brief description of the project (what it does, who uses it, etc). 
