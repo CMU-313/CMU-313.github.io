@@ -1167,23 +1167,6 @@
     name: ""
     quiz: ""
     slides: ""
-- date: Sat Nov 22
-  homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
-  lecture:
-    link: ""
-    name: ""
-  reading:
-    link: ""
-    name: ""
-  recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
 
 - date: Mon Nov 24
   homework:
@@ -1211,7 +1194,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Thanksgiving Break - No Class"
   reading:
     link: ""
     name: ""
