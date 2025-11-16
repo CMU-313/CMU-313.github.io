@@ -1091,9 +1091,9 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
+    handout: recitations/reci11-p5-checkin.md
+    name: "Recitation 11: Open Source Project and Task Selection Check In"
+    quiz: "https://www.gradescope.com/courses/1086939/assignments/7168651"
     slides: ""
 
 - date: Tue Nov 18
