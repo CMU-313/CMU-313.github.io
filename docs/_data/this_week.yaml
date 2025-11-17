@@ -11,4 +11,9 @@ projects:
   name: Project P5B - Project Final Report & Presentations
   numDays: 16
 
-recitation: null
+recitation:
+  date: Mon Nov 17
+  handout: /recitations/reci11-p5-checkin
+  name: Recitation 11 — Open Source Project and Task Selection Check In
+  quiz: https://www.gradescope.com/courses/1086939/assignments/7168651
+
