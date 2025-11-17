@@ -2,17 +2,17 @@
 
 ## Deliverables
 
-**Project Report and Presentation** – due Sunday, May 4th, 11:59pm
+**Project Report and Presentation** – due Friday, December 12th, 9:00am
 
-- [Project Report](#project-report-200-pts) (200 pts) 
-- [Extra Credit](#project-report-200-pts) (20 pts)
-- [Project Presentation Slides](#project-presentations-100-pts) (100 points, graded based on presentation)
+- [Project Report](#project-report-200-points) (200 points) 
+- [Extra Credit](#project-report-200-points) (20 points)
+- [Project Presentation Slides](#project-presentations-100-points) (100 points, graded based on presentation)
 
-**Presentation Date** – Monday, May 5th, 1:00-4:00pm, during exam timeslot
+**Presentation Date** – on Friday, December 12th, 9:00-11:30am, during exam timeslot
 
-**Reflection** – due Monday, May 5th, 11:59pm
+**Individual Reflection** – due Saturday, December 13th, 11:59pm
 
-- [Reflections & Peer Review](#individual-reflection-peer-evaluations-20-pts) (20 pts)
+- [Reflections & Peer Review](#individual-reflection-peer-evaluations-20-points) (20 points)
 
 
 ## Contributing to Open Source
@@ -32,7 +32,7 @@ You will get a bonus **20 (5%) bonus points** upon acceptance. If your code is a
 ## Report, Presentation and Reflection
 You will report on your project and task selection, work, and experience in several ways (see below). This will include a group presentation to the class.
 
-## Project Presentations (100 pts)
+## Project Presentations (100 points)
 
 The Final Exam time is dedicated to group presentations **(in-person)** about your open source contributions.
 
@@ -62,48 +62,17 @@ The goal of the presentation is primarily to share with the class the project to
 
     Your summary of your experiences can be at whatever level of detail you think is interesting or informative. Given the time limit, selecting and highlighting the one or two most important or interesting observations is likely more useful than trying to be complete.
 
-You must upload your slides as **a single PDF document** to Gradescope by **Monday, May 5th, 11:59pm**.
+You must upload your slides as **a single PDF document** to Gradescope by **Friday, December 12th, 9:00am**.
 
-## Project Report (200 pts)
+## Project Report (200 points)
 
 After completing and submitting the modification, write a report about the tasks you have performed.
 
-Your report should include:
+Create a copy of the following Google Doc: [5B Project Report Template](https://docs.google.com/document/d/1VJaVXrcM4c6MgcizRjjH8PIkoMdi6BEf7fWSZo1wZ90/edit?usp=sharing). **Make sure the document is shared with 313 TAs and Profs (enable General Access - Viewer).**
 
-1.	**Selected Project** (1 paragraph)  
-A brief description of the open source system to which you contributed. You may reuse text from Part A.
+As a team, write your responses to the questions in this doc. After you finish, have **one team member** copy and paste the responses of each question into the corresponding question in the 5B Project Report assignment on **Gradescope**. Be sure to also provide the **link to the Google Doc**. Add **all group members** to the submission. 
 
-2.	**Project Context and Business Model**  (<0.5 page)   
-An analysis of the open-source project’s context and business model. This may include a short history of the project, competing open- and closed-source projects, or a discussion of the developers’ motivations to build this system. Essentially, we want to know why this project exists and why it is important.
-
-3.	**Project Processes and Communication**  (<1 page)   
-Describe the processes and tools the project uses to coordinate among contributors. For example: Are these processes formal or informal? Provide an explicit description (possibly with a diagram) of the acceptance process used for efforts like the task you completed.
-If applicable, include standards or expectations regarding software engineering activities including requirements, architecture, and quality assurance; alternatively mention that no such standards exist.
-
-4.	**Task Description (per task)** (<0.5 page)    
-A description of the tasks you have implemented and a high-level description of how you implemented them.
-
-5.	**Submitted Artifacts (per task)**  
-Evidence of the code, documentation, or other artifacts you produced for the task, and evidence that you submitted them to the project. This would likely be links to publicly available resources (repository, email, pull request, etc).
-
-6.	**QA Strategy** (<1 page)  
-Describe which QA activities you performed and justify why you selected these QA activities over others. Describe metrics if appropriate. The justification will likely refer to relevant requirements as well as to the project’s practices. 
-
-7.	**QA Evidence**  
-Evidence of your quality assurance activities described above. For example, provide source code or links to source code of tests, provide test protocols, comments or protocols from code reviews, reports from static analysis tools, links to or screenshots from a continuous integration platform, and so forth.
-
-8.	**Plan Updates** (<1 page)  
-A description and justification of deviations between your initial plans and your performed activities (as in Homework 2). Changes are expected, but they should be tracked and explained. Describe changes in scope (e.g., fewer tasks) and in the schedule and work allocation. Provide an updated schedule and note differences. Explain the causes of the changes, such as unanticipated risks. 
-
-9.	**Summary of Final Contributions** (<0.5 page)  
-A table that **briefly summarizes** the contribution(s) each team member made towards completing the task(s).
-
-10.	**Extra Credit**  
-Evidence that your changes have been accepted into the code base of the open source project in forms of links or screenshots. **Note: You can also send the merged PR link to the instructors and Sophia via Slack over Group DM or e-mail(to all) by 3rd May 1pm to claim this bonus as well**
-
-Page limits are provided for guidance; we will not enforce them. Collect all parts in a **single PDF document with clear subsections** and the names of all team members and submit that file to **Gradescope**.
-
-## Individual Reflection & Peer Evaluations (20 pts)
+## Individual Reflection & Peer Evaluations (20 points)
 
 !!! note "Contributions"
 
