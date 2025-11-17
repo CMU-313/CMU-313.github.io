@@ -68,7 +68,7 @@ You must upload your slides as **a single PDF document** to Gradescope by **Frid
 
 After completing and submitting the modification, write a report about the tasks you have performed.
 
-Create a copy of the following Google Doc: [5B Project Report Template](https://docs.google.com/document/d/1VJaVXrcM4c6MgcizRjjH8PIkoMdi6BEf7fWSZo1wZ90/edit?usp=sharing). **Make sure the document is shared with 313 TAs and Profs (enable General Access - Viewer).**
+Create a copy of the following Google Doc: [5B Project Report Template](https://docs.google.com/document/d/1VJaVXrcM4c6MgcizRjjH8PIkoMdi6BEf7fWSZo1wZ90/edit?usp=sharing). **Make sure the document is shared with 313 TAs and Profs (change General Access to "Carnegie Mellon University" - Viewer).**
 
 As a team, write your responses to the questions in this doc. After you finish, have **one team member** copy and paste the responses of each question into the corresponding question in the 5B Project Report assignment on **Gradescope**. Be sure to also provide the **link to the Google Doc**. Add **all group members** to the submission. 
 
@@ -96,4 +96,4 @@ Describe the specific work **each of your team members** have contributed toward
     - What have you learned about teamwork and your role in teamwork?
     - (Optional) Do you have any feedback on what we can do next year to help students work more effectively in teams? Bear in mind that the instructor-assigned heterogeneous teams of 3-5 students is non-negotiable. We anticipate problems as part of the learning experience, but would like to avoid unduly frustrating situations.
 
-A good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support them. Submit your reflection on **Gradescope**.
+A good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support them. Submit your reflection on **Gradescope** by Saturday, December 13th, 11:59pm.
