@@ -1103,8 +1103,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/20-Ethics.pdf"
+    name: "Ethics"
   reading:
     link: ""
     name: ""
