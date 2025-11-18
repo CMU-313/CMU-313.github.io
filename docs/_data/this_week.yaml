@@ -2,6 +2,9 @@ lectures:
 - date: Thu Nov 20
   link: ''
   name: Midterm 2
+  reading:
+    link: https://docs.google.com/presentation/d/17NLJTihtI1stTu7xAEBIgUJqDU-iRD69JLB5AnixYCM/edit?usp=sharing
+    name: Midterm 2 Review Slides
 
 projects:
 - date: Mon Nov 17
