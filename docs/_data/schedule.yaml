@@ -1081,7 +1081,7 @@
 - date: Mon Nov 17
   homework:
     deadline: "Due Fri, Dec 12th @ 9:00am"
-    link: ""
+    link: "projects/P5/2_projectfinal/"
     name: "Project P5B - Project Final Report & Presentations"
     numDays: 16
   lecture:
@@ -1351,7 +1351,7 @@
 - date: Sat Dec 13
   homework:
     deadline: "Due Sat, Dec 13th @ 11:59pm"
-    link: ""
+    link: "projects/P5/2_projectfinal/"
     name: "Project P5C - Individual Reflection"
     numDays: 4
   lecture:
