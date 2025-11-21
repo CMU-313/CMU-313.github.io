@@ -924,7 +924,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Democracy Day"
   reading:
     link: ""
     name: ""
@@ -1182,7 +1182,7 @@
     name: ""
   recitation:
     handout: ""
-    name: ""
+    name: "No Recitation"
     quiz: ""
     slides: ""
 
