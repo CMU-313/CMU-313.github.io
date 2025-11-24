@@ -1,13 +1,10 @@
 lectures:
-- date: Tue Nov 18
-  link: assets/pdfs/20-Ethics.pdf
-  name: Ethics
-- date: Thu Nov 20
+- date: Tue Nov 25
   link: ''
-  name: Midterm 2
-  reading:
-    link: https://docs.google.com/presentation/d/17NLJTihtI1stTu7xAEBIgUJqDU-iRD69JLB5AnixYCM/edit?usp=sharing
-    name: Midterm 2 Review Slides
+  name: Thanksgiving Break - No Class
+- date: Thu Nov 27
+  link: ''
+  name: Thanksgiving Break - No Class
 
 projects:
 - date: Mon Nov 17
@@ -18,8 +15,8 @@ projects:
   numDays: 16
 
 recitation:
-  date: Mon Nov 17
-  handout: /recitations/reci11-p5-checkin
-  name: Recitation 11 - Open Source Project and Task Selection Check In
-  quiz: https://www.gradescope.com/courses/1086939/assignments/7168651
+  date: Mon Nov 24
+  handout: ''
+  name: No Recitation
+  quiz: ''
   slides: ''
