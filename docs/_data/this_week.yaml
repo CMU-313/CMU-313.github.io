@@ -1,10 +1,4 @@
-lectures:
-- date: Tue Nov 25
-  link: ''
-  name: Thanksgiving Break - No Class
-- date: Thu Nov 27
-  link: ''
-  name: Thanksgiving Break - No Class
+lectures: []
 
 projects:
 - date: Mon Nov 17
@@ -14,9 +8,4 @@ projects:
   name: Project P5B - Project Final Report & Presentations
   numDays: 16
 
-recitation:
-  date: Mon Nov 24
-  handout: ''
-  name: No Recitation
-  quiz: ''
-  slides: ''
+recitation: null
