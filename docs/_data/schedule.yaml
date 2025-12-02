@@ -1283,8 +1283,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/21-employment.pdf"
+    name: "This Lecture could save you 12 Million Dollars"
   reading:
     link: ""
     name: ""
