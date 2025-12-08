@@ -1,7 +1,7 @@
 lectures:
-- date: Tue Dec 2
-  link: assets/pdfs/21-employment.pdf
-  name: This Lecture could save you 12 Million Dollars
+- date: Fri Dec 12
+  link: ''
+  name: FINAL EXAM
 
 projects:
 - date: Mon Nov 17
@@ -10,10 +10,11 @@ projects:
   link: projects/P5/2_projectfinal/
   name: Project P5B - Project Final Report & Presentations
   numDays: 16
+- date: Sat Dec 13
+  deadline: Due Sat, Dec 13th @ 11:59pm
+  end_date: 2025-12-18 00:00:00
+  link: projects/P5/2_projectfinal/
+  name: Project P5C - Individual Reflection
+  numDays: 4
 
-recitation:
-  date: Mon Dec 1
-  handout: ''
-  name: Recitation 12 - OH for Project 5B
-  quiz: ''
-  slides: ''
+recitation: null
