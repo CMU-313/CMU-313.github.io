@@ -2,7 +2,7 @@
 
 ## Deliverables
 
-**Project Report and Presentation** – due Friday, December 12th, 9:00am
+**Project Report and Presentation** – due Friday, December 12th, 8:30am
 
 - [Project Report](#project-report-200-points) (200 points) 
 - [Extra Credit](#project-report-200-points) (20 points)
@@ -36,7 +36,7 @@ You will report on your project and task selection, work, and experience in seve
 
 The Final Exam time is dedicated to group presentations **(in-person)** about your open source contributions.
 
-- Presentations are **4 minutes long, with 2 minutes Q&A**.
+- Presentations are **4 minutes long, with 1 minute Q&A**.
 - The order of presentations is randomly determined.
 - Participation from all team members during the presentation is **required**.
 - Every individual will be asked to provide constructive feedback for other presentations in class via an paper form (which we will provide day-of).
@@ -62,7 +62,7 @@ The goal of the presentation is primarily to share with the class the project to
 
     Your summary of your experiences can be at whatever level of detail you think is interesting or informative. Given the time limit, selecting and highlighting the one or two most important or interesting observations is likely more useful than trying to be complete.
 
-You must upload your slides as **a single PDF document** to Gradescope by **Friday, December 12th, 9:00am**.
+You must upload your slides as **a single PDF document** to Gradescope by **Friday, December 12th, 8:30am**.
 
 ## Project Report (200 points)
 

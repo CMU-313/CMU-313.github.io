@@ -27,7 +27,7 @@ A) [**Project & Task Selection**](1_projectcheck.md) – 80 points – due Sunda
 - Check-In Presentation (slides + recording) (80 points) - **due Sunday, November 16th**
 - In-Person Presentation of Check-In Slides - **Monday, November 17th during recitation**
 
-B) [**Project Final Report & Presentations**](2_projectfinal.md) – 300 points – due Friday, December 12th, 9:00am
+B) [**Project Final Report & Presentations**](2_projectfinal.md) – 300 points – due Friday, December 12th, 8:30am
 
 - Project Report (200 points) 
 - *Extra Credit (20 points)*
