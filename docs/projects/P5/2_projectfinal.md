@@ -36,7 +36,7 @@ You will report on your project and task selection, work, and experience in seve
 
 The Final Exam time is dedicated to group presentations **(in-person)** about your open source contributions.
 
-- Presentations are **4 minutes long, with 1 minute Q&A**.
+- Presentations are **4 minutes long, with 2 minutes Q&A**.
 - The order of presentations is randomly determined.
 - Participation from all team members during the presentation is **required**.
 - Every individual will be asked to provide constructive feedback for other presentations in class via an paper form (which we will provide day-of).
