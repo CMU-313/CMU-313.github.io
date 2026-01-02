@@ -1,4 +1,4 @@
-- date: Mon Aug 25
+- date: Mon Jan 12
   homework:
     deadline: ""
     link: ""
@@ -16,12 +16,12 @@
     quiz: ""
     slides: ""
 
-- date: Tue Aug 26
+- date: Tue Jan 13
   homework:
-    deadline: "Due Fri, August 29th @ 11:59pm"
-    link: "projects/P1"
-    name: "Project 1A - Build Checkpoint"
-    numDays: 3
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
   lecture:
     link: "assets/pdfs/01-introduction.pdf"
     name: "Introduction"
@@ -34,7 +34,7 @@
     quiz: ""
     slides: ""
 
-- date: Wed Aug 27
+- date: Wed Jan 14
   homework:
     deadline: ""
     link: ""
@@ -52,15 +52,15 @@
     quiz: ""
     slides: ""
 
-- date: Thu Aug 28
+- date: Thu Jan 15
   homework:
     deadline: ""
     link: ""
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/02-archaeology.pdf"
-    name: "Software Archaeology"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -70,12 +70,12 @@
     quiz: ""
     slides: ""
 
-- date: Fri Aug 29
+- date: Fri Jan 29
   homework:
-    deadline: "Due Thu, Sept 4th @ 11:59pm"
-    link: "projects/P1"
-    name: "Project 1B - Starter Task"
-    numDays: 4
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
   lecture:
     link: ""
     name: ""
@@ -113,11 +113,11 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/03-737MAX.pdf"
-    name: "Boeing Case Study"
+    link: ""
+    name: ""
   reading:
-    link: "https://canvas.cmu.edu/courses/48397/quizzes/146241"
-    name: "Boeing Case Study Reading"
+    link: ""
+    name: ""
   recitation:
     handout: ""
     name: ""
@@ -149,8 +149,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/04-metrics.pdf"
-    name: "Metrics and Measurement"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -162,10 +162,10 @@
 
 - date: Fri Sep 5
   homework:
-    deadline: "Due Mon, Sept 15th @ 11:59pm"
-    link: "projects/P2"
-    name: "Project 2A - Team Contract & Project Planning"
-    numDays: 7
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
   lecture:
     link: ""
     name: ""
@@ -191,10 +191,10 @@
     link: ""
     name: ""
   recitation: 
-    handout: "recitations/reci2-teamcontract"
-    name: "Recitation 2 - Team Contract Workshop"
-    quiz: "https://www.gradescope.com/courses/1086939/assignments/6646974"
-    slides: "https://docs.google.com/presentation/d/1-NnmKEycNRRA6zbz4HHvRz24Zxqp8rhZ2iekMcEz7Vg/edit?usp=sharing"
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
 
 - date: Tue Sep 9
   homework:
@@ -203,8 +203,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/05-Process.pdf"
-    name: "Process"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -239,8 +239,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/06-Teams-Communication.pdf"
-    name: "Teams and Communication"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -282,19 +282,19 @@
     name: ""
   recitation:
     handout: "recitations/reci3-archaeology"
-    name: "Recitation 3 - Software Archaeology"
-    quiz: "https://www.gradescope.com/courses/1086939/assignments/6689436/"
-    slides: "https://docs.google.com/presentation/d/19ym2ZT1t6W4942ayiTozBwoFtsEOPANeRBH1UB7g9k4/edit?slide=id.g2d896fab132_0_194#slide=id.g2d896fab132_0_194"
+    name: ""
+    quiz: ""
+    slides: ""
 
 - date: Tue Sep 16
   homework:
-    deadline: "Due Fri, Sept 26th @ 11:59pm"
-    link: "projects/P2"
-    name: "Project 2B - Presentation Slides & Process and Implementation"
-    numDays: 9
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
   lecture:
-    link: "assets/pdfs/07-architecture-intro.pdf"
-    name: "Introduction to Software Architecture"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -329,8 +329,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/08-architecture-microservices.pdf"
-    name: "Architecture - Microservices"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -371,10 +371,10 @@
     link: ""
     name: ""
   recitation:
-    handout: "recitations/reci4-checkpoint"
-    name: "Recitation 4 - Checkpoint Presentations"
-    quiz: "https://www.gradescope.com/courses/1086939/assignments/6743079"
-    slides: "https://docs.google.com/presentation/d/10WjnMVX3gXdcUsExmhBrrumL-WK8OZ_Ao3WN2-eJAxo/edit?slide=id.p#slide=id.p"
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
 
 - date: Tue Sep 23
   homework:
@@ -383,8 +383,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/09-design-docs.pdf"
-    name: "Architecture: Design Docs"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -419,8 +419,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/10-code-review-risk.pdf"
-    name: "Build Software Safely"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -450,10 +450,10 @@
 
 - date: Mon Sep 29
   homework:
-    deadline: "Due Fri, Oct 10th @ 11:59pm"
-    link: "projects/P2"
-    name: "Project 2C - Final"
-    numDays: 10
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
   lecture:
     link: ""
     name: ""
@@ -461,10 +461,10 @@
     link: ""
     name: ""
   recitation:
-    handout: "/recitations/reci5-team-dysfunction"
-    name: "Recitation 5 - Team Dysfunction"
-    quiz: "https://www.gradescope.com/courses/1086939/assignments/6857097"
-    slides: "https://docs.google.com/presentation/d/1_czOeyWzztSjLHZjDF7bwNETP4PsKu_j1wczt9o0aOY/edit?usp=sharing"
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
 
 - date: Tue Sep 30
   homework:
@@ -473,8 +473,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/11-ai-activity.pdf"
-    name: "Activity: Vibe Coding"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -509,8 +509,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/12-ai-followup.pdf"
-    name: "Vibe to Survive"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -551,10 +551,10 @@
     link: ""
     name: ""
   recitation:
-    handout: "/recitations/reci6-deployment"
-    name: "Recitation 6 - Deployment"
-    quiz: "https://www.gradescope.com/courses/1086939/assignments/6907182/"
-    slides: "https://docs.google.com/presentation/d/1hZHb2oRGethq9sWWYWV3oSnrBUV5p6nbuiUH-zNLh10/edit?usp=sharing"
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
 
 - date: Tue Oct 7
   homework:
@@ -563,8 +563,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/13-deployment-exercise.pdf"
-    name: "Deployment Exercise"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -600,10 +600,10 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Midterm 1"
+    name: ""
   reading:
-    link: "https://docs.google.com/presentation/d/111Vz1ZGVDSDhwKvP2W4Feoohu8BGN487tPqUVF_PZBk/edit?usp=sharing"
-    name: "Midterm 1 Review Slides"
+    link: ""
+    name: ""
   recitation:
     handout: ""
     name: ""
@@ -654,7 +654,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Fall Break - No Class"
+    name: ""
   reading:
     link: ""
     name: ""
@@ -690,7 +690,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Fall Break - No Class"
+    name: ""
   reading:
     link: ""
     name: ""
@@ -720,10 +720,10 @@
 
 - date: Mon Oct 20
   homework: 
-    deadline: "Due Thu, Oct 23rd @ 11:59pm"
-    link: "projects/P3"
-    name: "Project 3A - Checkpoint Deliverables"
-    numDays: 4
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
   lecture:
     link: ""
     name: ""
@@ -731,9 +731,9 @@
     link: ""
     name: ""
   recitation:
-    handout: "/recitations/reci7-onprem-setup"
-    name: "Recitation 7 - On Prem Deployment"
-    quiz: "https://www.gradescope.com/courses/1086939/assignments/6968272/"
+    handout: ""
+    name: ""
+    quiz: ""
     slides: ""
 
 - date: Tue Oct 21
@@ -743,8 +743,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "/assets/pdfs/15-static-analysis.pdf"
-    name: "Shifting Left with Static Analysis"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -779,8 +779,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "/assets/pdfs/17-software-quality.pdf"
-    name: "Code Quality"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -792,10 +792,10 @@
 
 - date: Fri Oct 24
   homework:
-    deadline: "Due Thu, Oct 30th @ 11:59pm"
-    link: "projects/P3"
-    name: "Project 3B - Final Deliverables"
-    numDays: 5
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
   lecture:
     link: ""
     name: ""
@@ -821,10 +821,10 @@
     link: ""
     name: ""
   recitation:
-    handout: "/recitations/reci8-docker"
-    name: "Recitation 8 - Docker"
+    handout: ""
+    name: ""
     quiz: ""
-    slides: "https://docs.google.com/presentation/d/1u0c83cHJiNl8SRBC9OIeGeLZEo4UawSCErmAo50D3T4/edit?usp=sharing"
+    slides: ""
 
 - date: Tue Oct 28
   homework:
@@ -833,8 +833,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "/assets/pdfs/17-dynamic-analysis.pdf"
-    name: "Beyond Traditional Testing with Dynamic Analysis"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -869,8 +869,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "/assets/pdfs/18-testing-examples-to-properties.pdf"
-    name: "Testing: From Examples to Properties"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -882,10 +882,10 @@
 
 - date: Fri Oct 31
   homework:
-    deadline: "Due Thurs, Nov 6th @ 11:59pm UPDATE: Fri, Nov 7th @ 11:59pm"
-    link: "projects/P4"
-    name: "Project P4 - Checkpoint 1"
-    numDays: 5
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
   lecture:
     link: ""
     name: ""
@@ -911,10 +911,10 @@
     link: ""
     name: ""
   recitation:
-    handout: /recitations/reci9-pbt
-    name: "Recitation 9 - Property-Based Testing"
-    quiz: "https://www.gradescope.com/courses/1086939/assignments/7094250"
-    slides: "https://docs.google.com/presentation/d/1DBntqo3SHTjQ2YKRkfkhYQT0dXuA94EvKtNE72xJmX4"
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
 
 - date: Tue Nov 4
   homework:
@@ -924,7 +924,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Democracy Day"
+    name: ""
   reading:
     link: ""
     name: ""
@@ -959,8 +959,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/19-OpenSource-Licenses-Dependencies.pdf"
-    name: "Open Source and Dependency Management"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -972,10 +972,10 @@
 
 - date: Fri Nov 7
   homework:
-    deadline: "Due Tue, Nov 11th @ 11:59pm"
-    link: "projects/P4"
-    name: "Project P4 - Final Deliverables"
-    numDays: 3
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
   lecture:
     link: ""
     name: ""
@@ -1001,10 +1001,10 @@
     link: ""
     name: ""
   recitation:
-    handout: /recitations/reci10-open-source
-    name: "Recitation 10 - Open Source Projects"
-    quiz: "https://www.gradescope.com/courses/1086939/assignments/7124611"
-    slides: "https://docs.google.com/presentation/d/1qmGXCmjzyt2xlLG7koq_C5uBh4LJtWwwGggt-bwLabo/edit?usp=sharing"
+    handout: ""
+    name: ""
+    quiz: ""
+    slides: ""
 
 - date: Tue Nov 11
   homework:
@@ -1013,8 +1013,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "https://canvas.cmu.edu/courses/48397/files/folder/Guest%20Lectures?preview=13541698"
-    name: "Guest Lecture: Difficult Conversations (Login required)"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -1026,10 +1026,10 @@
 
 - date: Wed Nov 12
   homework:
-    deadline: "Due Sun, Nov 16th @ 11:59pm"
-    link: "projects/P5"
-    name: "Project P5A - Project and Task Selection" 
-    numDays: 3
+    deadline: ""
+    link: ""
+    name: "" 
+    numDays: 0
   lecture:
     link: ""
     name: ""
@@ -1049,8 +1049,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/21-reliably-releasing-software.pdf"
-    name: "Reliably Releasing Software"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -1080,10 +1080,10 @@
 
 - date: Mon Nov 17
   homework:
-    deadline: "Due Fri, Dec 12th @ 8:30am"
-    link: "projects/P5/2_projectfinal/"
-    name: "Project P5B - Project Final Report & Presentations"
-    numDays: 16
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
   lecture:
     link: ""
     name: ""
@@ -1091,9 +1091,9 @@
     link: ""
     name: ""
   recitation:
-    handout: "/recitations/reci11-p5-checkin"
-    name: "Recitation 11 - Open Source Project and Task Selection Check In"
-    quiz: "https://www.gradescope.com/courses/1086939/assignments/7168651"
+    handout: ""
+    name: ""
+    quiz: ""
     slides: ""
 
 - date: Tue Nov 18
@@ -1103,8 +1103,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/20-Ethics.pdf"
-    name: "Ethics"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -1140,10 +1140,10 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Midterm 2"
+    name: ""
   reading:
-    link: "https://docs.google.com/presentation/d/17NLJTihtI1stTu7xAEBIgUJqDU-iRD69JLB5AnixYCM/edit?usp=sharing"
-    name: "Midterm 2 Review Slides"
+    link: ""
+    name: ""
   recitation:
     handout: ""
     name: ""
@@ -1182,7 +1182,7 @@
     name: ""
   recitation:
     handout: ""
-    name: "No Recitation"
+    name: ""
     quiz: ""
     slides: ""
 
@@ -1194,7 +1194,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Thanksgiving Break - No Class"
+    name: ""
   reading:
     link: ""
     name: ""
@@ -1230,7 +1230,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "Thanksgiving Break - No Class"
+    name: ""
   reading:
     link: ""
     name: ""
@@ -1272,7 +1272,7 @@
     name: ""
   recitation:
     handout: ""
-    name: "Recitation 12 - OH for Project 5B"
+    name: ""
     quiz: ""
     slides: ""
 
@@ -1283,8 +1283,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/21-employment.pdf"
-    name: "This Lecture could save you 12 Million Dollars"
+    link: ""
+    name: ""
   reading:
     link: ""
     name: ""
@@ -1338,7 +1338,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: "FINAL PRESENTATION"
+    name: ""
   reading:
     link: ""
     name: ""
@@ -1350,10 +1350,10 @@
 
 - date: Sat Dec 13
   homework:
-    deadline: "Due Sat, Dec 13th @ 11:59pm"
-    link: "projects/P5/2_projectfinal/"
-    name: "Project P5C - Individual Reflection"
-    numDays: 4
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
   lecture:
     link: ""
     name: ""
