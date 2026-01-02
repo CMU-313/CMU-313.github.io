@@ -6,13 +6,33 @@ hide:
 
 A list of student groups with links to their merged PRs in open source projects.
 
+## 2025 Fall
+| Group Name | Team Members | Project | Merged PRs |
+| ---------- | ------------ | ------- | ---------- |
+| MYNN | Matthew Mingus, Nihitha Sunil, Nikhil Gandhi, Yuxiang Huang | [Graphite](https://github.com/GraphiteEditor/Graphite) | [#3409](https://github.com/GraphiteEditor/Graphite/pull/3409) |
+| Unknown | Adam Nurlign, Alex Cheung, Hyeonjae Park, Muskan Mankikar | [Twenty](https://github.com/twentyhq/twenty) | [#16303](https://github.com/twentyhq/twenty/pull/16303) |
+| Null Terminators | Alex Torres Vivaldo, Jimmy Zhang, Preeya Kirani, Samhitha Duggirala, Sofia Yu | [Hoppscotch](https://github.com/hoppscotch/hoppscotch) | [#5665](https://github.com/hoppscotch/hoppscotch/pull/5665) |
+| Level Up | Alejandro Estrada, Immanuel Chuks-Okoh, Lucas Hazard, Misty Fan | [Activist](https://github.com/activist-org/activist) | [#1773](https://github.com/activist-org/activist/pull/1773) |
+| Blind Hikers | Arianna Martinelli, Enrique Gomez, Julia Schraml, Megha Jasti | [Recipe Scrapers](https://github.com/hhursev/recipe-scrapers) | [#1804](https://github.com/hhursev/recipe-scrapers/pull/1804) |
+| The Good Team | Isabelle Anis, Katherine Li, Kayla Edwards, Lily Beerhalter, Nick Jitjang | [Open Food Facts](https://github.com/openfoodfacts/openfoodfacts-server) | [#12720](https://github.com/openfoodfacts/openfoodfacts-server/pull/12720) |
+| Beach Day | Anabella Arzate, Pasha Deynega, Ravi Oliveira Nedungadi, Streak Honey, Tiffany Ahn | [Dinosaur Exploder](https://github.com/jvondermarck/dinosaur-exploder) | [#237](https://github.com/jvondermarck/dinosaur-exploder/pull/237), [#238](https://github.com/jvondermarck/dinosaur-exploder/pull/238) |
+| Waffle Warriors | Amiya Chokhawala, Felicia Zhang, Simon Yu, Wesley Kane | [Daily Dot Dev](https://github.com/dailydotdev/apps) | [#5133](https://github.com/dailydotdev/apps/pull/5133) |
+| Snow Falcons | Andrew Xue, Jacob Baer, Mason Brownrigg, Sunny Guo | [Angular](https://github.com/angular/angular) | [#66010](https://github.com/angular/angular/pull/66010) |
+| Jack | Alicia Chen, Cici Ge, Claire Sze, Jerry Chen, Joon Kwon | [Readest](https://github.com/readest/readest) | [#2725](https://github.com/readest/readest/pull/2725) |
+| Team Bluey | Diana Cano, Lisa Huang, Luciana Requena, Michael Yan, Sam Curry | [Otwarchive](https://github.com/otwcode/otwarchive) | [#2725](https://github.com/otwcode/otwarchive/pull/5482) |
+| Rev United | Aditi Agni, Biplop Ghimire, Edison Dao, Henry Zhu | [Weblate](https://github.com/WeblateOrg/weblate) | [#17204](https://github.com/WeblateOrg/weblate/pull/17204) |
+| Matcha | Ashley Liu, Mandy Yin, Matthew Kwee, Nicole Huang | [Firefox](https://github.com/mozilla-firefox/firefox) | [#D275038](https://phabricator.services.mozilla.com/D275038), [#D275546](https://phabricator.services.mozilla.com/D275546) |
+| Cache Crew | Adam Sultan, Eshar Hans, Mandi Niu, Martin Jimenez | [Shipper](https://github.com/ElphaTech/shipper) | [#28](https://github.com/ElphaTech/shipper/pull/28) |
+| Carnegie Andrew | Andrew Johnson, Jessica Cai, Sean Jiang, Yuri Xu | [FreeCodeCamp]() | [#]() |
+| JAY-Z | Aaron Husun, Ana Fontan, Evan Cen, Jaimin Fee, Zhiyuan Guo Liau | [JupyterLab](https://github.com/jupyterlab/jupyterlab) | [#18145](https://github.com/jupyterlab/jupyterlab/pull/18145) |
+
+
 ## 2025 Spring 
 | Group Name | Team Members | Project | Merged PRs |
 | ---------- | ------------ | ------- | ---------- |
 | Bearries | Julie Wu, Yuki Ma, Doris Gao, Lynn Zhang | [Jupyter Lab](https://github.com/jupyterlab/jupyterlab/) | [#17540](https://github.com/jupyterlab/jupyterlab/pull/17540) |
 | Information Swimmers | Daniel Contreras, Jonathan Oh, Bo Xie, Savannah Xu | [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp/) | [#60108](https://github.com/freeCodeCamp/freeCodeCamp/pull/60108), [#60134](https://github.com/freeCodeCamp/freeCodeCamp/pull/60134) |
 | MR Steaks | Baron Niu, Autumn Qiu, Amelia Kratzer | [Dinosaur Exploder](https://github.com/jvondermarck/dinosaur-exploder/) | [#196](https://github.com/jvondermarck/dinosaur-exploder/pull/196), [#197](https://github.com/jvondermarck/dinosaur-exploder/pull/197) |
-
 
 
 ## 2024 Fall 
