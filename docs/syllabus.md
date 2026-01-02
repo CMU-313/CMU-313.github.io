@@ -37,9 +37,9 @@ Research shows that using devices on non-class related activities harms both the
 Note that recitation activities will often involve devices, so please do bring your laptop!
 
 ## Assessment
-Evaluation will be based on the following distribution: 60% projects, 20% midterms(10% each), 20% participation (including lecture exercises, pre-lecture reading quizzes, and recitation exercises). 
+Evaluation will be based on the following distribution: **60% projects, 20% midterms (10% each), 20% participation** (including lecture exercises, pre-lecture reading quizzes, and recitation exercises). 
 
-**Project Points Breakdown (tentative)**
+**Detailed Project Points Breakdown (tentative)**
 
 | Project | # Days Given | Points | % of HW grade |  % of total grade |
 | --- | --- | --- | --- | --- |
