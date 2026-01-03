@@ -23,7 +23,7 @@ A list of student groups with links to their merged PRs in open source projects.
 | Rev United | Aditi Agni, Biplop Ghimire, Edison Dao, Henry Zhu | [Weblate](https://github.com/WeblateOrg/weblate) | [#17204](https://github.com/WeblateOrg/weblate/pull/17204) |
 | Matcha | Ashley Liu, Mandy Yin, Matthew Kwee, Nicole Huang | [Firefox](https://github.com/mozilla-firefox/firefox) | [#D275038](https://phabricator.services.mozilla.com/D275038), [#D275546](https://phabricator.services.mozilla.com/D275546) |
 | Cache Crew | Adam Sultan, Eshar Hans, Mandi Niu, Martin Jimenez | [Shipper](https://github.com/ElphaTech/shipper) | [#28](https://github.com/ElphaTech/shipper/pull/28) |
-| Carnegie Andrew | Andrew Johnson, Jessica Cai, Sean Jiang, Yuri Xu | [FreeCodeCamp]() | [#]() |
+| Carnegie Andrew | Andrew Johnson, Jessica Cai, Sean Jiang, Yuri Xu | [FreeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | [#64319](https://github.com/freeCodeCamp/freeCodeCamp/pull/64319) |
 | JAY-Z | Aaron Husun, Ana Fontan, Evan Cen, Jaimin Fee, Zhiyuan Guo Liau | [JupyterLab](https://github.com/jupyterlab/jupyterlab) | [#18145](https://github.com/jupyterlab/jupyterlab/pull/18145) |
 
 
