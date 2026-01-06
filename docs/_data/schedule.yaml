@@ -12,7 +12,7 @@
     name: ""
   recitation:
     handout: "recitations/reci1-nodeBB"
-    name: "Recitation 1 - Understand NodeBB"
+    name: "Recitation 1 - Understand NodeBB (Asynchronous)"
     quiz: ""
     slides: ""
 
