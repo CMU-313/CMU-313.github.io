@@ -19,7 +19,7 @@ A list of student groups with links to their merged PRs in open source projects.
 | Waffle Warriors | Amiya Chokhawala, Felicia Zhang, Simon Yu, Wesley Kane | [Daily Dot Dev](https://github.com/dailydotdev/apps) | [#5133](https://github.com/dailydotdev/apps/pull/5133) |
 | Snow Falcons | Andrew Xue, Jacob Baer, Mason Brownrigg, Sunny Guo | [Angular](https://github.com/angular/angular) | [#66010](https://github.com/angular/angular/pull/66010) |
 | Jack | Alicia Chen, Cici Ge, Claire Sze, Jerry Chen, Joon Kwon | [Readest](https://github.com/readest/readest) | [#2725](https://github.com/readest/readest/pull/2725) |
-| Team Bluey | Diana Cano, Lisa Huang, Luciana Requena, Michael Yan, Sam Curry | [Otwarchive](https://github.com/otwcode/otwarchive) | [#2725](https://github.com/otwcode/otwarchive/pull/5482) |
+| Team Bluey | Diana Cano, Lisa Huang, Luciana Requena, Michael Yan, Sam Curry | [Otwarchive](https://github.com/otwcode/otwarchive) | [#5482](https://github.com/otwcode/otwarchive/pull/5482) |
 | Rev United | Aditi Agni, Biplop Ghimire, Edison Dao, Henry Zhu | [Weblate](https://github.com/WeblateOrg/weblate) | [#17204](https://github.com/WeblateOrg/weblate/pull/17204) |
 | Matcha | Ashley Liu, Mandy Yin, Matthew Kwee, Nicole Huang | [Firefox](https://github.com/mozilla-firefox/firefox) | [#D275038](https://phabricator.services.mozilla.com/D275038), [#D275546](https://phabricator.services.mozilla.com/D275546) |
 | Cache Crew | Adam Sultan, Eshar Hans, Mandi Niu, Martin Jimenez | [Shipper](https://github.com/ElphaTech/shipper) | [#28](https://github.com/ElphaTech/shipper/pull/28) |
