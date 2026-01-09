@@ -1,15 +1,15 @@
 ---
-title: Recitation 1 - Understand NodeBB 
+title: Recitation 1 - Understand NodeBB (Asynchronous) + Installation of NodeBB Office Hours (Optional)
 ---
 
-# Recitation 1: Understand NodeBB - DUE Friday January 16th, 11:59pm
-### NOTE: because this recitation falls before the first day of class, we are having this recitation ONLY by asynchronous.  You will complete online, and not attend recitation in person until January 26th (January 19th is MLK Jr. day).
+# Recitation 1: Understand NodeBB (Asynchronous) + Installation of NodeBB (Optional) - DUE Friday January 16th, 11:59pm
+### NOTE: because this recitation falls before the first day of class, it will be asynchronous.  You will complete online, and not attend recitation in person until January 26th (January 19th is MLK Jr. day). HOWEVER, if you want to start and get some help with [Project 1A: Build Checkpoint](), there will be Office Hours held by TAs during recitation times.
 
 ## Overview
 
 In this course, we will be building on a piece of open source software, [NodeBB](https://nodebb.org/). NodeBB is "an innovative forum software designed to meet the needs of modern online communities."
 
-We  will be using NodeBB for the majority of the semester, and we want to start by having you become familiar with the software. 
+We will be using NodeBB for the majority of the semester, and we want to start by having you become familiar with the software. 
 
 You can find an instance of the software deployed at: [Class NodeBB](http://17313-nodebb.s3d.cmu.edu/)
 
