@@ -600,7 +600,7 @@
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Midterm 1"
   reading:
     link: ""
     name: ""
@@ -1226,7 +1226,7 @@
   homework:
     deadline: ""
     link: ""
-    name: ""
+    name: "Midterm 2"
     numDays: 0
   lecture:
     link: ""
