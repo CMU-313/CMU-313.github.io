@@ -73,7 +73,7 @@ Describing tradeoffs among decisions and communication with less technical stake
 
 ### Policy on use of Generative AI for Writing
 
-You may use generative AI technologies such as *ChatGPT* or *CoPilot* for assisting in code development or writing responses to homework questions, **unless the question specifically prohibits it**. However, any use of AI comes with **two caveats**: (1) you must clearly indicate the use of such technology (and name the tool) in every homework question or source code file where an AI tool was used as a form of attribution, just as you would if you had taken help from a friend; (2) you are liable for factually inaccurate answers or unspecific rambling produced by AI tools; it is your responsibility to edit AI-produced content before submitting it for class purposes. 
+You may use generative AI technologies such as *Gemini* or *Claude* for assisting in code development.  We **Very Strongly Discourage** using AI to *Generate* writing responses, but we encourage its use for editing your writing.  In addition **you are liable for factually inaccurate answers or unspecific rambling produced by AI tools**, and we will assess significant penalties to low quality (**AI Slop**) responses.  It is your responsibility to validate and verify AI-produced content before submitting it for class purposes. 
 
 ## Professionalism
 Your classmates are your colleagues. This is particularly true in this course, where we aim to provide you with principles, practices, tools, and paradigms that will enable you to be an effective, real-world Software Engineer. **We ask that you treat one another like the professionals you are and that you are preparing to be.**
