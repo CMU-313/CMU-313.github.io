@@ -5,12 +5,17 @@
   website: https://www.cs.cmu.edu/~mhilton/
   photo: michael.jpg
 
-- name: Chris Timperley
+- name: Joshua Sunshine
   role: Instructor
-  email: ctimperley@cmu.edu
-  website: https://chris.timperley.info/
-  photo: ChrisT.jpg
+  email: sunshine@cs.cmu.edu
+  website: https://www.cs.cmu.edu/~jssunshi/
+  photo: Joshua_Sunshine.jpg
 
+- name: Autumn Qiu
+  role: Teaching Assistant
+  email: autumnq@andrew.cmu.edu
+  website:
+  photo: Autumn.jpg
 
 - name: Juan Ageitos
   role: Teaching Assistant
@@ -23,39 +28,27 @@
   email: barameeb@andrew.cmu.edu
   website:
   photo: Bing.jpeg
-  
-- name: Savannah Xu
-  role: Teaching Assistant
-  email: savannax@andrew.cmu.edu
-  website:
-  photo: Savannah.jpeg
 
-- name: Kareem Segizekov
+- name: Kaia Newman
   role: Teaching Assistant
-  email: ksegizek@andrew.cmu.edu
+  email: klnewman@andrew.cmu.edu 
   website:
-  photo: Kareem.jpg
+  photo: Kaia_Newman.jpg
 
-- name: Jonathan Oh
+- name: Hwei-Shin Harriman
   role: Teaching Assistant
-  email: jjo2@andrew.cmu.edu
+  email: hweishih@andrew.cmu.edu
   website:
-  photo: JonathanOh.jpeg
+  photo: Hwei-Shin_Harriman.jpg
 
-- name: Autumn Qiu
+- name: Lisa Huang
   role: Teaching Assistant
-  email: autumnq@andrew.cmu.edu
+  email: wenleh@andrew.cmu.edu
   website:
-  photo: Autumn.jpg
+  photo: Lisa_Huang.jpg
 
-- name: Rathi Murugan
+- name: Alejandro Estrada
   role: Teaching Assistant
-  email: rmurugan@andrew.cmu.edu
+  email: alejande@andrew.cmu.edu
   website:
-  photo: Rathi.jpg
-
-- name: Sarah Cross
-  role: Teaching Assistant
-  email: sarahcro@andrew.cmu.edu
-  website:
-  photo: Sarah.jpg
+  photo: Alejandro_Estrada.jpg

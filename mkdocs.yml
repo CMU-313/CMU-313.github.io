@@ -71,46 +71,51 @@ nav:
           - Git Commands Reference: projects/P1/git-commands-reference.md
           - Resources and Documentation: projects/P1/documentation.md
           - FAQ: projects/P1/faq.md
-      - "Project 2: Collaborative Development":
-          - projects/P2/index.md
-          - 2A Team Process & Planning: projects/P2/1_teamprocess.md
-          - 2B First Sprint: projects/P2/2_firstsprint.md
-          - 2C Second Sprint: projects/P2/3_secondsprint.md
-      - "Project 3: Continuous Integration + Deployment":
-          - projects/P3/index.md
-          - "Linux VM Deployment Instructions": projects/P3/deployment.md
-      - "Project 4: Architecting an LLM Integration":
-          - projects/P4/index.md
-          - 4A Design and Test: projects/P4/1_checkpoint.md
-          - 4B Implementation and Evaluation: projects/P4/2_checkpoint.md
-      - "Project 5: Open Source Excursion":
-          - projects/P5/index.md
-          - "5A Project and Task Selection": projects/P5/1_projectcheck.md
-          - "5B & C Project Presentations, Final Report, and Reflections": projects/P5/2_projectfinal.md
+      # - "Project 2: Collaborative Development":
+      #     - projects/P2/index.md
+      #     - 2A Team Process & Planning: projects/P2/1_teamprocess.md
+      #     - 2B First Sprint: projects/P2/2_firstsprint.md
+      #     - 2C Second Sprint: projects/P2/3_secondsprint.md
+      # - "Project 3: Continuous Integration + Deployment":
+      #     - projects/P3/index.md
+      #     - "Linux VM Deployment Instructions": projects/P3/deployment.md
+      # - "Project 4: Architecting an LLM Integration":
+      #     - projects/P4/index.md
+      #     - 4A Design and Test: projects/P4/1_checkpoint.md
+      #     - 4B Implementation and Evaluation: projects/P4/2_checkpoint.md
+      # - "Project 5: Open Source Excursion":
+      #     - projects/P5/index.md
+      #     - "5A Project and Task Selection": projects/P5/1_projectcheck.md
+      #     - "5B & C Project Presentations, Final Report, and Reflections": projects/P5/2_projectfinal.md
 
   - Recitations:
-      #- recitations/index.md # Dummy home page; remove once we start adding recitations below
+      # - recitations/index.md # Dummy home page; remove once we start adding recitations below
+      # S26 RECIS
       - Recitation 1 - Understand NodeBB: recitations/reci1-nodeBB.md
-      - Recitation 2 - Team Contract Workshop: recitations/reci2-teamcontract.md
-      - Recitation 3 - Software Archaeology: recitations/reci3-archaeology.md
-      - Recitation 4 - Checkpoint Presentations: recitations/reci4-checkpoint.md
-      - Recitation 5 - Team Dysfunction: recitations/reci5-team-dysfunction.md
-      - Recitation 6 - Deployment: recitations/reci6-deployment.md
-      - Recitation 7 - On Prem Deployment: recitations/reci7-onprem-setup.md
-      - Recitation 8 - Docker and Containerization: recitations/reci8-docker.md
-      - Recitation 9 - Property-Based Testing: recitations/reci9-pbt.md
+
+      # F25 RECIS
+      # - Recitation 2 - Team Contract Workshop: recitations/reci2-teamcontract.md
+      # - Recitation 3 - Software Archaeology: recitations/reci3-archaeology.md
+      # - Recitation 4 - Checkpoint Presentations: recitations/reci4-checkpoint.md
+      # - Recitation 5 - Team Dysfunction: recitations/reci5-team-dysfunction.md
+      # - Recitation 6 - Deployment: recitations/reci6-deployment.md
+      # - Recitation 7 - On Prem Deployment: recitations/reci7-onprem-setup.md
+      # - Recitation 8 - Docker and Containerization: recitations/reci8-docker.md
+      # - Recitation 9 - Property-Based Testing: recitations/reci9-pbt.md
+      # - Recitation 10 - Open Source Scavenger Hunt: recitations/reci10-open-source.md
+      # - Recitation 11 - Open Source Project and Task Selection Check In: recitations/reci11-p5-checkin.md
+
+      # OLDER RECIS
       # - Recitation 8 - LLMs: recitations/reci8-llms.md
       # - Recitation 9 - Open Source Scavenger Hunt: recitations/reci10-open-source.md
       # - Recitation 10 - Team Feedback: recitations/reci10-team-feedback.md
       # - Recitation 13 - Open Source Projects Presentation: recitations/reci13-open-source-presentation.md
       # - Recitation 7 - Azure Setup: recitations/reci7-azure-setup.md
       # - Recitation 9 - Team Feedback: recitations/reci9-team-feedback.md
-      - Recitation 10 - Open Source Scavenger Hunt: recitations/reci10-open-source.md
       # # - Recitation 10 - Team Feedback: recitations/reci10-team-feedback.md
       # # - Recitation 8 - Team Feedback: recitations/reci8-team-feedback.md
       # # - Recitation 9 - Machine Learning: recitations/reci9-ml.md
       # # - Recitation 10 - Open Source Projects: recitations/reci10-open-source.md
-      - Recitation 11 - Open Source Project and Task Selection Check In: recitations/reci11-p5-checkin.md
       # - Recitation 11 - Midterm Review: recitations/reci11-midterm-review.md
   - Hall of Fame: hall-of-fame.md
   - Resources:
@@ -119,6 +124,7 @@ nav:
       - Documentation: projects/P1/documentation.md
       - GitHub Guide: projects/P1/github.md
       - Extra Resources: extra_resources.md
-  - Canvas: https://canvas.cmu.edu/courses/48397 #need to update Canvas Link
-  - Gradescope: https://www.gradescope.com/courses/1086939 #need to update Gradescope link
-  - Slack: https://join.slack.com/t/cmu-313-f25/shared_invite/zt-3b8qpmag7-a55JyrJ8XmWl69TZDAlcpw
+  - Canvas: https://canvas.cmu.edu/courses/51340 # TODO: need to update Canvas Link
+  - Gradescope: https://www.gradescope.com/courses/1213157 # TODO: need to update Gradescope link
+  - Slack: https://join.slack.com/t/cmu-313-s26/shared_invite/zt-3lm0t5j8k-kriwFq_6SZDHEcSV1c2PSg
+
