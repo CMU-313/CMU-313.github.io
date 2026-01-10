@@ -1062,10 +1062,10 @@
 
 - date: Fri Apr 3
   homework:
-    deadline: "Due Wednesday, April 15, 2026 @ 11:59PM"
+    deadline: ""
     link: ""
-    name: "Project 5A1 - Project Selection"
-    numDays: 9
+    name: ""
+    numDays: 0
   lecture:
     link: ""
     name: ""
@@ -1080,9 +1080,9 @@
 
 - date: Mon Apr 6
   homework:
-    deadline: "Due Sunday, April 19, 2026 @ 11:59PM"
+    deadline: "5A1 due Wednesday, April 15, 2026 @ 11:59PM + 5A2 due Sunday, April 19, 2026 @ 11:59PM"
     link: ""
-    name: "Project 5A2 - Task Selection"
+    name: "Project 5A1 - Project Selection + Project 5A2 - Task Selection"
     numDays: 10
   lecture:
     link: ""
