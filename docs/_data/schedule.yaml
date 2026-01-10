@@ -1226,11 +1226,11 @@
   homework:
     deadline: ""
     link: ""
-    name: "Midterm 2"
+    name: ""
     numDays: 0
   lecture:
     link: ""
-    name: ""
+    name: "Midterm 2"
   reading:
     link: ""
     name: ""
