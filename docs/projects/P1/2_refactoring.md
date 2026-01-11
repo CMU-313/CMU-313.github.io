@@ -2,7 +2,7 @@
 
 ## Deliverables
 
-Starter Task - 95 points - due Thursday, September 4th, 11:59PM
+Starter Task - 95 points - due Friday, January 23rd, 11:59PM
 
 - [GitHub Issue](#github-issue-20-pts) (20 pts)
 - [Code Refactoring and Validation](#code-refactoring-and-validation-35-pts) (35 pts)
@@ -23,8 +23,8 @@ Your task is to remove one or more Qlty-reported issues by refactoring code and 
 Before jumping into the codebase, please review the [course syllabus](/syllabus) and be sure you have access to each of the following:
 
 - Course Slack - check your email for an invite link
-- [Canvas](https://canvas.cmu.edu/courses/48397)
-- [Gradescope](https://www.gradescope.com/courses/1086939)
+- [Canvas](https://canvas.cmu.edu/courses/51340)
+- [Gradescope](https://www.gradescope.com/courses/1213157)
 
 If you run into any trouble accessing the above or have any questions, reach out to the instructors.
 
@@ -193,7 +193,7 @@ A green checkmark on the PR signals that you’ve completed the implementation a
 
 ## Submission
 
-Finally, once you have created an issue and submitted a pull request, you should use the following Gradescope link to submit your work to be graded [Gradescope](https://www.gradescope.com/courses/1086939) 
+Finally, once you have created an issue and submitted a pull request, you should use the following Gradescope link to submit your work to be graded [Gradescope](https://www.gradescope.com/courses/1213157) 
 
 ## Grading
 

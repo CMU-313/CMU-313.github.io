@@ -10,7 +10,7 @@ Documentation for working with Git and GitHub:
 - [GitHub's Flow](https://guides.github.com/introduction/flow/)
 - [GitHub Cross-Referencing](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)
 
-We also have a [simple Git-based exercise](/projects/P1/github) that you are highly recommeneded to complete before proceeding with this project.
+We also have a [simple Git-based exercise](/projects/P1/github) that you are highly recommended to complete before proceeding with this project.
 
 ## NodeBB Documentation
 

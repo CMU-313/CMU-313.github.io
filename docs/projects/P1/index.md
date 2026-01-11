@@ -23,9 +23,9 @@ Our fork contains some tweaks to make the project easier to modify and debug. Th
 This is an **individual assignment**.
 There are four (4) deliverables and two (2) deadlines for this homework.
 
-A) [**Build Checkpoint**](1_checkpoint.md) - 5 points - due Friday, August 29th, 11:59pm
+A) [**Build Checkpoint**](1_checkpoint.md) - 5 points - due Friday, January 16th, 11:59pm
 
-B) [**Starter Task**](2_refactoring.md) - 95 points - due Thursday, September 4th, 11:59PM
+B) [**Starter Task**](2_refactoring.md) - 95 points - due Friday, January 23rd, 11:59PM
 
 - GitHub Issue (20 pts)
 - Code Refactoring and Validation (35 pts)

@@ -10,7 +10,7 @@ Try re-building some of the assets by running `./nodebb build` first, then try r
 
 ### I can't start a NodeBB instance and I get an error message saying that port 4567 is already in use.
 
-Maybe you have another NodeBB instance already running. Try stopping it via `./nodebb stop`. Otherwise, try using a differnt port.
+Maybe you have another NodeBB instance already running. Try stopping it via `./nodebb stop`. Otherwise, try using a different port.
 
 ## Analysis Tools
 
