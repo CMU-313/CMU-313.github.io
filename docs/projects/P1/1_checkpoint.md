@@ -13,7 +13,7 @@ After forking, ensure **GitHub Actions** are enabled for your fork by clicking t
 
 !!! warning
 	Even though this project is based off of an active open source project, we have made significant changes to ensure its suitability for our class.
-	As such, be sure you are forking off of **CMU-313/NodeBB** and direct any questions to course staff.
+	As such, be sure you are forking off of **CMU-313/NodeBB** and direct any questions to [course staff](https://cmu-313.github.io/#staff).
 	Do **not** contact the maintainers of NodeBB for assistance with your homework questions.
 
 ### Development Environment
@@ -31,6 +31,8 @@ It gives you a fully configured environment and makes it easier for the course s
 - [Visual Studio Code](https://code.visualstudio.com/) with the [Dev Containers extension](https://code.visualstudio.com/docs/devcontainers/tutorial)
 - [Ubuntu WSL2](https://learn.microsoft.com/en-us/windows/wsl/setup/environment#get-started) (if using Windows)
 
+!!! note "What is Docker?!"
+	You may be overwhelmed by the presence of this (maybe) unfamiliar tool, or maybe just curious about its functionality. Do not fear! We have put together a [Development Tools Guide](https://cmu-313.github.io/projects/P1/development-tools-guide/) where we cover the basics of Docker and other tools used for this project!
 
 #### Installation
 
