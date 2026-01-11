@@ -31,6 +31,8 @@ It gives you a fully configured environment and makes it easier for the course s
 - [Visual Studio Code](https://code.visualstudio.com/) with the [Dev Containers extension](https://code.visualstudio.com/docs/devcontainers/tutorial)
 - [Ubuntu WSL2](https://learn.microsoft.com/en-us/windows/wsl/setup/environment#get-started) (if using Windows)
 
+!!! note "What is Docker?!"
+	You may be overwhelmed by the presence of this (maybe) unfamiliar tool, or maybe just curious about its functionality. Do not fear! We have put together a (Development Tools Guide)[https://cmu-313.github.io/projects/P1/development-tools-guide/] where we cover the basics of Docker and other tools used for this project!
 
 #### Installation
 
