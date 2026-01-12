@@ -154,7 +154,7 @@ hide:
         <th><b>Lecture</b></th>
         <th><b>Reading</b></th>
         <th><b>Recitation</b></th>
-        <th><b>Project Deadline</b></th>
+        <th><b>Project Deadline</b> (Subject to Change)</th>
     </thead>
     <tbody>
         {% for schedule_day in schedule %}

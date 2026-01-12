@@ -125,7 +125,7 @@ You should soon see another comment by the `github-actions` bot informing you th
 For this task, you will focus on refactoring the code and removing the corresponding Qlty issue(s) from your chosen file.
 As part of the task, you must validate your changes for **one Qlty-reported smell** by re-running Qlty locally.
 
-Back in your own fork, create a feature branch and implement the changes needed to address the chosen Qlty smell.
+**Back in your own fork**, create a feature branch and implement the changes needed to address the chosen Qlty smell.
 You should start with the following steps:
 
 - Review the Qlty smells for the file (via ` qlty smells <selected/file.js>`).
