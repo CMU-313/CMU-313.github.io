@@ -38,7 +38,7 @@ In this project and throughout the rest of this course, you will be expected to 
 - [x] Creating GitHub Pull Requests and using related features (linking to issues)
 - [x] Creating GitHub Project Boards
 
-If you are not familiar with any of these steps, you are **highly recommended** to first complete Recitation 2 - Git, GitHub, as it will cover the standards we are expecting in this class (which you will be graded upon). Refer to the [Resources & Documentation](/projects/P1/documentation/#git--github-documentation) section if needed.
+If you are not familiar with any of these steps, you are **highly recommended** to wait after the mini-lesson on Git during lecture on Thursday January 15th, 2026, as it will cover the standards we are expecting in this class (which you will be graded upon). You should also refer to the [Resources & Documentation](/projects/P1/documentation/#git--github-documentation) section if needed. There is a [simple Git-based exercise](/projects/P1/github) that you are highly recommended to complete before proceeding with this project.
 
 ### Qlty
 
@@ -125,7 +125,7 @@ You should soon see another comment by the `github-actions` bot informing you th
 For this task, you will focus on refactoring the code and removing the corresponding Qlty issue(s) from your chosen file.
 As part of the task, you must validate your changes for **one Qlty-reported smell** by re-running Qlty locally.
 
-Back in your own fork, create a feature branch and implement the changes needed to address the chosen Qlty smell.
+**Back in your own fork**, create a feature branch and implement the changes needed to address the chosen Qlty smell.
 You should start with the following steps:
 
 - Review the Qlty smells for the file (via ` qlty smells <selected/file.js>`).
@@ -138,9 +138,9 @@ The purpose is to trigger the refactored code's execution from the user interfac
 
 - Within your implementation, add a print statement (e.g., `console.log(YOUR_NAME)`) immediately before, after, or in the middle of your refactored code.
 - Restart the NodeBB instance.
-- If you refactored a public/src/ file (front-end related file), watch logging via DevTools (`Ctrl+Shift+I` to open and then navigate to the 'Console' tab). If you refactored a src/ file, watch logging via `./nodebb log`.
+- If you refactored a `public/src/` file (front-end related file), watch logging via DevTools (`Ctrl+Shift+I` to open and then navigate to the 'Console' tab). If you refactored a `src/` file, watch logging via `./nodebb log`.
 - Perform any necessary UI operations that execute the refactored code (e.g., clicking buttons for an action)
-- Take a screenshot of these logs and include it in your pull request description, along with a brief explanation of the steps you took to trigger the code.
+- Take a screenshot of these logs and include it in your pull request (see next part of project) description, along with a brief explanation of the steps you took to trigger the code.
 - Remove the temporary print statement before committing your final code.
 
 ### GitHub Pull Request (40 pts)
@@ -193,7 +193,7 @@ A green checkmark on the PR signals that you’ve completed the implementation a
 
 ## Submission
 
-Finally, once you have created an issue and submitted a pull request, you should use the following Gradescope link to submit your work to be graded [Gradescope](https://www.gradescope.com/courses/1213157) 
+Finally, once you have created an issue and submitted a pull request, you should use the following Gradescope link to submit your work to be graded: [Gradescope](https://www.gradescope.com/courses/1213157/assignments/7446245) 
 
 ## Grading
 
