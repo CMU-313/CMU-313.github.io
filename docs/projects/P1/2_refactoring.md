@@ -138,9 +138,9 @@ The purpose is to trigger the refactored code's execution from the user interfac
 
 - Within your implementation, add a print statement (e.g., `console.log(YOUR_NAME)`) immediately before, after, or in the middle of your refactored code.
 - Restart the NodeBB instance.
-- If you refactored a public/src/ file (front-end related file), watch logging via DevTools (`Ctrl+Shift+I` to open and then navigate to the 'Console' tab). If you refactored a src/ file, watch logging via `./nodebb log`.
+- If you refactored a `public/src/` file (front-end related file), watch logging via DevTools (`Ctrl+Shift+I` to open and then navigate to the 'Console' tab). If you refactored a `src/` file, watch logging via `./nodebb log`.
 - Perform any necessary UI operations that execute the refactored code (e.g., clicking buttons for an action)
-- Take a screenshot of these logs and include it in your pull request description, along with a brief explanation of the steps you took to trigger the code.
+- Take a screenshot of these logs and include it in your pull request (see next part of project) description, along with a brief explanation of the steps you took to trigger the code.
 - Remove the temporary print statement before committing your final code.
 
 ### GitHub Pull Request (40 pts)
@@ -193,7 +193,7 @@ A green checkmark on the PR signals that you’ve completed the implementation a
 
 ## Submission
 
-Finally, once you have created an issue and submitted a pull request, you should use the following Gradescope link to submit your work to be graded [Gradescope](https://www.gradescope.com/courses/1213157) 
+Finally, once you have created an issue and submitted a pull request, you should use the following Gradescope link to submit your work to be graded: [Gradescope](https://www.gradescope.com/courses/1213157/assignments/7446245) 
 
 ## Grading
 
