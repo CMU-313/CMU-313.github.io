@@ -25,7 +25,7 @@ There are four (4) deliverables and two (2) deadlines for this homework.
 
 A) [**Build Checkpoint**](1_checkpoint.md) - 5 points - due Friday, January 16th, 11:59pm
 
-B) [**Starter Task**](2_refactoring.md) - 95 points - due Friday, January 23rd, 11:59PM
+B) [**Starter Task**](2_refactoring.md) - 95 points - due Friday, January 23rd, 11:59pm
 
 - GitHub Issue (20 pts)
 - Code Refactoring and Validation (35 pts)
