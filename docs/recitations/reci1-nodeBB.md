@@ -39,4 +39,6 @@ Login again after a few hours to see if anyone has responded to your Introductio
 !!! note Introductions are not public
     The "Introductions" category is configured so that it will not be indexed by search engines, etc. and are only visible to logged-in users.
 
+## Submission
 
+Submit a link to your post and a screenshot of your reply to another post [here](https://www.gradescope.com/courses/1213157/assignments/7397380). 
