@@ -25,6 +25,7 @@ A list of student groups with links to their merged PRs in open source projects.
 | Cache Crew | Adam Sultan, Eshar Hans, Mandi Niu, Martin Jimenez | [Shipper](https://github.com/ElphaTech/shipper) | [#28](https://github.com/ElphaTech/shipper/pull/28) |
 | Carnegie Andrew | Andrew Johnson, Jessica Cai, Sean Jiang, Yuri Xu | [FreeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | [#64319](https://github.com/freeCodeCamp/freeCodeCamp/pull/64319) |
 | JAY-Z | Aaron Husun, Ana Fontan, Evan Cen, Jaimin Fee, Zhiyuan Guo Liau | [JupyterLab](https://github.com/jupyterlab/jupyterlab) | [#18145](https://github.com/jupyterlab/jupyterlab/pull/18145) |
+| Piplup Party | Connor Hyatt, Zoe Robinson, Woody Li, Charlie Zhang | [langchain](https://github.com/langchain-ai/langchain) | [#33989](https://github.com/langchain-ai/langchain/pull/33989)
 
 
 ## 2025 Spring 
