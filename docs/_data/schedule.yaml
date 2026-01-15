@@ -59,7 +59,7 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/02-archaeology.pdf.pdf"
+    link: "assets/pdfs/02-archaeology.pdf"
     name: "Archaeology"
   reading:
     link: ""
