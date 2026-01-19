@@ -1,23 +1,16 @@
-lectures:
-- date: Tue Jan 13
-  link: assets/pdfs/01-introduction-wide.pdf
-  name: Introduction
-- date: Thu Jan 15
-  link: assets/pdfs/02-archaeology.pdf
-  name: Archaeology
+lectures: []
 
 projects:
-- date: Mon Jan 12
-  deadline: Due Friday, January 16, 2026 @ 11:59PM
-  end_date: 2026-01-19 00:00:00
+- date: Mon Jan 19
+  deadline: Due Friday, January 23, 2026 @ 11:59PM
+  end_date: 2026-01-26 00:00:00
   link: projects/P1
-  name: Project 1A - Build Checkpoint
+  name: Project 1B - Starter Task
   numDays: 5
 
 recitation:
-  date: Mon Jan 12
-  handout: recitations/reci1-nodeBB
-  name: Recitation 1 - Understand NodeBB (Asynchronous) + Installation of NodeBB Office
-    Hours (Optional)
-  quiz: https://www.gradescope.com/courses/1213157/assignments/7397380
+  date: Mon Jan 19
+  handout: ''
+  name: MLK Jr Day - No Reci
+  quiz: ''
   slides: ''
