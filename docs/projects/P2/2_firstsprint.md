@@ -61,7 +61,7 @@ Getting to know your colleagues in a friendly context can often lead to more eff
 
 You might want to eat together, go out for boba, or hold a board game session. Nearly anything outside of class, libraries and campus would work. (If you are unsure, feel free to ask a TA)
 
-To receive extra credit, submit a photo of your team activity as part of the P2B EC gradescope submission before the deadline. We encourage you to do these types of meetings often throughout the semester!
+To receive extra credit, submit a photo of your team activity as part of the P2B EC gradescope submission before the deadline and include it in a folder in your shared google drive. We encourage you to do these types of meetings often throughout the semester!
 
 
 ## Grading
