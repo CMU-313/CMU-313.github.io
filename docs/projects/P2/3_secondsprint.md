@@ -7,6 +7,7 @@
 - [Process & Implementation Final](#process-and-implementation-final-50-pts) (50 pts)
 - [Process & Team Reflection](#process-and-team-reflection-30-pts) (30 pts)
 - [Individual Reflection](#individual-reflection-30-pts) (30 pts)
+- *[Extra Credit](#extra-credit-2-pts) (2 pts)*
 
 
 ## Process and Implementation Final (50 pts)
