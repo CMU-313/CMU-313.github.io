@@ -104,6 +104,13 @@ Your reflection should address the following questions (and sub-questions):
 
 Similar to the team reflection task, we will grade the quality and depth of your reflection.
 
+### Extra Credit (2 pts)
+Getting to know your colleagues in a friendly context can often lead to more effective collaboration; for example, healthy teams often get lunch together. To incentivize this, we will give your team extra credit for this assignment if you meet for a team bonding experience outside of a working session.
+
+You might want to eat together, go out for boba, or hold a board game session. Nearly anything outside of class, libraries and campus would work. (If you are unsure, feel free to ask a TA)
+
+To receive extra credit, submit a photo of your team activity as part of the P2C EC gradescope submission before the deadline. We encourage you to do these types of meetings often throughout the semester!
+
 ## Grading
 To receive full credit for the implementation, we expect:
 
