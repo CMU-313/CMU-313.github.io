@@ -35,7 +35,7 @@ Submit a link to your repository and your Github Project board onto Gradescope. 
 
 ## Process and Team Reflection (30 pts)
 
-!!! warning Use of Generative AI discouraged
+!!! warning "Use of Generative AI discouraged"
     Historically, we have found the use of generative AI tools for this part of the assignment has resulted in poor work being submitted. It is your responsibility to make sure that you and your group feel comfortable with each others work and are putting in your best effort.
 
 After coding is complete, reflect on your experience as a team. Again, we look for honest reflection, which will likely include reflection on failures. **We will not grade whether you predicted the effort correctly, but rather what you have learned**. 
@@ -83,8 +83,8 @@ Being able to communicate effectively is an important software engineering skill
 
 ## Individual Reflection (30 pts)
 
-!!! warning "Use of Generative AI Forbidden"
-    As described in [the syllabus,](/syllabus/#policy-on-use-of-generative-ai-for-writing) the use of generative AI tools for this part of the assignment is forbidden, and will be considered to be an academic integrity violation. 
+!!! warning "Use of Generative AI discouraged"
+    Historically, we have found the use of generative AI tools for this part of the assignment has resulted in poor work being submitted. It is your responsibility to make sure that you and your group feel comfortable with each others work and are putting in your best effort.
 
 In addition to the team reflection, you will also be submitting an individual reflection on Gradescope. 
 
