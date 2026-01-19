@@ -107,7 +107,7 @@ Feel free to seek the assistance of TAs and instructors in drafting this documen
 !!! note
     We will ask you to reference, reflect upon, and refine this document throughout this semester, and we will evaluate your team's process strategies and interactions through what you outline in this contract. Please ensure that everyone on your team thoroughly discusses each of the above sections and agree with the final decisions.
 
-Once you have completed the contract itself, have all members sign and date the document as an indicator that all members have read the document and agreed to uphold all outlined items. Then, save the file as a PDF and upload it to Gradescope. Only one team member needs to make the submission; they can then add the rest of the teammates as group members for a group submission. 
+Once you have completed the contract itself, have all members sign and date the document as an indicator that all members have read the document and agreed to uphold all outlined items. Then, submit the link to the google document as part of the Gradescope submission. Only one team member needs to make the submission; they can then add the rest of the teammates as group members for a group submission. 
 
 We also **highly recommend** that you [bookmark](https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links) the teamwork contract in your team’s Slack channel.
 
@@ -179,12 +179,12 @@ You should actively assign and move these issues across your Kanban board as you
 Include a link to your GitHub board in your Gradescope submission. If you are unsure about your planned changes, you can ask for feedback from a member of the course staff!
 
 
-### Extra Credit (7 pts)
+### Extra Credit (2 pts)
 Getting to know your colleagues in a friendly context can often lead to more effective collaboration; for example, healthy teams often get lunch together. To incentivize this, we will give your team extra credit for this assignment if you meet for a team bonding experience outside of a working session.
 
-You might want to eat together, go out for boba, or hold a board game session. If someone on your team is not feeling well, you may also do a virtual activity such as an online gaming session (Drawphone, Skribbl.io, etc.) or social "Zoom lunch". 
+You might want to eat together, go out for boba, or hold a board game session. Nearly anything outside of class, libraries and campus would work. (If you are unsure, feel free to ask a TA)
 
-To receive extra credit, share the photo or screenshot of your team activity with your TA mentors by sending it in your team Slack channel before the deadline. We encourage you to do these types of meetings often throughout the semester!
+To receive extra credit, submit a photo of your team activity as part of the P2A EC gradescope submission before the deadline. We encourage you to do these types of meetings often throughout the semester!
 
 
 ## Grading
@@ -199,4 +199,5 @@ To receive full credit for the project planning, we expect:
 
 - [ ] A GitHub project board linked to your team repository with:
     - [ ] A User Story column containing at least two user stories per group member that satisfy the guidelines outlined in the sections above and in lecture
+    - [ ] Students should link their User Story as part of their own individual submission
     - [ ] A Backlog column containing a series of well written GitHub issues describing the feature(s) that the team will tackle. Each issue makes use of GitHub features to denote all of the required information listed above
