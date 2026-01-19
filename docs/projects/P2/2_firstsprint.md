@@ -72,16 +72,17 @@ To receive full credit for the implementation, we expect:
 - [ ] Fulfillment of implementation goals as outlined by the planned milestones, **or** a clearly written justification in the milestone description of why elements fell through
 - [ ] An updated Project Board for the current progress
 - [ ] Reasonable code structure and style, including documentation where appropriate
-- [ ] Coherent commits of reasonable size with meaningful commit messages by all team members
+- [ ] Coherent commits by all group members with reasonable size with meaningful commit messages by all team members
 - [ ] High quality usage of Git/GitHub tools, such as issues, milestones, pull requests, and commits
-- [ ] Well written and meaningful GitHub Pull Requests
+- [ ] Well written and meaningful GitHub Pull Requests with code reviews as a reply to the PR
+- [ ] Links to Commits and PRs individual group members particiated in
 
 To receive full credit for the presentation, we expect:
 
 - [ ] All team members to be present for the presentation (or have contacted their TAs ahead of time to request an absence) and to contribute towards presenting their team’s progress
 - [ ] All of the material described above covered in the presentation
 - [ ] PDF Slides uploaded to Gradescope for grading & feedback
-- [ ] Google Slides link on Gradescope submission to confirm equal division of work
+- [ ] Google Slides link on Gradescope submission located in shared Google Folder to confirm equal division of work
 
 
 ## Resources & Documentation
