@@ -30,7 +30,7 @@ Submit a link to your repository and your Github Project board onto Gradescope. 
 
 ## Checkpoint Presentation (45 pts)
 
-During the Week 5 recitation slot (**Monday, September 22nd**), your group will give a 10-minute presentation describing your current progress, followed by a short 1-2 minute Q&A session where you can get feedback from the TAs and your peers.
+During the Week 5 recitation slot (**Monday, February 9th**), your group will give a 10-minute presentation describing your current progress, followed by a short 1-2 minute Q&A session where you can get feedback from the TAs and your peers.
 
 Your slides should include the following information (the recommended slides amount is in parentheses):
 
