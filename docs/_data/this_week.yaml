@@ -1,4 +1,10 @@
-lectures: []
+lectures:
+- date: Tue Jan 20
+  link: assets/pdfs/03-737MAX.pdf
+  name: 737 MAX Case Study
+  reading:
+    link: https://canvas.cmu.edu/courses/51340/quizzes/155235
+    name: Boeing Case Study Reading
 
 projects:
 - date: Mon Jan 19
