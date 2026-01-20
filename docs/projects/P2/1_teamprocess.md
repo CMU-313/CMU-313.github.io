@@ -163,7 +163,7 @@ The feature(s) you plan to implement should not be purely cosmetic or arbitrary.
 Convert the feature(s) you decide to implement into technical requirements (i.e. what needs to be developed for this feature to work). Then, break these requirements down into manageable, assignable issues and document them on your Project board by adding them to “Backlog” column. At minimum, these issues should make use of GitHub features like milestones/labels/descriptions to denote:
 
 - **Estimated hours/effort** for each task
-- **Estimated** size/complexity of each task
+- **Estimated** size/complexity of each task (T shirt)
 - **Dependencies** among tasks (if any)
 - Initial **assignments** for team members
 - **Milestones** to indicate which sprint the issue should be completed in (Sprint 1, Sprint 2, Stretch)
