@@ -4,13 +4,14 @@
 
 **Second Sprint** – 110 points – due Thursday, February 26th, 11:59pm
 
-- [Process & Implementation Final](#process-and-implementation-final-50-pts) (50 pts)
-- [Process & Team Reflection](#process-and-team-reflection-30-pts) (30 pts)
-- [Individual Reflection](#individual-reflection-30-pts) (30 pts)
+<!-- - [Process & Implementation Final](#process-and-implementation-final-50-pts) (50 pts) -->
+- [Process & Team Reflection](#process-and-team-reflection-65-pts) (65 pts)
+- [Individual Reflection](#individual-reflection-45-pts) (45 pts)
 - *[Extra Credit](#extra-credit-2-pts) (2 pts)*
 
-
+<!--
 ## Process and Implementation Final (50 pts)
+-->
 Continue working on the implementation of your feature(s). Be sure to continue following best practices for collaborative development similar to the previous sprint.
 
 As you become more familiar with the codebase, we have higher expectations for the final deliverables of this sprint. Specifically, along with your feature changes, we expect to see:
@@ -34,7 +35,7 @@ You must commit all of your changes to the main branch of your team repository b
 Submit a link to your repository and your Github Project board onto Gradescope. For grading, we will take a snapshot of your repository and board right at the deadline and grade based on your progress there.
 
 
-## Process and Team Reflection (30 pts)
+## Process and Team Reflection (65 pts)
 
 !!! warning "Use of Generative AI discouraged"
     Historically, we have found the use of generative AI tools for this part of the assignment has resulted in poor work being submitted. It is your responsibility to make sure that you and your group feel comfortable with each others work and are putting in your best effort.
@@ -82,7 +83,7 @@ Being able to communicate effectively is an important software engineering skill
     We will not evaluate how well (or badly) the project went, but instead how well you understood the reasons **why** the project went as it did, and what lessons you drew from your experience to inform your future work. A good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support the claims. 
 
 
-## Individual Reflection (30 pts)
+## Individual Reflection (45 pts)
 
 !!! warning "Use of Generative AI discouraged"
     Historically, we have found the use of generative AI tools for this part of the assignment has resulted in poor work being submitted. It is your responsibility to make sure that you and your group feel comfortable with each others work and are putting in your best effort.
@@ -131,17 +132,18 @@ To receive full credit for the process and team reflections, we expect:
 
 - [ ] A detailed, well written, and well structured reflection on each of the provided guiding questions
 - [ ] A comparison between the planned and the actual schedule
-- [ ] An analysis beyond mere descriptions and superficial statements, including supporting evidence for claims, that reflects on the causes of deviations, conflicts, and so forth, or your own experience
-- [ ] Inclusion of meeting minutes(s) that adequately demonstrate your team’s meeting process
-- [ ] At least three concrete actions with that your team will either start, stop, or keep doing in the future, with proper justification and supporting evidence
+- [ ] An analysis beyond mere descriptions and superficial statements, including links to GitHub project board items, PRs, commits, and meeting minutes as supporting evidence for claims that reflects on the causes of deviations, conflicts, and your team’s experience
+- [ ] All meeting minutes throughout the project (with agenda/topics, decisions made, work assignments) that adequately demonstrate your team’s meeting process
+- [ ] At least three concrete actions that your team will either start, stop, or keep doing in the future, each labeled as Keep/Start/Stop with specific justification and supporting evidence from meeting minutes or development artifacts
 
 To receive full credit for the individual reflection, we expect:
 
-- [ ] A detailed, well written, and well structured reflection on each of the provided guiding questions
+- [ ] A detailed, well written, and well structured reflection on each of the provided guiding questions with concrete examples
 - [ ] A comparison between current and previous experience
 - [ ] A reflection on the development process, including what worked well and what did not work well
 - [ ] A reflection on working in a team, with learnings about self and working with others
 - [ ] At least one concrete action that you will act upon in the future, with proper justification and supporting evidence
+- [ ] Links to some Sprint 2 commits/PRs with short explanations of your commit message/branch naming choices
 
 ## Resources & Documentation
 
