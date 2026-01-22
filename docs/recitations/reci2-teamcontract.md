@@ -29,7 +29,7 @@ As per the project handout, your name should be *“unique, pronounceable, short
 
 ## Activity 2: Team Contract
 
-In Project 2, we'll ask you to write up and submit a team contract, which will be a written record of how your team will work together.
+In Project 2, we'll ask you to write up and submit a team contract, which will be a written record of how your team will work together. This document will contain expectations you can all agree on for how you will work together (e.g., what platforms you will communicate on). **This document, along with any other team documents, will go in a team folder that will be shared with you on Google Drive.
 
 In this activity, we'll create a rough outline of the team contract and start the discussions around important team building and teamwork topics.
 
