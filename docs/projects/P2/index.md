@@ -40,15 +40,17 @@ A) [**Team Process & Planning**](1_teamprocess.md) – 70 points – due Friday,
 - **Prerequisite:** Team Setup
 - Teamwork Contract (35 pts)
 - Project Planning (35 pts)
-- *Extra Credit (7 pts)*
+- *Extra Credit (2 pts)*
 
 B) [**First Sprint**](2_firstsprint.md) – 95 points – due Tuesday, February 10th, 11:59pm
 
-- Process & Implementation Interim Snapshot (50 pts)
-- Checkpoint Presentation (45 pts) - **Held in Recitation on Monday, February 9th**
+- Checkpoint Presentation (45 pts) - Slides due Sunday, February 8th, 11:59pm, **Presentation held during Recitation on Monday, February 9th**
+- Individual Process & Implementation Interim (25 pts)
+- Group Process & Implementation Interim (25 pts)
+- *Extra Credit (2 pts)*
 
 C) [**Second Sprint**](3_secondsprint.md) – 110 points – due Thursday, February 26th, 11:59pm
 
-- Process & Implementation Final Snapshot (50 pts)
-- Team Reflection (30 pts)
-- Individual Reflection (30 pts)
+- Process & Team Reflection (65 pts)
+- Individual Reflection (45 pts)
+- *Extra Credit (2 pts)*
