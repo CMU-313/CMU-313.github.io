@@ -28,7 +28,7 @@ As you become more familiar with the codebase, we have higher expectations for t
 !!! note "GitHub Actions"
     GitHub Actions should be enabled. It is reasonable to have failures in feature branches, but you should do your best to make your main branch build consistently pass.
 
-As with the first sprint, **every member of your team must contribute to the implementation**. One way we will evaluate this is that each team member must have at least one commit as a part of the solution. Failure to do so will result in a significant penalty to your grade.
+As with the first sprint, **every member of your team must contribute to the implementation**. One way we will evaluate this is that each team member must have at least three commits as a part of the solution. Failure to do so will result in a significant penalty to your grade.
 
 You must commit all of your changes to the main branch of your team repository before the homework deadline. Unlike Project 1, you should not submit your changes to the parent NodeBB repository.
 
