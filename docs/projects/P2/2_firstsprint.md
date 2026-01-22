@@ -81,7 +81,7 @@ To receive full credit for the presentation, we expect:
 - [ ] All team members to be present for the presentation (or have contacted their TAs ahead of time to request an absence) and to contribute towards presenting their team’s progress
 - [ ] All of the material described above covered in the presentation
 - [ ] PDF Slides uploaded to Gradescope for grading & feedback
-- [ ] Google Slides link on Gradescope submission located in shared Google Folder to confirm equal division of work
+- [ ] Google Slides located in shared Google Folder to confirm equal division of work
 
 
 ## Resources & Documentation
