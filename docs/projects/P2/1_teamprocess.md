@@ -1,4 +1,4 @@
-# Project 2A: Collaborative Development
+# Project 2A: Team Process & Planning
 
 ## Deliverables
 

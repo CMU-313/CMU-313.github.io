@@ -1,4 +1,4 @@
-# Project 2C: Collaborative Development
+# Project 2C: Second Sprint
 
 ## Deliverables
 

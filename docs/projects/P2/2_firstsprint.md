@@ -1,8 +1,8 @@
-# Project 2B: Collaborative Development
+# Project 2B: First Sprint
 
 ## Deliverables
 
-**First Sprint** – 95 points
+**First Sprint** – 95 points – due Tuesday, February 10th, 11:59pm
 
 - [Process & Implementation Interim](#process-and-implementation-interim-50-pts) (50 pts) - due Tuesday, February 10th, 11:59pm
     - Individual Process & Implementation Interim (25 pts)
