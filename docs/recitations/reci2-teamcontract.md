@@ -6,7 +6,7 @@ title: Recitation 2 - Team Contract Workshop
 
 ## Overview
 
-After this recitation, students will have met their teams and completed a rough draft of the teamwork contract they'll submit for Project 2. Students will meet their teams and discuss important aspects of team work such as setting expectations, managing communication, and distributing responsibility.
+After this recitation, students will have met their teams and completed a rough draft of the Team Contract they'll submit for Project 2. Students will meet their teams and discuss important aspects of teamwork such as setting expectations, managing communication, and distributing responsibility.
 
 ## Prerequisites
 - None!
@@ -26,6 +26,8 @@ In your group, spend 5 minutes finding 5 things that every group member has in c
 As part of Project 2, you’ll need to come up with a name for your team. Do so now! 
 
 As per the project handout, your name should be *“unique, pronounceable, short, and something you would be proud to shout in your team cheer on the streets of Pittsburgh in the presence of small, impressionable, multilingual children.”*
+
+After you come up with your team name, tell your TA. They will create a Google Drive folder and share with all team members. The team contract you will start developing during this recitation and later submit for P2A should be created in this folder, **as well as any future TEAM documents**. This will allow TAs to check edit history for grading. 
 
 ## Activity 2: Team Contract
 
