@@ -2,10 +2,13 @@
 
 ## Deliverables
 
-**First Sprint** – 95 points - **Presentation held in Recitation on Monday, February 9th**
+**First Sprint** – 95 points
 
 - [Process & Implementation Interim](#process-and-implementation-interim-50-pts) (50 pts) - due Tuesday, February 10th, 11:59pm
-- [Checkpoint Presentation](#checkpoint-presentation-45-pts) (45 pts) - due Sunday, February 8th, 11:59pm 
+    - Individual Process & Implementation Interim (25 pts)
+    - Group Process & Implementation Interim (25 pts)
+- [Checkpoint Presentation](#checkpoint-presentation-45-pts) (45 pts) - due Sunday, February 8th, 11:59pm, **Presentation held during Recitation on Monday, February 9th**
+- *Extra Credit (2 pts)*
 
 
 ## Process and Implementation Interim (50 pts)
@@ -56,7 +59,7 @@ If you did not meet your development goals, you should outline what you plan to 
 
 The presentation slides should be exported into a PDF and submitted to Gradescope by the Sunday deadline.
 
-### Extra Credit (2 pts)
+## Extra Credit (2 pts)
 Getting to know your colleagues in a friendly context can often lead to more effective collaboration; for example, healthy teams often get lunch together. To incentivize this, we will give your team extra credit for this assignment if you meet for a team bonding experience outside of a working session.
 
 You might want to eat together, go out for boba, or hold a board game session. Nearly anything outside of class, libraries and campus would work. (If you are unsure, feel free to ask a TA)
