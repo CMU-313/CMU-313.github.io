@@ -8,7 +8,7 @@
     - Individual Process & Implementation Interim (25 pts)
     - Group Process & Implementation Interim (25 pts)
 - [Checkpoint Presentation](#checkpoint-presentation-45-pts) (45 pts) - due Sunday, February 8th, 11:59pm, **Presentation held during Recitation on Monday, February 9th**
-- *Extra Credit (2 pts)*
+- *[Extra Credit](#extra-credit-2-pts) (2 pts)*
 
 
 ## Process and Implementation Interim (50 pts)
