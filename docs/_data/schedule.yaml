@@ -272,7 +272,7 @@
   homework:
     deadline: "Due Tuesday, February 10, 2026 @ 11:59PM"
     link: "projects/P2"
-    name: "Project 2B - Presentation Slides & Process and Implementation"
+    name: "Project 2B - Presentation Slides & First Sprint"
     numDays: 7
   lecture:
     link: ""
@@ -398,7 +398,7 @@
   homework:
     deadline: "Due Thursday, February 26, 2026 @ 11:59PM"
     link: "projects/P2"
-    name: "Project 2C - Final"
+    name: "Project 2C - Second Sprint"
     numDays: 12
   lecture:
     link: ""
