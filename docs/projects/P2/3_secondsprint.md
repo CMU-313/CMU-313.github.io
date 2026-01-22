@@ -28,12 +28,11 @@ As you become more familiar with the codebase, we have higher expectations for t
 !!! note "GitHub Actions"
     GitHub Actions should be enabled. It is reasonable to have failures in feature branches, but you should do your best to make your main branch build consistently pass.
 
-As with the first sprint, every member of your team must contribute to the implementation. One way we will evaluate this is that each team member must have at least one commit as a part of the solution. Failure to do so will result in a significant penalty to your grade.
+As with the first sprint, **every member of your team must contribute to the implementation**. One way we will evaluate this is that each team member must have at least one commit as a part of the solution. Failure to do so will result in a significant penalty to your grade.
 
-You must commit all of your changes to the main branch of your team repository before the homework deadline. Unlike the previous assignment, you should not submit your changes to the parent NodeBB repository.
+You must commit all of your changes to the main branch of your team repository before the homework deadline. Unlike Project 1, you should not submit your changes to the parent NodeBB repository.
 
 Submit a link to your repository and your Github Project board onto Gradescope. For grading, we will take a snapshot of your repository and board right at the deadline and grade based on your progress there.
-
 
 ## Process and Team Reflection (65 pts)
 
@@ -42,10 +41,7 @@ Submit a link to your repository and your Github Project board onto Gradescope. 
 
 After coding is complete, reflect on your experience as a team. Again, we look for honest reflection, which will likely include reflection on failures. **We will not grade whether you predicted the effort correctly, but rather what you have learned**. 
 
-You will see the following groups of questions on Gradescope. We recommend that your team use collaborative text editing tools like Google Docs to draft your answers, then submit your final answers to Gradescope.  
-
-!!! note "Document Development"
-    In order to create a history of the document development, we will be requiring that develop the document in the Google Drive folder that will be shared with your team by your TA.
+You will see the following groups of questions on Gradescope. **We are expecting you to create a Google Doc inside of your team folder to draft your answers, then submit your final answers to Gradescope.** In Gradescope, yu should attach a link to the Google Doc. It is expected that there should be an even distribution of work done by team members and we may take a look at the documents history if we feel there is a need to confirm that. 
 
 1. **Actual Schedule:** Document the actual schedule of your development process into either an organized list or table. You should include all of the tasks that each team member actually performed and the approximate amount of time each took. Your commit history and other documentation should help you with this.
 
@@ -116,7 +112,7 @@ To receive extra credit, submit a photo of your team activity as part of the P2C
 ## Grading
 To receive full credit for the implementation, we expect:
 
-- [ ] **Progress from Interim Snapshot**
+- [ ] **Progress**
     - [ ] Fulfillment of implementation goals as outlined by the planned milestones, **or** a clearly written justification in the milestone description of why elements fell through
     - [ ] An updated Project Board for the final progress
     - [ ] Reasonable code structure and style, including documentation where appropriate
@@ -128,7 +124,7 @@ To receive full credit for the implementation, we expect:
     - [ ] Created `UserGuide.md` file containing user documentation of the new feature that fulfills the guidelines given above
     - [ ] A functional new feature that works when following the steps in `UserGuide.md`. Note that we aren't expecting the feature to be bug free, but it should work under general expected usage.
   
-To receive full credit for the process and team reflections, we expect:
+To receive full credit for the Process and Team Reflection, we expect:
 
 - [ ] A detailed, well written, and well structured reflection on each of the provided guiding questions
 - [ ] A comparison between the planned and the actual schedule
@@ -136,7 +132,7 @@ To receive full credit for the process and team reflections, we expect:
 - [ ] All meeting minutes throughout the project (with agenda/topics, decisions made, work assignments) that adequately demonstrate your team’s meeting process
 - [ ] At least three concrete actions that your team will either start, stop, or keep doing in the future, each labeled as Keep/Start/Stop with specific justification and supporting evidence from meeting minutes or development artifacts
 
-To receive full credit for the individual reflection, we expect:
+To receive full credit for the Individual Reflection, we expect:
 
 - [ ] A detailed, well written, and well structured reflection on each of the provided guiding questions with concrete examples
 - [ ] A comparison between current and previous experience
