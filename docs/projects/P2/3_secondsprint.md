@@ -41,7 +41,7 @@ Submit a link to your repository and your Github Project board onto Gradescope. 
 
 After coding is complete, reflect on your experience as a team. Again, we look for honest reflection, which will likely include reflection on failures. **We will not grade whether you predicted the effort correctly, but rather what you have learned**. 
 
-You will see the following groups of questions on Gradescope. **We are expecting you to create a Google Doc inside of your team folder to draft your answers, then submit your final answers to Gradescope.** In Gradescope, yu should attach a link to the Google Doc. It is expected that there should be an even distribution of work done by team members and we may take a look at the documents history if we feel there is a need to confirm that. 
+You will see the following groups of questions on Gradescope. **We are expecting you to create a Google Doc inside of your team folder to draft your answers, then submit your final answers to Gradescope.** In Gradescope, you should attach a link to the Google Doc. It is expected that there should be an even distribution of work done by team members and we may take a look at the documents history if we feel there is a need to confirm that. 
 
 1. **Actual Schedule:** Document the actual schedule of your development process into either an organized list or table. You should include all of the tasks that each team member actually performed and the approximate amount of time each took. Your commit history and other documentation should help you with this.
 

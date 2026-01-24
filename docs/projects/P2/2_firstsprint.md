@@ -13,7 +13,7 @@
 
 ## Process and Implementation Interim (50 pts)
 
-Start by cloning the team repository and merging your individual changes from Project 1 into your team repository using proper git flow. This can mean using git cherry-pick or just copying and pasting your individual changes and writing appropriate commit messages. Once everyone has properly set up the repository on their local machines and committed their changes, you can now start development.
+Start by cloning the team repository and merging your individual changes from Project 1 into your team repository using proper git flow. This can mean using git cherry-pick or just copying and pasting your individual changes and writing appropriate commit messages. Once everyone has properly set up the repository on their local machines and committed their changes, you can start development.
 
 You should follow best practices for collaborative development such as using feature branches, pull requests, and code review. Individual changes should be committed to properly named branches for each core feature being implemented and make use of pull requests to merge changes together. 
 
