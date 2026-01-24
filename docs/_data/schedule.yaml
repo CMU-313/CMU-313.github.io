@@ -113,8 +113,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/03-737MAX.pdf"
+    name: "737 MAX Case Study"
   reading:
     link: "https://canvas.cmu.edu/courses/51340/quizzes/155235"
     name: "Boeing Case Study Reading"
@@ -191,10 +191,10 @@
     link: ""
     name: ""
   recitation: 
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "recitations/reci2-teamcontract"
+    name: "Recitation 2 - Team Contract Workshop"
+    quiz: "https://www.gradescope.com/courses/1213157/assignments/7484077/"
+    slides: "https://docs.google.com/presentation/d/1MkmzlNhZU8PK7XDzotB5apljOtSha9PKYWqMBoNbRnM/edit?usp=sharing"
 
 - date: Tue Jan 27
   homework:

@@ -37,18 +37,18 @@ Research shows that using devices on non-class related activities harms both the
 Note that recitation activities will often involve devices, so please do bring your laptop!
 
 ## Assessment
-Evaluation will be based on the following distribution: **60% projects, 20% midterms (10% each), 20% participation** (including lecture exercises, pre-lecture reading quizzes, and recitation exercises). 
+Evaluation will be based on the following distribution: **50% projects, 30% midterms (15% each), 20% participation** (including lecture exercises, pre-lecture reading quizzes, and recitation exercises). 
 
 **Detailed Project Points Breakdown (tentative)**
 
-| Project | # Days Given | Points | % of HW grade |  % of total grade |
+| Project | # Days Given | Points | % of Project grade |  % of total grade |
 | --- | --- | --- | --- | --- |
-| 1 | 9 | 100 | 10% | 6% |
-| 2 | 35 | 275 | 27.5% | 16.5% |
-| 3 | 10  | 100 | 10% | 6% |
-| 4 | 14  | 125 | 12.5% | 7.5% |
-| 5 | 27 | 400 | 40% | 24% |
-|   | **TOTAL**   | 1000 | 100% | 60% | 
+| 1 | 9 | 100 | 10% | 5% |
+| 2 | 35 | 275 | 27.5% | 13.75% |
+| 3 | 10  | 100 | 10% | 5% |
+| 4 | 14  | 125 | 12.5% | 6.25% |
+| 5 | 27 | 400 | 40% | 20% |
+|   | **TOTAL**   | 1000 | 100% | 50% | 
 
 ## Regrades
 Regrade requests can be submitted via Gradescope. The regrade period is open for **one week** after grades have been released for a particular assignment.

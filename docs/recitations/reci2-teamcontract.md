@@ -6,7 +6,7 @@ title: Recitation 2 - Team Contract Workshop
 
 ## Overview
 
-After this recitation, students will have met their teams and completed a rough draft of the teamwork contract they'll submit for Project 2. Students will meet their teams and discuss important aspects of team work such as setting expectations, managing communication, and distributing responsibility.
+After this recitation, students will have met their teams and completed a rough draft of the Team Contract they'll submit for Project 2. Students will meet their teams and discuss important aspects of teamwork such as setting expectations, managing communication, and distributing responsibility.
 
 ## Prerequisites
 - None!
@@ -15,7 +15,7 @@ After this recitation, students will have met their teams and completed a rough 
 
 ## Activity 1: Get to know your team! 
 
-See team assignments [here](https://docs.google.com/spreadsheets/d/1L0rpNQb-tJc3Z1g_994qSaDYScMwfifmOxlUpd7gnuc/edit?usp=sharing). Do some quick intros, then get ready for.. 
+See team assignments [here](https://docs.google.com/spreadsheets/d/1TQ1ad58Es5hK81vJSTL-5O4Fz54Y6Fhe8QhngYm8BC4/edit?usp=sharing). Do some quick intros, then get ready for.. 
   
 ### **Activity 1A: Similarities!**
 
@@ -27,9 +27,11 @@ As part of Project 2, you’ll need to come up with a name for your team. Do so 
 
 As per the project handout, your name should be *“unique, pronounceable, short, and something you would be proud to shout in your team cheer on the streets of Pittsburgh in the presence of small, impressionable, multilingual children.”*
 
+After you come up with your team name, tell your TA. They will create a Google Drive folder and share with all team members. The team contract you will start developing during this recitation and later submit for P2A should be created in this folder, **as well as any future TEAM documents**. This will allow TAs to check edit history for grading. 
+
 ## Activity 2: Team Contract
 
-In Project 2, we'll ask you to write up and submit a team contract, which will be a written record of how your team will work together.
+In Project 2, we'll ask you to write up and submit a team contract, which will be a written record of how your team will work together. This document will contain expectations you can all agree on for how you will work together (e.g., what platforms you will communicate on). This document, **along with any other team documents this term**, will go in a team folder that will be shared with you on Google Drive.
 
 In this activity, we'll create a rough outline of the team contract and start the discussions around important team building and teamwork topics.
 
