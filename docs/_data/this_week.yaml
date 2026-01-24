@@ -5,6 +5,9 @@ lectures:
   reading:
     link: https://canvas.cmu.edu/courses/51340/quizzes/155235
     name: Boeing Case Study Reading
+- date: Thu Jan 22
+  link: assets/pdfs/04-metrics.pdf
+  name: Metrics and Measurement
 
 projects:
 - date: Mon Jan 19
