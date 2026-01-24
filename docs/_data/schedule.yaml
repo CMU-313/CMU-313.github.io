@@ -181,7 +181,7 @@
 - date: Mon Jan 26
   homework:
     deadline: "Due Friday, January 30, 2026 @ 11:59PM"
-    link: ""
+    link: "projects/P2"
     name: "Project 2A - Team Contract & Project Planning"
     numDays: 5
   lecture:
@@ -271,8 +271,8 @@
 - date: Mon Feb 2
   homework:
     deadline: "Due Tuesday, February 10, 2026 @ 11:59PM"
-    link: ""
-    name: "Project 2B - Presentation Slides & Process and Implementation"
+    link: "projects/P2"
+    name: "Project 2B - Presentation Slides & First Sprint"
     numDays: 7
   lecture:
     link: ""
@@ -397,8 +397,8 @@
 - date: Wed Feb 11
   homework:
     deadline: "Due Thursday, February 26, 2026 @ 11:59PM"
-    link: ""
-    name: "Project 2C - Final"
+    link: "projects/P2"
+    name: "Project 2C - Second Sprint"
     numDays: 12
   lecture:
     link: ""

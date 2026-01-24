@@ -1,13 +1,13 @@
-# Project 2A: Collaborative Development
+# Project 2A: Team Process & Planning
 
 ## Deliverables
 
-**Team Process & Planning** – 70 points – due Monday, September 15th, 11:59pm
+**Team Process & Planning** – 70 points – due Friday, January 30th, 11:59pm
 
 - **Prerequisite:** [Team Setup](#team-setup)
 - [Teamwork Contract](#teamwork-contract-35-pts) (35 pts)
 - [Project Planning](#project-planning-35-pts) (35 pts)
-- *[Extra Credit](#extra-credit-7-pts) (7 pts)*
+- *[Extra Credit](#extra-credit-2-pts) (2 pts)*
 
 
 ## Team Setup
@@ -24,7 +24,7 @@ You can use this Slack channel for subsequent project-team related discussions o
 
 You will be working on your team repository for this project. Once you have decided on a team name, go to the link below to set up your team:
 
-[https://classroom.github.com/a/DtVuqfZe](https://classroom.github.com/a/DtVuqfZe)
+[https://classroom.github.com/a/s4Q1jqYY](https://classroom.github.com/a/s4Q1jqYY)
 
  
 !!! warning
@@ -64,7 +64,7 @@ For each code-based deliverable, we will look at a snapshot of your repository a
 
 ### Teamwork Self-Assessment
 
-As the course moves into team-based projects, we will be releasing weekly self-assessments, each worth one participation point. These are meant to be short surveys and should not take more than a few minutes. They are intended to help you reflect on your team's process and prompt you to think about how to improve it. The first one will be released on **Friday, September 12th** and due the following **Thursday, September 18th** (both at 11:59pm).
+As the course moves into team-based projects, we will be releasing weekly self-assessments, each worth one participation point. These are meant to be short surveys and should not take more than a few minutes. They are intended to help you reflect on your team's process and prompt you to think about how to improve it. The first one will be released on **Monday, January 26th** and due **Friday, January 30th** (both at 11:59pm).
 
 
 ## Main Deliverables
@@ -107,7 +107,7 @@ Feel free to seek the assistance of TAs and instructors in drafting this documen
 !!! note
     We will ask you to reference, reflect upon, and refine this document throughout this semester, and we will evaluate your team's process strategies and interactions through what you outline in this contract. Please ensure that everyone on your team thoroughly discusses each of the above sections and agree with the final decisions.
 
-Once you have completed the contract itself, have all members sign and date the document as an indicator that all members have read the document and agreed to uphold all outlined items. Then, save the file as a PDF and upload it to Gradescope. Only one team member needs to make the submission; they can then add the rest of the teammates as group members for a group submission. 
+Once you have completed the contract itself, have all members sign and date the document as an indicator that all members have read the document and agreed to uphold all outlined items. Then, submit the link to the google document as part of the Gradescope submission. Only one team member needs to make the submission; they can then add the rest of the teammates as group members for a group submission. 
 
 We also **highly recommend** that you [bookmark](https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links) the teamwork contract in your team’s Slack channel.
 
@@ -163,7 +163,7 @@ The feature(s) you plan to implement should not be purely cosmetic or arbitrary.
 Convert the feature(s) you decide to implement into technical requirements (i.e. what needs to be developed for this feature to work). Then, break these requirements down into manageable, assignable issues and document them on your Project board by adding them to “Backlog” column. At minimum, these issues should make use of GitHub features like milestones/labels/descriptions to denote:
 
 - **Estimated hours/effort** for each task
-- **Estimated** size/complexity of each task
+- **Estimated** size/complexity of each task (T shirt)
 - **Dependencies** among tasks (if any)
 - Initial **assignments** for team members
 - **Milestones** to indicate which sprint the issue should be completed in (Sprint 1, Sprint 2, Stretch)
@@ -179,12 +179,12 @@ You should actively assign and move these issues across your Kanban board as you
 Include a link to your GitHub board in your Gradescope submission. If you are unsure about your planned changes, you can ask for feedback from a member of the course staff!
 
 
-### Extra Credit (7 pts)
+### Extra Credit (2 pts)
 Getting to know your colleagues in a friendly context can often lead to more effective collaboration; for example, healthy teams often get lunch together. To incentivize this, we will give your team extra credit for this assignment if you meet for a team bonding experience outside of a working session.
 
-You might want to eat together, go out for boba, or hold a board game session. If someone on your team is not feeling well, you may also do a virtual activity such as an online gaming session (Drawphone, Skribbl.io, etc.) or social "Zoom lunch". 
+You might want to eat together, go out for boba, or hold a board game session. Nearly anything outside of class, libraries and campus would work. (If you are unsure, feel free to ask a TA)
 
-To receive extra credit, share the photo or screenshot of your team activity with your TA mentors by sending it in your team Slack channel before the deadline. We encourage you to do these types of meetings often throughout the semester!
+To receive extra credit, submit a photo of your team activity as part of the P2A EC gradescope submission before the deadline and include it in a folder in your shared google drive. We encourage you to do these types of meetings often throughout the semester!
 
 
 ## Grading
@@ -197,6 +197,7 @@ To receive full credit for the teamwork contract, we expect:
 
 To receive full credit for the project planning, we expect:
 
-- [ ] A GitHub project board linked to your team repository with:
+- [ ] A Group GitHub project board linked to your team repository with:
     - [ ] A User Story column containing at least two user stories per group member that satisfy the guidelines outlined in the sections above and in lecture
-    - [ ] A Backlog column containing a series of well written GitHub issues describing the feature(s) that the team will tackle. Each issue makes use of GitHub features to denote all of the required information listed above
+    - [ ] Students should link their User Story as part of their own individual submission
+    - [ ] A link to the Backlog column containing a series of well written GitHub issues describing the feature(s) that the team will tackle. Each issue makes use of GitHub features to denote all of the required information listed above
