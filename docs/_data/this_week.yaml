@@ -1,13 +1,4 @@
-lectures:
-- date: Tue Jan 20
-  link: assets/pdfs/03-737MAX.pdf
-  name: 737 MAX Case Study
-  reading:
-    link: https://canvas.cmu.edu/courses/51340/quizzes/155235
-    name: Boeing Case Study Reading
-- date: Thu Jan 22
-  link: assets/pdfs/04-metrics.pdf
-  name: Metrics and Measurement
+lectures: []
 
 projects:
 - date: Mon Jan 19
@@ -16,10 +7,16 @@ projects:
   link: projects/P1
   name: Project 1B - Starter Task
   numDays: 5
+- date: Mon Jan 26
+  deadline: Due Friday, January 30, 2026 @ 11:59PM
+  end_date: 2026-02-02 00:00:00
+  link: projects/P2
+  name: Project 2A - Team Contract & Project Planning
+  numDays: 5
 
 recitation:
-  date: Mon Jan 19
-  handout: ''
-  name: MLK Jr Day - No Reci
-  quiz: ''
-  slides: ''
+  date: Mon Jan 26
+  handout: recitations/reci2-teamcontract
+  name: Recitation 2 - Team Contract Workshop
+  quiz: https://www.gradescope.com/courses/1213157/assignments/7484077/
+  slides: https://docs.google.com/presentation/d/1MkmzlNhZU8PK7XDzotB5apljOtSha9PKYWqMBoNbRnM/edit?usp=sharing
