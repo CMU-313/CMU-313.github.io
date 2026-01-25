@@ -31,13 +31,11 @@ After you come up with your team name, tell your TA. They will create a Google D
 
 ## Activity 2: Team Contract
 
-In Project 2, we'll ask you to write up and submit a team contract, which will be a written record of how your team will work together. This document will contain expectations you can all agree on for how you will work together (e.g., what platforms you will communicate on). This document, **along with any other team documents this term**, will go in a team folder that will be shared with you on Google Drive.
+In Project 2, we'll ask you to write up and submit a team contract, which will be a written record of how your team will work together. This document will contain expectations you can all agree on for how you will work together (e.g., what platforms you will communicate on). **This document, along with any other team documents this term, will go in a team folder that will be shared with you on Google Drive.**
 
 In this activity, we'll create a rough outline of the team contract and start the discussions around important team building and teamwork topics.
 
-First, determine where you'll write your contract and how you'll keep track of the talking points you discuss today. We suggest creating a shared Google Drive folder and doc for easy access and editing.
-
-Next, you'll work through each of the following sections with your team and as a class. Think about your prior experience working in other teams (work, school, sports, etc.) and try to anticipate what might come up over the course of the semester.
+You'll work through each of the following sections with your team and as a class. Think about your prior experience working in other teams (work, school, sports, etc.) and try to anticipate what might come up over the course of the semester.
 
 At the end of class, we'll discuss your ideas and see what you came up with!
 
