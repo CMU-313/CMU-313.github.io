@@ -14,9 +14,7 @@
 
 ### Slack Channel
 
-On the 17-313 Slack workspace, create a new **private** Slack channel that includes all your team members and the two TAs who are your team mentors (these are the same TAs that run your recitation — if you are unsure of who they are, ask in `#general`).
-
-Use this Slack channel to collectively decide on a **team name**. Your team name should be unique, pronounceable, short, and something you would be proud to shout in your team cheer on the streets of Pittsburgh in the presence of small, impressionable, multilingual children. Once you have a team name, rename your team Slack channel to `#team-<teamname>`.
+On the 17-313 Slack workspace, your reci TAs (team mentors) should have created a **private** Slack channel that includes all your team members and them named `#team-<teamname>`.
 
 You can use this Slack channel for subsequent project-team related discussions or specialized Q&A with your TA mentors for the rest of the semester.
 
