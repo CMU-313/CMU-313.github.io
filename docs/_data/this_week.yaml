@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Tue Jan 27
+  link: assets/pdfs/05-project-planning.pdf
+  name: Project Planning
 
 projects:
 - date: Mon Jan 26
