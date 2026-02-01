@@ -15,7 +15,7 @@ Check out [this issue](https://github.com/CMU-313/NodeBB-S26-R3/issues/1) of the
 
 ## Task 0: Clone the repo
 
-- Fork [this repository](https://github.com/CMU-313/NodeBB-S26-R3) and clone it. Follow the README to install the necessary modules and run NodeBB.
+- Fork [this repository](https://github.com/CMU-313/NodeBB-S26-R3) and clone it. Follow the instructions back in [Project 1A](https://cmu-313.github.io/projects/P1/1_checkpoint/) run NodeBB.
 
 ## Task 1: Reproduce the existing behaviour
 
