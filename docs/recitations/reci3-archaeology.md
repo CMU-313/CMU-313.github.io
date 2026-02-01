@@ -11,11 +11,11 @@ In today’s recitation, we will practice implementing a new feature for the Nod
 
 **Let's implement a new feature!**
 
-Check out [this issue](https://github.com/CMU-313/NodeBB-F25-R3/issues/1) of the feature request. The user wants NodeBB to suggest a new username if an existing username is taken. (Don't worry about searching through all the users currently registered to suggest a new name, just make it suggest the current name the user wanted but with a suffix attached to it. Querying the backend server again is harder and is part of the optional task.)
+Check out [this issue](https://github.com/CMU-313/NodeBB-S26-R3/issues/1) of the feature request. The user wants NodeBB to suggest a new username if an existing username is taken. (Don't worry about searching through all the users currently registered to suggest a new name, just make it suggest the current name the user wanted but with a suffix attached to it. Querying the backend server again is harder and is part of the optional task.)
 
 ## Task 0: Clone the repo
 
-- Fork [this repository](https://github.com/CMU-313/NodeBB-F25-R3) and clone it. Follow the README to install the necessary modules and run NodeBB.
+- Fork [this repository](https://github.com/CMU-313/NodeBB-S26-R3) and clone it. Follow the instructions back in [Project 1A](https://cmu-313.github.io/projects/P1/1_checkpoint/) run NodeBB.
 
 ## Task 1: Reproduce the existing behaviour
 
@@ -50,3 +50,6 @@ If you’ve finished all that,
 ## Task 4 (Optional): Suggest a unique username
 
 Can you suggest a unique username by querying the backend server again? For example, if `test123` is taken, you should check if `test1231` is taken, then `test1232`, etc. You should display a username that has not yet been registered by anyone.
+
+### Task 5: Turn in on Gradescope
+Submit your PR link on [Gradescope](https://www.gradescope.com/courses/1213157/assignments/7570587/).
