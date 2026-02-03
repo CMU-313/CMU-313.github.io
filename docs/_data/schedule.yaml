@@ -235,7 +235,7 @@
 - date: Thu Jan 29
   homework:
     deadline: ""
-    link: "assets/06-Teams-Communication.pdf"
+    link: "assets/pdfs/06-Teams-Communication.pdf"
     name: "Teams and Communication"
     numDays: 0
   lecture:
@@ -293,8 +293,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/07-architecture-intro.pdf"
+    name: "Intro to Architecture"
   reading:
     link: ""
     name: ""
