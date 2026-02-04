@@ -15,4 +15,4 @@ Today we’ll be having our project presentations for your first sprint! Please 
 
 See [P2B Checkpoint Presentation](https://cmu-313.github.io/projects/P2/2_firstsprint/#checkpoint-presentation-45-pts) for more details.
 
-Make sure to [submit your slides on Gradescope](https://www.gradescope.com/courses/1086939/assignments/6743079) before you present.
+Make sure to [submit your slides on Gradescope](https://www.gradescope.com/courses/1213157/assignments/7599021/) before you present.
