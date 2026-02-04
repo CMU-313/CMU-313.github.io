@@ -293,7 +293,7 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/06-architecture.pdf"
+    link: "assets/pdfs/06-architecture.pdf"
     name: "Introduction to Software Architecture"
   reading:
     link: ""
