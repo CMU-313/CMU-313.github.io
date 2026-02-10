@@ -383,8 +383,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/09-code-review-risk.pdf"
+    name: "Code Review and Risk"
   reading:
     link: ""
     name: ""
