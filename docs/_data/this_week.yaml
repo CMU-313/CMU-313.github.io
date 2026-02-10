@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Tue Feb 10
+  link: assets/pdfs/09-code-review-risk.pdf
+  name: Code Review and Risk
 
 projects:
 - date: Mon Feb 2
