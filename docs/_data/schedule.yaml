@@ -461,10 +461,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "recitations/reci5-team-dysfunction"
+    name: "Recitation 5 - Team Dysfunction"
+    quiz: "https://www.gradescope.com/courses/1213157/assignments/7607817/"
+    slides: "https://docs.google.com/presentation/d/1m24wTaoW-UVYot-gjoIP8YUuMIQGP_fbKkCMMRlQW3U/edit?usp=sharing"
 
 - date: Tue Feb 17
   homework:
