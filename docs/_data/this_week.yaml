@@ -4,12 +4,6 @@ lectures:
   name: Code Review and Risk
 
 projects:
-- date: Mon Feb 2
-  deadline: Due Tuesday, February 10, 2026 @ 11:59PM
-  end_date: 2026-02-11 00:00:00
-  link: projects/P2
-  name: Project 2B - Presentation Slides & First Sprint
-  numDays: 7
 - date: Wed Feb 11
   deadline: Due Thursday, February 26, 2026 @ 11:59PM
   end_date: 2026-02-27 00:00:00
