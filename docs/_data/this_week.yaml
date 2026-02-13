@@ -2,6 +2,9 @@ lectures:
 - date: Tue Feb 10
   link: assets/pdfs/09-code-review-risk.pdf
   name: Code Review and Risk
+- date: Thu Feb 12
+  link: assets/pdfs/10-testing.pdf
+  name: Software Testing
 
 projects:
 - date: Wed Feb 11
