@@ -1,10 +1,4 @@
-lectures:
-- date: Tue Feb 10
-  link: assets/pdfs/09-code-review-risk.pdf
-  name: Code Review and Risk
-- date: Thu Feb 12
-  link: assets/pdfs/10-testing.pdf
-  name: Software Testing
+lectures: []
 
 projects:
 - date: Wed Feb 11
@@ -15,8 +9,8 @@ projects:
   numDays: 12
 
 recitation:
-  date: Mon Feb 9
-  handout: recitations/reci4-checkpoint
-  name: Recitation 4 - Checkpoint Presentations
-  quiz: https://www.gradescope.com/courses/1213157/assignments/7599021/
-  slides: https://docs.google.com/presentation/d/1RlkbieJK_QSEhVUfnLy1sc4jqVRjNPcC4Kk_ZYt-17A/edit?usp=drive_link
+  date: Mon Feb 16
+  handout: recitations/reci5-team-dysfunction
+  name: Recitation 5 - Team Dysfunction
+  quiz: https://www.gradescope.com/courses/1213157/assignments/7607817/
+  slides: https://docs.google.com/presentation/d/1m24wTaoW-UVYot-gjoIP8YUuMIQGP_fbKkCMMRlQW3U/edit?usp=sharing
