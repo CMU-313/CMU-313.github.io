@@ -473,8 +473,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/11-static-analysis.pdf"
+    name: "Static Analysis"
   reading:
     link: ""
     name: ""
