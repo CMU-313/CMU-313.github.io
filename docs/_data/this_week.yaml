@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Tue Feb 17
+  link: assets/pdfs/11-static-analysis.pdf
+  name: Static Analysis
 
 projects:
 - date: Wed Feb 11
