@@ -49,7 +49,7 @@ B) [**First Sprint**](2_firstsprint.md) – 95 points – due Tuesday, February 
 - Group Process & Implementation Interim (25 pts)
 - *Extra Credit (2 pts)*
 
-C) [**Second Sprint**](3_secondsprint.md) – 110 points – due Thursday, February 26th, 11:59pm
+C) [**Second Sprint**](3_secondsprint.md) – 110 points – due Friday, February 27th, 11:59pm ~~Thursday, February 26th, 11:59pm~~
 
 - Process & Team Reflection (65 pts)
 - Individual Reflection (45 pts)

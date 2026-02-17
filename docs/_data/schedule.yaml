@@ -396,10 +396,10 @@
 
 - date: Wed Feb 11
   homework:
-    deadline: "Due Thursday, February 26, 2026 @ 11:59PM"
+    deadline: "Due Friday, February 27, 2026 @ 11:59PM <s>Thursday, February 26, 2026 @ 11:59PM</s>"
     link: "projects/P2"
     name: "Project 2C - Second Sprint"
-    numDays: 12
+    numDays: 13
   lecture:
     link: ""
     name: ""
