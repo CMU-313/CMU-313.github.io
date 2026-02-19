@@ -2,6 +2,9 @@ lectures:
 - date: Tue Feb 17
   link: assets/pdfs/11-static-analysis.pdf
   name: Static Analysis
+- date: Thu Feb 19
+  link: assets/pdfs/12-dynamic-analysis.pdf
+  name: Dynamic Analysis
 
 projects:
 - date: Wed Feb 11
