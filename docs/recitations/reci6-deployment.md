@@ -70,15 +70,14 @@ The steps to do this are as follows:
 To start off, you'll be deploying the app you just forked on Vercel. The goal here is to make your app accessible over the internet via two platforms. You'll also be setting up continuous deployment such that both of these deployments are updated with the latest version of the app, whenever you push code to the main branch of your repository.
 
 
-### Task 1: Deploy on Vercel
+### Deploy on Vercel
   
 1. Create an account on [Vercel](https://vercel.com/) by clicking "Sign up", choose a hobby account, then "Continue with GitHub"
-2. Add a new project
-3. Choose "Import Git Repository"
-4. Connect your basic-web-app fork to the Web Service you just created
+2. Add a new project ("Add new" button --> "Project" selection in dropdown)
+3. Under "Import Git Repository", find the `basic-web-app` Git Repo
 6. Name your project `basic-web-app`
 7. Click `Deploy`
-9. When the build completes, click on the link of the form `*.vercel.app` at the top of the page to view the deployment.
+9. When the build completes, click on the link of the form `*.vercel.app` under Domains to view the deployment.
 
 ## Task 2: Implement "What is your Andrew ID?"
 
