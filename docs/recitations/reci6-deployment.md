@@ -13,9 +13,9 @@ Throughout this recitation, students will:
 
 * Learn about CI/CD and the basics of how to set it up in a Github repo
 
-* Get hands on experience deploying with multiple cloud providers - Vercel and Microsoft Azure
+* Get hands on experience deploying with cloud providers (Vercel)
 
-* Set up and get familiarized with the _Extreme Startup_ web app for use in Tuesday's (10/06) lecture
+* Set up and get familiarized with the _Extreme Startup_ web app for use in Tuesday's (2/24) lecture
 
   
 
@@ -62,7 +62,7 @@ The steps to do this are as follows:
 
 3. Once you have it running locally visit [http://localhost:3000](http://localhost:3000) and try different queries like "Who was Shakespeare?" and "What is your Andrew ID?"
 
-4. Also visit [http://localhost:3000/api?q=shakespeare](http://localhost:3000/api?q=shakespeare) - this is the API endpoint that our game server will use at next week's lecture.
+4. Also visit [http://localhost:3000/api?q=shakespeare](http://localhost:3000/api?q=shakespeare) - this is the API endpoint that our game server will use during tomorrow's lecture.
   
 
 ## Task 1: Continuous Deployment
