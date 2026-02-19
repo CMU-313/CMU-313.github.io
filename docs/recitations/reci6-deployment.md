@@ -152,5 +152,5 @@ Once this is complete, you will be ready for the game next week. Good job and go
 
   
 
-Remember to do Recitation 6 Quiz on Gradescope!
+Remember to do [Recitation 6 Quiz](https://www.gradescope.com/courses/1213157/assignments/7689120) on Gradescope!
 
