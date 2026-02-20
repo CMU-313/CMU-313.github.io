@@ -13,9 +13,9 @@ Throughout this recitation, students will:
 
 * Learn about CI/CD and the basics of how to set it up in a Github repo
 
-* Get hands on experience deploying with multiple cloud providers - Vercel and Microsoft Azure
+* Get hands on experience deploying with cloud providers (Vercel)
 
-* Set up and get familiarized with the _Extreme Startup_ web app for use in Tuesday's (10/06) lecture
+* Set up and get familiarized with the _Extreme Startup_ web app for use in Tuesday's (2/24) lecture
 
   
 
@@ -62,23 +62,22 @@ The steps to do this are as follows:
 
 3. Once you have it running locally visit [http://localhost:3000](http://localhost:3000) and try different queries like "Who was Shakespeare?" and "What is your Andrew ID?"
 
-4. Also visit [http://localhost:3000/api?q=shakespeare](http://localhost:3000/api?q=shakespeare) - this is the API endpoint that our game server will use at next week's lecture.
+4. Also visit [http://localhost:3000/api?q=shakespeare](http://localhost:3000/api?q=shakespeare) - this is the API endpoint that our game server will use during tomorrow's lecture.
   
 
 ## Task 1: Continuous Deployment
 
-To start off, you'll be deploying the app you just forked on Vercel. The goal here is to make your app accessible over the internet via two platforms. You'll also be setting up continuous deployment such that both of these deployments are updated with the latest version of the app, whenever you push code to the main branch of your repository.
+To start off, you'll be deploying the app you just forked on Vercel. The goal here is to make your app accessible over the internet. You'll also be setting up continuous deployment such that the deployment is updated with the latest version of the app whenever you push code to the main branch of your repository.
 
 
-### Task 1: Deploy on Vercel
+### Deploy on Vercel
   
 1. Create an account on [Vercel](https://vercel.com/) by clicking "Sign up", choose a hobby account, then "Continue with GitHub"
-2. Add a new project
-3. Choose "Import Git Repository"
-4. Connect your basic-web-app fork to the Web Service you just created
+2. Add a new project ("Add new" button --> "Project" selection in dropdown)
+3. Under "Import Git Repository", find the `basic-web-app` Git Repo
 6. Name your project `basic-web-app`
 7. Click `Deploy`
-9. When the build completes, click on the link of the form `*.vercel.app` at the top of the page to view the deployment.
+9. When the build completes, click on the link of the form `*.vercel.app` under Domains to view the deployment.
 
 ## Task 2: Implement "What is your Andrew ID?"
 
@@ -90,7 +89,7 @@ To test that the continuous deployments are working as expected, and familiarize
 3. Verify that the tests function correctly by running `npm run test`.
 5. Commit and push your changes
 6. Once pushed, verify that CD is functioning correctly by checking that a new deployment is triggered on the Vercel dashboard.
-7. Once the deployments are complete manually verify that both support the query you just implemented.
+7. Once the deployment is complete, manually verify that it supports the query you just implemented.
 
 ## Bonus Task: Continuous Integration
 
@@ -152,5 +151,5 @@ Once this is complete, you will be ready for the game next week. Good job and go
 
   
 
-Remember to do Recitation 6 Quiz on Gradescope!
+Remember to do [Recitation 6 Quiz](https://www.gradescope.com/courses/1213157/assignments/7689120) on Gradescope!
 
