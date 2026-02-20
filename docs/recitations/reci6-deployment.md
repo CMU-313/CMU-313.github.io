@@ -67,7 +67,7 @@ The steps to do this are as follows:
 
 ## Task 1: Continuous Deployment
 
-To start off, you'll be deploying the app you just forked on Vercel. The goal here is to make your app accessible over the internet via two platforms. You'll also be setting up continuous deployment such that both of these deployments are updated with the latest version of the app, whenever you push code to the main branch of your repository.
+To start off, you'll be deploying the app you just forked on Vercel. The goal here is to make your app accessible over the internet. You'll also be setting up continuous deployment such that the deployment is updated with the latest version of the app whenever you push code to the main branch of your repository.
 
 
 ### Deploy on Vercel
@@ -89,7 +89,7 @@ To test that the continuous deployments are working as expected, and familiarize
 3. Verify that the tests function correctly by running `npm run test`.
 5. Commit and push your changes
 6. Once pushed, verify that CD is functioning correctly by checking that a new deployment is triggered on the Vercel dashboard.
-7. Once the deployments are complete manually verify that both support the query you just implemented.
+7. Once the deployment is complete, manually verify that it supports the query you just implemented.
 
 ## Bonus Task: Continuous Integration
 
