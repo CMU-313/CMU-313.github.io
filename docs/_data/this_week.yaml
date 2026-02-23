@@ -1,10 +1,7 @@
 lectures:
-- date: Tue Feb 17
-  link: assets/pdfs/11-static-analysis.pdf
-  name: Static Analysis
-- date: Thu Feb 19
-  link: assets/pdfs/12-dynamic-analysis.pdf
-  name: Dynamic Analysis
+- date: Thu Feb 26
+  link: ''
+  name: Midterm 1
 
 projects:
 - date: Wed Feb 11
@@ -16,8 +13,8 @@ projects:
   numDays: 13
 
 recitation:
-  date: Mon Feb 16
-  handout: recitations/reci5-team-dysfunction
-  name: Recitation 5 - Team Dysfunction
-  quiz: https://www.gradescope.com/courses/1213157/assignments/7607817/
-  slides: https://docs.google.com/presentation/d/1m24wTaoW-UVYot-gjoIP8YUuMIQGP_fbKkCMMRlQW3U/edit?usp=sharing
+  date: Mon Feb 23
+  handout: recitations/reci6-deployment
+  name: Recitation 6 - Deployment
+  quiz: https://www.gradescope.com/courses/1213157/assignments/7689120
+  slides: https://docs.google.com/presentation/d/1qR8gbOqTaxJ6TCHQ4sdM_Tn9khm1fphytA2A3TFtD4M/edit?usp=drive_link
