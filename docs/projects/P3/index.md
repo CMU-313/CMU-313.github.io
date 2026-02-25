@@ -21,7 +21,7 @@ There are two (2) deadlines for this project. This project is worth a total of 1
 
 [**Deployment & CI**](1_checkpoint.md) – 35 points – due Thursday, March 12, 2026, 11:59PM
 
-- Deployed Application (25 pts)
+- Deployed Application following the [NodeBB Deployment on Linux VM](deployment.md) instructions (25 pts)
 - Tools Checkpoint (10 pts)
 
 [**Tool Analysis and Integration**](2_finalsubmission.md) – 65 points – due Thursday, March 19, 2026, 11:59PM
