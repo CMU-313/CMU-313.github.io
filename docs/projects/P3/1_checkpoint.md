@@ -15,8 +15,8 @@ Once you have successfully deployed your website, make sure to test within your 
 
 By the checkpoint deadline you should
 
-- Submit a link to the deployed site onto Gradescope
-- Add your deployed site to this [public spreadsheet](https://docs.google.com/spreadsheets/d/1Xmaqmu5MITPjy1TFDpohQFwzaPYcUNVviuc4jLDXPEY/edit?usp=sharing), alongside your team name & UserGuide.md that your team submitted for Project 2. This will be used in [Feature Review](#feature-review-6-pts) for extra credit.
+- Submit the link to the deployed site onto Gradescope
+- Add the link to the deployed site and the link to the UserGuide.md that your team submitted for Project 2 to this [public spreadsheet](https://docs.google.com/spreadsheets/d/1Xmaqmu5MITPjy1TFDpohQFwzaPYcUNVviuc4jLDXPEY/edit?usp=sharing) next to your team name. This will be used in [Feature Review](/projects/p3/2_finalsubmission/#feature-review-6-pts) for extra credit.
 
 ### Tools Checkpoint (10 pts)
 
