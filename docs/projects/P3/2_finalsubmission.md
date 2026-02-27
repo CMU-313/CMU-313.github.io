@@ -44,9 +44,12 @@ You **must recommend at least one tool**, even if it’s with reservations.
 This section should address the different factors to take into consideration when integrating a new tool. At minimum, you should address the following:
 
 **Technical Questions**
+
   - How are you integrating the tool (high-level)? At what point in the development/deployment process shall it be integrated? What sorts of customization or configuration will you be using?
   - If you added any specific configuration to allow the main branch of your repository to pass its status checks, add the justification for those decisions in this section.
+  
 **Social Integration Questions**
+
   - How do you foresee the team using the tool during their development process? Consider the incentives & deterrents to the developers when it comes to using the tool, and their personal motivation to use it.
 
 Your answers should be based on your experiences running the tool(s) on your team repository and be grounded in data from your research on different factors such as tool usability, output, and customizability.
