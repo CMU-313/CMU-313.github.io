@@ -7,7 +7,7 @@
 - [Tool Analysis (Individual) (30 pts)](#tool-analysis-individual-30-pts)
 - [Tool Analysis Design Doc (Group) (20 pts)](#tool-analysis-design-doc-group-20-pts)
 - [Tool Integration (Group) (15 pts)](#tool-integration-group-15-pts)
-- [_Extra Credit_ (6 pts)](#extra-credit-feature-review)
+- [_Extra Credit_ (6 pts)](#extra-credit-feature-review-6-pts)
 
 ### Tool Analysis (Individual) (30 pts)
 
@@ -47,7 +47,7 @@ This section should address the different factors to take into consideration whe
 
   - How are you integrating the tool (high-level)? At what point in the development/deployment process shall it be integrated? What sorts of customization or configuration will you be using?
   - If you added any specific configuration to allow the main branch of your repository to pass its status checks, add the justification for those decisions in this section.
-  
+
 **Social Integration Questions**
 
   - How do you foresee the team using the tool during their development process? Consider the incentives & deterrents to the developers when it comes to using the tool, and their personal motivation to use it.
