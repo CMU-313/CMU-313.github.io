@@ -6,7 +6,7 @@
 
 - [Tool Analysis (Individual) (30 pts)](#tool-analysis-individual-30-pts)
 - [Tool Analysis Design Doc (Group) (20 pts)](#tool-analysis-design-doc-group-20-pts)
-- [Tool Integration (15 pts)](#tool-integration-15-pts)
+- [Tool Integration (Group) (15 pts)](#tool-integration-group-15-pts)
 - [_Extra Credit_ (6 pts)](#extra-credit-feature-review)
 
 ### Tool Analysis (Individual) (30 pts)
@@ -65,7 +65,7 @@ This section should be used to wrap everything up and ensure you have a good/com
 
 Each member should submit a link to the document on Gradescope **individually**.
 
-### Tool Integration (15 pts)
+### Tool Integration (Group) (15 pts)
 
 Once you have a tool selected along with a general integration plan, you should fully integrate one of the tools into your project’s workflow. For your checkpoint research, you should have successfully run this tool locally; you should then create a new workflow within the project to run it as part of the development cycle.
 
