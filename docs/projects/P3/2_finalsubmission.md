@@ -105,10 +105,10 @@ For each team, you will submit a review of their feature(s) on the appropriately
 2. How do you think the feature can be improved? and/or What do you think the feature did well in?
 3. Did you discover any bugs using the feature(s)?
 
-To qualify for extra credit, you will have to submit your review:
+To qualify for extra credit, you will have to submit your reviews:
 
 - on Gradescope
-- in the appropriate sheet for the group you want to review in the [public spreadsheet](https://docs.google.com/spreadsheets/d/1Xmaqmu5MITPjy1TFDpohQFwzaPYcUNVviuc4jLDXPEY/edit?usp=sharing). There should be one sheet per team, and you should add your review to the sheets for the team you are reviewing.
+- in the appropriate sheets for the groups you want to review in the [public spreadsheet](https://docs.google.com/spreadsheets/d/1Xmaqmu5MITPjy1TFDpohQFwzaPYcUNVviuc4jLDXPEY/edit?usp=sharing). There should be one sheet per team, and you should add your review to the sheets for the teams you are reviewing.
 
 ## Grading
 
