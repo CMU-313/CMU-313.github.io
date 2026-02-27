@@ -108,13 +108,7 @@ For each team, you will submit a review of their feature(s) on the appropriately
 To qualify for extra credit, you will have to submit your review:
 
 - on Gradescope
-- in the appropriate sheet for the group you want to review in the [public spreadsheet](https://docs.google.com/spreadsheets/d/1Xmaqmu5MITPjy1TFDpohQFwzaPYcUNVviuc4jLDXPEY/edit?usp=sharing). There should be one sheet per team, and you should add your review to the sheet for the team you are reviewing.
-
-## Grading
-
-To receive full credit for the extra credit, we expect:
-
-- [ ] Your review of three different teams' features on Gradescope and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/1Xmaqmu5MITPjy1TFDpohQFwzaPYcUNVviuc4jLDXPEY/edit?usp=sharing), addressing the three questions described.
+- in the appropriate sheet for the group you want to review in the [public spreadsheet](https://docs.google.com/spreadsheets/d/1Xmaqmu5MITPjy1TFDpohQFwzaPYcUNVviuc4jLDXPEY/edit?usp=sharing). There should be one sheet per team, and you should add your review to the sheets for the team you are reviewing.
 
 ## Grading
 
@@ -124,3 +118,7 @@ To receive full credit for the final deadline, we expect:
 - [ ] A link to the Github comment containing your individual analysis of your tool
 - [ ] A design document describing your justification for your selection of integrated tool(s), and your final integration plan
 - [ ] A link to a successful run of a GitHub Action that demonstrates your integration of your selected tool(s) into your team workflow
+
+To receive full credit for the extra credit, we expect:
+
+- [ ] Your review of three different teams' features on Gradescope and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/1Xmaqmu5MITPjy1TFDpohQFwzaPYcUNVviuc4jLDXPEY/edit?usp=sharing), addressing the three questions described.
