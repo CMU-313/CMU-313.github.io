@@ -97,7 +97,7 @@ Now that you and your classmates have deployed your applications in 3A, you will
 
 Note that this is an **individual** task.
 
-For extra credit, you will conduct reviews of features developed by other teams. Pick **three** teamss' deployments from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1Xmaqmu5MITPjy1TFDpohQFwzaPYcUNVviuc4jLDXPEY/edit?usp=sharing) to review--1 from your own section and 2 from other sections.
+For extra credit, you will conduct reviews of features developed by other teams. Pick **three** teams' deployments from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1Xmaqmu5MITPjy1TFDpohQFwzaPYcUNVviuc4jLDXPEY/edit?usp=sharing) to review--1 from your own section and 2 from other sections.
 
 For each team, you will submit a review of their feature(s) on the appropriately titled sheet in the Google Sheet. You will need to test the feature(s) as described in their UserGuide and provide feedback on the following:
 
