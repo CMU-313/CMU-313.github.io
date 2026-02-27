@@ -18,7 +18,7 @@ By the checkpoint deadline, you should as a group:
 - Submit the link to the deployed site onto Gradescope
 - Add the link to the deployed site and the link to the UserGuide.md that your team submitted for Project 2 to this [public spreadsheet](https://docs.google.com/spreadsheets/d/1Xmaqmu5MITPjy1TFDpohQFwzaPYcUNVviuc4jLDXPEY/edit?usp=sharing) next to your team name. This will be used in [Feature Review](/projects/p3/2_finalsubmission/#extra-credit-feature-review-6-pts) for extra credit.
 
-### Tools Checkpoint (10 pts)
+### Tools Checkpoint (10 pts - 4pts for Group, 6pts for Individual)
 
 Before jumping into tool integration, your manager would like you to research what existing analysis tools are out there that can be used with NodeBB. You will evaluate the tools, and eventually document your findings for your final deliverable.
 
@@ -50,7 +50,11 @@ Every person on the team should do the following for one of the N tools:
 
 By the checkpoint deadline, you will each individually submit to Gradescope:
 
-- A link to the **PR that demonstrates that you have successfully installed and run your chosen tool**, including artifacts that act as appropriate evidence as outlined above. Your **PR description** should contain a pro/con analysis of the tool that answers the questions above with supporting evidence. 
+- A link to the **PR that demonstrates that you have successfully installed and run your chosen tool**, including artifacts that act as appropriate evidence as outlined above. Your **PR description** should contain a pro/con analysis of the tool that answers the questions above with supporting evidence. This will be worth 6 out of the 10 points. 
+
+You will also as a group submit to Gradescope:
+
+- Links to all N PRs. This will be worth 4 out of the 10 points. 
 
 ## Grading
 
