@@ -721,7 +721,7 @@
 - date: Mon Mar 9
   homework: 
     deadline: "Due Thursday, March 12, 2026 @ 11:59PM"
-    link: ""
+    link: "projects/p3/1_checkpoint/"
     name: "Project 3A - Checkpoint Deliverables"
     numDays: 4
   lecture:
@@ -793,7 +793,7 @@
 - date: Fri Mar 13
   homework:
     deadline: "Due Thursday, March 19, 2026 @ 11:59PM"
-    link: ""
+    link: "projects/p3/2_finalsubmission/"
     name: "Project 3B - Final Deliverables"
     numDays: 5
   lecture:
