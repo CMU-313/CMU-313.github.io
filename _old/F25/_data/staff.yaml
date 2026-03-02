@@ -1,0 +1,61 @@
+
+- name: Michael Hilton
+  role: Instructor
+  email: mhilton@cmu.edu
+  website: https://www.cs.cmu.edu/~mhilton/
+  photo: michael.jpg
+
+- name: Chris Timperley
+  role: Instructor
+  email: ctimperley@cmu.edu
+  website: https://chris.timperley.info/
+  photo: ChrisT.jpg
+
+
+- name: Juan Ageitos
+  role: Teaching Assistant
+  email: jageitos@andrew.cmu.edu
+  website:
+  photo: Juan.png
+  
+- name: Bing Bhakdibhumi
+  role: Teaching Assistant
+  email: barameeb@andrew.cmu.edu
+  website:
+  photo: Bing.jpeg
+  
+- name: Savannah Xu
+  role: Teaching Assistant
+  email: savannax@andrew.cmu.edu
+  website:
+  photo: Savannah.jpeg
+
+- name: Kareem Segizekov
+  role: Teaching Assistant
+  email: ksegizek@andrew.cmu.edu
+  website:
+  photo: Kareem.jpg
+
+- name: Jonathan Oh
+  role: Teaching Assistant
+  email: jjo2@andrew.cmu.edu
+  website:
+  photo: JonathanOh.jpeg
+
+- name: Autumn Qiu
+  role: Teaching Assistant
+  email: autumnq@andrew.cmu.edu
+  website:
+  photo: Autumn.jpg
+
+- name: Rathi Murugan
+  role: Teaching Assistant
+  email: rmurugan@andrew.cmu.edu
+  website:
+  photo: Rathi.jpg
+
+- name: Sarah Cross
+  role: Teaching Assistant
+  email: sarahcro@andrew.cmu.edu
+  website:
+  photo: Sarah.jpg

@@ -1,0 +1,54 @@
+
+- name: Michael Hilton
+  role: Instructor
+  email: mhilton@cmu.edu
+  website: https://www.cs.cmu.edu/~mhilton/
+  photo: michael.jpg
+
+- name: Joshua Sunshine
+  role: Instructor
+  email: sunshine@cs.cmu.edu
+  website: https://www.cs.cmu.edu/~jssunshi/
+  photo: Joshua_Sunshine.jpg
+
+- name: Autumn Qiu
+  role: Teaching Assistant
+  email: autumnq@andrew.cmu.edu
+  website:
+  photo: Autumn.jpg
+
+- name: Juan Ageitos
+  role: Teaching Assistant
+  email: jageitos@andrew.cmu.edu
+  website:
+  photo: Juan.png
+  
+- name: Bing Bhakdibhumi
+  role: Teaching Assistant
+  email: barameeb@andrew.cmu.edu
+  website:
+  photo: Bing.jpeg
+
+- name: Kaia Newman
+  role: Teaching Assistant
+  email: klnewman@andrew.cmu.edu 
+  website:
+  photo: Kaia_Newman.jpg
+
+- name: Hwei-Shin Harriman
+  role: Teaching Assistant
+  email: hweishih@andrew.cmu.edu
+  website:
+  photo: Hwei-Shin_Harriman.jpg
+
+- name: Lisa Huang
+  role: Teaching Assistant
+  email: wenleh@andrew.cmu.edu
+  website:
+  photo: Lisa_Huang.jpg
+
+- name: Alejandro Estrada
+  role: Teaching Assistant
+  email: alejande@andrew.cmu.edu
+  website:
+  photo: Alejandro_Estrada.jpg

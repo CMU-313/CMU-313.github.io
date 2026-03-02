@@ -1,0 +1,4159 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>CMU 17-313: Foundations of Software Engineering - CMU 17-313: Foundations of Software Engineering</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.08040f6c.min.css">
+        
+      
+      
+
+    
+    
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="stylesheets/custom.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#17-313-foundations-of-software-engineering" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="CMU 17-313: Foundations of Software Engineering" class="md-header__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering" data-md-component="logo">
+      
+  <img src="assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CMU 17-313: Foundations of Software Engineering
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CMU 17-313: Foundations of Software Engineering
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="." class="md-tabs__link md-tabs__link--active">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="overview/" class="md-tabs__link">
+      Course Overview
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="syllabus/" class="md-tabs__link">
+      Syllabus
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="projects/P1/" class="md-tabs__link">
+        Projects
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="recitations/reci1-github/" class="md-tabs__link">
+        Recitations
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="hall-of-fame/" class="md-tabs__link">
+      Hall of Fame
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://canvas.cmu.edu/courses/39244" class="md-tabs__link">
+      Canvas
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://www.gradescope.com" class="md-tabs__link">
+      Gradescope
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://join.slack.com/t/cmu-17313-s24/signup" class="md-tabs__link">
+      Slack
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="CMU 17-313: Foundations of Software Engineering" class="md-nav__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering" data-md-component="logo">
+      
+  <img src="assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    CMU 17-313: Foundations of Software Engineering
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        Home
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#this-week" class="md-nav__link">
+    This Week
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#class-calendar" class="md-nav__link">
+    Class Calendar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weekly-schedule" class="md-nav__link">
+    Weekly Schedule
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#staff" class="md-nav__link">
+    Staff
+  </a>
+  
+    <nav class="md-nav" aria-label="Staff">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instructors" class="md-nav__link">
+    Instructors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teaching-assistants" class="md-nav__link">
+    Teaching Assistants
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="overview/" class="md-nav__link">
+        Course Overview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="syllabus/" class="md-nav__link">
+        Syllabus
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Projects
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Projects" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Projects
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="projects/P1/">Project 1: Hello, NodeBB!</a>
+          
+            <label for="__nav_4_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 1: Hello, NodeBB!" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Project 1: Hello, NodeBB!
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/P1/1_checkpoint/" class="md-nav__link">
+        1A Build Checkpoint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/P1/2_translation/" class="md-nav__link">
+        1B Starter Task
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1_4" type="checkbox" id="__nav_4_1_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4_1_4">
+          NodeBB Installation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="NodeBB Installation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          NodeBB Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/P1/installation/mac/" class="md-nav__link">
+        Mac
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/P1/installation/windows/" class="md-nav__link">
+        Windows
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/P1/installation/ubuntu/" class="md-nav__link">
+        Linux (Ubuntu)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/P1/documentation/" class="md-nav__link">
+        Resources and Documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/P1/faq/" class="md-nav__link">
+        FAQ
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="projects/P2/">Project 2: Collaborative Development</a>
+          
+            <label for="__nav_4_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 2: Collaborative Development" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Project 2: Collaborative Development
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/P2/1_teamprocess/" class="md-nav__link">
+        2A Team Process & Planning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/P2/2_firstsprint/" class="md-nav__link">
+        2B First Sprint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/P2/3_secondsprint/" class="md-nav__link">
+        2C Second Sprint
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="projects/P3/">Project 3: Continuous Integration + Deployment</a>
+          
+            <label for="__nav_4_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 3: Continuous Integration + Deployment" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Project 3: Continuous Integration + Deployment
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/P3/deployment/" class="md-nav__link">
+        GCP Deployment Instructions
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="projects/P4/">Project 4: Architecting an LLM Integration</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 4: Architecting an LLM Integration" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Project 4: Architecting an LLM Integration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_5" type="checkbox" id="__nav_4_5" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="projects/P5/">Project 5: Open Source Excursion</a>
+          
+            <label for="__nav_4_5">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 5: Open Source Excursion" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          Project 5: Open Source Excursion
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/P5/1_projectcheck/" class="md-nav__link">
+        5A Project and Task Selection
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/P5/2_projectfinal/" class="md-nav__link">
+        5B Project Presentations, Final Report, and Reflections
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Recitations
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Recitations" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Recitations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="recitations/reci1-github/" class="md-nav__link">
+        Recitation 1 - Git, GitHub and TypeScript
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="recitations/reci2-teamcontract/" class="md-nav__link">
+        Recitation 2 - Team Contract Workshop
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="recitations/reci4-archaeology/" class="md-nav__link">
+        Recitation 3 - Archaeology
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="recitations/reci4-checkpoint/" class="md-nav__link">
+        Recitation 4 - Checkpoint Presentations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="recitations/reci5-team-dysfunction/" class="md-nav__link">
+        Recitation 5 - Team Dysfunction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="recitations/reci6-deployment/" class="md-nav__link">
+        Recitation 6 - Deployment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="recitations/reci7-llms/" class="md-nav__link">
+        Recitation 7 - Large Language Models
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="recitations/reci8-team-feedback/" class="md-nav__link">
+        Recitation 8 - Team Feedback
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="recitations/reci9-open-source/" class="md-nav__link">
+        Recitation 9 - Open Source Scavenger Hunt
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="recitations/reci10-p5-checkin/" class="md-nav__link">
+        Recitation 10 - Open Source Project and Task Selection Check In
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="recitations/reci11-midterm-review/" class="md-nav__link">
+        Recitation 11 - Midterm Review
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hall-of-fame/" class="md-nav__link">
+        Hall of Fame
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://canvas.cmu.edu/courses/39244" class="md-nav__link">
+        Canvas
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.gradescope.com" class="md-nav__link">
+        Gradescope
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://join.slack.com/t/cmu-17313-s24/signup" class="md-nav__link">
+        Slack
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#this-week" class="md-nav__link">
+    This Week
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#class-calendar" class="md-nav__link">
+    Class Calendar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weekly-schedule" class="md-nav__link">
+    Weekly Schedule
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#staff" class="md-nav__link">
+    Staff
+  </a>
+  
+    <nav class="md-nav" aria-label="Staff">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instructors" class="md-nav__link">
+    Instructors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teaching-assistants" class="md-nav__link">
+    Teaching Assistants
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="17-313-foundations-of-software-engineering">17-313 Foundations of Software Engineering<a class="headerlink" href="#17-313-foundations-of-software-engineering" title="Permanent link">&para;</a></h1>
+<h2 id="this-week">This Week<a class="headerlink" href="#this-week" title="Permanent link">&para;</a></h2>
+<div id="this-week"><div class="card"> 
+    <div class="header">
+        Lectures & Readings
+    </div>
+    <div class="content">
+
+            None!
+
+    </div>
+
+</div>
+
+<div class="card"> 
+    <div class="header">
+        Recitation
+    </div>
+    <div class="content">
+
+            None!
+
+    </div>
+
+    <div class="header">
+        Office Hours
+    </div>
+    <div class="content">
+        Held on the first floor lobby of TCS. See <a href="#class-calendar">class calendar</a> below for exact times!
+    </div>
+
+</div>
+
+<div class="card"> 
+    <div class="header">
+        Projects
+    </div>
+    <div class="content">
+
+            None!
+
+    </div>
+
+</div>
+
+</div>
+
+<h2 id="class-calendar">Class Calendar<a class="headerlink" href="#class-calendar" title="Permanent link">&para;</a></h2>
+<iframe src="https://calendar.google.com/calendar/embed?src=c_35e13ce96c69df6612d46b0bc0664acdea6e76bdaafcceb86e040b410cda5e50%40group.calendar.google.com&ctz=America%2FNew_York&mode=WEEK" style="border: 0" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
+
+<h2 id="weekly-schedule">Weekly Schedule<a class="headerlink" href="#weekly-schedule" title="Permanent link">&para;</a></h2>
+<div id="schedule">
+<!-- Loading in schedule from schedule.yaml -->
+<table>
+    <thead>
+        <th><b>Date</b></th>
+        <th><b>Lecture</b></th>
+        <th><b>Reading</b></th>
+        <th><b>Recitation</b></th>
+        <th><b>Project Deadline</b></th>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td><span class="schedule-day">Mon Jan 15</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Jan 16</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/01-introduction-wide.pdf" target="_blank">
+                        Introduction
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+                <td rowspan="4"><span class="schedule-homework">
+                    <b>P1A - Build Checkpoint</b>
+                    <br/>
+                    Due Friday Jan 19th, 11:59pm
+                    <br/>
+
+
+                    <a class="label label-red" href="/projects/P1">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+                </span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Jan 17</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Jan 18</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/02-archaelogy-and-anthropology.pdf" target="_blank">
+                        Software Archaeology and Anthropology
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Jan 19</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Jan 22</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>Recitation 1 - Git, GitHub and TypeScript</b>
+                    <br/>
+
+
+                    <a class="label label-aqua" href="https://docs.google.com/presentation/d/1js-OQoNlUZ32OO8U3-Tz4IpCwTeKl7j7/edit?usp=sharing&ouid=116435991719159948286&rtpof=true&sd=true" target="_blank">
+                        <span class="material-symbols-outlined">slideshow</span>Slides
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="/recitations/reci1-github/">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="https://www.gradescope.com/courses/703665/assignments/3967904" target="_blank">
+                        <span class="material-symbols-outlined">equalizer</span>Quiz
+                    </a>
+
+                </span></td>
+
+
+
+
+
+                <td rowspan="4"><span class="schedule-homework">
+                    <b>P1B - Starter Task</b>
+                    <br/>
+                    Due Thursday Jan 25th, 11:59pm
+                    <br/>
+
+
+                    <a class="label label-red" href="/projects/P1/2_translation">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+                </span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Jan 23</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/03-measurement.pdf" target="_blank">
+                        Metrics and Measurement
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Jan 24</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Jan 25</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/04-BoeingCaseStudy.pdf" target="_blank">
+                        Case Study: Boeing 737 MAX
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+                    <a class="label label-blue" href="https://github.com/CMU-313/CMU-313.github.io/blob/bfd1bcc47c313bb9d8b869c0145133756daa4278/docs/readings/flawed_analysis_boeing737_max.pdf" target="_blank">
+                        Boeing Case Study Reading
+                    </a>
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Jan 26</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+                <td rowspan="5"><span class="schedule-homework">
+                    <b>P2A - Team Process &amp; Planning</b>
+                    <br/>
+                    Due Thursday, Feb 1st, 11:59pm
+                    <br/>
+
+
+                    <a class="label label-red" href="/projects/P2/1_teamprocess">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+                </span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Jan 29</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>Recitation 2 - Team Contract Workshop</b>
+                    <br/>
+
+
+                    <a class="label label-aqua" href="https://docs.google.com/presentation/d/1QuX5Ylp3ColNwc-YUpkHO0_HzCRtL8PUAJT2qX5mSUE/edit?usp=sharing" target="_blank">
+                        <span class="material-symbols-outlined">slideshow</span>Slides
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="/recitations/reci2-teamcontract/">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="https://www.gradescope.com/courses/703665/assignments/4006103" target="_blank">
+                        <span class="material-symbols-outlined">equalizer</span>Quiz
+                    </a>
+
+                </span></td>
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Jan 30</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/05-process.pdf" target="_blank">
+                        Project Planning
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Jan 31</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Feb 1</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/06-teams-communication-wide.pdf" target="_blank">
+                        Teams and Communication
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Feb 2</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+                <td rowspan="8"><span class="schedule-homework">
+                    <b>P2B - Collaborative Development</b>
+                    <br/>
+                    Due Tuesday, Feb 13th, 11:59pm
+                    <br/>
+
+
+                    <a class="label label-red" href="/projects/P2/2_firstsprint">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+                </span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Feb 5</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>Recitation 3 - Software Archaeology</b>
+                    <br/>
+
+
+                    <a class="label label-aqua" href="https://docs.google.com/presentation/d/1Fg375RKJc7X8Ckqp-POXDGu1BONnM35AFc5_Tg__F0E/edit?usp=sharing" target="_blank">
+                        <span class="material-symbols-outlined">slideshow</span>Slides
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="/recitations/reci4-archaeology/">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="https://www.gradescope.com/courses/703665/assignments/4021872" target="_blank">
+                        <span class="material-symbols-outlined">equalizer</span>Quiz
+                    </a>
+
+                </span></td>
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Feb 6</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/07-Intro-to-Arch.pdf" target="_blank">
+                        Architecture: Intro and Overview
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Feb 7</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Feb 8</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/08-arch-design-docs.pdf" target="_blank">
+                        Architecture: Design Docs
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Feb 9</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Feb 12</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>Recitation 4 - Checkpoint Presentations</b>
+                    <br/>
+
+
+
+
+                    <a class="label label-aqua" href="/recitations/reci4-checkpoint/">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+
+
+                </span></td>
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Feb 13</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/09-Microservices.pdf" target="_blank">
+                        Architecture: Microservices
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Feb 14</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+                <td rowspan="12"><span class="schedule-homework">
+                    <b>P2C - Collaborative Development</b>
+                    <br/>
+                    Due Thursday, Feb 29th, 11:59pm
+                    <br/>
+
+
+                    <a class="label label-red" href="/projects/P2/3_secondsprint">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+                </span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Feb 15</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/10-code-review-risk.pdf" target="_blank">
+                        Software Risk Management
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Feb 16</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Feb 19</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>Recitation 5 - Team Dysfunction</b>
+                    <br/>
+
+
+                    <a class="label label-aqua" href="https://docs.google.com/presentation/d/1HRRKiX-dE24dBZbXs3OWgxc4YNSO08fkoeI0JuYtw90/edit#slide=id.p" target="_blank">
+                        <span class="material-symbols-outlined">slideshow</span>Slides
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="/recitations/reci5-team-dysfunction/">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="https://www.gradescope.com/courses/703665/assignments/4106622" target="_blank">
+                        <span class="material-symbols-outlined">equalizer</span>Quiz
+                    </a>
+
+                </span></td>
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Feb 20</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/11-dynamic-analysis.pdf" target="_blank">
+                        QA: Dynamic Analysis Tools
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Feb 21</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Feb 22</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/12-analysis-tools.pdf" target="_blank">
+                        QA: Static Analysis Tools
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Feb 23</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Feb 26</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>No Recitation!</b>
+                    <br/>
+
+
+
+
+
+
+                </span></td>
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Feb 27</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <b>MIDTERM</b>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Feb 28</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Feb 29</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/14-ethics.pdf" target="_blank">
+                        Ethics
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Mar 1</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Mar 4</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Mar 5</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <b>NO CLASS (Spring Break)</b>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Mar 6</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Mar 7</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <b>NO CLASS (Spring Break)</b>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Mar 8</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Mar 11</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>Recitation 6 - Deployment</b>
+                    <br/>
+
+
+                    <a class="label label-aqua" href="https://docs.google.com/presentation/d/1947sIuYbrv_KrT_mLJjcRXNQZXA-EhduQQbpDJYLEBg/edit?usp=sharing" target="_blank">
+                        <span class="material-symbols-outlined">slideshow</span>Slides
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="/recitations/reci6-deployment/">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="https://www.gradescope.com/courses/703665/assignments/4181607/" target="_blank">
+                        <span class="material-symbols-outlined">equalizer</span>Quiz
+                    </a>
+
+                </span></td>
+
+
+
+
+
+                <td rowspan="5"><span class="schedule-homework">
+                    <b>P3A - Checkpoint</b>
+                    <br/>
+                    Due Friday Mar 15th, 11:59pm
+                    <br/>
+
+
+                    <a class="label label-red" href="/projects/P3">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+                </span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Mar 12</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/15-CI-deployment.pdf" target="_blank">
+                        CI and Deployment
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Mar 13</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Mar 14</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <b>Deployment Workshop Game</b>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Mar 15</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Mar 18</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>Recitation 7 - Large Language Models</b>
+                    <br/>
+
+
+                    <a class="label label-aqua" href="https://docs.google.com/presentation/d/1OpJpOKSEISbDIBoiB15t-p1aLZZb16UoIbhQfi-zvJw/edit?usp=sharing" target="_blank">
+                        <span class="material-symbols-outlined">slideshow</span>Slides
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="/recitations/reci7-llms/">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="https://www.gradescope.com/courses/703665/assignments/4237502/" target="_blank">
+                        <span class="material-symbols-outlined">equalizer</span>Quiz
+                    </a>
+
+                </span></td>
+
+
+
+
+
+                <td rowspan="4"><span class="schedule-homework">
+                    <b>P3B - Final Deliverables and Extra Credit</b>
+                    <br/>
+                    Due Thursday Mar 21st, 11:59pm
+                    <br/>
+
+
+                    <a class="label label-red" href="/projects/P3">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+                </span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Mar 19</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/16-delivering-effective-feedback.pdf" target="_blank">
+                        Feedback Workshop - Guest Lecture
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Mar 20</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Mar 21</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/17-LLMs.pdf" target="_blank">
+                        LLMs
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Mar 22</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+                <td rowspan="7"><span class="schedule-homework">
+                    <b>P4A - Checkpoint#1</b>
+                    <br/>
+                    Due Thursday Mar 28th, 11:59pm
+                    <br/>
+
+
+                    <a class="label label-red" href="/projects/P4">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+                </span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Mar 25</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>Recitation 8 - Team Feedback</b>
+                    <br/>
+
+
+                    <a class="label label-aqua" href="https://docs.google.com/presentation/d/1lL2KRPPkw3IHMJlgw_IHX2xNBx0Vk4a-AIrivw6fZrk/edit?usp=sharing" target="_blank">
+                        <span class="material-symbols-outlined">slideshow</span>Slides
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="/recitations/reci8-team-feedback">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="https://www.gradescope.com/courses/703665/assignments/4255110" target="_blank">
+                        <span class="material-symbols-outlined">equalizer</span>Quiz
+                    </a>
+
+                </span></td>
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Mar 26</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/19-LLM-Tool-Lecture.pdf" target="_blank">
+                        LLM as Tools
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Mar 27</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Mar 28</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/20-software-quality.pdf" target="_blank">
+                        Software Quality
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+                <td rowspan="3"><span class="schedule-homework">
+                    <b>P4B - Checkpoint#2</b>
+                    <br/>
+                    Due Monday Apr 1st, 11:59pm
+                    <br/>
+
+
+                    <a class="label label-red" href="/projects/P4">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+                </span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Mar 29</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Apr 1</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>Open Source Scavenger Hunt</b>
+                    <br/>
+
+
+                    <a class="label label-aqua" href="https://docs.google.com/presentation/d/18jHBU7SKKfIAJUiUFzToYqqDBn6kl--r9q-XbNOV4JU/edit?usp=sharing" target="_blank">
+                        <span class="material-symbols-outlined">slideshow</span>Slides
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="/recitations/reci9-open-source/">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="https://www.gradescope.com/courses/703665/assignments/4301035" target="_blank">
+                        <span class="material-symbols-outlined">equalizer</span>Quiz
+                    </a>
+
+                </span></td>
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Apr 2</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/21-open-source.pdf" target="_blank">
+                        Open Source
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+                <td rowspan="3"><span class="schedule-homework">
+                    <b>P4C - Final Deliverables</b>
+                    <br/>
+                    Due Thursday Apr 4th, 11:59pm
+                    <br/>
+
+
+                    <a class="label label-red" href="/projects/P4">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+                </span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Apr 3</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Apr 4</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/22-patents-dependencies.pdf" target="_blank">
+                        Patents / Dependencies
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Apr 5</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+                <td rowspan="0"><span class="schedule-homework">
+                    <b>P5 - Open Source Excursion</b>
+                    <br/>
+                    Due Sunday April 28th, 11:59pm
+                    <br/>
+
+
+                    <a class="label label-red" href="/projects/P5">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+                </span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Apr 8</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>Recitation 10 - Open Source Project and Task Selection Check In</b>
+                    <br/>
+
+
+
+
+                    <a class="label label-aqua" href="/recitations/reci10-p5-checkin/">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="https://forms.gle/FGwc37uTahoRQCkL9" target="_blank">
+                        <span class="material-symbols-outlined">equalizer</span>Quiz
+                    </a>
+
+                </span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Apr 9</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/23-security-and-privacy.pdf" target="_blank">
+                        Security and Privacy
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Apr 10</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Apr 11</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <b>NO CLASS (Carnival)</b>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Apr 12</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Apr 15</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+                <td rowspan="5"><span class="schedule-recitation">
+                    <b>Recitation 11 - Midterm Review</b>
+                    <br/>
+
+
+                    <a class="label label-aqua" href="https://docs.google.com/presentation/d/1bh2Hh1j7sUNIljtm0x4IRCV6oImgTNSDNiFYny0IOCo/edit?usp=sharing" target="_blank">
+                        <span class="material-symbols-outlined">slideshow</span>Slides
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="recitations/reci11-midterm-review/">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+
+
+
+                    <a class="label label-aqua" href="https://www.gradescope.com/courses/703665/assignments/4359746" target="_blank">
+                        <span class="material-symbols-outlined">equalizer</span>Quiz
+                    </a>
+
+                </span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Apr 16</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/25-SRE.pdf" target="_blank">
+                        SLO
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Apr 17</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Apr 18</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <b>MIDTERM</b>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Apr 19</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Apr 22</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Apr 23</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <a class="label label-gold" href="assets/pdfs/27-employment.pdf" target="_blank">
+                        SE Jobs, Offers &amp; Negotiation
+                    </a>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed Apr 24</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu Apr 25</span></td>
+
+            <td><span class="schedule-lecture">
+
+                    <b>Semester Review</b>
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri Apr 26</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon Apr 29</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue Apr 30</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Wed May 1</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Thu May 2</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Fri May 3</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Mon May 6</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+        <tr>
+            <td><span class="schedule-day">Tue May 7</span></td>
+
+            <td><span class="schedule-lecture">
+
+            </span></td>
+
+            <td><span class="schedule-reading">
+
+            </span></td>
+
+
+
+                    <td><span class="schedule-recitation"></span></td>
+
+
+
+
+
+
+                    <td><span class="schedule-homework"></span></td>
+
+
+        </tr>
+
+    </tbody>
+
+</table>
+</div>
+<h2 id="staff">Staff<a class="headerlink" href="#staff" title="Permanent link">&para;</a></h2>
+<h3 id="instructors">Instructors<a class="headerlink" href="#instructors" title="Permanent link">&para;</a></h3>
+<div id="course-instructors">
+<div class="staffer card"> 
+    <div class="container">
+        <img class="staffer-image" src="/assets/images/michael.jpg" alt="">
+        <div>
+            <h3 class="staffer-name"> 
+                Michael Hilton
+            </h3>
+            <div class="staffer-links">
+                <a href="mailto:mhilton@cmu.edu"><span class="material-symbols-outlined">
+                    mail
+                </span></a>
+
+                <a href="https://www.cs.cmu.edu/~mhilton/" target="_blank"><span class="material-symbols-outlined">
+                    public
+                </span></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="staffer card"> 
+    <div class="container">
+        <img class="staffer-image" src="/assets/images/eduardo.jpg" alt="">
+        <div>
+            <h3 class="staffer-name"> 
+                Eduardo Feo Flushing
+            </h3>
+            <div class="staffer-links">
+                <a href="mailto:efeoflus@andrew.cmu.edu"><span class="material-symbols-outlined">
+                    mail
+                </span></a>
+
+                <a href="https://www.efeoflushing.com/" target="_blank"><span class="material-symbols-outlined">
+                    public
+                </span></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+<h3 id="teaching-assistants">Teaching Assistants<a class="headerlink" href="#teaching-assistants" title="Permanent link">&para;</a></h3>
+<div id="course-assistants">
+
+
+
+<div class="staffer card"> 
+    <div class="container">
+        <img class="staffer-image" src="/assets/images/sophia.jpeg" alt="">
+        <div>
+            <h3 class="staffer-name"> 
+                Sophia Witt
+            </h3>
+            <div class="staffer-links">
+                <a href="mailto:switt@andrew.cmu.edu"><span class="material-symbols-outlined">
+                    mail
+                </span></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="staffer card"> 
+    <div class="container">
+        <img class="staffer-image" src="/assets/images/alexis.jpg" alt="">
+        <div>
+            <h3 class="staffer-name"> 
+                Alexis Axon
+            </h3>
+            <div class="staffer-links">
+                <a href="mailto:aaxon@andrew.cmu.edu"><span class="material-symbols-outlined">
+                    mail
+                </span></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="staffer card"> 
+    <div class="container">
+        <img class="staffer-image" src="/assets/images/eyob.jpg" alt="">
+        <div>
+            <h3 class="staffer-name"> 
+                Eyob Dagnachew
+            </h3>
+            <div class="staffer-links">
+                <a href="mailto:edagnach@andrew.cmu.edu"><span class="material-symbols-outlined">
+                    mail
+                </span></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="staffer card"> 
+    <div class="container">
+        <img class="staffer-image" src="/assets/images/grace.jpg" alt="">
+        <div>
+            <h3 class="staffer-name"> 
+                Grace Xin
+            </h3>
+            <div class="staffer-links">
+                <a href="mailto:gxin@andrew.cmu.edu"><span class="material-symbols-outlined">
+                    mail
+                </span></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="staffer card"> 
+    <div class="container">
+        <img class="staffer-image" src="/assets/images/lara.jpg" alt="">
+        <div>
+            <h3 class="staffer-name"> 
+                Lara Marinov
+            </h3>
+            <div class="staffer-links">
+                <a href="mailto:lmarinov@andrew.cmu.edu"><span class="material-symbols-outlined">
+                    mail
+                </span></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="staffer card"> 
+    <div class="container">
+        <img class="staffer-image" src="/assets/images/jesse.jpg" alt="">
+        <div>
+            <h3 class="staffer-name"> 
+                Jesse Ding
+            </h3>
+            <div class="staffer-links">
+                <a href="mailto:jessedin@andrew.cmu.edu"><span class="material-symbols-outlined">
+                    mail
+                </span></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="staffer card"> 
+    <div class="container">
+        <img class="staffer-image" src="/assets/images/jenny.jpg" alt="">
+        <div>
+            <h3 class="staffer-name"> 
+                Jenny Liang
+            </h3>
+            <div class="staffer-links">
+                <a href="mailto:jtliang@andrew.cmu.edu"><span class="material-symbols-outlined">
+                    mail
+                </span></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="staffer card"> 
+    <div class="container">
+        <img class="staffer-image" src="/assets/images/ao.jpg" alt="">
+        <div>
+            <h3 class="staffer-name"> 
+                Ao Li
+            </h3>
+            <div class="staffer-links">
+                <a href="mailto:aoli@andrew.cmu.edu"><span class="material-symbols-outlined">
+                    mail
+                </span></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.top", "navigation.tracking", "navigation.indexes", "announce.dismiss"], "search": "assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>
