@@ -731,10 +731,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "recitations/reci7-vm-setup"
+    name: "Recitation 7 - Linux VM Setup"
+    quiz: "https://www.gradescope.com/courses/1213157/assignments/7710711"
+    slides: "https://docs.google.com/document/d/1si3shvRRnsWxLJ3iiLUUQ75mAueIlO3ll_oPZRH4svc/edit?usp=sharing"
 
 - date: Tue Mar 10
   homework:
