@@ -1,16 +1,22 @@
-lectures:
-- date: Tue Mar 3
-  link: ''
-  name: Spring Break - No Class
-- date: Thu Mar 5
-  link: ''
-  name: Spring Break - No Class
+lectures: []
 
-projects: []
+projects:
+- date: Mon Mar 9
+  deadline: Due Thursday, March 12, 2026 @ 11:59PM
+  end_date: 2026-03-13 00:00:00
+  link: projects/p3/1_checkpoint/
+  name: Project 3A - Checkpoint Deliverables
+  numDays: 4
+- date: Fri Mar 13
+  deadline: Due Thursday, March 19, 2026 @ 11:59PM
+  end_date: 2026-03-20 00:00:00
+  link: projects/p3/2_finalsubmission/
+  name: Project 3B - Final Deliverables
+  numDays: 5
 
 recitation:
-  date: Mon Mar 2
-  handout: ''
-  name: Spring Break - No Reci
-  quiz: ''
-  slides: ''
+  date: Mon Mar 9
+  handout: recitations/reci7-vm-setup
+  name: Recitation 7 - Linux VM Setup
+  quiz: https://www.gradescope.com/courses/1213157/assignments/7710711
+  slides: https://docs.google.com/document/d/1si3shvRRnsWxLJ3iiLUUQ75mAueIlO3ll_oPZRH4svc/edit?usp=sharing
