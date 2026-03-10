@@ -743,8 +743,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/14-design-docs.pdf"
+    name: "Design Docs"
   reading:
     link: ""
     name: ""
