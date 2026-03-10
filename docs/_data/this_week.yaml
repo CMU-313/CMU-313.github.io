@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Tue Mar 10
+  link: assets/pdfs/14-design-docs.pdf
+  name: Design Docs
 
 projects:
 - date: Mon Mar 9
