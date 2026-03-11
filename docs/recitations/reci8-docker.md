@@ -1,4 +1,4 @@
-# Recitation 8: Microservices and Docker
+# Recitation 8: Containerization and Docker
 
 ## Prerequisites
 
