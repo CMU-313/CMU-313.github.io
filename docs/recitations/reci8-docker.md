@@ -1,4 +1,4 @@
-# Recitation 8: Containerization and Docker
+# Recitation 8: Docker and Containerization
 
 ## Prerequisites
 
