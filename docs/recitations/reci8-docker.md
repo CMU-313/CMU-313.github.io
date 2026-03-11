@@ -1,4 +1,4 @@
-# Recitation 8: Docker and Containerization
+# Recitation 8: Microservices and Docker
 
 ## Prerequisites
 
@@ -6,7 +6,7 @@ You should have downloaded Docker. If you haven't follow the installation instru
 
 ## Setup Instructions (10 min):
 
-Fork [this repo](https://github.com/CMU-313/f25-docker-recitation) and clone it.
+Fork [this repo](https://github.com/CMU-313/s26-docker-recitation) and clone it.
 
 Open the folder in VSCode.  Then you should "reopen in continer" similar to NodeBB, but this container is setup for python.
 
@@ -79,4 +79,4 @@ The endpoint has to return a JSON object in the following form:
 Try deploying your container by running it in codespaces
 
 ## Submission: 
-Make sure to [Submit on Gradescope](https://www.gradescope.com/courses/1086939/assignments/7049021/submissions) after this recitation. Everyone should submit individually.
+Make sure to [Submit on Gradescope](https://www.gradescope.com/courses/1213157/assignments/7815138/submissions) after this recitation. Everyone should submit individually.
