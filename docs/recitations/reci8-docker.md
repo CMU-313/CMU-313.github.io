@@ -20,7 +20,7 @@ During this recitation, students will create a simple FastAPI app, containerize 
 
 Sadly, you still are unsure when your recitation time is AND who your TAs are. There exist a microservice that tells you which TA's are responsible for each section.
 
-Try it out using this link: [http://17313-teachers2.s3d.cmu.edu:8080/section_info/a](http://17313-teachers2.s3d.cmu.edu:8080/section_info/a)
+Try it out using this link: [http://17313-teachers.s3d.cmu.edu:8080/section_info/a](http://17313-teachers.s3d.cmu.edu:8080/section_info/a)
 
 All you have to do is build a new service that builds on top of this microservice by including the time of the recitation as well.
 
