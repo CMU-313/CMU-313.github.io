@@ -2,13 +2,13 @@
 
 ## Prerequisites
 
-You should have downloaded Docker. If you haven't follow the installation instructions [here](https://docs.docker.com/get-docker/)
+You should have downloaded Docker. If you haven't follow the installation instructions [here](https://docs.docker.com/get-docker/).
 
 ## Setup Instructions (10 min):
 
 Fork [this repo](https://github.com/CMU-313/s26-docker-recitation) and clone it.
 
-Open the folder in VSCode.  Then you should "reopen in continer" similar to NodeBB, but this container is setup for python.
+Open the folder in VSCode. Then you should "Reopen in Container" similar to NodeBB, but this container is setup for Python.
 
 Also start the docker engine.
 
