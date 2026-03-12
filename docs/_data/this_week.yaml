@@ -2,6 +2,9 @@ lectures:
 - date: Tue Mar 10
   link: assets/pdfs/14-design-docs.pdf
   name: Design Docs
+- date: Thu Mar 12
+  link: assets/pdfs/15-vibe-coding.pdf
+  name: Vibe Coding
 
 projects:
 - date: Mon Mar 9
