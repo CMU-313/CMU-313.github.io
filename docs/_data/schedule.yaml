@@ -779,8 +779,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/15-vibe-coding.pdf"
+    name: "Vibe Coding"
   reading:
     link: ""
     name: ""
