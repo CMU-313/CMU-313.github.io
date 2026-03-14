@@ -1,0 +1,22 @@
+lectures:
+- date: Tue Mar 10
+  link: assets/pdfs/14-design-docs.pdf
+  name: Design Docs
+- date: Thu Mar 12
+  link: assets/pdfs/15-vibe-coding.pdf
+  name: Vibe Coding
+
+projects:
+- date: Fri Mar 13
+  deadline: Due Thursday, March 19, 2026 @ 11:59PM
+  end_date: 2026-03-20 00:00:00
+  link: projects/P3/2_finalsubmission/
+  name: Project 3B - Final Deliverables
+  numDays: 5
+
+recitation:
+  date: Mon Mar 9
+  handout: recitations/reci7-vm-setup
+  name: Recitation 7 - Linux VM Setup
+  quiz: https://www.gradescope.com/courses/1213157/assignments/7710711
+  slides: https://docs.google.com/document/d/1si3shvRRnsWxLJ3iiLUUQ75mAueIlO3ll_oPZRH4svc/edit?usp=sharing
