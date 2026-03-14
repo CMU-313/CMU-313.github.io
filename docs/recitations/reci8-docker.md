@@ -51,19 +51,19 @@ The endpoint has to return a JSON object in the following form:
    uvicorn app.main:app --host 0.0.0.0 --port 8080
    ```
 
-4. Implement `./Dockerfile`. You can use the slides and [this link](https://docs.docker.com/engine/reference/builder/) as resources.
+4. Implement `./Dockerfile`. You can use the [slides](https://docs.google.com/presentation/d/1Yc4emAwe_Sm1W-SyCcPJlo7Y-eTZxwvu7ss1m_FkxLg/edit?usp=sharing) and [this link](https://docs.docker.com/engine/reference/builder/) as resources.
 5. Create the docker image using the command below, and check that the image has been created.
 
    ```terminal
    docker build -t YOUR_IMAGE_NAME  .
    ```
 
-6. Try running your image (it should work similarly to when you run the app locally.
+6. Try running your image (it should work similarly to when you run the app locally).
    ```terminal
    docker run --rm -p 8080:8080 YOUR_IMAGE_NAME
    ```
 
-7. Implement `./docker-compose.yml`. You can use the slides for reference.
+7. Implement `./docker-compose.yml`. You can use the [slides](https://docs.google.com/presentation/d/1Yc4emAwe_Sm1W-SyCcPJlo7Y-eTZxwvu7ss1m_FkxLg/edit?usp=sharing) for reference.
 8. Create a container using the docker image using the command below.
 
    ```terminal
