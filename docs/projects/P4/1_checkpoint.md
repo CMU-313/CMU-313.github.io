@@ -25,7 +25,7 @@ If the team decides to go ahead with the feature, this design document will be f
 
 After that, we want to see information about how you plan to integrate this translation feature. We would like to see details here **specific to implementing this within the NodeBB architecture**. Draw on your previous experiences working in this project and the development tools you've learned how to use!
 
-Once you have finished evaluating the codebase, create a design document highlighting your findings and decisions. Below is a sample outline for your design document; we expect this to be **around 1,000-1,500 words** (no more than 2,500 as a hard cap; your boss is a busy person, and appreciates conciseness). We have also provided a Google Docs template [here](https://docs.google.com/document/d/17UWAdL9agJsP2kqgCmFZ4ssZHCH5WnI1Z3xsR-p6qXo/copy?usp=sharing) for you to copy and fill in with the necessary information. Also important to note: we would like for *everybody* on the team to contribute to this document; there will be a section where we will ask for each teammate to fill out what they did on this document. Please additionally write this on a Google Docs; we will ask you to share the link via Gradescope. Make sure you specify that **everybody at CMU with the link has edit access**; if we have reason to suspect that anybody has not done what they claimed, we will check the edit history of the document.
+Once you have finished evaluating the codebase, create a design document highlighting your findings and decisions. Below is a sample outline for your design document; we expect this to be **around 1,000-1,500 words** (no more than 2,500 as a hard cap; your boss is a busy person, and appreciates conciseness). We have also provided a Google Docs template [here](https://docs.google.com/document/d/17UWAdL9agJsP2kqgCmFZ4ssZHCH5WnI1Z3xsR-p6qXo/copy?usp=sharing) for you to copy into your teams Google Drive we proided for you, and fill it in with the necessary information. Also important to note:  *everybody* on the team should contribute to this document; there will be a section where we will ask for each teammate to fill out what they did on this document.  NOTE: we will check the edit history of the document for help with grading.  
 
 This is what you should include in your design document:
 
@@ -64,7 +64,7 @@ By the checkpoint deadline, your team will submit your design document to Grades
 For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track. 
 For this, you will work in a seperate repository. Similar to P2, you will create a repository using the following github classroom link:
 
-[https://classroom.github.com/a/wWl61PUF](https://classroom.github.com/a/wWl61PUF)
+[https://classroom.github.com/a/f4JrYSnO](https://classroom.github.com/a/f4JrYSnO)
 
  
 !!! warning
