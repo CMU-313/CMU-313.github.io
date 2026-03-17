@@ -911,10 +911,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "recitations/reci9-pbt"
+    name: "Recitation 9 - Property-Based Testing"
+    quiz: "https://www.gradescope.com/courses/1213157/assignments/7848861/"
+    slides: "https://docs.google.com/presentation/d/1YRnnS-h7cZiljp8iGIpTQ1GMallv_H0xfKgh75qHIfA/edit?usp=sharing"
 
 - date: Tue Mar 24
   homework:
