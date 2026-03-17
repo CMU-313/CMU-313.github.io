@@ -18,7 +18,7 @@ Once your CEO has finally calmed down, your manager calls an all-hands meeting. 
 
 But, to better compete with Piazza, your CEO and manager decide to put your team in charge of exploring using an LLM to implement a translation feature. This feature will automatically translate posts written in languages other than English into English. This initiative aims to foster inclusivity and ensure that language barriers do not hinder participation in the forum.
 
-However, your firm had a bad experience last month where an intern racked up too many API charges, so your CEO manager insists that you must use a locally hosted model.
+However, your firm had a bad experience last month where an intern racked up too many API charges, so your CEO and manager insist that you must use a locally hosted model.
 
 In light of this new direction, your manager wants you to:
 
@@ -38,4 +38,4 @@ There are two (2) deadlines for the project. This project is worth a total of 12
 [**Final Deliverables (Implementation and Evaluation)**](./2_checkpoint.md) - 60 pts - due Friday, April 3, 2026 @ 11:59PM
 
 - [Final LLM Experiment Implementation (30 pts)](./2_checkpoint.md#final-llm-experiment-implementation-30-points)
-- [Individual Reflection (30 pts)](./2_checkpoint.md#evaluation-report-30-points)
+- [Individual Reflection (30 pts)](./2_checkpoint.md#individual-reflection-30-points)
