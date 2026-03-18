@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Tue Mar 17
+  link: assets/pdfs/16-Difficult-Conversations-and-Feedback.pdf
+  name: 'Guest Lecture: Difficult Conversations and Feedback'
 
 projects:
 - date: Fri Mar 13
