@@ -81,10 +81,10 @@ nav:
           - 3A Deployment and CI: projects/P3/1_checkpoint.md
           - 3B Tool Analysis and Integration: projects/P3/2_finalsubmission.md
           - "Linux VM Deployment Instructions": projects/P3/deployment.md
-      # - "Project 4: Architecting an LLM Integration":
-      #     - projects/P4/index.md
-      #     - 4A Design and Test: projects/P4/1_checkpoint.md
-      #     - 4B Implementation and Evaluation: projects/P4/2_checkpoint.md
+      - "Project 4: Architecting an LLM Integration":
+          - projects/P4/index.md
+          - 4A Design and Test: projects/P4/1_checkpoint.md
+          - 4B Implementation and Evaluation: projects/P4/2_checkpoint.md
       # - "Project 5: Open Source Excursion":
       #     - projects/P5/index.md
       #     - "5A Project and Task Selection": projects/P5/1_projectcheck.md
