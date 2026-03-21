@@ -9,7 +9,6 @@ title: Recitation 9 - Property-Based Testing
 In this recitation, you will use [fast-check](https://fast-check.dev) to write property-based tests for [PierogIO](https://github.com/CMU-313/PierogIO), the pierogi delivery service you tested in lecture last week.
 The codebase is riddled with bugs!
 Working in your **project teams**, you'll write property-based tests to find and fix as many bugs as possible.
-A small prize will be awarded to the team that finds the most bugs at the start of Thursday's lecture.
 
 ## Setup
 
@@ -171,5 +170,3 @@ Before leaving recitation, **each student** should submit individually to Grades
     * What was challenging about property-based testing?
 
 2. **Your team's repository URL**
-
-**The team with the most bugs found wins a prize!** Winners will be announced at the start of Thursday's lecture.
