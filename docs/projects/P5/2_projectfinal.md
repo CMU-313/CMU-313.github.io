@@ -2,18 +2,17 @@
 
 ## Deliverables
 
-**Project Report and Presentation** – due Friday, December 12th, 8:30am
+**Project Report and Presentation** – due Thursday, April 30th, 8:30am
 
 - [Project Report](#project-report-200-points) (200 points) 
 - [Extra Credit](#project-report-200-points) (20 points)
 - [Project Presentation Slides](#project-presentations-100-points) (100 points, graded based on presentation)
 
-**Presentation Date** – on Friday, December 12th, 9:00-11:30am, during exam timeslot
+**Presentation Date** – on Thursday, April 30th, 8:30-11:30am, during exam timeslot
 
-**Individual Reflection** – due Saturday, December 13th, 11:59pm
+**Individual Reflection** – due Sunday, April 19th, 11:59pm
 
-- [Reflections & Peer Review](#individual-reflection-peer-evaluations-20-points) (20 points)
-
+- [Reflections & Peer Review](#individual-reflection--peer-evaluations-20-points)
 
 ## Contributing to Open Source
 
@@ -62,13 +61,13 @@ The goal of the presentation is primarily to share with the class the project to
 
     Your summary of your experiences can be at whatever level of detail you think is interesting or informative. Given the time limit, selecting and highlighting the one or two most important or interesting observations is likely more useful than trying to be complete.
 
-You must upload your slides as **a single PDF document** to Gradescope by **Friday, December 12th, 8:30am**.
+You must upload your slides as **a single PDF document** to Gradescope by **Thursday, April 30th, 8:30am**.
 
 ## Project Report (200 points)
 
 After completing and submitting the modification, write a report about the tasks you have performed.
 
-Create a copy of the following Google Doc: [5B Project Report Template](https://docs.google.com/document/d/1VJaVXrcM4c6MgcizRjjH8PIkoMdi6BEf7fWSZo1wZ90/edit?usp=sharing). **Make sure the document is shared with 313 TAs and Profs (change General Access to "Carnegie Mellon University" - Viewer).**
+Create a copy of the following Google Doc: [5B Project Report Template](https://docs.google.com/document/d/1QIAFDb_v3Mq6bgaVfljeliy1ndFi-uB-Y2rmdQjH5eg/edit?usp=sharing). **Make sure the document is shared with 313 TAs and Profs (change General Access to "Carnegie Mellon University" - Viewer).**
 
 As a team, write your responses to the questions in this doc. After you finish, have **one team member** copy and paste the responses of each question into the corresponding question in the 5B Project Report assignment on **Gradescope**. Be sure to also provide the **link to the Google Doc**. Add **all group members** to the submission. 
 
