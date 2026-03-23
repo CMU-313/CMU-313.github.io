@@ -1,7 +1,4 @@
-lectures:
-- date: Tue Mar 17
-  link: assets/pdfs/16-Difficult-Conversations-and-Feedback.pdf
-  name: 'Guest Lecture: Difficult Conversations and Feedback'
+lectures: []
 
 projects:
 - date: Fri Mar 20
@@ -10,10 +7,16 @@ projects:
   link: projects/P4/1_checkpoint/
   name: Project 4A - Checkpoint Deliverables
   numDays: 5
+- date: Fri Mar 27
+  deadline: Due Friday, April 3, 2026 @ 11:59PM
+  end_date: 2026-04-06 00:00:00
+  link: projects/P4/2_checkpoint/
+  name: Project 4B - Final Deliverables
+  numDays: 6
 
 recitation:
-  date: Mon Mar 16
-  handout: recitations/reci8-docker
-  name: Recitation 8 - Docker and Containerization
-  quiz: https://www.gradescope.com/courses/1213157/assignments/7815138
-  slides: https://docs.google.com/presentation/d/1Yc4emAwe_Sm1W-SyCcPJlo7Y-eTZxwvu7ss1m_FkxLg/edit?usp=sharing
+  date: Mon Mar 23
+  handout: recitations/reci9-pbt
+  name: Recitation 9 - Property-Based Testing
+  quiz: https://www.gradescope.com/courses/1213157/assignments/7848861/
+  slides: https://docs.google.com/presentation/d/1YRnnS-h7cZiljp8iGIpTQ1GMallv_H0xfKgh75qHIfA/edit?usp=sharing
