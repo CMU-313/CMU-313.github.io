@@ -869,8 +869,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/17-pbt.pdf"
+    name: "Property-Based Testing"
   reading:
     link: ""
     name: ""
