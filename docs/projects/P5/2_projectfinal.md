@@ -10,7 +10,7 @@
 
 **Presentation Date** – on Thursday, April 30th, 8:30-11:30am, during exam timeslot
 
-**Individual Reflection** – due Sunday, April 19th, 11:59pm
+**Individual Reflection** – due Friday, April 31st, 11:59pm
 
 - [Reflections & Peer Review](#individual-reflection--peer-evaluations-20-points)
 
