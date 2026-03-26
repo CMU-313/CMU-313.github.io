@@ -10,7 +10,7 @@
 
 ## Open Source Project Selection
 
-You may select any active open source project in any language, as long as it's not already selected by another team. You can find a list of open source projects selected by other teams on the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=1014646255#gid=1014646255)**.
+You may select any active open source project in any language, **as long as it's not already selected by another team.** You can find a list of open source projects selected by other teams on the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=1014646255#gid=1014646255)**.
 
 Here are some helpful resources for finding open source projects:
 
