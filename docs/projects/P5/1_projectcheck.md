@@ -21,7 +21,7 @@ Here are some helpful resources for finding open source projects:
 - [A list of beginner friendly projects](https://github.com/MunGell/awesome-for-beginners)
 - [Apache projects](http://www.apache.org/)
 - [Mozilla projects](https://firefox-source-docs.mozilla.org/contributing/contributing_to_mozilla.html)
-- You may also check the other sheets in the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=1014646255#gid=1014646255)** which will include Projects and whether they were merged into main.
+- You may also check the other sheets in the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=1014646255#gid=1014646255)** which will include Projects teams from past semesters have contributed to and whether or not their PRs were merged into main.
 
 You may want to consider any open-source projects you have used before, or are interested in using in the future!
 
