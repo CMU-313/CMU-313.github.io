@@ -35,7 +35,7 @@ B) [**Project Final Report & Presentations**](2_projectfinal.md) – 300 points
 
 C) [**Individual Reflections**](2_projectfinal.md) – 20 points
 
-- Reflections & Peer Review (20 points) - **due Friday, April 31st, 11:59pm**
+- Reflections & Peer Review (20 points) - **due Friday, May 1st, 11:59pm**
 
 !!! tip
 
