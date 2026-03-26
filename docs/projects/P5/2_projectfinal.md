@@ -67,7 +67,7 @@ You must upload your slides as **a single PDF document** to Gradescope by **Thur
 
 After completing and submitting the modification, write a report about the tasks you have performed.
 
-Create a copy of the following Google Doc: [5B Project Report Template](https://docs.google.com/document/d/1QIAFDb_v3Mq6bgaVfljeliy1ndFi-uB-Y2rmdQjH5eg/edit?usp=sharing). **Make sure the document is shared with 313 TAs and Profs (change General Access to "Carnegie Mellon University" - Viewer).**
+Create a **copy** of the following Google Doc: [5B Project Report Template](https://docs.google.com/document/d/1QIAFDb_v3Mq6bgaVfljeliy1ndFi-uB-Y2rmdQjH5eg/edit?usp=sharing). **Make sure the document is located within the GDrive folder your TAs shared with you at the beginning of the semester.**
 
 As a team, write your responses to the questions in this doc. After you finish, have **one team member** copy and paste the responses of each question into the corresponding question in the 5B Project Report assignment on **Gradescope**. Be sure to also provide the **link to the Google Doc**. Add **all group members** to the submission. 
 
