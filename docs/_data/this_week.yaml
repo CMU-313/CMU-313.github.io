@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Tue Mar 24
+  link: assets/pdfs/18-vibe-analysis.pdf
+  name: Vibe Analysis
 
 projects:
 - date: Fri Mar 20
