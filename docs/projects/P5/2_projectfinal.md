@@ -12,7 +12,7 @@
 
 **Individual Reflection** – due Friday, April 31st, 11:59pm
 
-- [Reflections & Peer Review](#individual-reflection--peer-evaluations-20-points)
+- [Reflections & Peer Review](#individual-reflection-peer-evaluations-20-points)
 
 ## Contributing to Open Source
 
