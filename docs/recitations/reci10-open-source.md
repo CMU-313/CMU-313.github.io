@@ -19,7 +19,7 @@ The general criteria for an open source project:
 
 ## Scavenger Hunt (30 min)
 
-Join the slide deck [here](https://docs.google.com/presentation/d/1kDJDpvoJyPx498idQi7xjilfYgkEJN0cwBMrXQzbewo/edit?usp=sharing) made for your class and make a copy of the slide for your team. Then, search for open source projects to fill each square in the Scavenger Hunt table. Each project can only count for one square. The goal is to have as many squares filled as possible!
+Open the [slide deck](https://docs.google.com/presentation/d/1kDJDpvoJyPx498idQi7xjilfYgkEJN0cwBMrXQzbewo/edit?usp=sharing) and make a copy of the slides for your team. Then, search for open source projects to fill each square in the Scavenger Hunt table. Each project can only count for one square. The goal is to have as many squares filled as possible!
 
 While learning about different open source projects, think about what type of projects you would be interested in working on for Project 5.
 
@@ -28,9 +28,8 @@ While learning about different open source projects, think about what type of pr
 With your team, discuss the following questions:
 Which attributes make a good open source project? A bad open source project? Which 3 projects did you find that you would most like to work on? Which would you least like to work on? Why?
 
-Submit your thoughts to [Gradescope](https://www.gradescope.com/courses/1213157/assignments/7869777/) Recitation 10!
+Submit the links to the 3 projects that you are most interested in pursuing for Project 5 to [Gradescope](https://www.gradescope.com/courses/1213157/assignments/7869777/)!
 
-Pick 3 projects that you are interested in pursuing for Project 5.
 
 ## Public Project Selection
 
@@ -50,5 +49,4 @@ Once your team has decided on an open source project, add it to the [Public Proj
 
 ## Hall of Fame
 
-Here's some extra motivation for picking merging your final pull requests into your open source project!
-Explore some merged PRs in open source projects from previous semesters in the [Hall of Fame](https://cmu-313.github.io/hall-of-fame/).
+Here's some extra motivation for picking: getting your final pull requests merged into an open source project! Explore some merged PRs in open source projects from previous semesters in the [Hall of Fame](https://cmu-313.github.io/hall-of-fame/).
