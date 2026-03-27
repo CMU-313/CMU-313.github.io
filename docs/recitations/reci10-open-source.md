@@ -30,7 +30,7 @@ Which attributes make a good open source project? A bad open source project? Whi
 
 Submit your thoughts to [Gradescope](https://www.gradescope.com/courses/1213157/assignments/7869777/) Recitation 10!
 
-Pick 3 projects that you are interested in pursing for Project 5.
+Pick 3 projects that you are interested in pursuing for Project 5.
 
 ## Public Project Selection
 
