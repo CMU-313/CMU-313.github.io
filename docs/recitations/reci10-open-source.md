@@ -34,7 +34,7 @@ Pick 3 projects that you are interested in pursuing for Project 5.
 
 ## Public Project Selection
 
-Once your team has decided on an open source project, add it to the [Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1XPITWffW_iYS-5vPqIstwuQgSJoP2bycrw4d9Ph4c48/edit?usp=sharing).
+Once your team has decided on an open source project, add it to the [Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit). See [P5 writeup](https://cmu-313.github.io/projects/P5/) for more details. 
 
 ## Resources
 
