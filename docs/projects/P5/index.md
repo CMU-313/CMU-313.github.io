@@ -24,7 +24,7 @@ This will is your final project with your group. There are 3 parts to this proje
 A) [**Project & Task Selection**](1_projectcheck.md) – 80 points
 
 - Project selection - **due Wednesday, April 15th, 11:59pm**
-- Check-In Presentation (slides + recording) (80 points) - **due Sunday, April 19th, 11:59pm**
+- Check-In Presentation (slide deck) (80 points) - **due Sunday, April 19th, 11:59pm**
 - In-Person Presentation of Check-In Slides - **due Monday, April 20th during recitation**
 
 B) [**Project Final Report & Presentations**](2_projectfinal.md) – 300 points
