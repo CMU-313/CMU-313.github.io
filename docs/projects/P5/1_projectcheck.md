@@ -5,7 +5,7 @@
 **Project & Task Selection** – 80 points
 
 - [Project Selection](#open-source-project-selection) - enter project name and URL in the spreadsheet by Wednesday, April 15th, 11:59pm
-- [Task Selection Checkpoint Presentation](#checkpoint-presentation-80-pts) – slides and video recording due Sunday, April 19th, 11:59pm; in-person presentation on Monday, April 20th during recitation
+- [Task Selection Checkpoint Presentation](#checkpoint-presentation-80-pts) – slides due Sunday, April 19th, 11:59pm; in-person presentation on Monday, April 20th during recitation
 
 
 ## Open Source Project Selection
@@ -55,10 +55,10 @@ As per previous projects, ^^plan before you start coding^^. You should identify 
 
 ## Checkpoint Presentation (80 pts)
 
-Each team will create, record, and present a checkpoint presentation. The slide deck and recording will be due Sunday, April 19th, 11:59 PM. The recitation right after (April 20th), you will present your checkpoint presentation to your classmates and receive feedback, suggestions, and/or advice.
+Each team will create and present a checkpoint presentation. The slide deck will be due Sunday, April 19th, 11:59 PM. The recitation right after (April 20th), you will present your checkpoint presentation to your classmates and receive feedback, suggestions, and/or advice.
 
 !!! note "Time Management"
-        - Both the recording and the in-person presentations should be **5-7 minutes long**
+        - The in-person presentations should be **5-7 minutes long**
         - Participation from all team members during the presentation is **required**
         - Be on time for recitation!
 
@@ -103,4 +103,4 @@ Your **5-7-minute** checkpoint presentation should include (the recommended slid
     - We expect you to identify risks that are specific to your project and team. For example, if you are working on a project that is written in a language that none of your team members have used before, you should identify this as a risk and discuss how you will mitigate it. 
     - We will not accept risks that are generic to all open source projects (e.g., "the project may be abandoned"), or risks that are generic to all software development projects (e.g., "the project may have bugs").
 
-Submit the presentation deck as a **single PDF** file per team to **Gradescope** and upload a video recording to this [Google drive folder](https://drive.google.com/drive/folders/128dBN1ZUP9MvG27ICrdslWChXktijqpI?usp=drive_link). You will be presenting the slide deck live in recitation on Monday, April 20th.
+Submit the presentation deck as a **single PDF** file per team to **Gradescope** and make the slides available to TAs through your shared GDrive team folder. You will be presenting the slide deck live in recitation on Monday, April 20th.
