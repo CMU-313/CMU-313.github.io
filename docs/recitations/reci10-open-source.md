@@ -6,7 +6,7 @@ title: Recitation 10 - Open Source Projects
 
 ## Overview
 
-This recitation will give you the opportunity to familiarize yourself with various open source projects and help your team with finding a project to work on for Project 5.
+This recitation will give you the opportunity to familiarize yourself with various open source projects and help your team with finding a project to work on for [Project 5](https://cmu-313.github.io/projects/P5/).
 
 ## Context
 
@@ -21,19 +21,14 @@ The general criteria for an open source project:
 
 Open the [slide deck](https://docs.google.com/presentation/d/1kDJDpvoJyPx498idQi7xjilfYgkEJN0cwBMrXQzbewo/edit?usp=sharing) and make a copy of the slides for your team. Then, search for open source projects to fill each square in the Scavenger Hunt table. Each project can only count for one square. The goal is to have as many squares filled as possible!
 
-While learning about different open source projects, think about what type of projects you would be interested in working on for Project 5.
+While learning about different open source projects, think about what type of projects you would be interested in working on for [Project 5](https://cmu-313.github.io/projects/P5/).
 
 ## Reflection (10 min)
 
 With your team, discuss the following questions:
 Which attributes make a good open source project? A bad open source project? Which 3 projects did you find that you would most like to work on? Which would you least like to work on? Why?
 
-Submit the links to the 3 projects that you are most interested in pursuing for Project 5 to [Gradescope](https://www.gradescope.com/courses/1213157/assignments/7869777/)!
-
-
-## Public Project Selection
-
-Once your team has decided on an open source project, add it to the [Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit). See [P5 writeup](https://cmu-313.github.io/projects/P5/) for more details. 
+Submit the links to the 3 projects that you are most interested in pursuing for [Project 5](https://cmu-313.github.io/projects/P5/) to [Gradescope](https://www.gradescope.com/courses/1213157/assignments/7869777/)!
 
 ## Resources
 
@@ -46,7 +41,3 @@ Once your team has decided on an open source project, add it to the [Public Proj
 - Apache projects: [http://www.apache.org/](http://www.apache.org/)
 - Mozilla projects: [https://developer.mozilla.org/en-US/docs/MDN/Community/Contributing](https://developer.mozilla.org/en-US/docs/MDN/Community/Contributing)
   - Mozilla has a number of Open Source projects (including Firefox and Thunderbird) that are actively being developed and they recommend bugs for new contributors
-
-## Hall of Fame
-
-Here's some extra motivation for picking: getting your final pull requests merged into an open source project! Explore some merged PRs in open source projects from previous semesters in the [Hall of Fame](https://cmu-313.github.io/hall-of-fame/).
