@@ -72,7 +72,7 @@ After completing and submitting the modification, write a report about the tasks
 
 Create a **copy** of the following Google Doc: [5B Project Report Template](https://docs.google.com/document/d/1QIAFDb_v3Mq6bgaVfljeliy1ndFi-uB-Y2rmdQjH5eg/edit?usp=sharing). **Make sure the document is located within the GDrive folder your TAs shared with you at the beginning of the semester.**
 
-As a team, write your responses to the questions in this doc. After you finish, have **one team member** copy and paste the responses of each question into the corresponding question in the 5B Project Report assignment on **Gradescope**. Be sure to also provide the **link to the Google Doc**. Add **all group members** to the submission. 
+As a team, write your responses to the questions in this doc. After you finish, have **one team member** copy and paste the responses of each question into the corresponding question in the 5B Project Report assignment on **Gradescope**. (This is to facilitate grading feedback) Be sure to also provide the **link to the Google Doc**. Add **all group members** to the submission. 
 
 ## Individual Reflection & Peer Evaluations (20 points)
 
