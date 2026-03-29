@@ -190,7 +190,7 @@
   reading:
     link: ""
     name: ""
-  recitation: 
+  recitation:
     handout: "recitations/reci2-teamcontract"
     name: "Recitation 2 - Team Contract Workshop"
     quiz: "https://www.gradescope.com/courses/1213157/assignments/7484077/"
@@ -628,7 +628,7 @@
     quiz: ""
     slides: ""
 
-- date: Mon Mar 2 
+- date: Mon Mar 2
   homework:
     deadline: ""
     link: ""
@@ -719,7 +719,7 @@
     slides: ""
 
 - date: Mon Mar 9
-  homework: 
+  homework:
     deadline: "Due Thursday, March 12, 2026 @ 11:59PM"
     link: "projects/P3/1_checkpoint/"
     name: "Project 3A - Checkpoint Deliverables"
@@ -1001,10 +1001,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "recitations/reci10-open-source"
+    name: "Recitation 10 - Open Source Contributions"
+    quiz: "https://www.gradescope.com/courses/1213157/assignments/7869777/"
+    slides: "https://docs.google.com/presentation/d/1kDJDpvoJyPx498idQi7xjilfYgkEJN0cwBMrXQzbewo/edit?usp=sharing"
 
 - date: Tue Mar 31
   homework:
@@ -1028,7 +1028,7 @@
   homework:
     deadline: ""
     link: ""
-    name: "" 
+    name: ""
     numDays: 0
   lecture:
     link: ""
