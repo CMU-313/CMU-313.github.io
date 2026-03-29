@@ -8,4 +8,9 @@ projects:
   name: Project 4B - Final Deliverables
   numDays: 6
 
-recitation: null
+recitation:
+  date: Mon Mar 30
+  handout: recitations/reci10-open-source
+  name: Recitation 10 - Open Source Contributions
+  quiz: https://www.gradescope.com/courses/1213157/assignments/7869777/
+  slides: https://docs.google.com/presentation/d/1kDJDpvoJyPx498idQi7xjilfYgkEJN0cwBMrXQzbewo/edit?usp=sharing
