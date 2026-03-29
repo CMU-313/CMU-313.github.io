@@ -1081,7 +1081,7 @@
 - date: Mon Apr 6
   homework:
     deadline: "5A1 due Wednesday, April 15, 2026 @ 11:59PM + 5A2 due Sunday, April 19, 2026 @ 11:59PM"
-    link: ""
+    link: "projects/P5/1_projectcheck"
     name: "Project 5A1 - Project Selection + Project 5A2 - Task Selection"
     numDays: 10
   lecture:
@@ -1260,8 +1260,8 @@
 
 - date: Mon Apr 20
   homework:
-    deadline: ""
-    link: ""
+    deadline: "5B due Thursday, April 30, 2026 @ 8:30AM + 5C due Friday, April 31, 2026 @ 11:59PM"
+    link: "projects/P5/2_projectfinal"
     name: "Project 5B - Project Final Report & Presentations + 5C - Individual Reflection"
     numDays: 5
   lecture:

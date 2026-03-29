@@ -2,18 +2,17 @@
 
 ## Deliverables
 
-**Project Report and Presentation** – due Friday, December 12th, 8:30am
+**Project Report and Presentation** – due Thursday, April 30th, 8:30am
 
 - [Project Report](#project-report-200-points) (200 points) 
 - [Extra Credit](#project-report-200-points) (20 points)
 - [Project Presentation Slides](#project-presentations-100-points) (100 points, graded based on presentation)
 
-**Presentation Date** – on Friday, December 12th, 9:00-11:30am, during exam timeslot
+**Presentation Date** – on Thursday, April 30th, 8:30-11:30am, during exam timeslot
 
-**Individual Reflection** – due Saturday, December 13th, 11:59pm
+**Individual Reflection** – due Friday, May 1st, 11:59pm
 
-- [Reflections & Peer Review](#individual-reflection-peer-evaluations-20-points) (20 points)
-
+- [Reflections & Peer Review](#individual-reflection-peer-evaluations-20-points)
 
 ## Contributing to Open Source
 
@@ -42,7 +41,7 @@ The Final Exam time is dedicated to group presentations **(in-person)** about yo
 - Every individual will be asked to provide constructive feedback for other presentations in class via an paper form (which we will provide day-of).
 
 !!! warning "Presentation Attendance"
-    For full credit, you would have to be on time for the presentation session (within 10 minutes of start time). If you are unable to attend in-person, you have to send an email with justification to all instructors and cc your recitation TAs **at least a week before your final exam timeslot** so that appropriate arrangements can be made. Exceptions to notification deadline will only be made for unforseeable circumstances.
+    For full credit, you would have to be on time for the presentation session (within 10 minutes of start time). If you are unable to attend in-person, you have to send an email with justification to all instructors and cc your recitation TAs **at least a week before your final exam timeslot** so that appropriate arrangements can be made. Exceptions to notification deadline will only be made for unforeseeable circumstances.
 
 The goal of the presentation is primarily to share with the class the project to which you contributed, and your experiences. Your presentation should cover the following topics (the recommended slides amount is in parenthesis):
 
@@ -62,15 +61,18 @@ The goal of the presentation is primarily to share with the class the project to
 
     Your summary of your experiences can be at whatever level of detail you think is interesting or informative. Given the time limit, selecting and highlighting the one or two most important or interesting observations is likely more useful than trying to be complete.
 
-You must upload your slides as **a single PDF document** to Gradescope by **Friday, December 12th, 8:30am**.
+You must upload your slides as **a single PDF document** to Gradescope by **Thursday, April 30th, 8:30am**.
 
 ## Project Report (200 points)
 
 After completing and submitting the modification, write a report about the tasks you have performed.
 
-Create a copy of the following Google Doc: [5B Project Report Template](https://docs.google.com/document/d/1VJaVXrcM4c6MgcizRjjH8PIkoMdi6BEf7fWSZo1wZ90/edit?usp=sharing). **Make sure the document is shared with 313 TAs and Profs (change General Access to "Carnegie Mellon University" - Viewer).**
+!!! warning On Generative AI
+    In the past, we have had problems with students using generative AI tools to generate low quality text. For this assignment, we will be evaluating each contribution to the document individually.  You are not responsible for fixing other teammates' text. However, you should clearly indicate at the top of the document who was responsible for each part of the document. Low quality AI slop will result in significant penalties for the student who contributed that section.
 
-As a team, write your responses to the questions in this doc. After you finish, have **one team member** copy and paste the responses of each question into the corresponding question in the 5B Project Report assignment on **Gradescope**. Be sure to also provide the **link to the Google Doc**. Add **all group members** to the submission. 
+Create a **copy** of the following Google Doc: [5B Project Report Template](https://docs.google.com/document/d/1QIAFDb_v3Mq6bgaVfljeliy1ndFi-uB-Y2rmdQjH5eg/edit?usp=sharing). **Make sure the document is located within the GDrive folder your TAs shared with you at the beginning of the semester.**
+
+As a team, write your responses to the questions in this doc. After you finish, have **one team member** copy and paste the responses of each question into the corresponding question in the 5B Project Report assignment on **Gradescope**. (This is to facilitate grading feedback) Be sure to also provide the **link to the Google Doc**. Add **all group members** to the submission. 
 
 ## Individual Reflection & Peer Evaluations (20 points)
 
@@ -78,8 +80,13 @@ As a team, write your responses to the questions in this doc. After you finish, 
 
     We want to ensure that everyone is participating fully in the final project. For this project, we will be assessing participation in a variety of ways, including: artifact evaluation, self & peer evaluation. Credit due for the team components of this project will be awarded based on evidence of full participation in the team. **Partial participation will receive partial credit.**
 
-!!! warning "Use of Generative AI Forbidden"
-    As described in [the syllabus,](/syllabus/#policy-on-use-of-generative-ai-for-writing) the use of generative AI tools for this part of the assignment is forbidden, and will be considered to be an academic integrity violation. 
+
+!!! warning Use of Generative AI discouraged
+    Historically, we have found the use of generative AI tools for this part of the assignment has resulted in poor work being submitted. It is your responsibility to make sure that you and your group feel comfortable with each others work and are putting in your best effort.  
+
+
+
+    
 
 Your individual reflection should include:
 
@@ -96,4 +103,4 @@ Describe the specific work **each of your team members** have contributed toward
     - What have you learned about teamwork and your role in teamwork?
     - (Optional) Do you have any feedback on what we can do next year to help students work more effectively in teams? Bear in mind that the instructor-assigned heterogeneous teams of 3-5 students is non-negotiable. We anticipate problems as part of the learning experience, but would like to avoid unduly frustrating situations.
 
-A good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support them. Submit your reflection on **Gradescope** by Saturday, December 13th, 11:59pm.
+A good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support them. Submit your reflection on **Gradescope** by Friday, May 1st, 11:59pm.
