@@ -19,12 +19,12 @@ Your high-level goal is to produce and submit a non-trivial modification or exte
 If you demonstrate to us that your change has been accepted and integrated into the project’s code base, you will get **20 bonus points**. Your team will select an open source project, select a change to implement, actually contribute to the project, and present your insights to the class. You will individually reflect on your teamwork and open source experience.
 
 ## Deliverables and Deadlines
-This will is your final project with your group. There are 3 parts to this project. The project is worth a total of 400 points (~20% of your final grade). 
+This is your final project with your group. There are 3 parts to this project. The project is worth a total of 400 points (~20% of your final grade). 
 
 A) [**Project & Task Selection**](1_projectcheck.md) – 80 points
 
 - Project selection - **due Wednesday, April 15th, 11:59pm**
-- Check-In Presentation (slide deck) (80 points) - **due Sunday, April 19th, 11:59pm**
+- Checkpoint Presentation (slide deck) (80 points) - **due Sunday, April 19th, 11:59pm**
 - In-Person Presentation of Check-In Slides - **due Monday, April 20th during recitation**
 
 B) [**Project Final Report & Presentations**](2_projectfinal.md) – 300 points

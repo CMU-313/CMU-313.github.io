@@ -55,7 +55,7 @@ As per previous projects, ^^plan before you start coding^^. You should identify 
 
 ## Checkpoint Presentation (80 pts)
 
-Each team will create and present a checkpoint presentation. The slide deck will be due Sunday, April 19th, 11:59 PM. The recitation right after (April 20th), you will present your checkpoint presentation to your classmates and receive feedback, suggestions, and/or advice.
+Each team will create and present a checkpoint presentation. The slide deck will be due Sunday, April 19th, 11:59pm. The recitation right after (April 20th), you will present your checkpoint presentation to your classmates and receive feedback, suggestions, and/or advice.
 
 !!! note "Time Management"
         - The in-person presentations should be **5-7 minutes long**

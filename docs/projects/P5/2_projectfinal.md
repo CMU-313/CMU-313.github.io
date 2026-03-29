@@ -41,7 +41,7 @@ The Final Exam time is dedicated to group presentations **(in-person)** about yo
 - Every individual will be asked to provide constructive feedback for other presentations in class via an paper form (which we will provide day-of).
 
 !!! warning "Presentation Attendance"
-    For full credit, you would have to be on time for the presentation session (within 10 minutes of start time). If you are unable to attend in-person, you have to send an email with justification to all instructors and cc your recitation TAs **at least a week before your final exam timeslot** so that appropriate arrangements can be made. Exceptions to notification deadline will only be made for unforseeable circumstances.
+    For full credit, you would have to be on time for the presentation session (within 10 minutes of start time). If you are unable to attend in-person, you have to send an email with justification to all instructors and cc your recitation TAs **at least a week before your final exam timeslot** so that appropriate arrangements can be made. Exceptions to notification deadline will only be made for unforeseeable circumstances.
 
 The goal of the presentation is primarily to share with the class the project to which you contributed, and your experiences. Your presentation should cover the following topics (the recommended slides amount is in parenthesis):
 
