@@ -77,8 +77,14 @@ As a team, write your responses to the questions in this doc. After you finish, 
 
     We want to ensure that everyone is participating fully in the final project. For this project, we will be assessing participation in a variety of ways, including: artifact evaluation, self & peer evaluation. Credit due for the team components of this project will be awarded based on evidence of full participation in the team. **Partial participation will receive partial credit.**
 
-!!! warning "Use of Generative AI Forbidden"
-    As described in [the syllabus,](/syllabus/#policy-on-use-of-generative-ai-for-writing) the use of generative AI tools for this part of the assignment is forbidden, and will be considered to be an academic integrity violation. 
+
+!!! warning Use of Generative AI discouraged
+    Historically, we have found the use of generative AI tools for this part of the assignment has resulted in poor work being submitted. It is your responsibility to make sure that you and your group feel comfortable with each others work and are putting in your best effort.  
+
+
+!!! warning On Generative AI
+    In the past, we have had problems with students using generative AI tools to generate low quality text. For this assignment, we will be evaluating each contribution to the document individually.  You are not responsible for fixing other teammates' text. However, you should clearly indicate at the top of the document who was responsible for each part of the document. Low quality AI slop will result in significant penalties for the student who contributed that section.
+    
 
 Your individual reflection should include:
 
