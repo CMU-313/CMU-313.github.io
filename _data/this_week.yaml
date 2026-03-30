@@ -1,0 +1,16 @@
+lectures: []
+
+projects:
+- date: Fri Mar 27
+  deadline: Due Friday, April 3, 2026 @ 11:59PM
+  end_date: 2026-04-06 00:00:00
+  link: projects/P4/2_checkpoint/
+  name: Project 4B - Final Deliverables
+  numDays: 6
+
+recitation:
+  date: Mon Mar 30
+  handout: recitations/reci10-open-source
+  name: Recitation 10 - Open Source Contributions
+  quiz: https://www.gradescope.com/courses/1213157/assignments/7869777/
+  slides: https://docs.google.com/presentation/d/1kDJDpvoJyPx498idQi7xjilfYgkEJN0cwBMrXQzbewo/edit?usp=sharing
