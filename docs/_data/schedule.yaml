@@ -959,8 +959,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/19-reliably-releasing-software.pdf"
+    name: "Guest Lecture: Reliably Releasing Software"
   reading:
     link: ""
     name: ""
@@ -1013,8 +1013,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/20-zabriskie-guest-lecture"
+    name: "Guest Lecture: Building Real Software with AI"
   reading:
     link: ""
     name: ""
