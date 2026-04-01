@@ -1013,7 +1013,7 @@
     name: ""
     numDays: 0
   lecture:
-    link: "assets/pdfs/20-zabriskie-guest-lecture"
+    link: "assets/pdfs/20-zabriskie-guest-lecture.pdf"
     name: "Guest Lecture: Building Real Software with AI"
   reading:
     link: ""
