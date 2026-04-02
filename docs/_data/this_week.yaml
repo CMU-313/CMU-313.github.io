@@ -2,6 +2,9 @@ lectures:
 - date: Tue Mar 31
   link: assets/pdfs/20-zabriskie-guest-lecture.pdf
   name: 'Guest Lecture: Building Real Software with AI'
+- date: Thu Apr 2
+  link: assets/pdfs/21-open-source.pdf
+  name: Open Source
 
 projects:
 - date: Fri Mar 27
