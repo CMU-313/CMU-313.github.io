@@ -1091,9 +1091,9 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
+    handout: "recitations/reci11-p5-project-task-selection-oh"
+    name: "Recitation 11 - Office Hours for P5 Project and Task Selection"
+    quiz: "https://www.gradescope.com/courses/1213157/assignments/7930030"
     slides: ""
 
 - date: Tue Apr 7
