@@ -6,7 +6,9 @@ title: Recitation 11 - Office Hours for P5 Project and Task Selection
 
 ## Overview
 
-In this recitation, you will meet with your reci TAs and discuss potential open source projects for P5. Come prepared with 2-3 possible project ideas (and potentially task options for those projects) on Monday. Your TAs will give you feedback. 
+In this recitation, you will meet with your reci TAs and discuss potential open source projects for P5. Come prepared with 2-3 possible project ideas (and potentially task options for those projects) on Monday. 
+
+At the beginning of reci, you will have 10 minutes to continue discussion with your group members. Then each group will meet with the TAs and discuss the potential open source projects. Your TAs will give you feedback. 
 
 ## Submission
 
