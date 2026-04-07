@@ -1103,8 +1103,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/21-ethics.pdf"
+    name: "Ethics in Software Engineering"
   reading:
     link: ""
     name: ""
