@@ -1181,10 +1181,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "recitations/reci12-midterm-review"
+    name: "Recitation 12 - Midterm Review"
+    quiz: "https://www.gradescope.com/courses/1213157/assignments/7972350"
+    slides: "https://docs.google.com/presentation/d/12UxAMld9lpSc7EgCETzq-bu5BU9PLk51Fj-mefwkPI4/edit?usp=sharing"
 
 - date: Tue Apr 14
   homework:
