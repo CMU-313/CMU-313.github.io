@@ -1,28 +1,23 @@
 lectures:
-- date: Tue Mar 10
-  link: assets/pdfs/14-design-docs.pdf
-  name: Design Docs
-- date: Thu Mar 12
-  link: assets/pdfs/15-vibe-coding.pdf
-  name: Vibe Coding
+- date: Tue Apr 7
+  link: assets/pdfs/21-ethics.pdf
+  name: Ethics in Software Engineering
+- date: Thu Apr 9
+  link: ''
+  name: Spring Carnival - No Class
 
 projects:
-- date: Mon Mar 9
-  deadline: Due Thursday, March 12, 2026 @ 11:59PM
-  end_date: 2026-03-13 00:00:00
-  link: projects/P3/1_checkpoint/
-  name: Project 3A - Checkpoint Deliverables
-  numDays: 4
-- date: Fri Mar 13
-  deadline: Due Thursday, March 19, 2026 @ 11:59PM
-  end_date: 2026-03-20 00:00:00
-  link: projects/P3/2_finalsubmission/
-  name: Project 3B - Final Deliverables
-  numDays: 5
+- date: Mon Apr 6
+  deadline: 5A1 due Wednesday, April 15, 2026 @ 11:59PM + 5A2 due Sunday, April 19,
+    2026 @ 11:59PM
+  end_date: 2026-04-20 00:00:00
+  link: projects/P5/1_projectcheck
+  name: Project 5A1 - Project Selection + Project 5A2 - Task Selection
+  numDays: 10
 
 recitation:
-  date: Mon Mar 9
-  handout: recitations/reci7-vm-setup
-  name: Recitation 7 - Linux VM Setup
-  quiz: https://www.gradescope.com/courses/1213157/assignments/7710711
-  slides: https://docs.google.com/document/d/1si3shvRRnsWxLJ3iiLUUQ75mAueIlO3ll_oPZRH4svc/edit?usp=sharing
+  date: Mon Apr 6
+  handout: recitations/reci11-p5-project-task-selection-oh
+  name: Recitation 11 - Office Hours for P5 Project and Task Selection
+  quiz: https://www.gradescope.com/courses/1213157/assignments/7930030
+  slides: ''

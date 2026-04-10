@@ -19,23 +19,23 @@ Your high-level goal is to produce and submit a non-trivial modification or exte
 If you demonstrate to us that your change has been accepted and integrated into the project’s code base, you will get **20 bonus points**. Your team will select an open source project, select a change to implement, actually contribute to the project, and present your insights to the class. You will individually reflect on your teamwork and open source experience.
 
 ## Deliverables and Deadlines
-This will is your final project with your group. There are 3 deadlines for this project. The project is worth a total of 400 points (~24% of your final grade). 
+This is your final project with your group. There are 3 parts to this project. The project is worth a total of 400 points (~20% of your final grade). 
 
-A) [**Project & Task Selection**](1_projectcheck.md) – 80 points – due Sunday, November 16th, 11:59pm
+A) [**Project & Task Selection**](1_projectcheck.md) – 80 points
 
-- Project selection - **due Sunday, November 16th**
-- Check-In Presentation (slides + recording) (80 points) - **due Sunday, November 16th**
-- In-Person Presentation of Check-In Slides - **Monday, November 17th during recitation**
+- Project selection - **due Wednesday, April 15th, 11:59pm**
+- Checkpoint Presentation (slide deck) (80 points) - **due Sunday, April 19th, 11:59pm**
+- In-Person Presentation of Check-In Slides - **due Monday, April 20th during recitation**
 
-B) [**Project Final Report & Presentations**](2_projectfinal.md) – 300 points – due Friday, December 12th, 8:30am
+B) [**Project Final Report & Presentations**](2_projectfinal.md) – 300 points
 
-- Project Report (200 points) 
+- Project Report (200 points) - **due Thursday, April 30th, 8:30am**
 - *Extra Credit (20 points)*
-- Project Presentation (100 points) - **Held during exam timeslot on Friday, December 12th, 9:00-11:30am**
+- Project Presentation (100 points) - **Held during exam timeslot on Thursday, April 30th @ 8:30am-11:30am**
 
-C) [**Individual Reflections**](2_projectfinal.md) – 20 points – due Saturday, December 13th, 11:59pm
+C) [**Individual Reflections**](2_projectfinal.md) – 20 points
 
-- Reflections & Peer Review (20 points)
+- Reflections & Peer Review (20 points) - **due Friday, May 1st, 11:59pm**
 
 !!! tip
 

@@ -190,7 +190,7 @@
   reading:
     link: ""
     name: ""
-  recitation: 
+  recitation:
     handout: "recitations/reci2-teamcontract"
     name: "Recitation 2 - Team Contract Workshop"
     quiz: "https://www.gradescope.com/courses/1213157/assignments/7484077/"
@@ -628,7 +628,7 @@
     quiz: ""
     slides: ""
 
-- date: Mon Mar 2 
+- date: Mon Mar 2
   homework:
     deadline: ""
     link: ""
@@ -719,7 +719,7 @@
     slides: ""
 
 - date: Mon Mar 9
-  homework: 
+  homework:
     deadline: "Due Thursday, March 12, 2026 @ 11:59PM"
     link: "projects/P3/1_checkpoint/"
     name: "Project 3A - Checkpoint Deliverables"
@@ -821,10 +821,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "recitations/reci8-docker"
+    name: "Recitation 8 - Docker and Containerization"
+    quiz: "https://www.gradescope.com/courses/1213157/assignments/7815138"
+    slides: "https://docs.google.com/presentation/d/1Yc4emAwe_Sm1W-SyCcPJlo7Y-eTZxwvu7ss1m_FkxLg/edit?usp=sharing"
 
 - date: Tue Mar 17
   homework:
@@ -833,8 +833,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/16-Difficult-Conversations-and-Feedback.pdf"
+    name: "Guest Lecture: Difficult Conversations and Feedback"
   reading:
     link: ""
     name: ""
@@ -869,8 +869,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/17-pbt.pdf"
+    name: "Property-Based Testing"
   reading:
     link: ""
     name: ""
@@ -883,7 +883,7 @@
 - date: Fri Mar 20
   homework:
     deadline: "Due Thursday, March 26, 2026 @ 11:59PM"
-    link: ""
+    link: "projects/P4/1_checkpoint/"
     name: "Project 4A - Checkpoint Deliverables"
     numDays: 5
   lecture:
@@ -911,10 +911,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "recitations/reci9-pbt"
+    name: "Recitation 9 - Property-Based Testing"
+    quiz: "https://www.gradescope.com/courses/1213157/assignments/7848861/"
+    slides: "https://docs.google.com/presentation/d/1YRnnS-h7cZiljp8iGIpTQ1GMallv_H0xfKgh75qHIfA/edit?usp=sharing"
 
 - date: Tue Mar 24
   homework:
@@ -923,8 +923,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/18-vibe-analysis.pdf"
+    name: "Vibe Analysis"
   reading:
     link: ""
     name: ""
@@ -959,8 +959,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/19-reliably-releasing-software.pdf"
+    name: "Guest Lecture: Reliably Releasing Software"
   reading:
     link: ""
     name: ""
@@ -973,7 +973,7 @@
 - date: Fri Mar 27
   homework:
     deadline: "Due Friday, April 3, 2026 @ 11:59PM"
-    link: ""
+    link: "projects/P4/2_checkpoint/"
     name: "Project 4B - Final Deliverables"
     numDays: 6
   lecture:
@@ -1001,10 +1001,10 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
-    slides: ""
+    handout: "recitations/reci10-open-source"
+    name: "Recitation 10 - Open Source Contributions"
+    quiz: "https://www.gradescope.com/courses/1213157/assignments/7869777/"
+    slides: "https://docs.google.com/presentation/d/1kDJDpvoJyPx498idQi7xjilfYgkEJN0cwBMrXQzbewo/edit?usp=sharing"
 
 - date: Tue Mar 31
   homework:
@@ -1013,8 +1013,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/20-zabriskie-guest-lecture.pdf"
+    name: "Guest Lecture: Building Real Software with AI"
   reading:
     link: ""
     name: ""
@@ -1028,7 +1028,7 @@
   homework:
     deadline: ""
     link: ""
-    name: "" 
+    name: ""
     numDays: 0
   lecture:
     link: ""
@@ -1049,8 +1049,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/21-open-source.pdf"
+    name: "Open Source"
   reading:
     link: ""
     name: ""
@@ -1081,7 +1081,7 @@
 - date: Mon Apr 6
   homework:
     deadline: "5A1 due Wednesday, April 15, 2026 @ 11:59PM + 5A2 due Sunday, April 19, 2026 @ 11:59PM"
-    link: ""
+    link: "projects/P5/1_projectcheck"
     name: "Project 5A1 - Project Selection + Project 5A2 - Task Selection"
     numDays: 10
   lecture:
@@ -1091,9 +1091,9 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
+    handout: "recitations/reci11-p5-project-task-selection-oh"
+    name: "Recitation 11 - Office Hours for P5 Project and Task Selection"
+    quiz: "https://www.gradescope.com/courses/1213157/assignments/7930030"
     slides: ""
 
 - date: Tue Apr 7
@@ -1103,8 +1103,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/21-ethics.pdf"
+    name: "Ethics in Software Engineering"
   reading:
     link: ""
     name: ""
@@ -1260,8 +1260,8 @@
 
 - date: Mon Apr 20
   homework:
-    deadline: ""
-    link: ""
+    deadline: "5B due Thursday, April 30, 2026 @ 8:30AM + 5C due Friday, April 31, 2026 @ 11:59PM"
+    link: "projects/P5/2_projectfinal"
     name: "Project 5B - Project Final Report & Presentations + 5C - Individual Reflection"
     numDays: 5
   lecture:
