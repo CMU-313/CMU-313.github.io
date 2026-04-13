@@ -12,4 +12,9 @@ projects:
   name: Project 5A1 - Project Selection + Project 5A2 - Task Selection
   numDays: 10
 
-recitation: null
+recitation:
+  date: Mon Apr 13
+  handout: recitations/reci12-midterm-review
+  name: Recitation 12 - Midterm Review
+  quiz: https://www.gradescope.com/courses/1213157/assignments/7972350
+  slides: https://docs.google.com/presentation/d/12UxAMld9lpSc7EgCETzq-bu5BU9PLk51Fj-mefwkPI4/edit?usp=sharing
