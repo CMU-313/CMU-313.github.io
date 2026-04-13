@@ -1,10 +1,7 @@
 lectures:
-- date: Tue Apr 7
-  link: assets/pdfs/22-ethics.pdf
-  name: Ethics in Software Engineering
-- date: Thu Apr 9
+- date: Thu Apr 16
   link: ''
-  name: Spring Carnival - No Class
+  name: Midterm 2
 
 projects:
 - date: Mon Apr 6
@@ -15,9 +12,4 @@ projects:
   name: Project 5A1 - Project Selection + Project 5A2 - Task Selection
   numDays: 10
 
-recitation:
-  date: Mon Apr 6
-  handout: recitations/reci11-p5-project-task-selection-oh
-  name: Recitation 11 - Office Hours for P5 Project and Task Selection
-  quiz: https://www.gradescope.com/courses/1213157/assignments/7930030
-  slides: ''
+recitation: null
