@@ -1271,9 +1271,9 @@
     link: ""
     name: ""
   recitation:
-    handout: ""
-    name: ""
-    quiz: ""
+    handout: "recitations/reci13-open-source-presentation"
+    name: "Recitation 13 - Open Source Project Presentations"
+    quiz: "https://www.gradescope.com/courses/1213157/assignments/7994750"
     slides: ""
 
 - date: Tue Apr 21
