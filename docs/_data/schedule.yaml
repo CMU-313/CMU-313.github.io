@@ -1193,8 +1193,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/22-technical-debt.pdf"
+    name: "Technical Debt"
   reading:
     link: ""
     name: ""
