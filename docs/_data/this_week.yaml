@@ -1,4 +1,7 @@
 lectures:
+- date: Tue Apr 14
+  link: assets/pdfs/22-technical-debt.pdf
+  name: Technical Debt
 - date: Thu Apr 16
   link: ''
   name: Midterm 2
