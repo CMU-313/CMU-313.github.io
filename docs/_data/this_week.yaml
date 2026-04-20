@@ -1,23 +1,17 @@
-lectures:
-- date: Tue Apr 14
-  link: assets/pdfs/22-technical-debt.pdf
-  name: Technical Debt
-- date: Thu Apr 16
-  link: ''
-  name: Midterm 2
+lectures: []
 
 projects:
-- date: Mon Apr 6
-  deadline: 5A1 due Wednesday, April 15, 2026 @ 11:59PM + 5A2 due Sunday, April 19,
-    2026 @ 11:59PM
-  end_date: 2026-04-20 00:00:00
-  link: projects/P5/1_projectcheck
-  name: Project 5A1 - Project Selection + Project 5A2 - Task Selection
-  numDays: 10
+- date: Mon Apr 20
+  deadline: 5B due Thursday, April 30, 2026 @ 8:30AM + 5C due Friday, April 31, 2026
+    @ 11:59PM
+  end_date: 2026-04-27 00:00:00
+  link: projects/P5/2_projectfinal
+  name: Project 5B - Project Final Report & Presentations + 5C - Individual Reflection
+  numDays: 5
 
 recitation:
-  date: Mon Apr 13
-  handout: recitations/reci12-midterm-review
-  name: Recitation 12 - Midterm Review
-  quiz: https://www.gradescope.com/courses/1213157/assignments/7972350
-  slides: https://docs.google.com/presentation/d/12UxAMld9lpSc7EgCETzq-bu5BU9PLk51Fj-mefwkPI4/edit?usp=sharing
+  date: Mon Apr 20
+  handout: recitations/reci13-open-source-presentation
+  name: Recitation 13 - Open Source Project Presentations
+  quiz: https://www.gradescope.com/courses/1213157/assignments/7994750
+  slides: ''
