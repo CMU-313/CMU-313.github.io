@@ -1283,8 +1283,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/23-employment.pdf"
+    name: "Employment and Career Development"
   reading:
     link: ""
     name: ""
