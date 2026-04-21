@@ -1,4 +1,7 @@
-lectures: []
+lectures:
+- date: Tue Apr 21
+  link: assets/pdfs/23-employment.pdf
+  name: Employment and Career Development
 
 projects:
 - date: Mon Apr 20
