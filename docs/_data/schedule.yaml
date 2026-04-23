@@ -1319,8 +1319,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ""
-    name: ""
+    link: "assets/pdfs/24-final-thoughts.pdf"
+    name: "AMA and Class Wrap-up"
   reading:
     link: ""
     name: ""
