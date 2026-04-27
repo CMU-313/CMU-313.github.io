@@ -1,23 +1,5 @@
-lectures:
-- date: Tue Apr 21
-  link: assets/pdfs/23-employment.pdf
-  name: Employment and Career Development
-- date: Thu Apr 23
-  link: assets/pdfs/24-final-thoughts.pdf
-  name: AMA and Class Wrap-up
+lectures: []
 
-projects:
-- date: Mon Apr 20
-  deadline: 5B due Thursday, April 30, 2026 @ 8:30AM + 5C due Friday, April 31, 2026
-    @ 11:59PM
-  end_date: 2026-04-27 00:00:00
-  link: projects/P5/2_projectfinal
-  name: Project 5B - Project Final Report & Presentations + 5C - Individual Reflection
-  numDays: 5
+projects: []
 
-recitation:
-  date: Mon Apr 20
-  handout: recitations/reci13-open-source-presentation
-  name: Recitation 13 - Open Source Project Presentations
-  quiz: https://www.gradescope.com/courses/1213157/assignments/7994750
-  slides: ''
+recitation: null
