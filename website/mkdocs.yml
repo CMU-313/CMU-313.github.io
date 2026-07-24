@@ -54,6 +54,8 @@ extra_css:
   - stylesheets/custom.css
 
 plugins:
+  - coursemd:
+      config_file: ../.coursemd.yml
   - search
   - markdownextradata
 

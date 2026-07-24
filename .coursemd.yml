@@ -1,0 +1,12 @@
+timezone: America/New_York
+
+site:
+  backend: mkdocs
+  base_url: https://cmu-313.github.io/
+  project_dir: website
+  assignments_url_path: assignments
+
+paths:
+  data_dir: data
+  assignments_dir: assignments
+  quizzes_dir: quizzes
