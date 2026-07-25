@@ -1,10 +1,188 @@
 timezone: America/New_York
 
-site:
-  backend: mkdocs
-  base_url: https://cmu-313.github.io/
-  project_dir: website
-  assignments_url_path: assignments
+course:
+  name: Foundations of Software Engineering
+  edition: Fall 2026
+  code: 17-313
+
+staff:
+  - name: Michael Hilton 
+    role: instructor
+    email: mhilton@cmu.edu
+    website: https://www.cs.cmu.edu/~mhilton/
+    github: MichaelHilton
+    photo: michael.png
+  - name: Jeff Gennari
+    role: instructor
+    email: jgennari@andrew.cmu.edu
+    website: https://mse.s3d.cmu.edu/facstaff/faculty1/core-faculty/gennari-jeffrey.html
+    photo: jeff.png
+    github: jeffgennari
+  - name: Sonal Bhatia
+    role: teaching-assistant
+    email: sonalbha@andrew.cmu.edu
+    photo: sonal.png
+    github: sonalbhatia
+  - name: Anila Joseph
+    role: teaching-assistant
+    email: anilaanj@andrew.cmu.edu
+    photo: anila.jpeg
+    github: nila-1234
+  - name: Shantanu Shastri
+    role: teaching-assistant
+    email: sshastr2@andrew.cmu.edu
+    photo: shantaru.jpeg
+    github: ShantanuShastri7
+  - name: Mrunalini Ramnath
+    role: teaching-assistant
+    email: mramnath@andrew.cmu.edu
+    photo: mrunalini.png
+    github: mrunalinir
+
+schedule:
+  start_date: 2026-03-10
+  end_date: 2026-04-30
+  breaks:
+    - name: Spring Carnival
+      start: 2026-04-09
+      end: 2026-04-10
+  events:
+    - kind: lecture
+      date: 2026-03-10
+      title: "Course Introduction & Team Formation"
+      link: /assets/slides/s26/00-course-introduction.pdf
+      speakers:
+        - Chris Timperley
+        - Jeff Gennari
+
+    - kind: workshop
+      date: 2026-03-12
+      title: "Quality Planning"
+      link: /assets/slides/s26/01-quality-planning-workshop.pdf
+      speakers:
+        - Jeff Gennari
+
+    - kind: lecture
+      date: 2026-03-17
+      title: "Metrics and Measurement"
+      link: /assets/slides/s26/02-metrics-and-measurement.pdf
+      speakers:
+        - Chris Timperley
+
+    - kind: lecture
+      date: 2026-03-19
+      title: "Quality in the Modern SDLC"
+      link: /assets/slides/s26/03-modern-sdlc.pdf
+      speakers:
+        - Jeff Gennari
+      topics:
+        - quality gates
+        - CI/CD
+        - development methodologies
+        - agentic workflows
+        - "when is quality 'good enough'?"
+
+    - kind: lecture
+      date: 2026-03-24
+      title: "Defect and Patch Management"
+      link: /assets/slides/s26/04-defect-management.pdf
+      speakers:
+        - Jeff Gennari
+      topics:
+        - Defect management and triage
+        - Statistical analysis of defects
+        - Root cause analysis
+        - Patch management
+
+    - kind: lecture
+      date: 2026-03-26
+      title: Testing in Production
+      link: /assets/slides/s26/05-testing-in-production.pdf
+      speakers:
+        - Chris Timperley
+      topics:
+        - feature flags & dark launching
+        - canary releases & blue/green deployments
+        - Safe ways to test (Traffic Shadowing, Tap-Compare)
+        - Chaos Engineering principles
+
+    - kind: lecture
+      date: 2026-03-31
+      title: "Refactoring and Legacy Systems"
+      link: /assets/slides/s26/06-legacy-refactoring.pdf
+      speakers:
+        - Jeff Gennari
+      topics:
+        - Refactoring
+        - Re-engineering
+        - Legacy system management
+
+    - kind: workshop
+      date: 2026-04-02
+      title: "Refactoring"
+      speakers:
+        - Chris Timperley
+      link: /assets/slides/s26/07-refactoring-workshop.pdf
+      topics:
+        - Peer review of Refactoring RFCs
+        - Risk Assessment critique
+        - Rollback Plan validation
+        - "**Deliverable:** Approved RFC (Phase C)"
+
+    - kind: lecture
+      date: 2026-04-07
+      title: Technical Debt in the Age of AI
+      link: /assets/slides/s26/08-technical-debt.pdf
+      speakers:
+        - Jeff Gennari
+
+    - kind: lecture
+      date: 2026-04-14
+      title: "Hazard and Risk Analysis"
+      link: /assets/slides/s26/09-hazard-and-risk-analysis.pdf
+      speakers:
+        - Chris Timperley
+      topics:
+        - HARA (FMEA, FTA, STPA)
+        - Goal Structuring Notation (GSN)
+        - Claims, Arguments, Evidence
+        - AI Governance patterns (Proxy, Kill Switch)
+
+    - kind: lecture
+      date: 2026-04-16
+      title: "Quality in AI-Enabled Systems"
+      link: /assets/slides/s26/10-quality-in-ai-enabled-systems.pdf
+      speakers:
+        - Chris Timperley
+
+    - kind: workshop
+      date: 2026-04-21
+      title: "Assurance Cases"
+      link: /assets/slides/s26/11-assurance-cases-workshop.pdf
+      speakers:
+        - Chris Timperley
+
+    - kind: lecture
+      date: 2026-04-23
+      title: "Course Retrospective"
+      link: /assets/slides/s26/12-course-retrospective.pdf
+      speakers:
+        - Chris Timperley
+        - Jeff Gennari
+
+integrations:
+  mkdocs:
+    base_url: https://cmu-313.github.io
+    project_dir: website
+    assignments_url_path: assignments
+  quarto:
+    dir: slides
+  github:
+    organization: CMU-313
+    instructors_team_slug: instructors
+  canvas:
+    base_url: https://canvas.cmu.edu
+    course_id: "53052"
 
 paths:
   data_dir: data

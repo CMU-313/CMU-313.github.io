@@ -1,0 +1,19 @@
+{
+  "features": {
+    "ghcr.io/christimperley/course.md/course-md:0.1.1": {
+      "version": "0.1.1",
+      "resolved": "ghcr.io/christimperley/course.md/course-md@sha256:3ff59df79b97d6a8f193ca2a4938b68f19a9500b3d087cd3829f7e1a2f211ee4",
+      "integrity": "sha256:3ff59df79b97d6a8f193ca2a4938b68f19a9500b3d087cd3829f7e1a2f211ee4"
+    },
+    "ghcr.io/devcontainers/features/github-cli:1": {
+      "version": "1.1.0",
+      "resolved": "ghcr.io/devcontainers/features/github-cli@sha256:d22f50b70ed75339b4eed1ba9ecde3a1791f90e88d37936517e3bace0bbad671",
+      "integrity": "sha256:d22f50b70ed75339b4eed1ba9ecde3a1791f90e88d37936517e3bace0bbad671"
+    },
+    "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
+      "version": "1.1.5",
+      "resolved": "ghcr.io/rocker-org/devcontainer-features/quarto-cli@sha256:7d1ba1c977b72d616e76089f016c87c1a581a05386aee635bae08e5a1375507d",
+      "integrity": "sha256:7d1ba1c977b72d616e76089f016c87c1a581a05386aee635bae08e5a1375507d"
+    }
+  }
+}
