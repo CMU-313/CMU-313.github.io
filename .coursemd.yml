@@ -11,33 +11,18 @@ staff:
     email: mhilton@cmu.edu
     website: https://www.cs.cmu.edu/~mhilton/
     github: MichaelHilton
-    photo: michael.png
-  - name: Jeff Gennari
+    photo: michael.jpg
+  - name: Josh Sunshine
     role: instructor
-    email: jgennari@andrew.cmu.edu
-    website: https://mse.s3d.cmu.edu/facstaff/faculty1/core-faculty/gennari-jeffrey.html
-    photo: jeff.png
-    github: jeffgennari
-  - name: Sonal Bhatia
+    email: sunshine@cs.cmu.edu
+    website: https://www.cs.cmu.edu/~jssunshi/
+    photo: Joshua_Sunshine.jpg
+    github: joshsunshine
+  - name: Autumn Qiu
     role: teaching-assistant
-    email: sonalbha@andrew.cmu.edu
-    photo: sonal.png
-    github: sonalbhatia
-  - name: Anila Joseph
-    role: teaching-assistant
-    email: anilaanj@andrew.cmu.edu
-    photo: anila.jpeg
-    github: nila-1234
-  - name: Shantanu Shastri
-    role: teaching-assistant
-    email: sshastr2@andrew.cmu.edu
-    photo: shantaru.jpeg
-    github: ShantanuShastri7
-  - name: Mrunalini Ramnath
-    role: teaching-assistant
-    email: mramnath@andrew.cmu.edu
-    photo: mrunalini.png
-    github: mrunalinir
+    email: autumnq@andrew.cmu.edu
+    photo: Autumn.jpg
+
 
 schedule:
   start_date: 2026-03-10
@@ -187,4 +172,4 @@ integrations:
 paths:
   data_dir: data
   assignments_dir: assignments
-  quizzes_dir: quizzes
+  recitations_dir: recitations
