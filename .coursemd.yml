@@ -25,135 +25,129 @@ staff:
 
 
 schedule:
-  start_date: 2026-03-10
-  end_date: 2026-04-30
+  start_date: 2026-08-25
+  end_date: 2026-12-03
   breaks:
+    - name: Fall Break
+      start: 2026-10-13
+      end: 2026-10-15
+    - name: Democracy Day
+      start: 2026-11-03
+      end: 2026-11-03
     - name: Spring Carnival
-      start: 2026-04-09
-      end: 2026-04-10
+      start: 2026-11-19
+      end: 2026-11-19
+    - name: Thanksgiving Break
+      start: 2026-11-26
+      end: 2026-11-26
   events:
     - kind: lecture
-      date: 2026-03-10
-      title: "Course Introduction & Team Formation"
-      link: /assets/slides/s26/00-course-introduction.pdf
-      speakers:
-        - Chris Timperley
-        - Jeff Gennari
-
-    - kind: workshop
-      date: 2026-03-12
-      title: "Quality Planning"
-      link: /assets/slides/s26/01-quality-planning-workshop.pdf
-      speakers:
-        - Jeff Gennari
+      date: 2026-08-25
+      title: "Intro"
 
     - kind: lecture
-      date: 2026-03-17
+      date: 2026-08-27
       title: "Metrics and Measurement"
-      link: /assets/slides/s26/02-metrics-and-measurement.pdf
-      speakers:
-        - Chris Timperley
 
     - kind: lecture
-      date: 2026-03-19
-      title: "Quality in the Modern SDLC"
-      link: /assets/slides/s26/03-modern-sdlc.pdf
-      speakers:
-        - Jeff Gennari
-      topics:
-        - quality gates
-        - CI/CD
-        - development methodologies
-        - agentic workflows
-        - "when is quality 'good enough'?"
+      date: 2026-09-01
+      title: "Case Study 737MAX"
 
     - kind: lecture
-      date: 2026-03-24
-      title: "Defect and Patch Management"
-      link: /assets/slides/s26/04-defect-management.pdf
-      speakers:
-        - Jeff Gennari
-      topics:
-        - Defect management and triage
-        - Statistical analysis of defects
-        - Root cause analysis
-        - Patch management
+      date: 2026-09-03
+      title: "Software Archaeology"
 
     - kind: lecture
-      date: 2026-03-26
-      title: Testing in Production
-      link: /assets/slides/s26/05-testing-in-production.pdf
-      speakers:
-        - Chris Timperley
-      topics:
-        - feature flags & dark launching
-        - canary releases & blue/green deployments
-        - Safe ways to test (Traffic Shadowing, Tap-Compare)
-        - Chaos Engineering principles
+      date: 2026-09-08
+      title: "Project Planning (+HW 1 retro)"
 
     - kind: lecture
-      date: 2026-03-31
-      title: "Refactoring and Legacy Systems"
-      link: /assets/slides/s26/06-legacy-refactoring.pdf
-      speakers:
-        - Jeff Gennari
-      topics:
-        - Refactoring
-        - Re-engineering
-        - Legacy system management
+      date: 2026-09-10
+      title: "Teams and Communication (slack, user doc)"
+
+    - kind: lecture
+      date: 2026-09-15
+      title: "Architecture: Intro and Overview"
+
+    - kind: lecture
+      date: 2026-09-17
+      title: "Architecture: Microservices"
 
     - kind: workshop
-      date: 2026-04-02
-      title: "Refactoring"
-      speakers:
-        - Chris Timperley
-      link: /assets/slides/s26/07-refactoring-workshop.pdf
+      date: 2026-09-22
+      title: "Design Docs - Activity"
+
+    - kind: lecture
+      date: 2026-09-24
+      title: "Software Testing"
       topics:
-        - Peer review of Refactoring RFCs
-        - Risk Assessment critique
-        - Rollback Plan validation
-        - "**Deliverable:** Approved RFC (Phase C)"
+        - Design for Test
+        - Boundary Value Analysis
+        - Testing Principles
 
     - kind: lecture
-      date: 2026-04-07
-      title: Technical Debt in the Age of AI
-      link: /assets/slides/s26/08-technical-debt.pdf
-      speakers:
-        - Jeff Gennari
+      date: 2026-09-29
+      title: "Static Analysis"
 
     - kind: lecture
-      date: 2026-04-14
-      title: "Hazard and Risk Analysis"
-      link: /assets/slides/s26/09-hazard-and-risk-analysis.pdf
-      speakers:
-        - Chris Timperley
+      date: 2026-10-01
+      title: "Dynamic Analysis"
       topics:
-        - HARA (FMEA, FTA, STPA)
-        - Goal Structuring Notation (GSN)
-        - Claims, Arguments, Evidence
-        - AI Governance patterns (Proxy, Kill Switch)
-
-    - kind: lecture
-      date: 2026-04-16
-      title: "Quality in AI-Enabled Systems"
-      link: /assets/slides/s26/10-quality-in-ai-enabled-systems.pdf
-      speakers:
-        - Chris Timperley
+        - Oracles
+        - Input Generation
+        - Fuzz Testing
 
     - kind: workshop
-      date: 2026-04-21
-      title: "Assurance Cases"
-      link: /assets/slides/s26/11-assurance-cases-workshop.pdf
-      speakers:
-        - Chris Timperley
+      date: 2026-10-06
+      title: "Deployment Workshop Game (Robert Chatley)"
 
     - kind: lecture
-      date: 2026-04-23
-      title: "Course Retrospective"
-      link: /assets/slides/s26/12-course-retrospective.pdf
-      speakers:
-        - Chris Timperley
-        - Jeff Gennari
+      date: 2026-10-08
+      title: "Midterm 1"
+
+    - kind: workshop
+      date: 2026-10-20
+      title: "Design Docs - Activity"
+
+    - kind: lecture
+      date: 2026-10-22
+      title: "Vibe Coding"
+
+    - kind: lecture
+      date: 2026-10-27
+      title: "Guest Lecture: Taya Cohen"
+
+    - kind: lecture
+      date: 2026-10-29
+      title: "PBT"
+
+    - kind: lecture
+      date: 2026-11-05
+      title: "Guest Lecture 1 by Chris M"
+
+    - kind: lecture
+      date: 2026-11-10
+      title: "Guest Lecture 2 by Chris M"
+
+    - kind: lecture
+      date: 2026-11-12
+      title: "Open Source + Licenses + Dependencies"
+
+    - kind: lecture
+      date: 2026-11-17
+      title: "Ethics"
+
+    - kind: lecture
+      date: 2026-11-24
+      title: "Program Instrumentation"
+
+    - kind: lecture
+      date: 2026-12-01
+      title: "Jobs + comp"
+
+    - kind: lecture
+      date: 2026-12-03
+      title: "Semester Review + AMA"
 
 integrations:
   mkdocs:
@@ -172,4 +166,5 @@ integrations:
 paths:
   data_dir: data
   assignments_dir: assignments
-  recitations_dir: recitations
+  labs_dir: recitations
+  quizzes_dir: quizzes
