@@ -1,5 +1,7 @@
 ---
+kind: recitation
 title: Recitation 11 - Open Source Project and Task Selection Check In
+date: 2026-11-16
 ---
 
 # Recitation 11: Open Source Project and Task Selection Check In

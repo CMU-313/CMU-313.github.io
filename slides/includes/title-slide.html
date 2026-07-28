@@ -1,0 +1,42 @@
+<style id="slide-branding-vars">
+  :root {
+    --brand-course-number: "$if(course_number)$$course_number$$else$17-636$endif$";
+  }
+</style>
+
+<section id="$idprefix$title-slide" $for(title-slide-attributes)$ $attribute$="$value$" $endfor$>
+  <div class="title-slide-background" aria-hidden="true"$if(title_background_image)$ style="background-image: $if(title_background_overlay)$$title_background_overlay$$else$linear-gradient(120deg, rgba(7, 11, 18, 0.82) 0%, rgba(7, 11, 18, 0.56) 44%, rgba(105, 19, 39, 0.74) 100%)$endif$, url('$title_background_image$'); background-position: $if(title_background_position)$$title_background_position$$else$center center$endif$;"$endif$></div>
+  <div class="title-slide-texture" aria-hidden="true"></div>
+  <div class="title-slide-glow" aria-hidden="true"></div>
+
+  <!-- Custom Branding -->
+  <!-- Logo top-left -->
+  <img src="includes/cmu-wordmark-horizontal-white.png" class="title-branding title-branding--cmu" alt="Carnegie Mellon University">
+
+  <div class="title-content">
+    <h1 class="title">$title$</h1>
+    <div class="title-meta">
+      <div class="title-meta__left">
+        $for(author)$
+        <p class="author">$author$</p>
+        $endfor$
+        $if(date)$
+        <p class="date">$date$</p>
+        $endif$
+      </div>
+      $if(course_number)$
+      <div class="title-meta__right">
+        <p class="author course-number-meta">$course_number$</p>
+        $if(course_name)$
+        <p class="date course-name-meta">$course_name$</p>
+        $elseif(subtitle)$
+        <p class="date course-name-meta">$subtitle$</p>
+        $endif$
+      </div>
+      $endif$
+    </div>
+  </div>
+
+  <!-- S3D Logo Image bottom-left -->
+  <img src="includes/s3d-logo-horizontal-reverse.png" class="title-branding title-branding--s3d" alt="Software and Societal Systems Department">
+</section>

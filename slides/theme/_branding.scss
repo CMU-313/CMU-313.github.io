@@ -1,0 +1,30 @@
+// Course branding chrome for content slides.
+.reveal .slides > section::after {
+  @include footer-branding($brand-s3d-logo);
+}
+
+#title-slide::after {
+  display: none !important;
+}
+
+.reveal .slides > section::before {
+  @include header-branding($brand-cmu-logo);
+}
+
+#title-slide::before {
+  display: none !important;
+}
+
+.reveal .slides > section:has(.summary-slide.present)::before,
+.reveal .slides > section:has(.learning-goals-slide.present)::before,
+.reveal .slides > section.summary-slide::before,
+.reveal .slides > section.learning-goals-slide::before {
+  @include header-branding-reversed($brand-cmu-logo-reverse);
+}
+
+.reveal .slides > section:has(.summary-slide.present)::after,
+.reveal .slides > section:has(.learning-goals-slide.present)::after,
+.reveal .slides > section.summary-slide::after,
+.reveal .slides > section.learning-goals-slide::after {
+  @include footer-branding-reversed($brand-s3d-logo-reverse);
+}

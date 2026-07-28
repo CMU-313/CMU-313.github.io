@@ -28,22 +28,22 @@ schedule:
   start_date: 2026-08-25
   end_date: 2026-12-03
   breaks:
+    - name: Labor Day
+      start: 2026-09-07
+      end: 2026-09-07
     - name: Fall Break
-      start: 2026-10-13
+      start: 2026-10-12
       end: 2026-10-15
     - name: Democracy Day
       start: 2026-11-03
       end: 2026-11-03
-    - name: Spring Carnival
-      start: 2026-11-19
-      end: 2026-11-19
-    - name: Thanksgiving Break
+    - name: Thanksgiving
       start: 2026-11-26
       end: 2026-11-26
   events:
     - kind: lecture
       date: 2026-08-25
-      title: "Intro"
+      title: "Intro + Pitch about AI usage."
 
     - kind: lecture
       date: 2026-08-27
@@ -55,7 +55,7 @@ schedule:
 
     - kind: lecture
       date: 2026-09-03
-      title: "Software Archaeology"
+      title: "AI Usage/AI for SE"
 
     - kind: lecture
       date: 2026-09-08
@@ -67,59 +67,51 @@ schedule:
 
     - kind: lecture
       date: 2026-09-15
-      title: "Architecture: Intro and Overview"
+      title: "Requirements? specifications?"
 
     - kind: lecture
       date: 2026-09-17
-      title: "Architecture: Microservices"
+      title: "Design Docs"
 
-    - kind: workshop
+    - kind: lecture
       date: 2026-09-22
-      title: "Design Docs - Activity"
+      title: "Unit Testing I"
 
     - kind: lecture
       date: 2026-09-24
-      title: "Software Testing"
-      topics:
-        - Design for Test
-        - Boundary Value Analysis
-        - Testing Principles
+      title: "Unit Testing II"
 
     - kind: lecture
       date: 2026-09-29
-      title: "Static Analysis"
+      title: "Oracles, Input Generation, Fuzz Testing"
 
     - kind: lecture
       date: 2026-10-01
-      title: "Dynamic Analysis"
-      topics:
-        - Oracles
-        - Input Generation
-        - Fuzz Testing
-
-    - kind: workshop
-      date: 2026-10-06
-      title: "Deployment Workshop Game (Robert Chatley)"
+      title: "PBT I"
 
     - kind: lecture
+      date: 2026-10-06
+      title: "PBT II"
+
+    - kind: midterm
       date: 2026-10-08
       title: "Midterm 1"
 
-    - kind: workshop
+    - kind: lecture
       date: 2026-10-20
-      title: "Design Docs - Activity"
+      title: "Microservices/Architecture"
 
     - kind: lecture
       date: 2026-10-22
-      title: "Vibe Coding"
+      title: "CI"
 
     - kind: lecture
       date: 2026-10-27
-      title: "Guest Lecture: Taya Cohen"
+      title: "Deployment Workshop Game (Robert Chatley)"
 
     - kind: lecture
       date: 2026-10-29
-      title: "PBT"
+      title: "Guest Lecture: Taya Cohen"
 
     - kind: lecture
       date: 2026-11-05
@@ -131,15 +123,19 @@ schedule:
 
     - kind: lecture
       date: 2026-11-12
-      title: "Open Source + Licenses + Dependencies"
+      title: "Static Analysis"
 
     - kind: lecture
       date: 2026-11-17
       title: "Ethics"
 
+    - kind: midterm
+      date: 2026-11-19
+      title: "Midterm 2"
+
     - kind: lecture
       date: 2026-11-24
-      title: "Program Instrumentation"
+      title: "Open Source + Licenses + Dependencies"
 
     - kind: lecture
       date: 2026-12-01
@@ -148,6 +144,20 @@ schedule:
     - kind: lecture
       date: 2026-12-03
       title: "Semester Review + AMA"
+
+    # No recitations/*.md file matches these three topics; scheduled as plain text
+    # per the recitation-topic table, with no linked content page.
+    - kind: recitation
+      date: 2026-10-19
+      title: "S3D Cloud Deployment"
+
+    - kind: recitation
+      date: 2026-11-23
+      title: "Exam 2 prep"
+
+    - kind: recitation
+      date: 2026-11-30
+      title: "Office Hours / Practice / Slide Review"
 
 integrations:
   mkdocs:
@@ -161,10 +171,11 @@ integrations:
     instructors_team_slug: instructors
   canvas:
     base_url: https://canvas.cmu.edu
+    # TODO: this is still the Spring 2026 Canvas course ID; replace with the
+    # real Fall 2026 course ID once it exists.
     course_id: "53052"
 
 paths:
   data_dir: data
   assignments_dir: assignments
-  labs_dir: recitations
-  quizzes_dir: quizzes
+  recitations_dir: recitations

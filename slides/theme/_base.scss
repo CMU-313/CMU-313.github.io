@@ -1,0 +1,219 @@
+// Base deck layout.
+// Force top alignment for all slides except title slide AND splash slide
+.reveal .slides > section:not(#title-slide):not(.splash-slide) {
+  top: 0 !important; // Override Reveal's distinct framing
+  display: block !important; // Restore block flow
+  box-sizing: border-box;
+  padding-top: 50px !important; // Give some headroom below the branded header
+  padding-left: 60px !important;
+  padding-right: 60px !important; // Restore comfortable insets without disturbing branding chrome
+  text-align: left;
+  height: 100%; // Ensure full height for positioning
+}
+
+// Adjust headings specifically for these content slides
+.reveal .slides > section:not(#title-slide) h2 {
+  margin-top: 30px; // Reduced to bump up the body
+  color: #000000; // Changed from CMU red to black to match original slides
+}
+
+.reveal .slide-number {
+  font-size: 0.5em;
+  background-color: transparent;
+  color: #333;
+}
+
+.reveal-viewport:has(.slides #title-slide.present),
+body.reveal-full-page:has(.slides #title-slide.present) {
+  background: #090b10;
+}
+
+#title-slide {
+  display: flex !important;
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-align: left !important;
+  height: 100% !important;
+  width: 100% !important;
+  position: relative;
+  padding: 0 !important;
+  overflow: hidden;
+  color: #fff;
+  background: #090b10;
+  isolation: isolate;
+
+  .title-slide-background,
+  .title-slide-texture,
+  .title-slide-glow {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  .title-slide-background {
+    background-image: linear-gradient(135deg, rgba(7, 11, 18, 0.96) 0%, rgba(26, 10, 17, 0.92) 42%, rgba(87, 16, 34, 0.84) 100%);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.02);
+    filter: saturate(1.04) contrast(1.03) brightness(0.94);
+  }
+
+  .title-slide-texture {
+    background-image:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.01)),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+      linear-gradient(0deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+    background-size: auto, 120px 120px, 120px 120px;
+    opacity: 0.1;
+  }
+
+  .title-slide-glow {
+    inset: auto auto -300px -250px;
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(196, 18, 48, 0.24) 0%, rgba(196, 18, 48, 0) 70%);
+    filter: blur(28px);
+    opacity: 0.5;
+  }
+
+  .title-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: none;
+    margin-top: 0;
+    padding: 24px 96px 62px 74px;
+    transform: none;
+    text-align: left !important;
+    // background: linear-gradient(180deg, rgba(6, 10, 16, 0.04) 0%, rgba(6, 10, 16, 0.58) 18%, rgba(6, 10, 16, 0.84) 52%, rgba(15, 10, 18, 0.92) 100%);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 -24px 64px rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(8px);
+  }
+
+  .title-content > * {
+    max-width: 860px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .title-meta {
+    max-width: none;
+    width: 100%;
+  }
+
+  .title-content::before {
+    content: "";
+    display: block;
+    width: 84px;
+    height: 5px;
+    margin-bottom: 16px;
+    border-radius: $radius-pill;
+    background: linear-gradient(90deg, #c41230 0%, #f36f6f 100%);
+  }
+
+  .title {
+    margin: 0 0 18px;
+    font-size: 2.32em;
+    line-height: 1.02;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 14px 34px rgba(0, 0, 0, 0.5), 0 3px 10px rgba(0, 0, 0, 0.4);
+    text-align: left !important;
+  }
+
+  .title-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: flex-end;
+    margin-top: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .title-meta__left {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .title-meta__right {
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+  }
+
+  .author,
+  .date {
+    margin: 0;
+    font-size: 0.66em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .author {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+  }
+
+  .date {
+    color: rgba(255, 255, 255, 0.68);
+  }
+
+  .course-number-meta,
+  .course-name-meta {
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.28);
+  }
+
+  .quarto-title-author-name {
+    color: inherit;
+  }
+}
+
+#title-slide img {
+  margin: 0;
+  background: transparent;
+}
+
+.title-branding {
+  position: absolute;
+  left: 74px;
+  z-index: 2;
+  width: auto;
+  height: 30px;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+}
+
+.title-branding--cmu {
+  top: 34px;
+}
+
+.title-branding--s3d {
+  bottom: 24px;
+  height: 34px;
+  opacity: 0.9;
+}
+
+.reveal:has(.slides #title-slide.present) .slide-number {
+  color: rgba(255, 255, 255, 0.88);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+}
+
+// Fix title spacing since we added logo at top
+.reveal .slides > section:not(#title-slide) h2:first-of-type {
+  margin-top: 30px; // Reduced to bump up the body
+}

@@ -1,5 +1,7 @@
 ---
+kind: recitation
 title: Recitation 3 - Software Archaeology
+date: 2026-09-14
 ---
 
 # Recitation 3: Software Archaeology

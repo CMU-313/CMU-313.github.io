@@ -1,0 +1,97 @@
+// Summary Slide Variant
+section.summary-slide,
+section.learning-goals-slide {
+  color: white;
+}
+
+// Global background override when summary slide is active
+// checks if the active slide (.present) has the .summary-slide class
+.reveal:has(.slides .summary-slide.present) .slide-background.present,
+.reveal:has(.slides .learning-goals-slide.present) .slide-background.present {
+  background-color: $summary-slide-background !important;
+}
+
+section.summary-slide h2,
+section.learning-goals-slide h2,
+section.summary-slide h3,
+section.learning-goals-slide h3 {
+  color: white !important;
+  border-bottom: none;
+}
+
+// Activity Slide Variant
+section.activity-slide {
+  color: #000;
+}
+
+.reveal:has(.slides .activity-slide.present) .slide-background.present {
+  background-color: $activity-slide-background !important;
+}
+
+section.no-title-slide {
+  padding-top: 30px;
+}
+
+section.no-title-slide h2 {
+  display: none;
+}
+
+section.activity-slide h2 {
+  color: #000 !important;
+}
+
+// Section-title slides generated from H1 headings.
+.reveal .slides section.title-slide:not(#title-slide) {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  height: 100% !important;
+  width: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
+  margin-top: 0 !important;
+  padding: 0 $brand-side-inset !important;
+  overflow: hidden !important;
+  text-align: center !important;
+}
+
+.reveal .slides section.title-slide:not(#title-slide) h1 {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  border-bottom: none !important;
+  line-height: 1.12 !important;
+  overflow-wrap: break-word;
+  text-align: center !important;
+}
+
+// Splash Slide Variant
+// Used for big questions/statements bridging sections
+// Increased specificity to override global top-alignment rules
+.reveal .slides section.splash-slide:not(#title-slide) {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  height: 100% !important;
+  width: 100% !important;
+  top: 0 !important; // Force top to 0 to prevent Reveal.js from adding centering offset
+  left: 0 !important; // Ensure it aligns to left edge
+  margin-top: 0 !important; // Remove the standard margin to allow true centering
+  padding-top: 0 !important; // Remove standard padding
+}
+
+// Ensure the H2 inside the splash slide doesn't inherit the top margin from standard slides
+.reveal .slides section.splash-slide:not(#title-slide) h2 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 2.2em !important;
+  line-height: 1.2 !important;
+  padding: 0 60px !important; // Prevent edge-to-edge text
+  border-bottom: none !important;
+  font-weight: 500;
+}

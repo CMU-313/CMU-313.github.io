@@ -1,5 +1,7 @@
 ---
+kind: recitation
 title: Recitation 5 - Team Dysfunction
+date: 2026-09-28
 ---
 
 # Recitation 5: Team Dysfunction

@@ -1,5 +1,7 @@
 ---
+kind: recitation
 title: Recitation 9 - Property-Based Testing
+date: 2026-11-02
 ---
 
 # Recitation 9: Property-Based Testing

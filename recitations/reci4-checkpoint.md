@@ -1,5 +1,7 @@
 ---
+kind: recitation
 title: Recitation 4 - P2B Checkpoint Presentations
+date: 2026-09-21
 ---
 
 # Recitation 4: P2B Checkpoint Presentations

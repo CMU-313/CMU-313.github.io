@@ -1,6 +1,7 @@
 {
   "name": "17-313: Course Website",
   "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "postCreateCommand": "git submodule update --init --recursive && python -m venv .venv && .venv/bin/python -m pip install -e './vendor/course.md[all]' 'mkdocs-material>=9.5.0' pre-commit && .venv/bin/pre-commit install --install-hooks",
   "postCreateCommand": "pre-commit install --install-hooks",
   "customizations": {
     "vscode": {
@@ -16,7 +17,7 @@
   },
   "features": {
     "ghcr.io/christimperley/course.md/course-md:0.1.1": {
-      "version": "2bb607ee11927fee5b6b032dc0179b3752d8514e",
+      "version": "85cb384",
       "slides": true,
       "ocr": true,
       "linters": true

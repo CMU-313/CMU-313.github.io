@@ -1,3 +1,8 @@
+---
+kind: recitation
+title: Recitation 6 - Deployment
+date: 2026-10-05
+---
 
 # Recitation 6: Deployment
 

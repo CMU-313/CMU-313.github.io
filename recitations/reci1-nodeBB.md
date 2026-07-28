@@ -1,5 +1,7 @@
 ---
+kind: recitation
 title: Recitation 1 - Understand NodeBB (Asynchronous) + Installation of NodeBB Office Hours (Optional)
+date: 2026-08-24
 ---
 
 # Recitation 1: Understand NodeBB (Asynchronous) + Installation of NodeBB (Optional) - DUE Friday January 16th, 11:59pm

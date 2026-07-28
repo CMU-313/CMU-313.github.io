@@ -1,5 +1,7 @@
 ---
+kind: recitation
 title: Recitation 10 - Open Source Projects
+date: 2026-11-09
 ---
 
 # Recitation 10: Open Source Projects
