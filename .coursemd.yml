@@ -164,6 +164,7 @@ integrations:
     base_url: https://cmu-313.github.io
     project_dir: website
     assignments_url_path: assignments
+    show_unreleased_content: true
   quarto:
     dir: slides
   github:
