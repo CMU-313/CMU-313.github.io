@@ -1,3 +1,8 @@
+---
+title: "FAQ"
+nav_order: 60
+---
+
 # Frequently Asked Questions
 
 This section is meant to contain frequently asked questions about the homework. We will continue to update this throughout the period the assignment is released!

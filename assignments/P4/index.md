@@ -1,3 +1,9 @@
+---
+title: "Project 4: Architecting an LLM Integration"
+release_date: 2026-10-30
+due_date: 2026-11-13
+---
+
 # Project 4: Architecting an LLM Integration
 
 ## Learning Goals

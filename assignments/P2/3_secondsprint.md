@@ -1,3 +1,8 @@
+---
+title: "2C Second Sprint"
+nav_order: 30
+---
+
 # Project 2C: Second Sprint
 
 ## Deliverables

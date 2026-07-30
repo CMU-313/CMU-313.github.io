@@ -1,3 +1,8 @@
+---
+title: "4A Design and Test"
+nav_order: 10
+---
+
 # Project 4A: Design, Test, and Implement
 
 ## Basic LLM Experiment (15 points)

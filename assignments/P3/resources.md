@@ -1,3 +1,8 @@
+---
+title: "Resources & Documentation"
+nav_order: 40
+---
+
 ## Resources & Documentation
 
 ### Starter List of Tools

@@ -1,3 +1,9 @@
+---
+title: "Project 5: Open Source Excursion"
+release_date: 2026-11-16
+due_date: 2026-12-10
+---
+
 # Project 5: Open Source Excursion
 
 ## Learning Goals

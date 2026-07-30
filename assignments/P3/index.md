@@ -1,3 +1,9 @@
+---
+title: "Project 3: Continuous Integration + Deployment"
+release_date: 2026-10-19
+due_date: 2026-10-29
+---
+
 # Project 3: Continuous Integration + Deployment
 
 ## Learning Goals

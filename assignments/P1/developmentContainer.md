@@ -1,3 +1,7 @@
+---
+title: "Development Container Setup"
+nav_order: 70
+---
 
 # Development Container Installation Instructions
 

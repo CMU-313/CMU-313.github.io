@@ -1,3 +1,8 @@
+---
+title: "3A Deployment and CI"
+nav_order: 10
+---
+
 # Project 3A: Deployment and CI
 
 ## Deliverables

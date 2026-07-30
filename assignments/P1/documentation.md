@@ -1,3 +1,9 @@
+---
+title: "Resources and Documentation"
+nav_order: 50
+release_date: 2026-01-01
+---
+
 # Resources & Documentation
 Below are some common resources to assist you with your completion of this project. If you get stuck, start by consulting the following materials; if you have any additional questions, the course staff will be available to answer questions via Slack and Office Hours.
 

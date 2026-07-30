@@ -1,3 +1,9 @@
+---
+title: "Project 2: Collaborative Development"
+release_date: 2026-08-31
+due_date: 2026-10-09
+---
+
 # Project 2: Collaborative Development
 
 ## Learning Goals

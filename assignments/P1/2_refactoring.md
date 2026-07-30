@@ -1,3 +1,8 @@
+---
+title: "1B Starter Task"
+nav_order: 20
+---
+
 # Project 1B: Starter Task
 
 ## Deliverables

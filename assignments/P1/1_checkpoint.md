@@ -1,3 +1,8 @@
+---
+title: "1A Build Checkpoint"
+nav_order: 10
+---
+
 # Project 1A: Build Checkpoint
 
 ## Deliverables

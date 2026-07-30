@@ -1,2 +1,1 @@
-course.md[mkdocs] @ git+https://github.com/ChrisTimperley/course.md.git@v0.1.0
 mkdocs-material>=9.5.0

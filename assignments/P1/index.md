@@ -1,3 +1,9 @@
+---
+title: "Project 1: Hello, NodeBB!"
+release_date: 2026-08-24
+due_date: 2026-09-04
+---
+
 # Project 1: Hello, NodeBB!
 
 ## Learning Goals

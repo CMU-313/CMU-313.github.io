@@ -1,3 +1,9 @@
+---
+title: "Development Tools Guide"
+nav_order: 30
+release_date: 2026-01-01
+---
+
 # Development Tools & Concepts Guide
 
 ## Overview

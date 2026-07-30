@@ -1,3 +1,9 @@
+---
+title: "GitHub Guide"
+nav_order: 80
+release_date: 2026-01-01
+---
+
 # GitHub Exercise
 
 ## Overview

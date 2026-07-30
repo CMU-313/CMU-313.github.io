@@ -1,3 +1,9 @@
+---
+title: "Git Commands Reference"
+nav_order: 40
+release_date: 2026-01-01
+---
+
 # Git Commands Reference for NodeBB Project
 
 This reference covers the essential Git commands you'll need for this project. Git can seem intimidating at first, but these commands will handle 95% of your daily workflow.

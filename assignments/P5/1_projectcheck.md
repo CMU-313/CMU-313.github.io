@@ -1,3 +1,8 @@
+---
+title: "5A Project and Task Selection"
+nav_order: 10
+---
+
 # Project 5A: Project and Task Selection
 
 ## Deliverables

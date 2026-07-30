@@ -1,3 +1,8 @@
+---
+title: "2B First Sprint"
+nav_order: 20
+---
+
 # Project 2B: First Sprint
 
 ## Deliverables

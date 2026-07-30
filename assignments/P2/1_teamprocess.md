@@ -1,3 +1,8 @@
+---
+title: "2A Team Process & Planning"
+nav_order: 10
+---
+
 # Project 2A: Team Process & Planning
 
 ## Deliverables

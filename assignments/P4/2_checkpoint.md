@@ -1,3 +1,8 @@
+---
+title: "4B Implementation and Evaluation"
+nav_order: 20
+---
+
 # Project 4B: Implementation and Evaluation
 
 ## Final LLM Experiment Implementation (30 points)

@@ -1,3 +1,8 @@
+---
+title: "3B Tool Analysis and Integration"
+nav_order: 20
+---
+
 # Project 3B: Tool Analysis and Integration
 
 ## Deliverables
