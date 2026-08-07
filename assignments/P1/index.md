@@ -1,7 +1,7 @@
 ---
 kind: homework
 title: "Project 1: Hello, NodeBB!"
-due_date: 2026-09-06
+due_date: 2026-09-07
 release_date: 2026-08-24
 tags:
 - "Onboarding"
@@ -14,9 +14,9 @@ checkpoints:
     title: "Build Checkpoint"
     due_at: "2026-08-31T23:59:00-04:00"
     link: "1_checkpoint.md"
-  - date: 2026-09-06
+  - date: 2026-09-07
     title: "Starter Task"
-    due_at: "2026-09-06T23:59:00-04:00"
+    due_at: "2026-09-07T23:59:00-04:00"
     link: "2_refactoring.md"
 ---
 
@@ -47,7 +47,7 @@ There are four (4) deliverables and two (2) deadlines for this homework.
 
 A) [**Build Checkpoint**](1_checkpoint.md) - 5 points - due Friday, January 16th, 11:59pm
 
-B) [**Starter Task**](2_refactoring.md) - 95 points - due Friday, January 23rd, 11:59pm
+B) [**Starter Task**](2_refactoring.md) - 95 points - due Monday, September 7th, 11:59pm
 
 - GitHub Issue (20 pts)
 - Code Refactoring and Validation (35 pts)
