@@ -1,10 +1,10 @@
 ---
 kind: recitation
-title: Recitation 3 - Software Archaeology
+title: Recitation 3 - AI Tool Use
 date: 2026-09-14
 ---
 
-# Recitation 3: Software Archaeology
+# Recitation 3: AI Tool Use
 
 ## Overview
 

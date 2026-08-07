@@ -1,7 +1,14 @@
 ---
+kind: homework
 title: "Project 1: Hello, NodeBB!"
+due_date: 2026-09-06
 release_date: 2026-08-24
-due_date: 2026-09-04
+tags:
+- "Onboarding"
+- "System verification"
+- "Testing"
+- "Debugging"
+summary: ""
 ---
 
 # Project 1: Hello, NodeBB!

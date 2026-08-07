@@ -1,10 +1,10 @@
 ---
 kind: recitation
-title: Recitation 10 - Open Source Projects
+title: Recitation 10 - Open Source Scavenger Hunt
 date: 2026-11-09
 ---
 
-# Recitation 10: Open Source Projects
+# Recitation 10: Open Source Scavenger Hunt
 
 ## Overview
 

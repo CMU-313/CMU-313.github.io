@@ -1,10 +1,10 @@
 ---
 kind: recitation
-title: Recitation 11 - Open Source Project and Task Selection Check In
+title: Recitation 11 - Final Project Check-in
 date: 2026-11-16
 ---
 
-# Recitation 11: Open Source Project and Task Selection Check In
+# Recitation 11: Final Project Check-in
 
 This recitation is dedicated to an in-person group presentation about your project and task selection. See [P5A: Project and Task Selection](https://cmu-313.github.io/projects/P5/1_projectcheck/#check-in-presentation-80-pts) for more details.
 
