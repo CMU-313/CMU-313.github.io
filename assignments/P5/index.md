@@ -2,6 +2,19 @@
 title: "Project 5: Open Source Excursion"
 release_date: 2026-11-16
 due_date: 2026-12-10
+checkpoints:
+  - date: 2026-11-24
+    title: "Project & Task Selection"
+    due_at: "2026-11-24T23:59:00-05:00"
+    link: "1_projectcheck.md"
+  - date: 2026-12-02
+    title: "Project Final Report & Presentations"
+    due_at: "2026-12-02T23:59:00-05:00"
+    link: "2_projectfinal.md"
+  - date: 2026-12-10
+    title: "Individual Reflections"
+    due_at: "2026-12-10T23:59:00-05:00"
+    link: "2_projectfinal.md"
 ---
 
 # Project 5: Open Source Excursion

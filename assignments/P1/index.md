@@ -9,6 +9,15 @@ tags:
 - "Testing"
 - "Debugging"
 summary: ""
+checkpoints:
+  - date: 2026-08-31
+    title: "Build Checkpoint"
+    due_at: "2026-08-31T23:59:00-04:00"
+    link: "1_checkpoint.md"
+  - date: 2026-09-06
+    title: "Starter Task"
+    due_at: "2026-09-06T23:59:00-04:00"
+    link: "2_refactoring.md"
 ---
 
 # Project 1: Hello, NodeBB!

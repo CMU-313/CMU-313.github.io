@@ -2,6 +2,15 @@
 title: "Project 3: Continuous Integration + Deployment"
 release_date: 2026-10-19
 due_date: 2026-10-29
+checkpoints:
+  - date: 2026-10-24
+    title: "Deployment & CI"
+    due_at: "2026-10-24T23:59:00-04:00"
+    link: "1_checkpoint.md"
+  - date: 2026-10-29
+    title: "Tool Analysis and Integration"
+    due_at: "2026-10-29T23:59:00-04:00"
+    link: "2_finalsubmission.md"
 ---
 
 # Project 3: Continuous Integration + Deployment

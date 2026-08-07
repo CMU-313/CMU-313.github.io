@@ -2,6 +2,19 @@
 title: "Project 2: Collaborative Development"
 release_date: 2026-08-31
 due_date: 2026-10-09
+checkpoints:
+  - date: 2026-09-13
+    title: "Team Process & Planning"
+    due_at: "2026-09-13T23:59:00-04:00"
+    link: "1_teamprocess.md"
+  - date: 2026-09-26
+    title: "First Sprint"
+    due_at: "2026-09-26T23:59:00-04:00"
+    link: "2_firstsprint.md"
+  - date: 2026-10-09
+    title: "Second Sprint"
+    due_at: "2026-10-09T23:59:00-04:00"
+    link: "3_secondsprint.md"
 ---
 
 # Project 2: Collaborative Development

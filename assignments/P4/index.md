@@ -2,6 +2,15 @@
 title: "Project 4: Architecting an LLM Integration"
 release_date: 2026-10-30
 due_date: 2026-11-13
+checkpoints:
+  - date: 2026-11-06
+    title: "Checkpoint #1 Deliverables"
+    due_at: "2026-11-06T23:59:00-05:00"
+    link: "1_checkpoint.md"
+  - date: 2026-11-13
+    title: "Final Deliverables"
+    due_at: "2026-11-13T23:59:00-05:00"
+    link: "2_checkpoint.md"
 ---
 
 # Project 4: Architecting an LLM Integration

@@ -161,6 +161,14 @@ a.card:hover {
     background-color: rgba(0,0,0,0);
 }
 
+#schedule table td .assignment-parent {
+    display: inline-block;
+    font-size: 85%;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    opacity: 0.65;
+}
+
 a.label, a.label:visited {
     color: #fff;
 }
