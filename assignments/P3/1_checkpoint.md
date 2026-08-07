@@ -7,7 +7,7 @@ nav_order: 10
 
 ## Deliverables
 
-**Deployment & CI** – 35 points – due Thursday, March 12, 2026, 11:59PM
+**Deployment & CI** – 35 points – due Monday, October 26, 2026, 11:59PM
 
 - [Deployed Application (25 pts)](#deployed-application-25-pts)
 - [Tools Checkpoint (10 pts)](#tools-checkpoint-10-pts)

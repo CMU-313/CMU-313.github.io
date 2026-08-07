@@ -7,7 +7,7 @@ nav_order: 30
 
 ## Deliverables
 
-**Second Sprint** – 110 points – due Friday, February 27th, 11:59pm ~~Thursday, February 26th, 11:59pm~~
+**Second Sprint** – 110 points – due Friday, October 9th, 11:59pm
 
 <!-- - [Process & Implementation Final](#process-and-implementation-final-50-pts) (50 pts) -->
 - [Process & Team Reflection](#process-and-team-reflection-65-pts) (65 pts)

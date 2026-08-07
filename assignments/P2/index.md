@@ -1,15 +1,15 @@
 ---
 title: "Project 2: Collaborative Development"
-release_date: 2026-08-31
+release_date: 2026-09-08
 due_date: 2026-10-09
 checkpoints:
-  - date: 2026-09-13
+  - date: 2026-09-14
     title: "Team Process & Planning"
-    due_at: "2026-09-13T23:59:00-04:00"
+    due_at: "2026-09-14T23:59:00-04:00"
     link: "1_teamprocess.md"
-  - date: 2026-09-26
+  - date: 2026-09-28
     title: "First Sprint"
-    due_at: "2026-09-26T23:59:00-04:00"
+    due_at: "2026-09-28T23:59:00-04:00"
     link: "2_firstsprint.md"
   - date: 2026-10-09
     title: "Second Sprint"
@@ -50,25 +50,25 @@ This will be the first assignment with your group. There are three (3) deadlines
 Detailed information for each of the deadlines has been split into its own subpage on the left.
 
 !!! tip
-    This is a large assignment spanning from now until Spring Break. We estimate that this project will take each student on the team on average 8 hours/week over the next 5 weeks, for a total of 40 hours. We highly recommend reading through the entire assignment before starting so you are aware of our expectations for the later deliverables.
+    This is a large assignment spanning from now until Fall Break. We estimate that this project will take each student on the team on average 8 hours/week over the next 5 weeks, for a total of 40 hours. We highly recommend reading through the entire assignment before starting so you are aware of our expectations for the later deliverables.
     
     To manage all of the write-ups, we recommend saving the pages as a PDF to print or annotate on as you work through the assignment with your team.
 
-A) [**Team Process & Planning**](1_teamprocess.md) – 70 points – due Friday, January 30th, 11:59pm
+A) [**Team Process & Planning**](1_teamprocess.md) – 70 points – due Monday, September 14th, 11:59pm
 
 - **Prerequisite:** Team Setup
 - Teamwork Contract (35 pts)
 - Project Planning (35 pts)
 - *Extra Credit (2 pts)*
 
-B) [**First Sprint**](2_firstsprint.md) – 95 points – due Tuesday, February 10th, 11:59pm
+B) [**First Sprint**](2_firstsprint.md) – 95 points – due Monday, September 28th, 11:59pm
 
-- Checkpoint Presentation (45 pts) - Slides due Sunday, February 8th, 11:59pm, **Presentation held during Recitation on Monday, February 9th**
+- Checkpoint Presentation (45 pts) - Slides due Sunday, September 27th, 11:59pm, **Presentation held during Recitation on Monday, September 28th**
 - Individual Process & Implementation Interim (25 pts)
 - Group Process & Implementation Interim (25 pts)
 - *Extra Credit (2 pts)*
 
-C) [**Second Sprint**](3_secondsprint.md) – 110 points – due Friday, February 27th, 11:59pm ~~Thursday, February 26th, 11:59pm~~
+C) [**Second Sprint**](3_secondsprint.md) – 110 points – due Friday, October 9th, 11:59pm
 
 - Process & Team Reflection (65 pts)
 - Individual Reflection (45 pts)

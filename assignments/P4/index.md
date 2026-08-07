@@ -1,15 +1,15 @@
 ---
 title: "Project 4: Architecting an LLM Integration"
-release_date: 2026-10-30
-due_date: 2026-11-13
+release_date: 2026-11-02
+due_date: 2026-11-16
 checkpoints:
-  - date: 2026-11-06
+  - date: 2026-11-09
     title: "Checkpoint #1 Deliverables"
-    due_at: "2026-11-06T23:59:00-05:00"
+    due_at: "2026-11-09T23:59:00-05:00"
     link: "1_checkpoint.md"
-  - date: 2026-11-13
+  - date: 2026-11-16
     title: "Final Deliverables"
-    due_at: "2026-11-13T23:59:00-05:00"
+    due_at: "2026-11-16T23:59:00-05:00"
     link: "2_checkpoint.md"
 ---
 
@@ -44,13 +44,13 @@ In light of this new direction, your manager wants you to:
 ## Deliverables and Deadlines
 There are two (2) deadlines for the project. This project is worth a total of 125 points.
 
-[**Checkpoint #1 Deliverables (Design and Test)**](./1_checkpoint.md) – 65 pts - due Thursday, March 26, 2026 @ 11:59PM
+[**Checkpoint #1 Deliverables (Design and Test)**](./1_checkpoint.md) – 65 pts - due Monday, November 9, 2026 @ 11:59PM
 
 - [Architectural Design Document (40 pts)](./1_checkpoint.md#architectural-design-document-40-points)
 - [Basic LLM Experiment (15 pts)](./1_checkpoint.md#basic-llm-experiment-15-points)
 - [LLM Experiment Integration Checkpoint (10 pts)](./1_checkpoint.md#llm-experiment-integration-checkpoint-10-points)
 
-[**Final Deliverables (Implementation and Evaluation)**](./2_checkpoint.md) - 60 pts - due Friday, April 3, 2026 @ 11:59PM
+[**Final Deliverables (Implementation and Evaluation)**](./2_checkpoint.md) - 60 pts - due Monday, November 16, 2026 @ 11:59PM
 
 - [Final LLM Experiment Implementation (30 pts)](./2_checkpoint.md#final-llm-experiment-implementation-30-points)
 - [Individual Reflection (30 pts)](./2_checkpoint.md#individual-reflection-30-points)

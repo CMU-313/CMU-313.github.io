@@ -1,15 +1,15 @@
 ---
 title: "Project 3: Continuous Integration + Deployment"
 release_date: 2026-10-19
-due_date: 2026-10-29
+due_date: 2026-11-02
 checkpoints:
-  - date: 2026-10-24
+  - date: 2026-10-26
     title: "Deployment & CI"
-    due_at: "2026-10-24T23:59:00-04:00"
+    due_at: "2026-10-26T23:59:00-04:00"
     link: "1_checkpoint.md"
-  - date: 2026-10-29
+  - date: 2026-11-02
     title: "Tool Analysis and Integration"
-    due_at: "2026-10-29T23:59:00-04:00"
+    due_at: "2026-11-02T23:59:00-05:00"
     link: "2_finalsubmission.md"
 ---
 
@@ -34,12 +34,12 @@ Secondly, evaluating existing tools and practices beyond simple linting or unit 
 
 There are two (2) deadlines for this project. This project is worth a total of 100 points.
 
-[**Deployment & CI**](1_checkpoint.md) – 35 points – due Thursday, March 12, 2026, 11:59PM
+[**Deployment & CI**](1_checkpoint.md) – 35 points – due Monday, October 26, 2026, 11:59PM
 
 - Deployed Application following the [NodeBB Deployment on Linux VM](deployment.md) instructions (25 pts)
 - Tools Checkpoint (10 pts)
 
-[**Tool Analysis and Integration**](2_finalsubmission.md) – 65 points – due Thursday, March 19, 2026, 11:59PM
+[**Tool Analysis and Integration**](2_finalsubmission.md) – 65 points – due Monday, November 2, 2026, 11:59PM
 
 - Tool Analysis (Individual) (30 pts)
 - Tool Analysis Design Doc (Group) (20 pts)

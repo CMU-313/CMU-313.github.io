@@ -7,7 +7,7 @@ nav_order: 10
 
 ## Deliverables
 
-**Team Process & Planning** – 70 points – due Friday, January 30th, 11:59pm
+**Team Process & Planning** – 70 points – due Monday, September 14th, 11:59pm
 
 - **Prerequisite:** [Team Setup](#team-setup)
 - [Teamwork Contract](#teamwork-contract-35-pts) (35 pts)
@@ -67,7 +67,7 @@ For each code-based deliverable, we will look at a snapshot of your repository a
 
 ### Teamwork Self-Assessment
 
-As the course moves into team-based projects, we will be releasing weekly self-assessments, each worth one participation point. These are meant to be short surveys and should not take more than a few minutes. They are intended to help you reflect on your team's process and prompt you to think about how to improve it. The first one will be released on **Monday, January 26th** and due **Friday, January 30th** (both at 11:59pm).
+As the course moves into team-based projects, we will be releasing weekly self-assessments, each worth one participation point. These are meant to be short surveys and should not take more than a few minutes. They are intended to help you reflect on your team's process and prompt you to think about how to improve it. The first one will be released on **Tuesday, September 8th** and due **Monday, September 14th** (both at 11:59pm).
 
 
 ## Main Deliverables

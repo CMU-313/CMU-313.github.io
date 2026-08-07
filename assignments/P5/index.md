@@ -1,19 +1,23 @@
 ---
 title: "Project 5: Open Source Excursion"
 release_date: 2026-11-16
-due_date: 2026-12-10
+due_date: 2026-12-04
 checkpoints:
-  - date: 2026-11-24
-    title: "Project & Task Selection"
-    due_at: "2026-11-24T23:59:00-05:00"
+  - date: 2026-11-23
+    title: "Project Selection"
+    due_at: "2026-11-23T23:59:00-05:00"
     link: "1_projectcheck.md"
-  - date: 2026-12-02
+  - date: 2026-11-30
+    title: "Checkpoint Presentation"
+    due_at: "2026-11-30T23:59:00-05:00"
+    link: "1_projectcheck.md"
+  - date: 2026-12-04
     title: "Project Final Report & Presentations"
-    due_at: "2026-12-02T23:59:00-05:00"
+    due_at: "2026-12-04T08:30:00-05:00"
     link: "2_projectfinal.md"
-  - date: 2026-12-10
+  - date: 2026-12-04
     title: "Individual Reflections"
-    due_at: "2026-12-10T23:59:00-05:00"
+    due_at: "2026-12-04T23:59:00-05:00"
     link: "2_projectfinal.md"
 ---
 
@@ -42,19 +46,19 @@ This is your final project with your group. There are 3 parts to this project. T
 
 A) [**Project & Task Selection**](1_projectcheck.md) – 80 points
 
-- Project selection - **due Wednesday, April 15th, 11:59pm**
-- Checkpoint Presentation (slide deck) (80 points) - **due Sunday, April 19th, 11:59pm**
-- In-Person Presentation of Check-In Slides - **due Monday, April 20th during recitation**
+- Project selection - **due Monday, November 23rd, 11:59pm**
+- Checkpoint Presentation (slide deck) (80 points) - **due Sunday, November 29th, 11:59pm**
+- In-Person Presentation of Check-In Slides - **due Monday, November 30th during recitation**
 
 B) [**Project Final Report & Presentations**](2_projectfinal.md) – 300 points
 
-- Project Report (200 points) - **due Thursday, April 30th, 8:30am**
+- Project Report (200 points) - **due Friday, December 4th, 8:30am**
 - *Extra Credit (20 points)*
-- Project Presentation (100 points) - **Held during exam timeslot on Thursday, April 30th @ 8:30am-11:30am**
+- Project Presentation (100 points) - **Held during exam timeslot on Friday, December 4th @ 8:30am-11:30am**
 
 C) [**Individual Reflections**](2_projectfinal.md) – 20 points
 
-- Reflections & Peer Review (20 points) - **due Friday, May 1st, 11:59pm**
+- Reflections & Peer Review (20 points) - **due Friday, December 4th, 11:59pm**
 
 !!! tip
 

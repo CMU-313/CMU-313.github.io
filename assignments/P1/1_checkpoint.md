@@ -7,7 +7,7 @@ nav_order: 10
 
 ## Deliverables
 
-**Build Checkpoint** – 5 points – due Friday, January 16th, 11:59pm
+**Build Checkpoint** – 5 points – due Monday, August 31st, 11:59pm
 
 ## Getting Started
 

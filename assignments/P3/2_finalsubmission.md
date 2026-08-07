@@ -7,7 +7,7 @@ nav_order: 20
 
 ## Deliverables
 
-**Final Deliverables** – 65 points – due Thursday, March 19, 2026, 11:59PM
+**Final Deliverables** – 65 points – due Monday, November 2, 2026, 11:59PM
 
 - [Tool Analysis (Individual) (30 pts)](#tool-analysis-individual-30-pts)
 - [Tool Analysis Design Doc (Group) (20 pts)](#tool-analysis-design-doc-group-20-pts)
