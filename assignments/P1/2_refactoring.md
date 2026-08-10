@@ -3,7 +3,7 @@ title: "1B Starter Task"
 nav_order: 20
 ---
 
-# Project 1B: Starter Task
+# Project 1B: Starter Task and Self-Directed Learning
 
 ## Deliverables
 
@@ -115,7 +115,7 @@ For the task, the smell must:
 The Qlty smell that you pick should be a maintainability smell (e.g., high function complexity, too many parameters, deep nesting, or duplicated code) that requires real code restructuring.
 
 You should fill out all of the fields in the provided issue template and title the issue appropriately.
-Specifically, you include both the **full file path** and **line number** (reported by Qlty) in the title to avoid ambiguity and make it easier for others to identify which smells have already been claimed (e.g., `Refactor (packages/desktop/src/main/apps.ts:39): Function with many returns (count = 12)`).
+Specifically, you should include both the **full file path** and **line number** (reported by Qlty) in the title to avoid ambiguity and make it easier for others to identify which smells have already been claimed (e.g., `Refactor (packages/desktop/src/main/apps.ts:39): Function with many returns (count = 12)`).
 
 ??? info "Issue Guidelines"
     **Issues titles** should provide a high-level overview of what the problem is (e.g. *"Navbar button UI bugs"*, *"Unexpected registration validation errors"*). Sometimes, issues are used to propose new features (e.g. *"Add CSV export feature"*).
@@ -133,7 +133,9 @@ You should soon see another comment by the `github-actions` bot informing you th
 
 	For future projects, you will have full control over these GitHub features such as managing assignees, adding labels, creating milestones, and more.
 
-### Code Refactoring (15 pts)
+### Code Refactoring and Validation (35 pts)
+
+#### Code Refactoring (15 pts)
 
 For this task, you will focus on refactoring the code and removing the corresponding Qlty issue(s) from your chosen file.
 As part of the task, you must validate your changes for **one Qlty-reported smell** by re-running Qlty locally.
@@ -148,9 +150,9 @@ You should start with the following steps:
 
 
 
-### Change Validation (20 pts)
+#### Change Validation (20 pts)
 
-You will need to validate that the code works.  To do this, you need to offer compelling evidence that the change has not broken anything.  You may do this with tests.  Your changes should have tests that validate that the change did not break anything. This could include tests that were existing before your change, or you may need to write new tests.  In your PR, you should explicitly say which tests cover your changes, and a short explanatain as to why those test are sufficient to convience a reviewer that the changes did not break anything.  NOTE: The tests that you submit should execute the code changes you made. 
+You will need to validate that the code works.  To do this, you need to offer compelling evidence that the change has not broken anything.  You may do this with tests.  Your changes should have tests that validate that the change did not break anything. This could include tests that were existing before your change, or you may need to write new tests.  In your PR, you should explicitly say which tests cover your changes, and a short explanation as to why those tests are sufficient to convince a reviewer that the changes did not break anything.  NOTE: The tests that you submit should execute the code changes you made. 
 
 
 
@@ -160,29 +162,16 @@ You can build a coverage report using the following command:
 bun test --coverage --coverage-dir=./coverage
 ```
 
-
-<!--
-For this task, you will focus on refactoring the code and removing the corresponding Qlty issue(s) from your chosen file.
-As part of the task, you must validate your changes for **one Qlty-reported smell** by re-running Qlty locally.
-
-**Back in your own fork**, create a feature branch and implement the changes needed to address the chosen Qlty smell.
-You should start with the following steps:
-
-- Review the Qlty smells for the file (via ` qlty smells <selected/file.ts>`).
-- Identify the necessary code changes to address the chosen smell.
-- Implement the changes and ensure that they do not introduce new Qlty warnings or issues.
-- Run the linter and test suite to ensure your changes pass all checks (via `bun lint` and `bun test`).
-
 We also want you to manually test your changes in a running opencode instance.
 The purpose is to trigger the refactored code's execution from the user interface (UI) with the following steps:
 
 - Within your implementation, add a print statement (e.g., `console.log(YOUR_NAME)`) immediately before, after, or in the middle of your refactored code.
-- Restart the NodeBB instance.
-- If you refactored a `public/src/` file (front-end related file), watch logging via DevTools (`Ctrl+Shift+I` to open and then navigate to the 'Console' tab). If you refactored a `src/` file, watch logging via `./nodebb log`.
+- Restart opencode (`bun dev`).
+- If you refactored a front-end file, watch logging via DevTools (`Ctrl+Shift+I` to open and then navigate to the 'Console' tab). If you refactored a back-end file, watch logging in the terminal where `bun dev` is running.
 - Perform any necessary UI operations that execute the refactored code (e.g., clicking buttons for an action)
 - Take a screenshot of these logs and include it in your pull request (see next part of project) description, along with a brief explanation of the steps you took to trigger the code.
 - Remove the temporary print statement before committing your final code.
--->
+
 ### GitHub Pull Request (40 pts)
 
 As you work, be sure to periodically commit your changes.
@@ -233,21 +222,21 @@ A green checkmark on the PR signals that you’ve completed the implementation a
 
 ## Submission
 
-Finally, once you have created an issue and submitted a pull request, you should use the following Gradescope link to submit your work to be graded: [Gradescope](gradescope_course_url()) 
+Finally, once you have created an issue and submitted a pull request, you should use the following Gradescope link to submit your work to be graded: [Gradescope]({{ gradescope_course_url() }}) 
 
 ## Grading
 
 To receive full credit for this project, we expect:
 
 - [ ] **GitHub Issue (20 pts)**
-	- [ ] JavaScript file under src/ or public/src/
+	- [ ] TypeScript file within the opencode codebase
  	- [ ] Meaningful title with full path + line number
- 	- [ ] Issue form fields completed with focused Qlty before evidence
+ 	- [ ] Issue form fields completed with Qlty evidence
  	- [ ] Successful bot assignment
 
 - [ ] **Code Refactoring & Validation (35 pts)**
 	- [ ] Target smell reduced/removed (same scope) with before/after Qlty evidence
- 	- [ ] `npm run lint` and `npm run test` pass locally
+ 	- [ ] `bun lint` and `bun test` pass locally
  	- [ ] Runtime trigger demonstrated (logs + UI screenshot)
 
 - [ ] **GitHub Pull Request (40 pts)**
