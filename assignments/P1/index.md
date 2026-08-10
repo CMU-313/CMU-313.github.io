@@ -29,6 +29,7 @@ checkpoints:
 - Onboard on development tools and technologies
 - Learn Git Flow and GitHub to support future collaborative development
 - Run local analysis tools and use the output to evaluate a codebase
+- Learn TypeScript fundamentals through self-directed study
 
 ## Project Context
 
@@ -43,12 +44,13 @@ We will ONLY be working with the course specific repo in this class. This will a
 ## Deliverables and Deadlines
 
 This is an **individual assignment**.
-There are four (4) deliverables and two (2) deadlines for this homework.
+There are five (5) deliverables and two (2) deadlines for this homework.
 
 A) [**Build Checkpoint**](1_checkpoint.md) - 5 points - due Monday, August 31st, 11:59pm
 
 B) [**Starter Task and Self-Directed Learning**](2_refactoring.md) - 95 points - due Monday, September 7th, 11:59pm
 
+- TypeScript Self-Directed Learning (10 pts)
 - GitHub Issue (20 pts)
 - Code Refactoring and Validation (35 pts)
-- GitHub Pull Request (40 pts)
+- GitHub Pull Request (30 pts)
