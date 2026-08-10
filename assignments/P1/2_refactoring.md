@@ -19,7 +19,7 @@ Now that you have explored the repository, the development team would like to gi
 
 The team has noticed an accumulation of maintainability issues detected by **[Qlty](https://github.com/qltysh/qlty)**, a multi-language code quality tool.
 Qlty detects “code smells” such as high function complexity, too many parameters, deep nesting, and duplicated code.
-Your task is to remove one or more Qlty-reported issues by refactoring code and validating that your change takes effect within the NodeBB codebase.
+Your task is to remove one or more Qlty-reported issues by refactoring code and validating that your change takes effect within the opencode codebase.
 
 ## Prerequisites
 
@@ -43,15 +43,19 @@ In this project and throughout the rest of this course, you will be expected to 
 - [x] Creating GitHub Pull Requests and using related features (linking to issues)
 - [x] Creating GitHub Project Boards
 
-If you are not familiar with any of these steps, you are **highly recommended** to wait after the mini-lesson on Git during lecture on Thursday, August 27th, 2026, as it will cover the standards we are expecting in this class (which you will be graded upon). You should also refer to the [Resources & Documentation](/projects/P1/documentation/#git--github-documentation) section if needed. There is a [simple Git-based exercise](/projects/P1/github) that you are highly recommended to complete before proceeding with this project.
+If you are not familiar with any of these steps, you may refer to the [Resources & Documentation](/projects/P1/documentation/#git--github-documentation) section if needed. There is a [simple Git-based exercise](/projects/P1/github) that you are highly recommended to complete before proceeding with this project.
 
 ### Qlty
 
 [Qlty](https://github.com/qltysh/qlty) is a multi-language static analysis tool that supports linting, scanning, and auto-formatting across a large number of languages and technologies, including Javascript.
 For this assignment, you will locally install and configure the Qlty command-line tool to identify maintainability issues within the codebase.
 
-To get started, you will need to [install Qlty](https://github.com/qltysh/qlty?tab=readme-ov-file#-quick-start) on your machine.
-If you are using the DevContainer, everything should already be installed for you.
+To get started, you will need to [install Qlty](https://github.com/qltysh/qlty?tab=readme-ov-file#-quick-start) into your DevContainer.
+You will know it is installed properly when you can run 
+
+```bash
+qlty --version
+```
 
 To use Qlty to show all of the code smells within the project, you should run:
 
@@ -72,42 +76,46 @@ qlty smells --all --no-snippets
 Once you've narrowed in on a particular file, you can produce a list of smells for just that file as follows:
 
 ```bash
-qlty smells public/src/path/to/file.js
+qlty smells script/path/file.ts
 ```
 
 You can use the `--no-snippets` option to find the associated line number for each smell on the left.
 
 ```bash
-qlty smells --no-snippets src/controllers/mods.js
-...
 
-src/controllers/mods.js
- 236  Complex binary expression
-   1  High total complexity (count = 55)
-  22  Function with high complexity (count = 23): list
- 131  Function with high complexity (count = 20): detail
- 214  Function with high complexity (count = 14): postQueue
+qlty smells --no-snippets  packages/desktop/src/main/apps.ts
+     [0/3] 🔍  Analyzing 1 path... 0.03s
+     [1/3] 👀  Checking structure of 1 files...  1.17s
+     [2/3] 🤔  Looking for duplication across 1 files...  8.61s
+     [3/3] ✨  Reporting...  
+
+packages/desktop/src/main/apps.ts
+  39  Function with many returns (count = 12): resolveWindowsAppPath
+ 119  Deeply nested control flow (level = 5)
+ 126  Deeply nested control flow (level = 5)
+   1  High total complexity (count = 80)
+  39  Function with high complexity (count = 73): resolveWindowsAppPath
+  57  Function with high complexity (count = 22): resolveCmd
+
 ```
 
 ## Tasks
 
 ### GitHub Issue (20 pts)
 
-First, choose a single Qlty-reported “smell” in a JavaScript file and open a GitHub issue in the [class repository](https://github.com/CMU-313/NodeBB/issues) using the **P1B Starter Task Issue template** to declare which smell you will be working on.
+First, choose a single Qlty-reported “smell” in a TypeScript file and open a GitHub issue in the [class repository](https://github.com/CMU-313/opencode/issues) using the **P1B Starter Task Issue template** to declare which smell you will be working on.
 
 ![GitHub Issue Template](/assets/images/hw/p1b_issue_template.png)
 
 For the task, the smell must:
 
-- **Be in a Javascript file.**
-- **Be in the `src/` or `public/src/` directory.**
-- **Be a smell that no one else in the class has picked and created an issue for.**
+**Be a smell that no one else in the class has picked and created an issue for.**
   We expect you to look through existing *open* issues, if any, to avoid duplication.
 
 The Qlty smell that you pick should be a maintainability smell (e.g., high function complexity, too many parameters, deep nesting, or duplicated code) that requires real code restructuring.
 
 You should fill out all of the fields in the provided issue template and title the issue appropriately.
-Specifically, you include both the **full file path** and **line number** (reported by Qlty) in the title to avoid ambiguity and make it easier for others to identify which smells have already been claimed (e.g., `Refactor (src/controllers/groups.js:70): Function with high complexity (details)`).
+Specifically, you include both the **full file path** and **line number** (reported by Qlty) in the title to avoid ambiguity and make it easier for others to identify which smells have already been claimed (e.g., `Refactor (packages/desktop/src/main/apps.ts:39): Function with many returns (count = 12)`).
 
 ??? info "Issue Guidelines"
     **Issues titles** should provide a high-level overview of what the problem is (e.g. *"Navbar button UI bugs"*, *"Unexpected registration validation errors"*). Sometimes, issues are used to propose new features (e.g. *"Add CSV export feature"*).
@@ -121,11 +129,11 @@ You should soon see another comment by the `github-actions` bot informing you th
 ![Bot Issue Assignment](/assets/images/hw/bot_assignment.png)
 
 ??? info "Why Bot Assignment?"
-	You might be curious as to why we are using a GitHub bot instead of directly assigning yourself to the issue. As you aren’t officially recognized as a collaborator of CMU-313/NodeBB, GitHub adds some restrictions to your permissions for security purposes, including not being able to assign yourself to an issue. Hence, we are using a bot to work around these restrictions. This is similar to how you would request issues on an Open Source project!
+	You might be curious as to why we are using a GitHub bot instead of directly assigning yourself to the issue. As you aren’t officially recognized as a collaborator of CMU-313/opencode, GitHub adds some restrictions to your permissions for security purposes, including not being able to assign yourself to an issue. Hence, we are using a bot to work around these restrictions. This is similar to how you would request issues on an Open Source project!
 
 	For future projects, you will have full control over these GitHub features such as managing assignees, adding labels, creating milestones, and more.
 
-### Code Refactoring and Validation (35 pts)
+### Code Refactoring (15 pts)
 
 For this task, you will focus on refactoring the code and removing the corresponding Qlty issue(s) from your chosen file.
 As part of the task, you must validate your changes for **one Qlty-reported smell** by re-running Qlty locally.
@@ -133,12 +141,39 @@ As part of the task, you must validate your changes for **one Qlty-reported smel
 **Back in your own fork**, create a feature branch and implement the changes needed to address the chosen Qlty smell.
 You should start with the following steps:
 
-- Review the Qlty smells for the file (via ` qlty smells <selected/file.js>`).
+- Review the Qlty smells for the file (via ` qlty smells <selected/file.ts>`).
 - Identify the necessary code changes to address the chosen smell.
 - Implement the changes and ensure that they do not introduce new Qlty warnings or issues.
-- Run the linter and test suite to ensure your changes pass all checks (via `npm run lint` and `npm run test`).
+- Run the linter and test suite to ensure your changes pass all checks (via `bun lint` and `bun test`).
 
-We also want you to manually test your changes in a running NodeBB instance.
+
+
+### Change Validation (20 pts)
+
+You will need to validate that the code works.  To do this, you need to offer compelling evidence that the change has not broken anything.  You may do this with tests.  Your changes should have tests that validate that the change did not break anything. This could include tests that were existing before your change, or you may need to write new tests.  In your PR, you should explicitly say which tests cover your changes, and a short explanatain as to why those test are sufficient to convience a reviewer that the changes did not break anything.  NOTE: The tests that you submit should execute the code changes you made. 
+
+
+
+You can build a coverage report using the following command: 
+
+```bash
+bun test --coverage --coverage-dir=./coverage
+```
+
+
+<!--
+For this task, you will focus on refactoring the code and removing the corresponding Qlty issue(s) from your chosen file.
+As part of the task, you must validate your changes for **one Qlty-reported smell** by re-running Qlty locally.
+
+**Back in your own fork**, create a feature branch and implement the changes needed to address the chosen Qlty smell.
+You should start with the following steps:
+
+- Review the Qlty smells for the file (via ` qlty smells <selected/file.ts>`).
+- Identify the necessary code changes to address the chosen smell.
+- Implement the changes and ensure that they do not introduce new Qlty warnings or issues.
+- Run the linter and test suite to ensure your changes pass all checks (via `bun lint` and `bun test`).
+
+We also want you to manually test your changes in a running opencode instance.
 The purpose is to trigger the refactored code's execution from the user interface (UI) with the following steps:
 
 - Within your implementation, add a print statement (e.g., `console.log(YOUR_NAME)`) immediately before, after, or in the middle of your refactored code.
@@ -147,7 +182,7 @@ The purpose is to trigger the refactored code's execution from the user interfac
 - Perform any necessary UI operations that execute the refactored code (e.g., clicking buttons for an action)
 - Take a screenshot of these logs and include it in your pull request (see next part of project) description, along with a brief explanation of the steps you took to trigger the code.
 - Remove the temporary print statement before committing your final code.
-
+-->
 ### GitHub Pull Request (40 pts)
 
 As you work, be sure to periodically commit your changes.
@@ -160,14 +195,14 @@ If you’d like, you can also make use of branching and pull requests in your ow
 	**Commits** should start with a verb and provide a description of what they are doing to the codebase (e.g. *"Remove faulty condition from getCustomerDetails"*, *"Fix failing CompositeTestCase"*, *"Fix issue #21"* ).
 
 Once you are satisfied, create a pull request from your personal branch back to the class repository **using the widget below.**
-This will redirect you to a pull request template for this assignment where you should fill out all of the fields, attach the required screenshots, and provide a clear PR title that includes the full path (e.g., `Refactor (public/src/client/categories.js): reduce nesting in render()`).
+This will redirect you to a pull request template for this assignment where you should fill out all of the fields, attach the required screenshots, and provide a clear PR title that includes the full path (e.g., `Refactor (packages/desktop/src/main/apps.ts): Function with many returns`).
 
 <div class="p1b-card md-typeset">
     <form onsubmit="event.preventDefault();
       const handle = document.getElementById('handle').value.trim();
       const branch = document.getElementById('branch').value.trim();
       if (!handle || !branch) { alert('Enter your GitHub username and branch name.'); return; }
-      const url = `https://github.com/CMU-313/NodeBB/compare/main...${encodeURIComponent(handle)}:${encodeURIComponent(branch)}?expand=1&template=p1b-starter-task.md`;
+      const url = `https://github.com/CMU-313/opencode/compare/main...${encodeURIComponent(handle)}:${encodeURIComponent(branch)}?expand=1&template=p1b-starter-task.md`;
       window.open(url, '_blank');
     ">
         <label>
@@ -198,7 +233,7 @@ A green checkmark on the PR signals that you’ve completed the implementation a
 
 ## Submission
 
-Finally, once you have created an issue and submitted a pull request, you should use the following Gradescope link to submit your work to be graded: [Gradescope](https://www.gradescope.com/courses/1213157/assignments/7446245) 
+Finally, once you have created an issue and submitted a pull request, you should use the following Gradescope link to submit your work to be graded: [Gradescope](gradescope_course_url()) 
 
 ## Grading
 
