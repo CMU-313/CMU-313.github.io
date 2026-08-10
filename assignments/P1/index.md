@@ -36,9 +36,9 @@ Welcome to the 17-313 development team! To get started, you will be going throug
 
 This semester, we will be building upon opencode, the open source AI coding agent. You can learn more about this project from the original development team's [website](https://opencode.ai/).
 
-For your own development, you will be forking your own repository off of a class-specific fork of NodeBB, which you can find at [https://github.com/CMU-313/opencode](https://github.com/CMU-313/opencode).
+For your own development, you will be forking your own repository off of a class-specific fork of opencode, which you can find at [https://github.com/CMU-313/opencode](https://github.com/CMU-313/opencode).
 
-We will ONLY be working with the course specific repo this class. This will also allow you to create issues and pull requests that are visible to the instructors, which will be the primary way of submitting code deliverables for this project.
+We will ONLY be working with the course specific repo in this class. This will also allow you to create issues and pull requests that are visible to the instructors, which will be the primary way of submitting code deliverables for this project.
 
 ## Deliverables and Deadlines
 
