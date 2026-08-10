@@ -176,6 +176,9 @@ integrations:
     # TODO: this is still the Spring 2026 Canvas course ID; replace with the
     # real Fall 2026 course ID once it exists.
     course_id: "53052"
+  gradescope:
+    base_url: https://www.gradescope.com
+    course_id: "1213157"
 
 paths:
   data_dir: data

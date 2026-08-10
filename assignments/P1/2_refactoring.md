@@ -28,8 +28,8 @@ Your task is to remove one or more Qlty-reported issues by refactoring code and 
 Before jumping into the codebase, please review the [course syllabus](/syllabus) and be sure you have access to each of the following:
 
 - Course Slack - check your email for an invite link
-- [Canvas](https://canvas.cmu.edu/courses/51340)
-- [Gradescope](https://www.gradescope.com/courses/1213157)
+- [Canvas]({{ canvas_course_url() }})
+- [Gradescope]({{ gradescope_course_url() }})
 
 If you run into any trouble accessing the above or have any questions, reach out to the instructors.
 
