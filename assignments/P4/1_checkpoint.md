@@ -82,6 +82,17 @@ Once you enter your team name, Github will automatically create a repository for
 
 Your server-side code must include unit and mock tests. To accomplish this, you should use the tests you wrote for the **Basic LLM Experiment** to your repo, and ensure they are running as part of your CI pipeline.
 
+## Tool Analysis (Individual) (20 points)
+
+Back in Project 3, you researched, integrated, and merged one CI/CD check into your team's pipeline. Now that it's been running against real commits for a few weeks, add a comment containing answers to the following questions to the same PR you made for that check in Project 3:
+
+- What is the name and high-level description of what the check does? Provide a link to its documentation/source.
+- Is the check used for static or dynamic analysis?
+- What types of problems does this particular check catch?
+- What types of customization were possible or necessary — and did you end up needing more than you expected once it was running for real, on real commits?
+- How is it integrated into your development process today (blocking vs. advisory, what stage of the pipeline it runs at)? Would you change that now that you've lived with it for a few weeks?
+- Are there many false positives? False negatives? True positive reports about things you don't care about?
+
 ## Grading
 To receive full credit for the first checkpoint, we expect:
 
@@ -89,6 +100,7 @@ To receive full credit for the first checkpoint, we expect:
 - [ ] A link to your Colab notebook completing all of the setup and basic LLM experiment steps outlined by the previous section
 - [ ] A functional integration of the UI code into your NodeBB application.
 - [ ] A preliminary implementation of the translation feature using the starter code, including CI with unit and mock tests.
+- [ ] A link to the Project 3 PR comment containing your individual tool analysis, answering all questions above.
 
 
 

@@ -42,13 +42,14 @@ In light of this new direction, your manager wants you to:
 3. **Implement the feature** Implement the translation feature.
 
 ## Deliverables and Deadlines
-There are two (2) deadlines for the project. This project is worth a total of 125 points.
+There are two (2) deadlines for the project. This project is worth a total of 145 points.
 
-[**Checkpoint #1 Deliverables (Design and Test)**](./1_checkpoint.md) – 65 pts - due Monday, November 9, 2026 @ 11:59PM
+[**Checkpoint #1 Deliverables (Design and Test)**](./1_checkpoint.md) – 85 pts - due Monday, November 9, 2026 @ 11:59PM
 
 - [Architectural Design Document (40 pts)](./1_checkpoint.md#architectural-design-document-40-points)
 - [Basic LLM Experiment (15 pts)](./1_checkpoint.md#basic-llm-experiment-15-points)
 - [LLM Experiment Integration Checkpoint (10 pts)](./1_checkpoint.md#llm-experiment-integration-checkpoint-10-points)
+- [Tool Analysis (Individual) (20 pts)](./1_checkpoint.md#tool-analysis-individual-20-points)
 
 [**Final Deliverables (Implementation and Evaluation)**](./2_checkpoint.md) - 60 pts - due Monday, November 16, 2026 @ 11:59PM
 
