@@ -128,7 +128,7 @@ Then, document these functional requirements in the form of user stories that fo
 **You should come up with at least two user stories per student in your group.**
 
 !!! note "Formulating User Stories"
-    Consider what are the different types of users that will be interacting with opencode (your stakeholders — e.g. developers using the CLI, the desktop app, or building on top of opencode's tool/provider integrations) and what features they would want that opencode does not currently provide. You may want to reference features in comparable AI coding tools (e.g. GitHub Copilot, Cursor, Claude Code) that may be desirable, look through opencode's own GitHub issues for feature requests, or conduct interviews with your peers who could be potential users of this system.
+    Consider what are the different types of users that will be interacting with opencode as a tool for learning software engineering (your stakeholders — e.g. students new to a codebase, students learning a new language or framework, instructors wanting visibility into how students use AI assistance) and what features they would want that opencode does not currently provide to support that use case. You may want to reference features in tools built for learners (e.g. GitHub Copilot for Education, Replit's AI features, CS50's "duck debugger") that may be desirable, look through opencode's own GitHub issues for feature requests, or conduct interviews with your peers — as fellow students, they're the actual target users of this system.
 
 As a team, you should then come up with a prioritization ranking for each user story. The prioritization should be based on two factors 
 
@@ -154,7 +154,7 @@ Your selected user stories should have relatively high priority based on your te
     - number of team members on your team
     - assumption of 8 hours/week available per individual
 
-    The course staff **is happy to discuss this with your team during OH** and we highly recommend you do so if your team is unsure. We will also be providing you with feedback during your first sprint's [checkpoint presentation](/projects/P2/2_firstsprint/#checkpoint-presentation-50-pts).
+    The course staff **is happy to discuss this with your team during OH** and we highly recommend you do so if your team is unsure. We will also be providing you with feedback during your first sprint's [checkpoint presentation](/projects/P2/2_firstsprint/#checkpoint-presentation-45-pts).
 
 The feature(s) you plan to implement should not be purely cosmetic or arbitrary. We expect this to be a non-issue as most high-impact features for opencode would require changes that span across the development stack (e.g., CLI/desktop UI, agent or tool logic, and provider integrations).
 
@@ -171,6 +171,9 @@ Convert the feature(s) you decide to implement into technical requirements (i.e.
 - Initial **assignments** for team members
 - **Milestones** to indicate which sprint the issue should be completed in (Sprint 1, Sprint 2, Stretch)
 - **Acceptance criteria** that describes how you know this task is done - think about how you will test this feature
+
+!!! note "Scoping Sprint 1 Issues"
+    Each team member will individually implement their own issue during the First Sprint (see [2B First Sprint](2_firstsprint.md)) on their own feature branch — even issues that are part of the same larger feature should be scoped so a single person can own and implement their piece end-to-end. Keep this in mind when deciding how finely to break down your Backlog.
 
 You should actively assign and move these issues across your Kanban board as your team makes progress. 
 

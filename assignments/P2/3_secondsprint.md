@@ -9,40 +9,53 @@ nav_order: 30
 
 **Second Sprint** – 110 points – due Friday, October 9th, 11:59pm
 
-<!-- - [Process & Implementation Final](#process-and-implementation-final-50-pts) (50 pts) -->
-- [Process & Team Reflection](#process-and-team-reflection-65-pts) (65 pts)
-- [Individual Reflection](#individual-reflection-45-pts) (45 pts)
+- [Individual Final Implementation](#individual-final-implementation-60-pts) (60 pts)
+- [Team Integration](#team-integration-30-pts) (30 pts)
+- [Process & Team Reflection](#process-and-team-reflection-10-pts) (10 pts)
+- [Individual Reflection](#individual-reflection-10-pts) (10 pts)
 - *[Extra Credit](#extra-credit-2-pts) (2 pts)*
 
-<!--
-## Process and Implementation Final (50 pts)
--->
-Continue working on the implementation of your feature(s). Be sure to continue following best practices for collaborative development similar to the previous sprint.
+## Individual Final Implementation (60 pts)
 
-As you become more familiar with the codebase, we have higher expectations for the final deliverables of this sprint. Specifically, along with your feature changes, we expect to see:
+This sprint is where your individual Sprint 1 branch gets finished and thoroughly verified. Be sure to continue following best practices for collaborative development similar to the previous sprint.
 
-- **Automated Tests**
-    - Add tests to the test suite that demonstrate the functionalities you implemented
+As you become more familiar with the codebase, we have higher expectations for the final deliverables of this sprint. Specifically, for **your individual issue from Sprint 1**, we expect to see:
+
+- **Thorough Testing & Verification**
+    - Before merging, thoroughly test your implementation and add tests to the test suite that demonstrate the functionality you implemented. Your tests should cover the changes you made.
     - These should follow the acceptance criteria you set from the initial planning
+    - Your PR should clearly explain why your testing and verification is enough to ensure your code is correct.
+    - CI should pass for your feature branch.
 
 - **User Documentation**
-    - Create a new file `UserGuide.md` in the root directory of your repository
-    - In this file, provide a detailed outline of how to use and user test your new feature(s)
-    - You should also provide a link/description of where your added automated tests can be found, along with a description of what is being tested and why you believe the tests are sufficient for covering the changes that you have made
+    - Contribute a section to your team's `UserGuide.md` (create it in the root directory of your repository if it doesn't already exist) describing how to use and user test the feature you implemented
+    - Provide a link/description of where your added automated tests can be found, along with a description of what is being tested and why you believe the tests are sufficient for covering the changes that you have made
+
+As with the first sprint, **every member of your team must contribute to the implementation**. Failure to do so will result in a significant penalty to your grade.
+
+## Team Integration (30 pts)
+
+Once each team member's issue is implemented and verified, the team is responsible for integrating everyone's work into a single, working `main` branch.
+
+- **Merge into `main`**
+    - Open (or update) a pull request from each individual branch back to your team repository's `main` branch, get it reviewed by a teammate, and merge it
+    - **Full credit requires every team member's Sprint 1 issue which has passing CI to be merged into the team repository's `main` branch by this deadline.** Work that is complete and tested but still sitting on an unmerged feature branch will not receive full credit for this requirement
+    - Resolve any conflicts or integration issues that come up as everyone's features are combined — this is a normal and expected part of teamwork, and how you handle it is part of what we're evaluating
+
+!!! warning "Incomplete Individual PRs"
+    If a team member's feature branch is NOT passing CI, your team is not responsible for merging it in, and that team member will receive zero points for Team Integration, but the rest of the team is still eligible for full points.
 
 !!! note "GitHub Actions"
-    GitHub Actions should be enabled. It is reasonable to have failures in feature branches, but you should do your best to make your main branch build consistently pass.
+    GitHub Actions should be enabled on your repository. By this deadline, CI passing on your individual branch is required for full credit (see above) — this isn't the "reasonable to have red feature branches" leniency from earlier in the project. Your team should also keep `main`'s build passing consistently as branches get merged in.
 
-As with the first sprint, **every member of your team must contribute to the implementation**. One way we will evaluate this is that each team member must have at least three commits as a part of the solution. Failure to do so will result in a significant penalty to your grade.
-
-You must commit all of your changes to the main branch of your team repository before the homework deadline. Unlike Project 1, you should not submit your changes to the parent opencode repository.
+You must merge all of your changes into the main branch of your team repository before the homework deadline. Unlike Project 1, you should not submit your changes to the parent opencode repository.
 
 Submit a link to your repository and your Github Project board onto Gradescope. For grading, we will take a snapshot of your repository and board right at the deadline and grade based on your progress there.
 
-## Process and Team Reflection (65 pts)
+## Process and Team Reflection (10 pts)
 
 !!! warning "Use of Generative AI discouraged"
-    Historically, we have found the use of generative AI tools for this part of the assignment has resulted in poor work being submitted. It is your responsibility to make sure that you and your group feel comfortable with each others work and are putting in your best effort.
+    Historically, we have found the use of generative AI tools for this part of the assignment has resulted in poor work being submitted. However, if only part of the assignment has low quality AI text, we will use the google drive edit history to determine individual scores for participation in the reflection.
 
 After coding is complete, reflect on your experience as a team. Again, we look for honest reflection, which will likely include reflection on failures. **We will not grade whether you predicted the effort correctly, but rather what you have learned**. 
 
@@ -84,7 +97,7 @@ Being able to communicate effectively is an important software engineering skill
     We will not evaluate how well (or badly) the project went, but instead how well you understood the reasons **why** the project went as it did, and what lessons you drew from your experience to inform your future work. A good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support the claims. 
 
 
-## Individual Reflection (45 pts)
+## Individual Reflection (10 pts)
 
 !!! warning "Use of Generative AI discouraged"
     Historically, we have found the use of generative AI tools for this part of the assignment has resulted in poor work being submitted. It is your responsibility to make sure that you and your group feel comfortable with each others work and are putting in your best effort.
@@ -115,20 +128,25 @@ You might want to eat together, go out for boba, or hold a board game session. N
 To receive extra credit, submit a photo of your team activity as part of the P2C EC gradescope submission before the deadline and include it in a folder in your shared google drive. We encourage you to do these types of meetings often throughout the semester!
 
 ## Grading
-To receive full credit for the implementation, we expect:
+To receive full credit for the Individual Final Implementation, we expect:
 
-- [ ] **Progress since Interim Snapshot**
-    - [ ] Fulfillment of implementation goals as outlined by the planned milestones, **or** a clearly written justification in the milestone description of why elements fell through
-    - [ ] An updated Project Board for the final progress
-    - [ ] Reasonable code structure and style, including documentation where appropriate
-    - [ ] Coherent commits of reasonable size with meaningful commit messages by all team members
-    - [ ] High quality usage of Git/GitHub tools, such as issues, milestones, pull requests, and commits
-- [ ] **Additional Requirements for Final Submission**
-    - [ ] Automated test cases for the implemented functionalities
-    - [ ] GitHub Actions running on the repository and passing on the main branch
-    - [ ] Created `UserGuide.md` file containing user documentation of the new feature that fulfills the guidelines given above
-    - [ ] A functional new feature that works when following the steps in `UserGuide.md`. Note that we aren't expecting the feature to be bug free, but it should work under general expected usage.
-  
+- [ ] Fulfillment of your individual implementation goals as outlined by the planned milestones, **or** a clearly written justification in the milestone description of why elements fell through
+- [ ] Reasonable code structure and style, including documentation where appropriate
+- [ ] Coherent commits of reasonable size with meaningful commit messages
+- [ ] Automated test cases for your implemented functionality, following the acceptance criteria set during planning
+- [ ] CI passing on your feature branch
+- [ ] Your PR clearly explains why your testing/verification is sufficient to trust the change
+- [ ] A contribution to `UserGuide.md` documenting your feature and its tests
+- [ ] A functional feature that works when following the steps in `UserGuide.md`. Note that we aren't expecting the feature to be bug free, but it should work under general expected usage.
+
+To receive full credit for Team Integration, we expect:
+
+- [ ] Every team member's individually assigned issue from Sprint 1 that has passing CI is merged into `main` (see the note above on incomplete individual PRs)
+- [ ] An updated Project Board reflecting the team's final progress
+- [ ] High quality usage of Git/GitHub tools, such as issues, milestones, pull requests, and commits, across the whole team
+- [ ] GitHub Actions running on the repository and passing on the main branch
+- [ ] Evidence that integration issues (merge conflicts, incompatible changes between teammates' features, etc.) were identified and resolved
+
 To receive full credit for the Process and Team Reflection, we expect:
 
 - [ ] A detailed, well written, and well structured reflection on each of the provided guiding questions

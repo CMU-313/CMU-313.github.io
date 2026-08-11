@@ -9,18 +9,21 @@ nav_order: 20
 
 **First Sprint** – 95 points – due Monday, September 28th, 11:59pm
 
-- [Process & Implementation Interim](#process-and-implementation-interim-50-pts) (50 pts) - due Monday, September 28th, 11:59pm
-    - Individual Process & Implementation Interim (25 pts)
-    - Group Process & Implementation Interim (25 pts)
+- [Individual Process & Implementation Interim](#individual-process--implementation-interim-50-pts) (50 pts) - due Monday, September 28th, 11:59pm
 - [Checkpoint Presentation](#checkpoint-presentation-45-pts) (45 pts) - due Sunday, September 27th, 11:59pm, **Presentation held during Recitation on Monday, September 28th**
 - *[Extra Credit](#extra-credit-2-pts) (2 pts)*
 
 
-## Process and Implementation Interim (50 pts)
+## Individual Process & Implementation Interim (50 pts)
 
-Start by cloning the team repository and merging your individual changes from Project 1 into your team repository using proper git flow. This can mean using git cherry-pick or just copying and pasting your individual changes and writing appropriate commit messages. Once everyone has properly set up the repository on their local machines and committed their changes, you can start development.
+For this sprint, **each team member is individually responsible for implementing one issue from your Backlog** — this can be a standalone feature, or your slice of a larger feature the team is jointly building (see the note on scoping issues in [2A Team Process & Planning](1_teamprocess.md#project-planning-35-pts)). Pick up (or confirm) your assigned issue on the Project board and move it to "In Progress." Specifically, your issue should be assigned to you in the GitHub Project board using the assign feature.
 
-You should follow best practices for collaborative development such as using feature branches, pull requests, and code review. Individual changes should be committed to properly named branches for each core feature being implemented and make use of pull requests to merge changes together. 
+Implement your issue on your own feature branch, named so it's clear who owns it (e.g. `<andrewid>/<short-description>`, following the branch naming guidance from Project 1). Once you have a working implementation, open a pull request from your branch back to the team repository, referencing the issue it resolves, so your teammates can start reviewing.
+
+!!! note "Merging happens in Sprint 2"
+    You do **not** need to merge your branch into `main` by the end of this sprint. Thoroughly testing and verifying your implementation, then merging it into `main`, is the core requirement of the [Second Sprint](3_secondsprint.md). For this checkpoint, we're looking at the state of your individual branch and PR, not `main`.  However, if you're collaborating with someone else on a related issue, you might want to pull their changes into your branch (or vice-versa) to ensure your progress is on the right track.
+
+You should still follow best practices for collaborative development, such as using pull requests and code review, even at this stage — early, asynchronous feedback on an in-progress PR is valuable even if it isn't ready to merge yet.
 
 A helpful resource for naming commits to practice best habits and make it easier for your teammates to review your code is [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/). Consider using this format to ensure your PRs have atomic, well named commits.
 
@@ -29,11 +32,11 @@ A helpful resource for naming commits to practice best habits and make it easier
 
 Be sure to **review each other’s code** - both from a quality assurance standpoint, but also so you have a better understanding of the codebase. Although code reviews can be done asynchronously, we encourage the first few to be done synchronously so you can discuss the changes with your teammates and learn more about the codebase.
 
-Every member of your team **must** contribute to the implementation. One way we will evaluate this is that each team member must have at least one commit as a part of the solution. Failure to do so will result in a significant penalty to your grade.
+Every member of your team **must** contribute to the implementation. One way we will evaluate this is that each team member must have their own named feature branch containing commits that implement their assigned issue. Failure to do so will result in a significant penalty to your grade.
 
-You must commit all of your changes to the main branch of your **team repository** before the homework deadline. Unlike the previous assignment (P1), you should **not** submit your changes to the parent opencode repository.
+You must push all of your changes to your feature branch in the **team repository** before the homework deadline. Unlike the previous assignment (P1), you should **not** submit your changes to the parent opencode repository.
 
-Submit a link to your repository and your Github Project board onto Gradescope. For grading, we will take a snapshot of your repository and board right at the deadline and grade based on your progress there.
+Submit a link to your repository and your Github Project board onto Gradescope. For grading, we will take a snapshot of your repository (including open branches and PRs) and board right at the deadline and grade based on your progress there.
 
 
 ## Checkpoint Presentation (45 pts)
@@ -76,13 +79,14 @@ To receive extra credit, submit a photo of your team activity as part of the P2B
 
 To receive full credit for the implementation, we expect:
 
+- [ ] Each team member has their own named feature branch with a working implementation of their individually assigned issue
+- [ ] Each team member has opened a well-written pull request from their branch to the team repository, referencing their issue, with at least some teammate review/comments — the PR does not need to be merged yet (see Second Sprint)
 - [ ] Fulfillment of implementation goals as outlined by the planned milestones, **or** a clearly written justification in the milestone description of why elements fell through
 - [ ] An updated Project Board for the current progress
 - [ ] Reasonable code structure and style, including documentation where appropriate
 - [ ] Coherent commits by all group members with reasonable size with meaningful commit messages by all team members
 - [ ] High quality usage of Git/GitHub tools, such as issues, milestones, pull requests, and commits
-- [ ] Well written and meaningful GitHub Pull Requests with code reviews as a reply to the PR
-- [ ] Links to Commits and PRs individual group members particiated in
+- [ ] Links to Commits and PRs individual group members participated in
 
 To receive full credit for the presentation, we expect:
 
