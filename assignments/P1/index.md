@@ -50,7 +50,7 @@ A) [**Build Checkpoint**](1_checkpoint.md) - 5 points - due Monday, August 31st,
 
 B) [**Starter Task and Self-Directed Learning**](2_refactoring.md) - 95 points - due Monday, September 7th, 11:59pm
 
-- TypeScript Self-Directed Learning (10 pts)
-- GitHub Issue (20 pts)
-- Code Refactoring and Validation (35 pts)
-- GitHub Pull Request (30 pts)
+- TypeScript Self-Directed Learning (25 pts)
+- GitHub Issue (25 pts)
+- Code Refactoring and Validation (20 pts)
+- GitHub Pull Request (25 pts)

@@ -9,10 +9,10 @@ nav_order: 20
 
 Starter Task - 95 points - due Monday, September 7th, 11:59PM
 
-- [TypeScript Self-Directed Learning](#typescript-self-directed-learning-10-pts) (10 pts)
-- [GitHub Issue](#github-issue-20-pts) (20 pts)
-- [Code Refactoring and Validation](#code-refactoring-and-validation-35-pts) (35 pts)
-- [GitHub Pull Request](#github-pull-request-30-pts) (30 pts)
+- [TypeScript Self-Directed Learning](#typescript-self-directed-learning-25-pts) (25 pts)
+- [GitHub Issue](#github-issue-25-pts) (25 pts)
+- [Code Refactoring and Validation](#code-refactoring-and-validation-20-pts) (20 pts)
+- [GitHub Pull Request](#github-pull-request-25-pts) (25 pts)
 
 ## Onboarding
 
@@ -102,7 +102,7 @@ packages/desktop/src/main/apps.ts
 
 ## Tasks
 
-### TypeScript Self-Directed Learning (10 pts)
+### TypeScript Self-Directed Learning (25 pts)
 
 opencode, like most modern web codebases, is written in TypeScript. Qlty's smell reports, the code you'll be refactoring, and the reviewers reading your pull request all assume a working knowledge of TypeScript's type system. Most students start this course without ever having used TypeScript — that's expected. Picking up a new language quickly from documentation, rather than waiting for it to be taught to you, is itself a skill this course (and most software jobs) will ask of you repeatedly, so before you dive into the codebase, you'll spend some time learning TypeScript on your own.
 
@@ -130,7 +130,7 @@ Once you feel comfortable with these topics, write yourself a short multiple-cho
 
 Pick two questions you think would meaningfully test whether a classmate understands a core TypeScript concept. We will be pulling from student-submitted questions to build a quiz that the whole class will take during a future lecture, so questions should be general TypeScript-concept questions — clear and unambiguous, not opencode-specific trivia.
 
-### GitHub Issue (20 pts)
+### GitHub Issue (25 pts)
 
 First, choose a single Qlty-reported “smell” in a TypeScript file and open a GitHub issue in the [class repository](https://github.com/CMU-313/opencode/issues) using the **P1B Starter Task Issue template** to declare which smell you will be working on.
 
@@ -162,9 +162,9 @@ You should soon see another comment by the `github-actions` bot informing you th
 
 	For future projects, you will have full control over these GitHub features such as managing assignees, adding labels, creating milestones, and more.
 
-### Code Refactoring and Validation (35 pts)
+### Code Refactoring and Validation (20 pts)
 
-#### Code Refactoring (15 pts)
+#### Code Refactoring (5 pts)
 
 For this task, you will focus on refactoring the code and removing the corresponding Qlty issue(s) from your chosen file.
 As part of the task, you must validate your changes for **one Qlty-reported smell** by re-running Qlty locally.
@@ -179,7 +179,7 @@ You should start with the following steps:
 
 
 
-#### Change Validation (20 pts)
+#### Change Validation (15 pts)
 
 You will need to validate that the code works.  To do this, you need to offer compelling evidence that the change has not broken anything.  You may do this with tests.  Your changes should have tests that validate that the change did not break anything. This could include tests that were existing before your change, or you may need to write new tests.  In your PR, you should explicitly say which tests cover your changes, and a short explanation as to why those tests are sufficient to convince a reviewer that the changes did not break anything.  NOTE: The tests that you submit should execute the code changes you made. 
 
@@ -201,7 +201,7 @@ The purpose is to trigger the refactored code's execution from the user interfac
 - Take a screenshot of these logs and include it in your pull request (see next part of project) description, along with a brief explanation of the steps you took to trigger the code.
 - Remove the temporary print statement before committing your final code.
 
-### GitHub Pull Request (30 pts)
+### GitHub Pull Request (25 pts)
 
 As you work, be sure to periodically commit your changes.
 Your commit message(s) must clearly describe what is changing.
@@ -257,24 +257,24 @@ Finally, once you have created an issue and submitted a pull request, you should
 
 To receive full credit for this project, we expect:
 
-- [ ] **TypeScript Self-Directed Learning (10 pts)**
+- [ ] **TypeScript Self-Directed Learning (25 pts)**
 	- [ ] Two multiple-choice questions submitted
  	- [ ] Each question has exactly one clearly correct answer among four choices
  	- [ ] Each question includes a brief explanation
  	- [ ] Questions test a core TypeScript concept (not trivia or opencode-specific code)
 
-- [ ] **GitHub Issue (20 pts)**
+- [ ] **GitHub Issue (25 pts)**
 	- [ ] TypeScript file within the opencode codebase
  	- [ ] Meaningful title with full path + line number
  	- [ ] Issue form fields completed with Qlty evidence
  	- [ ] Successful bot assignment
 
-- [ ] **Code Refactoring & Validation (35 pts)**
+- [ ] **Code Refactoring & Validation (20 pts)**
 	- [ ] Target smell reduced/removed (same scope) with before/after Qlty evidence
  	- [ ] `bun lint` and `bun test` pass locally
  	- [ ] Runtime trigger demonstrated (logs + UI screenshot)
 
-- [ ] **GitHub Pull Request (30 pts)**
+- [ ] **GitHub Pull Request (25 pts)**
  	- [ ] PR uses the P1B Refactoring PR template and all fields are completed
  	- [ ] PR title includes full path
  	- [ ] Commit messages are meaningful
