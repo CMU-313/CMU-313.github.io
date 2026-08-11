@@ -27,7 +27,7 @@ You can use this Slack channel for subsequent project-team related discussions o
 
 You will be working on your team repository for this project. Once you have decided on a team name, go to the link below to set up your team:
 
-[https://classroom.github.com/a/s4Q1jqYY](https://classroom.github.com/a/s4Q1jqYY)
+**TBD** — GitHub Classroom has been shut down; team repository setup instructions will be updated here.
 
  
 !!! warning
@@ -128,7 +128,7 @@ Then, document these functional requirements in the form of user stories that fo
 **You should come up with at least two user stories per student in your group.**
 
 !!! note "Formulating User Stories"
-    Consider what are the different types of users that will be interacting with your system (your stakeholders) and what features they would want to have that the current NodeBB does not provide. You may want to reference features in existing Q&A systems (e.g. Piazza, Diderot) that may be desirable, or conduct interviews with your peers who could be a potential users of this system.
+    Consider what are the different types of users that will be interacting with opencode (your stakeholders — e.g. developers using the CLI, the desktop app, or building on top of opencode's tool/provider integrations) and what features they would want that opencode does not currently provide. You may want to reference features in comparable AI coding tools (e.g. GitHub Copilot, Cursor, Claude Code) that may be desirable, look through opencode's own GitHub issues for feature requests, or conduct interviews with your peers who could be potential users of this system.
 
 As a team, you should then come up with a prioritization ranking for each user story. The prioritization should be based on two factors 
 
@@ -156,10 +156,10 @@ Your selected user stories should have relatively high priority based on your te
 
     The course staff **is happy to discuss this with your team during OH** and we highly recommend you do so if your team is unsure. We will also be providing you with feedback during your first sprint's [checkpoint presentation](/projects/P2/2_firstsprint/#checkpoint-presentation-50-pts).
 
-The feature(s) you plan to implement should not be purely cosmetic or arbitrary. We expect this to be a non-issue as most high priority features to make NodeBB usable in a course environment would require changes that span across the development stack.
+The feature(s) you plan to implement should not be purely cosmetic or arbitrary. We expect this to be a non-issue as most high-impact features for opencode would require changes that span across the development stack (e.g., CLI/desktop UI, agent or tool logic, and provider integrations).
 
 !!! note
-    An example of what would **not** be accepted is a cosmetic feature that only modifies a frontend UI component (i.e. changing the color of the navbar), or just the renaming of a field in the database.
+    An example of what would **not** be accepted is a cosmetic feature that only modifies a frontend UI component (i.e. changing the color of a button), or just the renaming of a field in a config file or type definition.
     
     You may want to look ahead into parts 2B and 2C to check our specific requirements for your implementation.
 

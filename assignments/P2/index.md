@@ -32,15 +32,13 @@ checkpoints:
 
 ## Project Context
 
-CMU has over 14,000 students and hundreds of courses every semester. Many of these courses use a combination of educational platforms to distribute course materials (handouts, lecture notes, etc), manage student information, assess student learning, and provide a means of communication between the students and course staff. Examples of such platforms include Canvas, Piazza, and Gradescope. 
+In Project 1, you joined the opencode development team as an individual contributor, fixing a single maintainability issue in isolation. Now your manager is putting you on a **feature team**: a small group responsible for designing, planning, and shipping a real feature to opencode, the open source AI coding agent you've spent the last few weeks getting to know.
 
-However, the distributed nature of this system makes it difficult for instructors to synchronize information across each of the different platforms, and the lack of standardization across the university forces students to remember a different set of links for each class.
+opencode is used daily by a wide range of stakeholders — developers running it from the terminal, teams using the desktop app, and engineers building on top of it through its tool and provider integrations. Each of these stakeholders has needs the current codebase doesn't fully meet, and it's your team's job to identify a gap worth closing, scope it responsibly, and build it, the way a real feature team would.
 
-Your manager has assigned you to a team and has tasked you with building a new course management system over the course of the semester to be used campus-wide. To help manage the scope of this project, they have specifically requested you to **focus on implementing the Q&A portion of this overarching system**, i.e. the component that enables communication between the faculty and students.
+Unlike Project 1, where you fixed something small and self-contained, this project asks you to work through the earlier stages of the software lifecycle as a team: gathering and prioritizing requirements, translating them into user stories and technical issues, and iteratively building and integrating a feature that plausibly spans multiple parts of the stack (CLI, desktop UI, agent/tool logic, etc.) — all while practicing the collaborative development skills (Git flow, code review, planning, communication) you'll rely on for the rest of the semester and beyond.
 
-Rather than creating a new Q&A system from scratch, **management has decided that you and your team will repurpose and adapt the existing forum system provided by NodeBB**. Beyond being a pretty decent forum platform, NodeBB provides complex features that you expect will be useful like user registration, permission settings, post creation, sorting and filtering capabilities, and more.
-
-Despite its considerable functionality, NodeBB is still missing many of the basic features that you would expect to find in a course-based Q&A system and needs changes to better fit this new purpose. You and your team will be responsible for coming up with an initial development plan and beginning implementation. 
+You and your team will be responsible for coming up with an initial development plan and beginning implementation on your own team repository, forked from the same class-specific opencode repository you used in Project 1.
 
 
 ## Deliverables and Deadlines

@@ -31,7 +31,7 @@ Be sure to **review each other’s code** - both from a quality assurance standp
 
 Every member of your team **must** contribute to the implementation. One way we will evaluate this is that each team member must have at least one commit as a part of the solution. Failure to do so will result in a significant penalty to your grade.
 
-You must commit all of your changes to the main branch of your **team repository** before the homework deadline. Unlike the previous assignment (P1), you should **not** submit your changes to the parent NodeBB repository.
+You must commit all of your changes to the main branch of your **team repository** before the homework deadline. Unlike the previous assignment (P1), you should **not** submit your changes to the parent opencode repository.
 
 Submit a link to your repository and your Github Project board onto Gradescope. For grading, we will take a snapshot of your repository and board right at the deadline and grade based on your progress there.
 
@@ -94,18 +94,15 @@ To receive full credit for the presentation, we expect:
 
 ## Resources & Documentation
 
-### NodeBB Development
+### opencode Development
 
-We highly recommend that, before starting development, you take the time to analyze the codebase with your team using the code archaeology techniques you have learned. One good place to start is determining where the MVC (or frontend/middleware/backend) split is and trying to make a small change in each section.
+We highly recommend that, before starting development, you take the time to analyze the codebase with your team using the code archaeology techniques you have learned. One good place to start is figuring out which package (e.g. `cli`, `desktop`, or the core agent/server logic) owns the feature area you're touching, and trying to make a small change in each.
 
-You will find some resources to help you with development in the `README` of the NodeBB repository. Here are a few specific links to get you started:
+You will find some resources to help you with development in the `README` of the opencode repository. Here are a few specific links to get you started:
 
-* [NodeBB Documentation](http://docs.nodebb.org)
-* **Frontend Development:**
-    * [Benchpress Documentation](https://github.com/benchpressjs/benchpressjs)
-    * [Bootstrap 3 Documentation ](http://getbootstrap.com/)
-* **Server Development:**
-    * [Node.js Documentation](https://nodejs.org/en/docs/)
-* **Database/Backend:**
-    * [Redis Documentation](https://redis.io/docs/)
-    * [Redis CLI](https://redis.io/docs/manual/cli/)
+* [opencode Documentation](https://opencode.ai/docs)
+* [Bun Documentation](https://bun.sh/docs)
+* [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+
+!!! tip
+    Different parts of the codebase may have their own package-level `README` with more specific setup or architecture notes (e.g. the desktop app's UI framework) — check for one in the package you're working in.

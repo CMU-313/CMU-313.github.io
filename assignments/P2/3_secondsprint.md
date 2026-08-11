@@ -35,7 +35,7 @@ As you become more familiar with the codebase, we have higher expectations for t
 
 As with the first sprint, **every member of your team must contribute to the implementation**. One way we will evaluate this is that each team member must have at least three commits as a part of the solution. Failure to do so will result in a significant penalty to your grade.
 
-You must commit all of your changes to the main branch of your team repository before the homework deadline. Unlike Project 1, you should not submit your changes to the parent NodeBB repository.
+You must commit all of your changes to the main branch of your team repository before the homework deadline. Unlike Project 1, you should not submit your changes to the parent opencode repository.
 
 Submit a link to your repository and your Github Project board onto Gradescope. For grading, we will take a snapshot of your repository and board right at the deadline and grade based on your progress there.
 
@@ -148,11 +148,11 @@ To receive full credit for the Individual Reflection, we expect:
 
 ## Resources & Documentation
 
-### NodeBB Development
+### opencode Development
 
 By now, you should be familiar enough with the codebase to finish making the remainder of your changes. The additional focus of this second sprint is on **testing** your code; hence, documentation related to the testing framework will be very helpful.
 
-As with before, you will find some resources to help you with development in the `README` of the NodeBB repository. You will now want to check the testing section for resources on the Mocha test framework:
+As with before, you will find some resources to help you with development in the `README` of the opencode repository. You will now want to check the testing section for resources on Bun's built-in test runner, which you've already used in Project 1:
 
-* [Mocha Documentation](https://mochajs.org/)
-    * Everything from the "Getting Started" section and below is documentation on how the framework works. You can also reference existing tests!
+* [Bun Test Runner Documentation](https://bun.sh/docs/cli/test)
+    * You can also reference existing tests in the packages you're working in for examples of the conventions this codebase follows!
