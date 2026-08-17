@@ -31,27 +31,25 @@ Various readings throughout the semester are available online or through the lib
 As optional supplementary reading consider the (freely available) [Software Engineering at Google, Lessons Learned from Programming Over Time](https://abseil.io/resources/swe-book).
 
 ## Devices in Lecture and Recitation
-
-Research shows that using devices on non-class related activities harms both the device user's learning, and other students' learning as well. Therefore, in general, we do not allow the use of devices during lecture. If you genuinely use your laptop for class-related activities (note-taking, etc), tell us, and we will make an exception. However, we ask that if you do so, you are careful to keep your devices in note-taking mode (and don’t stray to Facebook, homework, etc). In addition, you will be required to sit in the back row of the lecture to minimize the impact your screen has on others. 
-
+Research shows that using devices on non-class related activities harms both the device user's learning, and other students' learning as well. Therefore, in general, we do not allow the use of laptops during lecture.  Ocasionally we will do activities that require a laptop, but we will make it clear when those are going to take place.  We do allow tablets with stylus use if they are flat on the desk and are being used as "digial paper" notetaking.
 Note that recitation activities will often involve devices, so please do bring your laptop!
 
 ## Assessment
-Evaluation will be based on the following distribution: **50% projects, 30% midterms (15% each), 20% participation** (including lecture exercises, pre-lecture reading quizzes, and recitation exercises). 
+Evaluation will be based on the following distribution: **40% projects (35% project work, 5% problem sets), 30% midterms (15% each), 20% participation** (including lecture exercises, pre-lecture reading quizzes, and recitation exercises).
 
-**Detailed Project Points Breakdown (tentative)**
+## Problem Sets and Quizzes
+To master the core concepts of software engineering, deliberate and hands-on practice is essential. This semester, 17-313 introduces take-home problem sets and in-class quizzes designed to work in tandem to reinforce course concepts. The problem sets consist of straightforward applications of the material taught in lectures, providing a low-stakes environment to test your understanding, build conceptual fluency, and spot gaps in your mental models early.
 
-| Project | # Days Given | Points | % of Project grade |  % of total grade |
-| --- | --- | --- | --- | --- |
-| 1 | 9 | 100 | 10% | 5% |
-| 2 | 35 | 275 | 27.5% | 13.75% |
-| 3 | 10  | 100 | 10% | 5% |
-| 4 | 14  | 125 | 12.5% | 6.25% |
-| 5 | 27 | 400 | 40% | 20% |
-|   | **TOTAL**   | 1000 | 100% | 50% | 
+Because problem sets focus on direct conceptual application, Large Language Models (LLMs) will easily yield correct answers to these questions. However, outsourcing this work to AI completely bypasses the cognitive friction required to actually learn the material. We strongly encourage you to work through each problem set independently to gain the full benefit of deliberate practice.
+In-class quizzes will evaluate your individual mastery of the exact same material covered in the problem sets. These brief, closed-notes assessments directly mirror the concepts and problem structures you practice on your homework. Treat the problem sets as your primary training ground for these quizzes. Shortcuts on the take-home work will lead to immediate difficulty during closed-notes assessments, so working through the problems yourself, making mistakes early, and resolving questions in office hours is the best path to success.
 
 ## Regrades
-Regrade requests can be submitted via Gradescope. The regrade period is open for **one week** after grades have been released for a particular assignment.
+Regrade requests can be submitted via Gradescope. The regrade period is open for **one week** after grades have been released for a particular assignment.  After the regrade window is closed, we will not revist grade assignments.
+
+## Final Grades
+Final grades in this course strictly follow standard mathematical rounding (e.g., 89.5% rounds up to 90.0%, while 89.4% does not). If you believe there was a legitimate mathematical or recording error in your overall grade calculation, please reach out and we will gladly fix it. Beyond verified computational errors, final grades are strictly non-negotiable.
+
+To maintain complete fairness across the entire class, we do not entertain post-semester grade appeals, offer individual extra credit, or grant makeup work to alter final outcomes. Requests to bump a grade by a point or two will be denied. Furthermore, late inquiries regarding past assessments—such as disputing early participation scores or requesting regrades long after an assignment's dedicated window has closed—will not be considered. All regrade requests must be submitted during the designated regrade period for each specific assignment during the term. We will not reopen past grades or adjust individual grade boundaries after the semester has ended.
 
 ## Late Work and Absence Policy
 
@@ -70,6 +68,10 @@ This is a 12-unit course, and it is our intention to manage it so that you **spe
 
 ## Writing
 Describing tradeoffs among decisions and communication with less technical stakeholders are key aspects of this class. Most projects have a component that requires discussing issues in written form or reflecting about experiences. To practice writing skills, the [Global Communications Center](https://www.cmu.edu/student-success/programs/communication-support/index.html) (GCC) offers one-on-one help for students, along with workshops. The instructors are also happy to provide additional guidance if requested.
+
+### Policy on use of Generative AI for Coding
+You may use generative AI for any and all coding tasks in the course.  However, as we discuss in class, we belive that there are significant implications for your own learning around your AI usage patterns.  Our goal for you in this class is that you learn to use AI in a way that helps you become a better software engineer. 
+
 
 ### Policy on use of Generative AI for Writing
 
@@ -90,28 +92,9 @@ This has two implications:
 (Thank you to Shriram Krishnamurthi and Evan Peck for sharing their own policies, from which we drew inspiration for this one.)
 
 ## Academic Honesty and Collaboration
-The usual policies apply, especially the [University Policy on Academic Integrity](https://www.cmu.edu/policies/student-and-student-life/academic-integrity.html). Many of the projects will be done in groups. We expect that group members collaborate with one another, but that groups work independently from one another, not exchanging results with other groups. Within groups, we expect that you are honest about your contribution to the group's work. This implies not taking credit for others' work and not covering for team members that have not contributed to the team. Otherwise, our expectations regarding academic honesty and collaboration for group work are the same as for individual work, substituting elevated to the level of "group."
+The usual policies apply, especially the [University Policy on Academic Integrity](https://www.cmu.edu/policies/student-and-student-life/academic-integrity.html). Many of the projects will be done in groups. We expect that group members collaborate with one another, but that groups work independently from one another, not exchanging results with other groups. Within groups, we expect that you are honest about your contribution to the group's work. This implies not taking credit for others' work and not covering for team members that have not contributed to the team. Otherwise, our expectations regarding academic honesty and collaboration for group work are the same as for individual work.
 
-The course includes both individual projects  and individual components of group projects. Although your solutions for individual parts will be based on the content produced for the group component (e.g., written reflections on lessons learned), we treat individual components of group projects as equivalent to individual projects overall, and expect you to complete such components independently of your groupmates.
-
-The rest of this academic honesty and collaboration content is an adaption of the policy used in 17-214:
-
-"You may not copy any part of a solution to a problem that was written by another student, or was developed together with another student, or was copied from another unauthorized source such as the Internet. You may not look at another student's solution, even if you have completed your own, nor may you knowingly give your solution to another student or leave your solution where another student can see it.
-
-Here are some examples of behavior that are inappropriate:
-
-- Copying or retyping, or referring to, files or parts of files (such as source code, written text, or unit tests) from another person or source (whether in final or draft form, regardless of the permissions set on the associated files) while producing your own. This is true even if your version includes minor modifications such as style or variable name changes or minor logic modifications.
-- Getting help that you do not fully understand, and from someone whom you do not acknowledge on your solution.
-- Writing, using, or submitting a program that attempts to alter or erase grading information or otherwise compromise security of course resources.
-- Lying to course staff.
-- Giving copies of work to others, or allowing someone else to copy or refer to your code or written assignment to produce their own, either in draft or final form. This includes making your work publicly available in a way that other students (current or future) can access your solutions, even if others' access is accidental or incidental to your goals. Beware the privacy settings on your open source accounts!
-- Coaching others step-by-step without them understanding your help."
-
-If any of your work contains a statement that was was copied verbatim from an external source, you must put it in quotes and cite the source. If you are paraphrasing an idea you read elsewhere, you must acknowledge the source. If you are using a tool to help format or structure text significantly based on content and facts that you provided, you must acknowledge the use of such tools (see policy on generative AI tools above). Using existing material without proper citation is plagiarism, a form of cheating. If there is any question about whether the material is permitted, you must get permission in advance. We will be using automated systems to detect software plagiarism.
-
-"It is not considered cheating to clarify vague points in the assignments, lectures, lecture notes; to give help or receive help in using the computer systems, compilers, debuggers, profilers, or other facilities; or to discuss ideas at a very high level, without referring to or producing code.
-
-Any violation of this policy is cheating. The minimum penalty for cheating (including plagiarism) will be a zero grade for the whole assignment. Cheating incidents will also be reported through University channels, with possible additional disciplinary action (see the above-linked University Policy on Academic Integrity).
+Inclass participation activites explicitly require that you are in class to participate.  If you are not present, but still submit a participation (e.g., if someone sends you a link), then that is treated as an academic integrity violation. Remote participation activites (such as the teamwork survey) are not covered by this.
 
 If you have any question about how this policy applies in a particular situation, ask the instructors or TAs for clarification."
 
