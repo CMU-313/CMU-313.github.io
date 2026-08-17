@@ -130,6 +130,9 @@ Once you feel comfortable with these topics, write yourself a short multiple-cho
 
 Pick two questions you think would meaningfully test whether a classmate understands a core TypeScript concept. We will be pulling from student-submitted questions to build a quiz that the whole class will take during a future lecture, so questions should be general TypeScript-concept questions — clear and unambiguous, not opencode-specific trivia.
 
+??? info "Good Wrong answers"
+    Good wrong answers: 1) It should look like a real, sensible answer to someone who does not know the full concept, rather than a silly or farfetched joke. 2) It should stem from a plausible student error or partial understanding. 3) It should to match the correct answer and other choices in word count, grammatical structure, and tone so it does not accidentally stand out.
+
 ### GitHub Issue (25 pts)
 
 First, choose a single Qlty-reported “smell” in a TypeScript file and open a GitHub issue in the [class repository](https://github.com/CMU-313/opencode/issues) using the **P1B Starter Task Issue template** to declare which smell you will be working on.
