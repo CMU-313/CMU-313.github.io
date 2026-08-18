@@ -7,6 +7,9 @@ nav_order: 60
 
 This section is meant to contain frequently asked questions about the homework. We will continue to update this throughout the period the assignment is released!
 
+!!! warning "TBD: opencode migration"
+    This FAQ still describes the old NodeBB-based workflow (`./nodebb start/setup`, `config.json`, Redis). It needs to be rewritten for [opencode](https://github.com/cmu-313/opencode)'s Bun-based workflow (`bun install`, `bun dev`, `bun test`, `bun lint`) — left as-is below for reference until that happens.
+
 ## Installation and Running the Instance
 
 ### I'm running into errors about missing files when running `./nodebb start`!

@@ -69,48 +69,38 @@ This guide explains the fundamental tools and concepts you'll encounter in Proje
 
 **Why developers love it**: Free, fast, powerful, and works with almost any programming language.
 
-## Web Development Technologies
+## Project Codebase
 
-### NodeBB
+### opencode
 
-**What it is**: Forum software (like Reddit, Discord, or traditional bulletin boards) built for modern web browsers.
+**What it is**: [opencode](https://github.com/cmu-313/opencode) is an open source AI coding agent, built with a terminal UI for driving development work. It ships with a "build" agent (full access, for making changes) and a "plan" agent (read-only, for exploration and analysis).
 
-**Key features**:
+**Built with**: TypeScript, running on Bun (this course's fork uses Bun as the runtime/package manager).
 
-- **Real-time messaging**: Updates appear instantly without page refreshes
-- **User accounts**: Registration, profiles, permissions
-- **Categories & topics**: Organized discussion threads
-- **Responsive design**: Works on desktop and mobile
-- **Plugin system**: Extensible with third-party add-ons
+**Why we chose it**: Real-world, actively maintained open source project with complex features that demonstrate software engineering challenges.
 
-**Built with**: Node.js, Express.js, WebSockets, and either Redis, MongoDB, or PostgreSQL
+!!! warning "TBD: opencode migration"
+    This section previously described NodeBB (forum software). The framing above reflects opencode's actual README, but hasn't been reviewed against the CMU-313 fork specifically.
 
-**Why we chose it**: Real-world, actively maintained project with complex features that demonstrate software engineering challenges.
+### Bun
 
-### Node.js and npm
+**Bun**: JavaScript/TypeScript runtime and package manager (this project's equivalent of Node.js + npm).
 
-**Node.js**: JavaScript runtime that lets you run JavaScript on servers (not just in web browsers).
+**Common commands** (see [Project 1A](1_checkpoint.md) for the full list):
 
-- **Traditional**: JavaScript only ran in browsers
-- **Node.js**: JavaScript can now power servers, build tools, and desktop applications
-
-**npm (Node Package Manager)**: Like an "app store" for JavaScript code libraries.
-
-**Common commands**:
-
-- `npm install` - Downloads all packages your project needs
-- `npm run [script]` - Runs predefined commands (like `npm run test`)
-- `npm start` - Typically starts your application
-
-**Package.json**: File that lists what packages your project depends on, like a shopping list for npm.
+- `bun install` - Downloads all packages your project needs
+- `bun dev` - Runs the app
+- `bun lint` - Runs the linter
+- `bun test` - Runs the test suite
 
 ### Localhost and Ports
 
 **Localhost**: Your own computer acting as a web server.
 
-- `http://localhost:4567` means "show me the website running on my computer, port 4567"
 - **Port numbers**: Like apartment numbers - different services use different ports
-- **Port 4567**: NodeBB's default port (you can change this if needed)
+
+!!! warning "TBD: opencode migration"
+    This section previously documented NodeBB's default port (4567). opencode's TUI doesn't run as a traditional localhost web server in the same way — needs a rewrite once we confirm what (if anything) this applies to for the CMU-313 fork.
 
 **Why localhost**: Lets you test your application privately before sharing it with the world.
 
@@ -139,7 +129,7 @@ console.log( 'world' )        // inconsistent spacing
 
 **Why important**: Keeps code clean, readable, and consistent across team members.
 
-**Command**: `npm run lint`
+**Command**: `bun lint`
 
 ### Testing
 
@@ -165,7 +155,7 @@ test('addition works correctly', () => {
 - **Prevent regressions**: Ensure new changes don't break existing features
 - **Enable refactoring**: Safely improve code knowing tests will catch mistakes
 
-**Command**: `npm run test`
+**Command**: `bun test`
 
 ### Code Coverage
 
@@ -177,7 +167,7 @@ test('addition works correctly', () => {
 - **Red lines**: Not covered by tests
 - **Percentage**: Overall coverage score
 
-**Good coverage**: Generally 70-90% for most projects (NodeBB should show high coverage).
+**Good coverage**: Generally 70-90% for most projects (opencode should show high coverage).
 
 **Why it matters**: Higher coverage = more confidence that your code works correctly.
 
@@ -288,7 +278,7 @@ test('addition works correctly', () => {
 
 **Solutions**: 
 
-- Check NodeBB is running (`./nodebb start`)
+- Check opencode is running (`bun dev`)
 - Try different port in VS Code Ports tab
 - Restart container if ports are conflicted
 
@@ -296,7 +286,10 @@ test('addition works correctly', () => {
 
 **Problem**: Tests fail on first run
 
-**Solution**: Run `npm install` to fetch dependencies, check `config.json` setup
+**Solution**: Run `bun install` to fetch dependencies
+
+!!! warning "TBD: opencode migration"
+    The old NodeBB-specific advice (checking `config.json`) is removed above pending confirmation of what, if anything, opencode needs configured.
 
 **Problem**: Linter shows many errors
 
@@ -327,7 +320,7 @@ Understanding these tools prepares you for:
 Now that you understand these foundational concepts, you're ready to:
 
 1. **Complete the Build Checkpoint**: Set up your environment with confidence
-2. **Explore NodeBB**: Navigate the codebase with better understanding
+2. **Explore opencode**: Navigate the codebase with better understanding
 3. **Use the tools effectively**: Leverage linting, testing, and debugging
 4. **Collaborate successfully**: Work with teammates using professional practices
 

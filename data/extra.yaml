@@ -13,7 +13,7 @@ schedule:
     name: ''
   recitation:
     handout: recitations/reci1-nodeBB
-    name: Recitation 1 - Understand NodeBB (Asynchronous) + Installation of NodeBB
+    name: Recitation 1 - Understand opencode (Asynchronous) + Installation of opencode
       Office Hours (Optional)
     quiz: https://www.gradescope.com/courses/1213157/assignments/7397380
     slides: ''

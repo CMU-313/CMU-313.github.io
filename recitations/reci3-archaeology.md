@@ -7,6 +7,9 @@ reveal_date: 2026-09-14
 
 # Recitation 3: AI Tool Use
 
+!!! warning "TBD: opencode migration"
+    This recitation's title was already updated to "AI Tool Use," but the activity below still describes a feature-implementation exercise in the NodeBB codebase (including a link to a `NodeBB-*-R3` fork/issue). Needs a full rewrite against [opencode](https://github.com/cmu-313/opencode) before this recitation runs again.
+
 ## Overview
 
 In today’s recitation, we will practice implementing a new feature for the NodeBB codebase.

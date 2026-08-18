@@ -4,7 +4,7 @@ nav_order: 40
 release_date: 2026-01-01
 ---
 
-# Git Commands Reference for NodeBB Project
+# Git Commands Reference for opencode Project
 
 This reference covers the essential Git commands you'll need for this project. Git can seem intimidating at first, but these commands will handle 95% of your daily workflow.
 
@@ -35,13 +35,13 @@ Remember: **When in doubt, check `git status`** - it will tell you what state yo
 ### Initial Repository Setup
 ```bash
 # Clone your forked repository
-git clone https://github.com/<your-username>/NodeBB.git
+git clone https://github.com/<your-username>/opencode.git
 
 # Navigate into the project
-cd NodeBB
+cd opencode
 
 # Set up upstream remote (to sync with class repo)
-git remote add upstream https://github.com/CMU-313/NodeBB.git
+git remote add upstream https://github.com/CMU-313/opencode.git
 
 # Check your remotes
 git remote -v
@@ -193,7 +193,7 @@ git checkout -b fresh-start
     - `git rebase -i` - Interactive rebase (advanced)
     - `git push --force` - Can overwrite others' work
 
-## NodeBB Project Specific
+## opencode Project Specific
 
 ### Useful for Class Workflow
 ```bash

@@ -1,5 +1,8 @@
 # Recitation 3: Software Archaeology - TA Guide
 
+!!! warning "TBD: opencode migration"
+    This TA guide is written against the NodeBB codebase (fork repo, issue links, feature specifics below). Needs a full rewrite against [opencode](https://github.com/cmu-313/opencode) before this recitation runs again.
+
 ## Overview
 This recitation introduces students to software archaeology - the practice of understanding and navigating unfamiliar codebases. Students will work hands-on with the NodeBB codebase to implement a username suggestion feature when registration fails due to duplicate usernames.
 

@@ -5,6 +5,9 @@ nav_order: 20
 
 # Project 4B: Implementation and Evaluation
 
+!!! warning "TBD: opencode migration"
+    This checkpoint requires implementing the translation feature "into your team's NodeBB project" and says P4 is "the last Project to use NodeBB" — both statements are stale now that the course project is [opencode](https://github.com/cmu-313/opencode). Needs a full rewrite before this project runs again.
+
 ## Final LLM Experiment Implementation (30 points)
 
 The final step is to implement this LLM feature into your team's NodeBB project. Your implementation should include the UI code you integrated in Checkpoint #1. You should also integrate the code you developed as a part of the LLM experiment, but you may modify it as needed to successfully integrate the functionality into your code.

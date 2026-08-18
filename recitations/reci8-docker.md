@@ -15,7 +15,7 @@ You should have downloaded Docker. If you haven't follow the installation instru
 
 Fork [this repo](https://github.com/CMU-313/s26-docker-recitation) and clone it.
 
-Open the folder in VSCode. Then you should "Reopen in Container" similar to NodeBB, but this container is setup for Python.
+Open the folder in VSCode. Then you should "Reopen in Container" similar to Project 1, but this container is setup for Python.
 
 Also start the docker engine.
 

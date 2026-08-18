@@ -8,6 +8,9 @@ reveal_date: 2026-08-24
 # Recitation 1: Understand NodeBB (Asynchronous) + Installation of NodeBB (Optional) - DUE Friday January 16th, 11:59pm
 ### NOTE: because this recitation falls before the first day of class, it will be asynchronous.  You will complete online, and not attend recitation in person until January 26th (January 19th is MLK Jr. day). HOWEVER, if you want to start and get some help with [Project 1A: Build Checkpoint](https://cmu-313.github.io/projects/P1/), there will be Office Hours held by TAs during recitation times.
 
+!!! warning "TBD: opencode migration"
+    This recitation's whole activity (forum account creation, introductions, replies) is specific to NodeBB being a forum. The course project is now built on [opencode](https://github.com/cmu-313/opencode), an AI coding CLI agent, so this activity needs to be redesigned rather than renamed — left as-is below until that happens.
+
 ## Overview
 
 In this course, we will be building on a piece of open source software, [NodeBB](https://nodebb.org/). NodeBB is "an innovative forum software designed to meet the needs of modern online communities."

@@ -4,6 +4,9 @@ title: Recitation 7 - Linux VM Setup
 
 # Recitation 7: Linux VM Setup
 
+!!! warning "TBD: opencode migration"
+    This recitation walks through hosting a NodeBB instance on a Linux VM. The course project is now [opencode](https://github.com/cmu-313/opencode), and it's not yet confirmed whether/how it gets deployed the same way — needs review before this recitation runs again.
+
 ## Overview
 
 Although not discussed in the last recitation, another common method for deploying services is on-premises infrastructure, which is widely utilized by large corporations, particularly in the finance industry. Unlike Vercel, which specializes in cloud-based deployment and offers streamlined solutions for web applications, typically on-premises deployment provides organizations with greater control over their hardware, data security, and compliance requirements, albeit at the cost of higher maintenance and upfront investment.

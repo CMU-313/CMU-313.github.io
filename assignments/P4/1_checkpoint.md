@@ -5,6 +5,9 @@ nav_order: 10
 
 # Project 4A: Design, Test, and Implement
 
+!!! warning "TBD: opencode migration"
+    This checkpoint's design-document requirements are written against integrating a translation feature into NodeBB's architecture (specific file paths, API endpoints, etc.). Needs a full rewrite against [opencode](https://github.com/cmu-313/opencode) before this project runs again.
+
 ## Basic LLM Experiment (15 points)
 
 To explore the feasibility of LLMs for this task, your manager would like you to prototype the basic functionality of an LLM to translate text. Due to the company’s financial situation, your team will be deploying an open model of your choice running locally on the company's servers.

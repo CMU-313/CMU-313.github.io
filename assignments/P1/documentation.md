@@ -18,15 +18,9 @@ Documentation for working with Git and GitHub:
 
 We also have a [simple Git-based exercise](github.md) that you are highly recommended to complete before proceeding with this project.
 
-## NodeBB Documentation
+## opencode Documentation
 
-The official NodeBB documentation is available at https://docs.nodebb.org. The CMU-313 snapshot is a fork of v3.8.4.
+The official opencode documentation is available at [https://opencode.ai/docs](https://opencode.ai/docs).
 
-When developing with NodeBB, the following documentation about internal REST API endpoints might be helpful:
-
-- [Read API](https://docs.nodebb.org/api/read/)
-- [Write API](https://docs.nodebb.org/api/write/)
-
-If you want to run HTTP requests to interact with the REST API of a running NodeBB instance (e.g., on `localhost`), then you can use the `curl` tool to issue HTTP requests via the command-line.
-
-- [Tutorial on using curl for testing a REST API](https://www.baeldung.com/curl-rest)
+!!! warning "TBD: opencode migration"
+    The rest of this section (which fork/version we're pinned to, and any internal API references relevant to this project) still needs to be filled in for opencode.

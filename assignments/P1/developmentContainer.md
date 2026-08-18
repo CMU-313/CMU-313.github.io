@@ -5,7 +5,7 @@ nav_order: 70
 
 # Development Container Installation Instructions
 
-You might want to consider running NodeBB in a VSCode Development container. 
+You might want to consider running opencode in a VSCode Development container. 
 
 These are step by step instructions on how to configure a development container on a Mac, more documentation for Windows is available here:
 
@@ -22,21 +22,19 @@ After that,
 Clone the repo from your fork of the class repository:
 
 ```console
-> git clone git@github.com:CMU-313/NodeBB.git
+> git clone git@github.com:CMU-313/opencode.git
 
-Cloning into 'NodeBB'...
+Cloning into 'opencode'...
 
-remote: Enumerating objects: 280535, done.
+remote: Enumerating objects: ..., done.
 
-remote: Counting objects: 100% (1389/1389), done.
+remote: Counting objects: 100% (.../...), done.
 
-remote: Compressing objects: 100% (1237/1237), done.
+remote: Compressing objects: 100% (.../...), done.
 
-remote: Total 280535 (delta 135), reused 1304 (delta 122), pack-reused 279146 (from 1)
+Receiving objects: 100% (.../...), done.
 
-Receiving objects: 100% (280535/280535), 83.62 MiB | 12.54 MiB/s, done.
-
-Resolving deltas: 100% (222305/222305), done.
+Resolving deltas: 100% (.../...), done.
 ```
 
 
@@ -85,4 +83,4 @@ Now you will see an integrated terminal window.  You should be able to check the
 
 
 
-Now you have access to the NodeBB files, but you should follow the Linux instructions, **EVEN IF YOU ARE RUNNING ON A MAC OR WINDOWS COMPUTER.**
+Now you have access to the opencode files, but you should follow the Linux instructions, **EVEN IF YOU ARE RUNNING ON A MAC OR WINDOWS COMPUTER.**
