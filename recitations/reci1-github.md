@@ -2,6 +2,7 @@
 kind: lab
 title: "GitHub Actions and Precommits"
 date: 2026-08-24
+reveal_date: 2026-08-24
 description: "Add fast, repeatable feedback at the two places developers need it most: before a commit and on every pull request."
 card:
   summary: "Add fast, repeatable feedback at the two places developers need it most: before a commit and on every pull request."

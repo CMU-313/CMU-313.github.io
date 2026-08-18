@@ -2,6 +2,7 @@
 kind: recitation
 title: Recitation 11 - Final Project Check-in
 date: 2026-11-16
+reveal_date: 2026-11-16
 ---
 
 # Recitation 11: Final Project Check-in

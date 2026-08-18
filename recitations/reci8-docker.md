@@ -2,6 +2,7 @@
 kind: recitation
 title: Recitation 8 - Docker and Containerization
 date: 2026-10-26
+reveal_date: 2026-10-26
 ---
 
 # Recitation 8: Docker and Containerization 

@@ -2,6 +2,7 @@
 kind: lab
 title: Recitation 2 - Angular.js and MVC
 date: 2026-08-31
+reveal_date: 2026-08-31
 description: "test description"
 card:
   summary: "summary"

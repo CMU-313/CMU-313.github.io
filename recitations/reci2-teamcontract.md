@@ -2,6 +2,7 @@
 kind: recitation
 title: Recitation 2 - Team Contract Workshop
 date: 2026-08-31
+reveal_date: 2026-08-31
 ---
 
 # Recitation 2: Team Contract Workshop
