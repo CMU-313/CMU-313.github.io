@@ -21,14 +21,6 @@ After forking, ensure **GitHub Actions** are enabled for your fork by clicking t
 	As such, be sure you are forking off of **CMU-313/opencode** and direct any questions to [course staff](https://cmu-313.github.io/#staff).
 	Do **not** contact the maintainers of opencode for assistance with your homework questions.
 
-### Development Environment
-
-Your first step should be setting up a **VS Code DevContainer**.  
-
-It gives you a fully configured environment and makes it easier for the course staff to help you.
-You'll know it's working once VS Code finishes connecting: look for a green indicator in the bottom-left corner of the window that starts with **Dev Containers: ... **.
-You can find support online on how to setup and run a DevContainer. You may also ask the TAs for help with configuration.  
-
 
 #### Prerequisites
 
@@ -37,9 +29,9 @@ You can find support online on how to setup and run a DevContainer. You may also
 - [Ubuntu WSL2](https://learn.microsoft.com/en-us/windows/wsl/setup/environment#get-started) (if using Windows)
 
 !!! note "What is Docker?!"
-	You may be overwhelmed by the presence of this (maybe) unfamiliar tool, or maybe just curious about its functionality. Do not fear! We have put together a [Development Tools Guide](https://cmu-313.github.io/projects/P1/development-tools-guide/) where we cover the basics of Docker and other tools used for this project!
+	You may be overwhelmed by the presence of this (maybe) unfamiliar tool, or maybe just curious about its functionality. Do not fear! We have put together a [Development Tools Guide](development-tools-guide.md) where we cover the basics of Docker and other tools used for this project!
 
-#### Installation
+#### Cloning
 
 1.	Clone your fork to your machine.
 	If you are using Windows, you should use `git` from inside **WSL2**.
@@ -56,7 +48,21 @@ You can find support online on how to setup and run a DevContainer. You may also
 
 	    You can use `% cd ~` to access the Linux home directory, then clone the repository there.
 
-2. 	In your development environment, you will install dependencies from the repo root:
+
+
+#### Development Environment
+
+Your first step should be setting up a **VS Code DevContainer**.  
+
+
+It gives you a fully configured environment and makes it easier for the course staff to help you.
+You'll know it's working once VS Code finishes connecting: look for a green indicator in the bottom-left corner of the window that starts with **Dev Containers: ... **.
+You can find support online on how to setup and run a DevContainer. You may also ask the TAs for help with configuration.  
+
+If you have questions, see our resource here: [Development Container Setup](developmentContainer.md) 
+
+#### Installing
+In your development environment, you will install dependencies from the repo root:
 
   ```bash
   bun install

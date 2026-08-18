@@ -2,7 +2,7 @@
 kind: homework
 title: "Project 1: Hello, opencode!"
 due_date: 2026-09-07
-release_date: 2026-08-24
+release_date: 2026-08-15
 tags:
 - "Onboarding"
 - "System verification"

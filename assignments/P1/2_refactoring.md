@@ -44,7 +44,7 @@ In this project and throughout the rest of this course, you will be expected to 
 - [x] Creating GitHub Pull Requests and using related features (linking to issues)
 - [x] Creating GitHub Project Boards
 
-If you are not familiar with any of these steps, you may refer to the [Resources & Documentation](/projects/P1/documentation/#git--github-documentation) section if needed. There is a [simple Git-based exercise](/projects/P1/github) that you are highly recommended to complete before proceeding with this project.
+If you are not familiar with any of these steps, you may refer to the [Resources & Documentation](documentation.md#git--github-documentation) section if needed. There is a [simple Git-based exercise](github.md) that you are highly recommended to complete before proceeding with this project.
 
 ### Qlty
 
@@ -119,7 +119,7 @@ Using the official [TypeScript Handbook](https://www.typescriptlang.org/docs/han
 - Type narrowing (`typeof`, `instanceof`, discriminated unions)
 - Common utility types (`Partial`, `Pick`, `Omit`, `Record`)
 
-Once you feel comfortable with these topics, write yourself a short multiple-choice quiz (at least 5 questions) covering them, to check your own understanding. This quiz is a personal learning tool — you do not need to submit the whole thing.
+Once you feel comfortable with these topics, create a short multiple-choice quiz (at least 10 questions) covering them (we recommend using an AI tool for this step), to check your own understanding. This quiz is a personal learning tool — you do not need to submit the whole thing.
 
 **Deliverable:** Submit **two** multiple-choice questions from your quiz to Gradescope. For each question, include:
 

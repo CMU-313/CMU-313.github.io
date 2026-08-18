@@ -165,7 +165,7 @@ integrations:
     project_dir: website
     assignments_url_path: assignments
     assignments_label: Projects
-    show_unreleased_content: true
+    show_unreleased_content: false
   quarto:
     dir: slides
   github:
