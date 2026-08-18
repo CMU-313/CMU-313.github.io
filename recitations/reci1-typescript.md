@@ -6,7 +6,7 @@ reveal_date: 2026-08-24
 ---
 
 # Recitation 1: Learning Typescript (Asynchronous) - DUE Friday August 28th, 11:59pm
-### NOTE: because this recitation falls before the first day of class, it will be asynchronous.  You will complete online, and not attend recitation in person until August 31st
+### NOTE: This recitation is to be completed asynchronously. You do not have to attend recitation on August 24th.
 
 ## Overview
 
@@ -25,4 +25,4 @@ Using the official [TypeScript Handbook](https://www.typescriptlang.org/docs/han
 
 ## Submission
 
-Complete this recitation’s assignment on [gradescope](https://www.gradescope.com/courses/1356702/assignments/8417862) to receive credit for the activity.
+Complete this recitation’s assignment on [Gradescope](https://www.gradescope.com/courses/1356702/assignments/8417862) to receive credit for the activity.
