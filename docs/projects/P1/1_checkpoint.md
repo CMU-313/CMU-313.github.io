@@ -1,29 +1,34 @@
+---
+title: "1A Build Checkpoint"
+nav_order: 10
+---
+
 # Project 1A: Build Checkpoint
 
 ## Deliverables
 
-**Build Checkpoint** – 5 points – due Sunday, August 31st, 11:59pm
+**Build Checkpoint** – 5 points – due Monday, August 31st, 11:59pm
 
 ## Getting Started
 
 ### Repository Setup
 
-Fork the [class-specific repository](https://github.com/CMU-17313Q/NodeBB) into your personal GitHub account.
+Fork the [class-specific repository](https://github.com/CMU-313/opencode) into your personal GitHub account.
 After forking, ensure **GitHub Actions** are enabled for your fork by clicking the green button under the **Actions** tab.
 
 !!! warning
 	Even though this project is based off of an active open source project, we have made significant changes to ensure its suitability for our class.
-	As such, be sure you are forking off of **CMU-313/NodeBB** and direct any questions to course staff.
-	Do **not** contact the maintainers of NodeBB for assistance with your homework questions.
+	As such, be sure you are forking off of **CMU-313/opencode** and direct any questions to [course staff](https://cmu-313.github.io/#staff).
+	Do **not** contact the maintainers of opencode for assistance with your homework questions.
 
 ### Development Environment
 
-We provide an **official VS Code DevContainer** for this project.
-It gives you a fully configured environment and makes it easier for the course staff to help you.
+Your first step should be setting up a **VS Code DevContainer**.  
 
-!!! note "Support Policy"
-	We will only guarantee support for the DevContainer setup.
-	You may choose to install and run the project natively, but you will be responsible for resolving environment issues.
+It gives you a fully configured environment and makes it easier for the course staff to help you.
+You'll know it's working once VS Code finishes connecting: look for a green indicator in the bottom-left corner of the window that starts with **Dev Containers: ... **.
+You can find support online on how to setup and run a DevContainer. You may also ask the TAs for help with configuration.  
+
 
 #### Prerequisites
 
@@ -31,100 +36,71 @@ It gives you a fully configured environment and makes it easier for the course s
 - [Visual Studio Code](https://code.visualstudio.com/) with the [Dev Containers extension](https://code.visualstudio.com/docs/devcontainers/tutorial)
 - [Ubuntu WSL2](https://learn.microsoft.com/en-us/windows/wsl/setup/environment#get-started) (if using Windows)
 
+!!! note "What is Docker?!"
+	You may be overwhelmed by the presence of this (maybe) unfamiliar tool, or maybe just curious about its functionality. Do not fear! We have put together a [Development Tools Guide](https://cmu-313.github.io/projects/P1/development-tools-guide/) where we cover the basics of Docker and other tools used for this project!
 
 #### Installation
 
 1.	Clone your fork to your machine.
 	If you are using Windows, you should use `git` from inside **WSL2**.
-   	```bash
-	git clone https://github.com/<your-username>/NodeBB.git
-	cd NodeBB
-   	```
+	```bash
+	git clone https://github.com/<your-username>/opencode.git
+	cd opencode
+	```
 
 	!!! warning "Windows WSL2 Warning"
-	    For Windows WSL2 users, you should [**store your project files on the same operating system as the tools you plan to use**](https://learn.microsoft.com/en-us/windows/wsl/filesystems#file-storage-and-performance-across-file-systems). When it comes to cloning the NodeBB repository, it means that you should clone it in:
+	    For Windows WSL2 users, you should [**store your project files on the same operating system as the tools you plan to use**](https://learn.microsoft.com/en-us/windows/wsl/filesystems#file-storage-and-performance-across-file-systems). When it comes to cloning the opencode repository, it means that you should clone it in:
 
 	    - the Linux file system root directory: `\\wsl$\Ubuntu\home\<user name>\`
 	    - **NOT** the Windows file system root directory: `/mnt/c/Users/<user name>/$` or `C:\Users\<user name>\`
 
 	    You can use `% cd ~` to access the Linux home directory, then clone the repository there.
 
-2.	Open the repository in VS Code, then choose **“Reopen in Container”** when prompted (bottom-right).
-	Alternatively, open the Command Palette (`Ctrl/Cmd+Shift+P`) and run **“Dev Containers: Reopen in Container”**.
+2. 	In your development environment, you will install dependencies from the repo root:
 
-	![VSCode Rebuild Container](/assets/images/hw/vscode_rebuild_container.png)
-
-3. 	The container will take a few minutes to build the first time.
-	Confirm that installation was successful by checking the `node` and `npm` versions from the integrated terminal:
-
-	![VSCode Check Versions](/assets/images/hw/vscode_check_versions.png)
-
-4.	Setup your NodeBB installation via the integrated terminal using the command below.
-	This will use the environment variables from the DevContainer (specified in `.devcontainer/devcontainer.json`).
-	As part of the process, an admin account (`admin`) will be created with password `password123!`.
-
-	```bash
-	./nodebb setup
-	```
-
-5. Finally, you should install all of the NodeBB development dependencies via:
-
-	```bash
-	npm install
-	```
+  ```bash
+  bun install
+  ```
 
 #### Launch
 
-Start the server from the integrated terminal in VSCode:
+After you have installed the dependencies, you can run it using the command:
+  ```bash
+  bun dev
+  ```
 
-```bash
-nodebb start
-```
+When you run it properly, you will see something that looks like the following: 
 
-You should be able to navigate to [http://localhost:4567](http://localhost:4567) and see the main forum page, as shown below.
+![screenshot of opencode](opencode_startup.png)
 
-![NodeBB Main Page](/assets/images/hw/nodebb_main.png)
-
-NodeBB listens on port **4567** in the container and is forwarded to **localhost:4567** on your machine (configured by the DevContainer).
-If you need to change the host port (e.g., to avoid a conflict), use the **Ports** tab at the bottom of VS Code and modify the **Forwarded Address**:
-
-![VSCode Port Forwarding](/assets/images/hw/vscode_ports.png)
-
-!!! warning
-	In this class, we expect students to first try debugging errors on their own; this includes following stack traces, searching up error strings and unfamiliar outputs, etc.
-	If you get stuck, or if installing and running NodeBB is taking more than a few hours, **stop** and ask for help on Slack!
-
-Take some time to click through the pages and explore the different features that NodeBB has to offer.
-
-To **shut down** the server:
-
-```bash
-nodebb stop
-```
-
-You can also use the `--help` option to learn more about other `nodebb` commands.
-
-```bash
-nodebb --help
-```
 
 #### Lint and Test
 
 When working on an existing codebase, especially in a collaborative setting, we want to ensure that none of our changes introduce unexpected bugs or issues for other developers.
 To fulfill these goals, we often use different tools to help us evaluate our code.
-Luckily, NodeBB is already packaged with a number of neat tools!
 
-You can run the linter and test suite using the following two commands:
+You can run the linter using the following command:
 
 ```shell
-npm run lint
-npm run test
+bun lint
 ```
 
-The first time you run the above commands, you may have to run `npm install` to fetch dependencies and also edit your `config.json` file to add test dependencies.
-See the [FAQ](/projects/P1/faq/) page for more.
+Opencode is configured to not run the entire test suite all at once.  You should run the tests package by package. 
+You can run the tests by running 
 
-After the test suite finishes running, NodeBB will also generate a **code coverage report**.
+```shell
+bun test
+```
+from inside a package dir.  It will run different tests depending on which package you run it from.
+
+
+```shell
+bun test --coverage --coverage-reporter=lcov --coverage-dir=./coverage
+```
+
+note: You might might want to use genhtml to make the lcov file more readable.
+
+After the test suite finishes running, opencode will also generate a **code coverage report**.
 This report gives you measurements with regards to what percentage of the codebase is covered by the test suite.
 Open the `index.html` file in the `coverage` folder to see the full report.
 
@@ -145,14 +121,14 @@ Open the `index.html` file in the `coverage` folder to see the full report.
 
 Upon completing the above steps, take screenshots of
 
-- the home page of NodeBB, and
-- the coverage report generated by the coverage tool opened in your browser.
-**Be sure the URL is clearly visible in both screenshots** (i.e. `localhost:4567` and the file path to your coverage file), so we can confirm that you have everything running locally.
+- your vscode which shows opencode running in a development container 
+- the coverage report generated by the coverage tool
 
-Submit the two screenshots to [Gradescope]().
+
+Submit the two screenshots to [Gradescope](https://www.gradescope.com/courses/1096661).
 
 ## Grading
 
 To receive full credit for this checkpoint, we expect:
 
-- [ ] A Gradescope submission of two screenshots showing a local running build of NodeBB and the coverage report within a browser
+- [ ] A Gradescope submission of two screenshots showing a local running build of opencode running in a development container and the coverage report within a browser
