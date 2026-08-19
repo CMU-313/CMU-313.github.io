@@ -1,0 +1,26 @@
+lectures:
+- date: Sun Aug 20
+  link: assets/pdfs/01-introduction.pdf
+  name: Intro
+- date: Tue Aug 22
+  link: assets/pdfs/02-measurement.pdf
+  name: Metrics and Measurements
+  reading:
+    link: https://www.gradescope.com/courses/554799/assignments/3108660
+    name: Team Formation Survey
+
+projects:
+- date: Sun Aug 20
+  deadline: Due Wed Aug 30 @ 10:00pm
+  end_date: 2024-09-02 00:00:00
+  homework: null
+  link: /projects/P1
+  name: Project 1
+  numDays: 9
+
+recitation:
+  date: Thu Aug 24
+  handout: recitations/reci1-github/
+  name: Recitation 1 - GitHub and TS
+  quiz: ''
+  slides: https://docs.google.com/presentation/d/1Su_j8zAbKId4RKYRR9hAp2HFPBZkZyzm/edit?usp=sharing&ouid=115732152274655493451&rtpof=true&sd=true

@@ -1,0 +1,29 @@
+- name: Nour Ali
+  role: Teaching Assistant
+  email: ntali@andrew
+  website:
+  photo: ntali.jpg
+
+- name: Eduardo Feo-Flushing
+  role: Instructor
+  email: efeoflus@andrew
+  website: https://efeoflushing.com/
+  photo: efeoflus.jpg
+
+- name: Maimoonah Al-Mashhadani
+  role: Course Assistant
+  email: maimoonm@andrew
+  website:
+  photo: maimoonm.jpg
+
+- name: Zhijie Xu
+  role: Course Assistant
+  email: zhijiex@andrew
+  website:
+  photo: zhijiex.jpg
+
+- name: Cindy Chen
+  role: Course Assistant (CMU-Pittsburgh)
+  email: yanxinc@andrew
+  website:
+  photo: blank.jpg

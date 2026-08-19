@@ -1,0 +1,501 @@
+Student ID,Gender,Age,Major,GPA,Extra Curricular,Num Programming Languages,Num Past Internships,Good Candidate
+0,F,21,Statistics and Machine Learning,2.83,Sorority,4,1,0
+1,M,20,Information Systems,2.89,Fraternity,5,3,0
+2,F,20,Math,2.66,Teaching Assistant,3,1,0
+3,M,20,Information Systems,2.48,Fraternity,5,0,0
+4,F,21,Statistics and Machine Learning,3.3,Sorority,2,1,0
+5,F,21,Computer Science,3.54,Volleyball,4,4,1
+6,F,21,Business,2.92,Society of Women Engineers,1,2,0
+7,F,22,Information Systems,3.48,Teaching Assistant,3,4,1
+8,F,18,Electrical and Computer Engineering,3.77,Sorority,4,3,1
+9,M,21,Statistics and Machine Learning,2.45,American Football,3,4,0
+10,F,21,Electrical and Computer Engineering,3.44,Sorority,1,1,0
+11,M,22,Computer Science,2.39,Fraternity,3,1,0
+12,F,20,Math,1.33,Student Government,2,2,0
+13,F,22,Electrical and Computer Engineering,2.71,Volleyball,2,3,0
+14,F,22,Statistics and Machine Learning,3.31,Sorority,5,3,1
+15,M,20,Math,3.57,Fraternity,5,4,1
+16,M,20,Business,2.8,Men's Basketball,1,3,0
+17,M,19,Statistics and Machine Learning,2.17,American Football,3,2,0
+18,M,19,Computer Science,2.29,Men's Golf,2,4,0
+19,M,20,Information Systems,3.24,Student Government,3,0,1
+20,F,21,Business,4.0,Student Theatre,2,2,1
+21,F,20,Business,2.66,Women in CS,1,4,0
+22,M,22,Information Systems,2.37,Teaching Assistant,5,2,1
+23,F,22,Information Systems,2.73,Society of Women Engineers,2,2,0
+24,M,20,Statistics and Machine Learning,3.24,American Football,3,4,1
+25,M,23,Statistics and Machine Learning,3.25,Men's Golf,3,0,1
+26,M,20,Business,1.33,Men's Basketball,1,1,0
+27,F,20,Math,1.35,Women in CS,2,0,0
+28,M,22,Statistics and Machine Learning,3.03,Men's Golf,4,4,1
+29,F,23,Computer Science,1.49,Society of Women Engineers,3,0,0
+30,M,23,Math,4.0,Student Theatre,5,1,1
+31,F,22,Computer Science,4.0,Buggy,1,4,1
+32,M,23,Information Systems,4.0,Men's Basketball,2,1,1
+33,M,19,Computer Science,3.12,Student Theatre,3,1,0
+34,M,22,Electrical and Computer Engineering,2.0,American Football,2,1,0
+35,F,18,Business,3.52,Sorority,3,4,1
+36,M,20,Math,3.23,Buggy,3,2,1
+37,F,19,Statistics and Machine Learning,2.66,Student Government,4,3,0
+38,M,21,Math,2.28,American Football,5,0,0
+39,M,20,Statistics and Machine Learning,4.0,American Football,5,1,1
+40,M,21,Business,4.0,Men's Golf,1,0,0
+41,F,20,Statistics and Machine Learning,4.0,Society of Women Engineers,3,0,1
+42,M,24,Computer Science,2.07,Teaching Assistant,5,4,1
+43,M,21,Business,1.82,Buggy,4,2,0
+44,F,22,Information Systems,3.2,Sorority,1,4,1
+45,M,20,Math,2.95,American Football,1,4,0
+46,M,21,Statistics and Machine Learning,2.92,Men's Basketball,4,2,0
+47,F,23,Math,0.43,Student Government,2,3,0
+48,M,20,Computer Science,2.81,Men's Basketball,2,0,0
+49,F,22,Math,2.74,Student Government,2,1,0
+50,M,21,Computer Science,2.6,Men's Basketball,4,1,0
+51,F,23,Information Systems,2.47,Buggy,1,2,0
+52,M,23,Electrical and Computer Engineering,0.84,Men's Golf,1,2,0
+53,M,23,Math,2.84,Fraternity,2,1,0
+54,F,23,Business,3.31,Student Government,5,2,1
+55,M,22,Computer Science,2.81,Student Government,3,0,0
+56,F,18,Electrical and Computer Engineering,4.0,Student Government,5,1,1
+57,M,18,Electrical and Computer Engineering,3.91,Student Government,3,4,1
+58,M,20,Information Systems,3.38,Men's Golf,4,0,1
+59,M,22,Electrical and Computer Engineering,2.21,Men's Golf,2,2,0
+60,M,21,Computer Science,3.83,American Football,2,0,1
+61,M,24,Business,3.43,Student Government,5,2,1
+62,M,19,Information Systems,2.36,Student Theatre,3,1,0
+63,F,19,Business,1.39,Volleyball,4,2,0
+64,F,23,Business,2.46,Student Theatre,3,3,0
+65,F,22,Information Systems,2.0,Teaching Assistant,5,1,0
+66,F,20,Statistics and Machine Learning,1.21,Volleyball,2,3,0
+67,M,19,Math,2.33,American Football,2,2,0
+68,F,20,Math,4.0,Women in CS,2,1,1
+69,M,23,Information Systems,1.62,Men's Golf,3,2,0
+70,F,21,Electrical and Computer Engineering,2.98,Volleyball,3,4,0
+71,F,21,Computer Science,3.2,Society of Women Engineers,3,1,1
+72,F,21,Information Systems,3.53,Buggy,1,0,0
+73,F,20,Math,2.81,Teaching Assistant,4,0,0
+74,F,23,Electrical and Computer Engineering,4.0,Student Government,1,2,1
+75,F,21,Computer Science,3.85,Student Government,1,4,1
+76,M,22,Statistics and Machine Learning,3.24,Men's Basketball,4,0,1
+77,M,20,Statistics and Machine Learning,3.91,American Football,4,2,1
+78,M,20,Statistics and Machine Learning,4.0,Men's Basketball,3,3,1
+79,F,20,Business,4.0,Teaching Assistant,4,1,1
+80,M,22,Business,1.42,Teaching Assistant,5,2,0
+81,F,21,Information Systems,2.84,Women in CS,1,1,0
+82,F,21,Math,1.96,Sorority,2,3,0
+83,F,21,Electrical and Computer Engineering,2.7,Society of Women Engineers,1,2,0
+84,M,20,Business,3.47,Fraternity,5,3,1
+85,F,19,Information Systems,3.43,Women in CS,3,3,1
+86,F,22,Information Systems,3.04,Women in CS,5,3,1
+87,F,22,Business,3.88,Women in CS,2,2,1
+88,M,22,Business,4.0,Student Government,4,3,1
+89,F,22,Business,3.9,Volleyball,2,2,1
+90,M,20,Information Systems,3.56,Teaching Assistant,5,2,1
+91,M,21,Business,2.97,Teaching Assistant,4,4,0
+92,M,20,Statistics and Machine Learning,2.27,Fraternity,4,1,0
+93,F,21,Statistics and Machine Learning,2.76,Society of Women Engineers,5,0,0
+94,M,21,Business,1.82,Teaching Assistant,3,3,0
+95,F,22,Business,3.05,Women in CS,2,3,1
+96,M,22,Computer Science,4.0,Teaching Assistant,3,1,1
+97,F,21,Information Systems,3.55,Society of Women Engineers,2,3,1
+98,M,23,Computer Science,3.69,Fraternity,2,2,1
+99,M,21,Business,3.21,Buggy,5,4,1
+100,F,20,Computer Science,3.95,Student Theatre,3,3,1
+101,M,21,Electrical and Computer Engineering,2.55,Teaching Assistant,3,1,0
+102,M,21,Electrical and Computer Engineering,3.68,Student Theatre,4,3,1
+103,F,21,Math,4.0,Teaching Assistant,2,1,1
+104,F,20,Information Systems,3.77,Volleyball,4,1,1
+105,F,21,Computer Science,2.23,Student Theatre,2,1,0
+106,M,21,Math,3.86,Men's Basketball,3,4,1
+107,M,22,Statistics and Machine Learning,0.65,Fraternity,4,4,0
+108,M,22,Math,2.1,Men's Basketball,3,2,0
+109,M,21,Business,3.66,Fraternity,4,0,1
+110,F,23,Computer Science,1.49,Society of Women Engineers,4,1,1
+111,M,19,Computer Science,2.91,American Football,4,4,0
+112,F,21,Computer Science,1.31,Volleyball,4,4,0
+113,M,21,Computer Science,3.68,Fraternity,3,1,1
+114,M,22,Information Systems,3.03,Teaching Assistant,2,3,1
+115,F,23,Electrical and Computer Engineering,1.76,Women in CS,1,1,0
+116,F,21,Math,3.68,Society of Women Engineers,5,0,1
+117,F,21,Electrical and Computer Engineering,2.96,Sorority,1,2,0
+118,M,21,Statistics and Machine Learning,3.38,Buggy,4,2,1
+119,M,20,Electrical and Computer Engineering,3.01,Teaching Assistant,4,3,1
+120,M,18,Math,2.97,Buggy,1,3,0
+121,F,19,Statistics and Machine Learning,2.28,Student Government,3,0,0
+122,F,23,Information Systems,1.91,Women in CS,1,3,0
+123,M,22,Information Systems,3.39,Fraternity,2,4,1
+124,M,18,Information Systems,4.0,Fraternity,1,0,1
+125,F,21,Computer Science,3.53,Society of Women Engineers,1,2,0
+126,M,18,Computer Science,1.38,American Football,5,2,0
+127,M,22,Computer Science,1.62,Men's Basketball,4,2,0
+128,F,22,Electrical and Computer Engineering,2.83,Student Theatre,2,1,0
+129,M,21,Electrical and Computer Engineering,2.76,Buggy,2,2,0
+130,M,21,Business,3.56,Buggy,3,3,1
+131,F,20,Statistics and Machine Learning,1.73,Women in CS,3,4,0
+132,F,24,Statistics and Machine Learning,2.18,Student Government,2,0,1
+133,F,20,Information Systems,3.4,Women in CS,5,3,1
+134,M,19,Computer Science,2.8,Men's Basketball,1,1,0
+135,F,21,Computer Science,1.59,Student Theatre,5,3,0
+136,F,19,Computer Science,2.49,Student Theatre,2,2,0
+137,F,21,Electrical and Computer Engineering,2.37,Society of Women Engineers,5,2,0
+138,F,21,Business,3.51,Volleyball,3,4,1
+139,F,21,Electrical and Computer Engineering,2.78,Society of Women Engineers,5,0,0
+140,F,23,Math,3.9,Women in CS,2,4,1
+141,M,21,Statistics and Machine Learning,2.81,American Football,4,3,0
+142,M,19,Electrical and Computer Engineering,3.13,Men's Basketball,2,2,0
+143,M,23,Electrical and Computer Engineering,2.21,Men's Basketball,2,2,0
+144,F,22,Information Systems,4.0,Society of Women Engineers,4,3,1
+145,F,22,Information Systems,1.73,Volleyball,1,0,0
+146,M,21,Information Systems,2.99,Men's Golf,5,2,0
+147,M,21,Electrical and Computer Engineering,3.4,Buggy,2,4,1
+148,M,20,Information Systems,3.59,Men's Basketball,2,1,1
+149,M,22,Computer Science,2.11,Teaching Assistant,2,4,0
+150,F,21,Statistics and Machine Learning,2.79,Society of Women Engineers,4,3,0
+151,F,22,Business,1.42,Volleyball,4,1,0
+152,M,21,Information Systems,3.57,Teaching Assistant,4,0,1
+153,F,21,Information Systems,4.0,Student Theatre,4,4,1
+154,F,19,Business,3.12,Women in CS,4,4,1
+155,M,22,Business,2.7,Men's Basketball,5,1,0
+156,F,21,Business,2.73,Teaching Assistant,2,0,0
+157,M,23,Computer Science,1.93,Buggy,1,3,0
+158,F,19,Math,3.34,Student Theatre,4,3,1
+159,M,20,Statistics and Machine Learning,2.19,American Football,3,1,0
+160,M,22,Information Systems,2.02,American Football,1,4,0
+161,F,23,Business,3.56,Society of Women Engineers,2,4,1
+162,M,19,Computer Science,4.0,Student Theatre,4,0,1
+163,F,20,Business,4.0,Sorority,1,2,1
+164,M,22,Information Systems,3.63,Buggy,2,2,1
+165,F,20,Information Systems,2.94,Society of Women Engineers,3,1,0
+166,M,21,Math,4.0,Student Theatre,3,2,1
+167,F,20,Computer Science,3.1,Society of Women Engineers,4,4,1
+168,M,21,Electrical and Computer Engineering,2.87,Men's Golf,5,4,0
+169,M,20,Business,1.81,Men's Golf,2,1,0
+170,F,23,Statistics and Machine Learning,3.79,Student Government,2,0,1
+171,F,21,Statistics and Machine Learning,2.93,Sorority,1,4,0
+172,F,22,Math,2.54,Student Theatre,4,4,0
+173,F,25,Math,2.53,Sorority,5,2,1
+174,F,20,Electrical and Computer Engineering,2.39,Sorority,5,4,0
+175,M,22,Business,2.26,American Football,2,3,0
+176,F,18,Electrical and Computer Engineering,2.81,Women in CS,3,2,0
+177,F,23,Information Systems,4.0,Buggy,5,0,1
+178,F,21,Math,2.94,Volleyball,3,2,0
+179,M,20,Business,3.08,Men's Basketball,4,1,1
+180,F,19,Electrical and Computer Engineering,2.73,Society of Women Engineers,5,2,0
+181,M,19,Information Systems,3.63,Buggy,4,1,1
+182,F,19,Math,2.93,Volleyball,1,0,0
+183,M,20,Math,3.59,Student Theatre,2,2,1
+184,M,20,Math,3.38,Student Theatre,1,3,0
+185,F,18,Computer Science,1.69,Volleyball,2,3,0
+186,M,19,Business,2.51,Buggy,1,1,0
+187,M,22,Electrical and Computer Engineering,3.07,Fraternity,5,4,1
+188,M,22,Statistics and Machine Learning,4.0,Student Theatre,1,2,1
+189,F,20,Statistics and Machine Learning,1.82,Teaching Assistant,2,0,0
+190,F,22,Electrical and Computer Engineering,2.68,Student Theatre,3,3,0
+191,F,24,Math,3.1,Teaching Assistant,4,4,1
+192,F,19,Business,2.22,Student Theatre,4,4,0
+193,M,24,Math,2.2,Men's Golf,2,4,1
+194,M,20,Computer Science,4.0,Student Government,5,4,1
+195,F,21,Information Systems,3.43,Student Theatre,3,2,1
+196,F,22,Statistics and Machine Learning,1.75,Volleyball,1,3,0
+197,M,20,Math,2.44,Teaching Assistant,5,2,0
+198,F,21,Computer Science,2.21,Society of Women Engineers,2,4,0
+199,M,20,Math,3.13,Men's Basketball,5,1,1
+200,F,23,Computer Science,4.0,Women in CS,4,0,1
+201,F,20,Electrical and Computer Engineering,3.07,Sorority,2,3,1
+202,M,20,Electrical and Computer Engineering,4.0,Teaching Assistant,5,1,1
+203,F,21,Math,1.76,Women in CS,4,0,0
+204,F,19,Statistics and Machine Learning,4.0,Volleyball,2,1,1
+205,M,21,Statistics and Machine Learning,2.08,Men's Golf,2,4,0
+206,M,19,Statistics and Machine Learning,3.51,Buggy,4,0,1
+207,F,21,Electrical and Computer Engineering,4.0,Women in CS,3,3,1
+208,F,21,Electrical and Computer Engineering,3.45,Teaching Assistant,3,1,1
+209,F,19,Math,3.37,Sorority,4,4,1
+210,M,20,Computer Science,1.65,American Football,5,1,0
+211,F,19,Information Systems,3.51,Student Theatre,5,0,1
+212,F,23,Statistics and Machine Learning,2.0,Society of Women Engineers,1,4,0
+213,M,23,Math,3.72,Student Theatre,1,1,1
+214,F,20,Computer Science,4.0,Teaching Assistant,1,4,1
+215,M,23,Electrical and Computer Engineering,3.23,Men's Golf,5,0,1
+216,F,19,Statistics and Machine Learning,2.38,Teaching Assistant,1,3,0
+217,M,21,Math,3.14,Men's Golf,4,1,1
+218,F,23,Electrical and Computer Engineering,1.49,Women in CS,2,0,0
+219,M,21,Statistics and Machine Learning,3.28,Fraternity,1,3,0
+220,M,24,Information Systems,4.0,Men's Golf,3,1,1
+221,F,19,Math,3.02,Sorority,4,2,1
+222,M,19,Math,4.0,American Football,3,0,1
+223,F,19,Electrical and Computer Engineering,3.53,Student Theatre,4,0,1
+224,F,22,Computer Science,3.45,Society of Women Engineers,4,1,1
+225,M,21,Statistics and Machine Learning,4.0,American Football,2,1,0
+226,M,21,Business,4.0,Teaching Assistant,4,2,1
+227,F,22,Math,4.0,Volleyball,4,3,1
+228,M,24,Business,2.33,Student Theatre,2,2,0
+229,F,21,Math,4.0,Society of Women Engineers,5,3,1
+230,M,18,Computer Science,2.85,Men's Golf,4,3,0
+231,M,20,Electrical and Computer Engineering,2.58,American Football,5,2,0
+232,M,23,Computer Science,3.69,Men's Basketball,2,0,1
+233,M,20,Business,2.08,Student Theatre,3,3,0
+234,F,23,Information Systems,2.58,Volleyball,5,2,1
+235,M,21,Information Systems,2.49,Fraternity,1,1,0
+236,F,22,Math,2.33,Student Government,3,4,0
+237,M,21,Computer Science,2.23,Buggy,1,0,0
+238,F,25,Electrical and Computer Engineering,2.54,Women in CS,3,0,1
+239,F,19,Math,4.0,Teaching Assistant,2,1,1
+240,F,23,Math,2.13,Women in CS,2,0,0
+241,M,22,Math,2.39,Fraternity,5,1,0
+242,M,23,Math,3.08,Buggy,2,1,1
+243,M,20,Computer Science,3.08,Men's Basketball,2,2,0
+244,F,20,Math,3.01,Women in CS,5,4,1
+245,F,21,Information Systems,2.98,Teaching Assistant,2,2,0
+246,M,21,Business,1.86,American Football,3,1,0
+247,M,23,Business,3.44,Men's Basketball,5,2,1
+248,M,19,Information Systems,1.49,Men's Basketball,3,1,0
+249,M,22,Business,3.17,Fraternity,1,0,0
+250,F,21,Computer Science,2.76,Student Government,4,1,0
+251,F,21,Computer Science,2.35,Teaching Assistant,4,3,0
+252,M,23,Electrical and Computer Engineering,1.77,Buggy,5,4,1
+253,F,21,Math,3.04,Volleyball,1,2,0
+254,F,18,Business,3.91,Student Government,5,3,1
+255,F,23,Information Systems,2.17,Student Government,2,3,0
+256,F,20,Information Systems,3.1,Women in CS,3,3,1
+257,F,19,Electrical and Computer Engineering,2.16,Teaching Assistant,4,2,0
+258,M,21,Business,3.1,Men's Golf,3,4,1
+259,M,22,Statistics and Machine Learning,4.0,American Football,4,2,1
+260,M,19,Computer Science,1.34,Men's Golf,1,1,0
+261,F,22,Business,2.92,Student Theatre,5,2,0
+262,M,20,Business,2.64,Men's Basketball,5,4,0
+263,F,22,Information Systems,3.66,Buggy,4,0,1
+264,F,22,Electrical and Computer Engineering,3.73,Student Theatre,4,3,1
+265,M,22,Computer Science,2.95,Men's Golf,1,0,0
+266,F,22,Math,1.87,Student Theatre,1,2,0
+267,F,25,Computer Science,3.46,Sorority,1,0,1
+268,F,20,Business,1.81,Sorority,3,1,0
+269,M,20,Statistics and Machine Learning,4.0,Student Government,1,4,0
+270,F,24,Business,2.81,Volleyball,3,1,1
+271,M,21,Statistics and Machine Learning,3.08,Men's Golf,3,4,1
+272,F,23,Statistics and Machine Learning,4.0,Sorority,3,0,1
+273,F,20,Math,1.07,Society of Women Engineers,2,3,0
+274,M,22,Computer Science,3.03,Student Government,1,2,1
+275,M,22,Math,2.76,Student Theatre,5,3,0
+276,M,22,Statistics and Machine Learning,4.0,Buggy,3,1,1
+277,F,18,Business,2.75,Teaching Assistant,2,3,0
+278,F,21,Electrical and Computer Engineering,3.66,Women in CS,5,2,1
+279,F,19,Electrical and Computer Engineering,2.21,Buggy,2,3,0
+280,F,22,Business,2.21,Women in CS,3,3,0
+281,M,22,Math,2.54,Fraternity,5,4,0
+282,F,21,Electrical and Computer Engineering,3.2,Women in CS,1,0,0
+283,F,20,Electrical and Computer Engineering,3.22,Women in CS,4,2,1
+284,M,23,Business,3.55,Men's Basketball,1,1,1
+285,F,20,Business,2.69,Sorority,4,0,0
+286,F,21,Math,3.91,Sorority,4,1,1
+287,F,22,Computer Science,3.91,Teaching Assistant,2,2,1
+288,F,23,Business,4.0,Buggy,2,4,1
+289,F,24,Computer Science,2.99,Women in CS,5,2,1
+290,F,24,Math,0.92,Society of Women Engineers,2,2,1
+291,M,21,Math,4.0,Student Theatre,1,0,0
+292,F,18,Computer Science,3.47,Sorority,4,4,1
+293,M,20,Business,3.06,American Football,5,1,1
+294,M,18,Computer Science,3.49,Student Theatre,4,0,1
+295,F,22,Electrical and Computer Engineering,3.44,Volleyball,3,3,1
+296,M,19,Business,4.0,American Football,4,2,1
+297,M,22,Computer Science,2.9,Fraternity,3,1,0
+298,M,19,Statistics and Machine Learning,4.0,Teaching Assistant,3,4,1
+299,M,21,Computer Science,2.9,Men's Basketball,3,3,0
+300,M,20,Information Systems,3.07,Men's Basketball,3,1,1
+301,M,20,Computer Science,2.29,Student Government,1,2,0
+302,F,24,Math,4.0,Women in CS,2,1,1
+303,F,20,Electrical and Computer Engineering,1.93,Student Government,1,3,0
+304,F,19,Electrical and Computer Engineering,3.22,Teaching Assistant,5,0,1
+305,M,20,Math,3.95,Buggy,4,3,1
+306,M,20,Business,3.0,Men's Basketball,2,4,0
+307,F,20,Math,4.0,Women in CS,1,1,1
+308,M,22,Math,3.37,Student Government,1,4,1
+309,F,20,Computer Science,2.87,Student Theatre,5,3,0
+310,F,20,Computer Science,2.85,Sorority,5,2,0
+311,M,21,Electrical and Computer Engineering,4.0,Buggy,3,4,1
+312,F,21,Business,0.0,Teaching Assistant,2,0,0
+313,F,20,Electrical and Computer Engineering,4.0,Volleyball,3,3,1
+314,M,19,Math,2.62,Men's Golf,5,3,0
+315,F,21,Business,2.62,Society of Women Engineers,4,3,0
+316,M,21,Computer Science,4.0,American Football,1,4,0
+317,M,21,Math,3.28,Student Theatre,2,0,1
+318,F,22,Information Systems,3.07,Student Theatre,5,0,1
+319,M,22,Electrical and Computer Engineering,2.08,Teaching Assistant,3,2,0
+320,M,23,Information Systems,2.55,Student Government,3,2,0
+321,F,21,Statistics and Machine Learning,3.52,Women in CS,2,2,1
+322,M,21,Business,3.57,American Football,4,0,1
+323,F,21,Math,2.39,Society of Women Engineers,2,2,0
+324,F,21,Math,4.0,Society of Women Engineers,1,1,0
+325,F,18,Computer Science,3.44,Society of Women Engineers,1,2,0
+326,F,21,Statistics and Machine Learning,2.66,Women in CS,2,1,0
+327,M,20,Statistics and Machine Learning,2.08,American Football,4,2,0
+328,M,21,Statistics and Machine Learning,3.4,Student Government,2,3,1
+329,M,22,Math,3.4,Men's Basketball,5,4,1
+330,F,23,Statistics and Machine Learning,4.0,Buggy,3,1,1
+331,M,19,Information Systems,3.49,Fraternity,3,2,1
+332,F,21,Business,4.0,Teaching Assistant,1,3,0
+333,F,20,Information Systems,2.79,Society of Women Engineers,1,4,0
+334,F,20,Computer Science,3.08,Sorority,2,3,0
+335,M,19,Math,2.29,American Football,4,1,0
+336,M,23,Math,2.54,Student Government,1,3,0
+337,F,23,Computer Science,2.41,Volleyball,1,3,0
+338,F,22,Computer Science,1.77,Student Theatre,2,0,0
+339,M,23,Computer Science,4.0,Men's Golf,2,1,1
+340,F,21,Information Systems,2.39,Buggy,5,1,0
+341,M,23,Business,2.14,Fraternity,3,3,1
+342,F,21,Information Systems,2.62,Society of Women Engineers,4,4,0
+343,M,22,Computer Science,4.0,Teaching Assistant,5,4,1
+344,M,18,Electrical and Computer Engineering,1.69,Student Theatre,4,2,0
+345,M,18,Computer Science,3.76,Men's Golf,4,3,1
+346,F,19,Computer Science,2.91,Society of Women Engineers,5,3,0
+347,M,21,Business,4.0,American Football,2,2,1
+348,F,20,Statistics and Machine Learning,4.0,Sorority,3,4,1
+349,F,18,Electrical and Computer Engineering,3.41,Volleyball,2,2,0
+350,M,18,Computer Science,2.97,Student Theatre,1,0,0
+351,F,19,Electrical and Computer Engineering,3.75,Society of Women Engineers,1,2,1
+352,M,21,Statistics and Machine Learning,1.96,Buggy,3,0,0
+353,M,20,Electrical and Computer Engineering,2.67,Men's Golf,4,2,0
+354,F,21,Math,3.0,Sorority,2,2,0
+355,M,23,Information Systems,3.92,Fraternity,4,1,1
+356,F,21,Statistics and Machine Learning,3.9,Student Government,3,2,1
+357,M,21,Electrical and Computer Engineering,1.86,Teaching Assistant,5,4,0
+358,F,20,Information Systems,2.49,Women in CS,4,4,0
+359,F,19,Computer Science,3.16,Sorority,4,2,1
+360,F,18,Statistics and Machine Learning,3.3,Buggy,1,1,1
+361,M,20,Computer Science,2.36,Buggy,5,2,0
+362,F,20,Electrical and Computer Engineering,3.15,Student Government,2,4,1
+363,F,20,Math,2.68,Sorority,5,0,0
+364,F,21,Information Systems,3.73,Student Government,5,3,1
+365,F,24,Information Systems,1.55,Women in CS,2,3,1
+366,F,19,Math,2.71,Women in CS,3,4,0
+367,F,21,Electrical and Computer Engineering,3.52,Buggy,3,2,1
+368,F,22,Electrical and Computer Engineering,1.37,Sorority,4,4,0
+369,F,22,Statistics and Machine Learning,1.43,Buggy,1,0,0
+370,M,20,Computer Science,3.78,Men's Golf,4,0,1
+371,M,22,Electrical and Computer Engineering,4.0,Fraternity,1,1,1
+372,F,22,Electrical and Computer Engineering,2.69,Volleyball,4,2,0
+373,M,22,Information Systems,3.22,Men's Golf,5,0,1
+374,F,21,Math,1.59,Buggy,3,1,0
+375,M,21,Business,1.7,Men's Golf,2,1,0
+376,M,21,Electrical and Computer Engineering,4.0,American Football,5,4,1
+377,M,19,Statistics and Machine Learning,2.57,Men's Basketball,5,3,0
+378,F,20,Business,3.48,Women in CS,1,4,0
+379,M,20,Math,2.81,American Football,3,1,0
+380,M,22,Math,2.15,Fraternity,5,4,1
+381,M,23,Computer Science,3.69,American Football,5,0,1
+382,M,22,Information Systems,1.96,American Football,3,4,0
+383,M,21,Math,1.93,Teaching Assistant,3,3,0
+384,M,22,Business,1.99,Men's Golf,1,4,0
+385,F,21,Information Systems,2.98,Student Government,3,4,0
+386,M,22,Business,4.0,Teaching Assistant,5,3,1
+387,M,20,Statistics and Machine Learning,2.37,Fraternity,5,4,0
+388,M,19,Electrical and Computer Engineering,2.58,Teaching Assistant,2,2,0
+389,F,22,Math,2.52,Volleyball,1,4,0
+390,F,22,Math,4.0,Society of Women Engineers,2,2,1
+391,F,19,Statistics and Machine Learning,2.31,Sorority,2,1,0
+392,F,18,Computer Science,1.79,Sorority,3,4,0
+393,M,21,Math,1.75,Teaching Assistant,5,3,0
+394,F,23,Business,3.56,Student Government,3,2,1
+395,M,20,Electrical and Computer Engineering,2.52,Men's Golf,4,0,0
+396,F,21,Computer Science,4.0,Society of Women Engineers,5,1,1
+397,F,18,Statistics and Machine Learning,2.93,Sorority,5,2,0
+398,F,21,Computer Science,0.96,Sorority,1,1,0
+399,M,19,Math,3.72,American Football,4,0,1
+400,M,21,Electrical and Computer Engineering,2.41,Men's Basketball,4,1,0
+401,F,20,Information Systems,3.13,Sorority,1,4,0
+402,M,21,Computer Science,3.02,Teaching Assistant,1,4,0
+403,F,23,Information Systems,1.41,Buggy,3,0,0
+404,F,21,Math,4.0,Student Theatre,3,3,1
+405,F,21,Information Systems,4.0,Student Government,2,2,1
+406,F,21,Computer Science,4.0,Buggy,5,0,1
+407,M,20,Business,4.0,Men's Basketball,3,4,1
+408,F,21,Statistics and Machine Learning,2.39,Student Theatre,2,0,0
+409,M,21,Electrical and Computer Engineering,3.81,Student Theatre,4,1,1
+410,F,22,Electrical and Computer Engineering,2.31,Women in CS,3,0,0
+411,M,21,Information Systems,1.43,Fraternity,2,1,0
+412,F,21,Electrical and Computer Engineering,3.87,Sorority,5,0,1
+413,F,20,Electrical and Computer Engineering,2.59,Volleyball,2,1,0
+414,M,20,Business,3.34,Men's Golf,2,2,1
+415,F,18,Math,0.32,Sorority,1,2,0
+416,M,22,Computer Science,2.18,American Football,1,0,0
+417,F,21,Statistics and Machine Learning,3.55,Women in CS,3,0,1
+418,F,21,Statistics and Machine Learning,3.33,Women in CS,5,3,1
+419,M,20,Business,3.31,Student Theatre,2,4,1
+420,F,19,Math,4.0,Sorority,4,0,1
+421,F,20,Math,3.56,Women in CS,2,0,1
+422,F,23,Information Systems,3.58,Volleyball,2,4,1
+423,F,22,Information Systems,1.92,Sorority,3,0,0
+424,F,20,Math,1.39,Volleyball,3,3,0
+425,M,22,Information Systems,1.5,Men's Basketball,5,2,0
+426,F,21,Math,2.8,Student Theatre,1,2,0
+427,M,22,Computer Science,2.66,American Football,5,3,0
+428,F,22,Electrical and Computer Engineering,1.92,Student Government,3,4,0
+429,F,22,Business,2.57,Sorority,4,1,0
+430,M,19,Information Systems,1.45,American Football,3,0,0
+431,F,22,Math,3.54,Sorority,4,3,1
+432,F,21,Statistics and Machine Learning,1.86,Buggy,4,4,0
+433,F,25,Information Systems,2.76,Society of Women Engineers,5,3,1
+434,M,21,Electrical and Computer Engineering,3.05,Men's Basketball,2,0,1
+435,F,20,Statistics and Machine Learning,2.94,Volleyball,2,1,0
+436,F,23,Statistics and Machine Learning,2.04,Society of Women Engineers,5,0,1
+437,F,20,Information Systems,2.08,Society of Women Engineers,2,4,0
+438,M,21,Business,3.69,Men's Golf,4,4,1
+439,M,20,Information Systems,2.5,Fraternity,3,2,0
+440,F,21,Math,2.08,Volleyball,3,4,0
+441,F,19,Business,1.09,Society of Women Engineers,1,4,0
+442,F,20,Electrical and Computer Engineering,3.25,Sorority,1,0,0
+443,M,22,Math,2.78,American Football,3,0,0
+444,F,22,Computer Science,3.08,Student Theatre,2,2,1
+445,F,21,Information Systems,2.4,Student Theatre,5,0,0
+446,M,22,Statistics and Machine Learning,3.78,Men's Golf,2,3,1
+447,F,21,Statistics and Machine Learning,2.68,Student Theatre,3,4,0
+448,M,22,Math,4.0,Buggy,4,3,1
+449,M,22,Computer Science,1.01,Teaching Assistant,2,4,0
+450,M,21,Computer Science,3.53,Student Theatre,2,1,0
+451,M,21,Business,0.8,Student Government,4,3,0
+452,F,19,Statistics and Machine Learning,3.11,Teaching Assistant,3,4,0
+453,F,23,Math,4.0,Teaching Assistant,2,3,1
+454,M,22,Business,1.38,American Football,2,1,0
+455,M,19,Statistics and Machine Learning,3.97,Men's Basketball,3,4,1
+456,M,22,Electrical and Computer Engineering,3.42,American Football,4,4,1
+457,F,22,Computer Science,3.12,Buggy,2,4,1
+458,F,20,Math,3.99,Society of Women Engineers,4,4,1
+459,F,21,Electrical and Computer Engineering,2.68,Sorority,3,1,0
+460,F,20,Electrical and Computer Engineering,1.24,Sorority,4,3,0
+461,F,21,Math,1.9,Volleyball,2,2,0
+462,M,21,Computer Science,4.0,Men's Golf,1,3,1
+463,F,20,Computer Science,1.82,Volleyball,4,1,0
+464,F,22,Math,1.44,Society of Women Engineers,4,0,0
+465,M,24,Statistics and Machine Learning,3.81,Student Theatre,5,1,1
+466,M,20,Statistics and Machine Learning,3.56,Men's Golf,5,0,1
+467,F,23,Computer Science,2.86,Women in CS,5,0,1
+468,M,20,Business,3.32,Teaching Assistant,3,3,1
+469,M,22,Information Systems,1.41,Buggy,4,2,0
+470,M,24,Electrical and Computer Engineering,4.0,Fraternity,3,4,1
+471,F,20,Electrical and Computer Engineering,3.74,Sorority,1,4,1
+472,M,20,Business,3.37,Fraternity,5,1,1
+473,M,20,Math,1.95,American Football,3,3,0
+474,F,22,Statistics and Machine Learning,2.81,Volleyball,2,2,0
+475,F,19,Math,3.89,Society of Women Engineers,3,0,1
+476,F,21,Business,3.42,Student Government,4,0,1
+477,F,18,Statistics and Machine Learning,3.02,Student Government,4,4,1
+478,M,21,Information Systems,3.42,Buggy,4,0,1
+479,F,20,Electrical and Computer Engineering,4.0,Society of Women Engineers,1,0,1
+480,M,20,Information Systems,2.42,Student Government,5,2,0
+481,F,20,Electrical and Computer Engineering,2.28,Student Theatre,1,3,0
+482,F,21,Computer Science,2.39,Sorority,4,4,0
+483,M,21,Information Systems,0.12,Men's Basketball,3,3,0
+484,F,21,Business,3.04,Sorority,4,2,1
+485,F,20,Electrical and Computer Engineering,3.05,Women in CS,5,3,1
+486,M,24,Electrical and Computer Engineering,3.3,Fraternity,5,4,1
+487,M,20,Business,2.82,American Football,3,2,0
+488,M,22,Electrical and Computer Engineering,3.16,Student Theatre,2,0,1
+489,M,20,Statistics and Machine Learning,3.01,Men's Golf,3,3,0
+490,M,21,Information Systems,4.0,Fraternity,4,0,1
+491,M,22,Math,3.06,Men's Golf,3,4,1
+492,F,21,Electrical and Computer Engineering,3.71,Teaching Assistant,3,4,1
+493,M,20,Information Systems,3.38,Men's Golf,5,3,1
+494,F,19,Business,2.09,Student Government,5,3,0
+495,M,20,Computer Science,2.89,Student Government,5,0,0
+496,F,24,Computer Science,2.53,Buggy,3,2,1
+497,F,21,Computer Science,2.0,Sorority,3,2,0
+498,M,22,Electrical and Computer Engineering,3.24,Men's Basketball,4,1,1
+499,F,21,Computer Science,2.11,Sorority,3,0,0

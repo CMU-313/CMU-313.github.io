@@ -1,0 +1,29 @@
+- name: Nour Ali
+  role: Teaching Assistant
+  email: ntali@andrew
+  website:
+  photo: ntali.jpg
+
+- name: Eduardo Feo-Flushing
+  role: Instructor
+  email: efeoflus@andrew
+  website: https://efeoflushing.com/
+  photo: efeoflus.jpg
+
+- name: Maryam Rahmatullah
+  role: Course Assistant
+  email: mrahmatu@andrew
+  website:
+  photo: blank.jpg
+
+- name: Steve Ndayambaje
+  role: Course Assistant
+  email: sndayamb@andrew
+  website:
+  photo: blank.jpg
+
+- name: Boushra Bendou
+  role: Course Assistant
+  email: bbendou@andrew
+  website:
+  photo: blank.jpg

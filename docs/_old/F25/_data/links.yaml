@@ -1,0 +1,7 @@
+- name: Slack
+  link: https://slack.com/
+  icon: assets/images/logos/slack.png
+
+- name: Gradescope
+  link: https://www.gradescope.com/courses/1096661
+  icon: assets/images/logos/gradescope.png

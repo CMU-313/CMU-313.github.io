@@ -1,0 +1,33 @@
+lectures:
+- date: Sun Aug 25
+  link: assets/pdfs/01-Intro.pdf
+  name: Intro
+- date: Tue Aug 27
+  link: assets/pdfs/02-Software-Archaeology.pdf
+  name: Software Archeology and Anthropology
+  reading:
+    link: readings/R1
+    name: Software Archaeology
+
+projects:
+- date: Sun Aug 25
+  deadline: Due Sun Sep 1 @ 11:59pm
+  end_date: 2025-09-01 00:00:00
+  homework: null
+  link: /projects/P1
+  name: 'Project 1A: Build Checkpoint'
+  numDays: 5
+
+recitation:
+  date: Thu Aug 29
+  handout: /recitations/reci1-github
+  name: 'Recitation 1: Intro to Git'
+  quiz: https://www.gradescope.com/courses/837681/assignments/4799156/
+  slides: https://docs.google.com/presentation/d/1DKH1Kla081qC9wt-nDFJ9rpG6JOuoy2A/edit?usp=sharing&ouid=115732152274655493451&rtpof=true&sd=true
+
+teamsurvey:
+  closedate: Sun Oct 6
+  deadline: Sun Oct 6 @ 11:59pm
+  link: ''
+  name: Team Survey 4 (Sep 29 -  Oct 5)
+  opendate: Thu Oct 3

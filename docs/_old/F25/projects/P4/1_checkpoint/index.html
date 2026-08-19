@@ -1,0 +1,1359 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>Project 4A: Design, Test, and Implement - CMU 17-313: Foundations of Software Engineering (Qatar)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#project-4a-design-test-and-implement" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="CMU 17-313: Foundations of Software Engineering (Qatar)" class="md-header__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering (Qatar)" data-md-component="logo">
+      
+  <img src="../../../assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CMU 17-313: Foundations of Software Engineering (Qatar)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Project 4A: Design, Test, and Implement
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../overview/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Course Overview
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../syllabus/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Syllabus
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../P1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Projects
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../recitations/rec1-nodebb/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Recitations
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../hall-of-fame/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Hall of Fame
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://www.gradescope.com/courses/837681" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Gradescope
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="CMU 17-313: Foundations of Software Engineering (Qatar)" class="md-nav__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering (Qatar)" data-md-component="logo">
+      
+  <img src="../../../assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    CMU 17-313: Foundations of Software Engineering (Qatar)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Course Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../syllabus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Syllabus
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Projects
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Projects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../P1/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Project 1: Hello, NodeBB!
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Project 1: Hello, NodeBB!
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/1_checkpoint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1A Build Checkpoint
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/2_refactoring/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1B Starter Task
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/development-tools-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Development Tools Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/git-commands-reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Git Commands Reference
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/documentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resources and Documentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../P2/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Project 2: Collaborative Development
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Project 2: Collaborative Development
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P2/1_teamprocess/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2A Team Process & Planning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P2/2_firstsprint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2B First Sprint
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P2/3_secondsprint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2C Second Sprint
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../P3/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Project 3: Continuous Integration + Deployment
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            Project 3: Continuous Integration + Deployment
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P3/deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Deployment Instructions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Project 4: Architecting an LLM Integration
+    
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            Project 4: Architecting an LLM Integration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Recitations
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Recitations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/rec1-nodebb/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Recitation 1 - Understand NodeBB
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../hall-of-fame/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hall of Fame
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.gradescope.com/courses/837681" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gradescope
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-llm-experiment-15-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic LLM Experiment (15 points)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#architectural-design-document-40-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Architectural Design Document (40 points)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#llm-experiment-integration-checkpoint-10-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      LLM Experiment Integration Checkpoint (10 points)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grading" class="md-nav__link">
+    <span class="md-ellipsis">
+      Grading
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resource-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resource &amp; Documentation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resource &amp; Documentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#design-documents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design Documents
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="project-4a-design-test-and-implement">Project 4A: Design, Test, and Implement<a class="headerlink" href="#project-4a-design-test-and-implement" title="Permanent link">&para;</a></h1>
+<h2 id="basic-llm-experiment-15-points">Basic LLM Experiment (15 points)<a class="headerlink" href="#basic-llm-experiment-15-points" title="Permanent link">&para;</a></h2>
+<p>To explore the feasibility of LLMs for this task, your manager would like you to prototype the basic functionality of an LLM to translate text. Due to the company’s financial situation, your team will be deploying an open model of your choice running locally on the company's servers.</p>
+<p>Once you're all set up, follow the instructions in this <a href="https://docs.google.com/document/d/1tuTWL4ZT7Z-p8rayoU3FcHyJsQTFPPcOnJuLujL-hIw/edit?usp=sharing">Google Doc</a> to create a copy of the starter python notebook. Only one team member needs to do this, and the team should collaborate using the notebook, once your copy has been created.</p>
+<p>Now, you should be ready to experiment with Ollama! Follow the instructions in the notebook through the end of the Basic LLM Experiment.</p>
+<p>Given the unpredictable nature of LLM responses, it is crucial to test whether your application can handle a range of outcomes. Your notebook should also include tests for your code. We have provided some starter code for this.</p>
+<p>In this task, you are required to employ mocking techniques to test your code resilience against unexpected results from API calls to the LLM. Mocking is a method used in testing to replace real system components with mock objects that simulate the behavior of those components. This approach allows developers to emulate various scenarios, including errors or atypical responses from external services, without having to make actual API calls. Here you will be using mocking to mimic different unexpected outcomes to check if your code can handle such anomalies gracefully.</p>
+<p>For full credit, your submission should have at least four mock tests that deal with different unexpected model behaviors. At least one of these tests should involve the model returning unexpected text. All tests should relate to the <code>query_llm_robust</code> function.</p>
+<p>You should submit a .ipynb copy of your notebook (with outputs) to Gradescope.</p>
+<h2 id="architectural-design-document-40-points">Architectural Design Document (40 points)<a class="headerlink" href="#architectural-design-document-40-points" title="Permanent link">&para;</a></h2>
+<p>Now that you've demonstrated the LLM translation feature working in isolation, your manager has requested a concrete design document outlining (a) how you plan to integrate the new LLM-powered translation feature into NodeBB's existing codebase, and (b) the best model and prompt to use. One of your manager's requirements is that this feature should work on a deployed site.</p>
+<p>If the team decides to go ahead with the feature, this design document will be followed in order to fully integrate this feature into NodeBB.</p>
+<p>After that, we want to see information about how you plan to integrate this translation feature. We would like to see details here <strong>specific to implementing this within the NodeBB architecture</strong>. Draw on your previous experiences working in this project and the development tools you've learned how to use!</p>
+<p>Once you have finished evaluating the codebase, create a design document highlighting your findings and decisions. Below is a sample outline for your design document; we expect this to be <strong>around 1,000-1,500 words</strong> (no more than 2,500 as a hard cap; your boss is a busy person, and appreciates conciseness). We have also provided a Google Docs template <a href="https://docs.google.com/document/d/1g-OwUWqeOI9DM560H8YdfonLlbY2YAOv33SaEFAXHuA/copy?usp=sharing">here</a> for you to copy and fill in with the necessary information. Also important to note: we would like for <em>everybody</em> on the team to contribute to this document; there will be a section where we will ask for each teammate to fill out what they did on this document. Please additionally write this on a Google Docs; we will ask you to share the link via Gradescope. Make sure you specify that <strong>everybody at CMU with the link has edit access</strong>; if we have reason to suspect that anybody has not done what they claimed, we will check the edit history of the document.</p>
+<p>This is what you should include in your design document:</p>
+<ol>
+<li><strong>Authors:</strong>
+  At the top of the document, each teammate should specify what part of the design document they contributed to.</li>
+<li><strong>Problem:</strong>
+  You should describe what the problem you are trying to solve with this feature.  NOTE: this problem definition should be used to help define what the Definition of Success is.</li>
+<li><strong>Feature Overview:</strong>
+  Describe concisely how the translation feature works and how it will be used by the relevant stakeholders, with screenshots if necessary.</li>
+<li><strong>Implementation Plan:</strong>
+  Explain how you plan to integrate the LLM into the NodeBB architecture as specifically as you can. Include a diagram and explanation of your solution.<BR>
+  We'll give you an example of a different project to show you the level of detail we're looking for: integrating this with the CMU directory to populate users with their corresponding photo based on their Andrew ID (let's assume this is their username in NodeBB). To integrate this as a microservice NodeBB interacts with, this could be done by rewriting the API request when a user is created (a POST request to <code>/user</code>; details about this request are in <code>public/openapi/write/users.yaml</code>). We reach out to the CMU directory microservice and query the username that is passed in; if we are able to find it, we update the user metadata (<code>data</code>) in the <code>create</code> function within <code>src/user/create.js</code>. This could also be done by listening for the event that is fired when creating an event (<code>action:user.create</code>), and adding these additional attributes after that point.<BR>
+  <code>Ctrl-Shift-F</code> is your friend here; if you're struggling, look back at <a href="https://cmu-17313q.github.io/assets/pdfs/02-software-archeology-and-anthropology.pdf">lecture 2</a> and <a href="https://docs.google.com/presentation/d/1U7k2tFHvEzDtZGeVC6SWi0eeuzOzFBoMLom5rk_uZQw">recitation 4</a> to get some tips on how to work through NodeBB's codebase.</li>
+<li><strong>Quality Requirements:</strong>
+    Additionally provide a concise, prioritized list of the overall quality requirements you considered in arguing for the integration of the feature into the system and a short justification for each. Your team should decide on <strong>at least three</strong> requirements to focus on.<BR>
+    Rank your requirements in decreasing order of importance. This allows readers to quickly understand what you were designing for.</li>
+<li><strong>LLM Integration Plan:</strong>
+    This section of the document discusses the specifics of the LLM you will implement.<ol>
+<li><strong>Potential Solutions</strong>
+Your team should consider <strong><number of people in your team></strong> different models to use in the new feature. Test the pros and cons of each of these models using the notebook, on top of cross-referencing with resources online (such as benchmarks) to find what would be the best possible model for your use case. You may also test out different prompts as well. <strong>Each teammate</strong> should run the notebook on a different model and record their results in this design doc. You can report the raw evaluation scores or make some plots if you wish.<BR>
+For each model, provide a brief description of the model's design (how many parameters, its features, licensing, etc.), your results when testing the model, and a discussion of the design's tradeoffs.</li>
+<li><strong>Selected Model + Justification</strong>
+Describe which model and prompt your team decided to proceed with using in your LLM. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design (if any).</li>
+</ol>
+</li>
+<li><strong>Definition of Success:</strong>
+    Describe in detail how you will know when you are done (aka what is your definition of success).  Describe what it will look like when you are done, and how you will know when it is correct enough to be done. Describe specifically how you will evaluate your solution.  You might need to use different techniques to evaluate different parts of the solution.</li>
+</ol>
+<div class="admonition warning on generative ai">
+<p class="admonition-title">Warning</p>
+<p>In the past, we have had problems with students using generative AI tools to generate low quality text. For this assignment, we will be evaluating each contribution to the document individually.  You are not responsible for fixing other teammates' text. However, you should clearly indicate at the top of the document who was responsible for each part of the docoument. Low quality AI slop will result in signficant penalties for the student who contributed that section.</p>
+</div>
+<p>By the checkpoint deadline, your team will submit your design document to Gradescope as a Google Docs link.</p>
+<h2 id="llm-experiment-integration-checkpoint-10-points">LLM Experiment Integration Checkpoint (10 points)<a class="headerlink" href="#llm-experiment-integration-checkpoint-10-points" title="Permanent link">&para;</a></h2>
+<p>For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track.
+For this, you will work in a seperate repository. Similar to P2, you will create a repository using the following github classroom link:</p>
+<p><a href="https://classroom.github.com/a/hh-3__S2">https://classroom.github.com/a/hh-3__S2</a></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>After you join a team on GitHub, you cannot change teams! Make sure that <strong>only one</strong> of you creates the team, and make sure that the remaining teammates join the right team.</p>
+</div>
+<p>Once you enter your team name, Github will automatically create a repository for your team.</p>
+<p>Your server-side code must include unit and mock tests. To accomplish this, you should use the tests you wrote for the <strong>Basic LLM Experiment</strong> to your repo, and ensure they are running as part of your CI pipeline.</p>
+<h2 id="grading">Grading<a class="headerlink" href="#grading" title="Permanent link">&para;</a></h2>
+<p>To receive full credit for the first checkpoint, we expect:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> An Google Doc design document that highlights your findings and decisions.  This should follow the outline, and be around <strong>around 1,000-1,500 words</strong>.  It should not include low-quality AI slop in the text.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A notebook completing all of the setup and basic LLM experiment steps outlined by the previous section</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A functional integration of the UI code into your NodeBB application.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A preliminary implementation of the translation feature using the starter code, including CI with unit and mock tests.</li>
+</ul>
+<h2 id="resource-documentation">Resource &amp; Documentation<a class="headerlink" href="#resource-documentation" title="Permanent link">&para;</a></h2>
+<h3 id="design-documents">Design Documents<a class="headerlink" href="#design-documents" title="Permanent link">&para;</a></h3>
+<p>The design document task is easy to underestimate both in terms of time needed and in terms of difficulty designing meaningful and useful descriptions. While it is easy to create a superficial solution, a good solution will likely require significant thinking, discussion, and iteration.</p>
+<p>Feel free to seek feedback from the course staff on your solution before submission!</p>
+<p>There are a few additional reference materials available in the CMU library that your team may want to consult. We do not recommend reading through all of it; instead, skip around to sections that are relevant to you.</p>
+<ul>
+<li><a href="https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30264">Software Architecture in Practice, Third Edition</a>: You may wish to review appropriate sections within Part Two to help find appropriate tactics and techniques you can use in your design to promote particular quality attributes.</li>
+<li><a href="https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30386">Documenting Software Architectures: Views and Beyond, Second Edition</a>: Useful book to generally reference for creating architecture documentation.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.top", "navigation.tracking", "navigation.indexes", "announce.dismiss"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
