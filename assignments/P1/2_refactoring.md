@@ -184,25 +184,17 @@ You should start with the following steps:
 
 #### Change Validation (15 pts)
 
-You will need to validate that the code works.  To do this, you need to offer compelling evidence that the change has not broken anything.  You may do this with tests.  Your changes should have tests that validate that the change did not break anything. This could include tests that were existing before your change, or you may need to write new tests.  In your PR, you should explicitly say which tests cover your changes, and a short explanation as to why those tests are sufficient to convince a reviewer that the changes did not break anything.  NOTE: The tests that you submit should execute the code changes you made. 
+You will need to validate that the code works.  To do this, you need to offer compelling evidence that the change has not broken anything.  You do this with tests.  Your changes should have tests that validate that the change did not break anything. This could include tests that were existing before your change, or you may need to write new tests.  In your PR, you should explicitly say which tests cover your changes, and a short explanation as to why those tests are sufficient to convince a reviewer that the changes did not break anything.  NOTE: The tests that you submit should execute the code changes you made. 
 
-
-
-You can build a coverage report using the following command: 
+You can build a coverage report using the following command (in the specific package directory where you made the changes): 
 
 ```bash
 bun test --coverage --coverage-dir=./coverage
 ```
 
-We also want you to manually test your changes in a running opencode instance.
-The purpose is to trigger the refactored code's execution from the user interface (UI) with the following steps:
+You should start by running the tests locally, and confirm that they are passing, and that they cover the changes you made. You might need to add tests, or update existing tests. Once you are convinced that your tests are covering a correct change, you should then push your changes to your branch, and make sure they pass on CI.  
 
-- Within your implementation, add a print statement (e.g., `console.log(YOUR_NAME)`) immediately before, after, or in the middle of your refactored code.
-- Restart opencode (`bun dev`).
-- If you refactored a front-end file, watch logging via DevTools (`Ctrl+Shift+I` to open and then navigate to the 'Console' tab). If you refactored a back-end file, watch logging in the terminal where `bun dev` is running.
-- Perform any necessary UI operations that execute the refactored code (e.g., clicking buttons for an action)
-- Take a screenshot of these logs and include it in your pull request (see next part of project) description, along with a brief explanation of the steps you took to trigger the code.
-- Remove the temporary print statement before committing your final code.
+NOTE: because there are too many tests for all the students to run on every change, you should add the tests that cover your changes to the CI on your branch, to make sure they run.  
 
 ### GitHub Pull Request (25 pts)
 

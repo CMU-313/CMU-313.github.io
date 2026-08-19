@@ -151,7 +151,7 @@ This format shows how the project uses message templates with placeholder variab
 The `%1` placeholder takes the value from the second argument passed to the showError function. When calling `showError(username_notify, [[error:username-taken, "${username}suffix"]])`, the `${currentUsername}suffix` gets passed as the second argument and replaces `%1` in the template.
 
 ## Resources & Links
-- [Main Recitation Page](reci3-archaeology.md)
+<!-- - [Main Recitation Page](reci3-archaeology.md) -->
 - [Slides](https://docs.google.com/presentation/d/19ym2ZT1t6W4942ayiTozBwoFtsEOPANeRBH1UB7g9k4/edit?usp=sharing)
 - [GitHub Repository](https://github.com/CMU-313/NodeBB-F25-R3)
 - [Feature Request Issue](https://github.com/CMU-313/NodeBB-F25-R3/issues)

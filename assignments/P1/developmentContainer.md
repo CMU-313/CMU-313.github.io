@@ -5,7 +5,7 @@ nav_order: 70
 
 # Development Container Installation Instructions
 
-You might want to consider running opencode in a VSCode Development container. 
+You should opencode in a VSCode Development container. 
 
 These are step by step instructions on how to configure a development container on a Mac, more documentation for Windows is available here:
 

@@ -6,15 +6,15 @@ reveal_date: 2026-08-24
 ---
 
 # Recitation 1: Learning Typescript (Asynchronous) - DUE Friday August 28th, 11:59pm
-### NOTE: This recitation is to be completed asynchronously. You do not have to attend recitation on August 24th.
+### NOTE: This recitation is to be completed asynchronously. You do not have to attend recitation in person on August 24th.
 
 ## Overview
 
-This semester, you will be working on the open-source project [opencode](https://github.com/anomalyco/opencode). Like most modern web codebases, opencode is written in TypeScript. Most students start this course without ever having used TypeScript — that's expected. Picking up a new language quickly from documentation, rather than waiting for it to be taught to you, is itself a skill this course (and most software jobs) will ask of you repeatedly, so before you dive into the codebase, you'll spend some time learning TypeScript on your own.
+This semester, you will be working on the open-source project [opencode](https://github.com/anomalyco/opencode). Like most modern web codebases, opencode is written in TypeScript. Most students start this course without ever having used TypeScript, because of that, becoming familar with TypeScript is a learning goal for this class. Picking up a new language quickly from documentation, rather than waiting for it to be taught to you, is itself a skill this course (and most software jobs) will ask of you repeatedly, so before you dive into the codebase, you'll spend some time learning TypeScript on your own.
 
 ## Activity
 
-Using the official [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) (or any other resource you find helpful) and online resources of your choosing, study the following core topics:
+Using the official [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) (or any other resource you find helpful, there are many YouTube videos) and online resources of your choosing, study (at least) the following core topics:
 
 - Basic types & type annotations (`string`, `number`, arrays, functions)
 - Unions, literals, and narrowing
