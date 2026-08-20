@@ -1,0 +1,6 @@
+[build]
+  publish = "website/site"
+  command = "pip install -e './vendor/course.md[all]' -r requirements.txt && cd website && mkdocs build"
+
+[build.environment]
+  PYTHON_VERSION = "3.11"
