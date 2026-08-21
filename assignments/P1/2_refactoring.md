@@ -106,7 +106,7 @@ packages/desktop/src/main/apps.ts
 
 OpenCode, like most modern web codebases, is written in TypeScript. Qlty's smell reports, the code you'll be refactoring, and the reviewers reading your pull request all assume a working knowledge of TypeScript's type system. 
 
-Recall the activity you did [Recitation 1](recitations/reci1-typescript.md). You are now tasked to apply your newfound knowledge of typescript to complete this section of the assignment. From the topics that you studied:
+Recall the activity you did [Recitation 1](../../recitations/reci1-typescript.md). You are now tasked to apply your newfound knowledge of typescript to complete this section of the assignment. From the topics that you studied:
 
 - Basic types & type annotations (string, number, arrays, functions)
 - Unions, literals, and narrowing
