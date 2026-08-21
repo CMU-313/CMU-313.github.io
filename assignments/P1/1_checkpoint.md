@@ -55,11 +55,17 @@ After forking, ensure **GitHub Actions** are enabled for your fork by clicking t
 Your first step should be setting up a **VS Code DevContainer**.  
 
 
-It gives you a fully configured environment and makes it easier for the course staff to help you.
-You'll know it's working once VS Code finishes connecting: look for a green indicator in the bottom-left corner of the window that starts with **Dev Containers: ... **.
+This gives you a fully configured environment and makes it easier for the course staff to help you. 
+
+You'll know it's working once VS Code prompts you with a green indicator in the bottom-right corner of the window that starts with **Dev Containers: ... **.
 You can find support online on how to setup and run a DevContainer. You may also ask the TAs for help with configuration.  
 
 If you have questions, see our resource here: [Development Container Setup](developmentContainer.md) 
+
+***Hint***
+Your development container will be written in a file titled `devcontainer.json`. There are multiple ways to create a development container, so there is no single correct configuration for this part of the assignment. 
+
+The only requirement for your development container is that it needs to have Bun 1.3 or later installed, which is crucial for the next step. Again, please feel free to reach out to the course staff on Slack for help!
 
 #### Installing
 In your development environment, you will install dependencies from the repo root:
@@ -137,4 +143,5 @@ Submit the two screenshots to [Gradescope]({{ gradescope_course_url() }}).
 
 To receive full credit for this checkpoint, we expect:
 
-- [ ] A Gradescope submission of two screenshots showing a local running build of opencode running in a development container and the coverage report within a browser
+- [ ] A working devcontainer file committed and pushed to the repository
+- [ ] Two screenshots showing a local running build of opencode running in a development container and the coverage report within a browser
