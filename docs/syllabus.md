@@ -15,7 +15,7 @@ The primary form of communication within this course is through Slack. We will m
 
 The instructor, TA, and CAs will also hold weekly office hours to provide support with course materials and projects. You can find the office hours schedule updated weekly here on the course website.
 
-You can contact the course staff via both [Slack](https://join.slack.com/t/17-313f25/shared_invite/zt-3boqyw4dx-R6S_Q281BCkxRX9jBjOYRg) and email. Your team will also have assigned CAs as your primary point of contact for additional support with assignment or recitation-related questions. When contacting instructors or your designated CAs, please email/message the instructor, TA, and designated CA at the same time.
+You can contact the course staff via both Slack and email. Your team will also have assigned CAs as your primary point of contact for additional support with assignment or recitation-related questions. When contacting instructors or your designated CAs, please email/message the instructor, TA, and designated CA at the same time.
 
 ## Teamwork
 Teamwork is an essential part of this course. Most projects are done in teams of 3-5 students. Teams will be assigned by the instructors and stay together for multiple projects. Most projects have a component that is graded for the entire group and a component that is graded individually.
@@ -28,29 +28,47 @@ Various readings throughout the semester are available online or through the lib
 As optional supplementary reading consider the (freely available) [Software Engineering at Google, Lessons Learned from Programming Over Time](https://abseil.io/resources/swe-book).
 
 ## Devices in Lecture and Recitation
-Research shows that using devices on non-class related activities harms both the device user's learning, and other students' learning as well. Therefore, in general, we do not allow the use of devices during lecture. If you genuinely use your laptop for class-related activities (note-taking, etc), tell us, and we will make an exception. However, we ask that if you do so, you are careful to keep your devices in note-taking mode (and don’t stray to Facebook, homework, etc). In addition, you will be required to sit in the back row of the lecture to minimize the impact your screen has on others.
-
+Research shows that using devices on non-class related activities harms both the device user's learning, and other students' learning as well. Therefore, in general, we do not allow the use of laptops during lecture.  Ocasionally we will do activities that require a laptop, but we will make it clear when those are going to take place.  We do allow tablets with stylus use if they are flat on the desk and are being used as "digial paper" notetaking.
 Note that recitation activities will often involve devices, so please do bring your laptop!
 
+
 ## Assessment
-Evaluation will be based on the following distribution: 60% projects, 20% midterm, 20% participation (including lecture exercises, pre-lecture reading quizzes, and recitation exercises).
+Evaluation will be based on the following distribution: **40% projects (35% project work, 5% problem sets), 30% midterms (15% each), 20% participation** (including lecture exercises, pre-lecture reading quizzes, and recitation exercises).
 
-**Project Points Breakdown (tentative)**
+## Problem Sets and Quizzes
+To master the core concepts of software engineering,
+deliberate and hands-on practice is essential. This semester, 17-313 introduces
+take-home problem sets and in-class quizzes designed to work in tandem to
+reinforce course concepts. The problem sets consist of straightforward
+applications of the material taught in lectures, providing a low-stakes
+environment to test your understanding, build conceptual fluency, and spot gaps
+in your mental models early.
 
-| Project | # Days Given | Points | % of HW grade |  % of total grade |
-| --- | --- | --- | --- | --- |
-| 1 | 11 | 100 | 10% | 6% |
-| 2 | 35 | 275 | 27.5% | 16.5% |
-| 3 | 11  | 100 | 10% | 6% |
-| 4 | 14  | 125 | 12.5% | 7.5% |
-| 5 | 27 | 400 | 40% | 24% |
-|   | **TOTAL**   | 1000 | 100% | 60% |
+Because problem sets focus on direct conceptual application, Large Language
+Models (LLMs) will easily yield correct answers to these questions. However,
+outsourcing this work to AI completely bypasses the cognitive friction required
+to actually learn the material. We strongly encourage you to work through each
+problem set independently to gain the full benefit of deliberate practice.
+In-class quizzes will evaluate your individual mastery of the exact same
+material covered in the problem sets. These brief, closed-notes assessments
+directly mirror the concepts and problem structures you practice on your
+homework. Treat the problem sets as your primary training ground for these
+quizzes. Shortcuts on the take-home work will lead to immediate difficulty
+during closed-notes assessments, so working through the problems yourself,
+making mistakes early, and resolving questions in office hours is the best path
+to success.
 
 
 ## Regrades
-Regrade requests can be submitted via Gradescope. The regrade period is open for one week after grades have been released for a particular assignment.
+Regrade requests can be submitted via Gradescope. The regrade period is open for **one week** after grades have been released for a particular assignment.  After the regrade window is closed, we will not revist grade assignments.
 
-## Late Work Policy
+
+## Final Grades
+Final grades in this course strictly follow standard mathematical rounding (e.g., 89.5% rounds up to 90.0%, while 89.4% does not). If you believe there was a legitimate mathematical or recording error in your overall grade calculation, please reach out and we will gladly fix it. Beyond verified computational errors, final grades are strictly non-negotiable.
+
+To maintain complete fairness across the entire class, we do not entertain post-semester grade appeals, offer individual extra credit, or grant makeup work to alter final outcomes. Requests to bump a grade by a point or two will be denied. Furthermore, late inquiries regarding past assessments—such as disputing early participation scores or requesting regrades long after an assignment's dedicated window has closed—will not be considered. All regrade requests must be submitted during the designated regrade period for each specific assignment during the term. We will not reopen past grades or adjust individual grade boundaries after the semester has ended.
+
+## Late Work and Absence Policy
 
 ### Participation
 Participation points in this class are earned through a series of pre-lecture reading assignments, lecture activities, and recitations. To accommodate for life's uncertainties (e.g. health issues, scheduling conflicts), you will automatically get full points for up to **four** missed participation activities to account for any absences. You do not need to email instructors individually for one-off absences of this sort.
@@ -63,20 +81,24 @@ If you find yourself in a situation that calls for an extended absence, please h
 Late work will receive feedback but no credit. Due to heavy emphasis on planning & teamwork in this course there are no late days; we expect that you **anticipate unexpected events in your planning**, and coordinate with your teammates when they arise. Exceptions to this policy will be made only in extraordinary circumstances, almost always involving a family or medical emergency, with your academic advisor or the Dean of Student Affairs requesting the exception on your behalf.
 
 ## Time Management
-This is a 12-unit course, and it is our intention to manage it so that you spend close to 12 hours a week on the course, on average. In general, 4 hours/week will be spent in lectures & recitation and 8 hours on readings and projects. Notice that most projects are done in groups, so please account for the overhead and decreased time flexibility that comes with group work. Throughout the semester, please feel free to give the course staff feedback on how much time the course is taking for you.
+This is a 12-unit course, and it is our intention to manage it so that you **spend close to 12 hours a week** on the course, on average. In general, 4 hours/week will be spent in lectures & recitation and **8 hours on readings and projects**. Notice that most projects are done in groups, so please account for the overhead and decreased time flexibility that comes with group work. Throughout the semester, please feel free to give the course staff feedback on how much time the course is taking for you.
 
 ## Writing
 Describing tradeoffs among decisions and communication with less technical stakeholders are key aspects of this class. Most projects have a component that requires discussing issues in written form or reflecting about experiences. To practice writing skills, the [Academic Resource Center](https://www.qatar.cmu.edu/academics-research/enrichment-support/academic-support/) (ARC) offers individually-tailored English language support for students, along with workshops. The instructors are also happy to provide additional guidance if requested.
 
+### Policy on use of Generative AI for Coding
+You may use generative AI for any and all coding tasks in the course.  However, as we discuss in class, we believe that there are significant implications for your own learning around your AI usage patterns.  Our goal for you in this class is that you learn to use AI in a way that helps you become a better software engineer.
+
+
 ### Policy on use of Generative AI for Writing
 
-You may use generative AI technologies such as *ChatGPT* or *CoPilot* for assisting in code development or writing responses to homework questions, **unless the question specifically prohibits it**. However, any use of AI comes with two caveats: (1) you must clearly indicate the use of such technology (and name the tool) in every homework question or source code file where an AI tool was used as a form of attribution, just as you would if you had taken help from a friend; (2) you are liable for factually inaccurate answers or unspecific rambling produced by AI tools; it is your responsibility to edit AI-produced content before submitting it for class purposes.
+You may use generative AI technologies such as *Gemini* or *Claude* for assisting in code development.  We **Very Strongly Discourage** using AI to *Generate* writing responses, but we encourage its use for editing your writing.  In addition **you are liable for factually inaccurate answers or unspecific rambling produced by AI tools**, and we will assess significant penalties to low quality (**AI Slop**) responses.  It is your responsibility to validate and verify AI-produced content before submitting it for class purposes.
 
 
 ## Professionalism
 Your classmates are your colleagues. This is particularly true in this course, where we aim to provide you with principles, practices, tools, and paradigms that will enable you to be an effective, real-world Software Engineer. We ask that you treat one another like the professionals you are and that you are preparing to be.
 
-To that end, we will not tolerate harassment in this class. We define harassment as unwelcome or hostile behavior of an ad hominem nature, i.e., that focuses not on ideas but on people and identity. This includes offensive verbal or written comments in reference to gender, sexual orientation, disability, physical appearance, race, or religion; sexual images in public spaces; deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of class meetings, inappropriate physical contact, and unwelcome sexual attention.
+To that end, we will **not tolerate harassment** in this class. We define harassment as unwelcome or hostile behavior of an ad hominem nature, i.e., that focuses not on ideas but on people and identity. This includes offensive verbal or written comments in reference to gender, sexual orientation, disability, physical appearance, race, or religion; sexual images in public spaces; deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of class meetings, inappropriate physical contact, and unwelcome sexual attention.
 
 Harassment is against the law and we have no tolerance for it, and neither does the university. Even when behavior does not rise to the level of harassment (even if you think you're "just joking!"), it can still make people very uncomfortable, and harm their educational and professional career by forcing them to devote mental energy to something other than the material they are trying to learn or the professional successes they are trying to achieve. However, we expect that we do not need to threaten you to earn your respect on this matter: we simply ask that you treat one another like professionals, in the most positive sense.
 
@@ -88,7 +110,10 @@ This has two implications:
 (Thank you to Shriram Krishnamurthi and Evan Peck for sharing their own policies, from which we drew inspiration for this one.)
 
 ## Academic Honesty and Collaboration
-The usual policies apply, especially the [University Policy on Academic Integrity](https://www.cmu.edu/policies/student-and-student-life/academic-integrity.html). Many of the projects will be done in groups. We expect that group members collaborate with one another, but that groups work independently from one another, not exchanging results with other groups. Within groups, we expect that you are honest about your contribution to the group's work. This implies not taking credit for others' work and not covering for team members that have not contributed to the team. Otherwise, our expectations regarding academic honesty and collaboration for group work are the same as for individual work, substituting elevated to the level of "group."
+The usual policies apply, especially the [University Policy on Academic Integrity](https://www.cmu.edu/policies/student-and-student-life/academic-integrity.html). Many of the projects will be done in groups. We expect that group members collaborate with one another, but that groups work independently from one another, not exchanging results with other groups. Within groups, we expect that you are honest about your contribution to the group's work. This implies not taking credit for others' work and not covering for team members that have not contributed to the team. Otherwise, our expectations regarding academic honesty and collaboration for group work are the same as for individual work.
+
+Inclass participation activites explicitly require that you are in class to participate.  If you are not present, but still submit a participation (e.g., if someone sends you a link), then that is treated as an academic integrity violation. Remote participation activites (such as the teamwork survey) are not covered by this.
+
 
 The course includes both individual projects  and individual components of group projects . Although your solutions for individual parts will be based on the content produced for the group component (e.g. written reflections on lessons learned), we treat individual components of group projects as equivalent to individual projects  overall, and expect you to complete such components independently of your groupmates.
 
@@ -149,3 +174,5 @@ Our Student Affairs staff are here to help:
 You can also visit the Ilona Wyers Student Lounge and connect with anyone on the Student Affairs Team. Consider also reaching out to a friend, faculty, staff, or family member you trust for help. If you would like to speak to a trained professional for mental health support, day or night, call our ProtoCall hotline at 5554 7913, which is staffed by trained mental health care providers.
 
 If the situation is life threatening, call 999.
+
+*Last Updated: August 21, 2026*
