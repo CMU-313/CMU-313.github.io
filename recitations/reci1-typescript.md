@@ -2,7 +2,7 @@
 kind: recitation
 title: Recitation 1 - Learning Typescript (Asynchronous)
 date: 2026-08-24
-reveal_date: 2026-08-24
+reveal_date: 2026-08-21
 ---
 
 # Recitation 1: Learning Typescript (Asynchronous) - DUE Friday August 28th, 11:59pm
