@@ -112,4 +112,4 @@ We don't record our lectures, because they are highly interactive and tricky to 
 If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help: call 412-268-2922 and visit their website at [http://www.cmu.edu/counseling/](http://www.cmu.edu/counseling/). Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help.
 
 
-*Last Updated: January 2, 2026*
+*Last Updated: August 21, 2026*

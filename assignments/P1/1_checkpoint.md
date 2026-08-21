@@ -63,10 +63,9 @@ You can find support online on how to setup and run a DevContainer. You may also
 If you have questions, see our resource here: [Development Container Setup](developmentContainer.md) 
 
 
-**_Hint_
-Your development container will be written in a file titled `devcontainer.json`. There are multiple ways to create a development container, so there is no single correct configuration for this part of the assignment. 
+**HINT:** 
+Your development container will be written in a file titled `devcontainer.json`. There are multiple ways to create a development container, so there is no single correct configuration for this part of the assignment. The only requirement for your development container is that it needs to have Bun 1.3 or later installed, which is crucial for the next step. However, there might be other tools you want to install to make things easier, and that is ok too (e.g., qlty) Again, please feel free to reach out to the course staff on Slack for help!
 
-The only requirement for your development container is that it needs to have Bun 1.3 or later installed, which is crucial for the next step. Again, please feel free to reach out to the course staff on Slack for help!**
 
 #### Installing
 In your development environment, you will install dependencies from the repo root:
@@ -111,7 +110,7 @@ from inside a package dir.  It will run different tests depending on which packa
 bun test --coverage --coverage-reporter=lcov --coverage-dir=./coverage
 ```
 
-note: You might might want to use genhtml to make the lcov file more readable.
+note: You might want to use genhtml to make the lcov file more readable.
 
 After the test suite finishes running, opencode will also generate a **code coverage report**.
 This report gives you measurements with regards to what percentage of the codebase is covered by the test suite.

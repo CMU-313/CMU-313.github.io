@@ -20,7 +20,7 @@ Once you have set up Docker and devcontainer extensions properly, you should be 
 After that, clone the repo from your fork of the class repository:
 
 ```console
-> git clone git@github.com:CMU-313/opencode.git
+> git clone git@github.com:<your-username>/opencode.git
 
 Cloning into 'opencode'...
 
@@ -81,5 +81,3 @@ Now you will see an integrated terminal window.  You should be able to check the
 ![Running Devcontainer](../../assets/project/nodeVersion.png)
 
 
-
-Now you have access to the opencode files, but you should follow the Linux instructions, **EVEN IF YOU ARE RUNNING ON A MAC OR WINDOWS COMPUTER.**

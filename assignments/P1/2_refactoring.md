@@ -67,7 +67,7 @@ qlty smells --all
 Note that, by default, Qlty only analyzes the files that you've modified since your last commit.
 `--all` tells Qlty to scan the entire codebase.
 
-This will a large list of issues and likely fill up your terminal with lots of code snippets.
+This will return a large list of issues and likely fill up your terminal with lots of code snippets.
 To make it easier to find which files have issues, you can disable code snippets in the output via the `--no-snippets` option:
 
 ```bash
@@ -108,18 +108,12 @@ opencode, like most modern web codebases, is written in TypeScript. Qlty's smell
 
 Using the official [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) (or any other resource you find helpful), study the following core topics:
 
-- Basic types & type annotations (`string`, `number`, `boolean`, arrays, tuples)
-- Interfaces vs. type aliases
-- Union and intersection types
-- Type inference vs. explicit typing
-- Optional properties and `undefined`/`null` handling
-- Enums
-- Generics
-- Function types (typing parameters and return values)
-- Type narrowing (`typeof`, `instanceof`, discriminated unions)
-- Common utility types (`Partial`, `Pick`, `Omit`, `Record`)
+- Basic types & type annotations (`string`, `number`, arrays, functions)
+- Unions, literals, and narrowing
+- Object shapes: interfaces and type aliases
+- Tooling, config, and ecosystem (tsconfig.json, flags, frameworks)
 
-Once you feel comfortable with these topics, create a short multiple-choice quiz (at least 10 questions) covering them (we recommend using an AI tool for this step), to check your own understanding. This quiz is a personal learning tool — you do not need to submit the whole thing.
+Once you feel comfortable with these topics, create a short multiple-choice quiz (at least 3 questions per topic) covering them (we recommend using an AI tool for this step), to check your own understanding. This quiz is a personal learning tool — you do not need to submit the whole thing.
 
 **Deliverable:** Submit **two** multiple-choice questions from your quiz to Gradescope. For each question, include:
 
@@ -267,7 +261,8 @@ To receive full credit for this project, we expect:
 - [ ] **Code Refactoring & Validation (20 pts)**
 	- [ ] Target smell reduced/removed (same scope) with before/after Qlty evidence
  	- [ ] `bun lint` and `bun test` pass locally
- 	- [ ] Runtime trigger demonstrated (logs + UI screenshot)
+ 	- [ ] Test coverage results showing change covered
+    - [ ] Test output showing tests passing.
 
 - [ ] **GitHub Pull Request (25 pts)**
  	- [ ] PR uses the P1B Refactoring PR template and all fields are completed
