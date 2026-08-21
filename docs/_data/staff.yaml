@@ -1,8 +1,8 @@
-- name: Nour Ali
+- name: Almiqdad Elzein
   role: Teaching Assistant
-  email: ntali@andrew
+  email: aelzein@andrew
   website:
-  photo: ntali.jpg
+  photo: aelzein.jpg
 
 - name: Eduardo Feo-Flushing
   role: Instructor
@@ -10,21 +10,27 @@
   website: https://efeoflushing.com/
   photo: efeoflus.jpg
 
-- name: Nick Devidze
+- name: Khadija Warraich
   role: Course Assistant
-  email: ndevidze@andrew.cmu.edu
+  email: kwarraich@andrew
   website:
-  photo: blank.jpg
+  photo: kwarraich.jpg
 
-- name: Steve Ndayambaje
+- name: Jeremy Ru
   role: Course Assistant
-  email: sndayamb@andrew
+  email: zru@andrew
   website:
-  photo: blank.jpg
+  photo: zru.jpg
 
-- name: Seckhen Ariel
+- name: Faiz Moazam
   role: Course Assistant
-  email: saandrad@andrew.cmu.edu
+  email: fmoazam@andrew
   website:
-  photo: blank.jpg
+  photo: fmoazam.jpg
 
+
+- name: Anurag Aryal
+  role: Course Assistant
+  email: aaryal@andrew
+  website:
+  photo: aaryal.jpg
