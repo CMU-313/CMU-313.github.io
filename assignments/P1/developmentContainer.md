@@ -5,21 +5,19 @@ nav_order: 70
 
 # Development Container Installation Instructions
 
-You should opencode in a VSCode Development container. 
+For this class, you should be using a VSCode Development container to run OpenCode. **Please take the time to carefully read through these instructions!**
 
-These are step by step instructions on how to configure a development container on a Mac, more documentation for Windows is available here:
 
-[https://code.visualstudio.com/docs/devcontainers/containers](https://code.visualstudio.com/docs/devcontainers/containers)
+First, follow the instructions for installing Docker on your respective operating system [here](https://code.visualstudio.com/docs/devcontainers/containers#_installation).
 
-First, You should follow the instructions here to install docker and development containers for vscode:
 
-[https://code.visualstudio.com/docs/devcontainers/tutorial](https://code.visualstudio.com/docs/devcontainers/tutorial)
+Then, follow along with the tutorial for [installing docker and development containers for VScode](https://code.visualstudio.com/docs/devcontainers/tutorial).
 
-When you are done, you should be able to run the example in that tutorial.
+Once you have set up Docker and devcontainer extensions properly, you should be able to run the example in the tutorial smoothly .
 
-After that, 
 
-Clone the repo from your fork of the class repository:
+
+After that, clone the repo from your fork of the class repository:
 
 ```console
 > git clone git@github.com:CMU-313/opencode.git
@@ -37,10 +35,11 @@ Receiving objects: 100% (.../...), done.
 Resolving deltas: 100% (.../...), done.
 ```
 
-
 Next, open the directory you just created with vscode. You can do this in the UI, but if you have launching from the command line enabled ([https://code.visualstudio.com/docs/setup/mac](https://code.visualstudio.com/docs/setup/mac)) then you can use the command: 
 
-Command: code .
+```
+code .
+```
 
 This should open vscode as such: 
 
