@@ -104,22 +104,16 @@ packages/desktop/src/main/apps.ts
 
 ### TypeScript Self-Directed Learning (25 pts)
 
-opencode, like most modern web codebases, is written in TypeScript. Qlty's smell reports, the code you'll be refactoring, and the reviewers reading your pull request all assume a working knowledge of TypeScript's type system. Most students start this course without ever having used TypeScript — that's expected. Picking up a new language quickly from documentation, rather than waiting for it to be taught to you, is itself a skill this course (and most software jobs) will ask of you repeatedly, so before you dive into the codebase, you'll spend some time learning TypeScript on your own.
+OpenCode, like most modern web codebases, is written in TypeScript. Qlty's smell reports, the code you'll be refactoring, and the reviewers reading your pull request all assume a working knowledge of TypeScript's type system. 
 
-Using the official [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) (or any other resource you find helpful), study the following core topics:
+Recall the activity you did [Recitation 1](recitations/reci1-typescript.md). You are now tasked to apply your newfound knowledge of typescript to complete this section of the assignment. From the topics that you studied:
 
-- Basic types & type annotations (`string`, `number`, `boolean`, arrays, tuples)
-- Interfaces vs. type aliases
-- Union and intersection types
-- Type inference vs. explicit typing
-- Optional properties and `undefined`/`null` handling
-- Enums
-- Generics
-- Function types (typing parameters and return values)
-- Type narrowing (`typeof`, `instanceof`, discriminated unions)
-- Common utility types (`Partial`, `Pick`, `Omit`, `Record`)
+- Basic types & type annotations (string, number, arrays, functions)
+- Unions, literals, and narrowing
+- Object shapes: interfaces and type aliases
+- Tooling, config, and ecosystem (tsconfig.json, flags, frameworks)
 
-Once you feel comfortable with these topics, create a short multiple-choice quiz (at least 10 questions) covering them (we recommend using an AI tool for this step), to check your own understanding. This quiz is a personal learning tool — you do not need to submit the whole thing.
+Create a short multiple-choice quiz (at least 10 questions) covering them (we recommend using an AI tool for this step), to check your own understanding. This quiz is a personal learning tool — you do not need to submit the whole thing.
 
 **Deliverable:** Submit **two** multiple-choice questions from your quiz to Gradescope. For each question, include:
 
