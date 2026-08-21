@@ -63,7 +63,7 @@ You can find support online on how to setup and run a DevContainer. You may also
 If you have questions, see our resource here: [Development Container Setup](developmentContainer.md) 
 
 
-**_Hint_**
+**_Hint:_**
 **Your development container will be written in a file titled `devcontainer.json`. There are multiple ways to create a development container, so there is no single correct configuration for this part of the assignment.** 
 
 **The only requirement for your development container is that it needs to have Bun 1.3 or later installed, which is crucial for the next step. Again, please feel free to reach out to the course staff on Slack for help!**
