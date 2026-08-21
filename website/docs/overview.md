@@ -11,7 +11,7 @@ hide:
 - What can we learn from the Boeing 737 disaster?
 - Why was the Crowdstrike incident so devastating? Who is to blame? How could it have been prevented?
 - How do you get a patch accepted into an open-source project?
-- You can write code. Can you build software?
+- You can generate code. Can you build software?
 
 ## Overview
 
@@ -39,8 +39,8 @@ This course has a strong technical focus, and includes assignments with and with
 **Assignments** (mostly done in groups) include:
 
 - An **introduction** assignment where individual students will learn to engage with an existing code base.
-- A **requirements** assignment in which each team will interview stakeholders to elicit and document requirements for a software system.
-- An **architecture** assignment in which teams will train and deploy an ML model using microservices.
+- A **development** assignment in which each team will build software individually and then merge their efforts together.
+- An **analysis** assignment in which teams will use analysis tools to ensure that the code (generated or written) is of sufficient quality.
 - A project in which each team **contributes to an open source project** of their choice. This involves identifying an issue in the existing project, understanding the development process of that project and how to contribute, and actually making a contribution such as fixing a bug or adding a feature. Extra credit will be awarded if the contribution is merged into the project.
 
 ## Previous Course Iterations

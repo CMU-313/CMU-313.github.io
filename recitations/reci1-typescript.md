@@ -2,7 +2,7 @@
 kind: recitation
 title: Recitation 1 - Learning Typescript (Asynchronous)
 date: 2026-08-24
-reveal_date: 2026-08-24
+reveal_date: 2026-08-21
 ---
 
 # Recitation 1: Learning Typescript (Asynchronous) - DUE Friday August 28th, 11:59pm
@@ -10,7 +10,7 @@ reveal_date: 2026-08-24
 
 ## Overview
 
-This semester, you will be working on the open-source project [opencode](https://github.com/anomalyco/opencode). Like most modern web codebases, opencode is written in TypeScript. Most students start this course without ever having used TypeScript, because of that, becoming familar with TypeScript is a learning goal for this class. Picking up a new language quickly from documentation, rather than waiting for it to be taught to you, is itself a skill this course (and most software jobs) will ask of you repeatedly, so before you dive into the codebase, you'll spend some time learning TypeScript on your own.
+This semester, you will be working on the open-source project [opencode](https://github.com/cmu-313/opencode). Like most modern web codebases, opencode is written in TypeScript. Most students start this course without ever having used TypeScript, because of that, becoming familiar with TypeScript is a learning goal for this class. Picking up a new language quickly from documentation, rather than waiting for it to be taught to you, is itself a skill this course (and most software jobs) will ask of you repeatedly, so before you dive into the codebase, you'll spend some time learning TypeScript on your own.
 
 ## Activity
 
@@ -21,7 +21,7 @@ Using the official [TypeScript Handbook](https://www.typescriptlang.org/docs/han
 - Object shapes: interfaces and type aliases
 - Tooling, config, and ecosystem (tsconfig.json, flags, frameworks)
 
-**Note:** In Project 1B, you will be asked to create a short multiple-choice quiz using your newfound knowledge of typescript. The goal of this exercise is to get you somewhat familiar with typescript. We are not expecting you to be experts at typescript,thus, you should not have to spend more than ~30 minutes on this activity.
+**Note:** In Project 1B, you will be asked to create a short multiple-choice quiz using your newfound knowledge of TypeScript. The goal of this exercise is to get you somewhat familiar with TypeScript. We are not expecting you to be experts at TypeScript, thus, you should not have to spend more than ~30 minutes on this activity.
 
 ## Submission
 

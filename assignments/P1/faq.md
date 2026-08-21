@@ -7,37 +7,40 @@ nav_order: 60
 
 This section is meant to contain frequently asked questions about the homework. We will continue to update this throughout the period the assignment is released!
 
-!!! warning "TBD: opencode migration"
-    This FAQ still describes the old NodeBB-based workflow (`./nodebb start/setup`, `config.json`, Redis). It needs to be rewritten for [opencode](https://github.com/cmu-313/opencode)'s Bun-based workflow (`bun install`, `bun dev`, `bun test`, `bun lint`) — left as-is below for reference until that happens.
-
 ## Installation and Running the Instance
 
-### I'm running into errors about missing files when running `./nodebb start`!
+### `bun install` fails or errors out on some packages!
 
-Try re-building some of the assets by running `./nodebb build` first, then try running the start command again.
+Make sure you're running **Bun 1.3 or later** inside your dev container (`bun --version`). If the version checks out and you're still seeing errors, try deleting `node_modules` and re-running `bun install` from the repo root.
 
-### I can't start a NodeBB instance and I get an error message saying that port 4567 is already in use.
+### `bun dev` doesn't start, or exits immediately!
 
-Maybe you have another NodeBB instance already running. Try stopping it via `./nodebb stop`. Otherwise, try using a different port.
+Confirm you ran `bun install` first from the repo root, and that you're running the command **inside your dev container**, not on your host machine. If it still won't start, copy the full terminal output and ask on Slack or during office hours, including your Bun version and OS.
+
+!!! warning "TBD: opencode migration"
+    NodeBB ran as a localhost web server on a fixed port (4567), so port conflicts were a common FAQ. opencode's TUI doesn't run as a traditional localhost server in the same way, so it's unclear whether a port-conflict-style question belongs here. Leaving this open until confirmed.
 
 ## Analysis Tools
 
-### I can't run the `test` or `lint` commands because I have missing dependencies.
+### I can't run `bun test` or `bun lint` because of missing dependencies.
 
-Run `npm install` after `./nodebb setup` to make sure you have all the dependencies needed for running tests.
+Run `bun install` from the repo root first to make sure all dependencies are present, then retry.
 
-### Running the test suite stops immediately and throws a bunch of errors!
+### `bun test` behaves strangely or throws a lot of errors when I run it from the repo root.
 
-This usually happens if you don't have a test database configured correctly. Scroll up past the errors and copy over the test database configuration into the local `config.json` file under the `"test_database"` field. For redis: if you are using database `0` for running the local instance, you can use database `1` for testing so that the test data remains separate.
+opencode's test suite isn't meant to be run all at once — run it **package by package**, from inside the specific package directory you're working in (see [Project 1A](1_checkpoint.md)). Running it from the repo root may produce misleading results.
+
+### My coverage report is empty or mostly red.
+
+Make sure you ran the coverage command from inside the correct package directory:
+
+```bash
+bun test --coverage --coverage-reporter=lcov --coverage-dir=./coverage
+```
+
+Then open `coverage/index.html` in a browser. If it's still mostly red, double-check that the tests actually ran and passed first — a failed or incomplete test run will also produce an incomplete coverage report.
 
 ## Reset
 
-### How do I reset my NodeBB configurations?
-
-Delete the `config.json` file and re-run the `./nodebb setup` command.
-
-### How do I reset my NodeBB database?
-
-Depending on your database setup, you will need to find the commands to delete all data stored in your database. For redis, this involves using the `redis-cli` to enter the database and using the `FLUSHALL` command.
-
-Once you've cleared your database, delete your `config.json` file and re-run the `./nodebb setup` command. You will need to reconfigure an admin account.
+!!! warning "TBD: opencode migration"
+    NodeBB kept local state in a `config.json` file and a Redis database, so "resetting" meant clearing those. opencode doesn't appear to have an equivalent local database or config file to reset. If you run into a broken local state, the safest first step is deleting `node_modules` and re-running `bun install`. This section will be filled in once we confirm whether opencode needs anything more specific reset.

@@ -272,15 +272,6 @@ test('addition works correctly', () => {
 
 **Solution**: Check Docker is running, try "Dev Containers: Rebuild Container"
 
-### Port Conflicts
-
-**Problem**: `localhost:4567` doesn't work
-
-**Solutions**: 
-
-- Check opencode is running (`bun dev`)
-- Try different port in VS Code Ports tab
-- Restart container if ports are conflicted
 
 ### Test and Lint Failures
 

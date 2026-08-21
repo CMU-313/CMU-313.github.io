@@ -111,7 +111,7 @@ from inside a package dir.  It will run different tests depending on which packa
 bun test --coverage --coverage-reporter=lcov --coverage-dir=./coverage
 ```
 
-note: You might might want to use genhtml to make the lcov file more readable.
+note: You might want to use genhtml to make the lcov file more readable.
 
 After the test suite finishes running, opencode will also generate a **code coverage report**.
 This report gives you measurements with regards to what percentage of the codebase is covered by the test suite.
