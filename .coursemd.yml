@@ -22,6 +22,29 @@ staff:
     role: teaching-assistant
     email: autumnq@andrew.cmu.edu
     photo: Autumn.jpg
+  - name: Alejandro Estrada
+    role: teaching-assistant
+    email: alejande@andrew.cmu.edu
+    photo: Alejandro_Estrada.jpeg
+  - name: Bing Bhakdibhumi
+    role: teaching-assistant
+    email: barameeb@andrew.cmu.edu
+    photo: Bing.jpeg
+  - name:  Cindy Wang
+    role: teaching-assistant
+    email: xinyuew4@andrew.cmu.edu
+    photo: cindywang.jpeg
+  - name:  Anabella Chyan
+    role: teaching-assistant
+    email: aarzate@andrew.cmu.edu
+    photo: Anabella-Chyan.jpeg
+  - name:  Long Nguyen
+    role: teaching-assistant
+    email: longtien@andrew.cmu.edu
+    photo: Long-Nguyen.jpeg
+  - name:  Shrey Tiwari
+    role: teaching-assistant
+    email: smtiwari@andrew.cmu.edu
 
 
 schedule:
