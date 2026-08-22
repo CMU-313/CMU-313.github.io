@@ -8,7 +8,7 @@ hide:
 
 ## Class Calendar
 
-<iframe src="https://calendar.google.com/calendar/embed?src=c_6ff178194982fe3e4cba4c28641acbb98c8c493febf2d427b07c4259d3c49a1f%40group.calendar.google.com&ctz=America%2FNew_York&mode=WEEK" style="border: 0" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=c_7faee93d8ab8b1502e08769d87482816823afd63153be61d111ec8356e3ed185%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 {%- macro render_staffer(person) -%}
 <div class="staffer card">
