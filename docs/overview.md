@@ -47,7 +47,7 @@ This course has a strong technical focus, and includes assignments with and with
 
 ### Qatar
 
-[Fall 2025](_old/F25) | [Fall 2024](_old/F24) |  [Fall 2023](_old/F23) |   [Fall 2022](https://web2.qatar.cmu.edu/cs/17313/) |
+[Fall 2025](../_old/F25) | [Fall 2024](../_old/F24) |  [Fall 2023](../_old/F23) |   [Fall 2022](https://web2.qatar.cmu.edu/cs/17313/) |
 
 ### Pittsburgh
 
