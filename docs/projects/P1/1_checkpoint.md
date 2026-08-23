@@ -7,28 +7,19 @@ nav_order: 10
 
 ## Deliverables
 
-**Build Checkpoint** – 5 points – due Monday, August 31st, 11:59pm
+**Build Checkpoint** – 5 points – due Sunday, August 30th, 11:59pm
 
 ## Getting Started
 
 ### Repository Setup
 
-Fork the [class-specific repository](https://github.com/CMU-313/opencode) into your personal GitHub account.
+Fork the [class-specific repository](https://github.com/CMU-17313Q/opencode) into your personal GitHub account.
 After forking, ensure **GitHub Actions** are enabled for your fork by clicking the green button under the **Actions** tab.
 
 !!! warning
 	Even though this project is based off of an active open source project, we have made significant changes to ensure its suitability for our class.
-	As such, be sure you are forking off of **CMU-313/opencode** and direct any questions to [course staff](https://cmu-313.github.io/#staff).
+	As such, be sure you are forking off of **CMU-17313Q/opencode** and direct any questions to [course staff](https://cmu-17313q.github.io/#staff).
 	Do **not** contact the maintainers of opencode for assistance with your homework questions.
-
-### Development Environment
-
-Your first step should be setting up a **VS Code DevContainer**.  
-
-It gives you a fully configured environment and makes it easier for the course staff to help you.
-You'll know it's working once VS Code finishes connecting: look for a green indicator in the bottom-left corner of the window that starts with **Dev Containers: ... **.
-You can find support online on how to setup and run a DevContainer. You may also ask the TAs for help with configuration.  
-
 
 #### Prerequisites
 
@@ -37,9 +28,9 @@ You can find support online on how to setup and run a DevContainer. You may also
 - [Ubuntu WSL2](https://learn.microsoft.com/en-us/windows/wsl/setup/environment#get-started) (if using Windows)
 
 !!! note "What is Docker?!"
-	You may be overwhelmed by the presence of this (maybe) unfamiliar tool, or maybe just curious about its functionality. Do not fear! We have put together a [Development Tools Guide](https://cmu-313.github.io/projects/P1/development-tools-guide/) where we cover the basics of Docker and other tools used for this project!
+	You may be overwhelmed by the presence of this (maybe) unfamiliar tool, or maybe just curious about its functionality. Do not fear! We have put together a [Development Tools Guide](development-tools-guide.md) where we cover the basics of Docker and other tools used for this project!
 
-#### Installation
+#### Cloning
 
 1.	Clone your fork to your machine.
 	If you are using Windows, you should use `git` from inside **WSL2**.
@@ -56,7 +47,26 @@ You can find support online on how to setup and run a DevContainer. You may also
 
 	    You can use `% cd ~` to access the Linux home directory, then clone the repository there.
 
-2. 	In your development environment, you will install dependencies from the repo root:
+
+### Development Environment
+
+Your first step should be setting up a **VS Code DevContainer**.
+
+It gives you a fully configured environment and makes it easier for the course staff to help you.
+
+You'll know it's working once VS Code prompts you with a green indicator in the bottom-right corner of the window that starts with **Dev Containers: ... **.
+You can find support online on how to setup and run a DevContainer. You may also ask the course staff for help with configuration.
+
+If you have questions, see our resource here: [Development Container Setup](developmentContainer.md)
+
+**_Hint:_**
+**Your development container will be written in a file titled `devcontainer.json`. There are multiple ways to create a development container, so there is no single correct configuration for this part of the assignment.**
+
+**The only requirement for your development container is that it needs to have Bun 1.3 or later installed, which is crucial for the next step. Again, please feel free to reach out to the course staff on Slack for help!**
+
+
+#### Installing
+In your development environment, you will install dependencies from the repo root:
 
   ```bash
   bun install
@@ -69,7 +79,7 @@ After you have installed the dependencies, you can run it using the command:
   bun dev
   ```
 
-When you run it properly, you will see something that looks like the following: 
+When you run it properly, you will see something that looks like the following:
 
 ![screenshot of opencode](opencode_startup.png)
 
@@ -85,8 +95,13 @@ You can run the linter using the following command:
 bun lint
 ```
 
-Opencode is configured to not run the entire test suite all at once.  You should run the tests package by package. 
-You can run the tests by running 
+Opencode is configured to not run the entire test suite all at once.  You should run the tests package by package.
+
+For part b, you will need to run the tests for the package that you make changes
+in. However, for now, you can pick any project to verify that the tests are
+running.
+
+You can run the tests by running
 
 ```shell
 bun test
@@ -98,7 +113,7 @@ from inside a package dir.  It will run different tests depending on which packa
 bun test --coverage --coverage-reporter=lcov --coverage-dir=./coverage
 ```
 
-note: You might might want to use genhtml to make the lcov file more readable.
+note: You might want to use genhtml to make the lcov file more readable.
 
 After the test suite finishes running, opencode will also generate a **code coverage report**.
 This report gives you measurements with regards to what percentage of the codebase is covered by the test suite.
@@ -121,14 +136,15 @@ Open the `index.html` file in the `coverage` folder to see the full report.
 
 Upon completing the above steps, take screenshots of
 
-- your vscode which shows opencode running in a development container 
+- your vscode which shows opencode running in a development container
 - the coverage report generated by the coverage tool
 
 
-Submit the two screenshots to [Gradescope](https://www.gradescope.com/courses/1096661).
+Submit the two screenshots and the link to your repository on [Gradescope](https://www.gradescope.com/courses/1360202/assignments/8453768).
 
 ## Grading
 
 To receive full credit for this checkpoint, we expect:
 
-- [ ] A Gradescope submission of two screenshots showing a local running build of opencode running in a development container and the coverage report within a browser
+- [ ] A working devcontainer file committed and pushed to the repository
+- [ ] Two screenshots showing a local running build of opencode running in a development container and the coverage report within a browser

@@ -7,7 +7,7 @@ nav_order: 20
 
 ## Deliverables
 
-Starter Task - 95 points - due Monday, September 7th, 11:59PM
+Starter Task - 95 points - due Sunday, September 6th, 11:59PM
 
 - [TypeScript Self-Directed Learning](#typescript-self-directed-learning-25-pts) (25 pts)
 - [GitHub Issue](#github-issue-25-pts) (25 pts)
@@ -29,7 +29,7 @@ Your task is to remove one or more Qlty-reported issues by refactoring code and 
 Before jumping into the codebase, please review the [course syllabus](/syllabus) and be sure you have access to each of the following:
 
 - Course Slack - check your email for an invite link
-- [Gradescope](https://www.gradescope.com/courses/1096661)
+- [Gradescope](https://www.gradescope.com/courses/1360202)
 
 If you run into any trouble accessing the above or have any questions, reach out to the instructors.
 
@@ -43,7 +43,7 @@ In this project and throughout the rest of this course, you will be expected to 
 - [x] Creating GitHub Pull Requests and using related features (linking to issues)
 - [x] Creating GitHub Project Boards
 
-If you are not familiar with any of these steps, you may refer to the [Resources & Documentation](/projects/P1/documentation/#git--github-documentation) section if needed. There is a [simple Git-based exercise](/projects/P1/github) that you are highly recommended to complete before proceeding with this project.
+If you are not familiar with any of these steps, you may refer to the [Resources & Documentation](documentation.md#git--github-documentation) section if needed. There is a [simple Git-based exercise](github.md) that you are highly recommended to complete before proceeding with this project.
 
 ### Qlty
 
@@ -51,7 +51,7 @@ If you are not familiar with any of these steps, you may refer to the [Resources
 For this assignment, you will locally install and configure the Qlty command-line tool to identify maintainability issues within the codebase.
 
 To get started, you will need to [install Qlty](https://github.com/qltysh/qlty?tab=readme-ov-file#-quick-start) into your DevContainer.
-You will know it is installed properly when you can run 
+You will know it is installed properly when you can run
 
 ```bash
 qlty --version
@@ -66,7 +66,7 @@ qlty smells --all
 Note that, by default, Qlty only analyzes the files that you've modified since your last commit.
 `--all` tells Qlty to scan the entire codebase.
 
-This will a large list of issues and likely fill up your terminal with lots of code snippets.
+This will return a large list of issues and likely fill up your terminal with lots of code snippets.
 To make it easier to find which files have issues, you can disable code snippets in the output via the `--no-snippets` option:
 
 ```bash
@@ -87,7 +87,7 @@ qlty smells --no-snippets  packages/desktop/src/main/apps.ts
      [0/3] 🔍  Analyzing 1 path... 0.03s
      [1/3] 👀  Checking structure of 1 files...  1.17s
      [2/3] 🤔  Looking for duplication across 1 files...  8.61s
-     [3/3] ✨  Reporting...  
+     [3/3] ✨  Reporting...
 
 packages/desktop/src/main/apps.ts
   39  Function with many returns (count = 12): resolveWindowsAppPath
@@ -103,22 +103,16 @@ packages/desktop/src/main/apps.ts
 
 ### TypeScript Self-Directed Learning (25 pts)
 
-opencode, like most modern web codebases, is written in TypeScript. Qlty's smell reports, the code you'll be refactoring, and the reviewers reading your pull request all assume a working knowledge of TypeScript's type system. Most students start this course without ever having used TypeScript — that's expected. Picking up a new language quickly from documentation, rather than waiting for it to be taught to you, is itself a skill this course (and most software jobs) will ask of you repeatedly, so before you dive into the codebase, you'll spend some time learning TypeScript on your own.
+OpenCode, like most modern web codebases, is written in TypeScript. Qlty's smell reports, the code you'll be refactoring, and the reviewers reading your pull request all assume a working knowledge of TypeScript's type system.
 
-Using the official [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) (or any other resource you find helpful), study the following core topics:
+Recall the activity you did [Recitation 1](../../recitations/reci1-github-typescript.md). You are now tasked to apply your newfound knowledge of typescript to complete this section of the assignment. From the topics that you studied:
 
-- Basic types & type annotations (`string`, `number`, `boolean`, arrays, tuples)
-- Interfaces vs. type aliases
-- Union and intersection types
-- Type inference vs. explicit typing
-- Optional properties and `undefined`/`null` handling
-- Enums
-- Generics
-- Function types (typing parameters and return values)
-- Type narrowing (`typeof`, `instanceof`, discriminated unions)
-- Common utility types (`Partial`, `Pick`, `Omit`, `Record`)
+- Basic types & type annotations (string, number, arrays, functions)
+- Unions, literals, and narrowing
+- Object shapes: interfaces and type aliases
+- Tooling, config, and ecosystem (tsconfig.json, flags, frameworks)
 
-Once you feel comfortable with these topics, write yourself a short multiple-choice quiz (at least 5 questions) covering them, to check your own understanding. This quiz is a personal learning tool — you do not need to submit the whole thing.
+Once you feel comfortable with these topics, create a short multiple-choice quiz (at least 3 questions per topic) covering them (we recommend using an AI tool for this step), to check your own understanding. This quiz is a personal learning tool — you do not need to submit the whole thing.
 
 **Deliverable:** Submit **two** multiple-choice questions from your quiz to Gradescope. For each question, include:
 
@@ -134,7 +128,7 @@ Pick two questions you think would meaningfully test whether a classmate underst
 
 ### GitHub Issue (25 pts)
 
-First, choose a single Qlty-reported “smell” in a TypeScript file and open a GitHub issue in the [class repository](https://github.com/CMU-313/opencode/issues) using the **P1B Starter Task Issue template** to declare which smell you will be working on.
+First, choose a single Qlty-reported “smell” in a TypeScript file and open a GitHub issue in the [class repository](https://github.com/CMU-1731Q/opencode/issues) using the **P1B Starter Task Issue template** to declare which smell you will be working on.
 
 ![GitHub Issue Template](/assets/images/hw/p1b_issue_template.png)
 
@@ -183,25 +177,17 @@ You should start with the following steps:
 
 #### Change Validation (15 pts)
 
-You will need to validate that the code works.  To do this, you need to offer compelling evidence that the change has not broken anything.  You may do this with tests.  Your changes should have tests that validate that the change did not break anything. This could include tests that were existing before your change, or you may need to write new tests.  In your PR, you should explicitly say which tests cover your changes, and a short explanation as to why those tests are sufficient to convince a reviewer that the changes did not break anything.  NOTE: The tests that you submit should execute the code changes you made. 
+You will need to validate that the code works.  To do this, you need to offer compelling evidence that the change has not broken anything.  You do this with tests.  Your changes should have tests that validate that the change did not break anything. This could include tests that were existing before your change, or you may need to write new tests.  In your PR, you should explicitly say which tests cover your changes, and a short explanation as to why those tests are sufficient to convince a reviewer that the changes did not break anything.  NOTE: The tests that you submit should execute the code changes you made.
 
-
-
-You can build a coverage report using the following command: 
+You can build a coverage report using the following command (**inside the specific package directory where you made the changes**):
 
 ```bash
 bun test --coverage --coverage-dir=./coverage
 ```
 
-We also want you to manually test your changes in a running opencode instance.
-The purpose is to trigger the refactored code's execution from the user interface (UI) with the following steps:
+You should start by running the tests locally, and confirm that they are passing, and that they cover the changes you made. You might need to add tests, or update existing tests. Once you are convinced that your tests are covering a correct change, you should then push your changes to your branch, and make sure they pass on CI.
 
-- Within your implementation, add a print statement (e.g., `console.log(YOUR_NAME)`) immediately before, after, or in the middle of your refactored code.
-- Restart opencode (`bun dev`).
-- If you refactored a front-end file, watch logging via DevTools (`Ctrl+Shift+I` to open and then navigate to the 'Console' tab). If you refactored a back-end file, watch logging in the terminal where `bun dev` is running.
-- Perform any necessary UI operations that execute the refactored code (e.g., clicking buttons for an action)
-- Take a screenshot of these logs and include it in your pull request (see next part of project) description, along with a brief explanation of the steps you took to trigger the code.
-- Remove the temporary print statement before committing your final code.
+NOTE: because there are too many tests for all the students to run on every change, you should add the tests that cover your changes to the CI on your branch, to make sure they run.
 
 ### GitHub Pull Request (25 pts)
 
@@ -253,7 +239,7 @@ A green checkmark on the PR signals that you’ve completed the implementation a
 
 ## Submission
 
-Finally, once you have created an issue and submitted a pull request, you should use the following Gradescope link to submit your work to be graded: [Gradescope](https://www.gradescope.com/courses/1096661) 
+Finally, once you have created an issue and submitted a pull request, you should use the following Gradescope link to submit your work to be graded: [Gradescope](https://www.gradescope.com/courses/1360202/assignments)
 
 ## Grading
 
@@ -274,7 +260,8 @@ To receive full credit for this project, we expect:
 - [ ] **Code Refactoring & Validation (20 pts)**
 	- [ ] Target smell reduced/removed (same scope) with before/after Qlty evidence
  	- [ ] `bun lint` and `bun test` pass locally
- 	- [ ] Runtime trigger demonstrated (logs + UI screenshot)
+ 	- [ ] Test coverage results showing change covered
+    - [ ] Test output showing tests passing.
 
 - [ ] **GitHub Pull Request (25 pts)**
  	- [ ] PR uses the P1B Refactoring PR template and all fields are completed
