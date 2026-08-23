@@ -14,13 +14,13 @@ You are allowed to bring one double-sided A4 cheat sheet to the exam. You must s
 
 ## Sample Questions
 
-- [Fall 2024](/assets/pdfs/practice-midterms/f24mt2sample.pdf)
+- [Fall 2024](../assets/pdfs/practice-midterms/f24mt2sample.pdf)
 
 
 ## Past Exams (some include questions about Midterm 2 topics)
 
-- [Fall 2020](/assets/pdfs/practice-midterms/f2020midterm.pdf)
+- [Fall 2020](../assets/pdfs/practice-midterms/f2020midterm.pdf)
 
-- [Fall 2021](/assets/pdfs/practice-midterms/f2021midterm.pdf)
+- [Fall 2021](../assets/pdfs/practice-midterms/f2021midterm.pdf)
 
-- [Fall 2022](/assets/pdfs/practice-midterms/f2022midterm.pdf)
+- [Fall 2022](../assets/pdfs/practice-midterms/f2022midterm.pdf)

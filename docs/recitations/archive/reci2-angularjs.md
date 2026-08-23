@@ -19,7 +19,7 @@ This recitation aims to highlight the basics of Angular.js by walking students t
 - Create an account on [repl.it](https://replit.com/)
 - Fork [this repl](https://replit.com/@anudaweerasingh/CMU-313-angularjs#index.html) - you’ll be using this to work through this exercise and see your changes
 - When you run the app you should see something like the below screenshot. At this point, all the static HTML for the todo list has been set up. You’ll be working on making the todo list app function properly using Angular.js
-  ![Static Todo List](/assets/images/reci/angular-example.png)
+  ![Static Todo List](../../assets/images/reci/angular-example.png)
 
 ## Task 1: Setup Angular.js
 

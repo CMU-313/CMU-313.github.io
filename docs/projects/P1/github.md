@@ -17,7 +17,7 @@ The purpose of this exercise is to provide support for students who may be less 
 
 Start by forking [this repository](https://github.com/CMU-17313Q/github-recitation-with-test) to your personal account by clicking the Fork button at the top of the page. Then, under the General tab in **Settings**, check the "Issues" checkbox in the "Features" section to enable the issues pane for your repository.
 
-![GitHub Permissions](/assets/images/reci/reci1-github-permissions.png)
+![GitHub Permissions](../../assets/images/reci/reci1-github-permissions.png)
 
 [Clone the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) onto your local machine.
 

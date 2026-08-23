@@ -23,4 +23,4 @@ By the end of these instructions, you should:
 ## Installing NodeBB
 If you do not already have Git installed, follow the [**Git Installation on Linux**](https://github.com/git-guides/install-git#install-git-on-linux) for Ubuntu.
 
-Then, follow the [Ubuntu](/projects/P1/installation/ubuntu) instructions to install required tools and NodeBB itself on WSL2. 
+Then, follow the [Ubuntu](ubuntu.md) instructions to install required tools and NodeBB itself on WSL2. 

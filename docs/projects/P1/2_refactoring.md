@@ -26,7 +26,7 @@ Your task is to remove one or more Qlty-reported issues by refactoring code and 
 
 ### Onboarding Materials
 
-Before jumping into the codebase, please review the [course syllabus](/syllabus) and be sure you have access to each of the following:
+Before jumping into the codebase, please review the [course syllabus](../../syllabus.md) and be sure you have access to each of the following:
 
 - Course Slack - check your email for an invite link
 - [Gradescope](https://www.gradescope.com/courses/1360202)
@@ -130,7 +130,7 @@ Pick two questions you think would meaningfully test whether a classmate underst
 
 First, choose a single Qlty-reported “smell” in a TypeScript file and open a GitHub issue in the [class repository](https://github.com/CMU-1731Q/opencode/issues) using the **P1B Starter Task Issue template** to declare which smell you will be working on.
 
-![GitHub Issue Template](/assets/images/hw/p1b_issue_template.png)
+![GitHub Issue Template](../../assets/images/hw/p1b_issue_template.png)
 
 For the task, the smell must:
 
@@ -151,7 +151,7 @@ Then, assign yourself to the Issue by leaving a comment that says "I would like 
 
 You should soon see another comment by the `github-actions` bot informing you that you have been successfully assigned to this issue.
 
-![Bot Issue Assignment](/assets/images/hw/bot_assignment.png)
+![Bot Issue Assignment](../../assets/images/hw/bot_assignment.png)
 
 ??? info "Why Bot Assignment?"
 	You might be curious as to why we are using a GitHub bot instead of directly assigning yourself to the issue. As you aren’t officially recognized as a collaborator of CMU-313/opencode, GitHub adds some restrictions to your permissions for security purposes, including not being able to assign yourself to an issue. Hence, we are using a bot to work around these restrictions. This is similar to how you would request issues on an Open Source project!

@@ -12,8 +12,8 @@ As we have our midterm scheduled for Wednesday, October 8th, the SUnday recitati
 
 ## Exams
 
-- [Fall 2020](/assets/pdfs/practice-midterms/f2020midterm.pdf)
+- [Fall 2020](../assets/pdfs/practice-midterms/f2020midterm.pdf)
 
-- [Fall 2021](/assets/pdfs/practice-midterms/f2021midterm.pdf)
+- [Fall 2021](../assets/pdfs/practice-midterms/f2021midterm.pdf)
 
-- [Fall 2022](/assets/pdfs/practice-midterms/f2022midterm.pdf)
+- [Fall 2022](../assets/pdfs/practice-midterms/f2022midterm.pdf)

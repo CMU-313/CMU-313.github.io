@@ -47,8 +47,8 @@ This course has a strong technical focus, and includes assignments with and with
 
 ### Qatar
 
-[Fall 2025](/_old/F25) | [Fall 2024](/_old/F24) |  [Fall 2023](/_old/F23) |   [Fall 2022](https://web2.qatar.cmu.edu/cs/17313/) |
+[Fall 2025](_old/F25) | [Fall 2024](_old/F24) |  [Fall 2023](_old/F23) |   [Fall 2022](https://web2.qatar.cmu.edu/cs/17313/) |
 
 ### Pittsburgh
 
-[Spring 2026](/https://cmu-313.github.io/_old/S26) | [Fall 2025](/https://cmu-313.github.io/_old/F25)| [Spring 2025](/https://cmu-313.github.io/_old/S25) | [Fall 2024](/https://cmu-313.github.io/_old/F24) | [Spring 2024](/https://cmu-313.github.io/_old/S24) | [Fall 2023](/https://cmu-313.github.io/_old/F23) | [Spring 2023](/https://cmu-313.github.io/_old/S23) | [Fall 2022](/https://cmu-313.github.io/_old/F22) | [Fall 2021](/https://cmu-313.github.io/_old/2021)     | [Fall 2020](/https://cmu-313.github.io/_old/2020)
+[Spring 2026](https://cmu-313.github.io/_old/S26) | [Fall 2025](https://cmu-313.github.io/_old/F25)| [Spring 2025](https://cmu-313.github.io/_old/S25) | [Fall 2024](https://cmu-313.github.io/_old/F24) | [Spring 2024](https://cmu-313.github.io/_old/S24) | [Fall 2023](https://cmu-313.github.io/_old/F23) | [Spring 2023](https://cmu-313.github.io/_old/S23) | [Fall 2022](https://cmu-313.github.io/_old/F22) | [Fall 2021](https://cmu-313.github.io/_old/2021)     | [Fall 2020](https://cmu-313.github.io/_old/2020)
