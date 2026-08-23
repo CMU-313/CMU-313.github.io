@@ -1,7 +1,7 @@
 - date: Sun Aug 23
   homework:
     deadline: Due Sun Aug 30th @ 11:59pm
-    link: /projects/P1
+    link: ''
     name: 'Project 1A: Build Checkpoint'
     numDays: 6
   lecture:
@@ -30,7 +30,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Recitation 1: Intro to OpenCode, and TypeScript'
+    name: 'Recitation 1: GitHub/Devcontainers/TypeScript'
     quiz: ''
     slides: ''
 
@@ -95,11 +95,11 @@
     name: ''
     numDays: 0
   lecture:
-    link: assets/pdfs/03-metrics.pdf
-    name: Metrics and Measurement
+    link:
+    name: ''
   reading:
-    link: readings/R2
-    name: Metrics and Measurement
+    link:
+    name: ''
   recitation:
     handout: ''
     name: ''
@@ -109,9 +109,9 @@
 - date: Mon Aug 31
   homework:
     deadline: Due Sun Sep 6th @ 11:59pm
-    link: /projects/P1
+    link: ''
     name: 'Project 1B: Starter Task'
-    numDays: 4
+    numDays: 5
   lecture:
     link: ''
     name: ''
@@ -119,11 +119,10 @@
     link: ''
     name: ''
   recitation:
-    handout: /recitations/reci2-github
-    name: 'Recitation 2: Intro to Git'
-    quiz: https://www.gradescope.com/courses/1096661/assignments/6569784/
-    slides: https://docs.google.com/presentation/d/1_T3hZphISBGZqXEEc_Nx92_YF-djVHv1/edit?usp=sharing&ouid=115732152274655493451&rtpof=true&sd=true
-
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
 - date: Tue Sep 01
   homework:
     deadline: ''
@@ -131,11 +130,11 @@
     name: ''
     numDays: 0
   lecture:
-    link: https://docs.google.com/presentation/d/1ViXTQFkQHmIEb390Pg1gm9uTtoGTevqSDH_JohNasbU/edit?usp=sharing
-    name: Case Study 737MAX
+    link:
+    name: ''
   reading:
-    link: readings/R3
-    name: Boeing 737 MAX
+    link:
+    name: ''
   recitation:
     handout: ''
     name: ''
@@ -180,10 +179,10 @@
 
 - date: Sun Sep 06
   homework:
-    deadline: Due Sun Sep 13th @ 11:59pm
-    link: /projects/P2
-    name: Project 2A
-    numDays: 6
+    deadline:
+    link:
+    name:
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -198,10 +197,10 @@
 
 - date: Mon Sep 07
   homework:
-    deadline: ''
+    deadline: 'Due Sun Sep 13th @ 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Project 2A'
+    numDays: 5
   lecture:
     link: ''
     name: ''
