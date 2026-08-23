@@ -63,14 +63,14 @@ nav:
   - Syllabus: syllabus.md
   - Projects:
         projects/index.md # Dummy home page; remove once we start adding homework below
-      # - "Project 1: Hello, opencode!":
-      #     - projects/P1/index.md
-      #     - 1A Build Checkpoint: projects/P1/1_checkpoint.md
-      #     - 1B Starter Task: projects/P1/2_refactoring.md
-      #     - Development Tools Guide: projects/P1/development-tools-guide.md
-      #     - Devcontainers Guide: projects/P1/developmentContainer.md
-      #     - Git Commands Reference: projects/P1/git-commands-reference.md
-      #     - Resources and Documentation: projects/P1/documentation.md
+       - "Project 1: Hello, opencode!":
+           - projects/P1/index.md
+           - 1A Build Checkpoint: projects/P1/1_checkpoint.md
+           - 1B Starter Task: projects/P1/2_refactoring.md
+           - Development Tools Guide: projects/P1/development-tools-guide.md
+           - Devcontainers Guide: projects/P1/developmentContainer.md
+           - Git Commands Reference: projects/P1/git-commands-reference.md
+           - Resources and Documentation: projects/P1/documentation.md
       #     - FAQ: projects/P1/faq.md
 #     #      - Github Exercise: projects/P1/github.md
 #           - NodeBB Installation:
@@ -94,7 +94,7 @@ nav:
 #          - "5B & C Project Presentations, Final Report, and Reflections": projects/P5/2_projectfinal.md
   - Recitations:
       #recitations/index.md # Dummy home page; remove once we start adding recitations below
-       - Recitation 1 - Understand GitHub/Devcontainers/Typescript: recitations/reci1-githubdevcontainers.md
+       - Recitation 1 - GitHub, Dev Containers, and TypeScript: recitations/reci1-githubdevcontainers.md
       # - Recitation 2 - Team Contract Workshop: recitations/reci2-teamcontract.md
       # - Recitation 3 - Software Archaeology: recitations/reci3-archaeology.md
       # - Recitation 4 - Team Dysfunction: recitations/reci4-dysfunction.md

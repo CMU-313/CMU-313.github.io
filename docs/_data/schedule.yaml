@@ -30,8 +30,8 @@
     name: ''
   recitation:
     handout: '/recitations/reci1-githubdevcontainers'
-    name: 'Recitation 1: GitHub/Devcontainers/TypeScript'
-    quiz: ''
+    name: 'Recitation 1: GitHub, Dev Containers, and TypeScript'
+    quiz: 'https://gradescope.com/courses/1360202/assignments/8461221/'
     slides: ''
 
 - date: Tue Aug 25
