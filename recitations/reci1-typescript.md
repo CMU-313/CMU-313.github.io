@@ -21,7 +21,7 @@ Using the official [TypeScript Handbook](https://www.typescriptlang.org/docs/han
 - Object shapes: interfaces and type aliases
 - Tooling, config, and ecosystem (tsconfig.json, flags, frameworks)
 
-**Note:** In Project 1B, you will be asked to create a short multiple-choice quiz using your newfound knowledge of TypeScript. The goal of this exercise is to get you somewhat familiar with TypeScript. We are not expecting you to be experts at TypeScript, thus, you should not have to spend more than ~30 minutes on this activity.
+**Note:** In Project 1B, you will be asked to create a short multiple-choice quiz using your newfound knowledge of TypeScript. The goal of this exercise is to get you somewhat familiar with TypeScript. We are not expecting you to be experts at TypeScript, thus, you should not have to spend more than ~45 minutes on this activity.
 
 ## Submission
 
