@@ -33,7 +33,7 @@ Note that recitation activities will often involve devices, so please do bring y
 
 
 ## Assessment
-Evaluation will be based on the following distribution: **40% projects (35% project work, 5% problem sets), 30% midterms (15% each), 20% participation** (including lecture exercises, pre-lecture reading quizzes, and recitation exercises).
+Evaluation will be based on the following distribution: **45% projects (40% project work, 5% problem sets), 30% midterms (15% each), 5% in-class quizzes, 20% participation** (including lecture exercises, pre-lecture reading quizzes, and recitation exercises).
 
 ## Problem Sets and Quizzes
 To master the core concepts of software engineering,
