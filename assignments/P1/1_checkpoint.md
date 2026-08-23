@@ -106,6 +106,8 @@ bun test
 ```
 from inside a package dir.  It will run different tests depending on which package you run it from.
 
+For part b, you will need to run the tests for the package that you make changes in. However, for now, you can pick any project to verify that the tests are running.
+
 
 ```shell
 bun test --coverage --coverage-reporter=lcov --coverage-dir=./coverage
