@@ -14,9 +14,14 @@ To run the built-in development server:
 pip install -r requirements.txt
 ```
 
-3. Start local development server
+3. Validate course configuration
 ```sh
-mkdocs serve
+coursemd validate
+```
+
+4. Start local development server
+```sh
+coursemd site preview
 ```
 
 You can then find the website running on [http://localhost:8000/](http://localhost:8000/)
@@ -29,7 +34,7 @@ For detailed installation instructions, configuration options, and a demo, visit
 ## Pre-Semester Setup
 1. Run the following to build the static site:
 ```sh
-mkdocs build
+coursemd site build --output-dir build/website
 ```
 
 2. Rename the static `site` folder to its semester-name (i.e. `F22`). Delete the `_old` folder within this and move the the folder into the `docs/_old` directory

@@ -1,0 +1,357 @@
+// Reusable utilities and slide variants.
+/* Utility: make a specific list or block of lists smaller. */
+.small-bullets,
+.small-bullets ul,
+.small-bullets ol {
+  font-size: 0.9em;
+  line-height: 1.2;
+}
+
+// Decrease font size of nested bullets
+.reveal ul ul {
+  font-size: 0.8em;
+}
+
+// Utility class for image drop shadow
+.reveal .drop-shadow {
+  box-shadow: $shadow-image;
+}
+
+// Chromium's PDF export is more reliable with filter-based shadows than box-shadow.
+html.print-pdf .reveal .drop-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)) drop-shadow(0 6px 20px rgba(0, 0, 0, 0.19)) !important;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+html.print-pdf .reveal img.drop-shadow {
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.22)) drop-shadow(0 6px 20px rgba(0, 0, 0, 0.2)) !important;
+}
+
+// Utility class for centering inline content and images within slides
+.reveal .center {
+  text-align: center !important;
+}
+
+.reveal img.center {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.reveal .column .center {
+  display: block !important;
+  text-align: center !important;
+}
+
+// Utility class for inline text emphasis in CMU Red
+.reveal .text-highlight {
+  color: $theme-color;
+  font-weight: bold;
+}
+
+// Utility class for inline citations (author, title, etc.)
+.reveal .text-cite {
+  color: #888;
+  font-size: 0.85em;
+}
+
+.mt-sm {
+  margin-top: $space-sm !important;
+}
+
+.mt-md {
+  margin-top: $space-md !important;
+}
+
+.mt-lg {
+  margin-top: $space-lg !important;
+}
+
+.mt-xl {
+  margin-top: $space-xl !important;
+}
+
+.ml-md {
+  margin-left: $space-md !important;
+}
+
+.justify-center {
+  justify-content: center !important;
+}
+
+.reveal .alert-flow-banner {
+  width: 94%;
+  margin: 0 auto 18px auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 28px minmax(0, 1fr) 28px minmax(0, 1fr) 28px minmax(0, 1fr);
+  align-items: center;
+  column-gap: 10px;
+}
+
+.reveal .alert-flow-step {
+  min-height: 88px;
+  padding: 14px 14px 12px 14px;
+  border-radius: 18px;
+  border: 2px solid transparent;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+.reveal .alert-flow-title {
+  font-family: "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.74em;
+  font-weight: 700;
+  line-height: 1.05;
+  margin-bottom: 6px;
+  white-space: nowrap;
+}
+
+.reveal .alert-flow-subtitle {
+  font-family: "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.46em;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.reveal .alert-flow-arrow {
+  position: relative;
+  height: 2px;
+  background: #8f938c;
+}
+
+.reveal .alert-flow-arrow::after {
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid #8f938c;
+  border-right: 2px solid #8f938c;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.reveal .alert-flow-metric {
+  background: linear-gradient(135deg, #223a59 0%, #1b2841 100%);
+  border-color: #7fb2d9;
+  color: #eef6fd;
+}
+
+.reveal .alert-flow-trigger {
+  background: linear-gradient(135deg, #6f2f5f 0%, #522147 100%);
+  border-color: #e29cc7;
+  color: #fff1f8;
+}
+
+.reveal .alert-flow-notify {
+  background: linear-gradient(135deg, #8a6b1f 0%, #695015 100%);
+  border-color: #f0d27d;
+  color: #fff8df;
+}
+
+.reveal .alert-flow-response {
+  background: linear-gradient(135deg, #28593f 0%, #1f4631 100%);
+  border-color: #95d1a8;
+  color: #effbef;
+}
+
+html.print-pdf .reveal .alert-flow-step {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16) !important;
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.16));
+}
+
+// Timeline arrow: a vertical red bar with a downward arrowhead and rotated label.
+// Usage: wrap content in a div.timeline-layout; the arrow column gets div.timeline-arrow.
+.timeline-layout {
+  display: flex;
+  gap: 1.5em;
+  align-items: stretch;
+
+  .timeline-arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 2.5em;
+
+    .timeline-bar {
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      font-weight: bold;
+      font-size: 0.8em;
+      letter-spacing: 0.1em;
+      color: white;
+      background: $theme-color;
+      padding: 0.4em 0.3em;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .timeline-head {
+      width: 0;
+      height: 0;
+      border-left: 1.25em solid transparent;
+      border-right: 1.25em solid transparent;
+      border-top: 1.75em solid $theme-color;
+    }
+  }
+
+  .timeline-content {
+    flex: 1;
+  }
+}
+
+// Spacing between top-level list items
+.list-spacer {
+  margin-top: 0.8em !important;
+}
+
+// Takeaway banner: a red banner with white text used for key takeaways or important notes
+.takeaway-banner {
+  background: $theme-color !important;
+  color: white !important;
+  font-weight: bold;
+  padding: 5px 5px !important;
+  margin-bottom: 0 !important;
+  text-align: center;
+  border-radius: 8px !important;
+}
+
+// Course box styling for course comparison slides
+.course-box {
+  @include card-box;
+}
+
+// General comparison box for side-by-side content
+.comparison-box {
+  @include card-box;
+}
+
+section.team-slide {
+  padding-bottom: 24px !important;
+  box-sizing: border-box;
+
+  .columns {
+    align-items: stretch;
+    gap: 1.1em;
+    margin-bottom: 0.6em;
+  }
+
+  .team-card {
+    background: #f7f4f1;
+    border-top: 8px solid $theme-color;
+    border-radius: 12px;
+    padding: 22px 24px 16px;
+    height: auto;
+  }
+
+  .team-name {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0.35em;
+    font-weight: 700;
+    font-size: 1.1em;
+  }
+
+  .team-card img,
+  .team-headshot {
+    display: block;
+    margin: 0 auto 0.8em;
+  }
+
+  .team-role {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    font-size: 0.78em;
+    line-height: 1.3;
+  }
+
+  .team-card ul {
+    margin-top: 0.4em;
+    font-size: 0.82em;
+  }
+
+  .team-card li {
+    margin-bottom: 0.25em;
+  }
+}
+
+// Center alignment utility
+.center {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+// Image container for SVG overlays
+.image-container {
+  position: relative !important;
+  display: flex !important;
+}
+
+.image-container svg.overlay {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  pointer-events: none !important;
+}
+
+.article-link {
+  font-size: 0.6em;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-top: 60px;
+  padding: 0 20px;
+}
+
+.book-card {
+  border: 1px solid #d9d9d9;
+  border-radius: 16px;
+  padding: 30px 30px 32px 23px;
+  background: #ffffff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-card img {
+  height: 220px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+.book-card .book-title {
+  font-size: 0.8em;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+
+.book-card .book-title a {
+  color: #222;
+  text-decoration: none;
+}
+
+.book-card .book-title a:hover {
+  text-decoration: underline;
+}
+
+.book-card .book-author {
+  font-size: 0.7em;
+  color: #666;
+  line-height: 1.3;
+}

@@ -1,0 +1,207 @@
+timezone: America/New_York
+
+course:
+  name: Foundations of Software Engineering
+  edition: Fall 2026
+  code: 17-313
+
+staff:
+  - name: Michael Hilton 
+    role: instructor
+    email: mhilton@cmu.edu
+    website: https://www.cs.cmu.edu/~mhilton/
+    github: MichaelHilton
+    photo: michael.jpg
+  - name: Josh Sunshine
+    role: instructor
+    email: sunshine@cs.cmu.edu
+    website: https://www.cs.cmu.edu/~jssunshi/
+    photo: Joshua_Sunshine.jpg
+    github: joshsunshine
+  - name: Autumn Qiu
+    role: teaching-assistant
+    email: autumnq@andrew.cmu.edu
+    photo: Autumn.jpg
+  - name: Alejandro Estrada
+    role: teaching-assistant
+    email: alejande@andrew.cmu.edu
+    photo: Alejandro_Estrada.jpeg
+  - name: Bing Bhakdibhumi
+    role: teaching-assistant
+    email: barameeb@andrew.cmu.edu
+    photo: Bing.jpeg
+  - name:  Cindy Wang
+    role: teaching-assistant
+    email: xinyuew4@andrew.cmu.edu
+    photo: cindywang.jpeg
+  - name:  Anabella Chyan
+    role: teaching-assistant
+    email: aarzate@andrew.cmu.edu
+    photo: Anabella-Chyan.jpeg
+  - name:  Long Nguyen
+    role: teaching-assistant
+    email: longtien@andrew.cmu.edu
+    photo: Long-Nguyen.jpeg
+  - name:  Shrey Tiwari
+    role: teaching-assistant
+    email: smtiwari@andrew.cmu.edu
+
+
+schedule:
+  start_date: 2026-08-25
+  end_date: 2026-12-03
+  breaks:
+    - name: Labor Day
+      start: 2026-09-07
+      end: 2026-09-07
+    - name: Fall Break
+      start: 2026-10-12
+      end: 2026-10-15
+    - name: Democracy Day
+      start: 2026-11-03
+      end: 2026-11-03
+    - name: Thanksgiving
+      start: 2026-11-26
+      end: 2026-11-26
+  events:
+    - kind: lecture
+      date: 2026-08-25
+      title: "Intro + Pitch about AI usage."
+
+    - kind: lecture
+      date: 2026-08-27
+      title: "Metrics and Measurement"
+
+    - kind: lecture
+      date: 2026-09-01
+      title: "Case Study 737MAX"
+
+    - kind: lecture
+      date: 2026-09-03
+      title: "AI Usage/AI for SE"
+
+    - kind: lecture
+      date: 2026-09-08
+      title: "Project Planning (+HW 1 retro)"
+
+    - kind: lecture
+      date: 2026-09-10
+      title: "Teams and Communication (slack, user doc)"
+
+    - kind: lecture
+      date: 2026-09-15
+      title: "Requirements? specifications?"
+
+    - kind: lecture
+      date: 2026-09-17
+      title: "Design Docs"
+
+    - kind: lecture
+      date: 2026-09-22
+      title: "Unit Testing I"
+
+    - kind: lecture
+      date: 2026-09-24
+      title: "Unit Testing II"
+
+    - kind: lecture
+      date: 2026-09-29
+      title: "Oracles, Input Generation, Fuzz Testing"
+
+    - kind: lecture
+      date: 2026-10-01
+      title: "PBT I"
+
+    - kind: lecture
+      date: 2026-10-06
+      title: "PBT II"
+
+    - kind: midterm
+      date: 2026-10-08
+      title: "Midterm 1"
+
+    - kind: lecture
+      date: 2026-10-20
+      title: "Microservices/Architecture"
+
+    - kind: lecture
+      date: 2026-10-22
+      title: "CI"
+
+    - kind: lecture
+      date: 2026-10-27
+      title: "Deployment Workshop Game (Robert Chatley)"
+
+    - kind: lecture
+      date: 2026-10-29
+      title: "Guest Lecture: Taya Cohen"
+
+    - kind: lecture
+      date: 2026-11-05
+      title: "Guest Lecture 1 by Chris M"
+
+    - kind: lecture
+      date: 2026-11-10
+      title: "Guest Lecture 2 by Chris M"
+
+    - kind: lecture
+      date: 2026-11-12
+      title: "Static Analysis"
+
+    - kind: lecture
+      date: 2026-11-17
+      title: "Ethics"
+
+    - kind: midterm
+      date: 2026-11-19
+      title: "Midterm 2"
+
+    - kind: lecture
+      date: 2026-11-24
+      title: "Open Source + Licenses + Dependencies"
+
+    - kind: lecture
+      date: 2026-12-01
+      title: "Jobs + comp"
+
+    - kind: lecture
+      date: 2026-12-03
+      title: "Semester Review + AMA"
+
+    # No recitations/*.md file matches these three topics; scheduled as plain text
+    # per the recitation-topic table, with no linked content page.
+    - kind: recitation
+      date: 2026-10-19
+      title: "S3D Cloud Deployment"
+
+    - kind: recitation
+      date: 2026-11-23
+      title: "Exam 2 prep"
+
+    - kind: recitation
+      date: 2026-11-30
+      title: "Office Hours / Practice / Slide Review"
+
+integrations:
+  mkdocs:
+    base_url: https://cmu-313.github.io
+    project_dir: website
+    assignments_url_path: assignments
+    assignments_label: Projects
+    show_unreleased_content: false
+  quarto:
+    dir: slides
+  github:
+    organization: CMU-313
+    instructors_team_slug: instructors
+  canvas:
+    base_url: https://canvas.cmu.edu
+    course_id: "54889"
+  gradescope:
+    base_url: https://www.gradescope.com
+    course_id: "1356702"
+
+paths:
+  data_dir: data
+  assignments_dir: assignments
+  recitations_dir: recitations

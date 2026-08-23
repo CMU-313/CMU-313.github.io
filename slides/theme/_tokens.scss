@@ -1,0 +1,36 @@
+$color-primary: $theme-color !default;
+$color-text: #222 !default;
+$color-text-muted: #666 !default;
+$color-text-subtle: #888 !default;
+$color-border: #d9d9d9 !default;
+$color-surface: #ffffff !default;
+$color-surface-accent: #fef6f6 !default;
+$color-success: #2e7d32 !default;
+$color-warning: #e65100 !default;
+
+$shadow-card: 0 3px 10px rgba(0, 0, 0, 0.05) !default;
+$shadow-image: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !default;
+
+$radius-sm: 4px !default;
+$radius-md: 8px !default;
+$radius-lg: 14px !default;
+$radius-pill: 999px !default;
+
+$space-xs: 6px !default;
+$space-sm: 10px !default;
+$space-md: 18px !default;
+$space-lg: 28px !default;
+$space-xl: 60px !default;
+
+$brand-logo-width: 250px !default;
+$brand-side-inset: 60px !default;
+$brand-header-top: 30px !default;
+$brand-footer-bottom: 30px !default;
+
+$title-branding-top: 20px !default;
+$title-branding-bottom: 20px !default;
+$title-branding-height: 50px !default;
+$title-content-offset: 100px !default;
+
+$summary-slide-background: #666666 !default;
+$activity-slide-background: #e8f5e9 !default;

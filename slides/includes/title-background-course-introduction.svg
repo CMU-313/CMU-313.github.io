@@ -1,0 +1,68 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="132" y1="96" x2="1442" y2="864" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A101A"/>
+      <stop offset="0.46" stop-color="#131C2A"/>
+      <stop offset="1" stop-color="#4F1224"/>
+    </linearGradient>
+    <radialGradient id="glowPrimary" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1264 176) rotate(90) scale(288)">
+      <stop stop-color="#E73C63" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#E73C63" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowSecondary" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 804) rotate(90) scale(320)">
+      <stop stop-color="#C41230" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#C41230" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="960" y1="64" x2="1498" y2="544" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="white" stop-opacity="0.04"/>
+    </linearGradient>
+    <pattern id="grid" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M120 0H0V120" stroke="white" stroke-opacity="0.14"/>
+    </pattern>
+    <filter id="blurSoft" x="-160" y="-160" width="1920" height="1220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="36"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)" opacity="0.34"/>
+
+  <g filter="url(#blurSoft)">
+    <circle cx="1264" cy="176" r="288" fill="url(#glowPrimary)"/>
+    <circle cx="320" cy="804" r="320" fill="url(#glowSecondary)"/>
+    <ellipse cx="1378" cy="732" rx="260" ry="224" fill="#FFDCE3" fill-opacity="0.1"/>
+  </g>
+
+  <path d="M1018 36L1568 252V758L1232 902L812 824L934 508L796 202L1018 36Z" fill="white" fill-opacity="0.06"/>
+  <path d="M1112 112L1508 266V690L1230 810L946 760L1034 512L926 256L1112 112Z" fill="#C41230" fill-opacity="0.12"/>
+  <path d="M0 708C186 598 322 564 506 548C708 530 824 616 1010 592C1172 570 1338 454 1600 260V900H0V708Z" fill="#070B12" fill-opacity="0.44"/>
+
+  <rect x="1038" y="92" width="404" height="194" rx="28" fill="url(#panel)" stroke="white" stroke-opacity="0.16"/>
+  <rect x="1188" y="130" width="164" height="12" rx="6" fill="white" fill-opacity="0.4"/>
+  <rect x="1114" y="166" width="238" height="12" rx="6" fill="white" fill-opacity="0.18"/>
+  <rect x="1078" y="202" width="274" height="12" rx="6" fill="white" fill-opacity="0.18"/>
+  <rect x="1228" y="238" width="124" height="12" rx="6" fill="#E73C63" fill-opacity="0.6"/>
+
+  <g opacity="0.32">
+    <path d="M1040 336H1486" stroke="white" stroke-width="2" stroke-dasharray="10 14"/>
+    <path d="M1120 382H1560" stroke="white" stroke-width="2" stroke-dasharray="10 14"/>
+    <path d="M1200 428H1600" stroke="white" stroke-width="2" stroke-dasharray="10 14"/>
+  </g>
+
+  <circle cx="1372" cy="154" r="16" fill="#FFF5F7" fill-opacity="0.8"/>
+  <circle cx="1428" cy="154" r="16" fill="#FFF5F7" fill-opacity="0.28"/>
+  <circle cx="1484" cy="154" r="16" fill="#FFF5F7" fill-opacity="0.28"/>
+
+  <rect x="96" y="88" width="308" height="308" rx="44" stroke="white" stroke-opacity="0.12" stroke-width="2"/>
+  <rect x="128" y="120" width="244" height="244" rx="32" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+  <path d="M152 312C212 224 280 182 384 150" stroke="#F6D4DB" stroke-opacity="0.42" stroke-width="4" stroke-linecap="round"/>
+  <path d="M168 344C246 260 318 222 416 202" stroke="#C41230" stroke-opacity="0.72" stroke-width="6" stroke-linecap="round"/>
+  <path d="M208 364C282 310 340 280 430 266" stroke="white" stroke-opacity="0.28" stroke-width="3" stroke-linecap="round"/>
+
+  <g opacity="0.7">
+    <rect x="1016" y="706" width="292" height="2" fill="white" fill-opacity="0.24"/>
+    <rect x="1016" y="730" width="368" height="2" fill="white" fill-opacity="0.16"/>
+    <rect x="1016" y="754" width="244" height="2" fill="#E73C63" fill-opacity="0.66"/>
+  </g>
+</svg>

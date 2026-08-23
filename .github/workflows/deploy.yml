@@ -14,8 +14,10 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: 'main' # Force getting the latest
+          submodules: recursive
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - run: pip install -r requirements.txt
+      - run: pip install -e './vendor/course.md[all]' -r requirements.txt
       - run: mkdocs gh-deploy --force
+        working-directory: website

@@ -1,0 +1,58 @@
+@mixin slide-overlay-base {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+
+@mixin footer-branding($image, $opacity: $brand-footer-opacity) {
+  content: "";
+  @include slide-overlay-base;
+  background-image: url($image);
+  background-position: left $brand-side-inset bottom $brand-footer-bottom;
+  background-size: $brand-logo-width auto;
+  background-repeat: no-repeat;
+  opacity: $opacity;
+}
+
+@mixin footer-branding-reversed($image) {
+  @include footer-branding($image, 1);
+  filter: none !important;
+  mix-blend-mode: normal !important;
+}
+
+@mixin header-branding($image, $color: $brand-course-number-color, $opacity: $brand-header-opacity) {
+  content: var(--brand-course-number);
+  @include slide-overlay-base;
+  display: block;
+  box-sizing: border-box;
+  padding-top: $brand-header-top;
+  padding-left: $brand-side-inset;
+  padding-right: $brand-side-inset;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 0.6em;
+  line-height: 1;
+  text-align: right;
+  white-space: nowrap;
+  color: $color;
+  background-image: url($image);
+  background-position: left $brand-side-inset top $brand-header-top;
+  background-size: $brand-logo-width auto;
+  background-repeat: no-repeat;
+  opacity: $opacity;
+}
+
+@mixin header-branding-reversed($image) {
+  @include header-branding($image, white, 1);
+}
+
+@mixin card-box {
+  padding: 25px !important;
+  border-radius: 8px !important;
+  height: 100% !important;
+  font-size: 0.9em !important;
+}

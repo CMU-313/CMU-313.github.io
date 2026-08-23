@@ -3,3 +3,4 @@ _site
 site
 venv
 myenv
+.claude/settings.local.json

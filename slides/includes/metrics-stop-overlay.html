@@ -1,0 +1,20 @@
+<!-- Reusable SVG overlay: stop-sign with drop shadow -->
+<svg viewBox="-10 -10 120 120" xmlns="http://www.w3.org/2000/svg"
+     style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width:60%; height:60%; opacity:0.98; pointer-events:none; overflow: visible;" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <filter id="drop" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+      <feOffset in="blur" dx="4" dy="4" result="offsetBlur"/>
+      <feFlood flood-color="black" flood-opacity="0.45" result="flood"/>
+      <feComposite in="flood" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#drop)">
+    <circle cx="50" cy="50" r="44" fill="none" stroke="red" stroke-width="18" />
+    <line x1="22" y1="78" x2="78" y2="22" stroke="red" stroke-width="18" stroke-linecap="round" />
+  </g>
+</svg>

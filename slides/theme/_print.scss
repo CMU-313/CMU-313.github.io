@@ -1,0 +1,198 @@
+// Print/PDF geometry and branding overrides.
+// Reveal's PDF print view lays out vertical slide stacks differently from the live deck.
+// The actual printable slides are .pdf-page > section, not the original top-level sections.
+// Disable all section branding in print mode first, then re-apply it only to printed pages.
+html.print-pdf .reveal .slides section::before,
+html.print-pdf .reveal .slides section::after {
+  display: none !important;
+}
+
+html.reveal-print .reveal .slides > section {
+  display: none !important;
+}
+
+html.reveal-print .reveal .slides > section.stack {
+  display: none !important;
+  position: absolute !important;
+  inset: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+html.reveal-print .reveal .slides > .pdf-page {
+  display: block !important;
+  height: 719px !important;
+  min-height: 719px !important;
+  max-height: 719px !important;
+  overflow: hidden !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page > .slide-background {
+  background-color: white !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page:has(> section.summary-slide) > .slide-background,
+html.print-pdf .reveal .slides > .pdf-page:has(> section.learning-goals-slide) > .slide-background {
+  background-color: $summary-slide-background !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page:has(> section.activity-slide) > .slide-background {
+  background-color: $activity-slide-background !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page > section:not(#title-slide) {
+  position: relative;
+  height: 700px !important;
+  min-height: 700px !important;
+  max-height: 700px !important;
+  box-sizing: border-box !important;
+  padding-top: 50px !important;
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+  overflow: hidden !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page > section.title-slide:not(#title-slide) {
+  display: flex !important;
+  box-sizing: border-box !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  top: 35px !important;
+  left: 52.5px !important;
+  width: 1050px !important;
+  padding: 0 60px !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page > section.title-slide:not(#title-slide) h1 {
+  margin: 0 !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  line-height: 1.12 !important;
+  overflow-wrap: break-word;
+  text-align: center !important;
+  border-bottom: none !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page > section:not(#title-slide)::after {
+  @include footer-branding($brand-s3d-logo);
+}
+
+html.print-pdf .reveal .slides > .pdf-page > section:not(#title-slide)::before {
+  @include header-branding($brand-cmu-logo);
+}
+
+html.print-pdf .reveal .slides > .pdf-page > section.summary-slide::before,
+html.print-pdf .reveal .slides > .pdf-page > section.learning-goals-slide::before {
+  @include header-branding-reversed($brand-cmu-logo-reverse);
+}
+
+html.print-pdf .reveal .slides > .pdf-page > section.summary-slide::after,
+html.print-pdf .reveal .slides > .pdf-page > section.learning-goals-slide::after {
+  @include footer-branding-reversed($brand-s3d-logo-reverse);
+}
+
+html.reveal-print .reveal .slides > .pdf-page > #title-slide,
+html.print-pdf .reveal .slides > .pdf-page > #title-slide {
+  top: 0 !important;
+  left: 52.5px !important;
+  width: 1050px !important;
+  height: 640px !important;
+  position: relative !important;
+  box-sizing: border-box !important;
+  display: block !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page > #title-slide .title-slide-background,
+html.print-pdf .reveal .slides > .pdf-page > #title-slide .title-slide-texture,
+html.print-pdf .reveal .slides > .pdf-page > #title-slide .title-slide-glow {
+  position: absolute !important;
+  inset: 0 !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page > #title-slide .title-slide-background {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  transform: scale(1.02) !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page > #title-slide .title-slide-glow {
+  inset: auto auto -300px -250px !important;
+  width: 520px !important;
+  height: 520px !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page:first-child .slide-number-pdf {
+  display: none !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page > #title-slide .title-content {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  max-width: none !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 24px 96px 62px 74px !important;
+  text-align: left !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page > #title-slide .title-branding--cmu {
+  top: 34px !important;
+  left: 74px !important;
+  height: 30px !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page > #title-slide .title-branding--s3d {
+  bottom: 24px !important;
+  left: 74px !important;
+  height: 34px !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page > #title-slide .title,
+html.print-pdf .reveal .slides > .pdf-page > #title-slide .subtitle,
+html.print-pdf .reveal .slides > .pdf-page > #title-slide .author,
+html.print-pdf .reveal .slides > .pdf-page > #title-slide .date {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page > #title-slide .title {
+  margin-top: 0 !important;
+  margin-bottom: 18px !important;
+  font-size: 2.08em !important;
+  text-align: left !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page > #title-slide .title-meta {
+  margin-top: 0 !important;
+  padding-top: 12px !important;
+}
+
+// In print mode, many pages are simultaneously marked .present.
+// Re-assert page backgrounds here so the live .present-based rules above don't bleed across pages.
+html.print-pdf .reveal .slides > .pdf-page > .slide-background.present {
+  background-color: white !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page:has(> section.summary-slide) > .slide-background.present,
+html.print-pdf .reveal .slides > .pdf-page:has(> section.learning-goals-slide) > .slide-background.present {
+  background-color: $summary-slide-background !important;
+}
+
+html.print-pdf .reveal .slides > .pdf-page:has(> section.activity-slide) > .slide-background.present {
+  background-color: $activity-slide-background !important;
+}

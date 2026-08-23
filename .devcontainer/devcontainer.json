@@ -1,25 +1,31 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/python
 {
-	"name": "Python 3",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"context": ".."
-	},
-	"postStartCommand": "mkdocs serve"
-
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "pip3 install --user -r requirements.txt",
-
-	// Configure tool-specific properties.
-	// "customizations": {},
-
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+  "name": "17-313: Course Website",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "postCreateCommand": "git submodule update --init --recursive && python -m venv .venv && .venv/bin/python -m pip install -e './vendor/course.md[all]' 'mkdocs-material>=9.5.0' pre-commit && .venv/bin/pre-commit install --install-hooks",
+  "postCreateCommand": "pre-commit install --install-hooks",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "davidanson.vscode-markdownlint",
+        "tamasfe.even-better-toml",
+        "mechatroner.rainbow-csv",
+        "wholroyd.jinja",
+        "ms-python.python",
+        "james-yu.latex-workshop"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/christimperley/course.md/course-md:0.1.1": {
+      "version": "85cb384",
+      "slides": true,
+      "ocr": true,
+      "linters": true
+    },
+    "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
+      "installChromium": false
+    },
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "remoteUser": "vscode"
 }
