@@ -1,7 +1,7 @@
 - date: Sun Aug 23
   homework:
     deadline: Due Sun Aug 30th @ 11:59pm
-    link: ''
+    link: 'projects/P1'
     name: 'Project 1A: Build Checkpoint'
     numDays: 6
   lecture:
@@ -29,7 +29,7 @@
     link: ''
     name: ''
   recitation:
-    handout: '/recitations/reci1-githubdevcontainers'
+    handout: 'recitations/reci1-githubdevcontainers'
     name: 'Recitation 1: GitHub, Dev Containers, and TypeScript'
     quiz: 'https://gradescope.com/courses/1360202/assignments/8461221/'
     slides: ''
@@ -109,7 +109,7 @@
 - date: Mon Aug 31
   homework:
     deadline: Due Sun Sep 6th @ 11:59pm
-    link: ''
+    link:  'projects/P1'
     name: 'Project 1B: Starter Task'
     numDays: 5
   lecture:
