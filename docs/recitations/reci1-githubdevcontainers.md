@@ -7,6 +7,8 @@ title: Recitation 1 - GitHub, Dev Containers, and Typescript
 !!! warning "Long Recitation"
     Because this is the first recitation and you are still familiarizing yourself with the development environment you will use this semester, you may find it a bit overwhelming. For this reason, you have until the end of the day to complete it. By completing this recitation, you are essentially getting started with P1.
 
+!!! note "Before You Begin"
+    The instructions below are designed to work for most students. However, your operating system or configuration may differ from what we expect, and some commands may not work as described. Do not panic—ask a member of the course staff for help. The purpose of this recitation is to identify and resolve any initial setup problems now so that you do not have to worry about them later in the course.
 
 ## Overview
 
@@ -140,7 +142,7 @@ Then open a new terminal:
 You should now be working inside your repository.
 
 
-# Activity 6: Set Up a Dev Container
+## Activity 6: Set Up a Dev Container
 
 Dev Containers allow you to develop inside a consistent, containerized environment. We will discuss containers in more detail later in the course. For now, you should know that Dev Containers simplify the installation and configuration of the development tools required for a project.
 
@@ -242,7 +244,7 @@ VS Code will now reopen your repository inside the Docker container.
 
 ---
 
-## Activity 9: Test NodeJS Inside the Container
+## Activity 9: Test Node.js Inside the Container
 
 Once the container has started, open a new terminal:
 
@@ -256,13 +258,16 @@ Run this command:
 node -v
 ```
 
-Verify that the NodeJS installation runs successfully.
+Verify that the Node.js installation runs successfully.
 
 ```bash
 v24.19.0
 ```
 
-# Activity 10: Translate a simple code into TypeScript
+!!! note "What Did You Accomplish?"
+    You now have Node.js installed and running inside a container without modifying your local machine's configuration. Everyone who uses this Dev Container will have the same development environment—including the exact same version of Node.js. This is particularly useful when working in a team because it ensures that everyone uses the same development tools and avoids compatibility issues caused by differences in local configurations.
+
+## Activity 10: Translate a simple code into TypeScript
 
 This semester, you will be working on the open-source project opencode. Like
 most modern web codebases, opencode is written in TypeScript. Most students
@@ -323,7 +328,7 @@ node greet_students.ts
 Verify that your program runs successfully.
 
 
-# Activity 11: Commit and Push Your Work
+## Activity 11: Commit and Push Your Work
 
 Before submitting, make sure your repository contains all required files.
 
@@ -364,7 +369,20 @@ git push origin main
 
 Refresh your GitHub repository page and verify that your files are visible.
 
-# Submission
+## Final Repository Structure
+
+Your repository should look like:
+
+```text
+{ANDREW-ID}-17313-reci1/
+├── .devcontainer/
+│   └── devcontainer.json
+├── greet_students.ts
+└── README.md
+```
+
+
+## Submission
 
 Submit the **link to your GitHub repository**.
 
@@ -379,16 +397,5 @@ Before submitting, verify that:
 - [ ] Your latest commit has been pushed to GitHub.
 - [ ] The repository link you submit is accessible without signing in.
 
-## Final Repository Structure
 
-Your repository should look like:
-
-```text
-{ANDREW-ID}-17313-reci1/
-├── .devcontainer/
-│   └── devcontainer.json
-├── greet_students.ts
-└── README.md
-```
-
-**Submission:** Submit the URL to your public GitHub repository.
+**Submission:** Submit the URL to your public GitHub repository on [Gradescope](https://gradescope.com/courses/1360202/assignments/8461221/)!
