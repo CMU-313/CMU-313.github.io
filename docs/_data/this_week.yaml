@@ -1,7 +1,13 @@
 lectures:
 - date: Sun Aug 23
-  link: null
+  link: ''
   name: Intro
+- date: Tue Aug 25
+  link: ''
+  name: SE with AI
+  reading:
+    link: readings/R1
+    name: From Technical Debt to Cognitive Debt
 
 projects:
 - date: Sun Aug 23
