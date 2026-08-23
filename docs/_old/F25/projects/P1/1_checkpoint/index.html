@@ -1394,12 +1394,12 @@ You may choose to install and run the project natively, but you will be responsi
 <li>
 <p>Open the repository in VS Code, then choose <strong>“Reopen in Container”</strong> when prompted (bottom-right).
     Alternatively, open the Command Palette (<code>Ctrl/Cmd+Shift+P</code>) and run <strong>“Dev Containers: Reopen in Container”</strong>.</p>
-<p><img alt="VSCode Rebuild Container" src="/assets/images/hw/vscode_rebuild_container.png" /></p>
+<p><img alt="VSCode Rebuild Container" src="/_old/F25/assets/images/hw/vscode_rebuild_container.png" /></p>
 </li>
 <li>
 <p>The container will take a few minutes to build the first time.
     Confirm that installation was successful by checking the <code>node</code> and <code>npm</code> versions from the integrated terminal:</p>
-<p><img alt="VSCode Check Versions" src="/assets/images/hw/vscode_check_versions.png" /></p>
+<p><img alt="VSCode Check Versions" src="/_old/F25/assets/images/hw/vscode_check_versions.png" /></p>
 </li>
 <li>
 <p>Setup your NodeBB installation via the integrated terminal using the command below.
@@ -1419,10 +1419,10 @@ You may choose to install and run the project natively, but you will be responsi
 <div class="highlight"><pre><span></span><code>nodebb<span class="w"> </span>start
 </code></pre></div>
 <p>You should be able to navigate to <a href="http://localhost:4567">http://localhost:4567</a> and see the main forum page, as shown below.</p>
-<p><img alt="NodeBB Main Page" src="/assets/images/hw/nodebb_main.png" /></p>
+<p><img alt="NodeBB Main Page" src="/_old/F25/assets/images/hw/nodebb_main.png" /></p>
 <p>NodeBB listens on port <strong>4567</strong> in the container and is forwarded to <strong>localhost:4567</strong> on your machine (configured by the DevContainer).
 If you need to change the host port (e.g., to avoid a conflict), use the <strong>Ports</strong> tab at the bottom of VS Code and modify the <strong>Forwarded Address</strong>:</p>
-<p><img alt="VSCode Port Forwarding" src="/assets/images/hw/vscode_ports.png" /></p>
+<p><img alt="VSCode Port Forwarding" src="/_old/F25/assets/images/hw/vscode_ports.png" /></p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>In this class, we expect students to first try debugging errors on their own; this includes following stack traces, searching up error strings and unfamiliar outputs, etc.
@@ -1444,7 +1444,7 @@ Luckily, NodeBB is already packaged with a number of neat tools!</p>
 npm<span class="w"> </span>run<span class="w"> </span><span class="nb">test</span>
 </code></pre></div>
 <p>The first time you run the above commands, you may have to run <code>npm install</code> to fetch dependencies and also edit your <code>config.json</code> file to add test dependencies.
-See the <a href="/projects/P1/faq/">FAQ</a> page for more.</p>
+See the <a href="/_old/F25/projects/P1/faq/">FAQ</a> page for more.</p>
 <p>After the test suite finishes running, NodeBB will also generate a <strong>code coverage report</strong>.
 This report gives you measurements with regards to what percentage of the codebase is covered by the test suite.
 Open the <code>index.html</code> file in the <code>coverage</code> folder to see the full report.</p>
