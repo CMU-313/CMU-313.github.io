@@ -62,7 +62,7 @@ nav:
   - Course Overview: overview.md
   - Syllabus: syllabus.md
   - Projects:
-        projects/index.md # Dummy home page; remove once we start adding homework below
+#        projects/index.md # Dummy home page; remove once we start adding homework below
        - "Project 1: Hello, opencode!":
            - projects/P1/index.md
            - 1A Build Checkpoint: projects/P1/1_checkpoint.md
