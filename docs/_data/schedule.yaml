@@ -29,7 +29,7 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
+    handout: '/recitations/reci1-githubdevcontainers'
     name: 'Recitation 1: GitHub/Devcontainers/TypeScript'
     quiz: ''
     slides: ''
