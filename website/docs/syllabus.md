@@ -35,7 +35,7 @@ Research shows that using devices on non-class related activities harms both the
 Note that recitation activities will often involve devices, so please do bring your laptop!
 
 ## Assessment
-Evaluation will be based on the following distribution: **40% projects (35% project work, 5% problem sets), 30% midterms (15% each), 20% participation** (including lecture exercises, pre-lecture reading quizzes, and recitation exercises).
+Evaluation will be based on the following distribution: **40% projects (35% project work, 5% problem sets), 30% midterms (15% each), 10% in-class quizzes, 20% participation**.
 
 ## Problem Sets and Quizzes
 To master the core concepts of software engineering, deliberate and hands-on practice is essential. This semester, 17-313 introduces take-home problem sets and in-class quizzes designed to work in tandem to reinforce course concepts. The problem sets consist of straightforward applications of the material taught in lectures, providing a low-stakes environment to test your understanding, build conceptual fluency, and spot gaps in your mental models early.
