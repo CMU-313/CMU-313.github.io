@@ -1,5 +1,6 @@
 ---
 title: Recitation 10 - Open Source Project and Task Selection Check In
+release_date: 2099-01-01
 ---
 
 # Recitation 10: Open Source Project and Task Selection Check In

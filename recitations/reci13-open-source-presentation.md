@@ -1,5 +1,6 @@
 ---
 title: Recitation 13 - Open Source Project Presentations
+release_date: 2099-01-01
 ---
 
 # Recitation 13 - Open Source Project Presentations

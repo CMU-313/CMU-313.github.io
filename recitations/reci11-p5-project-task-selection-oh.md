@@ -1,5 +1,6 @@
 ---
 title: Recitation 11 - Office Hours for P5 Project and Task Selection
+release_date: 2099-01-01
 ---
 
 # Recitation 11: Office Hours for P5 Project and Task Selection

@@ -1,5 +1,6 @@
 ---
 title: Recitation 7 - Static Analysis and Continuous Integration
+release_date: 2099-01-01
 ---
 
 # Recitation 7: Static Analysis and Continuous Integration

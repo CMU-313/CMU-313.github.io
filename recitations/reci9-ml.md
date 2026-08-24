@@ -1,5 +1,6 @@
 ---
 title: Recitation 9 - Machine Learning
+release_date: 2099-01-01
 ---
 
 

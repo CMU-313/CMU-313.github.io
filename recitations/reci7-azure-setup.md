@@ -1,5 +1,6 @@
 ---
 title: Recitation 7 - Azure Setup
+release_date: 2099-01-01
 ---
 
 # Recitation 7: Azure Setup

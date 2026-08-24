@@ -1,5 +1,6 @@
 ---
 title: Recitation 4 - Team Dysfunction
+release_date: 2099-01-01
 ---
  
 # Recitation 4: Team Dysfunction

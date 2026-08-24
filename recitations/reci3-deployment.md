@@ -1,3 +1,7 @@
+---
+title: Recitation 3 - Deployment
+release_date: 2099-01-01
+---
 
 # Recitation 3: Deployment
 

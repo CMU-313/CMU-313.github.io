@@ -1,5 +1,6 @@
 ---
 title: Recitation 8 - Large Language Models
+release_date: 2099-01-01
 ---
 # Recitation 8: Large Language Models
 

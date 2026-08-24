@@ -1,5 +1,6 @@
 ---
 title: Recitation 12 - Midterm Review
+release_date: 2099-01-01
 ---
 
 # Recitation 12: Midterm Review

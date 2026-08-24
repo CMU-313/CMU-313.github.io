@@ -1,3 +1,8 @@
+---
+title: Recitation 3 - Software Archaeology (TA Guide)
+release_date: 2099-01-01
+---
+
 # Recitation 3: Software Archaeology - TA Guide
 
 !!! warning "TBD: opencode migration"
