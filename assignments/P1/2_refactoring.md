@@ -258,14 +258,14 @@ To receive full credit for this project, we expect:
  	- [ ] Issue form fields completed with Qlty evidence
  	- [ ] Successful bot assignment
 
-- [ ] **Code Refactoring & Validation (20 pts)**
-	- [ ] Target smell reduced/removed (same scope) with before/after Qlty evidence
- 	- [ ] `bun lint` and `bun test` pass locally
- 	- [ ] Test coverage results showing change covered
-    - [ ] Test output showing tests passing.
-
 - [ ] **GitHub Pull Request (25 pts)**
  	- [ ] PR uses the P1B Refactoring PR template and all fields are completed
  	- [ ] PR title includes full path
  	- [ ] Commit messages are meaningful
  	- [ ] All CI checks green
+
+- [ ] **Code Refactoring & Validation (20 pts)**
+	- [ ] Target smell reduced/removed (same scope) with before/after Qlty evidence
+ 	- [ ] `bun lint` and `bun test` pass locally
+ 	- [ ] Test coverage results showing change covered
+    - [ ] Test output showing tests passing.
