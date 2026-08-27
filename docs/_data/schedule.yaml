@@ -41,7 +41,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/02-SWE with AI.pdf'
     name: 'SE with AI'
   reading:
     link: 'readings/R1'
