@@ -160,7 +160,7 @@ hide:
     </div>
     <div class="content">
         Help us improve 17-313 &mdash; tell us what's working and what isn't.
-        <form class="feedback-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdQbdFgSKYbInsC2Pc0aD-UGJBdaNpAb-_xQMg_joSKFaT6Jw/formResponse" target="feedback-hidden-iframe" method="POST">
+        <form class="feedback-form" action="https://docs.google.com/forms/d/e/1FAIpQLSeXF4mqlYDygYskkSrHhkACsNMZfU0rA2u7-WrJRARpdzZTZA/formResponse" target="_self" method="POST">
             <input type="hidden" name="fvv" value="1">
             <input type="hidden" name="fbzx" value="-6121602291606344281">
             <input type="hidden" name="pageHistory" value="0">
@@ -169,7 +169,6 @@ hide:
             {%- set instructors = extra.staff | selectattr("role", "==", "Instructor") | list -%}
             <small>Your comments are sent <em>anonymously</em> to the instructors. If you need a reply, <a href="mailto:{{instructors[0].email}}">email the instructors</a> instead.</small>
         </form>
-        <iframe name="feedback-hidden-iframe" style="display:none;"></iframe>
     </div>
 </div>
 
