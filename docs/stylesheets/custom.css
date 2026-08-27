@@ -250,6 +250,47 @@ a.label:hover {
     padding: 0px 3px;
 }
 
+#this-week .feedback-form {
+    margin-top: 10px;
+}
+
+#this-week .feedback-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: inherit;
+    font-size: 11pt;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    background-color: var(--md-default-bg-color);
+    color: var(--md-default-fg-color);
+}
+
+#this-week .feedback-form button {
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+    border: none;
+    border-radius: 0.28571429rem;
+    padding: 0.5833em 1.2em;
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity .1s ease;
+}
+
+#this-week .feedback-form button:hover {
+    opacity: 0.85;
+}
+
+#this-week .feedback-form small {
+    display: block;
+    margin-top: 6px;
+    font-weight: normal;
+    color: var(--md-default-fg-color--light);
+}
+
 .admonition p.admonition-title,
 details summary {
     font-size: .8rem;

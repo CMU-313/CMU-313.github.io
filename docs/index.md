@@ -154,6 +154,25 @@ hide:
 
 </div>
 
+<div class="card">
+    <div class="header">
+        Feedback
+    </div>
+    <div class="content">
+        Help us improve 17-313 &mdash; tell us what's working and what isn't.
+        <form class="feedback-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdQbdFgSKYbInsC2Pc0aD-UGJBdaNpAb-_xQMg_joSKFaT6Jw/formResponse" target="feedback-hidden-iframe" method="POST">
+            <input type="hidden" name="fvv" value="1">
+            <input type="hidden" name="fbzx" value="-6121602291606344281">
+            <input type="hidden" name="pageHistory" value="0">
+            <textarea name="entry.630539303" rows="3" placeholder="Enter your comments anonymously here." required></textarea>
+            <button type="submit">Submit</button>
+            {%- set instructors = extra.staff | selectattr("role", "==", "Instructor") | list -%}
+            <small>Your comments are sent <em>anonymously</em> to the instructors. If you need a reply, <a href="mailto:{{instructors[0].email}}">email the instructors</a> instead.</small>
+        </form>
+        <iframe name="feedback-hidden-iframe" style="display:none;"></iframe>
+    </div>
+</div>
+
 </div>
 
 ## Class Calendar
@@ -286,7 +305,7 @@ Coming Soon!
                 <a href="mailto:{{instructor.email}}"><span class="material-symbols-outlined">
                     mail
                 </span></a><br />
-		Office hours <a href="https://calendar.app.google/Yp8YDXz2f5zJaBok7" style=""> by appointment </a><br />
+		Office hours <a href="https://calendar.app.google/BcUUbyXDAzcw8xCZ7" style=""> by appointment </a><br />
                 {% if instructor.website %}
                 <a href="{{instructor.website}}" target="_blank"><span class="material-symbols-outlined">
                     public
