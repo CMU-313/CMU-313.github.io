@@ -1,58 +1,23 @@
-- date: Sun Aug 23
+- date: Sun Aug 24
   homework:
-    deadline: Due Sun Aug 30th @ 11:59pm
-    link: 'projects/P1'
-    name: 'Project 1A: Build Checkpoint'
+    homework:
+    deadline: "Due Sun Aug 31 @ 11:59pm"
+    link: "/projects/P1"
+    name: "Project 1A: Build Checkpoint"
     numDays: 6
   lecture:
-    link: 'assets/pdfs/01-Intro.pdf'
-    name: Intro
+    link: ""
+    name: ''
   reading:
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
+    handout: '/recitations/rec1-nodebb'
+    name: 'Recitation 1: NodeBB'
     quiz: ''
     slides: ''
 
-- date: Mon Aug 24
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: 'recitations/reci1-githubdevcontainers'
-    name: 'Recitation 1: GitHub, Dev Containers, and TypeScript'
-    quiz: 'https://gradescope.com/courses/1360202/assignments/8461221/'
-    slides: ''
-
-- date: Tue Aug 25
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: 'SE with AI'
-  reading:
-    link: 'readings/R1'
-    name: 'From Technical Debt to Cognitive Debt'
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Wed Aug 26
+- date: Mon Aug 25
   homework:
     deadline: ''
     link: ''
@@ -70,7 +35,25 @@
     quiz: ''
     slides: ''
 
-- date: Thu Aug 27
+- date: Tue Aug 26
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ""
+    name: ''
+  reading:
+    link: ""
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Aug 27
   homework:
     deadline: ''
     link: ''
@@ -88,7 +71,7 @@
     quiz: ''
     slides: ''
 
-- date: Sun Aug 30
+- date: Thu Aug 28
   homework:
     deadline: ''
     link: ''
@@ -96,34 +79,35 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Metrics and Measurements'
+    name: ''
   reading:
-    link: 'readings/R2'
-    name: 'Metrics and Measurements'
+    link: ''
+    name: ''
   recitation:
     handout: ''
     name: ''
     quiz: ''
     slides: ''
 
-- date: Mon Aug 31
+- date: Sun Aug 31
   homework:
-    deadline: Due Sun Sep 6th @ 11:59pm
-    link:  'projects/P1'
-    name: 'Project 1B: Starter Task'
+    deadline: ""
+    link: ""
+    name: ""
     numDays: 5
   lecture:
     link: ''
     name: ''
   reading:
-    link: ''
+    link: ""
     name: ''
   recitation:
     handout: ''
     name: ''
     quiz: ''
     slides: ''
-- date: Tue Sep 01
+
+- date: Mon Sep 01
   homework:
     deadline: ''
     link: ''
@@ -131,27 +115,27 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Case Study 737MAX'
+    name: ''
   reading:
-    link: "readings/R3"
-    name: 'Case Study 737MAX'
+    link: ''
+    name: ''
   recitation:
     handout: ''
     name: ''
     quiz: ''
     slides: ''
 
-- date: Wed Sep 02
+- date: Tue Sep 02
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: ""
     name: ''
   reading:
-    link: ''
+    link: ""
     name: ''
   recitation:
     handout: ''
@@ -159,7 +143,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Sep 03
+- date: Wed Sep 03
   homework:
     deadline: ''
     link: ''
@@ -177,11 +161,11 @@
     quiz: ''
     slides: ''
 
-- date: Sun Sep 06
+- date: Thu Sep 04
   homework:
-    deadline:
-    link:
-    name:
+    deadline: ''
+    link: ""
+    name: ''
     numDays: 0
   lecture:
     link: ''
@@ -191,16 +175,16 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: ' '
     quiz: ''
     slides: ''
 
-- date: Mon Sep 07
+- date: Sun Sep 07
   homework:
-    deadline: 'Due Sun Sep 13th @ 11:59pm'
-    link: ''
-    name: 'Project 2A'
-    numDays: 5
+    deadline: ''
+    link: ""
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -213,7 +197,7 @@
     quiz: ''
     slides: ''
 
-- date: Tue Sep 08
+- date: Mon Sep 08
   homework:
     deadline: ''
     link: ''
@@ -231,7 +215,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Sep 09
+- date: Tue Sep 9
   homework:
     deadline: ''
     link: ''
@@ -249,7 +233,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Sep 10
+- date: Wed Sep 10
   homework:
     deadline: ''
     link: ''
@@ -267,7 +251,7 @@
     quiz: ''
     slides: ''
 
-- date: Sun Sep 13
+- date: Thu Sep 11
   homework:
     deadline: ''
     link: ''
@@ -275,7 +259,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: NO CLASS
+    name: ''
   reading:
     link: ''
     name: ''
@@ -285,15 +269,15 @@
     quiz: ''
     slides: ''
 
-- date: Mon Sep 14
+- date: Sun Sep 14
   homework:
     deadline: ''
-    link: ''
+    link: ""
     name: ''
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS'
   reading:
     link: ''
     name: ''
@@ -303,7 +287,7 @@
     quiz: ''
     slides: ''
 
-- date: Tue Sep 15
+- date: Mon Sep 15
   homework:
     deadline: ''
     link: ''
@@ -311,7 +295,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS'
   reading:
     link: ''
     name: ''
@@ -321,7 +305,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Sep 16
+- date: Tue Sep 16
   homework:
     deadline: ''
     link: ''
@@ -339,7 +323,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Sep 17
+- date: Wed Sep 17
   homework:
     deadline: ''
     link: ''
@@ -357,7 +341,7 @@
     quiz: ''
     slides: ''
 
-- date: Sun Sep 20
+- date: Thu Sep 18
   homework:
     deadline: ''
     link: ''
@@ -375,7 +359,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Sep 21
+- date: Sun Sep 21
   homework:
     deadline: ''
     link: ''
@@ -393,7 +377,7 @@
     quiz: ''
     slides: ''
 
-- date: Tue Sep 22
+- date: Mon Sep 22
   homework:
     deadline: ''
     link: ''
@@ -411,7 +395,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Sep 23
+- date: Tue Sep 23
   homework:
     deadline: ''
     link: ''
@@ -429,11 +413,11 @@
     quiz: ''
     slides: ''
 
-- date: Thu Sep 24
+- date: Wed Sep 24
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: ""
+    link: ""
+    name: ""
     numDays: 0
   lecture:
     link: ''
@@ -447,7 +431,7 @@
     quiz: ''
     slides: ''
 
-- date: Sun Sep 27
+- date: Thu Sep 25
   homework:
     deadline: ''
     link: ''
@@ -465,10 +449,10 @@
     quiz: ''
     slides: ''
 
-- date: Mon Sep 28
+- date: Sun Sep 28
   homework:
     deadline: ''
-    link: ''
+    link: ""
     name: ''
     numDays: 0
   lecture:
@@ -483,7 +467,7 @@
     quiz: ''
     slides: ''
 
-- date: Tue Sep 29
+- date: Mon Sep 29
   homework:
     deadline: ''
     link: ''
@@ -501,7 +485,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Sep 30
+- date: Tue Aug 30
   homework:
     deadline: ''
     link: ''
@@ -519,7 +503,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Oct 01
+- date: Wed Oct 01
   homework:
     deadline: ''
     link: ''
@@ -537,7 +521,7 @@
     quiz: ''
     slides: ''
 
-- date: Sun Oct 04
+- date: Thu Oct 02
   homework:
     deadline: ''
     link: ''
@@ -555,7 +539,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Oct 05
+- date: Sun Oct 05
   homework:
     deadline: ''
     link: ''
@@ -573,7 +557,7 @@
     quiz: ''
     slides: ''
 
-- date: Tue Oct 06
+- date: Mon Oct 06
   homework:
     deadline: ''
     link: ''
@@ -581,17 +565,17 @@
     numDays: 0
   lecture:
     link: ''
-    name: MIDTERM 1
+    name: ''
   reading:
-    link: readings/midterm1-instructions
-    name: Instructions & Past Exams
+    link: ''
+    name: ''
   recitation:
     handout: ''
     name: ''
     quiz: ''
     slides: ''
 
-- date: Wed Oct 07
+- date: Tue Oct 07
   homework:
     deadline: ''
     link: ''
@@ -609,7 +593,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Oct 08
+- date: Wed Oct 08
   homework:
     deadline: ''
     link: ''
@@ -627,7 +611,7 @@
     quiz: ''
     slides: ''
 
-- date: Sun Oct 11
+- date: Thu Oct 09
   homework:
     deadline: ''
     link: ''
@@ -635,7 +619,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: NO CLASS (Fall Break)
+    name: ''
   reading:
     link: ''
     name: ''
@@ -645,7 +629,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Oct 12
+- date: Sun Oct 12
   homework:
     deadline: ''
     link: ''
@@ -653,7 +637,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: NO CLASS (Fall Break)
+    name: 'NO CLASS (Fall Break)'
   reading:
     link: ''
     name: ''
@@ -663,7 +647,7 @@
     quiz: ''
     slides: ''
 
-- date: Tue Oct 13
+- date: Mon Oct 13
   homework:
     deadline: ''
     link: ''
@@ -671,7 +655,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: NO CLASS (Fall Break)
+    name: ''
   reading:
     link: ''
     name: ''
@@ -681,7 +665,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Oct 14
+- date: Tue Oct 14
   homework:
     deadline: ''
     link: ''
@@ -689,7 +673,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS (Fall Break)'
   reading:
     link: ''
     name: ''
@@ -699,7 +683,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Oct 15
+- date: Wed Oct 15
   homework:
     deadline: ''
     link: ''
@@ -717,7 +701,7 @@
     quiz: ''
     slides: ''
 
-- date: Sun Oct 18
+- date: Thu Oct 16
   homework:
     deadline: ''
     link: ''
@@ -725,7 +709,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS (Fall Break)'
   reading:
     link: ''
     name: ''
@@ -735,11 +719,11 @@
     quiz: ''
     slides: ''
 
-- date: Mon Oct 19
+- date: Sun Oct 19
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: ""
+    link: ""
+    name: ""
     numDays: 0
   lecture:
     link: ''
@@ -753,7 +737,7 @@
     quiz: ''
     slides: ''
 
-- date: Tue Oct 20
+- date: Mon Oct 20
   homework:
     deadline: ''
     link: ''
@@ -771,7 +755,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Oct 21
+- date: Tue Oct 21
   homework:
     deadline: ''
     link: ''
@@ -789,7 +773,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Oct 22
+- date: Wed Oct 22
   homework:
     deadline: ''
     link: ''
@@ -807,7 +791,7 @@
     quiz: ''
     slides: ''
 
-- date: Sun Oct 25
+- date: Thu Oct 23
   homework:
     deadline: ''
     link: ''
@@ -820,16 +804,16 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
+    handout:  ''
     name: ''
     quiz: ''
     slides: ''
 
-- date: Mon Oct 26
+- date: Sun Oct 26
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: ""
+    link: ""
+    name: ""
     numDays: 0
   lecture:
     link: ''
@@ -843,11 +827,11 @@
     quiz: ''
     slides: ''
 
-- date: Tue Oct 27
+- date: Mon Oct 27
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: ""
+    link: ""
+    name: ""
     numDays: 0
   lecture:
     link: ''
@@ -861,7 +845,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Oct 28
+- date: Tue Oct 28
   homework:
     deadline: ''
     link: ''
@@ -879,7 +863,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Oct 29
+- date: Wed Oct 29
   homework:
     deadline: ''
     link: ''
@@ -897,7 +881,7 @@
     quiz: ''
     slides: ''
 
-- date: Sun Nov 01
+- date: Thu Oct 30
   homework:
     deadline: ''
     link: ''
@@ -910,16 +894,34 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
+    handout:  ''
     name: ''
     quiz: ''
     slides: ''
 
-- date: Mon Nov 02
+- date: Sun Nov 02
   homework:
-    deadline: ''
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
+  lecture:
+    link: ""
+    name: ''
+  reading:
     link: ''
+    name: ''
+  recitation:
+    handout: ''
     name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Nov 03
+  homework:
+    deadline: ""
+    link: ""
+    name: ""
     numDays: 0
   lecture:
     link: ''
@@ -933,25 +935,25 @@
     quiz: ''
     slides: ''
 
-- date: Tue Nov 03
+- date: Tue Nov 04
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: assets/pdfs/18-AI-for-SE.pdf
-    name: ML/AI for SE
+    link: ''
+    name: ''
   reading:
-    link: readings/R10
-    name: Intro to LLMs
+    link: ''
+    name: ''
   recitation:
     handout: ''
     name: ''
     quiz: ''
     slides: ''
 
-- date: Wed Nov 04
+- date: Wed Nov 05
   homework:
     deadline: ''
     link: ''
@@ -969,7 +971,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Nov 05
+- date: Thu Nov 06
   homework:
     deadline: ''
     link: ''
@@ -987,14 +989,14 @@
     quiz: ''
     slides: ''
 
-- date: Sun Nov 08
+- date: Sun Nov 9
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: ""
     name: ''
   reading:
     link: ''
@@ -1005,11 +1007,11 @@
     quiz: ''
     slides: ''
 
-- date: Mon Nov 09
+- date: Mon Nov 10
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: ""
+    link: ""
+    name: ""
     numDays: 0
   lecture:
     link: ''
@@ -1023,14 +1025,14 @@
     quiz: ''
     slides: ''
 
-- date: Tue Nov 10
+- date: Tue Nov 11
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: ""
+    link: ""
+    name: ""
     numDays: 0
   lecture:
-    link: ''
+    link: ""
     name: ''
   reading:
     link: ''
@@ -1041,7 +1043,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Nov 11
+- date: Wed Nov 12
   homework:
     deadline: ''
     link: ''
@@ -1049,7 +1051,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS'
   reading:
     link: ''
     name: ''
@@ -1059,7 +1061,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Nov 12
+- date: Thu Nov 13
   homework:
     deadline: ''
     link: ''
@@ -1067,7 +1069,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS'
   reading:
     link: ''
     name: ''
@@ -1077,7 +1079,7 @@
     quiz: ''
     slides: ''
 
-- date: Sun Nov 15
+- date: Sun Nov 16
   homework:
     deadline: ''
     link: ''
@@ -1095,7 +1097,7 @@
     quiz: ''
     slides: ''
 
-- date: Mon Nov 16
+- date: Mon Nov 17
   homework:
     deadline: ''
     link: ''
@@ -1113,11 +1115,11 @@
     quiz: ''
     slides: ''
 
-- date: Tue Nov 17
+- date: Tue Nov 18
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: ""
+    link: ""
+    name: ""
     numDays: 0
   lecture:
     link: ''
@@ -1131,7 +1133,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Nov 18
+- date: Wed Nov 19
   homework:
     deadline: ''
     link: ''
@@ -1149,7 +1151,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Nov 19
+- date: Thu Nov 20
   homework:
     deadline: ''
     link: ''
@@ -1167,11 +1169,11 @@
     quiz: ''
     slides: ''
 
-- date: Sun Nov 22
+- date: Sun Nov 23
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: ""
+    link: ""
+    name: ""
     numDays: 0
   lecture:
     link: ''
@@ -1185,11 +1187,11 @@
     quiz: ''
     slides: ''
 
-- date: Mon Nov 23
+- date: Mon Nov 24
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: ""
+    link: ""
+    name: ""
     numDays: 0
   lecture:
     link: ''
@@ -1203,7 +1205,7 @@
     quiz: ''
     slides: ''
 
-- date: Tue Nov 24
+- date: Tue Nov 25
   homework:
     deadline: ''
     link: ''
@@ -1221,10 +1223,10 @@
     quiz: ''
     slides: ''
 
-- date: Wed Nov 25
+- date: Wed Nov 26
   homework:
     deadline: ''
-    link: ''
+    link: ""
     name: ''
     numDays: 0
   lecture:
@@ -1239,14 +1241,14 @@
     quiz: ''
     slides: ''
 
-- date: Thu Nov 26
+- date: Thu Nov 27
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: ""
     name: ''
   reading:
     link: ''
@@ -1257,25 +1259,25 @@
     quiz: ''
     slides: ''
 
-- date: Sun Nov 29
+- date: Sun Nov 30
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: ""
+    link: ""
+    name: ""
     numDays: 0
   lecture:
     link: ''
-    name: MIDTERM 2
+    name: ''
   reading:
-    link: readings/midterm2-instructions
-    name: Instructions & Past Exams
+    link: ''
+    name: ''
   recitation:
     handout: ''
     name: ''
     quiz: ''
     slides: ''
 
-- date: Mon Nov 30
+- date: Mon Dec 01
   homework:
     deadline: ''
     link: ''
@@ -1293,15 +1295,15 @@
     quiz: ''
     slides: ''
 
-- date: Tue Dec 01
+- date: Tue Dec 02
   homework:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: TBD
+    link: ""
+    name: ''
   reading:
     link: ''
     name: ''
@@ -1311,7 +1313,7 @@
     quiz: ''
     slides: ''
 
-- date: Wed Dec 02
+- date: Wed Dec 03
   homework:
     deadline: ''
     link: ''
@@ -1329,7 +1331,7 @@
     quiz: ''
     slides: ''
 
-- date: Thu Dec 03
+- date: Thu Dec 04
   homework:
     deadline: ''
     link: ''
