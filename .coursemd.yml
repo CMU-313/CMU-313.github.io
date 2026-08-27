@@ -72,7 +72,8 @@ schedule:
 
     - kind: lecture
       date: 2026-08-27
-      title: "Metrics and Measurement"
+      title: "Responsible AI use in SE"
+      link: /assets/pdfs/02-responsible-AI-use.pdf
 
     - kind: lecture
       date: 2026-09-01
