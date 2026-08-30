@@ -18,7 +18,7 @@ After this recitation, students will have met their teams and completed a rough 
 
 ## Activity 1: Get to know your team! 
 
-See team assignments [here](https://docs.google.com/spreadsheets/d/1TQ1ad58Es5hK81vJSTL-5O4Fz54Y6Fhe8QhngYm8BC4/edit?usp=sharing). Do some quick intros, then get ready for.. 
+See team assignments [here](https://docs.google.com/spreadsheets/d/19qAL4r-QoB19PBsEq9odXQ1_VVdn8OqcO2L9GeRQRxw/edit?usp=sharing). Do some quick intros, then get ready for... 
   
 ### **Activity 1A: Similarities!**
 
@@ -68,7 +68,7 @@ Here are **some** important questions to consider regarding distributing respons
 -   How will the team address any issues related to teamwork that may arise?
 -   What steps will the team take if a member is contributing too little, and at what point will this issue be escalated to the instructors?
 
-Remember to do Recitation Quiz 2 on Gradescope! Please only open it after you have completed all the steps above.
+Remember to do [Recitation 2 quiz](https://www.gradescope.com/courses/1356702/assignments/8417866) on Gradescope! Please only open it after you have completed all the steps above.
 
 ### **Activity 3: Group Reflection**
 
