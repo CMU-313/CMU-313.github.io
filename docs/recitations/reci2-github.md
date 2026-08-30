@@ -19,7 +19,7 @@ After this recitation, the students should be able to use Git and GitHub for the
 
 ## Activity 1a: Forking a repo and adding a collaborator
 
-- Have either you or your partner fork [this repository](https://github.com/CMU-17313Q/github-recitation-ts), then add the other person as a collaborator on GitHub. You can do so by clicking on **Settings**, then **Collaborators**
+- Have either you or your partner fork [this repository](https://github.com/CMU-17313Q/github-recitation-ts-f26), then add the other person as a collaborator on GitHub. You can do so by clicking on **Settings**, then **Collaborators**
 - Under the General tab in **Settings**, check the "Issues" checkbox in the "Features" section to enable the issues pane for your repository
   ![Github Permissions](../assets/images/reci/reci1-github-permissions.png)
 - Clone the repository onto your local machine
@@ -47,7 +47,12 @@ Our GH actions pipeline suggests that the main branch is broken! Let’s walk th
 
 - In your local machine, create a new branch with a relevant name to the issue you are addressing (e.g. _"fix-header-sizing-issue"_, _"fix-multiple-dialog-bug"_, _"add-sorting-feature"_)
 - Fix the issue that you were assigned to, then add and commit the changes
-  - Commits should start with a verb, and what it does to the codebase (e.g. _"Remove faulty condition from getCustomerDetails"_, _"Fix failing CompositeTestCase"_, _"Fix issue #21"_ )
+    - Run the linter locally:
+      ```bash
+      npm run lint
+      ```
+    - Fix any lint errors before committing.
+- Commits should start with a verb, and what it does to the codebase (e.g. _"Remove faulty condition from getCustomerDetails"_, _"Fix failing CompositeTestCase"_, _"Fix issue #21"_ )
 - Push the branch to remote
 
 ```

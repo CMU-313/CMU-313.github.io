@@ -119,8 +119,8 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
+    handout: 'recitations/reci2-github'
+    name: 'Recitation 2: Git Collaboration'
     quiz: ''
     slides: ''
 - date: Tue Sep 01
