@@ -60,6 +60,10 @@ There will be **no make-ups** for participation points, but you are strongly enc
 
 If you find yourself in a situation that calls for an extended absence, please have your academic advisor reach out to the instructors, and they will work to find a solution on a case by case basis.
 
+### Quizzes
+
+Your lowest two quiz grades will be dropped automatically at the end of the semester. If you miss a quiz, that absence counts toward these two drops. Missed quizzes consume up to two of your four total participation drops. Missing class on a quiz day uses only one drop overall—it covers both the quiz and any other participation activities on that day. There are no make-up quizzes. If you face extended medical or personal emergencies, contact your academic advisor to request an exception.
+
 ### Projects
 Late work will receive feedback but no credit. Due to heavy emphasis on planning & teamwork in this course there are no late days; we expect that you **anticipate unexpected events in your planning**, and coordinate with your teammates when they arise. Exceptions to this policy will be made only in extraordinary circumstances, almost always involving a family or medical emergency, with your academic advisor or the Dean of Student Affairs requesting the exception on your behalf. 
 
