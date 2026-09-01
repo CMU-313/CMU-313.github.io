@@ -34,10 +34,10 @@ You will be working on your team repository for this project. Once you have deci
     After you join a team on GitHub, you cannot change teams! Make sure that **only one** of you creates the team, and make sure that the remaining teammates join the right team.
  
 
-Once you enter your team name, Github will automatically create a repository for your team. You should then create a **Github Project board** for your repository (you can follow the steps from the [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) or the note below).
+Once you enter your team name, Github will automatically create a repository for your team. You should then create a **Github Project board** for your repository (you can follow the steps from the [GitHub Exercise](/assignments/P1/github.md/#setting-up-a-project-board) or the note below).
 
 !!! tip
-    From previous semesters, this guide [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) gives more specifics on good issue writing, commit writing and PRs. TAs have created this more recent [guide](https://docs.google.com/document/d/1edD2SSXu3d3TqYb_XzywiG4dpct6KVFhbT3PYZwItQM/edit?usp=sharing) for making good PRs and commits.
+    From previous semesters, this guide [GitHub Exercise](/assignments/P1/github.md/) gives more specifics on good issue writing, commit writing and PRs. TAs have created this more recent [guide](https://docs.google.com/document/d/1edD2SSXu3d3TqYb_XzywiG4dpct6KVFhbT3PYZwItQM/edit?usp=sharing) for making good PRs and commits.
 
 !!! note "Setting up a Project Kanban Board and Creating Issues"
     Project boards are a great way to track development. While there are lots of great external tools such as Trello or Jira, GitHub provides their own project boards for us to use with great integration support of their other features. 
