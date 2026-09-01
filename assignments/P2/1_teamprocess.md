@@ -205,5 +205,5 @@ To receive full credit for the project planning, we expect:
 
 - [ ] A Group GitHub project board linked to your team repository with:
     - [ ] A User Story column containing at least two user stories per group member that satisfy the guidelines outlined in the sections above and in lecture
-    - [ ] Students should link their User Story as part of their own individual submission
     - [ ] A link to the Backlog column containing a series of well written GitHub issues describing the feature(s) that the team will tackle. Each issue makes use of GitHub features to denote all of the required information listed above
+    - [ ] Students should link their assigned GitHub issue(s) as part of their own individual submission
