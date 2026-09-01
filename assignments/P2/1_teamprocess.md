@@ -137,7 +137,7 @@ As a team, you should then come up with a prioritization ranking for each user s
 
 Once you have your list of user stories, go to the Project board that was created during Team Setup. Then create two new columns to the left called **"User Stories"** and **"Backlog"**. At this point in time, you should have **"User Stories", "Backlog", "Todo", "In Progress" and "Done"**, in that order from left to right. Feel free to add more columns if your teams decide that you need them during your development process
 
-Add your user stories into the **"User Stories"** column using the **“+ Add item”** button at the bottom, create draft issues for each of your user stories.In the body of each of these draft issues, provide a brief but concrete justification of its prioritization ranking that your team decided on. You should order all the user stories in this column from highest to lowest priority.
+Add your user stories into the **"User Stories"** column using the **“+ Add item”** button at the bottom, create draft issues for each of your user stories. In the body of each of these draft issues, provide a brief but concrete justification of its prioritization ranking that your team decided on. You should order all the user stories in this column from highest to lowest priority.
 
 #### Technical Requirements - Issues
 
