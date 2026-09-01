@@ -77,15 +77,16 @@ schedule:
 
     - kind: lecture
       date: 2026-09-01
-      title: "Case Study 737MAX"
+      title: "Project Planning"
+      link: /assets/pdfs/03-project-planning.pdf
 
     - kind: lecture
       date: 2026-09-03
-      title: "AI Usage/AI for SE"
+      title: "Case Study 737MAX"
 
     - kind: lecture
       date: 2026-09-08
-      title: "Project Planning (+HW 1 retro)"
+      title: "TBD"
 
     - kind: lecture
       date: 2026-09-10
