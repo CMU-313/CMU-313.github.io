@@ -65,7 +65,7 @@ If you did not meet your development goals, you should outline what you plan to 
 !!! note "A Note on Participation"
     **Participation from all team members during the presentation is required.** If you are unable to attend in-person, send a Slack message to your recitation TAs with justifications **at least 24 hours before the start of your recitation**. You will then be permitted to present by submitting a recording of your segment of the presentation, which your teammate will play during the presentation.
 
-The presentation slides should be exported into a PDF and submitted to Gradescope by the Sunday deadline.
+The presentation slides should be exported into a PDF and submitted to Gradescope by the Sunday deadline. The original copy should also be in your team folder created by your TAs in Recitation 2. 
 
 ## Extra Credit (2 pts)
 Getting to know your colleagues in a friendly context can often lead to more effective collaboration; for example, healthy teams often get lunch together. To incentivize this, we will give your team extra credit for this assignment if you meet for a team bonding experience outside of a working session.
