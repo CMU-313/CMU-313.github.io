@@ -84,9 +84,9 @@ To receive full credit for the individual process and implementation, we expect:
 - [ ] Fulfillment of implementation goals as outlined by the planned milestones, **or** a clearly written justification in the milestone description of why elements fell through
 - [ ] An updated Project Board for the current progress
 - [ ] Reasonable code structure and style, including documentation where appropriate
-- [ ] Coherent commits by all group members with reasonable size with meaningful commit messages by all team members
+- [ ] Coherent commits of reasonable size with meaningful commit messages by all team members
 - [ ] High quality usage of Git/GitHub tools, such as issues, milestones, pull requests, and commits
-- [ ] Links to Commits and PRs individual group members participated in
+- [ ] Links to Commits and PRs individual you participated in
 
 To receive full credit for the presentation, we expect:
 
