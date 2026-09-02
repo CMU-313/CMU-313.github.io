@@ -77,10 +77,10 @@ To receive extra credit, submit a photo of your team activity as part of the P2B
 
 ## Grading
 
-To receive full credit for the implementation, we expect:
+To receive full credit for the individual process and implementation, we expect:
 
-- [ ] Each team member has their own named feature branch with a working implementation of their individually assigned issue
-- [ ] Each team member has opened a well-written pull request from their branch to the team repository, referencing their issue, with at least some teammate review/comments — the PR does not need to be merged yet (see Second Sprint)
+- [ ] Your own named feature branch with a working implementation of your individually assigned issue
+- [ ] You have opened a well-written pull request from your branch to the team repository, referencing your issue, with at least some teammate review/comments — the PR does not need to be merged yet (see Second Sprint)
 - [ ] Fulfillment of implementation goals as outlined by the planned milestones, **or** a clearly written justification in the milestone description of why elements fell through
 - [ ] An updated Project Board for the current progress
 - [ ] Reasonable code structure and style, including documentation where appropriate
