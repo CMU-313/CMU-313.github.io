@@ -22,9 +22,8 @@ This sprint is where your individual Sprint 1 branch gets finished and thoroughl
 As you become more familiar with the codebase, we have higher expectations for the final deliverables of this sprint. Specifically, for **your individual issue from Sprint 1**, we expect to see:
 
 - **Thorough Testing & Verification**
-    - Before merging, thoroughly test your implementation and add tests to the test suite that demonstrate the functionality you implemented. Your tests should cover the changes you made.
-    - These should follow the acceptance criteria you set from the initial planning
-    - Your PR should clearly explain why your testing and verification is enough to ensure your code is correct.
+    - Before merging, thoroughly test your implementation and add tests to the test suite that demonstrate the functionality you implemented. Your tests should cover the changes you made. They should follow the acceptance criteria you set from the initial planning in 2A. 
+    - Your PR should clearly explain why your testing and verification are enough to ensure your code is correct.
     - CI should pass for your feature branch.
 
 - **User Documentation**
