@@ -99,7 +99,7 @@ Being able to communicate effectively is an important software engineering skill
 ## Individual Reflection (10 pts)
 
 !!! warning "Use of Generative AI discouraged"
-    Historically, we have found the use of generative AI tools for this part of the assignment has resulted in poor work being submitted. It is your responsibility to make sure that you and your group feel comfortable with each others work and are putting in your best effort.
+    Historically, we have found the use of generative AI tools for this part of the assignment has resulted in poor work being submitted. It is your responsibility to make sure that you feel comfortable with the work you submit and are putting in your best effort.
 
 In addition to the team reflection, you will also be submitting an individual reflection on Gradescope. 
 
