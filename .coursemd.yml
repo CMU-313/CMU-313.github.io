@@ -83,6 +83,7 @@ schedule:
     - kind: lecture
       date: 2026-09-03
       title: "Case Study 737MAX"
+      link: /assets/pdfs/04-737MAX.pdf
 
     - kind: lecture
       date: 2026-09-08
