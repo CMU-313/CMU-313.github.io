@@ -233,7 +233,7 @@ Automated checks (lint/tests) will run on your PR.
 If CI fails but your local machine passes, try re-running the job once; if it still fails, comment in the PR and ping the staff.
 
 !!! note "Test Suite Failures"
-	If the tests are failing on GitHub but work locally, it may be caused by server overload. DM a staff member on Slack or go to office hours to have one of us rerun it for you.
+	If the tests are failing on GitHub but work locally, it may be caused by server overload. ~~Re-running the failing GitHub Action 1-2 times will resolve this.~~ DM a staff member on Slack or go to office hours to have one of us rerun it for you.
 
 You should ensure that **all checks are green.**
 A green checkmark on the PR signals that you’ve completed the implementation aspect of this assignment. ✅
