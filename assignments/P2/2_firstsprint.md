@@ -28,7 +28,7 @@ You should still follow best practices for collaborative development, such as us
 A helpful resource for naming commits to practice best habits and make it easier for your teammates to review your code is [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/). Consider using this format to ensure your PRs have atomic, well named commits.
 
 !!! tip
-    We highly encourage taking a look at both [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) and this (REALLY USEFUL) [guide](https://docs.google.com/document/d/1X490SwaJbtus0KPBsjKlnNZOxUs30upkSyIvWykXkrA/edit?tab=t.0#heading=h.9lgvngivw7vj) for making good issues, commits and PRs.
+    We highly encourage taking a look at both [GitHub Exercise](https://github.com/CMU-313/CMU-313.github.io/blob/p2_f26/assignments/P1/github.md) and this (REALLY USEFUL) [guide](https://docs.google.com/document/d/1X490SwaJbtus0KPBsjKlnNZOxUs30upkSyIvWykXkrA/edit?usp=sharing) for making good issues, commits and PRs.
 
 Be sure to **review each other’s code** - both from a quality assurance standpoint, but also so you have a better understanding of the codebase. Although code reviews can be done asynchronously, we encourage the first few to be done synchronously so you can discuss the changes with your teammates and learn more about the codebase.
 
@@ -65,7 +65,7 @@ If you did not meet your development goals, you should outline what you plan to 
 !!! note "A Note on Participation"
     **Participation from all team members during the presentation is required.** If you are unable to attend in-person, send a Slack message to your recitation TAs with justifications **at least 24 hours before the start of your recitation**. You will then be permitted to present by submitting a recording of your segment of the presentation, which your teammate will play during the presentation.
 
-The presentation slides should be exported into a PDF and submitted to Gradescope by the Sunday deadline.
+The presentation slides should be exported into a PDF and submitted to Gradescope by the Sunday deadline. The original copy should also be in your team folder created by your TAs in Recitation 2. 
 
 ## Extra Credit (2 pts)
 Getting to know your colleagues in a friendly context can often lead to more effective collaboration; for example, healthy teams often get lunch together. To incentivize this, we will give your team extra credit for this assignment if you meet for a team bonding experience outside of a working session.
@@ -77,16 +77,16 @@ To receive extra credit, submit a photo of your team activity as part of the P2B
 
 ## Grading
 
-To receive full credit for the implementation, we expect:
+To receive full credit for the individual process and implementation, we expect:
 
-- [ ] Each team member has their own named feature branch with a working implementation of their individually assigned issue
-- [ ] Each team member has opened a well-written pull request from their branch to the team repository, referencing their issue, with at least some teammate review/comments — the PR does not need to be merged yet (see Second Sprint)
+- [ ] Your own named feature branch with a working implementation of your individually assigned issue
+- [ ] You have opened a well-written pull request from your branch to the team repository, referencing your issue, with at least some teammate review/comments — the PR does not need to be merged yet (see Second Sprint)
 - [ ] Fulfillment of implementation goals as outlined by the planned milestones, **or** a clearly written justification in the milestone description of why elements fell through
 - [ ] An updated Project Board for the current progress
 - [ ] Reasonable code structure and style, including documentation where appropriate
-- [ ] Coherent commits by all group members with reasonable size with meaningful commit messages by all team members
+- [ ] Coherent commits of reasonable size with meaningful commit messages by all team members
 - [ ] High quality usage of Git/GitHub tools, such as issues, milestones, pull requests, and commits
-- [ ] Links to Commits and PRs individual group members participated in
+- [ ] Links to Commits and PRs you participated in
 
 To receive full credit for the presentation, we expect:
 

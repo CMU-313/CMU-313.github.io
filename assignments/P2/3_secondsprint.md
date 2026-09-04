@@ -22,16 +22,15 @@ This sprint is where your individual Sprint 1 branch gets finished and thoroughl
 As you become more familiar with the codebase, we have higher expectations for the final deliverables of this sprint. Specifically, for **your individual issue from Sprint 1**, we expect to see:
 
 - **Thorough Testing & Verification**
-    - Before merging, thoroughly test your implementation and add tests to the test suite that demonstrate the functionality you implemented. Your tests should cover the changes you made.
-    - These should follow the acceptance criteria you set from the initial planning
-    - Your PR should clearly explain why your testing and verification is enough to ensure your code is correct.
+    - Before merging, thoroughly test your implementation and add tests to the test suite that demonstrate the functionality you implemented. Your tests should cover the changes you made. They should also follow the acceptance criteria you set from the initial planning in 2A. 
+    - Your PR should clearly explain why your testing and verification are enough to ensure your code is correct.
     - CI should pass for your feature branch.
 
 - **User Documentation**
-    - Contribute a section to your team's `UserGuide.md` (create it in the root directory of your repository if it doesn't already exist) describing how to use and user test the feature you implemented
-    - Provide a link/description of where your added automated tests can be found, along with a description of what is being tested and why you believe the tests are sufficient for covering the changes that you have made
+    - Contribute a section to your team's `UserGuide.md` (create it in the root directory of your repository if it doesn't already exist) describing how to use and user test the feature you implemented.
+    - Provide a link/description of where your added automated tests can be found, along with a description of what is being tested and why you believe the tests are sufficient for covering the changes that you have made.
 
-As with the first sprint, **every member of your team must contribute to the implementation**. Failure to do so will result in a significant penalty to your grade.
+As with the first sprint, **you must individually contribute to the team's overall implementation**. Failure to do so will result in a significant penalty to your grade.
 
 ## Team Integration (30 pts)
 
@@ -100,7 +99,7 @@ Being able to communicate effectively is an important software engineering skill
 ## Individual Reflection (10 pts)
 
 !!! warning "Use of Generative AI discouraged"
-    Historically, we have found the use of generative AI tools for this part of the assignment has resulted in poor work being submitted. It is your responsibility to make sure that you and your group feel comfortable with each others work and are putting in your best effort.
+    Historically, we have found the use of generative AI tools for this part of the assignment has resulted in poor work being submitted. It is your responsibility to make sure that you feel comfortable with the work you submit and are putting in your best effort.
 
 In addition to the team reflection, you will also be submitting an individual reflection on Gradescope. 
 
