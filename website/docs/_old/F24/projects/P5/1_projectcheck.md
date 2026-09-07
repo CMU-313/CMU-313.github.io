@@ -14,7 +14,7 @@ You may select any active open source project in any language, as long as it's n
 
 Here are some helpful resources for finding open source projects:
 
-- [Trending on Github](https://github.com/trending)
+- [Trending on GitHub](https://github.com/trending)
 - [Software Quality Awards](https://www.yegor256.com/award.html)
 - [Issues that are labeled “up-for-grabs”](https://up-for-grabs.net)
 - [goodfirstissue.dev](https://goodfirstissue.dev/)

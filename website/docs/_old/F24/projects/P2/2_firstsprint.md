@@ -20,7 +20,7 @@ Every member of your team **must** contribute to the implementation. One way we 
 
 You must commit all of your changes to the main branch of your **team repository** before the homework deadline. Unlike the previous assignment, you should **not** submit your changes to the parent NodeBB repository.
 
-Submit a link to your repository and your Github Project board onto Gradescope. For grading, we will take a snapshot of your repository and board right at the deadline and grade based on your progress there.
+Submit a link to your repository and your GitHub Project board onto Gradescope. For grading, we will take a snapshot of your repository and board right at the deadline and grade based on your progress there.
 
 
 ## Checkpoint Presentation (45 pts)

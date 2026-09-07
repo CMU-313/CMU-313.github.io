@@ -11,7 +11,7 @@ Throughout this recitation, students will:
 
 * Understand the fundamental steps involved in deployment
 
-* Learn about CI/CD and the basics of how to set it up in a Github repo
+* Learn about CI/CD and the basics of how to set it up in a GitHub repo
 
 * Get hands on experience deploying with multiple cloud providers - Render and Google Cloud Platform.
 

@@ -29,7 +29,7 @@ You will be working on your team repository for this project. Once you have deci
 !!! warning
     After you join a team on GitHub, you cannot change teams! Make sure that **only one** of you creates the team, and make sure that the remaining teammates join the right team.
 
-Once you enter your team name, Github will automatically create a repository for your team. You should then create a **Github Project board** for your repository (you can follow the steps from the [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) or the note below).
+Once you enter your team name, GitHub will automatically create a repository for your team. You should then create a **GitHub Project board** for your repository (you can follow the steps from the [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) or the note below).
 
 !!! note "Setting up a Project Kanban Board and Creating Issues"
     Project boards are a great way to track development. While there are lots of great external tools such as Trello or Jira, GitHub provides their own project boards for us to use with great integration support of their other features. To create a Project Kanban follow the steps below: 
@@ -50,7 +50,7 @@ We will be grading you on how well you follow the process we used for Project 1 
 - Provide feedback to pull requests
 - Use a Kanban board to track your workflow
 
-For this project, you will create issues or pull requests **directly in your team repository**. We will use your commit history and issue/pull request activity on Github to assess both your teamwork process and each member’s individual contributions towards the project. It is **not** acceptable for one person to commit all the work after synchronizing through other means.
+For this project, you will create issues or pull requests **directly in your team repository**. We will use your commit history and issue/pull request activity on GitHub to assess both your teamwork process and each member’s individual contributions towards the project. It is **not** acceptable for one person to commit all the work after synchronizing through other means.
 
 For each code-based deliverable, we will look at a snapshot of your repository at the deadline. This will often be done by asking you for a screenshot or commit link submitted via Gradescope.
 

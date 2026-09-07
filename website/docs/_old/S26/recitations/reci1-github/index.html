@@ -1463,7 +1463,7 @@
                   
 
 
-<h1 id="recitation-1-using-git-github-for-collaborative-typescript-development">Recitation 1: Using Git &amp; Github for Collaborative TypeScript Development<a class="headerlink" href="#recitation-1-using-git-github-for-collaborative-typescript-development" title="Permanent link">&para;</a></h1>
+<h1 id="recitation-1-using-git-github-for-collaborative-typescript-development">Recitation 1: Using Git &amp; GitHub for Collaborative TypeScript Development<a class="headerlink" href="#recitation-1-using-git-github-for-collaborative-typescript-development" title="Permanent link">&para;</a></h1>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
 <p>After this recitation, students should be able to use Git and GitHub for their teamwork in this course and other projects. Students should know about the GitFlow workflow and how to collaborate with other developers in their projects. Students will learn about working with Git and GitHub by converting a file from JavaScript to TypeScript - a migration that students will perform again on Project 1.</p>
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
@@ -1478,12 +1478,12 @@
 <ul>
 <li>Have either you or your partner fork <a href="https://github.com/CMU-313/github-recitation-ts">this repository</a>, then add the other person as a collaborator on GitHub. You can do so by clicking on <strong>Settings</strong>, then <strong>Collaborators</strong></li>
 <li>Under the General tab in <strong>Settings</strong>, check the "Issues" checkbox in the "Features" section to enable the issues pane for your repository
-  <img alt="Github Permissions" src="../../assets/images/reci/reci1-github-permissions.png" /></li>
+  <img alt="GitHub Permissions" src="../../assets/images/reci/reci1-github-permissions.png" /></li>
 <li>Clone the repository onto your local machine</li>
 </ul>
 <h2 id="activity-1b-run-a-github-action-workflow">Activity 1b: Run a GitHub Action Workflow<a class="headerlink" href="#activity-1b-run-a-github-action-workflow" title="Permanent link">&para;</a></h2>
 <ul>
-<li>On Github, click the <strong>Actions</strong> tab, enable the workflows and select the “Lint and Test” workflow</li>
+<li>On GitHub, click the <strong>Actions</strong> tab, enable the workflows and select the “Lint and Test” workflow</li>
 <li>Click on the "Run workflow" dropdown, then the "Run workflow" button (leave Branch to be <code>main</code>). This runs the GitHub workflow that runs the linter and tests on the project</li>
 </ul>
 <p>Our GH actions pipeline suggests that the main branch is broken! Let’s walk through the process to fix these errors.</p>
@@ -1517,7 +1517,7 @@
 <h2 id="activity-4-writing-pull-requests">Activity 4: Writing pull requests<a class="headerlink" href="#activity-4-writing-pull-requests" title="Permanent link">&para;</a></h2>
 <ul>
 <li>On GitHub, create a pull request to merge the changes from the branch you have just pushed to the main branch</li>
-<li><strong>Make sure it is to the main of your own forked repository!</strong> By default, Github selects the original repository instead of your own forked repository.</li>
+<li><strong>Make sure it is to the main of your own forked repository!</strong> By default, GitHub selects the original repository instead of your own forked repository.</li>
 <li>Name your pull request appropriately</li>
 <li>In the description, describe what changes has been made to address the issue, and how has the changes been tested</li>
 <li>Notice that the GitHub action workflow runs automatically when you create the pull request! You should check that there are no eslint errors associated with the file that you translated and that the correctness tests still pass. <strong><em> Note that the GitHub action itself won't pass because the linter won't pass until both files are translated, i.e. both PRs are merged. </em></strong></li>
