@@ -34,7 +34,7 @@ checkpoints:
 
 In Project 1, you joined the opencode development team as an individual contributor, fixing a single maintainability issue in isolation. Now your manager is putting you on a **feature team**: a small group responsible for designing, planning, and shipping a real feature to opencode, the open source AI coding agent you've spent the last few weeks getting to know.
 
-opencode is looking to expand is use into software engineering focused courses. Your team has been tasked to come up with features that would improve opencode for students learning software engineering.
+opencode is looking to expand its use into software engineering focused courses. Your team has been tasked to come up with features that would improve opencode for students learning software engineering.
 
 In this project, you will be responsible for developing features from the idea to the implementation phase, which you will tackle in two different sprints.
 
