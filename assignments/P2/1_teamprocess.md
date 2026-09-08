@@ -25,19 +25,12 @@ You can use this Slack channel for subsequent project-team related discussions o
 
 ### GitHub Repository
 
-You will be working on your team repository for this project. Once you have decided on a team name, go to the link below to set up your team:
+Your team will get a repository created in the course organization. Your TA's will send you that information via Slack.
 
-**TBD** — GitHub Classroom has been shut down; team repository setup instructions will be updated here.
-
- 
-!!! warning
-    After you join a team on GitHub, you cannot change teams! Make sure that **only one** of you creates the team, and make sure that the remaining teammates join the right team.
- 
-
-Once you enter your team name, Github will automatically create a repository for your team. You should then create a **Github Project board** for your repository (you can follow the steps from the [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) or the note below).
+You should then create a **GitHub Project board** for your repository (you can follow the steps from the [GitHub Exercise](/assignments/P1/github.md/#setting-up-a-project-board) or the note below).
 
 !!! tip
-    From previous semesters, this guide [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) gives more specifics on good issue writing, commit writing and PRs. TAs have created this more recent [guide](https://docs.google.com/document/d/1X490SwaJbtus0KPBsjKlnNZOxUs30upkSyIvWykXkrA/edit?tab=t.0#heading=h.yfcvmuhkukvu) for making good PRs and commits.
+    From previous semesters, this guide [GitHub Exercise](/assignments/P1/github.md/) gives more specifics on good issue writing, commit writing and PRs. TAs have created this more recent [guide](https://docs.google.com/document/d/1edD2SSXu3d3TqYb_XzywiG4dpct6KVFhbT3PYZwItQM/edit?usp=sharing) for making good PRs and commits.
 
 !!! note "Setting up a Project Kanban Board and Creating Issues"
     Project boards are a great way to track development. While there are lots of great external tools such as Trello or Jira, GitHub provides their own project boards for us to use with great integration support of their other features. 
@@ -45,7 +38,7 @@ Once you enter your team name, Github will automatically create a repository for
     To create a Project Kanban, follow the steps below (only one member has to do this): 
 
     - Click on the Projects tab in your team repo, and then the "+ New project" button. This will create a new Project Kanban board directly linked to the team repo. Use the "Board" template.
-    - Share the Kanban/Project board with your team or make it public so they have access to it. (Even if they have access to the repo, they might not have access to the board initially. To manage acces, click on the three dots in the top right and click on "Settings" and then "Manage access.")
+    - Share the Kanban/Project board with your team or make it public so they have access to it. (Even if they have access to the repo, they might not have access to the board initially. To manage access, click on the three dots in the top right and click on "Settings" and then "Manage access.")
     - Have a team member add an issue for adding team member names to the README into the "Todo" column using the "+ Add item" button at the bottom of the column. OR under the Issues tab of the team repo, have a teammate create an issue and then link the issue to the Project Kanban board using the "Projects" field (two fields below "Assignees") on the right-hand side. Specify the status as "Todo."
     - Assign yourself to the issue.
 
@@ -60,7 +53,7 @@ We will be grading you on how well you follow the process we used for Project 1 
 - Provide feedback to pull requests
 - Use a Kanban board to track your workflow
 
-For this project, you will create issues or pull requests **directly in your team repository**. We will use your commit history and issue/pull request activity on Github to assess both your teamwork process and each member’s individual contributions towards the project. It is **not** acceptable for one person to commit all the work after synchronizing through other means.
+For this project, you will create issues or pull requests **directly in your team repository**. We will use your commit history and issue/pull request activity on GitHub to assess both your teamwork process and each member’s individual contributions towards the project. It is **not** acceptable for one person to commit all the work after synchronizing through other means.
 
 For each code-based deliverable, we will look at a snapshot of your repository at the deadline. This will often be done by asking you for a screenshot or commit link submitted via Gradescope.
 
@@ -123,7 +116,7 @@ Before your team jumps into development, you must first determine what features 
 
 During this meeting, discuss potential functional requirements of this project. Consider what possible use cases may be for this system and what features it should have to fulfill those needs. 
 
-Then, document these functional requirements in the form of user stories that follow the guidelines discussed in [lecture](https://cmu-313.github.io/assets/pdfs/05-project-planning.pdf). All of your user stories should be in the format of "As a [role], I want [function], so that [value]".
+Then, document these functional requirements in the form of user stories that follow the guidelines discussed in [lecture](https://cmu-313.github.io/assets/pdfs/03-project-planning.pdf). All of your user stories should be in the format of "As a [role], I want [function], so that [value]".
 
 **You should come up with at least two user stories per student in your group.**
 
@@ -137,7 +130,7 @@ As a team, you should then come up with a prioritization ranking for each user s
 
 Once you have your list of user stories, go to the Project board that was created during Team Setup. Then create two new columns to the left called **"User Stories"** and **"Backlog"**. At this point in time, you should have **"User Stories", "Backlog", "Todo", "In Progress" and "Done"**, in that order from left to right. Feel free to add more columns if your teams decide that you need them during your development process
 
-Add your user stories into the **"User Stories"** column using the **“+ Add item”** button at the bottom, create draft issues for each of your user stories.In the body of each of these draft issues, provide a brief but concrete justification of its prioritization ranking that your team decided on. You should order all the user stories in this column from highest to lowest priority.
+Add your user stories into the **"User Stories"** column using the **“+ Add item”** button at the bottom, create draft issues for each of your user stories. In the body of each of these draft issues, provide a brief but concrete justification of its prioritization ranking that your team decided on. You should order all the user stories in this column from highest to lowest priority.
 
 #### Technical Requirements - Issues
 
@@ -146,7 +139,7 @@ Now that you have your prioritized list, consider the *technical requirements* o
 Your selected user stories should have relatively high priority based on your team's ranking, and you should actively take factors into consideration that may impact your development.
 
 !!! note "Selecting Appropriate User Stories"
-    Given the amount of variations in each team's user stories, it's hard to give concrete guideline on the number of user stories that a team needs to tackle. Teams could tackle 1 user story that requires major effort, or a few user stories that each requires lesser effort. 
+    Given the amount of variations in each team's user stories, it's hard to give concrete guideline on the number of user stories that a team needs to tackle. Each team member will be responsible for implementing a user story, but that could be a standalone story, or a smaller user story that is part of a larger feature.
     
     In general, we are expecting that user stories be selected given:
 
@@ -205,5 +198,5 @@ To receive full credit for the project planning, we expect:
 
 - [ ] A Group GitHub project board linked to your team repository with:
     - [ ] A User Story column containing at least two user stories per group member that satisfy the guidelines outlined in the sections above and in lecture
-    - [ ] Students should link their User Story as part of their own individual submission
-    - [ ] A link to the Backlog column containing a series of well written GitHub issues describing the feature(s) that the team will tackle. Each issue makes use of GitHub features to denote all of the required information listed above
+    - [ ] A Backlog column containing a series of well written GitHub issues describing the feature(s) that the team will tackle. Each issue makes use of GitHub features to denote all of the required information listed above
+    - [ ] Students should link their assigned GitHub issue(s) as part of their own individual submission

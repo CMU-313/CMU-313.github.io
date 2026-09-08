@@ -39,7 +39,7 @@ Submit the links to the 3 projects that you are most interested in pursuing for 
 - Another list of good first issues: [https://goodfirstissue.dev/](https://goodfirstissue.dev/)
 - The GitHub page for the good-first-issue topic: [https://github.com/topics/good-first-issue](https://github.com/topics/good-first-issue)
 - A list of beginner friendly projects: [https://github.com/MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)
-- Github Showcase for new contributors: [https://github.com/showcases/great-for-new-contributors](https://github.com/MunGell/awesome-for-beginners)
+- GitHub Showcase for new contributors: [https://github.com/showcases/great-for-new-contributors](https://github.com/MunGell/awesome-for-beginners)
 - Issues that are labeled “up-for-grabs”: [https://up-for-grabs.net](https://up-for-grabs.net)
 - Apache projects: [http://www.apache.org/](http://www.apache.org/)
 - Mozilla projects: [https://developer.mozilla.org/en-US/docs/MDN/Community/Contributing](https://developer.mozilla.org/en-US/docs/MDN/Community/Contributing)

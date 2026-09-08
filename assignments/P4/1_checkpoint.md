@@ -79,7 +79,7 @@ For this, you will work in a separate repository. Similar to P2, you will create
     After you join a team on GitHub, you cannot change teams! Make sure that **only one** of you creates the team, and make sure that the remaining teammates join the right team.
  
 
-Once you enter your team name, Github will automatically create a repository for your team.
+Once you enter your team name, GitHub will automatically create a repository for your team.
 
 <!-- We have provided some initial code on [this repo](https://github.com/CMU-313/translator-service). -->
 

@@ -2,7 +2,7 @@
 title: Recitation 1 - Git Collaboration
 ---
 
-# Recitation 1: Using Git & Github for Collaborative TypeScript Development
+# Recitation 1: Using Git & GitHub for Collaborative TypeScript Development
 
 ## Overview
 
@@ -21,12 +21,12 @@ After this recitation, students should be able to use Git and GitHub for their t
 
 - Have either you or your partner fork [this repository](https://github.com/CMU-313/github-recitation-ts), then add the other person as a collaborator on GitHub. You can do so by clicking on **Settings**, then **Collaborators**
 - Under the General tab in **Settings**, check the "Issues" checkbox in the "Features" section to enable the issues pane for your repository
-  ![Github Permissions](../assets/images/reci/reci1-github-permissions.png)
+  ![GitHub Permissions](../assets/images/reci/reci1-github-permissions.png)
 - Clone the repository onto your local machine
 
 ## Activity 1b: Run a GitHub Action Workflow
 
-- On Github, click the **Actions** tab, enable the workflows and select the “Lint and Test” workflow
+- On GitHub, click the **Actions** tab, enable the workflows and select the “Lint and Test” workflow
 - Click on the "Run workflow" dropdown, then the "Run workflow" button (leave Branch to be `main`). This runs the GitHub workflow that runs the linter and tests on the project
 
 Our GH actions pipeline suggests that the main branch is broken! Let’s walk through the process to fix these errors.
@@ -60,7 +60,7 @@ git push --set-upstream origin <your-branch-name>
 ## Activity 4: Writing pull requests
 
 - On GitHub, create a pull request to merge the changes from the branch you have just pushed to the main branch
-  - **Make sure it is to the main of your own forked repository!** By default, Github selects the original repository instead of your own forked repository.
+  - **Make sure it is to the main of your own forked repository!** By default, GitHub selects the original repository instead of your own forked repository.
   - Name your pull request appropriately
   - In the description, describe what changes has been made to address the issue, and how has the changes been tested
   - Notice that the GitHub action workflow runs automatically when you create the pull request! You should check that there are no eslint errors associated with the file that you translated and that the correctness tests still pass. *** Note that the GitHub action itself won't pass because the linter won't pass until both files are translated, i.e. both PRs are merged. ***

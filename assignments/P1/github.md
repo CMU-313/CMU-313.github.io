@@ -46,7 +46,7 @@ Under the **Projects** tab, create a new project with the "Board" template. Afte
 
 Check back on the build output in the **Actions** tab and take a look at which test cases are failing. Take note of the names of each test case - they should give you a hint as to what the bugs may be!
 
-Under the **Issues** tab, create an issue for each failing test case.
+Under the **Issues** tab, create an issue for each failing test case. If you do not see the **Issues** tab, click on the **Settings** tab with the gear symbol on the left, scroll down to **Features**, and check the **Issues** checkbox.
 
 !!! info "Issue Guidelines"
     **Issues titles** should provide a high-level overview of what the problem is (e.g. *"Navbar button UI bugs"*, *"Unexpected registration validation errors"*). Sometimes, issues are used to propose new features (e.g. *"Add CSV export feature"*).
