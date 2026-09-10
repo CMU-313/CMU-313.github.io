@@ -1,0 +1,1592 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Project 3: Continuous Integration + Deployment - CMU 17-313: Foundations of Software Engineering</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.08040f6c.min.css">
+        
+      
+      
+
+    
+    
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#project-3-continuous-integration-deployment" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CMU 17-313: Foundations of Software Engineering" class="md-header__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering" data-md-component="logo">
+      
+  <img src="../../assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CMU 17-313: Foundations of Software Engineering
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Project 3: Continuous Integration + Deployment
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../overview/" class="md-tabs__link">
+      Course Overview
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../syllabus/" class="md-tabs__link">
+      Syllabus
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../P1/" class="md-tabs__link md-tabs__link--active">
+        Projects
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../recitations/reci1-github/" class="md-tabs__link">
+        Recitations
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../hall-of-fame/" class="md-tabs__link">
+      Hall of Fame
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://canvas.cmu.edu/courses/36599" class="md-tabs__link">
+      Canvas
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://www.gradescope.com/courses/583198" class="md-tabs__link">
+      Gradescope
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://join.slack.com/t/cmu-17313-f23/signup" class="md-tabs__link">
+      Slack
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CMU 17-313: Foundations of Software Engineering" class="md-nav__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering" data-md-component="logo">
+      
+  <img src="../../assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    CMU 17-313: Foundations of Software Engineering
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        Course Overview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../syllabus/" class="md-nav__link">
+        Syllabus
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Projects
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Projects" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Projects
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../P1/">Project 1: Hello, NodeBB!</a>
+          
+            <label for="__nav_4_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 1: Hello, NodeBB!" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Project 1: Hello, NodeBB!
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P1/1_checkpoint/" class="md-nav__link">
+        1A Build Checkpoint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P1/2_translation/" class="md-nav__link">
+        1B Starter Task
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1_4" type="checkbox" id="__nav_4_1_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4_1_4">
+          NodeBB Installation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="NodeBB Installation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          NodeBB Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P1/installation/mac/" class="md-nav__link">
+        Mac
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P1/installation/windows/" class="md-nav__link">
+        Windows
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P1/installation/ubuntu/" class="md-nav__link">
+        Linux (Ubuntu)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P1/documentation/" class="md-nav__link">
+        Resources and Documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P1/faq/" class="md-nav__link">
+        FAQ
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../P2/">Project 2: Collaborative Development</a>
+          
+            <label for="__nav_4_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 2: Collaborative Development" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Project 2: Collaborative Development
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P2/1_teamprocess/" class="md-nav__link">
+        2A Team Process & Planning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P2/2_firstsprint/" class="md-nav__link">
+        2B First Sprint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P2/3_secondsprint/" class="md-nav__link">
+        2C Second Sprint
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index md-nav__link--active">
+          <a href="./">Project 3: Continuous Integration + Deployment</a>
+          
+            <label for="__nav_4_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 3: Continuous Integration + Deployment" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Project 3: Continuous Integration + Deployment
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="deployment/" class="md-nav__link">
+        GCP Deployment Instructions
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../P4/">Project 4: Architecting an LLM Integration</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 4: Architecting an LLM Integration" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Project 4: Architecting an LLM Integration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_5" type="checkbox" id="__nav_4_5" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../P5/">Project 5: Open Source Excursion</a>
+          
+            <label for="__nav_4_5">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 5: Open Source Excursion" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          Project 5: Open Source Excursion
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P5/1_projectcheck/" class="md-nav__link">
+        5A Project and Task Selection
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P5/2_projectfinal/" class="md-nav__link">
+        5B Project Presentations, Final Report, and Reflections
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Recitations
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Recitations" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Recitations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci1-github/" class="md-nav__link">
+        Recitation 1 - Git, GitHub and TypeScript
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci2-teamcontract/" class="md-nav__link">
+        Recitation 2 - Team Contract Workshop
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci3-deployment/" class="md-nav__link">
+        Recitation 3 - Deployment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci4-archaeology/" class="md-nav__link">
+        Recitation 4 - Archaeology
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci6-midterm-review/" class="md-nav__link">
+        Recitation 6 - Midterm Review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci7-static-analysis-ci/" class="md-nav__link">
+        Recitation 7 - Static Analysis and Continuous Integration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci8-llms/" class="md-nav__link">
+        Recitation 8 - Large Language Models
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci9-open-source/" class="md-nav__link">
+        Recitation 9 - Open Source Projectss
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci10-team-feedback/" class="md-nav__link">
+        Recitation 10 - Team Feedback
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci11-p5-checkin/" class="md-nav__link">
+        Recitation 11 - Open Source Project and Task Selection Check In
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hall-of-fame/" class="md-nav__link">
+        Hall of Fame
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://canvas.cmu.edu/courses/36599" class="md-nav__link">
+        Canvas
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.gradescope.com/courses/583198" class="md-nav__link">
+        Gradescope
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://join.slack.com/t/cmu-17313-f23/signup" class="md-nav__link">
+        Slack
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-goals" class="md-nav__link">
+    Learning Goals
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-context" class="md-nav__link">
+    Project Context
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deliverables-and-deadlines" class="md-nav__link">
+    Deliverables and Deadlines
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checkpoint-deliverables" class="md-nav__link">
+    Checkpoint Deliverables
+  </a>
+  
+    <nav class="md-nav" aria-label="Checkpoint Deliverables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#deployed-application-25-pts" class="md-nav__link">
+    Deployed Application (25 pts)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools-checkpoint-10-pts" class="md-nav__link">
+    Tools Checkpoint (10 pts)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-deliverables" class="md-nav__link">
+    Final Deliverables
+  </a>
+  
+    <nav class="md-nav" aria-label="Final Deliverables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tool-analysis-design-doc-50-pts" class="md-nav__link">
+    Tool Analysis Design Doc (50 pts)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tool-integration-15-pts" class="md-nav__link">
+    Tool Integration (15 pts)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extra-credit" class="md-nav__link">
+    Extra Credit
+  </a>
+  
+    <nav class="md-nav" aria-label="Extra Credit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#feature-review-6-pts" class="md-nav__link">
+    Feature Review (6 pts)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grading" class="md-nav__link">
+    Grading
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources-documentation" class="md-nav__link">
+    Resources &amp; Documentation
+  </a>
+  
+    <nav class="md-nav" aria-label="Resources &amp; Documentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#starter-list-of-tools" class="md-nav__link">
+    Starter List of Tools
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="project-3-continuous-integration-deployment">Project 3: Continuous Integration + Deployment<a class="headerlink" href="#project-3-continuous-integration-deployment" title="Permanent link">&para;</a></h1>
+<h2 id="learning-goals">Learning Goals<a class="headerlink" href="#learning-goals" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Learn how to deploy a full-stack application</li>
+<li>Gain hands-on experience with analysis tools, including setting up, customizing, and using them</li>
+<li>Practically assess and compare the costs and benefits of existing static and dynamic bug-finding tools</li>
+<li>Integrate CI/CD tools into development practice</li>
+</ul>
+<h2 id="project-context">Project Context<a class="headerlink" href="#project-context" title="Permanent link">&para;</a></h2>
+<p>Adding continuous integration for quality assurance is a critical part of software development. Although you have been testing your new system this whole time, you are now setting out to establish sustained practices that can be used moving forward as you iterate over and continue to improve your system.</p>
+<p>Your manager has assigned you two major tasks. Firstly, establishing a deployment pipeline to create a test version of the website that can be sent to beta testers who have little to no experience with code development (and therefore can not set up the developer environment by themselves). </p>
+<p>Secondly, evaluating existing tools and practices beyond simple linting or unit testing, then producing a report on the cost/benefit tradeoffs and risks of them. You will also select and integrate one (or more!) of these tools into your development process.</p>
+<h2 id="deliverables-and-deadlines">Deliverables and Deadlines<a class="headerlink" href="#deliverables-and-deadlines" title="Permanent link">&para;</a></h2>
+<p>There are two (2) deadlines for this project. This project is worth a total of 100 points.</p>
+<p><strong>Checkpoint Deliverables</strong> – 35 points – due Friday, October 27th, 11:59pm</p>
+<ul>
+<li><a href="#deployed-application-25-pts">Deployed Application (25 pts)</a></li>
+<li><a href="#tools-checkpoint-10-pts">Tools Checkpoint (10 pts)</a></li>
+</ul>
+<p><strong>Final Deliverables</strong> – 65 points – due Thursday, November 2, 11:59pm </p>
+<ul>
+<li><a href="#tool-analysis-design-doc-60-pts">Tool Analysis Design Doc (50 pts)</a></li>
+<li><a href="#tool-integration-15-pts">Tool Integration (15 pts)</a></li>
+</ul>
+<p><strong>Extra Credit (Individual)</strong> - 6 points - due Thursday, November 2, 11:59pm</p>
+<ul>
+<li><a href="#feature-review-6-pts">Feature Review (6 pts)</a></li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Work Distribution</p>
+<p>There are two main focuses in this project: deployment and static/dynamic analysis. For the purposes of equitable distribution of labor, we recommend that you nominate one of your members to act as the Site Reliability Engineer(SRE) for this assignment who will be primarily responsible for deployment, and have all other teammates focus on tool research and integration. </p>
+</div>
+<h2 id="checkpoint-deliverables">Checkpoint Deliverables<a class="headerlink" href="#checkpoint-deliverables" title="Permanent link">&para;</a></h2>
+<h3 id="deployed-application-25-pts">Deployed Application (25 pts)<a class="headerlink" href="#deployed-application-25-pts" title="Permanent link">&para;</a></h3>
+<p>Your team will be using Google Cloud Platform for the deployment of the NodeBB application. Further instructions on how to deploy can be found <a href="/projects/P3/deployment">here</a>.</p>
+<p>Once you have successfully deployed your website, make sure to test within your team to ensure that your added feature(s) from Project 2 are properly integrated. </p>
+<p>By the checkpoint deadline you should</p>
+<ul>
+<li>Submit a link to the deployed site onto Gradescope</li>
+<li>Add your deployed site to this <a href="https://docs.google.com/spreadsheets/d/155eTtRrJGFE0QtTapAca3MhTSZ9qh9NlhENS4MRDN80/edit?usp=sharing">public spreadsheet</a>, alongside your team name &amp; UserGuide.md that your team submitted for Project 2. This will be used in <a href="#feature-review-6-pts">Feature Review</a> for extra credit.</li>
+</ul>
+<h3 id="tools-checkpoint-10-pts">Tools Checkpoint (10 pts)<a class="headerlink" href="#tools-checkpoint-10-pts" title="Permanent link">&para;</a></h3>
+<p>Before jumping into tool integration, your manager would like you to research what existing analysis tools are out there that can be used with NodeBB. You will evaluate the tools, and eventually document your findings in a design document for your final deliverable.</p>
+<p>First, identify and experiment with <strong>at least N-1 potential static and dynamic analysis tools</strong> that are applicable to your system, where N is the number of people in your team. We provide a <a href="#starter-list-of-tools">starter list of tools</a> in the resources section below to help you get started, but you are not limited to these tools.</p>
+<p>In your selection of tools, you should</p>
+<ul>
+<li>have <strong>at least one</strong> static analysis tool</li>
+<li>have <strong>at least one</strong> dynamic analysis tool</li>
+<li>have <strong>at least one</strong> tool that is not from our starter list</li>
+<li><strong>not use</strong> any of the existing tools within NodeBB as part of your analysis (mocha/ESLint/TSLint)</li>
+</ul>
+<p>For each tool that you assess</p>
+<ol>
+<li>Create a separate testing branch in your repository (named appropriately for the tool you’re testing) to integrate the tool into your project and test out its capabilities</li>
+<li>
+<p>Create a pull request to the main branch from each of these testing branches. The PR should have</p>
+<ul>
+<li><strong>Concrete evidence that you had successfully installed the tool</strong> through trackable file changes demonstrating that extra files/NPM packages were installed.</li>
+<li><strong>Artifacts that demonstrate that you have successfully run the tool on your repository.</strong> Acceptable artifacts include output files generated by the tool, or a text file containing the terminal output from the tool; you may also attach screenshots as additional pieces of evidence. They can be attached to the Pull Request in either the description or follow-up comments.</li>
+</ul>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Grading Note</p>
+<p>We will not be grading the quality or quantity of any code you put into these testing branches/PRs, just the evidence that you have successfully installed and run the tool.</p>
+</div>
+<p>In your evaluations, consider &amp; experiment with the types of customization that are appropriate or necessary for this tool, both a priori (before they can be used in your project) and over time. Assess the strengths and weaknesses of each tool/technique, both quantitatively and qualitatively.</p>
+<p>Consider some of the following questions: </p>
+<ul>
+<li>What types of problems are you hoping your tooling will catch?  What types of problems does this particular tool catch? </li>
+<li>What types of customization are possible or necessary? </li>
+<li>How can/should this tool be integrated into a development process?</li>
+<li>Are there many false positives? False negatives? True positive reports about things you don’t care about?</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Tool Evaluation</p>
+<p>There are a lot of different factors to consider when evaluating a tool. We recommend discussing with your teammates and deciding on a group of metrics to focus on when performing evaluations.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Time Management</p>
+<p>Don’t spend too long for this checkpoint. Set deadlines within your team to ensure that you have enough time for both the design document and integration deliverables described below for the final deadline.</p>
+</div>
+<p>By the checkpoint deadline, your team will submit </p>
+<ul>
+<li>your <strong>initial list of the N-1 tools</strong> that your team plans on exploring, and </li>
+<li>links to the <strong>PRs that demonstrate that you have successfully installed and run each of these tools</strong></li>
+</ul>
+<h2 id="final-deliverables">Final Deliverables<a class="headerlink" href="#final-deliverables" title="Permanent link">&para;</a></h2>
+<h3 id="tool-analysis-design-doc-50-pts">Tool Analysis Design Doc (50 pts)<a class="headerlink" href="#tool-analysis-design-doc-50-pts" title="Permanent link">&para;</a></h3>
+<p>Create a Design Document/RFC that includes:</p>
+<ul>
+<li>A <strong>tools evaluations section</strong> detailing your team’s analysis on each of the tools you experimented with</li>
+<li>A <strong>justification section</strong> explaining which tool(s) you think the project should use moving forward</li>
+<li>An <strong>integration section</strong> describing how the selected tool(s) shall be integrated into your process</li>
+<li>A <strong>conclusion section</strong> summarizing your work</li>
+</ul>
+<p>Below, we provide more detailed instructions and page limit recommendations for each of the sections.</p>
+<h4 id="tool-evaluations-n-pages">Tool Evaluations (~N pages)<a class="headerlink" href="#tool-evaluations-n-pages" title="Permanent link">&para;</a></h4>
+<p>For each of the N-1 tools explored by your team, you must provide:</p>
+<ul>
+<li>Name and high-level description of what the tool does and a link to its documentation/source</li>
+<li>Whether the tool is used for static or dynamic analysis</li>
+<li>A link to the pull request made from the testing branch for this tool</li>
+<li>A pro/con analysis of the tool and appropriate evidence in the form of screenshots to support your claims. You can use the questions provided in the research you did for the checkpoint to shape your analysis.</li>
+</ul>
+<p>Each of these sections should take up approximately 1 page (including screenshots) and no more than 2 pages.</p>
+<h4 id="justification-half-a-page">Justification (~Half a page)<a class="headerlink" href="#justification-half-a-page" title="Permanent link">&para;</a></h4>
+<p>After going through each of the tools, you should explicitly state the tool(s) you are choosing to integrate for this project and provide a justification for why you are selecting this tool. You should refer to the pro/con analysis done in the prior sections and how they align with the goals of your team and the project overall.</p>
+<p>You <strong>must recommend at least one tool</strong>, even if it’s with reservations.</p>
+<h4 id="integration-1-page">Integration (&lt;1 page)<a class="headerlink" href="#integration-1-page" title="Permanent link">&para;</a></h4>
+<p>This section should address the different factors to take into consideration when integrating a new tool. At minimum, you should address the following:</p>
+<ul>
+<li><strong>Technical Questions</strong><ul>
+<li>How are you integrating the tool (high-level)? At what point in the development/deployment process shall it be integrated? What sorts of customization or configuration will you be using?</li>
+<li>If you added any specific configuration to allow the main branch of your repository to pass its status checks, add the justification for those decisions in this section.</li>
+</ul>
+</li>
+<li><strong>Social Integration Questions</strong> <ul>
+<li>How do you foresee the team using the tool during their development process? Consider the incentives &amp; deterrents to the developers when it comes to using the tool, and their personal motivation to use it.</li>
+</ul>
+</li>
+</ul>
+<p>Your answers should be based on your experiences running the tools on your team repository and be grounded in data from your research on different factors such as tool usability, output, and customizability.</p>
+<p>Keep this section updated as you work on implementing the integration.</p>
+<h4 id="conclusion-1-page">Conclusion (&lt;1 page)<a class="headerlink" href="#conclusion-1-page" title="Permanent link">&para;</a></h4>
+<p>In this section, provide a brief summary of your findings along with items that were not addressed in the previous sections.</p>
+<ul>
+<li>Are there any open questions?</li>
+<li>Are there any issues you consider to be out of scope?</li>
+<li>What drawbacks of the proposed process/tooling are you accepting for some (good) reason? </li>
+</ul>
+<p>This section should be used to wrap everything up and ensure you have a good/complete design document!</p>
+<p>Submit the Design Document as a single PDF to Gradescope.</p>
+<h3 id="tool-integration-15-pts">Tool Integration (15 pts)<a class="headerlink" href="#tool-integration-15-pts" title="Permanent link">&para;</a></h3>
+<p>Once you have a tool selected along with a general integration plan, you should fully integrate one of the tools into your project’s workflow. For your checkpoint research, you should have successfully run this tool locally; you should then create a new workflow within the project to run it as part of the development cycle.</p>
+<p>Your team should discuss:</p>
+<ul>
+<li>How often should this new integration be run (on each pull request? on commits to main?)</li>
+<li>What level of customization is needed for this tool?</li>
+<li>How should the integration of this tool be enforced?</li>
+</ul>
+<p>This configuration must have been justified in your design document under the Integration section.</p>
+<p>To be considered successfully integrated, the tool must:</p>
+<ul>
+<li>Be <strong>merged into your main branch</strong></li>
+<li><strong>Have been run at least once in the Git flow cycle</strong> (i.e. either during the pull request, merge, or commit stage). </li>
+<li><strong>Pass</strong> when run on your codebase. This is indicated by having a green checkmark.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Ensuring Passing Checks</p>
+<p>In order to ensure your checks pass successfully, you may have to make additional changes to your repository, such as fixing reported issues or tweaking tool configuration.</p>
+<p>These changes should be documented and addressed in your design document. Continually failing builds show you have <em>not</em> completely integrated the tool into your workflow.</p>
+</div>
+<p>On Gradescope, submit a link to your repository and a link to one of the successful GitHub Action runs.</p>
+<h2 id="extra-credit">Extra Credit<a class="headerlink" href="#extra-credit" title="Permanent link">&para;</a></h2>
+<p>Now that you and your classmates have deployed your applications, you will be able to test out each other’s features and provide constructive feedback on your experience and how to improve them! Take this as an opportunity to learn about what your classmates have been working on for the past few weeks. </p>
+<p>Note that this is an <strong>individual</strong> task, unlike the rest of project.</p>
+<h3 id="feature-review-6-pts">Feature Review (6 pts)<a class="headerlink" href="#feature-review-6-pts" title="Permanent link">&para;</a></h3>
+<p>For extra credit, you will conduct reviews of features developed by three other teams' project. Pick <strong>three</strong> teams's deployment from the <a href="https://docs.google.com/spreadsheets/d/155eTtRrJGFE0QtTapAca3MhTSZ9qh9NlhENS4MRDN80/edit?usp=sharing">public spreadsheet</a> to review, 1 from your own section, and 2 from other sections. </p>
+<p>For each team, you will submit a review of their feature(s). You will need to test the feature(s) as described in their UserGuide and provide feedback on the following:</p>
+<ol>
+<li>How was the experience of using the feature(s), would this be something you think would help enable better communication between faculty and students and why?</li>
+<li>How do you think the feature can be improved? and/or What do you think the feature did well in?</li>
+<li>Did you discover any bugs using the feature(s)?</li>
+</ol>
+<p>To qualify for extra credit, you will have to submit your review:</p>
+<ul>
+<li>on Gradescope</li>
+<li>in the appropriate sheet in the <a href="https://docs.google.com/spreadsheets/d/155eTtRrJGFE0QtTapAca3MhTSZ9qh9NlhENS4MRDN80/edit?usp=sharing">public spreadsheet</a>. There should be one sheet per team, and you should add your review to the sheet for the team you are reviewing.</li>
+</ul>
+<h2 id="grading">Grading<a class="headerlink" href="#grading" title="Permanent link">&para;</a></h2>
+<p>To receive full credit for the checkpoint, we expect:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A link to your successfully deployed web application for your team repository</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A list of N-1 different static and dynamic analysis tools, where N is the number of members on your team. This list must satisfy all the following criteria:<ul>
+<li>Contain at least one static analysis tool</li>
+<li>Contain at least one dynamic analysis tool</li>
+<li>Contain at least one tool not on our starter list of tools</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Links to N-1 pull requests for each of the selected tools containing evidence of the tool being run at least once on your repository</li>
+</ul>
+<p>To receive full credit for the final deadline, we expect:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A link to your successfully run CD GitHub action that deploys the website while following proper GitHub practices in handling deployment secrets</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A design document describing your research into each of the potential tools, justification for your selection of integrated tool(s), and your final integration plan</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A link to a succuessful run of a GitHub Action that demonstrates your integration of your selected tool(s) into your team workflow</li>
+</ul>
+<p>To receive full credit for the extra credit, we expect:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Your review of three different teams' features on Gradescope and on the <a href="https://docs.google.com/spreadsheets/d/155eTtRrJGFE0QtTapAca3MhTSZ9qh9NlhENS4MRDN80/edit?usp=sharing">public spreadsheet</a>, addressing the three questions described.</li>
+</ul>
+<h2 id="resources-documentation">Resources &amp; Documentation<a class="headerlink" href="#resources-documentation" title="Permanent link">&para;</a></h2>
+<h3 id="starter-list-of-tools">Starter List of Tools<a class="headerlink" href="#starter-list-of-tools" title="Permanent link">&para;</a></h3>
+<p>NodeBB is built in Javascript/Typescript using Node.js and uses Benchpress for its frontend templating. Below are non-exhaustive lists of analysis tools that are available. </p>
+<p>For other resources, <a href="https://github.com/david-a-wheeler/awesome-static-analysis">Awesome Static Analysis page</a> and <a href="https://github.com/analysis-tools-dev/dynamic-analysis">Awesome Dynamic Analysis page</a> have extensive listings of available static and dynamic analysis tools for a pretty hefty list of programming languages.</p>
+<p>Some of the tools already have existing GitHub Actions workflows on GitHub Marketplace; use your Googling skills, and see what you find!</p>
+<h4 id="static-tools">Static Tools<a class="headerlink" href="#static-tools" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://flow.org/">flow</a>: Static type checker for JavaScript</li>
+<li><a href="https://github.com/moskirathe/JScent">JScent</a>: Program analyzer for detecting “code smells”</li>
+<li><a href="https://jshint.com/docs/">JSHint</a>: Used to flag suspicious usage in JavaScript programs</li>
+<li><a href="https://standardjs.com/">StandardJS</a>/<a href="https://github.com/standard/ts-standard">ts-standard</a>: Static analysis tool for code quality within JavaScript/TypeScript projects</li>
+<li><a href="https://retirejs.github.io/retire.js/">Retire.js</a>: Finds library/node module vulnerabilities within your project</li>
+</ul>
+<h4 id="dynamic-tools">Dynamic Tools<a class="headerlink" href="#dynamic-tools" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://maierfelix.github.io/Iroh/">Iroh</a>: Runtime code tracking and visualization</li>
+<li><a href="https://github.com/Samsung/jalangi2">Jalangi</a>: Framework for dynamic analyses in JavaScript</li>
+<li><a href="https://www.npmjs.com/package/fast-fuzz">Fast-Fuzz</a>: Fuzzing framework for TypeScript</li>
+<li><a href="https://stryker-mutator.io/">Stryker Mutator</a>: Mutation testing tool for JavaScript</li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.tracking", "navigation.indexes", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,60 @@
+
+- name: Michael Hilton
+  role: Instructor
+  email: mhilton@cmu.edu
+  website: https://www.cs.cmu.edu/~mhilton/
+  photo: michael.jpg
+
+- name: Eduardo Feo Flushing
+  role: Instructor
+  email: efeoflus@andrew.cmu.edu
+  website: https://www.efeoflushing.com/
+  photo: eduardo.jpg
+
+- name: Sophia Witt
+  role: Teaching Assistant
+  email: switt@andrew.cmu.edu
+  website:
+  photo: sophia.jpeg
+
+- name: Alexis Axon
+  role: Teaching Assistant
+  email: aaxon@andrew.cmu.edu
+  website:
+  photo: alexis.jpg
+
+- name: Eyob Dagnachew
+  role: Teaching Assistant
+  email: edagnach@andrew.cmu.edu
+  website:
+  photo: eyob.jpg
+
+- name: Grace Xin
+  role: Teaching Assistant
+  email: gxin@andrew.cmu.edu
+  website:
+  photo: grace.jpg
+
+- name: Lara Marinov
+  role: Teaching Assistant
+  email: lmarinov@andrew.cmu.edu
+  website:
+  photo: lara.jpg
+
+- name: Jesse Ding
+  role: Teaching Assistant
+  email: jessedin@andrew.cmu.edu
+  website:
+  photo: jesse.jpg
+
+- name: Jenny Liang
+  role: Teaching Assistant
+  email: jtliang@andrew.cmu.edu
+  website:
+  photo: jenny.jpg
+
+- name: Ao Li
+  role: Teaching Assistant
+  email: aoli@andrew.cmu.edu
+  website:
+  photo: ao.jpg

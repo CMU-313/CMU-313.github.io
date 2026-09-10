@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/just-the-docs-default.css">
+    <script type="text/javascript" src="../assets/js/vendor/lunr.min.js"></script>
+    <script type="text/javascript" src="../assets/js/just-the-docs.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HW01 Hello Teedy | 17-313</title>
+    <meta name="generator" content="Jekyll v3.9.2" />
+    <meta property="og:title" content="HW01 Hello Teedy" />
+    <meta name="author" content="Michael Hilton and Rohan Padye" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="website for CMU 17-313" />
+    <meta property="og:description" content="website for CMU 17-313" />
+    <link rel="canonical" href="/_old/F22/assignments/hw1.html" />
+    <meta property="og:url" content="/_old/F22/assignments/hw1.html" />
+    <meta property="og:site_name" content="17-313" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="HW01 Hello Teedy" />
+    <script
+        type="application/ld+json"> {"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Michael Hilton and Rohan Padye"},"description":"website for CMU 17-313","headline":"HW01 Hello Teedy","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"../assets/images/17313_square.png"},"name":"Michael Hilton and Rohan Padye"},"url":"../assignments/hw1.html"}</script>
+
+<body> <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="svg-link" viewBox="0 0 24 24">
+            <title>Link</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-link">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+            </svg>
+        </symbol>
+        <symbol id="svg-search" viewBox="0 0 24 24">
+            <title>Search</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-search">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </symbol>
+        <symbol id="svg-menu" viewBox="0 0 24 24">
+            <title>Menu</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-menu">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </symbol>
+        <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+            <title>Expand</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </symbol>
+        <symbol id="svg-doc" viewBox="0 0 24 24">
+            <title>Document</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-file">
+                <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                <polyline points="13 2 13 9 20 9"></polyline>
+            </svg>
+        </symbol>
+    </svg>
+    <div class="side-bar">
+        <div class="site-header"> <a href="./" class="site-title lh-tight">
+                <div class="site-logo"></div>
+            </a> <a href="#" id="menu-button" class="site-button"> <svg viewBox="0 0 24 24" class="icon">
+                    <use xlink:href="#svg-menu"></use>
+                </svg> </a></div>
+        <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+            <ul class="nav-list">
+                <li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24">
+                            <use xlink:href="#svg-arrow-right"></use>
+                        </svg></a><a href="../assignments/"
+                        class="nav-list-link">Assignments</a>
+                    <ul class="nav-list ">
+                        <li class="nav-list-item active"><a href="../assignments/hw1.html"
+                                class="nav-list-link active">HW01 Hello Teedy</a>
+                        <li class="nav-list-item "><a href="../assignments/hw2.html"
+                                class="nav-list-link">HW02 Learning the Codebase</a>
+                        <li class="nav-list-item "><a href="../assignments/hw3.html"
+                                class="nav-list-link">HW03 Teamwork</a>
+                        <li class="nav-list-item "><a href="../assignments/hw4.html"
+                                class="nav-list-link">HW04 Microservices</a>
+                        <li class="nav-list-item "><a href="../assignments/hw5.html"
+                                class="nav-list-link">HW05 Quality Assurance</a>
+                        <li class="nav-list-item "><a href="../assignments/hw6.html"
+                                class="nav-list-link">HW06 Open Source Excursion</a>
+                    </ul>
+                <li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24">
+                            <use xlink:href="#svg-arrow-right"></use>
+                        </svg></a><a href="../recitations/"
+                        class="nav-list-link">Recitations</a>
+                    <ul class="nav-list ">
+                        <li class="nav-list-item "><a href="../recitations/2-angularjs.html"
+                                class="nav-list-link">Recitation 2 - Angular.js and MVC</a>
+                        <li class="nav-list-item "><a href="../recitations/3-archaeology.html"
+                                class="nav-list-link">Recitation 3 - Software Archaeology</a>
+                        <li class="nav-list-item "><a href="../recitations/4-team-dysfunction.html"
+                                class="nav-list-link">Recitation 4 - Team Dysfunction</a>
+                        <li class="nav-list-item "><a href="../recitations/6-midterm-review.html"
+                                class="nav-list-link">Recitation 6 - Midterm Review</a>
+                        <li class="nav-list-item "><a href="../recitations/7-ml.html"
+                                class="nav-list-link">Recitation 7 - Machine Learning</a>
+                        <li class="nav-list-item "><a href="../recitations/8-analysis-ci.html"
+                                class="nav-list-link">Recitation 8 - static analysis and continuous integration</a>
+                        <li class="nav-list-item "><a href="../recitations/9-open-source.html"
+                                class="nav-list-link">Recitation 9 - Open Source Projects</a>
+                    </ul>
+                <li class="nav-list-item"><a href="../calendar/"
+                        class="nav-list-link">Calendar</a>
+                <li class="nav-list-item"><a href="../schedule/"
+                        class="nav-list-link">Schedule</a>
+                <li class="nav-list-item"><a href="../staff/" class="nav-list-link">Staff</a>
+                <li class="nav-list-item"><a href="../syllabus/"
+                        class="nav-list-link">Syllabus</a>
+            </ul>
+        </nav>
+        <footer class="site-footer"> This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the
+                Docs</a>, a documentation theme for Jekyll.</footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+            <div class="search">
+                <div class="search-input-wrap"> <input type="text" id="search-input" class="search-input" tabindex="0"
+                        placeholder="Search 17-313" aria-label="Search 17-313" autocomplete="off"> <label
+                        for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon">
+                            <use xlink:href="#svg-search"></use>
+                        </svg></label></div>
+                <div id="search-results" class="search-results"></div>
+            </div>
+        </div>
+        <div id="main-content-wrap" class="main-content-wrap">
+            <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+                <ol class="breadcrumb-nav-list">
+                    <li class="breadcrumb-nav-list-item"><a
+                            href="../assignments/">Assignments</a>
+                    <li class="breadcrumb-nav-list-item"><span>HW01 Hello Teedy</span>
+                </ol>
+            </nav>
+            <div id="main-content" class="main-content" role="main">
+                <h1 id="17-313-foundations-of-software-engineering"> <a
+                        href="#17-313-foundations-of-software-engineering" class="anchor-heading"
+                        aria-labelledby="17-313-foundations-of-software-engineering"><svg viewBox="0 0 16 16"
+                            aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> 17-313: Foundations of Software Engineering</h1>
+                <h2 id="homework-1-hello-teedy"> <a href="#homework-1-hello-teedy" class="anchor-heading"
+                        aria-labelledby="homework-1-hello-teedy"><svg viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Homework 1: Hello, Teedy!</h2>
+                <h3 id="learning-goals"> <a href="#learning-goals" class="anchor-heading"
+                        aria-labelledby="learning-goals"><svg viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Learning goals</h3>
+                <ul>
+                    <li>Familiarize yourself with an existing software project
+                    <li>Download, install and run an existing software project
+                    <li>Run an evaluation tool and collect metrics
+                    <li>Evaluate the results of these metrics
+                </ul>
+                <h3 id="background"> <a href="#background" class="anchor-heading" aria-labelledby="background"><svg
+                            viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Background</h3>
+                <p>Git and GitHub:</p>
+                <ul>
+                    <li><a href="https://git-scm.com/docs/gittutorial">Git Documentation</a>
+                    <li><a href="https://datasift.github.io/gitflow/IntroducingGitFlow.html">Git Flow</a>
+                    <li><a href="https://guides.github.com/activities/hello-world/">GitHub Basics</a>
+                    <li><a href="https://guides.github.com/introduction/flow/">GitHub’s Flow</a>
+                    <li><a
+                            href="https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests">GitHub
+                            Cross-Referencing</a>
+                </ul>
+                <h3 id="specification"> <a href="#specification" class="anchor-heading"
+                        aria-labelledby="specification"><svg viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Specification</h3>
+                <p>Welcome to the team! To start your journey on this project, your first task is to become familiar
+                    with an existing piece of software. Eventually you will be adding new features, but the first step
+                    is to simply download, run, evaluate, and explore the current software product. The project we will
+                    be building on this semester is an open source document management system, <a
+                        href="https://teedy.io/">Teedy</a>.</p>
+                <p>We will be using a class-specific fork of Teedy, whose repository is located at: <a
+                        href="https://github.com/CMU-313/Teedy">https://github.com/CMU-313/Teedy</a> This fork is based
+                    off https://github.com/sismics/docs and contains minor tweaks to make the project easier to modify
+                    and debug. Forking from the class repository will allow you to send pull requests to the
+                    instructors, which is the primary way of submitting code deliverables for this homework.</p>
+                <p><strong>Getting Started:</strong> Your first step should be to fork the repository and then follow
+                    the installation instructions in README.md. You must build and run Teedy <strong>natively</strong>
+                    on your machine (via the manual installation instructions) rather than following the Docker
+                    instructions. After building Teedy and its dependencies, you should follow the rest of the Getting
+                    Started instructions to run a Teedy instance on your machine. <img
+                        src="../assets/images/teedy.png" alt="teedy screenshot" /></p>
+                <p>Once you have run Teedy successfully, you should be able to navigate to <a
+                        href="http://localhost:8080/src"><code
+                            class="language-plaintext highlighter-rouge">http://localhost:8080/src</code></a> (if this
+                    doesn’t work, try navigating to <a href="http://localhost:8080"><code
+                            class="language-plaintext highlighter-rouge">http://localhost:8080</code></a> ) and see a
+                    web page with a login screen. By default, Teedy will be deployed to port <code
+                        class="language-plaintext highlighter-rouge">8080</code> on your machine. You may change this
+                    port number (e.g., to avoid conflict with another process running on your machine).</p>
+                <p><strong>If the process of installing and running Teedy takes you more than a few hours, STOP and ask
+                        for help on Slack.</strong></p>
+                <p><strong>Collecting Metrics:</strong> Once you have Teedy up and running locally, proceed to evaluate
+                    it using <a href="https://developers.google.com/web/tools/lighthouse">Google Lighthouse</a>. You can
+                    run Lighthouse as a stand alone application, or using the audit tab of Google Developer Tools. After
+                    you run Lighthouse, it will give you a score for various dimensions: Performance, Accessibility,
+                    Best Practices, and SEO. Additionally, you can measure test coverage. This will be done every time
+                    you run the tests via maven <code class="language-plaintext highlighter-rouge">mvn test</code>,
+                    using the <a href="https://www.eclemma.org/jacoco/">Jacoco</a> tool. After looking over the metrics,
+                    pick one metric to improve (Performance, Accessibility, Best Practices, SEO, or Code Coverage). The
+                    Lighthouse reports will give you some suggestions as to how to improve a score. The only
+                    requirements are that your change should affect the metric’s score, and that the change should
+                    involve a commit to the repo. HINT: Because of this, you might want to avoid trying to change the
+                    performance score.</p>
+                <p>First, open an issue in the <a
+                        href="https://github.com/CMU-313/Teedy/issues">https://github.com/CMU-313/Teedy/issues</a> to
+                    declare what aspect of Teedy you will be improving. You should look through existing issues, if any,
+                    to avoid duplicates. In the issue description, mention the current score you observed and the
+                    warning that you are targeting. <del>Tag the issue with one or more of the existing labels as
+                        appropriate, add it to milestone “HW1”, and</del> assign yourself (do this by commenting “I
+                    would like to work on this please!”).</p>
+                <p>In your own fork, create a feature branch, implement the change, test it out locally, and commit your
+                    changes. Your commit message(s) must clearly describe what’s changing.</p>
+                <p>Once you are satisfied, open a pull request in the parent repository. The PR should <a
+                        href="https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue">link
+                        the issue</a> that you previously opened (e.g. using the “resolve(s)” keyword), summarize the
+                    changes, and describe how much the score improved by due to your change.</p>
+                <p>After you have completed this task, we will ask you to reflect on the nature of metrics. To do this,
+                    you will answer the following questions about metrics, specifically in the context of Teedy. You
+                    should focus your answers for each of these questions on the metric that you chose to improve.</p>
+                <ul>
+                    <li>What properties do we care about, and how do we measure them?
+                    <li>What is being measured? Does it (to what degree) capture the thing you care about? What are its
+                        limitations?
+                    <li>How should this metric be incorporated into process? Check in gate? Once a month? Etc.
+                    <li>What are potentially negative side effects or incentives?
+                </ul>
+                <h3 id="deliverables-and-deadlines"> <a href="#deliverables-and-deadlines" class="anchor-heading"
+                        aria-labelledby="deliverables-and-deadlines"><svg viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Deliverables and Deadlines</h3>
+                <p>There are three (3) deliverables and one (1) deadline for this homework.</p>
+                <p><em>Individual Component – 100 points – due Thursday, September 9th, 23:59</em></p>
+                <ol>
+                    <li>Create an issue in the parent repository, which must:<ul>
+                            <li>Mention the metric you are targeting.
+                            <li>Mention the current metric scores.
+                            <li>Be assigned to yourself.
+                            <li>~~Be tagged with at least one appropriate label.
+                            <li>Be associated with the HW1 milestone.~~
+                        </ul>
+                    <li>Create a pull request in the parent repository, which must:<ul>
+                            <li>Reference the issue created above.
+                            <li>Describe the fix and improvement to the score.
+                        </ul>
+                    <li>
+                        <p>Answer the following questions on Gradescope about the metric you chose:</p>
+                        <div class="language-plaintext highlighter-rouge">
+                            <div class="highlight">
+                                <pre class="highlight"><code> -   What properties do we care about, and how do we measure it?
+
+ -   What is being measured? Does it (to what degree) capture the thing you care about? What are its limitations?
+
+ -   How should it be incorporated into process? Check in gate? Once a month? Etc.
+
+ -   What are potentially negative side effects or incentives?
+</code></pre>
+                            </div>
+                        </div>
+                </ol>
+                <h3 id="grading"> <a href="#grading" class="anchor-heading" aria-labelledby="grading"><svg
+                            viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Grading</h3>
+                <p>This homework is worth 100 points. Running the project, making the change, and committing it properly
+                    constitutes 50 points (50%), and the reflection questions constitutes 50 points (50%).</p>
+                <p>To receive full credit for the group component, we expect:</p>
+                <ul>
+                    <li>
+                        <p>The correct use of tools and technology, including Git, GitHub, and Lighthouse.</p>
+                    <li>
+                        <p>Answers to the questions that demonstrate understanding of the benefits and limitations of
+                            software metrics, specifically in the context of Teedy. This analysis should go beyond
+                            superficial statements, mere descriptions, and truisms, which ties specifically to the
+                            context of this assignment.</p>
+                </ul>
+                <hr>
+                <footer>
+                    <p class="text-small text-grey-dk-100 mb-0">this website is based on
+                        https://github.com/kevinlin1/just-the-class</p>
+                </footer>
+            </div>
+        </div>
+        <div class="search-overlay"></div>
+    </div>
