@@ -92,10 +92,12 @@ schedule:
     - kind: lecture
       date: 2026-09-10
       title: "Teams and Communication (slack, user doc)"
+      link: /assets/pdfs/05-Teams-Communication.pdf
 
     - kind: lecture
       date: 2026-09-15
       title: "Requirements? specifications?"
+      link: /assets/pdfs/06-Metrics.pdf
 
     - kind: lecture
       date: 2026-09-17
