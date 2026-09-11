@@ -62,7 +62,7 @@ In the PR, indicate whether you used AI in your implementation or not, and attac
 
 ## Spicy Challenge (Optional): Create an Automated Test
 
-As an optional task for the daredevils out there, write automated tests for the changes that you've made to ensure that it did not break anything. You will not be graded on this, but it may prove itself as helpful practice for upcoming assignments!
+As an optional task for the daredevils out there, write automated tests for the changes that you've made to ensure that they did not break anything. You will not be graded on this, but it may prove itself as helpful practice for upcoming assignments!
 
 ## Submission
 Submit your PR link and complete the short quiz on [Gradescope](https://www.gradescope.com/courses/1356702/assignments/8417880).
