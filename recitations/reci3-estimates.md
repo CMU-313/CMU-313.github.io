@@ -14,11 +14,11 @@ In today’s recitation, we will practice implementing a new feature for the Ope
 
 **Let's implement a new feature!**
 
-Check out [this issue](https://github.com/CMU-313/F26-reci-3/issues/2) of the feature request. As a means to demonstrate their devotion to Carnegie Mellon, the user wants the custom command "/scotty" that they can input into the OpenCode CLI, which would then rompt OpenCode to return a piece of ASCII art of Scotty the Scottish Terrier.
+Check out [this issue](https://github.com/CMU-313/F26-reci-3/issues/2) of the feature request. As a means to demonstrate their devotion to Carnegie Mellon, the user wants the custom command that they can input into the OpenCode CLI, which would then prompt OpenCode to return a piece of ASCII art of Scotty the Scottish Terrier.
 
 ## Task 0: Clone the repo
 
-Fork [this repository](https://github.com/CMU-313/F26-reci-3), clone it to your local machine, then open it in VSCode. You may reopen the repository in a development container using the devcontainer file has been included.
+Fork [the repository](https://github.com/CMU-313/F26-reci-3), clone it to your local machine, then open it in VSCode. You may reopen the repository in a development container using the devcontainer file has been included.
 
 ## Task 1: Give an Estimate
 
@@ -53,7 +53,9 @@ Now, try implementing this feature using any AI coding tool at your disposal. Th
 Once you have a working implementation,
 
 - Add and commit your changes
+
 - Push the code to your forked repository.
+
 - Create a pull request that links to the issue.
 
 In the PR, indicate whether you used AI in your implementation or not, and attach a screenshot of the Scotty that OpenCode generated after running the command as proof of successful implementation.
@@ -62,5 +64,5 @@ In the PR, indicate whether you used AI in your implementation or not, and attac
 
 As an optional task for the daredevils out there, write automated tests for the changes that you've made to ensure that it did not break anything. You will not be graded on this, but it may prove itself as helpful practice for upcoming assignments!
 
-### Submission
+## Submission
 Submit your PR link and complete the short quiz on [Gradescope](https://www.gradescope.com/courses/1356702/assignments/8417880).
