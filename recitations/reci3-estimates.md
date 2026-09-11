@@ -14,7 +14,7 @@ In today’s recitation, we will practice implementing a new feature for the Ope
 
 **Let's implement a new feature!**
 
-Check out [this issue](https://github.com/CMU-313/F26-reci-3/issues/2) of the feature request. As a means to demonstrate their devotion to Carnegie Mellon, the user wants the custom command that they can input into the OpenCode CLI, which would then prompt OpenCode to return a piece of ASCII art of Scotty the Scottish Terrier.
+Check out [this issue](https://github.com/CMU-313/F26-reci-3/issues/2) of the feature request. As a means to demonstrate their devotion to Carnegie Mellon, the user wants the custom command that they can input into the OpenCode CLI, which would then prompt OpenCode to return a piece of ASCII art of Scotty the Scottish Terrier. **Note: You are not required to draw the ASCII art yourself. Feel free to use an online generator or ask OpenCode do it for you.**
 
 ## Task 0: Clone the repo
 
