@@ -38,7 +38,7 @@ After the 15 minutes have elapsed, stop what you're doing and reflect:
 
 - Did you overestimate/underestimate the amount of time that you needed for this task? By how much?
 
-- Given this activity, confident are you in your ability to estimate the effort needed for a task?
+- Given this activity, how confident are you in your ability to estimate the effort needed for a task?
 
 ## Task 3: With a Little Help from My Friends
 
