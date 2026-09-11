@@ -5,7 +5,7 @@ date: 2026-09-14
 reveal_date: 2026-09-11
 ---
 
-# Recitation 3: AI Tool Use
+# Recitation 3: Estimation Exercise
 
 ## Overview
 
