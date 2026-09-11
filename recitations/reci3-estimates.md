@@ -26,7 +26,7 @@ Before you start working on the issue, take a brief moment to make a calculated 
 
 ## Task 2: Dive into the code
 
-Now, spend the next 15 minutes trying to implement the feature without the use of any AI coding tools. Here are some tips to get you started:
+For the next 15 minutes, work on implementing the feature without the use of any AI coding tools. Here are some tips to get you started:
 
 - OpenCode already has existing slash commands. How are these commands implemented?
 
@@ -38,23 +38,29 @@ After the 15 minutes have elapsed, stop what you're doing and reflect:
 
 - Did you overestimate/underestimate the amount of time that you needed for this task? By how much?
 
-- How confident are you in your ability to estimate the effort needed for a task?
+- Given this activity, confident are you in your ability to estimate the effort needed for a task?
 
 ## Task 3: With a Little Help from My Friends
 
+Now, try implementing this feature using any AI coding tool at your disposal. This task should take less time than the previous. Once you are done, consider these questions:
 
+- What was the effort level required for this task compared to the previous?
+
+- What were the differences between the changes that you made with vs. without the AI tool?
 
 ## Task 4: Make a Pull Request
 
-If you’ve finished all that,
+Once you have a working implementation,
 
 - Add and commit your changes
 - Push the code to your forked repository.
-- Create a pull request that links the issue.
+- Create a pull request that links to the issue.
+
+In the PR, indicate whether you used AI in your implementation or not, and attach a screenshot of the Scotty that OpenCode generated after running the command as proof of successful implementation.
 
 ## Spicy Challenge (Optional): Create an Automated Test
 
+As an optional task for the daredevils out there, write automated tests for the changes that you've made to ensure that it did not break anything. You will not be graded on this, but it may prove itself as helpful practice for upcoming assignments!
 
-
-### Task 5: Turn in on Gradescope
-Submit your PR link on [Gradescope](https://www.gradescope.com/courses/1213157/assignments/7570587/).
+### Submission
+Submit your PR link and complete the short quiz on [Gradescope](https://www.gradescope.com/courses/1356702/assignments/8417880).
