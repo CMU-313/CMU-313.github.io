@@ -86,6 +86,7 @@ schedule:
       link: /assets/pdfs/04-737MAX.pdf
 
     - kind: lecture
+      date: 2026-09-05
       title: "Teams and Communication (slack, user doc)"
       link: /assets/pdfs/05-Teams-Communication.pdf
 
