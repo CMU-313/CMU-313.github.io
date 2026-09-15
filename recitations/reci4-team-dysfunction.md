@@ -1,11 +1,11 @@
 ---
 kind: recitation
-title: Recitation 5 - Team Dysfunction
-date: 2026-09-28
-reveal_date: 2026-09-28
+title: Recitation 4 - Team Dysfunction
+date: 2026-09-21
+reveal_date: 2026-09-21
 ---
 
-# Recitation 5: Team Dysfunction
+# Recitation 4: Team Dysfunction
 
 ## Learning objectives
 * Practice and reflect about being within a team.
@@ -14,7 +14,7 @@ reveal_date: 2026-09-28
 ## Part 0: Preparation
 Use the [number generator to get a random number from 1-7](https://numbergenerator.org/randomnumbergenerator/1-7) that will determine your role.
 
-To know how you are supposed to act, reference the [Roles & personality traits section](https://deploy-preview-235--17313.netlify.app/recitations/reci5-team-dysfunction/#roles-personality-traits) for the role description based on your number.
+To know how you are supposed to act, reference the [Roles & personality traits](#roles-personality-traits) section at the bottom of this recitation for the role description based on your number.
 
 ## Part 1: Skit planning (15 minutes)
 You will be planning a 3-5 minute skit to perform in front of the class. Your skit will be about a team that is finding a tool to support the payment system of your graduate application. Here are some ideas of what the skit can include:
@@ -38,7 +38,7 @@ As a class, for each dysfunctional characteristic, discuss the following questio
 * What problems can be caused by this behavior? Can you think of mitigation strategies and solutions to avoid them?
 
 ## Part 4: Submit on Gradescope
-To receive participation for this activity, please complete the [quiz on Gradescope](https://www.gradescope.com/courses/1213157/assignments/7607817).
+To receive participation for this activity, please complete the assignment on [Gradescope](https://www.gradescope.com/courses/1356702).
 
 
 ## Roles & personality traits

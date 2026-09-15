@@ -1,11 +1,11 @@
 ---
 kind: recitation
-title: Recitation 4 - P2B Checkpoint Presentations
-date: 2026-09-21
-reveal_date: 2026-09-21
+title: Recitation 5 - P2B Checkpoint Presentations
+date: 2026-09-28
+reveal_date: 2026-09-28
 ---
 
-# Recitation 4: P2B Checkpoint Presentations
+# Recitation 5: P2B Checkpoint Presentations
 
 ## Overview
 Today we’ll be having our project presentations for your first sprint! Please make sure to pay attention during all presentations as you will need to answer questions about your peers' presentations on [Gradescope](https://www.gradescope.com/courses/1213157/assignments/7599021/) to get participation credit.
