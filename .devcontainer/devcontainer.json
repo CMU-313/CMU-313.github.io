@@ -1,7 +1,7 @@
 {
   "name": "17-313: Course Website",
   "image": "mcr.microsoft.com/devcontainers/base:debian",
-  "postCreateCommand": "git submodule update --init --recursive && python3 -m pip install --break-system-packages -e './vendor/course.md[all]' 'mkdocs-material>=9.5.0' pre-commit && pre-commit install --install-hooks",
+  "postCreateCommand": "git submodule update --init --recursive && python3 -m pip install --break-system-packages -e './vendor/course.md[all]' 'mkdocs-material>=9.5.0' pre-commit",
   "customizations": {
     "vscode": {
       "extensions": [
