@@ -2,7 +2,7 @@
 kind: recitation
 title: Recitation 4 - Team Dysfunction
 date: 2026-09-21
-reveal_date: 2026-09-21
+reveal_date: 2026-09-18
 ---
 
 # Recitation 4: Team Dysfunction
