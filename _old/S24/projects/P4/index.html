@@ -1,0 +1,1580 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Project 4: Architecting an LLM Integration - CMU 17-313: Foundations of Software Engineering</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.08040f6c.min.css">
+        
+      
+      
+
+    
+    
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#project-4-architecting-an-llm-integration" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CMU 17-313: Foundations of Software Engineering" class="md-header__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering" data-md-component="logo">
+      
+  <img src="../../assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CMU 17-313: Foundations of Software Engineering
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Project 4: Architecting an LLM Integration
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../overview/" class="md-tabs__link">
+      Course Overview
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../syllabus/" class="md-tabs__link">
+      Syllabus
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../P1/" class="md-tabs__link md-tabs__link--active">
+        Projects
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../recitations/reci1-github/" class="md-tabs__link">
+        Recitations
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../hall-of-fame/" class="md-tabs__link">
+      Hall of Fame
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://canvas.cmu.edu/courses/39244" class="md-tabs__link">
+      Canvas
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://www.gradescope.com" class="md-tabs__link">
+      Gradescope
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://join.slack.com/t/cmu-17313-s24/signup" class="md-tabs__link">
+      Slack
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CMU 17-313: Foundations of Software Engineering" class="md-nav__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering" data-md-component="logo">
+      
+  <img src="../../assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    CMU 17-313: Foundations of Software Engineering
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        Course Overview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../syllabus/" class="md-nav__link">
+        Syllabus
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Projects
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Projects" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Projects
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../P1/">Project 1: Hello, NodeBB!</a>
+          
+            <label for="__nav_4_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 1: Hello, NodeBB!" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Project 1: Hello, NodeBB!
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P1/1_checkpoint/" class="md-nav__link">
+        1A Build Checkpoint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P1/2_translation/" class="md-nav__link">
+        1B Starter Task
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1_4" type="checkbox" id="__nav_4_1_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4_1_4">
+          NodeBB Installation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="NodeBB Installation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          NodeBB Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P1/installation/mac/" class="md-nav__link">
+        Mac
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P1/installation/windows/" class="md-nav__link">
+        Windows
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P1/installation/ubuntu/" class="md-nav__link">
+        Linux (Ubuntu)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P1/documentation/" class="md-nav__link">
+        Resources and Documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P1/faq/" class="md-nav__link">
+        FAQ
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../P2/">Project 2: Collaborative Development</a>
+          
+            <label for="__nav_4_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 2: Collaborative Development" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Project 2: Collaborative Development
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P2/1_teamprocess/" class="md-nav__link">
+        2A Team Process & Planning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P2/2_firstsprint/" class="md-nav__link">
+        2B First Sprint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P2/3_secondsprint/" class="md-nav__link">
+        2C Second Sprint
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../P3/">Project 3: Continuous Integration + Deployment</a>
+          
+            <label for="__nav_4_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 3: Continuous Integration + Deployment" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Project 3: Continuous Integration + Deployment
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P3/deployment/" class="md-nav__link">
+        GCP Deployment Instructions
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index md-nav__link--active">
+          <a href="./">Project 4: Architecting an LLM Integration</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 4: Architecting an LLM Integration" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Project 4: Architecting an LLM Integration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_5" type="checkbox" id="__nav_4_5" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../P5/">Project 5: Open Source Excursion</a>
+          
+            <label for="__nav_4_5">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Project 5: Open Source Excursion" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          Project 5: Open Source Excursion
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P5/1_projectcheck/" class="md-nav__link">
+        5A Project and Task Selection
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P5/2_projectfinal/" class="md-nav__link">
+        5B Project Presentations, Final Report, and Reflections
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Recitations
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Recitations" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Recitations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci1-github/" class="md-nav__link">
+        Recitation 1 - Git, GitHub and TypeScript
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci2-teamcontract/" class="md-nav__link">
+        Recitation 2 - Team Contract Workshop
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci4-archaeology/" class="md-nav__link">
+        Recitation 3 - Archaeology
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci4-checkpoint/" class="md-nav__link">
+        Recitation 4 - Checkpoint Presentations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci5-team-dysfunction/" class="md-nav__link">
+        Recitation 5 - Team Dysfunction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci6-deployment/" class="md-nav__link">
+        Recitation 6 - Deployment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci7-llms/" class="md-nav__link">
+        Recitation 7 - Large Language Models
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci8-team-feedback/" class="md-nav__link">
+        Recitation 8 - Team Feedback
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci9-open-source/" class="md-nav__link">
+        Recitation 9 - Open Source Scavenger Hunt
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci10-p5-checkin/" class="md-nav__link">
+        Recitation 10 - Open Source Project and Task Selection Check In
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recitations/reci11-midterm-review/" class="md-nav__link">
+        Recitation 11 - Midterm Review
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hall-of-fame/" class="md-nav__link">
+        Hall of Fame
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://canvas.cmu.edu/courses/39244" class="md-nav__link">
+        Canvas
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.gradescope.com" class="md-nav__link">
+        Gradescope
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://join.slack.com/t/cmu-17313-s24/signup" class="md-nav__link">
+        Slack
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-goals" class="md-nav__link">
+    Learning Goals
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-context" class="md-nav__link">
+    Project Context
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deliverables-and-deadlines" class="md-nav__link">
+    Deliverables and Deadlines
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checkpoint-1-deliverables" class="md-nav__link">
+    Checkpoint #1 Deliverables
+  </a>
+  
+    <nav class="md-nav" aria-label="Checkpoint #1 Deliverables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#architectural-design-document-40-points" class="md-nav__link">
+    Architectural Design Document (40 points)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#basic-llm-experiment-15-points" class="md-nav__link">
+    Basic LLM Experiment (15 points)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checkpoint-2-deliverables" class="md-nav__link">
+    Checkpoint #2 Deliverables
+  </a>
+  
+    <nav class="md-nav" aria-label="Checkpoint #2 Deliverables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#llm-experiment-integration-checkpoint-10-points" class="md-nav__link">
+    LLM Experiment Integration Checkpoint (10 points)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-deliverables" class="md-nav__link">
+    Final Deliverables
+  </a>
+  
+    <nav class="md-nav" aria-label="Final Deliverables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#final-llm-experiment-implementation-30-points" class="md-nav__link">
+    Final LLM Experiment Implementation (30 points)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evaluation-report-30-points" class="md-nav__link">
+    Evaluation Report (30 points)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grading" class="md-nav__link">
+    Grading
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resource-documentation" class="md-nav__link">
+    Resource &amp; Documentation
+  </a>
+  
+    <nav class="md-nav" aria-label="Resource &amp; Documentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#design-documents" class="md-nav__link">
+    Design Documents
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#llms" class="md-nav__link">
+    LLMs
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="project-4-architecting-an-llm-integration">Project 4: Architecting an LLM Integration<a class="headerlink" href="#project-4-architecting-an-llm-integration" title="Permanent link">&para;</a></h1>
+<h2 id="learning-goals">Learning Goals<a class="headerlink" href="#learning-goals" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Design a software architecture for a software system that incorporates a foundational large language model</li>
+<li>Decide the appropriate architecture for a given problem</li>
+<li>Address and describe the tradeoffs of different architectures</li>
+<li>Integrate pre-trained foundational large language models into an existing software system</li>
+<li>Evaluate the performance/quality of LLM powered features</li>
+<li>Design test suites that include unit, integration, and mock testing, to ensure robustness and reliability</li>
+<li>Engineer techniques to improve the performance of pre-trained models on application-specific tasks</li>
+<li>Decide whether an LLM powered solution is production ready</li>
+</ul>
+<h2 id="project-context">Project Context<a class="headerlink" href="#project-context" title="Permanent link">&para;</a></h2>
+<p>As you and your team continue developing the new Q&amp;A forum system for CMU, your CEO suddenly bursts into the room shouting, “LLMs! AI! Why are we building a Q&amp;A forum without integrating LLMs?!”</p>
+<p>After your CEO calms down, your manager calls an all-hands meeting. At the meeting, everyone agrees that we don’t have the resources to build a completely new Q&amp;A forum, and also automate the whole question-answering problem.</p>
+<p>However, to better compete with Piazza, your CEO and manager decide to put your team in charge of exploring using an LLM to implement a translation feature. This feature will automatically translate posts written in languages other than English into English. This initiative aims to foster inclusivity and ensure that language barriers do not hinder participation in the forum.</p>
+<p>Your manager wants you to:</p>
+<ol>
+<li><strong>Architect the feature</strong> - reason about, document and select an appropriate architecture for integrating this feature into the existing system.</li>
+<li><strong>Build an experimental integration</strong> with the existing NodeBB codebase to evaluate feasibility.</li>
+<li><strong>Evaluate the feature</strong> and decide whether the feature should be fully implemented.</li>
+</ol>
+<h2 id="deliverables-and-deadlines">Deliverables and Deadlines<a class="headerlink" href="#deliverables-and-deadlines" title="Permanent link">&para;</a></h2>
+<p>There are three (3) deadlines for the project. This project is worth a total of 125 points.</p>
+<p><strong>Checkpoint #1 Deliverables</strong> – 55 pts - due Thursday, March 28, 11:59pm</p>
+<ul>
+<li><a href="#architectural-design-document-40-points">Architectural Design Document (40 pts)</a></li>
+<li><a href="#basic-llm-experiment-15-points">Basic LLM Experiment (15 pts)</a></li>
+</ul>
+<p><strong>Checkpoint #2 Deliverables</strong> – 10 pts - due Monday, April 1, 11:59pm</p>
+<ul>
+<li><a href="#llm-experiment-integration-checkpoint-10-points">LLM Experiment Integration Checkpoint (10 pts)</a></li>
+</ul>
+<p><strong>Final Deliverables</strong> - 60 pts - due Thursday, April 4, 11:59pm</p>
+<ul>
+<li><a href="#final-llm-experiment-implementation-30-points">Final LLM Experiment Implementation (30 pts)</a></li>
+<li><a href="#evaluation-report-30-points">Evaluation Report (30 pts)</a></li>
+</ul>
+<h2 id="checkpoint-1-deliverables">Checkpoint #1 Deliverables<a class="headerlink" href="#checkpoint-1-deliverables" title="Permanent link">&para;</a></h2>
+<h3 id="architectural-design-document-40-points">Architectural Design Document (40 points)<a class="headerlink" href="#architectural-design-document-40-points" title="Permanent link">&para;</a></h3>
+<p>To start, your manager has requested a concrete design document outlining how you plan to integrate the new LLM-powered translation feature into the existing codebase. One of your manager's requirements is that this feature should work on a deployed site.</p>
+<p>If the team decides to go ahead with the feature, this design document will be followed in order to fully integrate this feature into NodeBB.</p>
+<p>Some initial solutions to consider include:</p>
+<ol>
+<li><strong>Implementing a Python-based microservice</strong> and deploying it as a separate service; then, integrating the service with your existing monolith via a REST API</li>
+<li><strong>Integrate a Python-based serverless function</strong> triggered via a REST API, then integrate the function with your existing monolith via a REST API.</li>
+<li><strong>Refactoring part or all of the existing monolith</strong> into a microservices-based architecture</li>
+</ol>
+<p>Your design document must advocate for one of these three approaches.</p>
+<p>Once you have finished evaluating the codebase, create the design document highlighting your findings and decisions. Below is a sample outline for your design document along with recommended page lengths.</p>
+<ol>
+<li>
+<p><strong>Feature Overview (&lt;1 pages)</strong>
+    Describe concisely how the translation feature works and how it will be used by the relevant stakeholders, with screenshots if necessary.</p>
+</li>
+<li>
+<p><strong>Assessing LLM Suitability (&lt;1 page)</strong>
+    Use the framework discussed in class to discuss why an LLM may be a good solution for translating posts on NodeBB.</p>
+</li>
+<li>
+<p><strong>Current Architecture (&lt;1 page)</strong>
+    Provide a brief description of the current NodeBB architecture. Include an <strong>architectural diagram</strong> to support your description.</p>
+</li>
+<li>
+<p><strong>Quality Requirements (&lt;1 page)</strong>
+    Provide a concise, prioritized list of the overall quality requirements you considered in arguing for the integration of the feature into the system and a short justification for each. Your team should decide on <strong>at least three</strong> requirements to focus on.</p>
+<p>Rank your requirements in decreasing order of importance. This allows readers to quickly understand what you were designing for.</p>
+</li>
+<li>
+<p><strong>Potential Solutions (~1 page each)</strong>
+    Your team should consider <strong>at least two</strong> different potential solutions for integrating the new feature. For each, provide at least one architectural diagram, a brief description of the solution's architectural design, and a discussion of the design's tradeoffs.</p>
+<p>Tradeoffs must involve (but are not limited to) the quality attributes described in the previous section. Justify such arguments with reference to appropriate diagrams and concrete examples, as appropriate.</p>
+</li>
+<li>
+<p><strong>Selected Architecture + Justification (&lt;1 page)</strong>
+    Describe which design your team decided to proceed with in architecturally integrating the feature into existing codebase. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design (if any).</p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">On Diagrams</p>
+<p>Diagrams should <strong>involve suitable architectural views</strong>; <strong>must include a legend</strong>; and <strong>should involve appropriate levels of abstraction</strong> for the components in the diagram. If necessary, use color/shape/text to differentiate between types of components and connectors.</p>
+<p>You may find it appropriate to merge more than one view into a single diagram. If you do this, <strong>you must be explicit about what views you are merging</strong>, and why. Otherwise, diagrams should clearly represent legitimate architectural views. Make sure that multiple views of the architecture are consistent with each other and the links are clear; if necessary provide a mapping in additional text.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Drawing Diagrams</p>
+<p>Drawing diagrams is much easier with the right software. Consider tools like <a href="https://draw.io/">draw.io</a> (free, online, and collaborative), <a href="http://dia-installer.de/">Dia</a>, <a href="https://www.omnigroup.com/omnigraffle">OmniGraffle</a>, <a href="https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software">MS Visio</a>, or even just the drawing editor of <a href="https://docs.google.com/">Google Docs</a>. <a href="https://slides.google.com/">Google Slides</a> will also likely work for this purpose.</p>
+<p>Pictures of whiteboard drawings are also acceptable, if clearly readable.</p>
+</div>
+<p>More resources to assist you with creating your design document can be found in the <a href="#resource-documentation">Resources &amp; Documentation</a> section below.</p>
+<div class="admonition warning">
+<p class="admonition-title">On Generative AI</p>
+<p>In the past, students have utilized generative AI tools to generate diagrams with mixed success. While some diagrams have been useful and accurate, others have fallen short due to inaccuracies or oversimplifications not aligned with specific project requirements. Be cautious and review them carefully for accuracy and relevance. You’ve been warned.</p>
+</div>
+<p>By the checkpoint deadline, your team will submit your design document to Gradescope as a PDF.</p>
+<h3 id="basic-llm-experiment-15-points">Basic LLM Experiment (15 points)<a class="headerlink" href="#basic-llm-experiment-15-points" title="Permanent link">&para;</a></h3>
+<p>To explore the feasibility of LLMs for this task, your manager would like you to prototype the basic functionality of an LLM to translate text. Due to the company’s existing deal with Google, your team will use the chat-bison language model from Google’s Vertex AI Platform.</p>
+<p>To get setup, make sure you're logged into the Google account you used to redeem your GCP credits. If you haven't redeemed your GCP credits yet, follow the instructions in the <a href="https://cmu-313.github.io/recitations/reci6-deployment/#task-1b-deploy-on-google-cloud-platform">Deployment Recitation.</a></p>
+<p>Once you're logged into the right credit-bearing Google account, follow these instructions:</p>
+<ol>
+<li>
+<p>Enable the Vertex AI API using <a href="https://console.cloud.google.com/flows/enableapi?apiid=aiplatform.googleapis.com">this link</a>. Make sure your NodeBB project from P3 is selected in the project selector dropdown.</p>
+</li>
+<li>
+<p>Open the Colab notebook using <a href="https://colab.research.google.com/drive/1e_9Ka4Oq4a9UZfoF570MaQqQqnvjclc1?usp=sharing">this link</a>. Click on File --&gt; Save as a copy in Drive to create your own copy that you will work on. Only one team member needs to do this, and the team should collaborate using this notebook.</p>
+</li>
+<li>
+<p>Click on Share and make sure the Colab notebook is <strong>editable</strong> by anyone in Carnegie Mellon University.</p>
+</li>
+</ol>
+<p>Now, you should be ready to experiment with chat-bison! Follow the instructions in the notebook through the end of the Basic LLM Experiment.</p>
+<p>Given the unpredictable nature of LLM responses, it is crucial to test whether your application can handle a range of outcomes. Your Colab notebook should also include tests for your code. We have provided a starter code.
+In this task, you are required to employ mocking techniques to test your code resilience against unexpected results from API calls to the LLM. Mocking is a method used in testing to replace real system components with mock objects that simulate the behavior of those components. This approach allows developers to emulate various scenarios, including errors or atypical responses from external services, without having to make actual API calls. Here you will be using mocking to mimic different unexpected outcomes to check if your code can handle such anomalies gracefully.</p>
+<p>For full credit, your submission should have at least four mock tests that deal
+with differente unexpected model behaviors. At least one of these tests should involve the
+model returning unexpected text. All tests should relate to the <code>query_llm_robust</code> function.</p>
+<p>You should download and submit a .ipynb copy of your Colab notebook (with outputs) to Gradescope.</p>
+<h2 id="checkpoint-2-deliverables">Checkpoint #2 Deliverables<a class="headerlink" href="#checkpoint-2-deliverables" title="Permanent link">&para;</a></h2>
+<h3 id="llm-experiment-integration-checkpoint-10-points">LLM Experiment Integration Checkpoint (10 points)<a class="headerlink" href="#llm-experiment-integration-checkpoint-10-points" title="Permanent link">&para;</a></h3>
+<p>For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track. We have provided some initial code on <a href="https://github.com/CMU-313/translator-service">this repo</a>.</p>
+<p>Furthermore, your server-side code must include unit and mock tests. To accomplish this, you must move the tests you wrote in the previous checkpoint to the repo and integrate them into the CI pipeline.</p>
+<h2 id="final-deliverables">Final Deliverables<a class="headerlink" href="#final-deliverables" title="Permanent link">&para;</a></h2>
+<h3 id="final-llm-experiment-implementation-30-points">Final LLM Experiment Implementation (30 points)<a class="headerlink" href="#final-llm-experiment-implementation-30-points" title="Permanent link">&para;</a></h3>
+<p>The final step is to implement this LLM feature into your team's NodeBB project. Your implementation should include the UI code you integrated in Checkpoint #2. You should also integrate the code you developed as a part of the LLM experiment, but you may modify it as needed to successfully integrate the functionality into your code.
+<strong>Because this is the last Project to use NodeBB, commit to your repo, and we will grade your final repository state</strong>  Reach out to your TA if you have any questions. 
+<strong>Note:</strong> This final implementation can use EITHER Vertex AI, or Gemeni as the LLM you use for translation.</p>
+<h3 id="evaluation-report-30-points">Evaluation Report (30 points)<a class="headerlink" href="#evaluation-report-30-points" title="Permanent link">&para;</a></h3>
+<p>Now that you’ve experimented with an LLM integration, write a report that summarizes your findings for the rest of the team. In particular, you will need to decide whether your findings justify completing and shipping this feature.</p>
+<p>Your report should include the following with clear headings:</p>
+<p><strong>1. Introduction (&lt;0.5 pages)</strong></p>
+<p>Provide a brief introduction to the LLM integration you’re evaluating, and the context of its use, i.e. the translation feature.</p>
+<p><strong>2. LLM integration (&lt;1 page)</strong></p>
+<p>Describe the end-to-end implementation of your final solution to translating posts. Given an arbitrary post in any language, how do you integrate with an LLM to return an answer? Feel free to include any prompts and diagrams.</p>
+<p><strong>4. Evaluation Results (&lt;0.5  page)</strong></p>
+<p>Provide a summary of the results from applying the evaluation strategy on your final LLM experiment. Feel free to include any evidence/output from your notebook.</p>
+<p><strong>5. Operational Costs (&lt;0.5 pages)</strong></p>
+<p>Based on the pricing of your chosen LLM, how much will it cost to provide users with this feature? How long does it take to translate a post? State any assumptions made in making these estimates. Is the cost associated with providing this feature reasonable?</p>
+<p><strong>6. Final Recommendation (&lt;0.5 pages)</strong></p>
+<p>Provide a final decision on whether the translation feature should be implemented based on the evaluation results, operational costs and other relevant factors.</p>
+<p>On Gradescope submit the following:</p>
+<ul>
+<li>Link to your Colab notebook (with output) that contains your code, analysis. Make sure it is editable so that we can run the notebook if necessary.</li>
+<li>PDF of your evaluation report</li>
+</ul>
+<h2 id="grading">Grading<a class="headerlink" href="#grading" title="Permanent link">&para;</a></h2>
+<p>To receive full credit for the first checkpoint, we expect:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> An uploaded PDF design document outlining your research into the existing codebase architecture, the quality requirements considered by your team, alternative solutions, and a final justification &amp; timeline for your selected integration plan</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A link to your Colab notebook completing all of the setup and basic LLM experiment steps outlined by the previous section</li>
+</ul>
+<p>To receive full credit for the second checkpoint, we expect:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A functional integration of the UI code into your NodeBB application.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A preliminary implementation of the translation feature using the starter code, including CI with unit and mock tests.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> An integrated deployment of your NodeBB and the translation service on GCP.</li>
+</ul>
+<p>To receive full credit for the final deadline, we expect:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A functional translation feature, as described in your design document, integrated into your NodeBB application and deployed on GCP.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> An uploaded PDF report discussing your evaluation findings addressing all the sections outlined above</li>
+</ul>
+<h2 id="resource-documentation">Resource &amp; Documentation<a class="headerlink" href="#resource-documentation" title="Permanent link">&para;</a></h2>
+<h3 id="design-documents">Design Documents<a class="headerlink" href="#design-documents" title="Permanent link">&para;</a></h3>
+<p>The design document task is easy to underestimate both in terms of time needed and in terms of difficulty designing meaningful and useful descriptions. While it is easy to create a superficial solution, a good solution will likely require significant thinking, discussion, and iteration.</p>
+<p>Feel free to seek feedback from the course staff on your solution before submission!</p>
+<p>We recommend that you appoint someone in your team to track the accuracy and completeness of architectural representations throughout this assignment. <strong>Do not</strong> just divide up the views among your team members and assume they show everything needed. You only need to submit the final designs/documents, not intermediate steps on the process of getting there.</p>
+<p>There are a few additional reference materials available in the CMU library that your team may want to consult. We do not recommend reading through all of it; instead, skip around to sections that are relevant to you.</p>
+<ul>
+<li><a href="https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30264">Software Architecture in Practice, Third Edition</a>: You may wish to review appropriate sections within Part Two to help find appropriate tactics, techniques you can use in your design to promote particular quality attributes.</li>
+<li><a href="https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30386">Documenting Software Architectures: Views and Beyond, Second Edition</a>: useful book to generally reference for creating architecture documentation.</li>
+</ul>
+<h3 id="llms">LLMs<a class="headerlink" href="#llms" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://cloud.google.com/vertex-ai/docs/generative-ai/chat/test-chat-prompts#chat-query-python_vertex_ai_sdk">Vertex AI Docs</a></li>
+<li><a href="https://cloud.google.com/vertex-ai/pricing">Vertex AI Pricing</a></li>
+<li><a href="https://www.sbert.net/docs/quickstart.html#comparing-sentence-similarities">SBert Cosine Similarity Documentation</a></li>
+<li><a href="https://www.sbert.net/examples/applications/semantic-search/README.html">SBert Semantic Search Documentation</a></li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.tracking", "navigation.indexes", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>

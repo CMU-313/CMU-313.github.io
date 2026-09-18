@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/just-the-docs-default.css">
+    <script type="text/javascript" src="../assets/js/vendor/lunr.min.js"></script>
+    <script type="text/javascript" src="../assets/js/just-the-docs.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HW03 Requirements | 17-313</title>
+    <meta name="generator" content="Jekyll v3.9.0" />
+    <meta property="og:title" content="HW03 Requirements" />
+    <meta name="author" content="Michael Hilton and Rohan Padye" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="website for CMU 17-313" />
+    <meta property="og:description" content="website for CMU 17-313" />
+    <link rel="canonical" href="../assignments/hw3" />
+    <meta property="og:url" content="http://localhost:4000/assignments/hw3" />
+    <meta property="og:site_name" content="17-313" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="HW03 Requirements" />
+    <script
+        type="application/ld+json"> {"@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/17313_square.png"},"name":"Michael Hilton and Rohan Padye"},"headline":"HW03 Requirements","url":"http://localhost:4000/assignments/hw3","author":{"@type":"Person","name":"Michael Hilton and Rohan Padye"},"description":"website for CMU 17-313","@context":"https://schema.org"}</script>
+
+<body> <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="svg-link" viewBox="0 0 24 24">
+            <title>Link</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-link">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+            </svg>
+        </symbol>
+        <symbol id="svg-search" viewBox="0 0 24 24">
+            <title>Search</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-search">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </symbol>
+        <symbol id="svg-menu" viewBox="0 0 24 24">
+            <title>Menu</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-menu">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </symbol>
+        <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+            <title>Expand</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </symbol>
+        <symbol id="svg-doc" viewBox="0 0 24 24">
+            <title>Document</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-file">
+                <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                <polyline points="13 2 13 9 20 9"></polyline>
+            </svg>
+        </symbol>
+    </svg>
+    <div class="side-bar">
+        <div class="site-header"> <a href="../" class="site-title lh-tight">
+                <div class="site-logo"></div>
+            </a> <a href="#" id="menu-button" class="site-button"> <svg viewBox="0 0 24 24" class="icon">
+                    <use xlink:href="#svg-menu"></use>
+                </svg> </a></div>
+        <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+            <ul class="nav-list">
+                <li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24">
+                            <use xlink:href="#svg-arrow-right"></use>
+                        </svg></a><a href="../assignments/" class="nav-list-link">Assignments</a>
+                    <ul class="nav-list ">
+                        <li class="nav-list-item "><a href="../assignments/hw1" class="nav-list-link">HW01 Joining the
+                                team</a>
+                        <li class="nav-list-item "><a href="../assignments/hw2" class="nav-list-link">HW02 Teamwork</a>
+                        <li class="nav-list-item active"><a href="../assignments/hw3" class="nav-list-link active">HW03
+                                Requirements</a>
+                        <li class="nav-list-item "><a href="../assignments/hw4" class="nav-list-link">HW04 ML
+                                Microservices</a>
+                        <li class="nav-list-item "><a href="../assignments/hw5" class="nav-list-link">HW05 Quality
+                                Assurance</a>
+                        <li class="nav-list-item "><a href="../assignments/hw6" class="nav-list-link">HW06 Open Source
+                                Excursion</a>
+                    </ul>
+                <li class="nav-list-item"><a href="../calendar/" class="nav-list-link">Calendar</a>
+                <li class="nav-list-item"><a href="../schedule/" class="nav-list-link">Schedule</a>
+                <li class="nav-list-item"><a href="../staff/" class="nav-list-link">Staff</a>
+                <li class="nav-list-item"><a href="../syllabus/" class="nav-list-link">Syllabus</a>
+            </ul>
+        </nav>
+        <footer class="site-footer"> This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the
+                Docs</a>, a documentation theme for Jekyll.</footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+            <div class="search">
+                <div class="search-input-wrap"> <input type="text" id="search-input" class="search-input" tabindex="0"
+                        placeholder="Search 17-313" aria-label="Search 17-313" autocomplete="off"> <label
+                        for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon">
+                            <use xlink:href="#svg-search"></use>
+                        </svg></label></div>
+                <div id="search-results" class="search-results"></div>
+            </div>
+        </div>
+        <div id="main-content-wrap" class="main-content-wrap">
+            <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+                <ol class="breadcrumb-nav-list">
+                    <li class="breadcrumb-nav-list-item"><a href="../assignments/">Assignments</a>
+                    <li class="breadcrumb-nav-list-item"><span>HW03 Requirements</span>
+                </ol>
+            </nav>
+            <div id="main-content" class="main-content" role="main">
+                <h1 id="17-313-foundations-of-software-engineering"> <a
+                        href="#17-313-foundations-of-software-engineering" class="anchor-heading"
+                        aria-labelledby="17-313-foundations-of-software-engineering"><svg viewBox="0 0 16 16"
+                            aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> 17-313: Foundations of Software Engineering</h1>
+                <h2 id="homework-3-requirements"> <a href="#homework-3-requirements" class="anchor-heading"
+                        aria-labelledby="homework-3-requirements"><svg viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Homework 3: Requirements</h2>
+                <p>In this homework, you will be eliciting requirements and documenting them for a <strong>graduate
+                        school admission system</strong>. Your task is to elicit requirements for this new system and
+                    document them. You will describe them using user stories and other descriptive text.</p>
+                <p>Although you already started implementing a corresponding system in the last assignment, you did not
+                    have an opportunity to gather requirements from real stakeholders. By doing so, you will see the
+                    importance of engaging project stakeholders and specifying requirements in a document rather than
+                    guessing requirements informally yourself. You may find that the requirements are substantially
+                    different from the ones you would have come up with on your own.</p>
+                <p>Learning Goals:</p>
+                <ul>
+                    <li>
+                        <p>Elicit functional and quality requirements from stakeholders</p>
+                    <li>
+                        <p>Identify and describe the stakeholders and actors for a given system.</p>
+                    <li>
+                        <p>Synthesize requirements from various sources, including stakeholder interviews.</p>
+                    <li>
+                        <p>Create user stories documenting the functional requirements of the system.</p>
+                    <li>
+                        <p>Develop and apply appropriate metrics to specify and measure quality attributes.</p>
+                </ul>
+                <h2 id="project-description-from-homework-2"> <a href="#project-description-from-homework-2"
+                        class="anchor-heading" aria-labelledby="project-description-from-homework-2"><svg
+                            viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Project description (from homework 2)</h2>
+                <p>CMU has over 7,000 graduate students. The university uses a software system to manage the graduate
+                    student admissions process, including collecting relevant information from applicants, accepting
+                    recommendation letters from third-parties, showing this information to the admissions committee and
+                    accepting ratings and commentary from the admissions committee to support decisions, and notifying
+                    applicants of the decision. This system is old, clunky, and universally disliked.</p>
+                <p>You and your team are developing a new system. Requirements for this new system remain a bit vague,
+                    and in fact you hope to be able to use an initial prototype to help clarify those requirements with
+                    stakeholders (in a future assignment!). In the meantime, your point of contact insists primarily
+                    that the new system needs to be “less garbage” than the current system. When pressed for details,
+                    she elaborates that faculty complain that the current system makes it too difficult to evaluate the
+                    applicants; students (applicants) and their letter writers complain that the system is hard to use.
+                    Everyone finds configuration and management difficult.</p>
+                <h2 id="requirements-elicitation"> <a href="#requirements-elicitation" class="anchor-heading"
+                        aria-labelledby="requirements-elicitation"><svg viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Requirements Elicitation</h2>
+                <p>Your team will seek information about requirements from public documents and observations of the
+                    current and alternative systems, as well as from interviews with stakeholders.</p>
+                <p>To better inform your questions, you might want to spend some time getting to understand the domain
+                    (e.g., investigate existing systems and their documentation, including commercial competitors).</p>
+                <p>You will do two types of interviews:</p>
+                <ul>
+                    <li>Practice interviews: Each team must do several practice interviews of a classmate who is a
+                        member of another team. We pair up the teams for you below; negotiate amongst yourselves about
+                        who on your team will serve as practice interviewees. Try to keep the practice interviewer
+                        groups to 3 or fewer students total, to keep things tractable. Your group should conduct as many
+                        practice interviews as necessary for your entire team to have participated in at least one.
+                    <li>Each team member must participate in at least 2 interviews.
+                </ul>
+                <p>You will select stakeholders and contact them to schedule interviews yourself. We suggest you
+                    schedule 15 to 30 minute interviews with each stakeholder and that you conduct interviews in person.
+                    The potential stakeholders listed below have already agreed to serve as interviewees for a limited
+                    number of interviews. Reach out to stakeholders early and negotiate a time for the interview. Notice
+                    that these stakeholders have real, regular jobs and may need to squeeze interviews into a busy
+                    schedule. Plan for most interviews during normal office hours. These stakeholders volunteer their
+                    time for our class and may decline interviews if they get too many requests, requests on excessively
+                    short notice, or requests that are not phrased in a polite and business-like manner. Please use this
+                    <a
+                        href="https://docs.google.com/spreadsheets/d/1hLkNZqvMDIsIrankOP0tmD3Fo71nDCxJD2fEFl6UdCo/edit?usp=sharing">sheet</a>
+                    to input your interview slots. Feel free to refer to this <a
+                        href="https://docs.google.com/spreadsheets/d/1gmQjhvLTm0HS3cFN1V_Kd7D4DaKF0Ukfv79y2D8t898/edit?usp=sharing">sheet</a>
+                    to see what the team assignments are.</p>
+                <p>Practice interviews pairs:</p>
+                <ul>
+                    <li>1 - 15
+                    <li>2 - 14
+                    <li>3 - 13
+                    <li>4 - 12
+                    <li>5 – 11
+                    <li>6 - 10
+                    <li>7 &amp; 8 - 9
+                </ul>
+                <p>Non-classmate Stakeholders:</p>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th><strong>Name</strong>
+                                <th><strong>Email</strong>
+                                <th><strong>Number of Available Slots</strong>
+                                <th><strong>Role</strong>
+                        <tbody>
+                            <tr>
+                                <td>Michael Hilton
+                                <td>mhilton@cmu.edu
+                                <td>5
+                                <td>ISR faculty member, evaluates students applying to SE PhD and REU programs.
+                            <tr>
+                                <td>Claire Le Goues
+                                <td>clegoues@cs.cmu.edu
+                                <td>3
+                                <td>ISR faculty member, writes recommendation letters for applying students; evaluates
+                                    students applying to SE PhD and REU programs.
+                            <tr>
+                                <td>Christopher Meiklejohn
+                                <td>cmeiklej@cs.cmu.edu
+                                <td>3
+                                <td>SE PhD student, evaluates students applying to SE PhD and REU programs, a previous
+                                    applicant to graduate programs.
+                            <tr>
+                                <td>Christian Kaestner
+                                <td>kaestner@cs.cmu.edu
+                                <td>4
+                                <td>ISR faculty member, writes recommendation letters for applying students; evaluates
+                                    students applying to SE PhD program
+                            <tr>
+                                <td>Rohan Padhye
+                                <td>rohanpadhye@cmu.edu
+                                <td>5
+                                <td>ISR faculty member, writes recommendation letters for applying students; evaluates
+                                    students applying to SE PhD program
+                            <tr>
+                                <td>Eunsuk Kang
+                                <td>eunsukk@andrew.cmu.edu
+                                <td>3
+                                <td>ISR faculty member, writes recommendation letters for applying students; evaluates
+                                    students applying to SE PhD program
+                            <tr>
+                                <td>Josh Sunshine
+                                <td>sunshine@cs.cmu.edu
+                                <td>3
+                                <td>ISR faculty member, writes recommendation letters for applying students; evaluates
+                                    students applying to SE PhD program; directure of the REU program
+                            <tr>
+                                <td>Hanan Hibshi
+                                <td>hhibshi@andrew.cmu.edu
+                                <td>3
+                                <td>Research and Teaching Scientist, INI, evaluates students applying to INI
+                            <tr>
+                                <td>Tom Pope
+                                <td>tpope@cs.cmu.edu
+                                <td>3
+                                <td>ISR IT support staff who would potentially be responsible for hosting the system
+                            <tr>
+                                <td>Marlana Pawlak
+                                <td>mpawlak@andrew.cmu.edu
+                                <td>2
+                                <td>Staff member for MSE program who manages applications after they have been
+                                    submitted.
+                            <tr>
+                                <td>Jane Hsieh
+                                <td>janeon@cmu.edu
+                                <td>3
+                                <td>SE PhD student. A previous applicant to REU and graduate programs.
+                            <tr>
+                                <td>Tobias Dürschmid
+                                <td>duerschmid@cmu.edu
+                                <td>2
+                                <td>SE PhD student. Helped run SE PhD admissions process. A previous applicant to
+                                    graduate programs.
+                            <tr>
+                                <td>Kyle Liang
+                                <td>kmliang@andrew.cmu.edu
+                                <td>3
+                                <td>SE PhD student, recently applied to a number of PhD programs.
+                            <tr>
+                                <td>Connie Herold
+                                <td>cherold@andrew.cmu.edu
+                                <td>5
+                                <td>Academic program manager of ISR, manages applications after they have been
+                                    submitted.
+                            <tr>
+                                <td>Hita Kambhamettu
+                                <td>rkambham@andrew.cmu.edu
+                                <td>3
+                                <td>Former CMU REUSE student, currently applying to SE PhD programs.
+                            <tr>
+                                <td>Daye Nam
+                                <td>dayen@andrew.cmu.edu
+                                <td>3
+                                <td>SE PhD student. Helped run SE PhD admissions process. A previous applicant to
+                                    graduate programs.
+                    </table>
+                </div>
+                <p>Proceed as follows:</p>
+                <ul>
+                    <li>
+                        <p>Before the interviews, become familiar with the problem, for example through content analysis
+                            of public information and other systems. Think about possible stakeholders, actors, quality
+                            attributes, user stories, and assumptions for an actual implementation. Be deliberate about
+                            who you want to interview. If you go into the interview unprepared, you are likely to miss
+                            important questions.</p>
+                    <li>
+                        <p>Make appointments for the interviews, and plan them beforehand. You should use the interviews
+                            to check your understanding of the problem and elicit additional requirements. Since some
+                            people you are interviewing are usually not in the software field, you’ll have to work with
+                            them to figure out what information is important to build the application.</p>
+                    <li>
+                        <p>Conduct the interviews. We suggest you conduct most interviews in groups, but you may further
+                            divide roles as you prefer. Treat the interviewees and their time respectfully.</p>
+                    <li>
+                        <p>Take notes or if (and only if) the interviewee agrees, record the interview. Microphones in
+                            most smartphones and laptops are good enough, but we suggest you test recording upfront. It
+                            can be useful to partially transcribe an interview or at least its key points immediately
+                            afterward, while the knowledge is fresh.</p>
+                    <li>
+                        <p>Revise your understanding of the problem, based on the interview.</p>
+                    <li>
+                        <p>Share your insights within your team and synthesize requirements, resolving potential
+                            conflicts as far as possible. If there are conflicts you cannot resolve, make reasonable
+                            assumptions and document how you would resolve them in practice.</p>
+                    <li>
+                        <p>Complete the requirements document, filling in the specific sections indicated both within
+                            the template and below, in deliverables.</p>
+                    <li>
+                        <p>Reflect on your experience conducting the interview and the documents in a personal
+                            statement.</p>
+                </ul>
+                <h3 id="deadlines-and-deliverables"> <a href="#deadlines-and-deliverables" class="anchor-heading"
+                        aria-labelledby="deadlines-and-deliverables"><svg viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Deadlines and deliverables</h3>
+                <p>This homework has two (1) deadline and two (2) deliverables. The deliverables are <strong>complete
+                        requirements document</strong> (one (1) per team; specific sections to be completed described
+                    below) and <strong>one reflection document</strong> (one (1) per student). A template for the
+                    requirements document can be found <a
+                        href="./Requirements_Document.docx">here</a>; section
+                    references in this document refer to the sections in that template.</p>
+                <h3 id="requirements-documentteam-due-tuesday-october-26-2359--120-points-75"> <a
+                        href="#requirements-documentteam-due-tuesday-october-26-2359--120-points-75"
+                        class="anchor-heading"
+                        aria-labelledby="requirements-documentteam-due-tuesday-october-26-2359--120-points-75"><svg
+                            viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> <strong>Requirements document—Team (due Tuesday, October 26, 23:59) – 120 points
+                        (75%)</strong></h3>
+                <p>Each <em>team</em> should submit a single PDF of their completed requirements document to gradescope
+                    <strong>by , October 26, 23:59pm.</strong></p>
+                <p><strong>Stakeholder and Actor Descriptions (Sections 1.3, 1.6, and 2.1, and Appendix A) - 15 points
+                        (12.5%)</strong></p>
+                <p>In the appendix, record which stakeholders you interviewed and their roles and which team members
+                    participated in each interview.</p>
+                <p>In the main requirements document, describe all relevant stakeholders, their interests, and their
+                    importance to the system. Importance can be measured on any reasonable scale you define as long as
+                    it is clear and a developer can read the document and understand which stakeholders are key.</p>
+                <p>Describe the actors who will interact with the system as well as relevant factors about how they
+                    relate to it. Good actor descriptions give enough information about the group/individual/system that
+                    it is easy to identify their motivation in interacting with the system; their primary goals/needs in
+                    doing so; how they typically interact with the system and their level of skill in doing so (when
+                    referring to humans); and other system-relevant factors.</p>
+                <p><strong>Functional requirements (user stories; Sections 2.2 and 2.3) - 40 points (33%)</strong></p>
+                <p>Document the functional requirements in the form of <em>user stories</em>. Provide at least two user
+                    stories per student in your group.</p>
+                <p>For each user story, you should also include a discussion of two questions.</p>
+                <p>1) How will you test this user story? If you cannot test your user story, it is overly vague. This is
+                    also a signal that you don’t really understand it yet. For every user story you tackle, you should
+                    be able to describe not only the user story, but how you will test it.</p>
+                <p>2) When is this user story done? This is related, but a slightly different question. Many teams will
+                    include a “definition of done” when developing user stories. This can help prevent misunderstandings
+                    when it comes to who is responsible for work such as implementation and more.</p>
+                <p>3) An estimate as to how long this user story will take to implement.</p>
+                <p>Additionally, you will need to prioritize the requests you get from your stakeholders and decide
+                    which of them you plan to support in your system (see also conflicts below). You should not write
+                    user stories for everything your stakeholders mention; you should choose wisely according to a set
+                    of features that is cohesive and represents a reasonable first iteration of a product.</p>
+                <p><strong>Quality requirements (Section 3) 25 points (21%)</strong></p>
+                <p>Define and order the <em>five</em> most important quality attributes within the context of the
+                    system. A good description of quality attributes unambiguously defines what the requirements mean
+                    within the context of the system; why each requirement deserves the given rank; how to measure each
+                    requirement; and how those metrics should be interpreted. If two or more quality attributes are
+                    equally important, it is acceptable to give them the same rank, but be sure to justify why they are
+                    equally important.</p>
+                <p><strong>Conflicts (Appendix B) 15 points (12.5%)</strong></p>
+                <p>Briefly describe and discuss all conflicts you identify during elicitation. For conflicts that you
+                    could resolve, describe how you resolved them. For conflicts that you could not resolve within this
+                    assignment, briefly outline how you would resolve them if you were doing this for a real customer
+                    (e.g., be concrete of whom you might ask which question and how answers would inform your decision).
+                </p>
+                <p><strong>Quality Assurance (Appendix C), 25 points (21 %)</strong></p>
+                <p>In class, we discussed the INVEST method for quality assurance of user stories. For N user stories,
+                    where N is the number of people in your team, explicitly argue why the user stories do follow the
+                    INVEST criteria. If you have to make tradeoffs in one dimensions because of another dimension, you
+                    should argue that tradeoff explicitly.</p>
+                <h3 id="reflection-document--individual-due-tuesday-october-26-2359---40-points-25"> <a
+                        href="#reflection-document--individual-due-tuesday-october-26-2359---40-points-25"
+                        class="anchor-heading"
+                        aria-labelledby="reflection-document--individual-due-tuesday-october-26-2359---40-points-25"><svg
+                            viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> <strong>Reflection document – Individual (due Tuesday, October 26, 23:59) - 40 points
+                        (25%)</strong></h3>
+                <p>In a reflection document of two pages or less (soft limit) describe what insights (if any) you gained
+                    from going through the requirements process, including conducting interviews and synthesizing and
+                    documenting requirements. The reflection can include both positive and negative aspects and can set
+                    them in context with experience outside of class, if applicable. Use specific examples from your
+                    experience gained in this assignment, and include any context information required to explain the
+                    situation.</p>
+                <p>The following questions may help you to identify interesting issues for the reflection document, but
+                    it is not necessary to answer them all:</p>
+                <ul>
+                    <li>
+                        <p>Were there surprising aspects of the requirements process?</p>
+                    <li>
+                        <p>What went well in the preparation for and during the interviews? In retrospect, what could
+                            you have improved?</p>
+                    <li>
+                        <p>What did you not expect in the interviews? Were there unusual situations or
+                            misunderstandings? Were there unexpected requirements that you did not anticipate?</p>
+                    <li>
+                        <p>Who else would you interview, and why, if you had access to more stakeholders or more time?
+                        </p>
+                    <li>
+                        <p>Did the interview and requirements document cause you to adjust your initial assumptions in
+                            any way? How so?</p>
+                    <li>
+                        <p>Were there surprising conflicts in the requirements? Were they easy to resolve?</p>
+                    <li>
+                        <p>How do the current system requirements compare to the (implicit) requirements used to create
+                            the feature your team developed in Homework 2? What would you do different for Homework 2
+                            with that information?</p>
+                    <li>
+                        <p>How do current systems requirements fit with the decision to build on the Mayan EDMS
+                            platform? Are there any requirements that are less feasible given that you are building on
+                            the Mayan platform?</p>
+                </ul>
+                <h2 id="logistics"> <a href="#logistics" class="anchor-heading" aria-labelledby="logistics"><svg
+                            viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Logistics</h2>
+                <p>Schedule your interviews as soon as possible. Please contact your TA if you have any issues. You will
+                    need to be respectful of the fact that the stakeholders are real people with their own schedules and
+                    responsibilities; if you wait too long, you may not be able to complete your interviews.</p>
+                <h2 id="grading"> <a href="#grading" class="anchor-heading" aria-labelledby="grading"><svg
+                            viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Grading</h2>
+                <p>You will be graded as a team, with an individual component. This homework is worth 160 points, as
+                    divided above. We provide additional detail on what constitutes full-credit solutions in the
+                    narrative above; a summary is below.</p>
+                <p>For the group component, we expect all below-listed information to be appropriately organized in a
+                    document that follows the template we provide. Additionally:</p>
+                <p>To receive full credit on the interviews and stakeholders and actor descriptions, we expect, based on
+                    your interviews:</p>
+                <ul>
+                    <li>
+                        <p>A concise indication of whom you interviewed and their role in the system. For practice
+                            interviews, list who was interviewed (and who participated in each) and indicate the role
+                            the interviewee pretended to play.</p>
+                    <li>
+                        <p>A complete and well-described set of relevant system stakeholders, including their roles,
+                            interests, and importance in the system.</p>
+                    <li>
+                        <p>A complete and well-described set of actors, including their role in and, mode of interaction
+                            with the system, and other system-relevant features.</p>
+                </ul>
+                <p>To receive full credit on the functional requirements, we expect:</p>
+                <ul>
+                    <li>
+                        <p>At least 2<em>n</em> user stories (for a team with <em>n</em> members) that describe
+                            important system functionality at an adequate level of detail and quality.</p>
+                    <li>
+                        <p>For each user story, in addition to the “as a _____…” we expect the following additional
+                            info:</p>
+                        <ul>
+                            <li>
+                                <p>How you can test this user story</p>
+                            <li>
+                                <p>When the user story will be done</p>
+                            <li>
+                                <p>How long you estimate it will take to implement this user story (with a brief
+                                    justification for the estimate)</p>
+                        </ul>
+                </ul>
+                <p>To receive full credit on the quality attributes, we expect:</p>
+                <ul>
+                    <li>The identification and description of at least five (5) quality attributes, including a ranking
+                        of their importance and a coherent justification of that ranking.
+                </ul>
+                <p>To receive full credit on the conflicting requirements, we expect:</p>
+                <ul>
+                    <li>
+                        <p>A description of all conflicts you identify during elicitation.</p>
+                    <li>
+                        <p>For conflicts that you can resolve, describe how you resolved them. For conflicts that you
+                            cannot resolve within this assignment, briefly outline how you could resolve them if you
+                            were doing this for a real customer</p>
+                </ul>
+                <p>To receive full credit on the quality assurance discussion, we expect:</p>
+                <ul>
+                    <li>an explicit discussion of why N of your stories follow the INVEST principles, with tradeoffs
+                        justified.
+                </ul>
+                <p>To receive full credit on the individual reflection, we expect:</p>
+                <ul>
+                    <li>
+                        <p>A detailed, well written, and well structured reflection on the requirements elicitation,
+                            interview, and synthesis and expression process.</p>
+                    <li>
+                        <p>An analysis beyond mere descriptions and superficial statements, including supporting
+                            evidence for claims, that reflects on the causes of identified issues or your own
+                            experience.</p>
+                </ul>
+                <hr>
+                <footer>
+                    <p class="text-small text-grey-dk-100 mb-0">this website is based on
+                        https://github.com/kevinlin1/just-the-class</p>
+                </footer>
+            </div>
+        </div>
+        <div class="search-overlay"></div>
+    </div>
