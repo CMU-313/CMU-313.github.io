@@ -104,6 +104,7 @@ schedule:
     - kind: lecture
       date: 2026-09-17
       title: "Design Docs"
+      link: /assets/pdfs/08-design-docs.pdf
    
 
     - kind: lecture
