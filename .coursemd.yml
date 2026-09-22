@@ -106,10 +106,10 @@ schedule:
       title: "Design Docs"
       link: /assets/pdfs/08-design-docs.pdf
    
-
     - kind: lecture
       date: 2026-09-22
       title: "Unit Testing I"
+      link: /assets/pdfs/09-testing.pdf
 
     - kind: lecture
       date: 2026-09-24
