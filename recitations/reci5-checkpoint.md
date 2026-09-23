@@ -2,7 +2,7 @@
 kind: recitation
 title: Recitation 5 - P2B Checkpoint Presentations
 date: 2026-09-28
-reveal_date: 2026-09-28
+reveal_date: 2026-09-22
 ---
 
 # Recitation 5: P2B Checkpoint Presentations
