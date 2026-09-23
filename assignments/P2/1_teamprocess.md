@@ -27,10 +27,10 @@ You can use this Slack channel for subsequent project-team related discussions o
 
 Your team will get a repository created in the course organization. Your TA's will send you that information via Slack.
 
-You should then create a **GitHub Project board** for your repository (you can follow the steps from the [GitHub Exercise](/assignments/P1/github.md/#setting-up-a-project-board) or the note below).
+You should then create a **GitHub Project board** for your repository (you can follow the steps from the [GitHub Exercise](../P1/github.md#setting-up-a-project-board) or the note below).
 
 !!! tip
-    From previous semesters, this guide [GitHub Exercise](/assignments/P1/github.md/) gives more specifics on good issue writing, commit writing and PRs. TAs have created this more recent [guide](https://docs.google.com/document/d/1edD2SSXu3d3TqYb_XzywiG4dpct6KVFhbT3PYZwItQM/edit?usp=sharing) for making good PRs and commits.
+    From previous semesters, this guide [GitHub Exercise](../P1/github.md) gives more specifics on good issue writing, commit writing and PRs. TAs have created this more recent [guide](https://docs.google.com/document/d/1edD2SSXu3d3TqYb_XzywiG4dpct6KVFhbT3PYZwItQM/edit?usp=sharing) for making good PRs and commits.
 
 !!! note "Setting up a Project Kanban Board and Creating Issues"
     Project boards are a great way to track development. While there are lots of great external tools such as Trello or Jira, GitHub provides their own project boards for us to use with great integration support of their other features. 
