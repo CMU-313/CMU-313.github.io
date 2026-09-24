@@ -113,11 +113,12 @@ schedule:
 
     - kind: lecture
       date: 2026-09-24
-      title: "Unit Testing II"
+      title: "Fuzz testing and input generation"
+      link: /assets/pdfs/10-input-generation.pdf
 
     - kind: lecture
       date: 2026-09-29
-      title: "Oracles, Input Generation, Fuzz Testing"
+      title: "Oracles"
 
     - kind: lecture
       date: 2026-10-01
