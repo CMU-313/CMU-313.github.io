@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/just-the-docs-default.css">
+    <script type="text/javascript" src="../assets/js/vendor/lunr.min.js"></script>
+    <script type="text/javascript" src="../assets/js/just-the-docs.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HW03 Teamwork | 17-313</title>
+    <meta name="generator" content="Jekyll v3.9.2" />
+    <meta property="og:title" content="HW03 Teamwork" />
+    <meta name="author" content="Michael Hilton and Rohan Padye" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="website for CMU 17-313" />
+    <meta property="og:description" content="website for CMU 17-313" />
+    <link rel="canonical" href="../assignments/hw3.html" />
+    <meta property="og:url" content="../assignments/hw3.html" />
+    <meta property="og:site_name" content="17-313" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="HW03 Teamwork" />
+    <script
+        type="application/ld+json"> {"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Michael Hilton and Rohan Padye"},"description":"website for CMU 17-313","headline":"HW03 Teamwork","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"../assets/images/17313_square.png"},"name":"Michael Hilton and Rohan Padye"},"url":"../assignments/hw3.html"}</script>
+
+<body> <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="svg-link" viewBox="0 0 24 24">
+            <title>Link</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-link">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+            </svg>
+        </symbol>
+        <symbol id="svg-search" viewBox="0 0 24 24">
+            <title>Search</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-search">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </symbol>
+        <symbol id="svg-menu" viewBox="0 0 24 24">
+            <title>Menu</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-menu">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </symbol>
+        <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+            <title>Expand</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </symbol>
+        <symbol id="svg-doc" viewBox="0 0 24 24">
+            <title>Document</title><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-file">
+                <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                <polyline points="13 2 13 9 20 9"></polyline>
+            </svg>
+        </symbol>
+    </svg>
+    <div class="side-bar">
+        <div class="site-header"> <a href="/" class="site-title lh-tight">
+                <div class="site-logo"></div>
+            </a> <a href="#" id="menu-button" class="site-button"> <svg viewBox="0 0 24 24" class="icon">
+                    <use xlink:href="#svg-menu"></use>
+                </svg> </a></div>
+        <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+            <ul class="nav-list">
+                <li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24">
+                            <use xlink:href="#svg-arrow-right"></use>
+                        </svg></a><a href="../assignments/" class="nav-list-link">Assignments</a>
+                    <ul class="nav-list ">
+                        <li class="nav-list-item "><a href="../assignments/hw1.html" class="nav-list-link">HW01 Hello
+                                Teedy</a>
+                        <li class="nav-list-item "><a href="../assignments/hw2.html" class="nav-list-link">HW02 Learning
+                                the Codebase</a>
+                        <li class="nav-list-item active"><a href="../assignments/hw3.html"
+                                class="nav-list-link active">HW03 Teamwork</a>
+                        <li class="nav-list-item "><a href="../assignments/hw4.html" class="nav-list-link">HW04
+                                Microservices</a>
+                        <li class="nav-list-item "><a href="../assignments/hw5.html" class="nav-list-link">HW05 Quality
+                                Assurance</a>
+                        <li class="nav-list-item "><a href="../assignments/hw6.html" class="nav-list-link">HW06 Open
+                                Source Excursion</a>
+                    </ul>
+                <li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24">
+                            <use xlink:href="#svg-arrow-right"></use>
+                        </svg></a><a href="../recitations/" class="nav-list-link">Recitations</a>
+                    <ul class="nav-list ">
+                        <li class="nav-list-item "><a href="../recitations/2-angularjs.html" class="nav-list-link">Recitation
+                                2 - Angular.js and MVC</a>
+                        <li class="nav-list-item "><a href="../recitations/3-archaeology.html"
+                                class="nav-list-link">Recitation 3 - Software Archaeology</a>
+                        <li class="nav-list-item "><a href="../recitations/4-team-dysfunction.html"
+                                class="nav-list-link">Recitation 4 - Team Dysfunction</a>
+                        <li class="nav-list-item "><a href="../recitations/6-midterm-review.html"
+                                class="nav-list-link">Recitation 6 - Midterm Review</a>
+                        <li class="nav-list-item "><a href="../recitations/7-ml.html" class="nav-list-link">Recitation 7 -
+                                Machine Learning</a>
+                        <li class="nav-list-item "><a href="../recitations/8-analysis-ci.html"
+                                class="nav-list-link">Recitation 8 - static analysis and continuous integration</a>
+                        <li class="nav-list-item "><a href="../recitations/9-open-source.html"
+                                class="nav-list-link">Recitation 9 - Open Source Projects</a>
+                    </ul>
+                <li class="nav-list-item"><a href="../calendar/" class="nav-list-link">Calendar</a>
+                <li class="nav-list-item"><a href="../schedule/" class="nav-list-link">Schedule</a>
+                <li class="nav-list-item"><a href="../staff/" class="nav-list-link">Staff</a>
+                <li class="nav-list-item"><a href="../syllabus/" class="nav-list-link">Syllabus</a>
+            </ul>
+        </nav>
+        <footer class="site-footer"> This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the
+                Docs</a>, a documentation theme for Jekyll.</footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+            <div class="search">
+                <div class="search-input-wrap"> <input type="text" id="search-input" class="search-input" tabindex="0"
+                        placeholder="Search 17-313" aria-label="Search 17-313" autocomplete="off"> <label
+                        for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon">
+                            <use xlink:href="#svg-search"></use>
+                        </svg></label></div>
+                <div id="search-results" class="search-results"></div>
+            </div>
+        </div>
+        <div id="main-content-wrap" class="main-content-wrap">
+            <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+                <ol class="breadcrumb-nav-list">
+                    <li class="breadcrumb-nav-list-item"><a href="../assignments/">Assignments</a>
+                    <li class="breadcrumb-nav-list-item"><span>HW03 Teamwork</span>
+                </ol>
+            </nav>
+            <div id="main-content" class="main-content" role="main">
+                <p><strong>17-313: Foundations of Software Engineering</strong></p>
+                <h1 id="homework-3-teamwork"> <a href="#homework-3-teamwork" class="anchor-heading"
+                        aria-labelledby="homework-3-teamwork"><svg viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Homework 3: Teamwork</h1>
+                <p>The key learning goals of this homework are that you are able to:</p>
+                <ul>
+                    <li>
+                        <p>Plan and schedule projects in terms of tasks, milestones, and time estimations, and re-plan
+                            as required</p>
+                    <li>
+                        <p>Make initial decisions on a process, and reflect on experience with the process</p>
+                    <li>
+                        <p>Effectively coordinate among team members and conduct effective team meetings</p>
+                    <li>
+                        <p>Meaningfully reflect on the experience of working in teams</p>
+                    <li>
+                        <p>Collaborate in development projects using Git and engage in good software writing practices
+                        </p>
+                    <li>
+                        <p>Practice getting to know a pre-existing code base and developing new features for it using
+                            previously unfamiliar technology</p>
+                </ul>
+                <h2 id="project-context"> <a href="#project-context" class="anchor-heading"
+                        aria-labelledby="project-context"><svg viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Project context</h2>
+                <p>In HW2, you familiarized yourself with Teedy; You set up your development environment and workflow,
+                    and explored the full layers of Teedy by implementing a small feature change or addition. Now, we
+                    want to take a more <strong>serious</strong> step to build the graduate student admission management
+                    system.</p>
+                <p>You and your team are beginning to sketch out and implement a replacement admissions system. You
+                    start with a simplified workflow that you hope to build from later: assume a single academic
+                    program, and that applicants upload single resumes to apply. Resumes are assessed by 3--4 reviewers
+                    along several dimensions (like “skills”, “experience”, “GPA”, etc), along with additional
+                    notes/commentary. This information is used to inform admissions committee discussions and decisions.
+                </p>
+                <p>Your first goal is to decide which feature you should/will implement to improve the system. Have an
+                    initial brainstorming meeting, and come up with a feature that touches all three layers (Java
+                    Backend, REST middleware, and Angular.js frontend). Here are some of the features that teams
+                    implemented in the past:</p>
+                <ol>
+                    <li>
+                        <p>A dashboard or pane for reviewer assignment and management.</p>
+                    <li>
+                        <p>A form for reviewers to enter and score candidates along various (custom/admissions-specific)
+                            directions, to be saved and possibly aggregated across multiple reviewers.</p>
+                    <li>
+                        <p>A dashboard or pane for aggregating and displaying statistics, like average review score per
+                            candidate; average review score per reviewer; or other aggregate statistics for the
+                            applicant pool.</p>
+                </ol>
+                <p>Then, you will do so, over the course of a 2-week sprint, while establishing and following a good
+                    software engineering process, including appropriate git flow and testing of the eventual feature.
+                    Specifically, this entails:</p>
+                <ol>
+                    <li>
+                        <p>Do an initial sprint planning meeting. Assess your feature options and choose which one you
+                            will implement first, for this assignment. Construct your <em>backlog</em> (decompose the
+                            task, roughly estimate the time required for the sub-tasks, identify dependencies, and plan
+                            the implementation accordingly). The selected feature should (1) be able to be divided into
+                            at least N (the number of team members in your team) sub-features, and (2) require you to
+                            make changes in each of the three layers of Teedy’s stack.</p>
+                    <li>
+                        <p>Perform a 2-week sprint to implement and user test the feature in question. You will likely
+                            not have time to produce a perfect feature, but you should be able to produce a reasonable
+                            prototype.</p>
+                    <li>
+                        <p>Throughout the project, track your time investment, synchronize tasks with your team, and
+                            regularly update the plan. Take meeting minutes and track how you divide up the work.</p>
+                    <li>
+                        <p>Document your code/feature, user testing approach, and process and decision-making. It should
+                            be easy for the TA to run and test your feature within Teedy.</p>
+                </ol>
+                <p>We encourage you to read and follow the <a href="../assets/pdfs/team_policy.pdf">Team Policy</a>,
+                    which has suggestions for effective group work in a course setting (you may have to adapt some of
+                    these suggestions for collaborating on a software project, but you may still find the structure
+                    helpful).</p>
+                <p>Plan carefully to decide which features to develop, and in what order, and then start writing code
+                    effectively as a team.</p>
+                <h2 id="process"> <a href="#process" class="anchor-heading" aria-labelledby="process"><svg
+                            viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Process</h2>
+                <p>You should create a new public team repository for this project.</p>
+                <p><a href="https://classroom.github.com/a/i2efqHx6">https://classroom.github.com/a/i2efqHx6</a></p>
+                <p>You can still import the changes you have made for HW2 into your new repository. Be sure to use good
+                    development practices. We will be grading you on how well you follow the process we covered in the
+                    lectures and recitations:</p>
+                <ul>
+                    <li>use a kanban board to manage the workflow,
+                    <li>create issues for feature improvements or bug-fixes,
+                    <li>when creating issues, assign team members and tag them with appropriate labels,
+                    <li>create a pull request and reference the issue to merge the changes,
+                    <li>provide feedback to pull requests,
+                    <li>document design decisions and implemented functionalities,
+                    <li>write automated tests for the features you implement,
+                    <li>and use GitHub Actions for continuous integration (CI).
+                </ul>
+                <p>Like in HW2, you will not create an issue or a pull request in the parent repository, but in your
+                    team repository. It is not acceptable for one person to commit all work after synchronizing through
+                    other means. This will factor into your grade.</p>
+                <p>The <em>code, testing, and documentation deliverables</em> below will be taken by snapshotting your
+                    repository at the deadline.</p>
+                <h2 id="deadlines-and-deliverables"> <a href="#deadlines-and-deliverables" class="anchor-heading"
+                        aria-labelledby="deadlines-and-deliverables"><svg viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Deadlines and deliverables</h2>
+                <p>This homework has three (3) deadlines and four (4) deliverables. The first deadline (Thursday,
+                    September 29, 23:59) is for an <strong>initial</strong> <strong>planning document and
+                        backlog</strong>. The second deadline (Thursday, October 6, 23:59) is for the <strong>technical
+                        artifacts</strong>. The third deadline (Thursday, October 13, 23:59) is for <strong>two (2)
+                        reflection tasks</strong>. We intentionally separated these deadlines to ensure upfront
+                    documentation of the planning process and to give you time to reflect. Of course, you are still
+                    encouraged to start developing before the second deadline and reflecting before the third.</p>
+                <h3 id="1-initial-plan-due-thursday-september-29-2359--60-points"> <a
+                        href="#1-initial-plan-due-thursday-september-29-2359--60-points" class="anchor-heading"
+                        aria-labelledby="1-initial-plan-due-thursday-september-29-2359--60-points"><svg
+                            viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> (1) Initial plan (due Thursday, September 29, 23:59) – 60 points</h3>
+                <ul>
+                    <li>
+                        <p><strong>An initial technical/sprint plan and backlog, with justification.</strong> First,
+                            indicate which feature you chose to implement first, and why. Then, present your initial
+                            backlog for the sprint (from before you started implementing; you will discuss
+                            changes/replanning that happened in a later deliverable). You are encouraged to include
+                            supporting evidence for all of your decisions and estimates (i.e., an explanation for how
+                            you arrived at that decision/value). To grade your team, we will be looking for the
+                            following information to be documented in your team’s <strong>GitHub Projects
+                                board</strong>:</p>
+                        <ul>
+                            <li>
+                                <p>a set of overall tasks necessary to implement the feature (these tasks together
+                                    should result in a feature, but each task is a small step along the way to the
+                                    feature),</p>
+                            <li>
+                                <p>estimated effort for each task,</p>
+                            <li>
+                                <p>dependencies among tasks,</p>
+                            <li>
+                                <p>which you plan to tackle for the first sprint to build the core functionality,</p>
+                            <li>
+                                <p>task assignments for team members for the initial sprint planning,</p>
+                            <li>
+                                <p>acceptance criteria (how do you tell when this task is done - you can think about how
+                                    you will test this feature).</p>
+                        </ul>
+                    <li>
+                        <p><strong>An initial process plan.</strong> On Gradescope, you will describe the
+                            <em>process</em> you are planning to follow. By process, we mean <em>how</em> you are going
+                            to develop the system and which steps you are going to follow, rather than a technical
+                            design model of the software. Specifically, we are interested in how you are planning to
+                            collaborate (e.g., communication channels, meetings and their frequency, pull requests or
+                            dropbox) and in what overall development activities you plan (e.g., how much design, which
+                            quality assurance steps, how shall parts be integrated).</p>
+                </ul>
+                <p>We will not grade the accuracy of your prediction or how well you stuck with your initial plan;
+                    instead, we will focus on how well you decomposed the problem and justified your original plan, how
+                    you responded to changes in the replanning, and how well you analyze and reflect on your experience
+                    (see below).</p>
+                <h3 id="2-code-artifacts-due-thursday-october-6-2359--60-points"> <a
+                        href="#2-code-artifacts-due-thursday-october-6-2359--60-points" class="anchor-heading"
+                        aria-labelledby="2-code-artifacts-due-thursday-october-6-2359--60-points"><svg
+                            viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> 2) Code artifacts (due Thursday, October 6, 23:59) – 60 points</h3>
+                <p>We will take a snapshot of the implementation from your team’s GitHub repository at the deadline.</p>
+                <p>Your repository should include the implementation of the system, automated tests for the new feature,
+                    and a documentation of how to use and user test your new feature (indicate where this documentation
+                    is found from the top-level README.md file).</p>
+                <p>You should follow best practices for collaborative development such as using feature branches, pull
+                    requests, and code review (e.g., tackling each layer of the stack in a separate PR). Specifically
+                    your team should collaborate on this feature by committing changes to a branch named for the feature
+                    you are implementing.</p>
+                <p>GitHub Actions should be enabled. It is reasonable to have failures in feature branches, but you
+                    should do your best to make your main branch build consistently pass.</p>
+                <p><img src="../assets/images/build_pass.png" alt="Build Pass" /></p>
+                <p>Adhere to good coding practices. For example, your code should have a clear structure, be reasonably
+                    modularized, use appropriate variable names, and be documented.</p>
+                <p><strong>We expect you to write a set of <em>automated</em> tests that demonstrates the
+                        functionalities you implemented (according to your acceptance criteria from the initial
+                        planning).</strong></p>
+                <p>We will look at the commit, issue, and pull request history.</p>
+                <p>Every member of your team must contribute to the implementation: each team member must have at least
+                    one commit as a part of the solution. Failure to do so will result in a significant penalty to your
+                    grade.</p>
+                <p>You must commit all of your changes to the main branch of your repository before the homework
+                    deadline. Unlike HW01, you should not submit your changes to the parent Teedy repository.</p>
+                <h3 id="3-reflection--team-due-thursday-october-13-2359--60-points"> <a
+                        href="#3-reflection--team-due-thursday-october-13-2359--60-points" class="anchor-heading"
+                        aria-labelledby="3-reflection--team-due-thursday-october-13-2359--60-points"><svg
+                            viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> (3) Reflection – Team (due Thursday, October 13, 23:59) – 60 points</h3>
+                <p>After coding is complete, reflect on your experience as a team. Again, we look for honest reflection,
+                    which will likely include reflection on failures. We will not grade whether you predicted the effort
+                    correctly, but rather what you learned from the process. There will be 5 reflection questions on
+                    Gradescope:</p>
+                <ul>
+                    <li>
+                        <p><strong>Actual Schedule:</strong> Document the <em>actual</em> schedule, including the tasks
+                            you <em>actually</em> performed and the <em>actual</em> amount of time each took. Ideally,
+                            you will have kept your schedule up-to-date throughout the project, simplifying this task.
+                        </p>
+                    <li>
+                        <p><strong>Schedule Deviations:</strong> Reflect on the differences between the initial and the
+                            final schedule. Which milestones were predicted correctly? What was re-planned? Were there
+                            any activities you didn’t plan for initially or that you had to drop in the end? What were
+                            the reasons for the changes? Could they have been foreseen with better planning?</p>
+                    <li>
+                        <p><strong>Process:</strong> Reflect on the <em>process</em> you initially planned to follow,
+                            and the process you actually followed. Was the process adequate? Did you skip steps or adopt
+                            additional techniques during the project? What challenges did you face? How could the
+                            process be improved if you had to do another, similar project? How might you have to change
+                            the process to adapt to a different type of project?</p>
+                    <li>
+                        <p><strong>Team Experience:</strong> Reflect on your experience working as a team. What worked
+                            well? Were team meetings efficient? How well, and through which processes, did you
+                            communicate? What needs improvement? Were there any teamwork challenges you resolved as the
+                            project progressed?</p>
+                    <li>
+                        <p><strong>Meeting Minutes:</strong> Attach all meeting minutes kept throughout the project,
+                            which should include information about the agenda/topics discussed, decisions made, and work
+                            assignments. Recording results of meetings can be onerous; you must explicitly rotate this
+                            responsibility among the members of your team (and indicate who took which minutes).</p>
+                </ul>
+                <p>One of the main purposes of this homework is to encourage <em>in-depth analysis</em> of the reasons
+                    for good or bad time estimation, scheduling, and teamwork coordination. Doing poorly in these is not
+                    unusual (as numerous reports from real-life projects show). Therefore, we will not evaluate how well
+                    (or badly) the project went, but instead <em>how well you understood the reasons
+                        [why]{.underline}</em> the project went as it did, and what lessons you drew from your
+                    experience to inform your future work. A good reflection document will include concrete statements
+                    about lessons learned, with clear supporting evidence, such as examples, to support the claims. It
+                    is a good idea to <em>reference your meeting protocols</em> to support your claims and provide
+                    examples. For example, “We could have communicated better.” is weakly supported. One could
+                    strengthen it with examples from the development experience as follows: “One source of
+                    [defects/development slowdown/quality problems] was the integration of components A and B, because
+                    the API for A was not well-understood by the developer of B…In the future, we might try to use
+                    [such-and-such a process] for clearly documenting and communicating such design decisions, rather
+                    than [the process we did follow/failed to follow].”</p>
+                <p>Being able to communicate effectively is an important software engineering skill. As such, your
+                    reflection should be well-written and easy to read. Be sure to leave time after writing for revision
+                    and proofreading. There are many convenient tools for collaborative text editing; the course staff
+                    used Google Docs for this homework document.</p>
+                <h3 id="4-reflection--individual-due-thursday-october-13-2359--60-points"> <a
+                        href="#4-reflection--individual-due-thursday-october-13-2359--60-points" class="anchor-heading"
+                        aria-labelledby="4-reflection--individual-due-thursday-october-13-2359--60-points"><svg
+                            viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> (4) Reflection – Individual (due Thursday, October 13, 23:59) – 60 points</h3>
+                <p>You will answer individual reflection questions on Gradescope (HW3 Individual Reflection). We will
+                    ask you to reflect on the process, scheduling, and teamwork.</p>
+                <p>(Note that this is due at the same time as the team reflection.)</p>
+                <p>Separate from the reflection done as a group, each team member should individually reflect on (1) the
+                    process, (2) the scheduling, and (3) the teamwork, and <em>connect this project experience with
+                        their previous experience</em> (preferably experience from a non-academic setting, but
+                    experience from class projects is also fine). You do not need to answer any specific questions, but
+                    the following questions may guide possible content for the reflection: How does this project
+                    experience align with your previous experiences? What was similar? What was different? What did you
+                    personally learn from this project’s development process? Is there something you are planning to do
+                    differently in your future projects? Similar to the team reflection task, we will grade the
+                    <em>quality</em> and <em>depth</em> of your reflection.</p>
+                <h2 id="grading"> <a href="#grading" class="anchor-heading" aria-labelledby="grading"><svg
+                            viewBox="0 0 16 16" aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Grading</h2>
+                <p>You will be graded as a team, with an individual component. This homework is worth 240 points. We
+                    will grade you based on the learning goals listed above.</p>
+                <p>The initial planning constitutes 60 points (25%), the technical artifacts and adherence to the
+                    process constitute 60 points (25%), the team reflection constitutes 60 points (25%), and the
+                    individual reflection constitutes 60 points (25%).</p>
+                <p>To receive full credit for the planning, we expect:</p>
+                <ul>
+                    <li>
+                        <p>A sensible justification for the feature you selected to implement in this sprint.</p>
+                    <li>
+                        <p>A backlog that includes tasks, dependencies, time estimates, and assignments, as described
+                            above.</p>
+                    <li>
+                        <p>An outline of the process steps to be adopted in this project.</p>
+                </ul>
+                <p>To receive full credit for the technical artifacts, we expect:</p>
+                <ul>
+                    <li>
+                        <p>A running prototype implementation.</p>
+                    <li>
+                        <p>Automated test cases for the implemented functionalities.</p>
+                    <li>
+                        <p>GitHub Actions set up and used for builds and automated tests.</p>
+                    <li>
+                        <p>Reasonable documentation of the new feature.</p>
+                    <li>
+                        <p>Reasonable code structure and style, including documentation where appropriate.</p>
+                    <li>
+                        <p>Coherent commits of reasonable size with meaningful commit messages by all team members.</p>
+                    <li>
+                        <p>Reasonable quality of issues, pull requests, and comments.</p>
+                    <li>
+                        <p>Reasonable QA/user testing for the new feature.</p>
+                </ul>
+                <p>To receive full credit on reflection, we expect:</p>
+                <ul>
+                    <li>
+                        <p>A detailed, well written, and well structured reflection on the issues listed above.</p>
+                    <li>
+                        <p>A comparison between the planned and the actual schedule.</p>
+                    <li>
+                        <p>An analysis beyond mere descriptions and superficial statements, including supporting
+                            evidence for claims, that reflects on the causes of deviations, conflicts, and so forth, or
+                            your own experience.</p>
+                    <li>
+                        <p>Inclusion of meeting minutes(s) that adequately demonstrate the meeting process.</p>
+                </ul>
+                <h2 id="notes"> <a href="#notes" class="anchor-heading" aria-labelledby="notes"><svg viewBox="0 0 16 16"
+                            aria-hidden="true">
+                            <use xlink:href="#svg-link"></use>
+                        </svg></a> Notes</h2>
+                <p>This homework (except for the individual reflection) is to be done in your assigned teams. You are
+                    highly encouraged to openly discuss all team issues that may arise in the process of working within
+                    the teams. After this homework, we will perform a peer-feedback survey to identify any common issues
+                    that we will then address in class. If severe issues occur reach out earlier to the course staff.
+                </p>
+                <hr>
+                <footer>
+                    <p class="text-small text-grey-dk-100 mb-0">this website is based on
+                        https://github.com/kevinlin1/just-the-class</p>
+                </footer>
+            </div>
+        </div>
+        <div class="search-overlay"></div>
+    </div>
