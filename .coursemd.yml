@@ -118,7 +118,8 @@ schedule:
 
     - kind: lecture
       date: 2026-09-29
-      title: "Oracles"
+      title: "Testing Oracles"
+      link: /assets/pdfs/11-oracles.pdf
 
     - kind: lecture
       date: 2026-10-01
