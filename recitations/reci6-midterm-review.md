@@ -15,6 +15,6 @@ Afterwards, remember to finish the [gradescope quiz](https://www.gradescope.com/
 
 ## Resources
 
-[Midterm review slides](https://docs.google.com/presentation/d/1MzA8kaO-5eNKUvGwj-k5TGw6f147vx4w-OxIyKw8R64/edit?usp=sharing).
+[Midterm review slides](https://docs.google.com/presentation/d/1MzA8kaO-5eNKUvGwj-k5TGw6f147vx4w-OxIyKw8R64/edit?usp=sharing)
 
-[Past midterms](https://drive.google.com/drive/folders/1ouQ4n9q8F27WWuw34WuPaWJwQR3LrayB?usp=sharing).
+[Past midterms](https://drive.google.com/drive/folders/1ouQ4n9q8F27WWuw34WuPaWJwQR3LrayB?usp=sharing)
