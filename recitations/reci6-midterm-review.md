@@ -1,20 +1,20 @@
 ---
+kind: recitation
 title: Recitation 6 - Midterm Review
-release_date: 2099-01-01
+date: 2026-10-5
+reveal_date: 2026-10-1
 ---
 
 # Recitation 6: Midterm Review
 
 ## Overview
 
-As we have our midterm scheduled for Tuesday, October 10th, this recitation slot will be used for a midterm review. Complete the exams from past years listed below and come to recitation with any questions!
+This recitation is a chance for you to review and prepare for the midterm on Thursday on October 8th. We will be going through questions from past exams, along with example answers and feedback based on how we grade the exams. Keep in mind, the content covered in this recitation is not intended to be a comprehensive sample of questions that may appear; we still encourage you to review lecture slides, quizzes, and problem sets in preparation for the exam.
 
-**Note: As we have not yet covered software engineering for ML this semester, please ignore those questions. The SE4ML material will not appear on the exam.**
+Afterwards, remember to finish the [Gradescope quiz](https://www.gradescope.com/courses/1356702/assignments/8417899) for participation credit!
 
-## Exams
+## Resources
 
-- [Fall 2020](/assets/pdfs/practice-midterms/f2020midterm.pdf)
+[Midterm review slides](https://docs.google.com/presentation/d/1MzA8kaO-5eNKUvGwj-k5TGw6f147vx4w-OxIyKw8R64/edit?usp=sharing)
 
-- [Fall 2021](/assets/pdfs/practice-midterms/f2021midterm.pdf)
-
-- [Fall 2022](/assets/pdfs/practice-midterms/f2022midterm.pdf)
+[Past midterms](https://drive.google.com/drive/folders/1ouQ4n9q8F27WWuw34WuPaWJwQR3LrayB?usp=sharing)
