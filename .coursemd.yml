@@ -123,11 +123,12 @@ schedule:
 
     - kind: lecture
       date: 2026-10-01
-      title: "PBT I"
+      title: "Property-based Testing I"
+      link: /assets/pdfs/12-pbt1.pdf
 
     - kind: lecture
       date: 2026-10-06
-      title: "PBT II"
+      title: "Property-based Testing II"
 
     - kind: midterm
       date: 2026-10-08
