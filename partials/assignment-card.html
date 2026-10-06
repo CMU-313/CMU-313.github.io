@@ -1,0 +1,27 @@
+<section class="assignment-hero" style="--hero-image: url('{{ card.image }}')">
+    <div class="assignment-hero-content">
+        <p class="assignment-eyebrow">{{ card.eyebrow }}</p>
+        <h1>{{ card.title }}</h1>
+        <p class="assignment-dek">{{ assignment.summary }}</p>
+        <div class="assignment-tags" aria-label="Assignment topics">
+            {% for tag in assignment.tags %}
+            <span>{{ tag }}</span>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="assignment-meta" aria-label="Assignment details">
+    <div class="assignment-meta-item">
+        <span class="assignment-meta-label">Release Date</span>
+        <span class="assignment-meta-value">{{ assignment.release_date.strftime('%b %-d, %Y') }}</span>
+    </div>
+    <div class="assignment-meta-item">
+        <span class="assignment-meta-label">Due Date</span>
+        <span class="assignment-meta-value">{{ assignment.due_date.strftime('%b %-d, %Y') }}</span>
+    </div>
+    <div class="assignment-meta-item">
+        <span class="assignment-meta-label">Weight</span>
+        <span class="assignment-meta-value">{{ card.weight }}</span>
+    </div>
+</section>
