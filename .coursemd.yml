@@ -129,6 +129,7 @@ schedule:
     - kind: lecture
       date: 2026-10-06
       title: "Property-based Testing II"
+      link: /assets/pdfs/13-pbt2.pdf
 
     - kind: midterm
       date: 2026-10-08
