@@ -186,10 +186,6 @@ schedule:
     # No recitations/*.md file matches these three topics; scheduled as plain text
     # per the recitation-topic table, with no linked content page.
     - kind: recitation
-      date: 2026-10-19
-      title: "S3D Cloud Deployment"
-
-    - kind: recitation
       date: 2026-11-23
       title: "Exam 2 prep"
 
