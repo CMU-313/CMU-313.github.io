@@ -1,6 +1,6 @@
 ---
 title: "Project 3: Continuous Integration + Deployment"
-release_date: 2026-10-19
+release_date: 2026-10-25
 due_date: 2026-11-02
 checkpoints:
   - date: 2026-10-26
