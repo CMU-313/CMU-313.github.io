@@ -7,17 +7,17 @@ nav_order: 10
 
 ## Deliverables
 
-**Mutation Testing & Red Team** – 45 points – due Monday, November 9, 2026, 11:59PM
+**Mutation Testing & Red Team** – 100 points – due Monday, November 9, 2026, 11:59PM
 
-- [Hand-Written Mutants with Predictions (8 pts)](#hand-written-mutants-with-predictions-8-pts)
-- [Stryker Run & Comparison (8 pts)](#stryker-run-comparison-8-pts)
-- [Agent Failure Case (5 pts)](#agent-failure-case-5-pts)
-- [Cross-Team Red Team (12 pts)](#cross-team-red-team-12-pts) – mutants due to your partner Thursday, November 5, 11:59PM
-- [TA Check-in (Team) (12 pts)](#ta-check-in-team-12-pts)
+- [Hand-Written Mutants with Predictions (18 pts)](#hand-written-mutants-with-predictions-18-pts)
+- [Stryker Run & Comparison (18 pts)](#stryker-run-comparison-18-pts)
+- [Agent Failure Case (12 pts)](#agent-failure-case-12-pts)
+- [Cross-Team Red Team (26 pts)](#cross-team-red-team-26-pts) – mutants due to your partner Thursday, November 5, 11:59PM
+- [TA Check-in (Team) (26 pts)](#ta-check-in-team-26-pts)
 
 All of your work for this project continues on **your own branch** from Project 4 (e.g. `<andrewid>/properties`). Bring it up to date with `main` before you start.
 
-## Hand-Written Mutants with Predictions (8 pts)
+## Hand-Written Mutants with Predictions (18 pts)
 
 Before running any tool, design about **5 mutants** by hand. Each one should be designed to break a **specific requirement** in your traceability table while still looking plausible, the kind of bug that could survive a code review. For example:
 
@@ -38,7 +38,7 @@ Record your results in a **Hand-written mutants** section of your traceability f
 
 Then fill in the **Mutants it kills** column of your main traceability table.
 
-## Stryker Run & Comparison (8 pts)
+## Stryker Run & Comparison (18 pts)
 
 ### Running Stryker
 
@@ -77,7 +77,7 @@ Kill surviving mutants (hand-written and Stryker) by **improving your properties
 
 Some mutants are **equivalent**: the change doesn't alter the program's behavior in any observable way, so no test can kill them. For each mutant you claim is equivalent, give a 2–3 sentence argument why. Report your final mutation score both as Stryker reports it and with equivalent mutants excluded.
 
-## Agent Failure Case (5 pts)
+## Agent Failure Case (12 pts)
 
 AI agents are good at producing tests that *look* thorough. Find **one property written or suggested by opencode** that let a hand-written or Stryker mutant survive. Common reasons:
 
@@ -94,11 +94,11 @@ In an **Agent failure case** section of your traceability file, include:
 - An explanation of why the property was too weak
 - Your strengthened version, and evidence that it kills the mutant
 
-## Cross-Team Red Team (12 pts)
+## Cross-Team Red Team (26 pts)
 
 Your TA will pair your team with a **partner team**, and assign each of you one member of that team as your **target**.
 
-### Attack (6 pts) – due to your target Thursday, November 5, 11:59PM
+### Attack (13 pts) – due to your target Thursday, November 5, 11:59PM
 
 Study your target's declared feature, requirements, and properties (they're in their traceability file on `main`). Write **3 mutants** against their feature, each aiming to slip past their properties. Each mutant should:
 
@@ -110,11 +110,11 @@ Send your three patch files and explanations to your target by Thursday at 11:59
 
 Attack mutants are graded on **plausibility and how well they target a requirement**, not on whether they survive.
 
-### Defend (6 pts)
+### Defend (13 pts)
 
 Apply each mutant you receive and run your properties. For every mutant that survives, strengthen your properties until it is killed (or argue that it is equivalent). Record each received mutant, its result, and your fix in a **Red team** section of your traceability file, and credit who sent it.
 
-## TA Check-in (Team) (12 pts)
+## TA Check-in (Team) (26 pts)
 
 Sign up for a **10-minute** check-in with your TA between November 4 and November 9 using the sign-up sheet that will be posted in Slack. Your **whole team** must attend.
 

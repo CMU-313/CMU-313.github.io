@@ -7,11 +7,11 @@ nav_order: 10
 
 ## Deliverables
 
-**Interviews & Requirements** – 25 points – due Monday, October 26, 2026, 11:59PM
+**Interviews & Requirements** – 55 points – due Monday, October 26, 2026, 11:59PM
 
-- [Target Declaration & Interview Script (7 pts)](#target-declaration-interview-script-7-pts)
-- [Interviews & Notes (10 pts)](#interviews-notes-10-pts)
-- [Requirements & Reflection (8 pts)](#requirements-reflection-8-pts)
+- [Target Declaration & Interview Script (15 pts)](#target-declaration-interview-script-15-pts)
+- [Interviews & Notes (22 pts)](#interviews-notes-22-pts)
+- [Requirements & Reflection (18 pts)](#requirements-reflection-18-pts)
 
 ## Choosing a Target Feature
 
@@ -27,7 +27,7 @@ You will each explicitly declare **one opencode feature** to interview users abo
 
 Students who pick the same feature may collaborate on the interview script and run interviews together, but you must disclose it: who you worked with and which parts were shared. You still need three interviews (one of each kind below), and every student present at a shared interview can count it toward their three. Your requirements and reflection must be your own.
 
-## Target Declaration & Interview Script (7 pts)
+## Target Declaration & Interview Script (15 pts)
 
 ### Target Declaration
 
@@ -51,7 +51,7 @@ Write an interview script of about one page. Generic questions ("What do you lik
 
 Adapt these to your feature. "What should never happen?" is a starting point; "Is there any command that should *never* run, no matter what rules you've written?" is a question someone can actually answer. Plan follow-ups for when an answer is vague ("Can you give me a specific example?", "What would you expect to see instead?").
 
-## Interviews & Notes (10 pts)
+## Interviews & Notes (22 pts)
 
 Run **three** interviews about your target feature, one with each kind of interviewee:
 
@@ -68,7 +68,7 @@ For each interview, take notes that record what the interviewee actually said, a
 !!! note "Interview etiquette"
     Tell interviewees what the interview is for and ask before recording; notes alone are fine. Show them the feature (a live demo or a screen share works well) so they're reacting to real behavior and not guessing.
 
-## Requirements & Reflection (8 pts)
+## Requirements & Reflection (18 pts)
 
 ### Requirements Table
 

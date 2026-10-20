@@ -31,13 +31,13 @@ When a property fails, the work begins: is the code wrong, is your property wron
 
 The properties, triage, and fixes are **individual**: you continue with the same target feature and requirements you declared in Project 3. The CI slice is a **team** deliverable.
 
-There is one (1) deadline for this project. This project is worth a total of 30 points.
+There is one (1) deadline for this project. This project is worth a total of 65 points.
 
-[**Properties & Fixes**](1_specify.md) – 30 points – due Monday, November 2, 2026, 11:59PM
+[**Properties & Fixes**](1_specify.md) – 65 points – due Monday, November 2, 2026, 11:59PM
 
-- Properties Tied to Requirements (Individual) (15 pts)
-- Failure Triage & Fixes (Individual) (10 pts)
-- CI Slice (Team) (5 pts)
+- Properties Tied to Requirements (Individual) (30 pts)
+- Failure Triage & Fixes (Individual) (25 pts)
+- CI Slice (Team) (10 pts)
 
 !!! tip "Resources"
     [Recitation 7](/recitations/reci7-pbt/) introduced fast-check and the kinds of properties you'll use here. Its [problem set](https://github.com/CMU-313/F26-reci-7/blob/main/PROBLEM_SET.md) is a good warm-up if you haven't finished it.

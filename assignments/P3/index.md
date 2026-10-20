@@ -31,13 +31,13 @@ In this project, you will each pick one opencode feature, write an interview scr
 
 This is an **individual assignment**, though you will keep working inside your Project 2 team's repository and may collaborate with classmates who choose the same feature (see [Shared features](1_elicit.md#shared-features)).
 
-There is one (1) deadline for this project. This project is worth a total of 25 points.
+There is one (1) deadline for this project. This project is worth a total of 55 points.
 
-[**Interviews & Requirements**](1_elicit.md) – 25 points – due Monday, October 26, 2026, 11:59PM
+[**Interviews & Requirements**](1_elicit.md) – 55 points – due Monday, October 26, 2026, 11:59PM
 
-- Target Declaration & Interview Script (7 pts)
-- Interviews & Notes (10 pts)
-- Requirements & Reflection (8 pts)
+- Target Declaration & Interview Script (15 pts)
+- Interviews & Notes (22 pts)
+- Requirements & Reflection (18 pts)
 
 !!! tip "Start scheduling interviews now"
     You need three interviews, including one with a member of course staff and one with someone outside the course. Those take time to schedule, so line them up on the first day, even before your script is finished.

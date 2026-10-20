@@ -7,11 +7,11 @@ nav_order: 10
 
 ## Deliverables
 
-**Properties & Fixes** – 30 points – due Monday, November 2, 2026, 11:59PM
+**Properties & Fixes** – 65 points – due Monday, November 2, 2026, 11:59PM
 
-- [Properties Tied to Requirements (Individual) (15 pts)](#properties-tied-to-requirements-individual-15-pts)
-- [Failure Triage & Fixes (Individual) (10 pts)](#failure-triage-fixes-individual-10-pts)
-- [CI Slice (Team) (5 pts)](#ci-slice-team-5-pts)
+- [Properties Tied to Requirements (Individual) (30 pts)](#properties-tied-to-requirements-individual-30-pts)
+- [Failure Triage & Fixes (Individual) (25 pts)](#failure-triage-fixes-individual-25-pts)
+- [CI Slice (Team) (10 pts)](#ci-slice-team-10-pts)
 
 ## Setup
 
@@ -43,7 +43,7 @@ Copy your requirements table from Project 3 into your branch as `traceability/<a
 
 You may revise a requirement if writing its property shows it was ambiguous, but keep the interview evidence and note what changed.
 
-## Properties Tied to Requirements (Individual) (15 pts)
+## Properties Tied to Requirements (Individual) (30 pts)
 
 Write **at least 4** fast-check properties for your target feature. Each property must:
 
@@ -64,7 +64,7 @@ A property is only as good as the inputs it sees. Write generators (arbitraries)
 !!! note "Using opencode"
     You may use opencode (or any AI tool) to help write properties and generators. If you do, note which properties it wrote or suggested in your traceability table. You are responsible for every property being correct and tied to a real requirement.
 
-## Failure Triage & Fixes (Individual) (10 pts)
+## Failure Triage & Fixes (Individual) (25 pts)
 
 Run your properties. For **every** property that fails, decide which of these it is, and act:
 
@@ -82,7 +82,7 @@ If none of your properties fail, that's fine. Say so in your triage log, and des
 
 Open a pull request from your branch to `main` containing your properties, fixes, and traceability file. At least one teammate must review and approve it before it merges. Your PR must be **merged into `main`** by the deadline.
 
-## CI Slice (Team) (5 pts)
+## CI Slice (Team) (10 pts)
 
 As a team, make sure your properties are enforced on every change:
 

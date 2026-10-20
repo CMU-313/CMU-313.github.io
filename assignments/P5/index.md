@@ -36,15 +36,15 @@ In this project, you'll attack your own properties: first with mutants you desig
 
 Most of this project is **individual**: you continue with the same target feature, branch, and traceability table from Projects 3 and 4. The TA check-in is a **team** meeting.
 
-There are two (2) deadlines for this project. This project is worth a total of 45 points.
+There are two (2) deadlines for this project. This project is worth a total of 100 points.
 
-[**Mutation Testing & Red Team**](1_break.md) – 45 points – due Monday, November 9, 2026, 11:59PM
+[**Mutation Testing & Red Team**](1_break.md) – 100 points – due Monday, November 9, 2026, 11:59PM
 
-- Hand-Written Mutants with Predictions (8 pts)
-- Stryker Run & Comparison (8 pts)
-- Agent Failure Case (5 pts)
-- Cross-Team Red Team (12 pts) – **red-team mutants due to your partner Thursday, November 5, 2026, 11:59PM**
-- TA Check-in (Team) (12 pts) – held between November 4 and November 9
+- Hand-Written Mutants with Predictions (18 pts)
+- Stryker Run & Comparison (18 pts)
+- Agent Failure Case (12 pts)
+- Cross-Team Red Team (26 pts) – **red-team mutants due to your partner Thursday, November 5, 2026, 11:59PM**
+- TA Check-in (Team) (26 pts) – held between November 4 and November 9
 
 !!! tip
     The red-team mutants are due early so your partner has time to defend. Get your own mutants and Stryker run done early in the week, so you have time to respond to the mutants your partner sends you.
