@@ -4,3 +4,8 @@
 
 [build.environment]
   PYTHON_VERSION = "3.11"
+
+# PR previews show every project page, even ones whose release_date is in the
+# future, so staff can review unreleased assignments before they go live.
+[context.deploy-preview.environment]
+  CURRENT_DATE_OVERRIDE = "2026-12-31"

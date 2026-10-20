@@ -1,57 +1,43 @@
 ---
-title: "Project 4: Architecting an LLM Integration"
-release_date: 2026-11-02
-due_date: 2026-11-16
+title: "Project 4: Specify and Fix"
+release_date: 2026-10-27
+due_date: 2026-11-02
 checkpoints:
-  - date: 2026-11-09
-    title: "Checkpoint #1 Deliverables"
-    due_at: "2026-11-09T23:59:00-05:00"
-    link: "1_checkpoint.md"
-  - date: 2026-11-16
-    title: "Final Deliverables"
-    due_at: "2026-11-16T23:59:00-05:00"
-    link: "2_checkpoint.md"
+  - date: 2026-11-02
+    title: "Properties & Fixes"
+    due_at: "2026-11-02T23:59:00-05:00"
+    link: "1_specify.md"
 ---
 
-# Project 4: Architecting an LLM Integration
+# Project 4: Specify and Fix
 
 ## Learning Goals
-- Design a software architecture for a software system that incorporates a foundational large language model
-- Decide the appropriate architecture for a given problem
-- Address and describe the tradeoffs of different architectures
-- Host and integrate pre-trained foundational large language models into an existing software system
-- Evaluate the performance/quality of LLM powered features
-- Design test suites that include unit, integration, and mock testing, to ensure robustness and reliability
-- Engineer techniques to improve the performance of pre-trained models on application-specific tasks
-- Decide whether an LLM powered solution is production ready
+
+- Translate natural-language requirements into executable property-based tests
+- Recognize and apply common kinds of properties: round-trip, invariant, model/oracle, and metamorphic
+- Write generators that explore a feature's input space
+- Triage a failing test: decide whether the code, the test, or the requirements are wrong
+- Gate merges on automated checks with continuous integration and branch protection
 
 ## Project Context
 
-The development of the new Q&A forum system for CMU is in full swing when your CEO suddenly bursts into the room shouting, “LLMs! AI! Why are we building a Q&A forum without integrating LLMs?!”
+In Project 3, you interviewed users and turned what you heard into precise requirements for one opencode feature. Your manager is pleased, but a requirements table only helps if someone checks it. Requirements that live in a document drift away from the code the moment the next pull request lands.
 
-Once your CEO has finally calmed down, your manager calls an all-hands meeting. At the meeting, everyone agrees that you don’t have the resources to build a completely new Q&A forum and also automate the whole question-answering problem.
+Your manager now wants each requirement to become something the build checks automatically, on every change. Example-based unit tests only check the handful of inputs you thought of. Instead, you'll write **property-based tests** with [fast-check](https://fast-check.dev): each test states a rule that should hold for *every* input, and fast-check generates hundreds of inputs looking for one that breaks it.
 
-But, to better compete with Piazza, your CEO and manager decide to put your team in charge of exploring using an LLM to implement a translation feature. This feature will automatically translate posts written in languages other than English into English. This initiative aims to foster inclusivity and ensure that language barriers do not hinder participation in the forum.
-
-However, your firm had a bad experience last month where an intern racked up too many API charges, so your CEO and manager insist that you must use a locally hosted model.
-
-In light of this new direction, your manager wants you to:
-
-1. **Design the feature** - reason about, document and select an appropriate design for integrating this feature into the existing system.
-2. **Evaluate different models** Evaluate different models and compare their performance.
-3. **Implement the feature** Implement the translation feature.
+When a property fails, the work begins: is the code wrong, is your property wrong, or did two of your interviewees actually want incompatible things? You'll decide, fix what needs fixing, and land the result through your team's pipeline.
 
 ## Deliverables and Deadlines
-There are two (2) deadlines for the project. This project is worth a total of 145 points.
 
-[**Checkpoint #1 Deliverables (Design and Test)**](./1_checkpoint.md) – 85 pts - due Monday, November 9, 2026 @ 11:59PM
+The properties, triage, and fixes are **individual**: you continue with the same target feature and requirements you declared in Project 3. The CI slice is a **team** deliverable.
 
-- [Architectural Design Document (40 pts)](./1_checkpoint.md#architectural-design-document-40-points)
-- [Basic LLM Experiment (15 pts)](./1_checkpoint.md#basic-llm-experiment-15-points)
-- [LLM Experiment Integration Checkpoint (10 pts)](./1_checkpoint.md#llm-experiment-integration-checkpoint-10-points)
-- [Tool Analysis (Individual) (20 pts)](./1_checkpoint.md#tool-analysis-individual-20-points)
+There is one (1) deadline for this project. This project is worth a total of 30 points.
 
-[**Final Deliverables (Implementation and Evaluation)**](./2_checkpoint.md) - 60 pts - due Monday, November 16, 2026 @ 11:59PM
+[**Properties & Fixes**](1_specify.md) – 30 points – due Monday, November 2, 2026, 11:59PM
 
-- [Final LLM Experiment Implementation (30 pts)](./2_checkpoint.md#final-llm-experiment-implementation-30-points)
-- [Individual Reflection (30 pts)](./2_checkpoint.md#individual-reflection-30-points)
+- Properties Tied to Requirements (Individual) (15 pts)
+- Failure Triage & Fixes (Individual) (10 pts)
+- CI Slice (Team) (5 pts)
+
+!!! tip "Resources"
+    [Recitation 7](/recitations/reci7-pbt/) introduced fast-check and the kinds of properties you'll use here. Its [problem set](https://github.com/CMU-313/F26-reci-7/blob/main/PROBLEM_SET.md) is a good warm-up if you haven't finished it.
