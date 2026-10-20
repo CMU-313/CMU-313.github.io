@@ -7,11 +7,11 @@ nav_order: 10
 
 ## Deliverables
 
-**Interviews & Requirements** – 55 points – due Monday, October 26, 2026, 11:59PM
+**Interviews & Requirements** – 55 points – due Tuesday, October 27, 2026, 11:59PM
 
 - [Target Declaration & Interview Script (15 pts)](#target-declaration-interview-script-15-pts)
-- [Interviews & Notes (22 pts)](#interviews-notes-22-pts)
-- [Requirements & Reflection (18 pts)](#requirements-reflection-18-pts)
+- [Interviews & Notes (20 pts)](#interviews-notes-20-pts)
+- [Requirements & Reflection (20 pts)](#requirements-reflection-20-pts)
 
 ## Choosing a Target Feature
 
@@ -51,7 +51,7 @@ Write an interview script of about one page. Generic questions ("What do you lik
 
 Adapt these to your feature. "What should never happen?" is a starting point; "Is there any command that should *never* run, no matter what rules you've written?" is a question someone can actually answer. Plan follow-ups for when an answer is vague ("Can you give me a specific example?", "What would you expect to see instead?").
 
-## Interviews & Notes (22 pts)
+## Interviews & Notes (20 pts)
 
 Run **three** interviews about your target feature, one with each kind of interviewee:
 
@@ -68,7 +68,7 @@ For each interview, take notes that record what the interviewee actually said, a
 !!! note "Interview etiquette"
     Tell interviewees what the interview is for and ask before recording; notes alone are fine. Show them the feature (a live demo or a screen share works well) so they're reacting to real behavior and not guessing.
 
-## Requirements & Reflection (18 pts)
+## Requirements & Reflection (20 pts)
 
 ### Requirements Table
 

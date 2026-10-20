@@ -1,11 +1,11 @@
 ---
 title: "Project 3: Elicit"
 release_date: 2026-10-20
-due_date: 2026-10-26
+due_date: 2026-10-27
 checkpoints:
-  - date: 2026-10-26
+  - date: 2026-10-27
     title: "Interviews & Requirements"
-    due_at: "2026-10-26T23:59:00-04:00"
+    due_at: "2026-10-27T23:59:00-04:00"
     link: "1_elicit.md"
 ---
 
@@ -33,11 +33,11 @@ This is an **individual assignment**, though you will keep working inside your P
 
 There is one (1) deadline for this project. This project is worth a total of 55 points.
 
-[**Interviews & Requirements**](1_elicit.md) – 55 points – due Monday, October 26, 2026, 11:59PM
+[**Interviews & Requirements**](1_elicit.md) – 55 points – due Tuesday, October 27, 2026, 11:59PM
 
 - Target Declaration & Interview Script (15 pts)
-- Interviews & Notes (22 pts)
-- Requirements & Reflection (18 pts)
+- Interviews & Notes (20 pts)
+- Requirements & Reflection (20 pts)
 
 !!! tip "Start scheduling interviews now"
     You need three interviews, including one with a member of course staff and one with someone outside the course. Those take time to schedule, so line them up on the first day, even before your script is finished.
