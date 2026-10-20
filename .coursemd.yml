@@ -138,6 +138,7 @@ schedule:
     - kind: lecture
       date: 2026-10-20
       title: "Microservices/Architecture"
+      link: /assets/pdfs/14-Architecture.pdf
 
     - kind: lecture
       date: 2026-10-22
