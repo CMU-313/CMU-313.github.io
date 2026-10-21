@@ -88,7 +88,7 @@ Keep this table somewhere you can easily update it; you will build on it.
 
 ### Reflection
 
-Write a short reflection (about half a page) addressing:
+Answer the following questions on Gradescope:
 
 - Which script questions worked well, and which fell flat? Why?
 - What would you change about your script if you did this again?
