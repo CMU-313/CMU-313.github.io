@@ -9,7 +9,7 @@ reveal_date: 2026-11-09
 
 ## Overview
 
-This recitation will give you the opportunity to familiarize yourself with various open source projects and help your team with finding a project to work on for [Project 5](https://cmu-313.github.io/projects/P5/).
+This recitation will give you the opportunity to familiarize yourself with various open source projects and help your team with finding a project to work on for [Project 6](https://cmu-313.github.io/assignments/P6/).
 
 ## Context
 
@@ -24,14 +24,14 @@ The general criteria for an open source project:
 
 Open the [slide deck](https://docs.google.com/presentation/d/1kDJDpvoJyPx498idQi7xjilfYgkEJN0cwBMrXQzbewo/edit?usp=sharing) and make a copy of the slides for your team. Then, search for open source projects to fill each square in the Scavenger Hunt table. Each project can only count for one square. The goal is to have as many squares filled as possible!
 
-While learning about different open source projects, think about what type of projects you would be interested in working on for [Project 5](https://cmu-313.github.io/projects/P5/).
+While learning about different open source projects, think about what type of projects you would be interested in working on for [Project 6](https://cmu-313.github.io/assignments/P6/).
 
 ## Reflection (10 min)
 
 With your team, discuss the following questions:
 Which attributes make a good open source project? A bad open source project? Which 3 projects did you find that you would most like to work on? Which would you least like to work on? Why?
 
-Submit the links to the 3 projects that you are most interested in pursuing for [Project 5](https://cmu-313.github.io/projects/P5/) to [Gradescope](https://www.gradescope.com/courses/1213157/assignments/7869777/)!
+Submit the links to the 3 projects that you are most interested in pursuing for [Project 6](https://cmu-313.github.io/assignments/P6/) to [Gradescope](https://www.gradescope.com/courses/1213157/assignments/7869777/)!
 
 ## Resources
 

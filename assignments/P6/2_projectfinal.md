@@ -1,9 +1,9 @@
 ---
-title: "5B & C Project Presentations, Final Report, and Reflections"
+title: "6B & C Project Presentations, Final Report, and Reflections"
 nav_order: 20
 ---
 
-# Project 5B & C: Project Presentations, Final Report, and Reflections
+# Project 6B & C: Project Presentations, Final Report, and Reflections
 
 ## Deliverables
 
@@ -75,9 +75,9 @@ After completing and submitting the modification, write a report about the tasks
 !!! warning On Generative AI
     In the past, we have had problems with students using generative AI tools to generate low quality text. For this assignment, we will be evaluating each contribution to the document individually.  You are not responsible for fixing other teammates' text. However, you should clearly indicate at the top of the document who was responsible for each part of the document. Low quality AI slop will result in significant penalties for the student who contributed that section.
 
-Create a **copy** of the following Google Doc: [5B Project Report Template](https://docs.google.com/document/d/1QIAFDb_v3Mq6bgaVfljeliy1ndFi-uB-Y2rmdQjH5eg/edit?usp=sharing). **Make sure the document is located within the GDrive folder your TAs shared with you at the beginning of the semester.**
+Create a **copy** of the following Google Doc: [6B Project Report Template](https://docs.google.com/document/d/1QIAFDb_v3Mq6bgaVfljeliy1ndFi-uB-Y2rmdQjH5eg/edit?usp=sharing). **Make sure the document is located within the GDrive folder your TAs shared with you at the beginning of the semester.**
 
-As a team, write your responses to the questions in this doc. After you finish, have **one team member** copy and paste the responses of each question into the corresponding question in the 5B Project Report assignment on **Gradescope**. (This is to facilitate grading feedback) Be sure to also provide the **link to the Google Doc**. Add **all group members** to the submission. 
+As a team, write your responses to the questions in this doc. After you finish, have **one team member** copy and paste the responses of each question into the corresponding question in the 6B Project Report assignment on **Gradescope**. (This is to facilitate grading feedback) Be sure to also provide the **link to the Google Doc**. Add **all group members** to the submission. 
 
 ## Individual Reflection & Peer Evaluations (20 points)
 
