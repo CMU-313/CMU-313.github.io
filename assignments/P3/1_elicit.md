@@ -1,5 +1,5 @@
 ---
-title: "3A Interviews & Requirements"
+title: "Interviews & Requirements"
 nav_order: 10
 ---
 
@@ -21,7 +21,7 @@ You will each explicitly declare **one opencode feature** to interview users abo
 - **Strongly recommended switch:** if your Project 2 feature is heavily non-deterministic (its behavior depends on LLM output, streaming, timing, or the network), choose a feature with more deterministic logic instead. Requirements for non-deterministic behavior are much harder to state precisely, and much harder to check later. You do not need permission to switch, but we strongly recommend talking it over with your TA first.
 
 !!! example "Example of a deterministic feature: permission rules"
-    opencode lets users control what the agent may do without asking, using rules in their config such as `"git *": "ask"` or `"rm *": "deny"` (see the [permissions docs](https://opencode.ai/docs/permissions/)). The matching logic lives in `packages/opencode/src/permission/` and `packages/opencode/src/util/wildcard.ts`. Given the same rules and the same command, it always gives the same answer, and users have strong expectations about it ("a `deny` rule should never be overridden by a broader `allow`"). That makes it a good target. You are welcome to choose it, or use it as a model for the kind of feature to look for.
+    opencode lets users control what the agent may do without asking, using rules in their config such as `"git *": "ask"` or `"rm *": "deny"` (see the [permissions docs](https://opencode.ai/docs/permissions/)). The matching logic lives in `packages/opencode/src/permission/` and `packages/opencode/src/util/wildcard.ts`. Given the same rules and the same command, it always gives the same answer, and users have strong expectations about it ("a specific rule listed after the catch-all `*` rule should take priority"). That makes it a good target. You are welcome to choose it, or use it as a model for the kind of feature to look for.
 
 ### Shared Features
 
@@ -81,7 +81,7 @@ Present your requirements in a table with this format:
 
 | ID | Interview evidence | Requirement | Acceptance Criteria |
 |---|---|---|---|
-| R1 | `C-12`, `S-4`: "I'd be furious if it ran `rm -rf` after I said deny" | A command matching a `deny` rule is never executed, regardless of other matching rules. | With rules `{"*": "allow", "rm *": "deny"}`, the command `rm -rf /` evaluates to `deny`, and still does when the rules are listed in a different order. |
+| R1 | `C-12`, `S-4`: "I'd be furious if it ran `rm -rf` after I said deny" | When a command matches several rules, the last matching rule in the config decides the outcome. | With rules `{"*": "allow", "rm *": "deny"}`, `rm -rf /` evaluates to `deny` and `ls -la` evaluates to `allow`. |
 | R2 | ... | ... | ... |
 
 Keep this table somewhere you can easily update it; you will build on it.
@@ -96,7 +96,7 @@ Answer the following questions on Gradescope:
 
 ## Submission
 
-Submit a single PDF to Gradescope containing, in order: your target declaration, interview script, interview notes (all three), requirements table (with acceptance criteria), reflection, and (if applicable) your collaboration disclosure.
+Submit a single PDF to Gradescope containing, in order: your target declaration, interview script, interview notes (all three), requirements table (with acceptance criteria), and (if applicable) your collaboration disclosure. Answer the reflection questions separately in the Gradescope assignment, not in the PDF.
 
 ## Grading
 

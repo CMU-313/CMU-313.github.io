@@ -34,7 +34,7 @@ Record your results in a **Hand-written mutants** section of your traceability f
 
 | ID | Requirement targeted | Change | Predicted killer | Actual result |
 |---|---|---|---|---|
-| H1 | R1 | `wildcard.ts`: rules sorted longest-first instead of shortest-first, so a broad rule can override a specific one | "Deny always wins" (R1) | Survived: the generator never produced two overlapping rules |
+| H1 | R1 | `permission/index.ts`: `findLast` changed to `find`, so the first matching rule wins instead of the last | "Last match decides" (R1) | Survived: the generator never produced two rules matching the same command |
 
 Then fill in the **Mutants it kills** column of your main traceability table.
 
