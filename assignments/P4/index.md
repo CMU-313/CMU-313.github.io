@@ -1,6 +1,6 @@
 ---
 title: "Project 4: Specify and Fix"
-release_date: 2026-10-27
+release_date: 2026-10-30
 due_date: 2026-11-02
 checkpoints:
   - date: 2026-11-02

@@ -37,11 +37,11 @@ Put your property tests next to the package's existing tests (e.g. `packages/ope
 
 Copy your requirements table from Project 3 into your branch as `traceability/<andrewid>.md`, and add two columns:
 
-| ID | Interview evidence | Requirement | Property (kind) | Test |
-|---|---|---|---|---|
-| R1 | `C-12`, `S-4`: "I'd be furious if it ran `rm -rf` after I said deny" | A command matching a `deny` rule is never executed, regardless of other matching rules. | Deny always wins (invariant) | `permission.property.test.ts` |
+| ID | Interview evidence | Requirement | Acceptance Criteria | Property (kind) | Test |
+|---|---|---|---|---|---|
+| R1 | `C-12`, `S-4`: "I'd be furious if it ran `rm -rf` after I said deny" | A command matching a `deny` rule is never executed, regardless of other matching rules. | With rules `{"*": "allow", "rm *": "deny"}`, the command `rm -rf /` evaluates to `deny`, and still does when the rules are listed in a different order. | Deny always wins (invariant) | `permission.property.test.ts` |
 
-You may revise a requirement if writing its property shows it was ambiguous, but keep the interview evidence and note what changed.
+Your acceptance criteria are a starting point for each property: a property should check the criteria for every generated input, not just the one example you wrote down. You may revise a requirement or its acceptance criteria if writing its property shows it was ambiguous, but keep the interview evidence and note what changed.
 
 ## Properties Tied to Requirements (Individual) (30 pts)
 

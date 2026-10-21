@@ -1,11 +1,11 @@
 ---
 title: "Project 3: Elicit"
 release_date: 2026-10-20
-due_date: 2026-10-27
+due_date: 2026-10-29
 checkpoints:
-  - date: 2026-10-27
+  - date: 2026-10-29
     title: "Interviews & Requirements"
-    due_at: "2026-10-27T23:59:00-04:00"
+    due_at: "2026-10-29T23:59:00-04:00"
     link: "1_elicit.md"
 ---
 
@@ -25,7 +25,7 @@ In Project 2, your team designed and shipped new features for opencode. Before y
 
 The trouble is that "users like it" is not something an engineer can act on. Your manager wants requirements that are precise enough that someone could look at the feature's behavior and say, unambiguously, whether a requirement holds. That means asking users the right questions: not "what do you like about it?", but "what should never happen?", "what should stay the same if you change this?", and "how would you know it gave you the wrong answer?"
 
-In this project, you will each pick one opencode feature, write an interview script, interview three different kinds of users, and turn what you hear into a set of new or revised requirements.
+In this project, you will each pick one opencode feature, write an interview script, interview three different kinds of users, and turn what you hear into a set of new or already-implemented requirements, each with acceptance criteria.
 
 ## Deliverables and Deadlines
 
@@ -33,7 +33,7 @@ This is an **individual assignment**, though you will keep working inside your P
 
 There is one (1) deadline for this project. This project is worth a total of 55 points.
 
-[**Interviews & Requirements**](1_elicit.md) – 55 points – due Tuesday, October 27, 2026, 11:59PM
+[**Interviews & Requirements**](1_elicit.md) – 55 points – due Thursday, October 29, 2026, 11:59PM
 
 - Target Declaration & Interview Script (15 pts)
 - Interviews & Notes (20 pts)

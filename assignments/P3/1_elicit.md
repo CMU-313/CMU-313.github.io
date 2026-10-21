@@ -7,7 +7,7 @@ nav_order: 10
 
 ## Deliverables
 
-**Interviews & Requirements** – 55 points – due Tuesday, October 27, 2026, 11:59PM
+**Interviews & Requirements** – 55 points – due Thursday, October 29, 2026, 11:59PM
 
 - [Target Declaration & Interview Script (15 pts)](#target-declaration-interview-script-15-pts)
 - [Interviews & Notes (20 pts)](#interviews-notes-20-pts)
@@ -72,17 +72,17 @@ For each interview, take notes that record what the interviewee actually said, a
 
 ### Requirements Table
 
-Turn what you heard into **5 to 8 new or revised requirements** for your feature. Each requirement must be:
+Turn what you heard into **5 to 8 new or already-implemented requirements** for your feature. Each requirement must be:
 
-- **Precise:** someone could check whether it holds by looking at the feature's behavior. "Permissions should be intuitive" is not a requirement; "a command matching a `deny` rule is never executed, even if a broader rule allows it" is.
-- **Traceable:** it cites the specific interview note(s) it came from.
+- **Testable:** it should be possible to write an automated test that checks whether the requirement holds.
+- **Traceable:** you should be able to point to which specific interview note(s) each requirement came from.
 
 Present your requirements in a table with this format:
 
-| ID | Interview evidence | Requirement |
-|---|---|---|
-| R1 | `C-12`, `S-4`: "I'd be furious if it ran `rm -rf` after I said deny" | A command matching a `deny` rule is never executed, regardless of other matching rules. |
-| R2 | ... | ... |
+| ID | Interview evidence | Requirement | Acceptance Criteria |
+|---|---|---|---|
+| R1 | `C-12`, `S-4`: "I'd be furious if it ran `rm -rf` after I said deny" | A command matching a `deny` rule is never executed, regardless of other matching rules. | With rules `{"*": "allow", "rm *": "deny"}`, the command `rm -rf /` evaluates to `deny`, and still does when the rules are listed in a different order. |
+| R2 | ... | ... | ... |
 
 Keep this table somewhere you can easily update it; you will build on it.
 
@@ -96,7 +96,7 @@ Write a short reflection (about half a page) addressing:
 
 ## Submission
 
-Submit a single PDF to Gradescope containing, in order: your target declaration, interview script, interview notes (all three), requirements table, reflection, and (if applicable) your collaboration disclosure.
+Submit a single PDF to Gradescope containing, in order: your target declaration, interview script, interview notes (all three), requirements table (with acceptance criteria), reflection, and (if applicable) your collaboration disclosure.
 
 ## Grading
 
@@ -113,7 +113,8 @@ To receive full credit for the interviews and notes, we expect:
 
 To receive full credit for the requirements and reflection, we expect:
 
-- [ ] 5 to 8 new or revised requirements, each precise enough to be checked against the feature's behavior
+- [ ] 5 to 8 new or already-implemented requirements, each testable against the feature's behavior
+- [ ] Acceptance criteria for every requirement: a concrete situation and the expected outcome that a test could check
 - [ ] Every requirement cites the interview note(s) it came from
 - [ ] A reflection that discusses which questions worked, what you'd change, and which requirements came from only one kind of interviewee
 - [ ] A collaboration disclosure, if you shared any part of the work
