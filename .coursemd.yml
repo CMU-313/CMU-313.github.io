@@ -142,7 +142,8 @@ schedule:
 
     - kind: lecture
       date: 2026-10-22
-      title: "CI"
+      title: "Usability and Interviews"
+      link: /assets/pdfs/15-usability-engineering-and-interviews.pdf
 
     - kind: lecture
       date: 2026-10-27
