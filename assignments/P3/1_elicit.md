@@ -56,7 +56,7 @@ Adapt these to your feature. "What should never happen?" is a starting point; "I
 Run **three** interviews about your target feature, one with each kind of interviewee:
 
 1. **A classmate who is not on your team.** A real opencode user who doesn't know your feature's internals.
-2. **A member of course staff.** A TA or instructor. Sign up for a slot using the sign-up sheet that will be posted in Slack. Staff interviews are short (about 15 minutes), so come prepared.
+2. **A member of course staff.** A TA or instructor. Sign up for a slot using the sign-up sheet that will be posted in Slack. Staff interviews are short (about 10 minutes), so come prepared.
 3. **Someone outside the course.** Anyone who has used an AI coding tool (opencode, Claude Code, Cursor, Copilot, and so on), such as a developer friend, a colleague from an internship, or a student in another program. They bring the least course bias.
 
 For each interview, take notes that record what the interviewee actually said, as close to their words as you can, and give each note a line number or ID (e.g. `C-12` for line 12 of your classmate interview) so you can cite it later. Your notes should also record:
