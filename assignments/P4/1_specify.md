@@ -39,7 +39,7 @@ Copy your requirements table from Project 3 into your branch as `traceability/<a
 
 | ID | Interview evidence | Requirement | Acceptance Criteria | Property (kind) | Test |
 |---|---|---|---|---|---|
-| R1 | `C-12`, `S-4`: "I'd be furious if it ran `rm -rf` after I said deny" | A command matching a `deny` rule is never executed, regardless of other matching rules. | With rules `{"*": "allow", "rm *": "deny"}`, the command `rm -rf /` evaluates to `deny`, and still does when the rules are listed in a different order. | Deny always wins (invariant) | `permission.property.test.ts` |
+| R1 | `C-12`, `S-4`: "I'd be furious if it ran `rm -rf` after I said deny" | When a command matches several rules, the last matching rule in the config decides the outcome. | With rules `{"*": "allow", "rm *": "deny"}`, `rm -rf /` evaluates to `deny` and `ls -la` evaluates to `allow`. | Last match decides (model/oracle) | `permission.property.test.ts` |
 
 Your acceptance criteria are a starting point for each property: a property should check the criteria for every generated input, not just the one example you wrote down. You may revise a requirement or its acceptance criteria if writing its property shows it was ambiguous, but keep the interview evidence and note what changed.
 
@@ -53,7 +53,7 @@ Write **at least 4** fast-check properties for your target feature. Each propert
 | Kind | The idea | Example for permission rules |
 |---|---|---|
 | **Round-trip** | Doing then undoing (or encoding then decoding) gets you back where you started | Serializing a rule set to config and parsing it back gives the same rules |
-| **Invariant** | Something that is true for every input | A command that matches a `deny` rule is never allowed |
+| **Invariant** | Something that is true for every input | If the last rule matching a command is `deny`, the command is never allowed |
 | **Model / oracle** | Compare against a simpler implementation that is obviously correct | The matcher agrees with a slow, hand-written matcher on every command |
 | **Metamorphic** | Changing the input in a known way changes the output in a predictable way | Adding an unrelated rule never changes the decision for a command it doesn't match |
 
