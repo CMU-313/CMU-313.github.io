@@ -39,5 +39,7 @@ There is one (1) deadline for this project. This project is worth a total of 55 
 - Interviews & Notes (20 pts)
 - Requirements & Reflection (20 pts)
 
+You'll do your work in a Google Doc workbook and submit it to Gradescope as a PDF, with your reflection answers in a separate Gradescope assignment. See [Getting Started](1_elicit.md#getting-started-your-workbook).
+
 !!! tip "Start scheduling interviews now"
     You need three interviews, including one with a member of course staff and one with someone outside the course. Those take time to schedule, so line them up on the first day, even before your script is finished.
