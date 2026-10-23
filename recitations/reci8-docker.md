@@ -9,11 +9,11 @@ reveal_date: 2026-10-26
 
 ## Prerequisites
 
-You should have downloaded Docker. If you haven't follow the installation instructions [here](https://docs.docker.com/get-docker/).
+You should have downloaded Docker. If you haven't, follow the installation instructions [here](https://docs.docker.com/get-docker/).
 
 ## Setup Instructions (10 min):
 
-Fork [this repo](https://github.com/CMU-313/s26-docker-recitation) and clone it.
+Fork [this repo](https://github.com/CMU-313/f26-docker-recitation) and clone it.
 
 Open the folder in VSCode. Then you should "Reopen in Container" similar to Project 1, but this container is setup for Python.
 
@@ -27,7 +27,7 @@ During this recitation, students will create a simple FastAPI app, containerize 
 
 Sadly, you still are unsure when your recitation time is AND who your TAs are. There exist a microservice that tells you which TA's are responsible for each section.
 
-Try it out using this link: [http://17313-teachers.s3d.cmu.edu:8080/section_info/a](http://17313-teachers.s3d.cmu.edu:8080/section_info/a)
+Try it out using this link: [https://cmu-313.github.io/section_info/a.json](https://cmu-313.github.io/section_info/a.json)
 
 All you have to do is build a new service that builds on top of this microservice by including the time of the recitation as well.
 
@@ -77,7 +77,7 @@ The endpoint has to return a JSON object in the following form:
    docker compose up -d --build
    ```
 
-10. Check that your container is running correctly by locally invoking the endpoint.
+9. Check that your container is running correctly by locally invoking the endpoint.
    You can try [http://localhost:8080/section_info/a](http://localhost:8080/section_info/a).
     You should receive a JSON response with the section name, and TA names. Your job is to implement the start time and end time for all the recitations.
 
@@ -86,4 +86,4 @@ The endpoint has to return a JSON object in the following form:
 Try deploying your container by running it in codespaces
 
 ## Submission: 
-Make sure to [Submit on Gradescope](https://www.gradescope.com/courses/1213157/assignments/7815138/submissions) after this recitation. Everyone should submit individually.
+Make sure to [Submit on Gradescope](https://www.gradescope.com/courses/1356702/assignments/8417891/) after this recitation. Everyone should submit individually.
