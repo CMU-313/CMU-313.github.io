@@ -5,6 +5,8 @@ on:
       - main
   workflow_dispatch: # Can be invoked manually from the UI
   workflow_call:     # Can be invoked from other workflows
+  schedule:
+    - cron: '0 10 * * *' # Daily ~6am Eastern, so date-gated pages go live on their release date
 permissions:
   contents: write
 jobs:
