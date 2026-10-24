@@ -1,0 +1,28 @@
+lectures:
+- date: Tue Aug 26
+  link: assets/pdfs/01-introduction.pdf
+  name: Introduction
+- date: Thu Aug 28
+  link: assets/pdfs/02-archaeology.pdf
+  name: Software Archaeology
+
+projects:
+- date: Tue Aug 26
+  deadline: Due Fri, August 29th @ 11:59pm
+  end_date: 2026-08-31 00:00:00
+  link: projects/P1
+  name: Project 1A - Build Checkpoint
+  numDays: 3
+- date: Fri Aug 29
+  deadline: Due Thu, Sept 4th @ 11:59pm
+  end_date: 2026-09-03 00:00:00
+  link: projects/P1
+  name: Project 1B - Starter Task
+  numDays: 4
+
+recitation:
+  date: Mon Aug 25
+  handout: recitations/reci1-nodeBB
+  name: Recitation 1 - Understand NodeBB
+  quiz: ''
+  slides: ''
