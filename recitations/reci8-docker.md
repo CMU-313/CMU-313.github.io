@@ -5,7 +5,7 @@ date: 2026-10-26
 reveal_date: 2026-10-26
 ---
 
-# Recitation 8: Docker and Containerization 
+# Recitation 8: Docker and Containerization
 
 ## Prerequisites
 
@@ -58,7 +58,7 @@ The endpoint has to return a JSON object in the following form:
    uvicorn app.main:app --host 0.0.0.0 --port 8080
    ```
 
-4. Implement `./Dockerfile`. You can use the [slides](https://docs.google.com/presentation/d/1Yc4emAwe_Sm1W-SyCcPJlo7Y-eTZxwvu7ss1m_FkxLg/edit?usp=sharing) and [this link](https://docs.docker.com/engine/reference/builder/) as resources.
+4. Implement `./Dockerfile`. You can use the [slides](https://docs.google.com/presentation/d/1HPQ73M6xtpcxNUnXQ6DLPnT9_IuCE2oPam_RfRO52e0/edit?usp=sharing) and [this link](https://docs.docker.com/engine/reference/builder/) as resources.
 5. Create the docker image using the command below, and check that the image has been created.
 
    ```terminal
@@ -66,11 +66,12 @@ The endpoint has to return a JSON object in the following form:
    ```
 
 6. Try running your image (it should work similarly to when you run the app locally).
+
    ```terminal
    docker run --rm -p 8080:8080 YOUR_IMAGE_NAME
    ```
 
-7. Implement `./docker-compose.yml`. You can use the [slides](https://docs.google.com/presentation/d/1Yc4emAwe_Sm1W-SyCcPJlo7Y-eTZxwvu7ss1m_FkxLg/edit?usp=sharing) for reference.
+7. Implement `./docker-compose.yml`. You can use the [slides](https://docs.google.com/presentation/d/1HPQ73M6xtpcxNUnXQ6DLPnT9_IuCE2oPam_RfRO52e0/edit?usp=sharing) for reference.
 8. Create a container using the docker image using the command below.
 
    ```terminal
@@ -79,11 +80,12 @@ The endpoint has to return a JSON object in the following form:
 
 9. Check that your container is running correctly by locally invoking the endpoint.
    You can try [http://localhost:8080/section_info/a](http://localhost:8080/section_info/a).
-    You should receive a JSON response with the section name, and TA names. Your job is to implement the start time and end time for all the recitations.
+   You should receive a JSON response with the section name, and TA names. Your job is to implement the start time and end time for all the recitations.
 
 ## Bonus
 
 Try deploying your container by running it in codespaces
 
-## Submission: 
+## Submission:
+
 Make sure to [Submit on Gradescope](https://www.gradescope.com/courses/1356702/assignments/8417891/) after this recitation. Everyone should submit individually.
