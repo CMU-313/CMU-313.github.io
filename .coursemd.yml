@@ -147,7 +147,8 @@ schedule:
 
     - kind: lecture
       date: 2026-10-27
-      title: "Deployment Workshop Game (Robert Chatley)"
+      title: "CI-CD and Deployment Challenges"
+      link: /assets/pdfs/16-CI-CD-Deployment-Challenges.pdf
 
     - kind: lecture
       date: 2026-10-29
