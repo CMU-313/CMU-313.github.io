@@ -1,11 +1,11 @@
 ---
 title: "Project 4: Specify and Fix"
 release_date: 2026-10-30
-due_date: 2026-11-02
+due_date: 2026-11-05
 checkpoints:
-  - date: 2026-11-02
+  - date: 2026-11-05
     title: "Properties & Fixes"
-    due_at: "2026-11-02T23:59:00-05:00"
+    due_at: "2026-11-05T23:59:00-05:00"
     link: "1_specify.md"
 ---
 
@@ -33,7 +33,7 @@ The properties, triage, and fixes are **individual**: you continue with the same
 
 There is one (1) deadline for this project. This project is worth a total of 65 points.
 
-[**Properties & Fixes**](1_specify.md) – 65 points – due Monday, November 2, 2026, 11:59PM
+[**Properties & Fixes**](1_specify.md) – 65 points – due Thursday, November 5, 2026, 11:59PM
 
 - Properties Tied to Requirements (Individual) (30 pts)
 - Failure Triage & Fixes (Individual) (25 pts)

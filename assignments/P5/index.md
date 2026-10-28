@@ -1,15 +1,15 @@
 ---
 title: "Project 5: Break and Fix"
-release_date: 2026-11-03
-due_date: 2026-11-09
+release_date: 2026-11-06
+due_date: 2026-11-12
 checkpoints:
-  - date: 2026-11-05
-    title: "Red-Team Mutants to Partner"
-    due_at: "2026-11-05T23:59:00-05:00"
-    link: "1_break.md"
   - date: 2026-11-09
-    title: "Mutation Testing & Red Team"
+    title: "Red-Team Mutants to Partner"
     due_at: "2026-11-09T23:59:00-05:00"
+    link: "1_break.md"
+  - date: 2026-11-12
+    title: "Mutation Testing & Red Team"
+    due_at: "2026-11-12T23:59:00-05:00"
     link: "1_break.md"
 ---
 
@@ -38,13 +38,13 @@ Most of this project is **individual**: you continue with the same target featur
 
 There are two (2) deadlines for this project. This project is worth a total of 100 points.
 
-[**Mutation Testing & Red Team**](1_break.md) – 100 points – due Monday, November 9, 2026, 11:59PM
+[**Mutation Testing & Red Team**](1_break.md) – 100 points – due Thursday, November 12, 2026, 11:59PM
 
 - Hand-Written Mutants with Predictions (18 pts)
 - Stryker Run & Comparison (18 pts)
 - Agent Failure Case (12 pts)
-- Cross-Team Red Team (26 pts) – **red-team mutants due to your partner Thursday, November 5, 2026, 11:59PM**
-- TA Check-in (Team) (26 pts) – held between November 4 and November 9
+- Cross-Team Red Team (26 pts) – **red-team mutants due to your partner Monday, November 9, 2026, 11:59PM**
+- TA Check-in (Team) (26 pts) – held between November 9 and November 12
 
 !!! tip
-    The red-team mutants are due early so your partner has time to defend. Get your own mutants and Stryker run done early in the week, so you have time to respond to the mutants your partner sends you.
+    The red-team mutants are due early so your partner has time to defend. Get your own mutants and Stryker run done first, so you have time to respond to the mutants your partner sends you.

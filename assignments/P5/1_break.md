@@ -7,12 +7,12 @@ nav_order: 10
 
 ## Deliverables
 
-**Mutation Testing & Red Team** – 100 points – due Monday, November 9, 2026, 11:59PM
+**Mutation Testing & Red Team** – 100 points – due Thursday, November 12, 2026, 11:59PM
 
 - [Hand-Written Mutants with Predictions (18 pts)](#hand-written-mutants-with-predictions-18-pts)
 - [Stryker Run & Comparison (18 pts)](#stryker-run-comparison-18-pts)
 - [Agent Failure Case (12 pts)](#agent-failure-case-12-pts)
-- [Cross-Team Red Team (26 pts)](#cross-team-red-team-26-pts) – mutants due to your partner Thursday, November 5, 11:59PM
+- [Cross-Team Red Team (26 pts)](#cross-team-red-team-26-pts) – mutants due to your partner Monday, November 9, 11:59PM
 - [TA Check-in (Team) (26 pts)](#ta-check-in-team-26-pts)
 
 All of your work for this project continues on **your own branch** from Project 4 (e.g. `<andrewid>/properties`). Bring it up to date with `main` before you start.
@@ -107,7 +107,7 @@ In an **Agent failure case** section of your traceability file, include:
 
 Your TA will pair your team with a **partner team**, and assign each of you one member of that team as your **target**.
 
-### Attack (13 pts) – due to your target Thursday, November 5, 11:59PM
+### Attack (13 pts) – due to your target Monday, November 9, 11:59PM
 
 Study your target's declared feature, requirements, and properties (they're in their traceability file on `main`). Write **3 mutants** against their feature, each aiming to slip past their properties. Each mutant should:
 
@@ -125,7 +125,7 @@ Apply each mutant you receive and run your properties. For every mutant that sur
 
 ## TA Check-in (Team) (26 pts)
 
-Sign up for a **10-minute** check-in with your TA between November 4 and November 9 using the sign-up sheet that will be posted in Slack. Your **whole team** must attend.
+Sign up for a **10-minute** check-in with your TA between November 9 and November 12 using the sign-up sheet that will be posted in Slack. Your **whole team** must attend.
 
 During the check-in, your TA will plant a bug in one team member's feature. That is a live mutant. A team member chosen by the TA will:
 
@@ -171,7 +171,7 @@ To receive full credit for the agent failure case, we expect:
 
 To receive full credit for the red team, we expect:
 
-- [ ] Three plausible attack mutants, each targeting a named requirement of your target, delivered by Thursday, November 5
+- [ ] Three plausible attack mutants, each targeting a named requirement of your target, delivered by Monday, November 9
 - [ ] Every mutant you received recorded with its result, and every survivor either killed by strengthened properties or argued equivalent
 
 To receive full credit for the TA check-in, we expect:

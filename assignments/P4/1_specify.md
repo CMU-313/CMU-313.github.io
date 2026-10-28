@@ -7,7 +7,7 @@ nav_order: 10
 
 ## Deliverables
 
-**Properties & Fixes** – 65 points – due Monday, November 2, 2026, 11:59PM
+**Properties & Fixes** – 65 points – due Thursday, November 5, 2026, 11:59PM
 
 - [Properties Tied to Requirements (Individual) (30 pts)](#properties-tied-to-requirements-individual-30-pts)
 - [Failure Triage & Fixes (Individual) (25 pts)](#failure-triage-fixes-individual-25-pts)
