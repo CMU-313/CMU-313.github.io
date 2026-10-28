@@ -186,6 +186,8 @@ Apply each mutant you receive and run your properties. For every mutant that sur
 
 ## TA Check-in (Team) (26 pts)
 
+<!-- TODO (staff): we might cut the TA check-in. If we keep it, decide who writes the planted bugs and whether 26 pts is the right weight. If we cut it, move its 26 pts and remove it from index.md, the deliverables list, and Grading. -->
+
 Sign up for a **10-minute** check-in with your TA between November 9 and November 12 using the sign-up sheet that will be posted in Slack. Your **whole team** must attend.
 
 During the check-in, your TA will plant a bug in one team member's feature. That is a live mutant. A team member chosen by the TA will:
