@@ -145,7 +145,7 @@ When a property fails, fast-check reports a **shrunk counterexample**, the small
 
 Keep going until **every property passes**. That's when your requirements are implemented: each requirement you wrote a property for is checked automatically, and the code meets all of them.
 
-If your properties all pass the first time you run them, that's fine. Say so in your traceability file, and describe how you checked that your properties actually exercise the feature (for example, the range of inputs your generators produce, or temporarily breaking the code and watching a property fail).
+If your properties all pass the first time you run them, that's fine: you're done with this step.
 
 ### Landing Your Work
 
@@ -185,7 +185,7 @@ To receive full credit for the properties, we expect:
 
 To receive full credit for running, triaging, and fixing, we expect:
 
-- [ ] Code fixes for code bugs, corrected properties for wrong tests, and a recorded requirement change for each requirement problem
+- [ ] For any property that failed: a code fix for a code bug, a corrected property for a wrong test, or a recorded requirement change for a requirement problem
 - [ ] All of your properties passing in CI on your PR
 - [ ] An open PR from your own branch to `main`, reviewed by a teammate
 
