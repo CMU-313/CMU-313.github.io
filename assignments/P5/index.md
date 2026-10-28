@@ -26,7 +26,7 @@ checkpoints:
 
 ## Project Context
 
-In Project 4, you turned your requirements into properties that run on every pull request, and they pass. Your manager's next question is a fair one: *would they fail if the code were wrong?* A test suite that passes no matter what the code does is worse than no test suite, because it gives you false confidence.
+In Project 4, you turned your requirements into properties that CI runs on your pull request, and they pass. Your manager's next question is a fair one: *would they fail if the code were wrong?* A test suite that passes no matter what the code does is worse than no test suite, because it gives you false confidence.
 
 **Mutation testing** answers that question directly. A *mutant* is a copy of your code with one small, deliberate bug in it: a `<` flipped to `<=`, a condition negated, a line deleted. If your tests fail on the mutant, they *kill* it. If they still pass, the mutant *survives*, and you've found a bug your tests can't see.
 

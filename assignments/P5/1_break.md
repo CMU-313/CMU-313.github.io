@@ -15,7 +15,7 @@ nav_order: 10
 - [Cross-Team Red Team (26 pts)](#cross-team-red-team-26-pts) – mutants due to your partner Monday, November 9, 11:59PM
 - [TA Check-in (Team) (26 pts)](#ta-check-in-team-26-pts)
 
-All of your work for this project continues on **your own branch** from Project 4 (e.g. `<andrewid>/properties`). Bring it up to date with `main` before you start.
+All of your work for this project continues on **your own branch** from Project 4 (e.g. `<andrewid>/properties`), and you keep pushing to the **same pull request** you opened in Project 4. Bring your branch up to date with `main` before you start, and again once a teammate merges the Stryker dependency.
 
 ## Hand-Written Mutants with Predictions (18 pts)
 
@@ -38,7 +38,7 @@ Record your results in a **Hand-written mutants** section of your traceability f
 
 As in Project 4, this example uses a made-up feature. Your mutants must target your own requirements.
 
-Then fill in the **Mutants it kills** column of your main traceability table.
+Then add a **Mutants it kills** column to your main traceability table and fill it in for each requirement.
 
 ## Stryker Run & Comparison (18 pts)
 
@@ -109,13 +109,13 @@ Your TA will pair your team with a **partner team**, and assign each of you one 
 
 ### Attack (13 pts) – due to your target Monday, November 9, 11:59PM
 
-Study your target's declared feature, requirements, and properties (they're in their traceability file on `main`). Write **3 mutants** against their feature, each aiming to slip past their properties. Each mutant should:
+Study your target's declared feature, requirements, and properties. They're in your target's traceability file on their branch, which their Project 4 pull request links to. Their branch keeps changing during this project, so note the commit you studied and write your mutants against that commit so the patches still apply. Write **3 mutants** against their feature, each aiming to slip past their properties. Each mutant should:
 
 - Target one of their stated requirements (name it)
 - Be plausible: a bug a real developer might write, not an obviously broken line
 - Come with a short explanation of which property you expect it to slip past, and why
 
-Send your three patch files and explanations to your target by Thursday at 11:59PM, through the channel your TA sets up for your pairing. Also commit them to your own branch at `mutants/<andrewid>/redteam/`.
+Send your three patch files, your explanations, and the commit you wrote them against to your target by Monday at 11:59PM, through the channel your TA sets up for your pairing. Also commit them to your own branch at `mutants/<andrewid>/redteam/`.
 
 Attack mutants are graded on **plausibility and how well they target a requirement**, not on whether they survive.
 
@@ -137,13 +137,13 @@ You are graded on the **quality of your reasoning**, not on whether the mutant w
 
 ## Landing Your Work
 
-Open a pull request from your branch to `main` containing your strengthened properties, mutant patches, Stryker configuration and report, and updated traceability file. At least one teammate must review and approve it, and it must be **merged into `main`** by the deadline.
+Push your strengthened properties, mutant patches, Stryker configuration and report, and updated traceability file to your branch, so they appear in the pull request you opened in Project 4. When you're done, at least one teammate must review and approve it, and it must be **merged into `main`** by the deadline, with all of your properties passing in CI.
 
 ## Submission
 
 **Individually**, submit to Gradescope:
 
-- A link to your merged pull request
+- A link to your pull request (the one from Project 4, now merged)
 - A link to `traceability/<andrewid>.md` on `main`
 
 There is no separate submission for the TA check-in.
@@ -154,7 +154,7 @@ To receive full credit for the hand-written mutants, we expect:
 
 - [ ] About 5 plausible mutants, each targeting a named requirement, saved as patch files
 - [ ] A prediction for each mutant, recorded before running it, and the actual result
-- [ ] An updated **Mutants it kills** column in your traceability table
+- [ ] A **Mutants it kills** column added to your traceability table and filled in
 
 To receive full credit for the Stryker run and comparison, we expect:
 
@@ -181,4 +181,4 @@ To receive full credit for the TA check-in, we expect:
 
 To receive full credit overall, we expect:
 
-- [ ] A PR from your own branch, reviewed and approved by a teammate, and merged into `main`
+- [ ] Your Project 4 PR, updated with this project's work, reviewed and approved by a teammate, and merged into `main` with all properties passing in CI
