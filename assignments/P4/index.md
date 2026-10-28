@@ -24,7 +24,7 @@ checkpoints:
 
 In Project 3, you interviewed users and turned what you heard into precise requirements for one opencode feature. Your manager is pleased, but a requirements table only helps if someone checks it. Requirements that live in a document drift away from the code the moment the next pull request lands.
 
-Your manager now wants each requirement to become something the build checks automatically, on every change. Before that, though, you need to look at your requirements with an engineer's eye: some of what users want can't actually be built as stated, and needs to become something that can. Then you'll write **property-based tests** with [fast-check](https://fast-check.dev): each test states a rule that should hold for *every* input, and fast-check generates hundreds of inputs looking for one that breaks it.
+Your manager now wants the build to check your requirements automatically, on every change, starting with at least four of them. Before that, though, you need to look at your requirements with an engineer's eye: some of what users want can't actually be built as stated, and needs to become something that can. Then you'll write **property-based tests** with [fast-check](https://fast-check.dev): each test states a rule that should hold for *every* input, and fast-check generates hundreds of inputs looking for one that breaks it.
 
 When a property fails, you decide whether the code or the test is wrong, fix it, and keep going until every property passes. Then you open a pull request and let your team's CI check it.
 
