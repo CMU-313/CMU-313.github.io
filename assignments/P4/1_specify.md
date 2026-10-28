@@ -28,18 +28,56 @@ cd packages/opencode
 bun add -d fast-check
 ```
 
-Put your property tests next to the package's existing tests (e.g. `packages/opencode/test/permission/permission.property.test.ts`) and run them with `bun test` from inside the package. fast-check works with any test runner; you call `fc.assert(fc.property(...))` inside an ordinary `test(...)` block.
+!!! tip "One teammate adds the dependency"
+    If everyone on your team runs `bun add` on their own branch, every PR will conflict on `package.json` and `bun.lock`. Have **one** teammate add fast-check in a small PR, merge it, and have everyone else bring that into their branch before starting.
+
+Put your property tests next to the package's existing tests (e.g. `packages/opencode/test/<feature>/<feature>.property.test.ts`) and run them with `bun test` from inside the package. fast-check works with any test runner; you call `fc.assert(fc.property(...))` inside an ordinary `test(...)` block.
 
 !!! warning "Make sure your tests run in CI"
     opencode's CI only runs `bun test` for the packages listed in `turbo.json`. If your feature lives in a package that isn't listed, your tests will pass locally and **silently never run** in CI. Read the "Unit tests" section of `TESTING.md` in the repository and add your package if needed.
 
 ### Your Traceability Table
 
-Copy your requirements table from Project 3 into your branch as `traceability/<andrewid>.md`, and add two columns:
+Copy your requirements table from Project 3 into your branch as `traceability/<andrewid>.md`, using the template below, and add two columns.
+
+!!! note "About the examples"
+    The examples on this page use a made-up feature, a **request rate limiter**, so that they don't match anyone's target. Don't copy them; your requirements, properties, and mutants must come from your own feature and interviews.
 
 | ID | Interview evidence | Requirement | Acceptance Criteria | Property (kind) | Test |
 |---|---|---|---|---|---|
-| R1 | `C-12`, `S-4`: "I'd be furious if it ran `rm -rf` after I said deny" | When a command matches several rules, the last matching rule in the config decides the outcome. | With rules `{"*": "allow", "rm *": "deny"}`, `rm -rf /` evaluates to `deny` and `ls -la` evaluates to `allow`. | Last match decides (model/oracle) | `permission.property.test.ts` |
+| R1 | `I-3`, `S-7`: "If I'm at my limit, the next call should wait, not fail" | Once a user has made the maximum number of requests in a window, further requests are delayed until the window resets, never rejected. | With a limit of 3 per minute, a 4th request at 0:30 completes after 1:00 and does not throw. | No request is ever rejected (invariant) | `rate-limit.property.test.ts` |
+
+??? example "Traceability file template (copy into `traceability/<andrewid>.md`)"
+    ```markdown
+    # Traceability: <your name> (<andrewid>)
+
+    **Target feature:** <feature, and the main source files it lives in>
+
+    ## Requirements
+
+    | ID | Interview evidence | Requirement | Acceptance Criteria | Property (kind) | Test | Mutants it kills |
+    |---|---|---|---|---|---|---|
+    | R1 | | | | | | |
+
+    Properties written or suggested by opencode or another AI tool: <list by requirement ID, or "none">
+
+    ## Triage log
+
+    | Property | Shrunk counterexample | Outcome (real bug / wrong property / requirements conflict) | Why | Fix commit |
+    |---|---|---|---|---|
+
+    <!-- The sections below are filled in during Project 5. Leave them in place. -->
+
+    ## Hand-written mutants
+
+    ## Stryker comparison
+
+    ## Agent failure case
+
+    ## Red team
+    ```
+
+    Leave the **Mutants it kills** column empty for now.
 
 Your acceptance criteria are a starting point for each property: a property should check the criteria for every generated input, not just the one example you wrote down. You may revise a requirement or its acceptance criteria if writing its property shows it was ambiguous, but keep the interview evidence and note what changed.
 
@@ -50,12 +88,12 @@ Write **at least 4** fast-check properties for your target feature. Each propert
 - Be tied to a specific requirement from your table (the Test column links to it, and the test's name or a comment cites the requirement ID)
 - Be labeled with its kind:
 
-| Kind | The idea | Example for permission rules |
+| Kind | The idea | Example for a rate limiter |
 |---|---|---|
-| **Round-trip** | Doing then undoing (or encoding then decoding) gets you back where you started | Serializing a rule set to config and parsing it back gives the same rules |
-| **Invariant** | Something that is true for every input | If the last rule matching a command is `deny`, the command is never allowed |
-| **Model / oracle** | Compare against a simpler implementation that is obviously correct | The matcher agrees with a slow, hand-written matcher on every command |
-| **Metamorphic** | Changing the input in a known way changes the output in a predictable way | Adding an unrelated rule never changes the decision for a command it doesn't match |
+| **Round-trip** | Doing then undoing (or encoding then decoding) gets you back where you started | Saving the limiter's state and loading it back gives a limiter that makes the same decisions |
+| **Invariant** | Something that is true for every input | For any sequence of requests, no window ever contains more than the limit |
+| **Model / oracle** | Compare against a simpler implementation that is obviously correct | The limiter agrees with a slow version that keeps a full list of timestamps |
+| **Metamorphic** | Changing the input in a known way changes the output in a predictable way | Raising the limit never causes a request that was allowed to be delayed |
 
 Your properties must use **at least two different kinds**.
 

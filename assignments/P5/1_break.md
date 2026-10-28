@@ -34,7 +34,9 @@ Record your results in a **Hand-written mutants** section of your traceability f
 
 | ID | Requirement targeted | Change | Predicted killer | Actual result |
 |---|---|---|---|---|
-| H1 | R1 | `permission/index.ts`: `findLast` changed to `find`, so the first matching rule wins instead of the last | "Last match decides" (R1) | Survived: the generator never produced two rules matching the same command |
+| H1 | R1 | `rate-limit.ts`: window reset check changed from `>=` to `>`, so a request exactly at the reset time is still delayed | "No window exceeds the limit" (R1) | Survived: the generator never produced a request landing exactly on a window boundary |
+
+As in Project 4, this example uses a made-up feature. Your mutants must target your own requirements.
 
 Then fill in the **Mutants it kills** column of your main traceability table.
 
@@ -49,19 +51,26 @@ cd packages/opencode
 bun add -d @stryker-mutator/core
 ```
 
-Create a `stryker.config.json` in that package. Use the **command** test runner so Stryker runs `bun test`, and limit both the mutated files and the tests to your target feature. Mutating all of opencode would take hours. For example:
+As with fast-check in Project 4, have **one** teammate add Stryker in a small PR so your branches don't conflict on `package.json` and `bun.lock`.
+
+Each team member needs their own configuration, so name yours `stryker.<andrewid>.config.json` and put it in that package. Use the **command** test runner so Stryker runs `bun test`, and limit both the mutated files and the tests to your target feature. Mutating all of opencode would take hours. For example:
 
 ```json
 {
   "testRunner": "command",
-  "commandRunner": { "command": "bun test test/permission" },
-  "mutate": ["src/permission/**/*.ts", "src/util/wildcard.ts"],
+  "commandRunner": { "command": "bun test test/<feature>" },
+  "mutate": ["src/<feature>/**/*.ts"],
   "coverageAnalysis": "off",
   "reporters": ["html", "clear-text", "progress"]
 }
 ```
 
-Run it with `bunx stryker run`, and commit the HTML report (`reports/mutation/mutation.html`) to `mutants/<andrewid>/`.
+Run it with `bunx stryker run stryker.<andrewid>.config.json`.
+
+!!! warning "Fix your fast-check seed"
+    fast-check generates different inputs on every run, so a mutant can be killed in one run and survive the next. Before running Stryker, fix the seed for your property tests (for example, `fc.configureGlobal({ seed: 42 })` at the top of your test file, or `{ seed: 42 }` as the second argument to `fc.assert`). Record the seed in your Stryker comparison section.
+
+Stryker writes its report to `reports/mutation/mutation.html` in the package, and every teammate's run writes to the same place. **Copy** your report to `mutants/<andrewid>/mutation.html` and commit that copy. Add `reports/` to the package's `.gitignore` so the shared output folder never ends up in a PR.
 
 ### Comparison
 
@@ -89,7 +98,7 @@ If none of your existing properties came from opencode, ask opencode now to writ
 
 In an **Agent failure case** section of your traceability file, include:
 
-- An excerpt of the opencode transcript where the property was written or suggested
+- An excerpt of the opencode transcript where the property was written or suggested: paste the relevant prompt and response into the file (a screenshot is fine), and if you can, add a share link from opencode's `/share` command
 - The mutant it let survive
 - An explanation of why the property was too weak
 - Your strengthened version, and evidence that it kills the mutant
@@ -149,7 +158,7 @@ To receive full credit for the hand-written mutants, we expect:
 
 To receive full credit for the Stryker run and comparison, we expect:
 
-- [ ] A Stryker configuration scoped to your feature, and a committed HTML report
+- [ ] A Stryker configuration (`stryker.<andrewid>.config.json`) scoped to your feature, a recorded seed, and a committed copy of the HTML report
 - [ ] A comparison of hand-written and Stryker mutants that answers each question above
 - [ ] Survivors killed by improved properties rather than example tests, with a short argument for each claimed equivalent mutant
 - [ ] Your mutation score reported both raw and with equivalent mutants excluded
