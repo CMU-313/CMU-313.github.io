@@ -7,15 +7,15 @@ nav_order: 10
 
 ## Deliverables
 
-**Mutation Testing & Red Team** – 100 points – due Monday, November 9, 2026, 11:59PM
+**Mutation Testing & Red Team** – 100 points – due Thursday, November 12, 2026, 11:59PM
 
 - [Hand-Written Mutants with Predictions (18 pts)](#hand-written-mutants-with-predictions-18-pts)
 - [Stryker Run & Comparison (18 pts)](#stryker-run-comparison-18-pts)
 - [Agent Failure Case (12 pts)](#agent-failure-case-12-pts)
-- [Cross-Team Red Team (26 pts)](#cross-team-red-team-26-pts) – mutants due to your partner Thursday, November 5, 11:59PM
+- [Cross-Team Red Team (26 pts)](#cross-team-red-team-26-pts) – mutants due to your partner Monday, November 9, 11:59PM
 - [TA Check-in (Team) (26 pts)](#ta-check-in-team-26-pts)
 
-All of your work for this project continues on **your own branch** from Project 4 (e.g. `<andrewid>/properties`). Bring it up to date with `main` before you start.
+All of your work for this project continues on **your own branch** from Project 4 (e.g. `<andrewid>/properties`), and you keep pushing to the **same pull request** you opened in Project 4. Bring your branch up to date with `main` before you start, and again once a teammate merges the Stryker dependency.
 
 ## Hand-Written Mutants with Predictions (18 pts)
 
@@ -34,9 +34,11 @@ Record your results in a **Hand-written mutants** section of your traceability f
 
 | ID | Requirement targeted | Change | Predicted killer | Actual result |
 |---|---|---|---|---|
-| H1 | R1 | `permission/index.ts`: `findLast` changed to `find`, so the first matching rule wins instead of the last | "Last match decides" (R1) | Survived: the generator never produced two rules matching the same command |
+| H1 | R1 | `rate-limit.ts`: window reset check changed from `>=` to `>`, so a request exactly at the reset time is still delayed | "No window exceeds the limit" (R1) | Survived: the generator never produced a request landing exactly on a window boundary |
 
-Then fill in the **Mutants it kills** column of your main traceability table.
+As in Project 4, this example uses a made-up feature. Your mutants must target your own requirements.
+
+Then add a **Mutants it kills** column to your main traceability table and fill it in for each requirement.
 
 ## Stryker Run & Comparison (18 pts)
 
@@ -49,19 +51,26 @@ cd packages/opencode
 bun add -d @stryker-mutator/core
 ```
 
-Create a `stryker.config.json` in that package. Use the **command** test runner so Stryker runs `bun test`, and limit both the mutated files and the tests to your target feature. Mutating all of opencode would take hours. For example:
+As with fast-check in Project 4, have **one** teammate add Stryker in a small PR so your branches don't conflict on `package.json` and `bun.lock`.
+
+Each team member needs their own configuration, so name yours `stryker.<andrewid>.config.json` and put it in that package. Use the **command** test runner so Stryker runs `bun test`, and limit both the mutated files and the tests to your target feature. Mutating all of opencode would take hours. For example:
 
 ```json
 {
   "testRunner": "command",
-  "commandRunner": { "command": "bun test test/permission" },
-  "mutate": ["src/permission/**/*.ts", "src/util/wildcard.ts"],
+  "commandRunner": { "command": "bun test test/<feature>" },
+  "mutate": ["src/<feature>/**/*.ts"],
   "coverageAnalysis": "off",
   "reporters": ["html", "clear-text", "progress"]
 }
 ```
 
-Run it with `bunx stryker run`, and commit the HTML report (`reports/mutation/mutation.html`) to `mutants/<andrewid>/`.
+Run it with `bunx stryker run stryker.<andrewid>.config.json`.
+
+!!! warning "Fix your fast-check seed"
+    fast-check generates different inputs on every run, so a mutant can be killed in one run and survive the next. Before running Stryker, fix the seed for your property tests (for example, `fc.configureGlobal({ seed: 42 })` at the top of your test file, or `{ seed: 42 }` as the second argument to `fc.assert`). Record the seed in your Stryker comparison section.
+
+Stryker writes its report to `reports/mutation/mutation.html` in the package, and every teammate's run writes to the same place. **Copy** your report to `mutants/<andrewid>/mutation.html` and commit that copy. Add `reports/` to the package's `.gitignore` so the shared output folder never ends up in a PR.
 
 ### Comparison
 
@@ -89,7 +98,7 @@ If none of your existing properties came from opencode, ask opencode now to writ
 
 In an **Agent failure case** section of your traceability file, include:
 
-- An excerpt of the opencode transcript where the property was written or suggested
+- An excerpt of the opencode transcript where the property was written or suggested: paste the relevant prompt and response into the file (a screenshot is fine), and if you can, add a share link from opencode's `/share` command
 - The mutant it let survive
 - An explanation of why the property was too weak
 - Your strengthened version, and evidence that it kills the mutant
@@ -98,15 +107,15 @@ In an **Agent failure case** section of your traceability file, include:
 
 Your TA will pair your team with a **partner team**, and assign each of you one member of that team as your **target**.
 
-### Attack (13 pts) – due to your target Thursday, November 5, 11:59PM
+### Attack (13 pts) – due to your target Monday, November 9, 11:59PM
 
-Study your target's declared feature, requirements, and properties (they're in their traceability file on `main`). Write **3 mutants** against their feature, each aiming to slip past their properties. Each mutant should:
+Study your target's declared feature, requirements, and properties. They're in your target's traceability file on their branch, which their Project 4 pull request links to. Their branch keeps changing during this project, so note the commit you studied and write your mutants against that commit so the patches still apply. Write **3 mutants** against their feature, each aiming to slip past their properties. Each mutant should:
 
 - Target one of their stated requirements (name it)
 - Be plausible: a bug a real developer might write, not an obviously broken line
 - Come with a short explanation of which property you expect it to slip past, and why
 
-Send your three patch files and explanations to your target by Thursday at 11:59PM, through the channel your TA sets up for your pairing. Also commit them to your own branch at `mutants/<andrewid>/redteam/`.
+Send your three patch files, your explanations, and the commit you wrote them against to your target by Monday at 11:59PM, through the channel your TA sets up for your pairing. Also commit them to your own branch at `mutants/<andrewid>/redteam/`.
 
 Attack mutants are graded on **plausibility and how well they target a requirement**, not on whether they survive.
 
@@ -116,7 +125,9 @@ Apply each mutant you receive and run your properties. For every mutant that sur
 
 ## TA Check-in (Team) (26 pts)
 
-Sign up for a **10-minute** check-in with your TA between November 4 and November 9 using the sign-up sheet that will be posted in Slack. Your **whole team** must attend.
+<!-- TODO (staff): we might cut the TA check-in. If we keep it, decide who writes the planted bugs and whether 26 pts is the right weight. If we cut it, move its 26 pts and remove it from index.md, the deliverables list, and Grading. -->
+
+Sign up for a **10-minute** check-in with your TA between November 9 and November 12 using the sign-up sheet that will be posted in Slack. Your **whole team** must attend.
 
 During the check-in, your TA will plant a bug in one team member's feature. That is a live mutant. A team member chosen by the TA will:
 
@@ -128,13 +139,13 @@ You are graded on the **quality of your reasoning**, not on whether the mutant w
 
 ## Landing Your Work
 
-Open a pull request from your branch to `main` containing your strengthened properties, mutant patches, Stryker configuration and report, and updated traceability file. At least one teammate must review and approve it, and it must be **merged into `main`** by the deadline.
+Push your strengthened properties, mutant patches, Stryker configuration and report, and updated traceability file to your branch, so they appear in the pull request you opened in Project 4. When you're done, at least one teammate must review and approve it, and it must be **merged into `main`** by the deadline, with all of your properties passing in CI.
 
 ## Submission
 
 **Individually**, submit to Gradescope:
 
-- A link to your merged pull request
+- A link to your pull request (the one from Project 4, now merged)
 - A link to `traceability/<andrewid>.md` on `main`
 
 There is no separate submission for the TA check-in.
@@ -145,11 +156,11 @@ To receive full credit for the hand-written mutants, we expect:
 
 - [ ] About 5 plausible mutants, each targeting a named requirement, saved as patch files
 - [ ] A prediction for each mutant, recorded before running it, and the actual result
-- [ ] An updated **Mutants it kills** column in your traceability table
+- [ ] A **Mutants it kills** column added to your traceability table and filled in
 
 To receive full credit for the Stryker run and comparison, we expect:
 
-- [ ] A Stryker configuration scoped to your feature, and a committed HTML report
+- [ ] A Stryker configuration (`stryker.<andrewid>.config.json`) scoped to your feature, a recorded seed, and a committed copy of the HTML report
 - [ ] A comparison of hand-written and Stryker mutants that answers each question above
 - [ ] Survivors killed by improved properties rather than example tests, with a short argument for each claimed equivalent mutant
 - [ ] Your mutation score reported both raw and with equivalent mutants excluded
@@ -162,7 +173,7 @@ To receive full credit for the agent failure case, we expect:
 
 To receive full credit for the red team, we expect:
 
-- [ ] Three plausible attack mutants, each targeting a named requirement of your target, delivered by Thursday, November 5
+- [ ] Three plausible attack mutants, each targeting a named requirement of your target, delivered by Monday, November 9
 - [ ] Every mutant you received recorded with its result, and every survivor either killed by strengthened properties or argued equivalent
 
 To receive full credit for the TA check-in, we expect:
@@ -172,4 +183,4 @@ To receive full credit for the TA check-in, we expect:
 
 To receive full credit overall, we expect:
 
-- [ ] A PR from your own branch, reviewed and approved by a teammate, and merged into `main`
+- [ ] Your Project 4 PR, updated with this project's work, reviewed and approved by a teammate, and merged into `main` with all properties passing in CI
