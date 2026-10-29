@@ -152,11 +152,12 @@ schedule:
 
     - kind: lecture
       date: 2026-10-29
-      title: "Guest Lecture: Taya Cohen"
+      title: "Ethics"
+      link: /assets/pdfs/17-ethics.pdf
 
     - kind: lecture
       date: 2026-11-05
-      title: "Guest Lecture 1 by Chris M"
+      title: "NO LECTURE - Democracy Day"
 
     - kind: lecture
       date: 2026-11-10
