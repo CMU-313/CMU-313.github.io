@@ -24,7 +24,7 @@ After the recitation, remember to complete the [Gradescope assignment](https://w
     │
     ▼
   GitHub ──┬──▶ CI (Part 3): GitHub Actions runs your tests
-           │      → ✓ or ✗ on the pull request
+           │      → ✅ or ❌ on the pull request
            │
            └──▶ CD (Parts 1–2): Vercel builds and deploys
                   → master branch:  production URL
