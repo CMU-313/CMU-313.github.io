@@ -55,6 +55,8 @@ Today you'll put a game on the internet, change it safely, and stop a broken cha
 
 **Check:** the page now shows `<your-username>/2048`, with "forked from gabrielecirulli/2048" underneath.
 
+> **Welcome to the real world.** Until now, your course repos have been cozy sandboxes where only your TAs could see your mistakes. Today you're forking the real 2048, starred by more than 13,000 people. Open your pull request against the original project by accident, and its author gets a surprise redesign proposal while the whole internet watches. It's completely harmless, and you can close it with one click, but Step 5 shows you how to keep your masterpiece to yourself.
+
 ### Step 2: Deploy on Vercel
 
 1. Go to [vercel.com/new](https://vercel.com/new).
@@ -111,7 +113,7 @@ For example, Shrey, one of your TAs, is a big *Tron: Legacy* fan and gave the ga
 
 2. Open your fork's page on GitHub and click **Compare & pull request** in the yellow banner.
     - *No banner?* Click the **Pull requests** tab, then **New pull request**.
-3. **Important:** GitHub points your pull request at the *original* project by default. Click the **base repository** dropdown and choose `<your-username>/2048`.
+3. **Important:** GitHub points your pull request at the *original* project by default. Click the **base repository** dropdown and choose `<your-username>/2048`, unless you want 13,000 stargazers reviewing your redesign.
 4. Check that the top of the page now reads **base: master ← compare: restyle**.
 5. Give the pull request a title, such as the name of your theme.
 6. Click **Create pull request**.
