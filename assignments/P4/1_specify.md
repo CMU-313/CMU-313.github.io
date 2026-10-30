@@ -154,11 +154,15 @@ By the deadline, the `test` check on your PR must **pass**, and its log must sho
 
 ## Submission
 
+Your branch and PR stay open into the next project, so we grade the commit you submit, not whatever is on the branch later. Before you submit, push your final commit and use **permalinks** to it: open the file on GitHub and press `y`, and the URL changes to one pinned to that commit.
+
 Submit to Gradescope:
 
+- A permalink to `traceability/<andrewid>.md` at your final commit
+- Permalinks to your property test file(s) at your final commit
 - A link to your pull request
-- A link to `traceability/<andrewid>.md` on your branch
 - A link to the passing GitHub Actions `test` run on your PR in which your properties ran
+- The SHA of your final commit
 
 ## Grading
 
