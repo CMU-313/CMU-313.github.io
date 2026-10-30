@@ -11,14 +11,13 @@ nav_order: 10
 
 - [Step 1: Review Your Requirements (Individual) (10 pts)](#step-1-review-your-requirements-individual-10-pts)
 - [Step 2: Write Properties for Your Requirements (Individual) (40 pts)](#step-2-write-properties-for-your-requirements-individual-40-pts)
-- [Step 3: Run, Triage, and Fix (Individual) (10 pts)](#step-3-run-triage-and-fix-individual-10-pts)
-- [CI Slice (Team) (5 pts)](#ci-slice-team-5-pts)
+- [Step 3: Run, Triage, and Fix (Individual) (15 pts)](#step-3-run-triage-and-fix-individual-15-pts)
 
 The project has three steps, done in order:
 
 1. **Review** your Project 3 requirements and decide which to keep as they are and which to change.
 2. **Write** property-based tests for at least 4 of your requirements.
-3. **Run** the tests against the code. When one fails, decide whether to fix the code or the test. Get all the tests to pass correctly.
+3. **Run** the tests against the code. When one fails, decide whether to fix the code or the test. Get all the tests to pass correctly, then open a PR and get them passing there too.
 
 ## Setup
 
@@ -40,8 +39,8 @@ bun add -d fast-check
 
 Put your property tests next to the package's existing tests (e.g. `packages/opencode/test/<feature>/<feature>.property.test.ts`) and run them with `bun test` from inside the package. fast-check works with any test runner; you call `fc.assert(fc.property(...))` inside an ordinary `test(...)` block.
 
-!!! warning "Make sure your tests run in CI"
-    opencode's CI only runs `bun test` for the packages listed in `turbo.json`. If your feature lives in a package that isn't listed, your tests will pass locally and **silently never run** in CI. Read the "Unit tests" section of `TESTING.md` in the repository and add your package if needed.
+!!! warning "Make sure your tests run on your PR"
+    opencode's `test` workflow runs on every pull request, but it only runs `bun test` for the packages listed in `turbo.json`. If your feature lives in a package that isn't listed, your tests will pass locally and **silently never run** on your PR. Read the "Unit tests" section of `TESTING.md` in the repository and add your package if needed.
 
 ### Your Traceability File
 
@@ -131,7 +130,7 @@ A property is only as good as the inputs it sees. Write generators (arbitraries)
 !!! note "Using opencode"
     You may use opencode (or any AI tool) to help write properties and generators. If you do, note which properties it wrote or suggested in your traceability table. You are responsible for every property being correct and tied to a real requirement.
 
-## Step 3: Run, Triage, and Fix (Individual) (10 pts)
+## Step 3: Run, Triage, and Fix (Individual) (15 pts)
 
 Run your properties against the code. If a property passes, good: the code meets that requirement for every input fast-check tried.
 
@@ -149,24 +148,17 @@ If your properties all pass the first time you run them, that's fine: you're don
 
 ### Landing Your Work
 
-Open a pull request from your branch to `main` containing your properties, fixes, and traceability file, and ask at least one teammate to review it. **Don't merge it yet**: you'll keep working on this branch and PR in the next project. By the deadline, all of your properties must pass in CI on the PR.
+Commit your properties, fixes, and traceability file to your branch, then open a pull request from your branch to `main` and ask at least one teammate to review it. **Don't merge it yet**: you'll keep working on this branch and PR in the next project.
 
-## CI Slice (Team) (5 pts)
-
-As a team, make sure your properties are enforced on every change:
-
-- **Properties run on every PR.** opencode's existing `test` workflow runs on pull requests; confirm that every teammate's properties actually run in it (see the warning in [Setup](#installing-fast-check)). If your team prefers, you may add a separate workflow just for properties.  You should either run all the properties, or pick a select set to run if they are taking too long for CI. If you do this, include a justification for which properties you are checking as a comment in the workflow file.
+By the deadline, the `test` check on your PR must **pass**, and its log must show your properties running (not just the existing tests). If a property passes locally but fails on the PR, treat it like any other failure and triage it.
 
 ## Submission
 
-**Individually**, submit to Gradescope:
+Submit to Gradescope:
 
 - A link to your pull request
 - A link to `traceability/<andrewid>.md` on your branch
-
-**As a team**, one member submits to Gradescope:
-
-- A link to a GitHub Actions run on a pull request in which your team's properties ran
+- A link to the passing GitHub Actions `test` run on your PR in which your properties ran
 
 ## Grading
 
@@ -186,9 +178,5 @@ To receive full credit for the properties, we expect:
 To receive full credit for running, triaging, and fixing, we expect:
 
 - [ ] For any property that failed: a code fix for a code bug, a corrected property for a wrong test, or a recorded requirement change for a requirement problem
-- [ ] All of your properties passing in CI on your PR
 - [ ] An open PR from your own branch to `main`, reviewed by a teammate
-
-To receive full credit for the CI slice, we expect:
-
-- [ ] Every teammate's properties running in CI on pull requests: all of them, or a selected set with a justification in the workflow file
+- [ ] A passing `test` check on your PR whose log shows all of your properties running
