@@ -19,12 +19,16 @@ After the recitation, remember to complete the [Gradescope assignment](https://w
 
 ## How the pieces fit
 
-```
-  edit ──▶ git push ──▶ GitHub ──┬──▶ GitHub Actions runs the tests ──▶ ✅ / ❌ on the PR    (CI, Part 3)
-                                 │
-                                 └──▶ Vercel builds and deploys                            (CD, Parts 1–2)
-                                        ├── branch master         ──▶ production URL
-                                        └── any other branch / PR ──▶ preview URL
+```text
+  git push
+    │
+    ▼
+  GitHub ──┬──▶ CI (Part 3): GitHub Actions runs your tests
+           │      → ✓ or ✗ on the pull request
+           │
+           └──▶ CD (Parts 1–2): Vercel builds and deploys
+                  → master branch:  production URL
+                  → other branches: preview URL
 ```
 
 | Term | Meaning |
