@@ -13,6 +13,8 @@ Today you'll put a game on the internet, change it safely, and stop a broken cha
 - **Part 2 (~15 min):** redesign it on a branch, and preview the change before it goes live.
 - **Part 3 (~15 min):** add CI, so that a broken change can't reach your live site.
 
+[Recitation slides](https://docs.google.com/presentation/d/17-1NlG1I62hdImh0x78K7kOe4Np8x2G5UI1Ee-i8E7w/edit?usp=sharing)
+
 ## How the pieces fit
 
 ```
