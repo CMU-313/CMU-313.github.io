@@ -55,7 +55,7 @@ Today you'll put a game on the internet, change it safely, and stop a broken cha
 
 **Check:** the page now shows `<your-username>/2048`, with "forked from gabrielecirulli/2048" underneath.
 
-> **Welcome to the real world.** Until now, your course repos have been cozy sandboxes where only your TAs could see your mistakes. Today you're forking the real 2048, starred by more than 13,000 people. Open your pull request against the original project by accident, and its author gets a surprise redesign proposal while the whole internet watches. It's completely harmless, and you can close it with one click, but Step 5 shows you how to keep your masterpiece to yourself.
+> **Welcome to the real world.** Until now, your course repos have been cozy sandboxes where only your TAs could see your mistakes. Today you're forking the real 2048, starred by more than 13,000 people. Open your pull request against the original project by accident, and its author gets a surprise redesign proposal while the whole internet watches. It's completely harmless, and you can close it with one click, but Step 5 shows you how to keep your masterpiece to yourself. (One of your TAs did exactly this while testing this recitation. The pull request is still there for all to see.)
 
 ### Step 2: Deploy on Vercel
 
