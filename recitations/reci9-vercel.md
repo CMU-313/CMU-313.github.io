@@ -15,6 +15,8 @@ Today you'll put a game on the internet, change it safely, and stop a broken cha
 
 [Recitation slides](https://docs.google.com/presentation/d/17-1NlG1I62hdImh0x78K7kOe4Np8x2G5UI1Ee-i8E7w/edit?usp=sharing)
 
+After the recitation, remember to complete the [Gradescope assignment](https://www.gradescope.com/courses/1356702/assignments/8417892) to receive credit!
+
 ## How the pieces fit
 
 ```
