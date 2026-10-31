@@ -1,0 +1,2844 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../reci8-docker/">
+      
+      
+        <link rel="next" href="../../hall-of-fame/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.0">
+    
+    
+      
+        <title>Recitation 9 - CI/CD with Vercel - CMU 17-313: Foundations of Software Engineering</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#recitation-9-cicd-with-vercel" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CMU 17-313: Foundations of Software Engineering" class="md-header__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering" data-md-component="logo">
+      
+  <img src="../../assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CMU 17-313: Foundations of Software Engineering
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Recitation 9 - CI/CD with Vercel
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../overview/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Course Overview
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../syllabus/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Syllabus
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../assignments/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Projects
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Recitations
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../hall-of-fame/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Hall of Fame
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../assignments/P1/development-tools-guide/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Resources
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://canvas.cmu.edu/courses/51340" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Canvas
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://www.gradescope.com/courses/1213157" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Gradescope
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://join.slack.com/t/cmu-313-s26/shared_invite/zt-3lm0t5j8k-kriwFq_6SZDHEcSV1c2PSg" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Slack
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CMU 17-313: Foundations of Software Engineering" class="md-nav__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering" data-md-component="logo">
+      
+  <img src="../../assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    CMU 17-313: Foundations of Software Engineering
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../syllabus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Syllabus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../assignments/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Projects
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../assignments/P1/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 1: Hello, opencode!
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Project 1: Hello, opencode!
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/P1/1_checkpoint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1A Build Checkpoint
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/P1/2_refactoring/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1B Starter Task
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/P1/development-tools-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Development Tools Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/P1/git-commands-reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Git Commands Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/P1/documentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources and Documentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/P1/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/P1/developmentContainer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Development Container Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/P1/github/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GitHub Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../assignments/P2/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 2: Collaborative Development
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Project 2: Collaborative Development
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/P2/1_teamprocess/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2A Team Process & Planning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/P2/2_firstsprint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2B First Sprint
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/P2/3_secondsprint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2C Second Sprint
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../assignments/P3/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 3: Elicit
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Project 3: Elicit
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/P3/1_elicit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interviews & Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../assignments/P4/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 4: Specify and Fix
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Project 4: Specify and Fix
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/P4/1_specify/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4A Properties & Fixes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitations
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Recitations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reci1-typescript/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 1 - Learning Typescript (Asynchronous)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reci2-angularjs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 2 - Angular.js and MVC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reci2-teamcontract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 2 - Team Contract Workshop
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reci3-estimates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 3 - Estimation Exercise
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reci4-team-dysfunction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 4 - Team Dysfunction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reci5-checkpoint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 5 - P2B Checkpoint Presentations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reci6-midterm-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 6 - Midterm Review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reci7-pbt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 7 - Property Based Testing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reci8-docker/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 8 - Docker and Containerization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 9 - CI/CD with Vercel
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 9 - CI/CD with Vercel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-the-pieces-fit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How the pieces fit
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#before-recitation-setup-5-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Before recitation: setup (5 min)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-1-deploy-your-game-10-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Part 1: Deploy your game (~10 min)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 1: Deploy your game (~10 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-fork-the-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Fork the repository
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-deploy-on-vercel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Deploy on Vercel
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-2-preview-a-change-15-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Part 2: Preview a change (~15 min)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 2: Preview a change (~15 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-3-clone-your-fork-and-create-a-branch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Clone your fork and create a branch
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-make-the-game-your-own-with-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Make the game your own with AI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-push-your-branch-and-open-a-pull-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5: Push your branch and open a pull request
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-6-merge-and-watch-production-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6: Merge and watch production update
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-3-protect-production-with-ci-15-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Part 3: Protect production with CI (~15 min)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 3: Protect production with CI (~15 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-7-add-ci-to-your-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7: Add CI to your repository
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-8-require-ci-to-pass-before-merging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 8: Require CI to pass before merging
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-9-break-the-game-on-a-branch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 9: Break the game on a branch
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-10-see-what-ci-caught" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 10: See what CI caught
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hall-of-fame/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hall of Fame
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Resources
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/P1/development-tools-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Development Tools Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/P1/git-commands-reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Git Commands Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/P1/documentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources and Documentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/P1/github/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GitHub Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../extra_resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Extra Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://canvas.cmu.edu/courses/51340" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Canvas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.gradescope.com/courses/1213157" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gradescope
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://join.slack.com/t/cmu-313-s26/shared_invite/zt-3lm0t5j8k-kriwFq_6SZDHEcSV1c2PSg" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Slack
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-the-pieces-fit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How the pieces fit
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#before-recitation-setup-5-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Before recitation: setup (5 min)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-1-deploy-your-game-10-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Part 1: Deploy your game (~10 min)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 1: Deploy your game (~10 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-fork-the-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Fork the repository
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-deploy-on-vercel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Deploy on Vercel
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-2-preview-a-change-15-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Part 2: Preview a change (~15 min)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 2: Preview a change (~15 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-3-clone-your-fork-and-create-a-branch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Clone your fork and create a branch
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-make-the-game-your-own-with-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Make the game your own with AI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-push-your-branch-and-open-a-pull-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5: Push your branch and open a pull request
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-6-merge-and-watch-production-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6: Merge and watch production update
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-3-protect-production-with-ci-15-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Part 3: Protect production with CI (~15 min)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 3: Protect production with CI (~15 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-7-add-ci-to-your-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7: Add CI to your repository
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-8-require-ci-to-pass-before-merging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 8: Require CI to pass before merging
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-9-break-the-game-on-a-branch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 9: Break the game on a branch
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-10-see-what-ci-caught" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 10: See what CI caught
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="recitation-9-cicd-with-vercel">Recitation 9: CI/CD with Vercel<a class="headerlink" href="#recitation-9-cicd-with-vercel" title="Permanent link">&para;</a></h1>
+<p>Today you'll put a game on the internet, change it safely, and stop a broken change from going live. You'll fork the classic 2048 game, deploy it with <a href="https://vercel.com">Vercel</a>, redesign it with AI, and add a test that GitHub runs on every pull request.</p>
+<ul>
+<li><strong>Part 1 (~10 min):</strong> deploy your game to a live URL.</li>
+<li><strong>Part 2 (~15 min):</strong> redesign it on a branch, and preview the change before it goes live.</li>
+<li><strong>Part 3 (~15 min):</strong> add CI, so that a broken change can't reach your live site.</li>
+</ul>
+<p><a href="https://2048-q4l1.vercel.app">Recitation slides</a></p>
+<p>After the recitation, remember to complete the <a href="https://www.gradescope.com/courses/1356702/assignments/8417892">Gradescope assignment</a> to receive credit!</p>
+<h2 id="how-the-pieces-fit">How the pieces fit<a class="headerlink" href="#how-the-pieces-fit" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>  git push
+    │
+    ▼
+  GitHub ──┬──▶ CI (Part 3): GitHub Actions runs your tests
+           │      → ✅ or ❌ on the pull request
+           │
+           └──▶ CD (Parts 1–2): Vercel builds and deploys
+                  → master branch:  production URL
+                  → other branches: preview URL
+</code></pre></div>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Continuous integration (CI)</td>
+<td>Automatically testing every change, so problems surface before the change merges.</td>
+</tr>
+<tr>
+<td>Continuous deployment (CD)</td>
+<td>Automatically deploying every change that lands on the main branch to the live site.</td>
+</tr>
+<tr>
+<td>Production deployment</td>
+<td>The live site everyone sees, built from <code>master</code>.</td>
+</tr>
+<tr>
+<td>Preview deployment</td>
+<td>A separate copy of the site, built from another branch or a pull request, with its own URL. Production is untouched.</td>
+</tr>
+<tr>
+<td>Status check</td>
+<td>A pass/fail result, such as a test run or a Vercel build, that GitHub shows on a pull request.</td>
+</tr>
+<tr>
+<td>Ruleset</td>
+<td>A repository setting that blocks merging into <code>master</code> unless the required checks pass.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="before-recitation-setup-5-min">Before recitation: setup (5 min)<a class="headerlink" href="#before-recitation-setup-5-min" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Check that you can sign in to GitHub and that <code>git --version</code> works in your terminal.</li>
+<li>Go to <a href="https://vercel.com/signup">vercel.com/signup</a>.</li>
+<li>Choose the <strong>Hobby</strong> plan, enter your name, and click <strong>Continue</strong>.</li>
+<li>Click <strong>Continue with GitHub</strong> and authorize Vercel.</li>
+<li>Have an AI coding assistant ready.</li>
+</ol>
+<p><strong>Check:</strong> you land on your Vercel dashboard.</p>
+<h2 id="part-1-deploy-your-game-10-min">Part 1: Deploy your game (~10 min)<a class="headerlink" href="#part-1-deploy-your-game-10-min" title="Permanent link">&para;</a></h2>
+<h3 id="step-1-fork-the-repository">Step 1: Fork the repository<a class="headerlink" href="#step-1-fork-the-repository" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Open <a href="https://github.com/gabrielecirulli/2048">github.com/gabrielecirulli/2048</a>.</li>
+<li>Click <strong>Fork</strong> (top right).</li>
+<li>Leave every setting as it is, including <strong>Copy the <code>master</code> branch only</strong>.</li>
+<li>Click <strong>Create fork</strong>.</li>
+</ol>
+<p><strong>Check:</strong> the page now shows <code>&lt;your-username&gt;/2048</code>, with "forked from gabrielecirulli/2048" underneath.</p>
+<blockquote>
+<p><strong>Welcome to the real world.</strong> Until now, your course repos have been cozy sandboxes where only your TAs could see your mistakes. Today you're forking the real 2048, starred by more than 13,000 people. Open your pull request against the original project by accident, and its author gets a surprise redesign proposal while the whole internet watches. It's completely harmless, and you can close it with one click, but Step 5 shows you how to keep your masterpiece to yourself. (One of your TAs did exactly this while testing this recitation. <a href="https://github.com/gabrielecirulli/2048/pull/645">The pull request</a> is still there for all to see.)</p>
+</blockquote>
+<h3 id="step-2-deploy-on-vercel">Step 2: Deploy on Vercel<a class="headerlink" href="#step-2-deploy-on-vercel" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Go to <a href="https://vercel.com/new">vercel.com/new</a>.</li>
+<li>Under <strong>Import Git Repository</strong>, find <code>2048</code> and click <strong>Import</strong>.<ul>
+<li><em>Don't see it?</em> Click <strong>Adjust GitHub App Permissions</strong> (or <strong>Install</strong>), choose <strong>Only select repositories</strong>, select <code>2048</code>, and click <strong>Save</strong>. You'll come back to this page.</li>
+</ul>
+</li>
+<li>In <strong>Project Name</strong>, type <code>2048-&lt;andrewid&gt;</code> (for example, <code>2048-smtiwari</code>). This becomes your URL.</li>
+<li>Leave everything else as it is. <strong>Framework Preset</strong> should say <strong>Other</strong>.</li>
+<li>Click <strong>Deploy</strong> and wait about a minute.</li>
+<li>When the <strong>Congratulations!</strong> page appears, click the screenshot of your game to open it.</li>
+</ol>
+<p><strong>Check:</strong> your game loads at <code>https://2048-&lt;andrewid&gt;.vercel.app</code>, and the tiles move when you press the arrow keys.</p>
+<blockquote>
+<p><strong>What just happened?</strong> Vercel now watches your fork. Every time you push to <code>master</code>, it redeploys this site by itself. That is <strong>continuous deployment</strong>.</p>
+</blockquote>
+<h2 id="part-2-preview-a-change-15-min">Part 2: Preview a change (~15 min)<a class="headerlink" href="#part-2-preview-a-change-15-min" title="Permanent link">&para;</a></h2>
+<h3 id="step-3-clone-your-fork-and-create-a-branch">Step 3: Clone your fork and create a branch<a class="headerlink" href="#step-3-clone-your-fork-and-create-a-branch" title="Permanent link">&para;</a></h3>
+<ol>
+<li>On your fork's GitHub page, click the green <strong>Code</strong> button and copy the HTTPS URL.</li>
+<li>
+<p>In your terminal, run:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>&lt;the<span class="w"> </span>URL<span class="w"> </span>you<span class="w"> </span>copied&gt;
+<span class="nb">cd</span><span class="w"> </span><span class="m">2048</span>
+git<span class="w"> </span>switch<span class="w"> </span>-c<span class="w"> </span>restyle
+</code></pre></div>
+</li>
+</ol>
+<p><strong>Check:</strong> <code>git branch --show-current</code> prints <code>restyle</code>.</p>
+<blockquote>
+<p><strong>Why a branch?</strong> When you push any branch other than <code>master</code>, Vercel builds a <strong>preview deployment</strong>: a separate copy of the site with its own URL. Your production site stays as it is.</p>
+</blockquote>
+<h3 id="step-4-make-the-game-your-own-with-ai">Step 4: Make the game your own with AI<a class="headerlink" href="#step-4-make-the-game-your-own-with-ai" title="Permanent link">&para;</a></h3>
+<p>This is the fun part. Use an AI assistant to redesign the game however you like: the colors, fonts, background, tiles, title text, or a whole new theme. Get as creative as you want and have fun with it.</p>
+<p>For example, Shrey, one of your TAs, is a big <em>Tron: Legacy</em> fan and gave the game a <em>Tron: Legacy</em> look.</p>
+<ol>
+<li>Open the <code>2048</code> folder in your AI assistant.</li>
+<li>Describe the look you want.</li>
+<li>Open <code>index.html</code> in your browser (double-click it, or run <code>open index.html</code> on macOS) to see the result.</li>
+<li>Keep asking for changes and refreshing the page until you love it.</li>
+</ol>
+<p><strong>Check:</strong> your new design shows up in the browser, and the game still plays.</p>
+<h3 id="step-5-push-your-branch-and-open-a-pull-request">Step 5: Push your branch and open a pull request<a class="headerlink" href="#step-5-push-your-branch-and-open-a-pull-request" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>In your terminal, inside the <code>2048</code> folder, run:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>-A
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"My new theme"</span>
+git<span class="w"> </span>push<span class="w"> </span>-u<span class="w"> </span>origin<span class="w"> </span>restyle
+</code></pre></div>
+</li>
+<li>
+<p>Open your fork's page on GitHub and click <strong>Compare &amp; pull request</strong> in the yellow banner.</p>
+<ul>
+<li><em>No banner?</em> Click the <strong>Pull requests</strong> tab, then <strong>New pull request</strong>.</li>
+</ul>
+</li>
+<li><strong>Important:</strong> GitHub points your pull request at the <em>original</em> project by default. Click the <strong>base repository</strong> dropdown and choose <code>&lt;your-username&gt;/2048</code>, unless you want 13,000 stargazers reviewing your redesign.</li>
+<li>Check that the top of the page now reads <strong>base: master ← compare: restyle</strong>.</li>
+<li>Give the pull request a title, such as the name of your theme.</li>
+<li>Click <strong>Create pull request</strong>.</li>
+<li>Wait up to a minute for the <strong>vercel</strong> bot to comment on your pull request.</li>
+<li>In the bot's comment, under <strong>Actions</strong>, click <strong>Preview</strong>.</li>
+<li>In another tab, open your production URL (<code>2048-&lt;andrewid&gt;.vercel.app</code>).</li>
+</ol>
+<p><strong>Check:</strong> the preview shows your new design, while production still shows the original game.</p>
+<blockquote>
+<p><strong>Why previews?</strong> When you pushed <code>restyle</code>, Vercel built a preview deployment of your branch with its own URL. A preview lets teammates and reviewers try a change before it reaches real users. Production only changes when the change is merged.</p>
+</blockquote>
+<h3 id="step-6-merge-and-watch-production-update">Step 6: Merge and watch production update<a class="headerlink" href="#step-6-merge-and-watch-production-update" title="Permanent link">&para;</a></h3>
+<ol>
+<li>At the bottom of your pull request, click <strong>Merge pull request</strong>, then <strong>Confirm merge</strong>.</li>
+<li>In Vercel, open your project and click the <strong>Deployments</strong> tab.</li>
+<li>Watch the newest deployment, labeled <strong>Production</strong>, until it says <strong>Ready</strong>.</li>
+<li>Refresh your production URL. If it still looks unchanged, hard-refresh with <strong>Cmd+Shift+R</strong> (macOS) or <strong>Ctrl+Shift+R</strong> (Windows).</li>
+</ol>
+<p><strong>Check:</strong> your production site now shows your new design.</p>
+<blockquote>
+<p><strong>What just happened?</strong> Merging put your change on <code>master</code>, and Vercel deployed <code>master</code> to production with no extra steps. That's the full loop of continuous deployment: branch, preview, review, merge, production.</p>
+</blockquote>
+<h2 id="part-3-protect-production-with-ci-15-min">Part 3: Protect production with CI (~15 min)<a class="headerlink" href="#part-3-protect-production-with-ci-15-min" title="Permanent link">&para;</a></h2>
+<p>So far, anything merged into <code>master</code> goes straight to production, even if it breaks the game. In this part, you add a test that GitHub runs on every pull request. Then you break the game on purpose and watch GitHub refuse to merge it.</p>
+<h3 id="step-7-add-ci-to-your-repository">Step 7: Add CI to your repository<a class="headerlink" href="#step-7-add-ci-to-your-repository" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Finish Step 6 first.</strong> Your restyle pull request must be merged before you add CI.</li>
+<li>
+<p>In your terminal, inside the <code>2048</code> folder, update <code>master</code>:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>switch<span class="w"> </span>master
+git<span class="w"> </span>pull
+</code></pre></div>
+</li>
+<li>
+<p>Create a file named <code>.github/workflows/ci.yml</code> with this content. It tells GitHub to run your test on every pull request and on every push to <code>master</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CI</span>
+
+<span class="nt">on</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">push</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">master</span><span class="p p-Indicator">]</span>
+<span class="w">  </span><span class="nt">pull_request</span><span class="p">:</span>
+
+<span class="nt">jobs</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">test</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ubuntu-latest</span>
+<span class="w">    </span><span class="nt">steps</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">actions/checkout@v7</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">actions/setup-node@v7</span>
+<span class="w">        </span><span class="nt">with</span><span class="p">:</span>
+<span class="w">          </span><span class="nt">node-version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">22</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">node --test test/game.test.js</span>
+</code></pre></div>
+</li>
+<li>
+<p>Create a file named <code>test/game.test.js</code> with this content. It checks one rule of the game: two 2s merge into a 4.</p>
+<div class="highlight"><pre><span></span><code><span class="c1">// Checks one rule of 2048 against the real game code in js/.</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">test</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">require</span><span class="p">(</span><span class="s2">"node:test"</span><span class="p">);</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">assert</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">require</span><span class="p">(</span><span class="s2">"node:assert"</span><span class="p">);</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">fs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">require</span><span class="p">(</span><span class="s2">"node:fs"</span><span class="p">);</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">vm</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">require</span><span class="p">(</span><span class="s2">"node:vm"</span><span class="p">);</span>
+
+<span class="c1">// Load the game's logic. These three files never touch the browser.</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">game</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">vm</span><span class="p">.</span><span class="nx">createContext</span><span class="p">({});</span>
+<span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">const</span><span class="w"> </span><span class="nx">file</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="p">[</span><span class="s2">"tile.js"</span><span class="p">,</span><span class="w"> </span><span class="s2">"grid.js"</span><span class="p">,</span><span class="w"> </span><span class="s2">"game_manager.js"</span><span class="p">])</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">vm</span><span class="p">.</span><span class="nx">runInContext</span><span class="p">(</span><span class="nx">fs</span><span class="p">.</span><span class="nx">readFileSync</span><span class="p">(</span><span class="s2">"js/"</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">file</span><span class="p">,</span><span class="w"> </span><span class="s2">"utf8"</span><span class="p">),</span><span class="w"> </span><span class="nx">game</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// A do-nothing stand-in for the keyboard, the screen, and storage.</span>
+<span class="kd">function</span><span class="w"> </span><span class="nx">Fake</span><span class="p">()</span><span class="w"> </span><span class="p">{}</span>
+<span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">const</span><span class="w"> </span><span class="nx">method</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="p">[</span><span class="s2">"on"</span><span class="p">,</span><span class="w"> </span><span class="s2">"actuate"</span><span class="p">,</span><span class="w"> </span><span class="s2">"getGameState"</span><span class="p">,</span><span class="w"> </span><span class="s2">"setGameState"</span><span class="p">,</span>
+<span class="w">                      </span><span class="s2">"clearGameState"</span><span class="p">,</span><span class="w"> </span><span class="s2">"getBestScore"</span><span class="p">,</span><span class="w"> </span><span class="s2">"setBestScore"</span><span class="p">])</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">Fake</span><span class="p">.</span><span class="nx">prototype</span><span class="p">[</span><span class="nx">method</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">{};</span>
+<span class="p">}</span>
+
+<span class="nx">test</span><span class="p">(</span><span class="s2">"two 2s merge into a 4"</span><span class="p">,</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">manager</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">game</span><span class="p">.</span><span class="nx">GameManager</span><span class="p">(</span><span class="mf">4</span><span class="p">,</span><span class="w"> </span><span class="nx">Fake</span><span class="p">,</span><span class="w"> </span><span class="nx">Fake</span><span class="p">,</span><span class="w"> </span><span class="nx">Fake</span><span class="p">);</span>
+<span class="w">  </span><span class="nx">manager</span><span class="p">.</span><span class="nx">grid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">game</span><span class="p">.</span><span class="nx">Grid</span><span class="p">(</span><span class="mf">4</span><span class="p">);</span><span class="w"> </span><span class="c1">// start from an empty board</span>
+<span class="w">  </span><span class="nx">manager</span><span class="p">.</span><span class="nx">grid</span><span class="p">.</span><span class="nx">insertTile</span><span class="p">(</span><span class="ow">new</span><span class="w"> </span><span class="nx">game</span><span class="p">.</span><span class="nx">Tile</span><span class="p">({</span><span class="w"> </span><span class="nx">x</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span><span class="w"> </span><span class="nx">y</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="w"> </span><span class="p">},</span><span class="w"> </span><span class="mf">2</span><span class="p">));</span>
+<span class="w">  </span><span class="nx">manager</span><span class="p">.</span><span class="nx">grid</span><span class="p">.</span><span class="nx">insertTile</span><span class="p">(</span><span class="ow">new</span><span class="w"> </span><span class="nx">game</span><span class="p">.</span><span class="nx">Tile</span><span class="p">({</span><span class="w"> </span><span class="nx">x</span><span class="o">:</span><span class="w"> </span><span class="mf">1</span><span class="p">,</span><span class="w"> </span><span class="nx">y</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="w"> </span><span class="p">},</span><span class="w"> </span><span class="mf">2</span><span class="p">));</span>
+
+<span class="w">  </span><span class="nx">manager</span><span class="p">.</span><span class="nx">move</span><span class="p">(</span><span class="mf">3</span><span class="p">);</span><span class="w"> </span><span class="c1">// 3 means "left"</span>
+
+<span class="w">  </span><span class="nx">assert</span><span class="p">.</span><span class="nx">strictEqual</span><span class="p">(</span><span class="nx">manager</span><span class="p">.</span><span class="nx">grid</span><span class="p">.</span><span class="nx">cells</span><span class="p">[</span><span class="mf">0</span><span class="p">][</span><span class="mf">0</span><span class="p">].</span><span class="nx">value</span><span class="p">,</span><span class="w"> </span><span class="mf">4</span><span class="p">);</span>
+<span class="p">});</span>
+</code></pre></div>
+</li>
+<li>
+<p>Run the test on your machine:</p>
+<div class="highlight"><pre><span></span><code>node<span class="w"> </span>--test<span class="w"> </span>test/game.test.js
+</code></pre></div>
+<p>You should see output like this. The times will differ.</p>
+<div class="highlight"><pre><span></span><code>✔ two 2s merge into a 4 (1.687ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 56.487084
+</code></pre></div>
+</li>
+<li>
+<p>Commit and push to <code>master</code>:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>.github<span class="w"> </span><span class="nb">test</span>
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Add CI"</span>
+git<span class="w"> </span>push
+</code></pre></div>
+</li>
+<li>
+<p>On GitHub, click your fork's <strong>Actions</strong> tab.</p>
+<ul>
+<li><em>Asked to enable workflows?</em> Click the button, then trigger a run with <code>git commit --allow-empty -m "Run CI"</code> and <code>git push</code>.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Check:</strong> the test passes on your machine (<code>pass 1</code>), and the <strong>Actions</strong> tab shows a <strong>CI</strong> run with a green check mark.</p>
+<blockquote>
+<p><strong>What is CI?</strong> Continuous integration means every change is tested automatically, so problems show up before the change reaches <code>master</code>. From now on, GitHub runs your test on every pull request.</p>
+</blockquote>
+<h3 id="step-8-require-ci-to-pass-before-merging">Step 8: Require CI to pass before merging<a class="headerlink" href="#step-8-require-ci-to-pass-before-merging" title="Permanent link">&para;</a></h3>
+<ol>
+<li>In your fork, click <strong>Settings</strong>.</li>
+<li>In the left sidebar, click <strong>Rules</strong>, then <strong>Rulesets</strong>.</li>
+<li>Click <strong>New ruleset</strong>, then <strong>New branch ruleset</strong>.</li>
+<li>For <strong>Ruleset Name</strong>, type <code>protect-master</code>.</li>
+<li>Set <strong>Enforcement status</strong> to <strong>Active</strong>.</li>
+<li>Under <strong>Target branches</strong>, click <strong>Add target</strong>, then <strong>Include default branch</strong>.</li>
+<li>Under <strong>Branch rules</strong>, check <strong>Require a pull request before merging</strong>. Leave <strong>Required approvals</strong> at 0.</li>
+<li>Check <strong>Require status checks to pass</strong>.</li>
+<li>In the <strong>Required status checks</strong> box, click <strong>Add checks</strong>, type <code>test</code> in the search box, and click <strong>test</strong> in the list.</li>
+<li>Leave the <strong>Bypass list</strong> empty, and click <strong>Create</strong>.</li>
+</ol>
+<p><strong>Check:</strong> <code>protect-master</code> appears in your list of rulesets as <strong>Active</strong>.</p>
+<blockquote>
+<p><strong>Why a rule?</strong> CI only reports results. The rule makes GitHub enforce them: nothing reaches <code>master</code>, and so nothing reaches production, unless <code>test</code> passes.</p>
+</blockquote>
+<h3 id="step-9-break-the-game-on-a-branch">Step 9: Break the game on a branch<a class="headerlink" href="#step-9-break-the-game-on-a-branch" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>Create a branch:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>switch<span class="w"> </span>-c<span class="w"> </span>break-it
+</code></pre></div>
+</li>
+<li>
+<p>Open <code>js/game_manager.js</code> and find this line (around line 157):</p>
+<div class="highlight"><pre><span></span><code><span class="kd">var</span><span class="w"> </span><span class="nx">merged</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">Tile</span><span class="p">(</span><span class="nx">positions</span><span class="p">.</span><span class="nx">next</span><span class="p">,</span><span class="w"> </span><span class="nx">tile</span><span class="p">.</span><span class="nx">value</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">2</span><span class="p">);</span>
+</code></pre></div>
+</li>
+<li>
+<p>Change <code>* 2</code> to <code>* 3</code>, so that two 2s now merge into a 6.</p>
+</li>
+<li>
+<p>Run the test again:</p>
+<div class="highlight"><pre><span></span><code>node<span class="w"> </span>--test<span class="w"> </span>test/game.test.js
+</code></pre></div>
+<p>This time it fails. The key line is <code>6 !== 4</code>: the test expected a 4 and got a 6.</p>
+<div class="highlight"><pre><span></span><code>✖ two 2s merge into a 4 (1.8265ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 49.815125
+
+✖ failing tests:
+
+test at test/game.test.js:20:2
+✖ two 2s merge into a 4 (1.8265ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+  6 !== 4
+
+      at TestContext.&lt;anonymous&gt; (.../2048/test/game.test.js:28:11)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1047:25)
+      at Test.start (node:internal/test_runner/test:944:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:297:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 6,
+    expected: 4,
+    operator: 'strictEqual'
+  }
+</code></pre></div>
+</li>
+<li>
+<p>Commit and push anyway:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>commit<span class="w"> </span>-am<span class="w"> </span><span class="s2">"Bigger merges"</span>
+git<span class="w"> </span>push<span class="w"> </span>-u<span class="w"> </span>origin<span class="w"> </span>break-it
+</code></pre></div>
+</li>
+<li>
+<p>Open a pull request as in Step 5. Click <strong>Compare &amp; pull request</strong>, set the <strong>base repository</strong> to <code>&lt;your-username&gt;/2048</code>, and click <strong>Create pull request</strong>.</p>
+</li>
+</ol>
+<p><strong>Check:</strong> the <strong>test</strong> check on your pull request shows a red ✗, and GitHub blocks the merge.</p>
+<h3 id="step-10-see-what-ci-caught">Step 10: See what CI caught<a class="headerlink" href="#step-10-see-what-ci-caught" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Open the preview from the <strong>vercel</strong> bot's comment and merge two 2s. You get a 6.</li>
+<li>Back on the pull request, click <strong>Details</strong> next to the failing <strong>test</strong> check.</li>
+<li>Find the failed test, <code>two 2s merge into a 4</code>. It expected 4 and got 6.</li>
+</ol>
+<blockquote>
+<p><strong>Discuss:</strong> Vercel still deployed a preview of the broken game. What kept it out of production?</p>
+<p><strong>What just happened?</strong> CI caught the broken rule before the merge, and your ruleset turned that red ✗ into a blocked merge. Production stays on the last good version.</p>
+</blockquote>
+<p><em>Finished early?</em></p>
+<ul>
+<li>Fix the line, push, watch <strong>test</strong> turn green, and merge.</li>
+<li>Break the game a different way: delete the line <code>self.score += merged.value;</code> so that merges stop adding to your score. Does CI catch it? Why not?</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.tracking", "navigation.indexes", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c21346df.min.js"></script>
+      
+    
+  </body>
+</html>

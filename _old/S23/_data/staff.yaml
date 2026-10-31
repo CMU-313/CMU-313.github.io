@@ -1,0 +1,41 @@
+- name: Anuda Weerasinghe
+  role: Teaching Assistant
+  email: wweerasi@andrew.cmu.edu
+  website:
+  photo: anuda.jpg
+
+- name: Michael Hilton
+  role: Instructor
+  email: mhilton@cmu.edu
+  website: http://www.cs.cmu.edu/~mhilton/
+  photo: hilton.jpg
+
+- name: Hyrum Wright
+  role: Instructor
+  email: hwright@andrew.cmu.edu
+  website:
+  photo: hyrum.jpg
+
+- name: Mahima Pannala
+  role: Teaching Assistant
+  email: mpannala@andrew.cmu.edu
+  website:
+  photo: Mahima.jpg
+
+- name: Tak-Ho Lee
+  role: Teaching Assistant
+  email: takhol@andrew.cmu.edu
+  website: https://www.linkedin.com/in/takholee/
+  photo: takho.jpg
+
+- name: Victor Andres Alfonzo
+  role: Teaching Assistant
+  email: vaa@andrew.cmu.edu
+  website: 
+  photo: VictorA.jpg
+
+- name: Antara Pal
+  role: Teaching Assistant
+  email: antarap@andrew.cmu.edu
+  website:
+  photo: antara.jpg

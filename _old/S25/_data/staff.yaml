@@ -1,0 +1,61 @@
+
+- name: Michael Hilton
+  role: Instructor
+  email: mhilton@cmu.edu
+  website: https://www.cs.cmu.edu/~mhilton/
+  photo: michael.jpg
+
+- name: Austin Henley
+  role: Instructor
+  email: azhenley@cmu.edu
+  website: https://austinhenley.com/
+  photo: Henley.jpg
+
+- name: Nadia Nahar
+  role: Instructor
+  email: nadian@andrew.cmu.edu
+  website: https://nadianahar.me/
+  photo: Nadia.jpg
+
+- name: Juan Ageitos
+  role: Teaching Assistant
+  email: jageitos@andrew.cmu.edu
+  website:
+  photo: Juan.png
+  
+- name: Sophia Witt
+  role: Teaching Assistant
+  email: switt@andrew.cmu.edu
+  website:
+  photo: sophia.jpeg
+  
+- name: Yerim Song
+  role: Teaching Assistant
+  email: yerims@andrew.cmu.edu
+  website:
+  photo: ysong.jpg
+
+- name: Kareem Segizekov
+  role: Teaching Assistant
+  email: ksegizek@andrew.cmu.edu
+  website:
+  photo: Kareem.jpg
+
+- name: Kush Jain
+  role: Teaching Assistant
+  email: kdjain@andrew.cmu.edu
+  website:
+  photo: Kush.jpg
+
+- name: Yu Fang
+  role: Teaching Assistant
+  email: yufang@andrew.cmu.edu
+  website:
+  photo: Yu.png
+
+- name: Haomin Ng
+  role: Teaching Assistant
+  email: hdng@andrew.cmu.edu
+  website:
+  photo: Haomin.jpg
+
