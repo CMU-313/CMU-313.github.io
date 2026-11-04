@@ -166,12 +166,24 @@ Push your strengthened properties, mutant patches, Stryker configuration and rep
 
 ## Submission
 
-**Individually**, submit to Gradescope:
+Your pull request is merged into `main` by the deadline, so submit links to the merged code. Use **permalinks**: open a file on GitHub and press `y`, and the URL changes to one pinned to that commit. To link to one section of your traceability file, switch the file to the **Code** view, click the section's first line, shift-click its last line, then press `y`.
 
-- A link to your pull request (the one from Project 4, now merged)
-- A link to `traceability/<andrewid>.md` on `main`
+**Individually**, submit two assignments on Gradescope.
 
-Answer the retrospective questions in the separate **Project 5: Retrospective** assignment on Gradescope.
+**Project 5: Mutation Testing**
+
+- A link to your pull request (the one from Project 4, now merged) and the SHA of its merge commit
+- Hand-written mutants: permalinks to the *Hand-written mutants* section of your traceability file and to your `mutants/<andrewid>/` folder
+- Stryker: permalinks to your `stryker.<andrewid>.config.json`, the *Stryker comparison* section, and your property test file(s)
+- Agent failure case: a permalink to the *Agent failure case* section
+- **Red team (extra credit, bonus points; leave blank if you didn't sign up):**
+    - Your target's name and Andrew ID
+    - A link to your attack comment on your target's pull request (click the comment's timestamp to get its link), and a permalink to your `mutants/<andrewid>/redteam/` folder
+    - Whether your feature was claimed. If it was: your red-teamer's name and a permalink to the *Red team* section of your traceability file
+
+**Project 5: Retrospective**
+
+- Your answers to the nine retrospective questions
 
 ## Grading
 
