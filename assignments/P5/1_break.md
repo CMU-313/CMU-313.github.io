@@ -9,14 +9,15 @@ nav_order: 10
 
 **Mutation Testing & Red Team** – 100 points – due Thursday, November 12, 2026, 11:59PM
 
-- [Hand-Written Mutants with Predictions (35 pts)](#hand-written-mutants-with-predictions-35-pts)
-- [Stryker Run & Comparison (40 pts)](#stryker-run-comparison-40-pts)
-- [Agent Failure Case (25 pts)](#agent-failure-case-25-pts)
+- [Hand-Written Mutants with Predictions (30 pts)](#hand-written-mutants-with-predictions-30-pts)
+- [Stryker Run & Comparison (35 pts)](#stryker-run-comparison-35-pts)
+- [Agent Failure Case (20 pts)](#agent-failure-case-20-pts)
+- [Retrospective (15 pts)](#retrospective-15-pts)
 - [Extra Credit: Cross-Team Red Team (up to 10 pts)](#extra-credit-cross-team-red-team-up-to-10-pts) – optional; mutants due to your target Monday, November 9, 11:59PM
 
 All of your work for this project continues on **your own branch** from Project 4 (e.g. `<andrewid>/properties`), and you keep pushing to the **same pull request** you opened in Project 4. Bring your branch up to date with `main` before you start, and again once a teammate merges the Stryker dependency.
 
-## Hand-Written Mutants with Predictions (35 pts)
+## Hand-Written Mutants with Predictions (30 pts)
 
 Before running any tool, design about **5 mutants** by hand. Each one should be designed to break a **specific requirement** in your traceability table while still looking plausible, the kind of bug that could survive a code review. For example:
 
@@ -39,7 +40,7 @@ As in Project 4, this example uses a made-up feature. Your mutants must target y
 
 Then add a **Mutants it kills** column to your main traceability table and fill it in for each requirement.
 
-## Stryker Run & Comparison (40 pts)
+## Stryker Run & Comparison (35 pts)
 
 ### Running Stryker
 
@@ -85,7 +86,7 @@ Kill surviving mutants (hand-written and Stryker) by **improving your properties
 
 Some mutants are **equivalent**: the change doesn't alter the program's behavior in any observable way, so no test can kill them. For each mutant you claim is equivalent, give a 2–3 sentence argument why. Report your final mutation score both as Stryker reports it and with equivalent mutants excluded.
 
-## Agent Failure Case (25 pts)
+## Agent Failure Case (20 pts)
 
 AI agents are good at producing tests that *look* thorough. Find **one property written or suggested by opencode** that let a hand-written or Stryker mutant survive. Common reasons:
 
@@ -101,6 +102,27 @@ In an **Agent failure case** section of your traceability file, include:
 - The mutant it let survive
 - An explanation of why the property was too weak
 - Your strengthened version, and evidence that it kills the mutant
+
+## Retrospective (15 pts)
+
+This is the last project on opencode, so take stock of what you built and how you built it. Answer the questions below in the **Project 5: Retrospective** assignment on Gradescope (not in your traceability file). Each answer should be **2–4 sentences**.
+
+Be specific: name the requirement (R#), interview note (e.g. `C-4`), mutant (e.g. H2), or project you mean. Answers that could have been written without doing the work won't get credit. You're graded on specificity and honesty, not on whether you liked opencode or whether things went well.
+
+### Requirements, properties, and mutants (Projects 3–5)
+
+1. Pick one requirement you revised or dropped in Project 4, Step 1. Quote its Project 3 wording and the interview note it came from. What did you learn while writing properties that the interview didn't tell you?
+2. Which of your requirements was hardest to write as a property? Name it, and say what made it hard: vague wording, behavior that depends on state or timing, or no clear way to check the answer. Rewrite the requirement the way you'd write it now.
+3. Which requirement had the most surviving mutants before you strengthened your properties? Was the weakness in the requirement itself, the generator, or the assertion? How do you know?
+4. Did any mutant (hand-written, Stryker, or red-team) change behavior that none of your requirements covered? Describe it and write the requirement you would add. If none did, explain why you think your requirements covered everything the mutants touched.
+5. Write one question you would add to your Project 3 interview script now, knowing what Projects 4 and 5 showed you. Which requirement would the answer have sharpened?
+
+### Working with an AI agent (Projects 1–5)
+
+6. Describe one specific time opencode saved you real time this semester. Name the project and the task. What did you check before trusting its output?
+7. Apart from your agent failure case above, describe one time opencode's output was wrong or misleading and you didn't notice right away. How did you find out, and how long did it go unnoticed?
+8. Based on your agent failure case, state one rule you would give a teammate for reviewing tests an agent wrote. Name a mutant from this project that the rule would have caught.
+9. Name one task you would no longer hand to an agent, and one you would hand off sooner than you did at the start of the semester. Give a one-sentence reason for each.
 
 ## Extra Credit: Cross-Team Red Team (up to 10 pts)
 
@@ -133,6 +155,8 @@ Push your strengthened properties, mutant patches, Stryker configuration and rep
 - A link to your pull request (the one from Project 4, now merged)
 - A link to `traceability/<andrewid>.md` on `main`
 
+Answer the retrospective questions in the separate **Project 5: Retrospective** assignment on Gradescope.
+
 ## Grading
 
 To receive full credit for the hand-written mutants, we expect:
@@ -153,6 +177,11 @@ To receive full credit for the agent failure case, we expect:
 - [ ] A transcript excerpt showing where opencode wrote or suggested the property
 - [ ] The surviving mutant and a clear explanation of why the property was too weak
 - [ ] A strengthened property with evidence that it kills the mutant
+
+To receive full credit for the retrospective, we expect:
+
+- [ ] An answer to every question, each 2–4 sentences
+- [ ] Each answer names the specific requirement, interview note, mutant, or project it's about
 
 To receive the red-team extra credit, we expect:
 
