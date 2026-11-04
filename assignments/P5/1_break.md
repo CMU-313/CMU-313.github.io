@@ -13,7 +13,7 @@ nav_order: 10
 - [Stryker Run & Comparison (35 pts)](#stryker-run-comparison-35-pts)
 - [Agent Failure Case (20 pts)](#agent-failure-case-20-pts)
 - [Retrospective (15 pts)](#retrospective-15-pts)
-- [Extra Credit: Cross-Team Red Team (up to 10 pts)](#extra-credit-cross-team-red-team-up-to-10-pts) – optional; mutants due to your target Monday, November 9, 11:59PM
+- [Extra Credit: Cross-Team Red Team (up to 10 pts)](#extra-credit-cross-team-red-team-up-to-10-pts) – optional; sign up by Saturday, November 7, mutants due Tuesday, November 10, 11:59PM
 
 All of your work for this project continues on **your own branch** from Project 4 (e.g. `<andrewid>/properties`), and you keep pushing to the **same pull request** you opened in Project 4. Bring your branch up to date with `main` before you start, and again once a teammate merges the Stryker dependency.
 
@@ -126,23 +126,34 @@ Be specific: name the requirement (R#), interview note (e.g. `C-4`), mutant (e.g
 
 ## Extra Credit: Cross-Team Red Team (up to 10 pts)
 
-This part is **optional**. Teams that opt in will be paired with another team that opted in, and each of you will be assigned one member of that team as your **target**. Do the required parts first: extra credit can't make up for missing them.
+This part is **optional**, and you sign up for it individually. Do the required parts first: extra credit can't make up for missing them.
 
-### Attack (5 pts) – due to your target Monday, November 9, 11:59PM
+### Signing up – by Saturday, November 7, 11:59PM
 
-Study your target's declared feature, requirements, and properties. They're in your target's traceability file on their branch, which their Project 4 pull request links to. Their branch keeps changing during this project, so note the commit you studied and write your mutants against that commit so the patches still apply. Write **3 mutants** against their feature, each aiming to slip past their properties. Each mutant should:
+Use the [red team sign-up sheet](https://docs.google.com/spreadsheets/d/1j5dlUSqPEGyWOmuK_J27XXRsyEqhcaUkHl9fj1e_vGw/edit):
+
+1. **List your own feature.** Add a row with your name, Andrew ID, team, a 1–2 sentence description of your feature, and a link to your open Project 4 pull request.
+2. **Claim a feature to attack.** Put your name, Andrew ID, and team in the empty red-teamer columns of **one** row from **another team**. You must list your own feature before you claim one. Each feature can have only one red-teamer, and you can claim only one feature.
+
+The person whose feature you claim is your **target**. Don't edit or remove anyone else's entries.
+
+### Attack (5 pts) – due Tuesday, November 10, 11:59PM
+
+Study your target's declared feature, requirements, and properties. They're in your target's traceability file on their branch, which their pull request links to. Their branch keeps changing during this project, so note the commit you studied and write your mutants against that commit so the patches still apply. Write **3 mutants** against their feature, each aiming to slip past their properties. Each mutant should:
 
 - Target one of their stated requirements (name it)
 - Be plausible: a bug a real developer might write, not an obviously broken line
 - Come with a short explanation of which property you expect it to slip past, and why
 
-Send your three patch files, your explanations, and the commit you wrote them against to your target by Monday at 11:59PM, through the channel your TA sets up for your pairing. Also commit them to your own branch at `mutants/<andrewid>/redteam/`.
+Deliver them as **one comment on your target's pull request** by Tuesday at 11:59PM. The comment should give the commit you wrote them against, and for each mutant, its patch in a `diff` code block and your explanation. Also commit the patches to your own branch at `mutants/<andrewid>/redteam/`.
 
 Attack mutants are graded on **plausibility and how well they target a requirement**, not on whether they survive.
 
-### Defend (5 pts)
+### Defend (5 pts) – due with the rest of the project
 
-Apply each mutant you receive and run your properties. For every mutant that survives, strengthen your properties until it is killed (or argue that it is equivalent). Record each received mutant, its result, and your fix in a **Red team** section of your traceability file, and credit who sent it.
+If someone claimed your feature, apply each mutant from their comment and run your properties. For every mutant that survives, strengthen your properties until it is killed (or argue that it is equivalent). Record each received mutant, its result, and your fix in a **Red team** section of your traceability file, and credit who sent it.
+
+If nobody claims your feature, there is nothing to defend, and you can earn up to 5 pts for your attack.
 
 ## Landing Your Work
 
@@ -185,8 +196,9 @@ To receive full credit for the retrospective, we expect:
 
 To receive the red-team extra credit, we expect:
 
-- [ ] Three plausible attack mutants, each targeting a named requirement of your target, delivered by Monday, November 9
-- [ ] Every mutant you received recorded with its result, and every survivor either killed by strengthened properties or argued equivalent
+- [ ] Your feature listed and a target claimed on the sign-up sheet by Saturday, November 7
+- [ ] Three plausible attack mutants, each targeting a named requirement of your target, posted on your target's pull request by Tuesday, November 10
+- [ ] If your feature was claimed: every mutant you received recorded with its result, and every survivor either killed by strengthened properties or argued equivalent
 
 To receive full credit overall, we expect:
 
