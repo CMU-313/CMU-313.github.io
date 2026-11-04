@@ -9,15 +9,14 @@ nav_order: 10
 
 **Mutation Testing & Red Team** – 100 points – due Thursday, November 12, 2026, 11:59PM
 
-- [Hand-Written Mutants with Predictions (18 pts)](#hand-written-mutants-with-predictions-18-pts)
-- [Stryker Run & Comparison (18 pts)](#stryker-run-comparison-18-pts)
-- [Agent Failure Case (12 pts)](#agent-failure-case-12-pts)
-- [Cross-Team Red Team (26 pts)](#cross-team-red-team-26-pts) – mutants due to your partner Monday, November 9, 11:59PM
-- [TA Check-in (Team) (26 pts)](#ta-check-in-team-26-pts)
+- [Hand-Written Mutants with Predictions (35 pts)](#hand-written-mutants-with-predictions-35-pts)
+- [Stryker Run & Comparison (40 pts)](#stryker-run-comparison-40-pts)
+- [Agent Failure Case (25 pts)](#agent-failure-case-25-pts)
+- [Extra Credit: Cross-Team Red Team (up to 10 pts)](#extra-credit-cross-team-red-team-up-to-10-pts) – optional; mutants due to your target Monday, November 9, 11:59PM
 
 All of your work for this project continues on **your own branch** from Project 4 (e.g. `<andrewid>/properties`), and you keep pushing to the **same pull request** you opened in Project 4. Bring your branch up to date with `main` before you start, and again once a teammate merges the Stryker dependency.
 
-## Hand-Written Mutants with Predictions (18 pts)
+## Hand-Written Mutants with Predictions (35 pts)
 
 Before running any tool, design about **5 mutants** by hand. Each one should be designed to break a **specific requirement** in your traceability table while still looking plausible, the kind of bug that could survive a code review. For example:
 
@@ -40,7 +39,7 @@ As in Project 4, this example uses a made-up feature. Your mutants must target y
 
 Then add a **Mutants it kills** column to your main traceability table and fill it in for each requirement.
 
-## Stryker Run & Comparison (18 pts)
+## Stryker Run & Comparison (40 pts)
 
 ### Running Stryker
 
@@ -86,7 +85,7 @@ Kill surviving mutants (hand-written and Stryker) by **improving your properties
 
 Some mutants are **equivalent**: the change doesn't alter the program's behavior in any observable way, so no test can kill them. For each mutant you claim is equivalent, give a 2–3 sentence argument why. Report your final mutation score both as Stryker reports it and with equivalent mutants excluded.
 
-## Agent Failure Case (12 pts)
+## Agent Failure Case (25 pts)
 
 AI agents are good at producing tests that *look* thorough. Find **one property written or suggested by opencode** that let a hand-written or Stryker mutant survive. Common reasons:
 
@@ -103,11 +102,11 @@ In an **Agent failure case** section of your traceability file, include:
 - An explanation of why the property was too weak
 - Your strengthened version, and evidence that it kills the mutant
 
-## Cross-Team Red Team (26 pts)
+## Extra Credit: Cross-Team Red Team (up to 10 pts)
 
-Your TA will pair your team with a **partner team**, and assign each of you one member of that team as your **target**.
+This part is **optional**. Teams that opt in will be paired with another team that opted in, and each of you will be assigned one member of that team as your **target**. Do the required parts first: extra credit can't make up for missing them.
 
-### Attack (13 pts) – due to your target Monday, November 9, 11:59PM
+### Attack (5 pts) – due to your target Monday, November 9, 11:59PM
 
 Study your target's declared feature, requirements, and properties. They're in your target's traceability file on their branch, which their Project 4 pull request links to. Their branch keeps changing during this project, so note the commit you studied and write your mutants against that commit so the patches still apply. Write **3 mutants** against their feature, each aiming to slip past their properties. Each mutant should:
 
@@ -119,23 +118,9 @@ Send your three patch files, your explanations, and the commit you wrote them ag
 
 Attack mutants are graded on **plausibility and how well they target a requirement**, not on whether they survive.
 
-### Defend (13 pts)
+### Defend (5 pts)
 
 Apply each mutant you receive and run your properties. For every mutant that survives, strengthen your properties until it is killed (or argue that it is equivalent). Record each received mutant, its result, and your fix in a **Red team** section of your traceability file, and credit who sent it.
-
-## TA Check-in (Team) (26 pts)
-
-<!-- TODO (staff): we might cut the TA check-in. If we keep it, decide who writes the planted bugs and whether 26 pts is the right weight. If we cut it, move its 26 pts and remove it from index.md, the deliverables list, and Grading. -->
-
-Sign up for a **10-minute** check-in with your TA between November 9 and November 12 using the sign-up sheet that will be posted in Slack. Your **whole team** must attend.
-
-During the check-in, your TA will plant a bug in one team member's feature. That is a live mutant. A team member chosen by the TA will:
-
-1. Predict which of their properties, if any, will catch it, and why
-2. Run the tests
-3. Discuss the result with the TA: if the mutant survived, what would kill it?
-
-You are graded on the **quality of your reasoning**, not on whether the mutant was killed. Every member should be ready to talk about their own feature and properties.
 
 ## Landing Your Work
 
@@ -147,8 +132,6 @@ Push your strengthened properties, mutant patches, Stryker configuration and rep
 
 - A link to your pull request (the one from Project 4, now merged)
 - A link to `traceability/<andrewid>.md` on `main`
-
-There is no separate submission for the TA check-in.
 
 ## Grading
 
@@ -171,15 +154,10 @@ To receive full credit for the agent failure case, we expect:
 - [ ] The surviving mutant and a clear explanation of why the property was too weak
 - [ ] A strengthened property with evidence that it kills the mutant
 
-To receive full credit for the red team, we expect:
+To receive the red-team extra credit, we expect:
 
 - [ ] Three plausible attack mutants, each targeting a named requirement of your target, delivered by Monday, November 9
 - [ ] Every mutant you received recorded with its result, and every survivor either killed by strengthened properties or argued equivalent
-
-To receive full credit for the TA check-in, we expect:
-
-- [ ] All team members present
-- [ ] A clear, well-reasoned prediction and discussion of the planted mutant
 
 To receive full credit overall, we expect:
 
