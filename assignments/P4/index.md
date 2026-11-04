@@ -18,7 +18,7 @@ checkpoints:
 - Recognize and apply common kinds of properties: round-trip, invariant, model/oracle, and metamorphic
 - Write generators that explore a feature's input space
 - Triage a failing test: decide whether the code or the test is wrong
-- Run tests automatically on every pull request with continuous integration
+- Land changes through a pull request whose automated tests pass
 
 ## Project Context
 
@@ -26,11 +26,11 @@ In Project 3, you interviewed users and turned what you heard into precise requi
 
 Your manager now wants the build to check your requirements automatically, on every change, starting with at least four of them. Before that, though, you need to look at your requirements with an engineer's eye: some of what users want can't actually be built as stated, and needs to become something that can. Then you'll write **property-based tests** with [fast-check](https://fast-check.dev): each test states a rule that should hold for *every* input, and fast-check generates hundreds of inputs looking for one that breaks it.
 
-When a property fails, you decide whether the code or the test is wrong, fix it, and keep going until every property passes. Then you open a pull request and let your team's CI check it.
+When a property fails, you decide whether the code or the test is wrong, fix it, and keep going until every property passes. Then you open a pull request and get your properties passing there too.
 
 ## Deliverables and Deadlines
 
-The requirements review, properties, and fixes are **individual**: you continue with the same target feature and requirements you declared in Project 3. The CI slice is a **team** deliverable.
+This project is **individual**: you continue with the same target feature and requirements you declared in Project 3.
 
 There is one (1) deadline for this project. This project is worth a total of 65 points.
 
@@ -38,8 +38,7 @@ There is one (1) deadline for this project. This project is worth a total of 65 
 
 - Step 1: Review Your Requirements (Individual) (10 pts)
 - Step 2: Write Properties for Your Requirements (Individual) (40 pts)
-- Step 3: Run, Triage, and Fix (Individual) (10 pts)
-- CI Slice (Team) (5 pts)
+- Step 3: Run, Triage, and Fix (Individual) (15 pts)
 
 !!! tip "Resources"
     [Recitation 7](/recitations/reci7-pbt/) introduced fast-check and the kinds of properties you'll use here. Its [problem set](https://github.com/CMU-313/F26-reci-7/blob/main/PROBLEM_SET.md) is a good warm-up if you haven't finished it.
