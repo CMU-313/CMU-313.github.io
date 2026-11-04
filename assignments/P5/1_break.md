@@ -53,24 +53,29 @@ bun add -d @stryker-mutator/core
 
 As with fast-check in Project 4, have **one** teammate add Stryker in a small PR so your branches don't conflict on `package.json` and `bun.lock`.
 
-Each team member needs their own configuration, so name yours `stryker.<andrewid>.config.json` and put it in that package. Use the **command** test runner so Stryker runs `bun test`, and limit both the mutated files and the tests to your target feature. Mutating all of opencode would take hours. For example:
+Each team member needs their own configuration, so name yours `stryker.<andrewid>.config.json` and put it in that package. Use the **command** test runner so Stryker runs `bun test`, and scope it to your own work:
+
+- **Run only your property tests.** Point the command at your property test file, not the whole test folder. Otherwise opencode's existing tests also kill mutants, and your score no longer measures *your* properties. It's much faster too.
+- **Mutate only the code your requirements cover.** Mutating a whole folder creates mutants in code your properties never call, and they all survive. You can list single files, or a line range such as `src/<feature>/index.ts:28-38` for just the functions you test.
+
+For example:
 
 ```json
 {
   "testRunner": "command",
-  "commandRunner": { "command": "bun test test/<feature>" },
-  "mutate": ["src/<feature>/**/*.ts"],
+  "commandRunner": { "command": "bun test test/<feature>/<feature>.property.test.ts" },
+  "mutate": ["src/<feature>/<file>.ts:<start>-<end>"],
   "coverageAnalysis": "off",
   "reporters": ["html", "clear-text", "progress"]
 }
 ```
 
-Run it with `bunx stryker run stryker.<andrewid>.config.json`.
+Run it with `bunx stryker run stryker.<andrewid>.config.json`. Scoped like this, a run should take seconds to a few minutes. If it's taking much longer, check that the command runs only your property file.
 
 !!! warning "Fix your fast-check seed"
     fast-check generates different inputs on every run, so a mutant can be killed in one run and survive the next. Before running Stryker, fix the seed for your property tests (for example, `fc.configureGlobal({ seed: 42 })` at the top of your test file, or `{ seed: 42 }` as the second argument to `fc.assert`). Record the seed in your Stryker comparison section.
 
-Stryker writes its report to `reports/mutation/mutation.html` in the package, and every teammate's run writes to the same place. **Copy** your report to `mutants/<andrewid>/mutation.html` and commit that copy. Add `reports/` to the package's `.gitignore` so the shared output folder never ends up in a PR.
+Stryker writes its report to `reports/mutation/mutation.html` in the package, and every teammate's run writes to the same place. **Copy** your report to `mutants/<andrewid>/mutation.html` and commit that copy. Add `reports/` and `.stryker-tmp/` (Stryker's scratch folder) to the package's `.gitignore` so neither ends up in a PR.
 
 ### Comparison
 
@@ -178,7 +183,7 @@ To receive full credit for the hand-written mutants, we expect:
 
 To receive full credit for the Stryker run and comparison, we expect:
 
-- [ ] A Stryker configuration (`stryker.<andrewid>.config.json`) scoped to your feature, a recorded seed, and a committed copy of the HTML report
+- [ ] A Stryker configuration (`stryker.<andrewid>.config.json`) that runs only your property tests and mutates only the code they cover, a recorded seed, and a committed copy of the HTML report
 - [ ] A comparison of hand-written and Stryker mutants that answers each question above
 - [ ] Survivors killed by improved properties rather than example tests, with a short argument for each claimed equivalent mutant
 - [ ] Your mutation score reported both raw and with equivalent mutants excluded
