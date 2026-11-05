@@ -157,7 +157,8 @@ schedule:
 
     - kind: lecture
       date: 2026-11-05
-      title: "Guest Lecture Taya Cohen"
+      title: "Guest Lecture Taya Cohen: Difficult Conversations in Team Projects"
+      link: /assets/pdfs/18-Difficult Conversations in Team Projects Handout Oct2026.pdf
 
     - kind: lecture
       date: 2026-11-10
