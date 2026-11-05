@@ -1,13 +1,13 @@
 ---
 title: "Project 5: Break and Fix"
-release_date: 2026-11-07
-due_date: 2026-11-09
+release_date: 2026-11-15
+due_date: 2026-11-20
 checkpoints:
-  - date: 2026-11-05
+  - date: 2026-11-15
     title: "Red-Team Mutants to Partner"
     due_at: "2026-11-05T23:59:00-05:00"
     link: "1_break.md"
-  - date: 2026-11-09
+  - date: 2026-11-19
     title: "Mutation Testing & Red Team"
     due_at: "2026-11-09T23:59:00-05:00"
     link: "1_break.md"
