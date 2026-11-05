@@ -2,10 +2,12 @@
 kind: recitation
 title: Recitation 10 - Open Source Scavenger Hunt
 date: 2026-11-09
-reveal_date: 2027-01-01
+reveal_date: 2026-11-09
 ---
 
 # Recitation 10: Open Source Scavenger Hunt
+
+This recitation is an introduction to P6 and a chance to start brainstorming which open source project your team would like to work on. P6 will be officially released after P5. Don't worry about P6 specifics yet—the assignment has not officially started!
 
 ## Overview
 
@@ -22,7 +24,7 @@ The general criteria for an open source project:
 
 ## Scavenger Hunt (30 min)
 
-Open the [slide deck](https://docs.google.com/presentation/d/1kDJDpvoJyPx498idQi7xjilfYgkEJN0cwBMrXQzbewo/edit?usp=sharing) and make a copy of the slides for your team. Then, search for open source projects to fill each square in the Scavenger Hunt table. Each project can only count for one square. The goal is to have as many squares filled as possible!
+Open the [slide deck](https://docs.google.com/presentation/d/1GO3jSmWmhgYL-NU_fV9MBjq8zvfpEm0AfqA7u33Nq-0/edit?slide=id.g17ba9324a0d_0_41379#slide=id.g17ba9324a0d_0_41379) and make a copy of the slides for your team. Then, search for open source projects to fill each square in the Scavenger Hunt table. Each project can only count for one square. The goal is to have as many squares filled as possible!
 
 While learning about different open source projects, think about what type of projects you would be interested in working on for [Project 6](https://cmu-313.github.io/assignments/P6/).
 
@@ -31,7 +33,7 @@ While learning about different open source projects, think about what type of pr
 With your team, discuss the following questions:
 Which attributes make a good open source project? A bad open source project? Which 3 projects did you find that you would most like to work on? Which would you least like to work on? Why?
 
-Submit the links to the 3 projects that you are most interested in pursuing for [Project 6](https://cmu-313.github.io/assignments/P6/) to [Gradescope](https://www.gradescope.com/courses/1213157/assignments/7869777/)!
+Submit the links to the 3 projects that you are most interested in pursuing for [Project 6](https://cmu-313.github.io/assignments/P6/) to [Gradescope](https://www.gradescope.com/courses/1356702/assignments/8417898)!
 
 ## Resources
 
