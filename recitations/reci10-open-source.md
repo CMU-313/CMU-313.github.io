@@ -24,7 +24,7 @@ The general criteria for an open source project:
 
 ## Scavenger Hunt (30 min)
 
-Open the [slide deck](https://docs.google.com/presentation/d/1GO3jSmWmhgYL-NU_fV9MBjq8zvfpEm0AfqA7u33Nq-0/edit?slide=id.g17ba9324a0d_0_41379#slide=id.g17ba9324a0d_0_41379) and make a copy of the slides for your team. Then, search for open source projects to fill each square in the Scavenger Hunt table. Each project can only count for one square. The goal is to have as many squares filled as possible!
+Open the [slide deck](https://docs.google.com/presentation/d/1GO3jSmWmhgYL-NU_fV9MBjq8zvfpEm0AfqA7u33Nq-0/edit?slide=id.g17ba9324a0d_0_41379#slide=id.g17ba9324a0d_0_41379) and **make a copy** of the slides for your team. Place the copied slide deck in your team's folder. Then, search for open source projects to fill each square in the Scavenger Hunt table. Each project can only count for one square. The goal is to have as many squares filled as possible!
 
 While learning about different open source projects, think about what type of projects you would be interested in working on for [Project 6](https://cmu-313.github.io/assignments/P6/).
 
