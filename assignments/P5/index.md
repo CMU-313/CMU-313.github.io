@@ -1,6 +1,6 @@
 ---
 title: "Project 5: Break and Fix"
-release_date: 2026-11-05
+release_date: 2026-11-07
 due_date: 2026-11-09
 checkpoints:
   - date: 2026-11-05
