@@ -63,9 +63,9 @@ As per previous projects, ^^plan before you start coding^^. You should identify 
 Each team will create and present a checkpoint presentation. The slide deck will be due Sunday, November 29th, 11:59pm. The recitation right after (November 30th), you will present your checkpoint presentation to your classmates and receive feedback, suggestions, and/or advice.
 
 !!! note "Time Management"
-        - The in-person presentations should be **5-7 minutes long**
-        - Participation from all team members during the presentation is **required**
-        - Be on time for recitation!
+    - The in-person presentations should be **5-7 minutes long**
+    - Participation from all team members during the presentation is **required**
+    - Be on time for recitation!
 
 **Your group presentation will serve as a check-in to determine if the open source project and task(s) chosen were reasonable**
 
