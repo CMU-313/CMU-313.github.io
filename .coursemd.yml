@@ -158,6 +158,7 @@ schedule:
     - kind: lecture
       date: 2026-11-05
       title: "Guest Lecture Taya Cohen"
+      link: /assets/pdfs/18-Difficult-Conversations-Oct2026.pdf
 
     - kind: lecture
       date: 2026-11-10
