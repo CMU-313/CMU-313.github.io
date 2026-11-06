@@ -1,15 +1,19 @@
 ---
 title: "Project 5: Break and Fix"
-release_date: 2026-11-15
-due_date: 2026-11-20
+release_date: 2026-11-06
+due_date: 2026-11-12
 checkpoints:
-  - date: 2026-11-15
-    title: "Red-Team Mutants to Partner"
-    due_at: "2026-11-05T23:59:00-05:00"
+  - date: 2026-11-07
+    title: "Extra Credit: Red-Team Sign-up"
+    due_at: "2026-11-07T23:59:00-05:00"
     link: "1_break.md"
-  - date: 2026-11-19
+  - date: 2026-11-10
+    title: "Extra Credit: Red-Team Mutants to Target"
+    due_at: "2026-11-10T23:59:00-05:00"
+    link: "1_break.md"
+  - date: 2026-11-12
     title: "Mutation Testing & Red Team"
-    due_at: "2026-11-09T23:59:00-05:00"
+    due_at: "2026-11-12T23:59:00-05:00"
     link: "1_break.md"
 ---
 
@@ -22,29 +26,30 @@ checkpoints:
 - Compare hand-written mutants with automatically generated ones, and understand the strengths of each
 - Strengthen properties to kill surviving mutants, and argue when a mutant is equivalent
 - Critically evaluate tests written or suggested by an AI agent
-- Attack and defend tests across teams
+- Reflect on how your requirements, tests, and use of an AI agent shaped your work across the semester
+- (Extra credit) Attack and defend tests across teams
 
 ## Project Context
 
-In Project 4, you turned your requirements into properties that run on every pull request, and they pass. Your manager's next question is a fair one: *would they fail if the code were wrong?* A test suite that passes no matter what the code does is worse than no test suite, because it gives you false confidence.
+In Project 4, you turned your requirements into properties that CI runs on your pull request, and they pass. Your manager's next question is a fair one: *would they fail if the code were wrong?* A test suite that passes no matter what the code does is worse than no test suite, because it gives you false confidence.
 
 **Mutation testing** answers that question directly. A *mutant* is a copy of your code with one small, deliberate bug in it: a `<` flipped to `<=`, a condition negated, a line deleted. If your tests fail on the mutant, they *kill* it. If they still pass, the mutant *survives*, and you've found a bug your tests can't see.
 
-In this project, you'll attack your own properties: first with mutants you design by hand to break specific requirements, then with [Stryker](https://stryker-mutator.io/), which generates mutants automatically. You'll strengthen your properties until they kill what they should, examine one property that opencode helped write, and then trade attacks with a partner team.
+In this project, you'll attack your own properties: first with mutants you design by hand to break specific requirements, then with [Stryker](https://stryker-mutator.io/), which generates mutants automatically. You'll strengthen your properties until they kill what they should, examine one property that opencode helped write, and look back on how your requirements, tests, and use of an AI agent held up across the semester. For extra credit, you can also attack another team's properties.
 
 ## Deliverables and Deadlines
 
-Most of this project is **individual**: you continue with the same target feature, branch, and traceability table from Projects 3 and 4. The TA check-in is a **team** meeting.
+This project is **individual**: you continue with the same target feature, branch, and traceability table from Projects 3 and 4.
 
-There are two (2) deadlines for this project. This project is worth a total of 100 points.
+This project is worth a total of 100 points, with one deadline. The optional extra-credit red team has two earlier deadlines of its own.
 
-[**Mutation Testing & Red Team**](1_break.md) – 100 points – due Monday, November 9, 2026, 11:59PM
+[**Mutation Testing & Red Team**](1_break.md) – 100 points – due Thursday, November 12, 2026, 11:59PM
 
-- Hand-Written Mutants with Predictions (18 pts)
-- Stryker Run & Comparison (18 pts)
-- Agent Failure Case (12 pts)
-- Cross-Team Red Team (26 pts) – **red-team mutants due to your partner Thursday, November 5, 2026, 11:59PM**
-- TA Check-in (Team) (26 pts) – held between November 4 and November 9
+- Hand-Written Mutants with Predictions (30 pts)
+- Stryker Run & Comparison (35 pts)
+- Agent Failure Case (20 pts)
+- Retrospective (15 pts)
+- Extra Credit: Cross-Team Red Team (up to 10 pts) – optional; **sign up by Saturday, November 7, 2026, and post mutants to your target by Tuesday, November 10, 2026, 11:59PM**
 
 !!! tip
-    The red-team mutants are due early so your partner has time to defend. Get your own mutants and Stryker run done early in the week, so you have time to respond to the mutants your partner sends you.
+    If you sign up for the red team, its deadlines come early so your target has time to defend. Finish the required parts first; extra credit can't make up for missing them.
