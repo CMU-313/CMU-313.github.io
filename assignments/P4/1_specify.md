@@ -1,5 +1,5 @@
 ---
-title: "4A Properties & Fixes"
+title: "Project 4: Properties & Fixes"
 nav_order: 10
 ---
 
