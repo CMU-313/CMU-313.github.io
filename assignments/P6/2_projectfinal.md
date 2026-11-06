@@ -10,7 +10,7 @@ nav_order: 20
 **Project Report and Presentation** – due Friday, December 4th, 8:30am
 
 - [Project Report](#project-report-200-points) (200 points) 
-- [Extra Credit](#project-report-200-points) (20 points)
+- [Extra Credit](#contributing-to-open-source) (20 points)
 - [Project Presentation Slides](#project-presentations-100-points) (100 points, graded based on presentation)
 
 **Presentation Date** – on Friday, December 4th, 8:30-11:30am, during exam timeslot
@@ -72,7 +72,7 @@ You must upload your slides as **a single PDF document** to Gradescope by **Frid
 
 After completing and submitting the modification, write a report about the tasks you have performed.
 
-!!! warning On Generative AI
+!!! warning "On Generative AI"
     In the past, we have had problems with students using generative AI tools to generate low quality text. For this assignment, we will be evaluating each contribution to the document individually.  You are not responsible for fixing other teammates' text. However, you should clearly indicate at the top of the document who was responsible for each part of the document. Low quality AI slop will result in significant penalties for the student who contributed that section.
 
 Create a **copy** of the following Google Doc: [6B Project Report Template](https://docs.google.com/document/d/1QIAFDb_v3Mq6bgaVfljeliy1ndFi-uB-Y2rmdQjH5eg/edit?usp=sharing). **Make sure the document is located within the GDrive folder your TAs shared with you at the beginning of the semester.**
@@ -86,7 +86,7 @@ As a team, write your responses to the questions in this doc. After you finish, 
     We want to ensure that everyone is participating fully in the final project. For this project, we will be assessing participation in a variety of ways, including: artifact evaluation, self & peer evaluation. Credit due for the team components of this project will be awarded based on evidence of full participation in the team. **Partial participation will receive partial credit.**
 
 
-!!! warning Use of Generative AI discouraged
+!!! warning "Use of Generative AI Discouraged"
     Historically, we have found the use of generative AI tools for this part of the assignment has resulted in poor work being submitted. It is your responsibility to make sure that you and your group feel comfortable with each others work and are putting in your best effort.  
 
 
@@ -102,7 +102,7 @@ Describe the work you have done in this project (e.g. code artifacts, documentat
 Describe the specific work **each of your team members** have contributed towards this project. Describe both tangible (e.g. code artifacts, report & slides making, documentation) and intangible (e.g. organizing & running meetings, communicating expectations) contributions. Do point out teammates that you think are exceptional to work with in this project as well.
 
 3.	**Teamwork**  
-    You have been in the same team over the course of this semester (Projects 2-5). Look back on the entire semester and reflect on your team experiences. The following questions may guide you: 
+    You have been in the same team over the course of this semester (Projects 2-6). Look back on the entire semester and reflect on your team experiences. The following questions may guide you: 
     - What has worked, what hasn’t? 
     - If you could start 313 or another course over with the same team, what would you change? 
     - What have you learned about teamwork and your role in teamwork?
