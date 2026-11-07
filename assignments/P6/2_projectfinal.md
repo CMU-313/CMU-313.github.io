@@ -66,7 +66,7 @@ The goal of the presentation is primarily to share with the class the project to
 
     Your summary of your experiences can be at whatever level of detail you think is interesting or informative. Given the time limit, selecting and highlighting the one or two most important or interesting observations is likely more useful than trying to be complete.
 
-You must upload your slides as **a single PDF document** to Gradescope by **Monday, December 7th, 1:00pm**.
+You must upload your slides as **a single PDF document** to [Gradescope](https://www.gradescope.com/courses/1356702/assignments/8417901) by **Monday, December 7th, 1:00pm**.
 
 ## Project Report (100 points)
 
@@ -77,7 +77,7 @@ After completing and submitting the modification, write a report about the tasks
 
 Create a **copy** of the following Google Doc: [6B Project Report Template](https://docs.google.com/document/d/1QIAFDb_v3Mq6bgaVfljeliy1ndFi-uB-Y2rmdQjH5eg/edit?usp=sharing). **Make sure the document is located within the GDrive folder your TAs shared with you at the beginning of the semester.**
 
-As a team, write your responses to the questions in this doc. After you finish, have **one team member** copy and paste the responses of each question into the corresponding question in the 6B Project Report assignment on **Gradescope**. (This is to facilitate grading feedback) Be sure to also provide the **link to the Google Doc**. Add **all group members** to the submission. 
+As a team, write your responses to the questions in this doc. After you finish, have **one team member** copy and paste the responses of each question into the corresponding question in the [6B Project Report assignment on **Gradescope**](https://www.gradescope.com/courses/1356702/assignments/8417921). (This is to facilitate grading feedback) Be sure to also provide the **link to the Google Doc**. Add **all group members** to the submission. 
 
 ## Individual Reflection & Peer Evaluations (10 points)
 
@@ -108,4 +108,4 @@ Describe the specific work **each of your team members** have contributed toward
     - What have you learned about teamwork and your role in teamwork?
     - (Optional) Do you have any feedback on what we can do next year to help students work more effectively in teams? Bear in mind that the instructor-assigned heterogeneous teams of 3-5 students is non-negotiable. We anticipate problems as part of the learning experience, but would like to avoid unduly frustrating situations.
 
-A good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support them. Submit your reflection on **Gradescope** by Monday, December 7th, 11:59pm.
+A good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support them. Submit your reflection on [**Gradescope**](https://www.gradescope.com/courses/1356702/assignments/8417865) by Monday, December 7th, 11:59pm.

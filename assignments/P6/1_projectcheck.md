@@ -110,4 +110,4 @@ Your **5-7-minute** checkpoint presentation should include (the recommended slid
     - We expect you to identify risks that are specific to your project and team. For example, if you are working on a project that is written in a language that none of your team members have used before, you should identify this as a risk and discuss how you will mitigate it. 
     - We will not accept risks that are generic to all open source projects (e.g., "the project may be abandoned"), or risks that are generic to all software development projects (e.g., "the project may have bugs").
 
-Submit the presentation deck as a **single PDF** file per team to **Gradescope** and make the slides available to TAs through your shared GDrive team folder. You will be presenting the slide deck live in recitation on Monday, November 16th.
+Submit the presentation deck as a **single PDF** file per team to [**Gradescope**](https://www.gradescope.com/courses/1356702/assignments/8417918) and make the slides available to TAs through your shared GDrive team folder. You will be presenting the slide deck live in recitation on Monday, November 16th.
