@@ -7,17 +7,17 @@ nav_order: 20
 
 ## Deliverables
 
-**Project Report and Presentation** – due Friday, December 4th, 8:30am
+**Project Report and Presentation** – due Monday, December 7th, 1:00pm
 
-- [Project Report](#project-report-200-points) (200 points) 
-- [Extra Credit](#contributing-to-open-source) (20 points)
-- [Project Presentation Slides](#project-presentations-100-points) (100 points, graded based on presentation)
+- [Project Report](#project-report-100-points) (100 points)
+- [Extra Credit](#contributing-to-open-source) (10 points)
+- [Project Presentation Slides](#project-presentations-50-points) (50 points, graded based on presentation)
 
-**Presentation Date** – on Friday, December 4th, 8:30-11:30am, during exam timeslot
+**Presentation Date** – Monday, December 7th, 1:00-4:00pm, during the final exam timeslot
 
-**Individual Reflection** – due Friday, December 4th, 11:59pm
+**Individual Reflection** – due Monday, December 7th, 11:59pm
 
-- [Reflections & Peer Review](#individual-reflection-peer-evaluations-20-points)
+- [Reflections & Peer Review](#individual-reflection-peer-evaluations-10-points)
 
 ## Contributing to Open Source
 
@@ -31,12 +31,12 @@ Create any necessary documentation to enable acceptance of your code. Common con
 **You are required to submit your work to the open-source project**
 
 1. **BONUS: Get your changes accepted**  
-You will get a bonus **20 (5%) bonus points** upon acceptance. If your code is accepted after the homework deadline but before final grades are released, inform the course staff.
+You will get **10 bonus points** (5% of the project) upon acceptance. If your code is accepted after the homework deadline but before final grades are released, inform the course staff.
 
 ## Report, Presentation and Reflection
 You will report on your project and task selection, work, and experience in several ways (see below). This will include a group presentation to the class.
 
-## Project Presentations (100 points)
+## Project Presentations (50 points)
 
 The Final Exam time is dedicated to group presentations **(in-person)** about your open source contributions.
 
@@ -66,9 +66,9 @@ The goal of the presentation is primarily to share with the class the project to
 
     Your summary of your experiences can be at whatever level of detail you think is interesting or informative. Given the time limit, selecting and highlighting the one or two most important or interesting observations is likely more useful than trying to be complete.
 
-You must upload your slides as **a single PDF document** to Gradescope by **Friday, December 4th, 8:30am**.
+You must upload your slides as **a single PDF document** to Gradescope by **Monday, December 7th, 1:00pm**.
 
-## Project Report (200 points)
+## Project Report (100 points)
 
 After completing and submitting the modification, write a report about the tasks you have performed.
 
@@ -79,7 +79,7 @@ Create a **copy** of the following Google Doc: [6B Project Report Template](http
 
 As a team, write your responses to the questions in this doc. After you finish, have **one team member** copy and paste the responses of each question into the corresponding question in the 6B Project Report assignment on **Gradescope**. (This is to facilitate grading feedback) Be sure to also provide the **link to the Google Doc**. Add **all group members** to the submission. 
 
-## Individual Reflection & Peer Evaluations (20 points)
+## Individual Reflection & Peer Evaluations (10 points)
 
 !!! note "Contributions"
 
@@ -108,4 +108,4 @@ Describe the specific work **each of your team members** have contributed toward
     - What have you learned about teamwork and your role in teamwork?
     - (Optional) Do you have any feedback on what we can do next year to help students work more effectively in teams? Bear in mind that the instructor-assigned heterogeneous teams of 3-5 students is non-negotiable. We anticipate problems as part of the learning experience, but would like to avoid unduly frustrating situations.
 
-A good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support them. Submit your reflection on **Gradescope** by Friday, December 4th, 11:59pm.
+A good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support them. Submit your reflection on **Gradescope** by Monday, December 7th, 11:59pm.
