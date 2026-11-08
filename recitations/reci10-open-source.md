@@ -37,12 +37,10 @@ Submit the links to the 3 projects that you are most interested in pursuing for 
 
 ## Resources
 
-- A list of good first issues: [https://goodfirstissues.com/](https://goodfirstissues.com/)
-- Another list of good first issues: [https://goodfirstissue.dev/](https://goodfirstissue.dev/)
+- A list of good first issues: [https://goodfirstissue.dev/](https://goodfirstissue.dev/)
 - The GitHub page for the good-first-issue topic: [https://github.com/topics/good-first-issue](https://github.com/topics/good-first-issue)
 - A list of beginner friendly projects: [https://github.com/MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)
-- GitHub Showcase for new contributors: [https://github.com/showcases/great-for-new-contributors](https://github.com/MunGell/awesome-for-beginners)
+- GitHub Showcase for new contributors: [https://github.com/showcases/great-for-new-contributors](https://github.com/showcases/great-for-new-contributors)
 - Issues that are labeled “up-for-grabs”: [https://up-for-grabs.net](https://up-for-grabs.net)
-- Apache projects: [http://www.apache.org/](http://www.apache.org/)
-- Mozilla projects: [https://developer.mozilla.org/en-US/docs/MDN/Community/Contributing](https://developer.mozilla.org/en-US/docs/MDN/Community/Contributing)
-  - Mozilla has a number of Open Source projects (including Firefox and Thunderbird) that are actively being developed and they recommend bugs for new contributors
+- Apache project directory: [https://projects.apache.org/](https://projects.apache.org/)
+- Mozilla contribution opportunities: [https://www.mozilla.org/en-US/contribute/](https://www.mozilla.org/en-US/contribute/)
