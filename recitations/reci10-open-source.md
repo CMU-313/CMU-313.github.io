@@ -2,10 +2,12 @@
 kind: recitation
 title: Recitation 10 - Open Source Scavenger Hunt
 date: 2026-11-09
-reveal_date: 2027-01-01
+reveal_date: 2026-11-09
 ---
 
 # Recitation 10: Open Source Scavenger Hunt
+
+This recitation is an introduction to P6 and a chance to start brainstorming which open source project your team would like to work on. [Project 6](https://cmu-313.github.io/assignments/P6/) is now released. Your team's project selection is due **Friday, November 13th, 11:59pm**, so use today to find projects worth considering.
 
 ## Overview
 
@@ -22,7 +24,7 @@ The general criteria for an open source project:
 
 ## Scavenger Hunt (30 min)
 
-Open the [slide deck](https://docs.google.com/presentation/d/1kDJDpvoJyPx498idQi7xjilfYgkEJN0cwBMrXQzbewo/edit?usp=sharing) and make a copy of the slides for your team. Then, search for open source projects to fill each square in the Scavenger Hunt table. Each project can only count for one square. The goal is to have as many squares filled as possible!
+Open the [slide deck](https://docs.google.com/presentation/d/1GO3jSmWmhgYL-NU_fV9MBjq8zvfpEm0AfqA7u33Nq-0/edit?slide=id.g17ba9324a0d_0_41379#slide=id.g17ba9324a0d_0_41379) and **make a copy** of the slides for your team. Place the copied slide deck in your team's folder. Then, search for open source projects to fill each square in the Scavenger Hunt table. Each project can only count for one square. The goal is to have as many squares filled as possible!
 
 While learning about different open source projects, think about what type of projects you would be interested in working on for [Project 6](https://cmu-313.github.io/assignments/P6/).
 
@@ -31,16 +33,14 @@ While learning about different open source projects, think about what type of pr
 With your team, discuss the following questions:
 Which attributes make a good open source project? A bad open source project? Which 3 projects did you find that you would most like to work on? Which would you least like to work on? Why?
 
-Submit the links to the 3 projects that you are most interested in pursuing for [Project 6](https://cmu-313.github.io/assignments/P6/) to [Gradescope](https://www.gradescope.com/courses/1213157/assignments/7869777/)!
+Submit the links to the 3 projects that you are most interested in pursuing for [Project 6](https://cmu-313.github.io/assignments/P6/) to [Gradescope](https://www.gradescope.com/courses/1356702/assignments/8417898)!
 
 ## Resources
 
-- A list of good first issues: [https://goodfirstissues.com/](https://goodfirstissues.com/)
-- Another list of good first issues: [https://goodfirstissue.dev/](https://goodfirstissue.dev/)
+- A list of good first issues: [https://goodfirstissue.dev/](https://goodfirstissue.dev/)
 - The GitHub page for the good-first-issue topic: [https://github.com/topics/good-first-issue](https://github.com/topics/good-first-issue)
 - A list of beginner friendly projects: [https://github.com/MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)
-- GitHub Showcase for new contributors: [https://github.com/showcases/great-for-new-contributors](https://github.com/MunGell/awesome-for-beginners)
+- GitHub Showcase for new contributors: [https://github.com/showcases/great-for-new-contributors](https://github.com/showcases/great-for-new-contributors)
 - Issues that are labeled “up-for-grabs”: [https://up-for-grabs.net](https://up-for-grabs.net)
-- Apache projects: [http://www.apache.org/](http://www.apache.org/)
-- Mozilla projects: [https://developer.mozilla.org/en-US/docs/MDN/Community/Contributing](https://developer.mozilla.org/en-US/docs/MDN/Community/Contributing)
-  - Mozilla has a number of Open Source projects (including Firefox and Thunderbird) that are actively being developed and they recommend bugs for new contributors
+- Apache project directory: [https://projects.apache.org/](https://projects.apache.org/)
+- Mozilla contribution opportunities: [https://www.mozilla.org/en-US/contribute/](https://www.mozilla.org/en-US/contribute/)
