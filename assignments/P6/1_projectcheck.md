@@ -7,10 +7,10 @@ nav_order: 10
 
 ## Deliverables
 
-**Project & Task Selection** – 40 points
+**Project & Task Selection** – 100 points
 
 - [Project Selection](#open-source-project-selection) - enter project name and URL in the spreadsheet by Friday, November 13th, 11:59pm
-- [Task Selection Checkpoint Presentation](#checkpoint-presentation-40-pts) – slides due Sunday, November 15th, 11:59pm; in-person presentation on Monday, November 16th during recitation
+- [Task Selection Checkpoint Presentation](#checkpoint-presentation-100-pts) – slides due Sunday, November 15th, 11:59pm; in-person presentation on Monday, November 16th during recitation
 
 
 ## Open Source Project Selection
@@ -60,7 +60,7 @@ You are expected to **achieve your core goal for this project**, and stretch goa
 
 As per previous projects, ^^plan before you start coding^^. You should identify risks and requirements, and develop a collaboration plan and schedule. 
 
-## Checkpoint Presentation (40 pts)
+## Checkpoint Presentation (100 pts)
 
 Each team will create and present a checkpoint presentation. The slide deck will be due Sunday, November 15th, 11:59pm. The recitation right after (Monday, November 16th), you will present your checkpoint presentation to your classmates and receive feedback, suggestions, and/or advice.
 

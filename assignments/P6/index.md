@@ -39,7 +39,7 @@ checkpoints:
 
 Your high-level goal is to produce and submit a non-trivial modification or extension to an open-source project in a way that maximizes the chances that the project maintainers accept it. In past semesters, we've had teams merge code into popular open source projects like CPython, Pandas, and MyPy - see our [Hall of Fame](/hall-of-fame) for details.
 
-If you demonstrate to us that your change has been accepted and integrated into the project’s code base, you will get **10 bonus points**. Your team will select an open source project, select a change to implement, actually contribute to the project, and present your insights to the class. You will individually reflect on your teamwork and open source experience.
+If you demonstrate to us that your change has been accepted and integrated into the project’s code base, you will get **15 bonus points**. Your team will select an open source project, select a change to implement, actually contribute to the project, and present your insights to the class. You will individually reflect on your teamwork and open source experience.
 
 !!! warning "Follow the project's policy on AI"
 
@@ -48,23 +48,23 @@ If you demonstrate to us that your change has been accepted and integrated into 
     Be careful here. Maintainers are volunteers, and many are overwhelmed by low-quality AI-generated pull requests. Submitting code you cannot explain, or breaking a project's AI policy, wastes their time, will likely get your contribution rejected, and can get you banned from the project. It also hurts the reputation of every future 17-313 team that contributes there. You are responsible for understanding and standing behind every line you submit.
 
 ## Deliverables and Deadlines
-This is your final project with your group. There are 3 parts to this project. The project is worth a total of 200 points.
+This is your final project with your group. There are 3 parts to this project. The project is worth a total of 300 points.
 
-A) [**Project & Task Selection**](1_projectcheck.md) – 40 points
+A) [**Project & Task Selection**](1_projectcheck.md) – 100 points
 
 - Project selection - **due Friday, November 13th, 11:59pm**
-- Checkpoint Presentation (slide deck) (40 points) - **due Sunday, November 15th, 11:59pm**
+- Checkpoint Presentation (slide deck) (100 points) - **due Sunday, November 15th, 11:59pm**
 - In-Person Presentation of Check-In Slides - **Monday, November 16th during recitation**
 
-B) [**Project Final Report & Presentations**](2_projectfinal.md) – 150 points
+B) [**Project Final Report & Presentations**](2_projectfinal.md) – 160 points
 
-- Project Report (100 points) - **due Monday, December 7th, 1:00pm**
-- *Extra Credit (10 points)*
-- Project Presentation (50 points) - **Held during the final exam timeslot on Monday, December 7th, 1:00pm-4:00pm**
+- Project Report (60 points) - **due Monday, December 7th, 1:00pm**
+- *Extra Credit (15 points)*
+- Project Presentation (100 points) - **Held during the final exam timeslot on Monday, December 7th, 1:00pm-4:00pm**
 
-C) [**Individual Reflections**](2_projectfinal.md) – 10 points
+C) [**Individual Reflections**](2_projectfinal.md) – 40 points
 
-- Reflections & Peer Review (10 points) - **due Monday, December 7th, 11:59pm**
+- Reflections & Peer Review (40 points) - **due Monday, December 7th, 11:59pm**
 
 !!! tip
 

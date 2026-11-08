@@ -9,15 +9,15 @@ nav_order: 20
 
 **Project Report and Presentation** – due Monday, December 7th, 1:00pm
 
-- [Project Report](#project-report-100-points) (100 points)
-- [Extra Credit](#contributing-to-open-source) (10 points)
-- [Project Presentation Slides](#project-presentations-50-points) (50 points, graded based on presentation)
+- [Project Report](#project-report-60-points) (60 points)
+- [Extra Credit](#contributing-to-open-source) (15 points)
+- [Project Presentation Slides](#project-presentations-100-points) (100 points, graded based on presentation)
 
 **Presentation Date** – Monday, December 7th, 1:00-4:00pm, during the final exam timeslot
 
 **Individual Reflection** – due Monday, December 7th, 11:59pm
 
-- [Reflections & Peer Review](#individual-reflection-peer-evaluations-10-points)
+- [Reflections & Peer Review](#individual-reflection-peer-evaluations-40-points)
 
 ## Contributing to Open Source
 
@@ -31,12 +31,12 @@ Create any necessary documentation to enable acceptance of your code. Common con
 **You are required to submit your work to the open-source project**
 
 1. **BONUS: Get your changes accepted**  
-You will get **10 bonus points** (5% of the project) upon acceptance. If your code is accepted after the homework deadline but before final grades are released, inform the course staff.
+You will get **15 bonus points** (5% of the project) upon acceptance. If your code is accepted after the homework deadline but before final grades are released, inform the course staff.
 
 ## Report, Presentation and Reflection
 You will report on your project and task selection, work, and experience in several ways (see below). This will include a group presentation to the class.
 
-## Project Presentations (50 points)
+## Project Presentations (100 points)
 
 The Final Exam time is dedicated to group presentations **(in-person)** about your open source contributions.
 
@@ -68,7 +68,7 @@ The goal of the presentation is primarily to share with the class the project to
 
 You must upload your slides as **a single PDF document** to [Gradescope](https://www.gradescope.com/courses/1356702/assignments/8417901) by **Monday, December 7th, 1:00pm**.
 
-## Project Report (100 points)
+## Project Report (60 points)
 
 After completing and submitting the modification, write a report about the tasks you have performed.
 
@@ -79,7 +79,7 @@ Create a **copy** of the following Google Doc: [6B Project Report Template](http
 
 As a team, write your responses to the questions in this doc. After you finish, have **one team member** copy and paste the responses of each question into the corresponding question in the [6B Project Report assignment on **Gradescope**](https://www.gradescope.com/courses/1356702/assignments/8417921). (This is to facilitate grading feedback) Be sure to also provide the **link to the Google Doc**. Add **all group members** to the submission. 
 
-## Individual Reflection & Peer Evaluations (10 points)
+## Individual Reflection & Peer Evaluations (40 points)
 
 !!! note "Contributions"
 
