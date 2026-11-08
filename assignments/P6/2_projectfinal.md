@@ -31,7 +31,7 @@ Create any necessary documentation to enable acceptance of your code. Common con
 **You are required to submit your work to the open-source project**
 
 1. **BONUS: Get your changes accepted**  
-You will get **15 bonus points** (5% of the project) upon acceptance. If your code is accepted after the homework deadline but before final grades are released, inform the course staff.
+You will get **15 bonus points** (5% of the project) upon acceptance. If your code is merged after the report is due, DM the merged PR link to your recitation TAs (you can also include Professors Hilton and Sunshine) by **December 15th, 11:59pm** to claim the bonus.
 
 ## Report, Presentation and Reflection
 You will report on your project and task selection, work, and experience in several ways (see below). This will include a group presentation to the class.
