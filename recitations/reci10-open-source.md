@@ -7,7 +7,7 @@ reveal_date: 2026-11-09
 
 # Recitation 10: Open Source Scavenger Hunt
 
-This recitation is an introduction to P6 and a chance to start brainstorming which open source project your team would like to work on. P6 will be officially released after P5. Don't worry about P6 specifics yet—the assignment has not officially started!
+This recitation is an introduction to P6 and a chance to start brainstorming which open source project your team would like to work on. [Project 6](https://cmu-313.github.io/assignments/P6/) is now released. Your team's project selection is due **Friday, November 13th, 11:59pm**, so use today to find projects worth considering.
 
 ## Overview
 
