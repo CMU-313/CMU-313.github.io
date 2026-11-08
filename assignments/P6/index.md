@@ -12,12 +12,8 @@ checkpoints:
     due_at: "2026-11-15T23:59:00-05:00"
     link: "1_projectcheck.md"
   - date: 2026-12-07
-    title: "Project Final Report & Presentations"
+    title: "Final Report & Presentations (1:00pm); Individual Reflections (11:59pm)"
     due_at: "2026-12-07T13:00:00-05:00"
-    link: "2_projectfinal.md"
-  - date: 2026-12-07
-    title: "Individual Reflections"
-    due_at: "2026-12-07T23:59:00-05:00"
     link: "2_projectfinal.md"
 ---
 
