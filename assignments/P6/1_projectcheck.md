@@ -7,15 +7,15 @@ nav_order: 10
 
 ## Deliverables
 
-**Project & Task Selection** – 80 points
+**Project & Task Selection** – 100 points
 
-- [Project Selection](#open-source-project-selection) - enter project name and URL in the spreadsheet by Monday, November 23rd, 11:59pm
-- [Task Selection Checkpoint Presentation](#checkpoint-presentation-80-pts) – slides due Sunday, November 29th, 11:59pm; in-person presentation on Monday, November 30th during recitation
+- [Project Selection](#open-source-project-selection) - enter project name and URL in the spreadsheet by Friday, November 13th, 11:59pm
+- [Task Selection Checkpoint Presentation](#checkpoint-presentation-100-pts) – slides due Sunday, November 15th, 11:59pm; in-person presentation on Monday, November 16th during recitation
 
 
 ## Open Source Project Selection
 
-You may select any active open source project in any language, **as long as it's not already selected by another team.** You can find a list of open source projects selected by other teams on the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=1014646255#gid=1014646255)**.
+You may select any active open source project in any language, **as long as it's not already selected by another team.** You can find a list of open source projects selected by other teams on the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1h2fk0PSsXqyByGr76BPYp8mDSUAwLbqP87ash0XV-Bs/edit?gid=893155247#gid=893155247)**.
 
 Here are some helpful resources for finding open source projects:
 
@@ -26,7 +26,7 @@ Here are some helpful resources for finding open source projects:
 - [A list of beginner friendly projects](https://github.com/MunGell/awesome-for-beginners)
 - [Apache projects](http://www.apache.org/)
 - [Mozilla projects](https://firefox-source-docs.mozilla.org/contributing/contributing_to_mozilla.html)
-- You may also check the other sheets in the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=1014646255#gid=1014646255)** which will include Projects teams from past semesters have contributed to and whether or not their PRs were merged into main.
+- You may also check the other sheets in the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1h2fk0PSsXqyByGr76BPYp8mDSUAwLbqP87ash0XV-Bs/edit?gid=893155247#gid=893155247)** which will include Projects teams from past semesters have contributed to and whether or not their PRs were merged into main.
 
 You may want to consider any open-source projects you have used before, or are interested in using in the future!
 
@@ -34,7 +34,9 @@ The open source project you pick should be ^^active^^ and ^^have multiple contri
 
 If you have questions on if we would consider a project active, contact the course staff.
 
-Once you have selected a project, add it to the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1HFaFcD7q7YW4Bxa87JuSj9DgmkyQ-PBrEhUzfJtMpck/edit?gid=1014646255#gid=1014646255)**. We highly recommend you also think about potential tasks (see below) before finalizing on a project, as your success depends heavily on the chosen task(s).
+Also check the project's **policy on AI-assisted contributions** before you choose it (see `CONTRIBUTING.md`, the pull request template, or ask the maintainers). If you plan to use AI tools for this project, pick a project whose policy allows it, and follow that policy in all of your code, pull requests, and messages to the community.
+
+Once you have selected a project, add it to the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1h2fk0PSsXqyByGr76BPYp8mDSUAwLbqP87ash0XV-Bs/edit?gid=893155247#gid=893155247)**. We highly recommend you also think about potential tasks (see below) before finalizing on a project, as your success depends heavily on the chosen task(s).
 
 ## Task Selection
 
@@ -58,21 +60,21 @@ You are expected to **achieve your core goal for this project**, and stretch goa
 
 As per previous projects, ^^plan before you start coding^^. You should identify risks and requirements, and develop a collaboration plan and schedule. 
 
-## Checkpoint Presentation (80 pts)
+## Checkpoint Presentation (100 pts)
 
-Each team will create and present a checkpoint presentation. The slide deck will be due Sunday, November 29th, 11:59pm. The recitation right after (November 30th), you will present your checkpoint presentation to your classmates and receive feedback, suggestions, and/or advice.
+Each team will create and present a checkpoint presentation. The slide deck will be due Sunday, November 15th, 11:59pm. The recitation right after (Monday, November 16th), you will present your checkpoint presentation to your classmates and receive feedback, suggestions, and/or advice.
 
 !!! note "Time Management"
-        - The in-person presentations should be **5-7 minutes long**
-        - Participation from all team members during the presentation is **required**
-        - Be on time for recitation!
+    - The in-person presentations should be **5-7 minutes long**
+    - Participation from all team members during the presentation is **required**
+    - Be on time for recitation!
 
 **Your group presentation will serve as a check-in to determine if the open source project and task(s) chosen were reasonable**
 
 Your **5-7-minute** checkpoint presentation should include (the recommended slides amount is in parenthesis):
 
 1.	**Overview and Justification** (~1 slide)     
-    An overview on the project you selected, summarizing the relevant characteristics you considered when making your selection. Beyond whatever additional information you collect in your research, include at least a name, a website link, and a brief description of the project (what it does, who uses it, etc). 
+    An overview on the project you selected, summarizing the relevant characteristics you considered when making your selection. Beyond whatever additional information you collect in your research, include at least a name, a website link, a brief description of the project (what it does, who uses it, etc), and a summary of the project's policy on AI-assisted contributions, with a link to where it is stated. 
     <br/>
 
 2.	**Successful Build** (~1 slide)     
@@ -108,4 +110,4 @@ Your **5-7-minute** checkpoint presentation should include (the recommended slid
     - We expect you to identify risks that are specific to your project and team. For example, if you are working on a project that is written in a language that none of your team members have used before, you should identify this as a risk and discuss how you will mitigate it. 
     - We will not accept risks that are generic to all open source projects (e.g., "the project may be abandoned"), or risks that are generic to all software development projects (e.g., "the project may have bugs").
 
-Submit the presentation deck as a **single PDF** file per team to **Gradescope** and make the slides available to TAs through your shared GDrive team folder. You will be presenting the slide deck live in recitation on Monday, November 30th.
+Submit the presentation deck as a **single PDF** file per team to [**Gradescope**](https://www.gradescope.com/courses/1356702/assignments/8417918) and make the slides available to TAs through your shared GDrive team folder. You will be presenting the slide deck live in recitation on Monday, November 16th.

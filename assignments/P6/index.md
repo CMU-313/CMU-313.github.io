@@ -1,23 +1,19 @@
 ---
 title: "Project 6: Open Source Excursion"
-release_date: 2026-11-16
-due_date: 2026-12-04
+release_date: 2026-11-08
+due_date: 2026-12-07
 checkpoints:
-  - date: 2026-11-23
+  - date: 2026-11-13
     title: "Project Selection"
-    due_at: "2026-11-23T23:59:00-05:00"
+    due_at: "2026-11-13T23:59:00-05:00"
     link: "1_projectcheck.md"
-  - date: 2026-11-30
-    title: "Checkpoint Presentation"
-    due_at: "2026-11-30T23:59:00-05:00"
+  - date: 2026-11-15
+    title: "Checkpoint Presentation Slides"
+    due_at: "2026-11-15T23:59:00-05:00"
     link: "1_projectcheck.md"
-  - date: 2026-12-04
-    title: "Project Final Report & Presentations"
-    due_at: "2026-12-04T08:30:00-05:00"
-    link: "2_projectfinal.md"
-  - date: 2026-12-04
-    title: "Individual Reflections"
-    due_at: "2026-12-04T23:59:00-05:00"
+  - date: 2026-12-07
+    title: "Final Report & Presentations (1:00pm); Individual Reflections (11:59pm)"
+    due_at: "2026-12-07T13:00:00-05:00"
     link: "2_projectfinal.md"
 ---
 
@@ -39,26 +35,32 @@ checkpoints:
 
 Your high-level goal is to produce and submit a non-trivial modification or extension to an open-source project in a way that maximizes the chances that the project maintainers accept it. In past semesters, we've had teams merge code into popular open source projects like CPython, Pandas, and MyPy - see our [Hall of Fame](/hall-of-fame) for details.
 
-If you demonstrate to us that your change has been accepted and integrated into the project’s code base, you will get **20 bonus points**. Your team will select an open source project, select a change to implement, actually contribute to the project, and present your insights to the class. You will individually reflect on your teamwork and open source experience.
+If you demonstrate to us that your change has been accepted and integrated into the project’s code base, you will get **15 bonus points**. Your team will select an open source project, select a change to implement, actually contribute to the project, and present your insights to the class. You will individually reflect on your teamwork and open source experience.
+
+!!! warning "Follow the project's policy on AI"
+
+    Many open-source projects now have explicit rules about AI-assisted contributions. Some ban AI-generated code or text outright, some require you to disclose which tools you used, and others leave it to the reviewer. **Before you commit to a project, find its policy** (look in `CONTRIBUTING.md`, the code of conduct, the pull request template, and recent maintainer discussions) and follow it in everything you send the project: code, pull request descriptions, issue comments, and chat messages. If the project has no written policy, ask the maintainers before relying on AI tools.
+
+    Be careful here. Maintainers are volunteers, and many are overwhelmed by low-quality AI-generated pull requests. Submitting code you cannot explain, or breaking a project's AI policy, wastes their time, will likely get your contribution rejected, and can get you banned from the project. It also hurts the reputation of every future 17-313 team that contributes there. You are responsible for understanding and standing behind every line you submit.
 
 ## Deliverables and Deadlines
-This is your final project with your group. There are 3 parts to this project. The project is worth a total of 400 points (~20% of your final grade). 
+This is your final project with your group. There are 3 parts to this project. The project is worth a total of 300 points.
 
-A) [**Project & Task Selection**](1_projectcheck.md) – 80 points
+A) [**Project & Task Selection**](1_projectcheck.md) – 100 points
 
-- Project selection - **due Monday, November 23rd, 11:59pm**
-- Checkpoint Presentation (slide deck) (80 points) - **due Sunday, November 29th, 11:59pm**
-- In-Person Presentation of Check-In Slides - **due Monday, November 30th during recitation**
+- Project selection - **due Friday, November 13th, 11:59pm**
+- Checkpoint Presentation (slide deck) (100 points) - **due Sunday, November 15th, 11:59pm**
+- In-Person Presentation of Check-In Slides - **Monday, November 16th during recitation**
 
-B) [**Project Final Report & Presentations**](2_projectfinal.md) – 300 points
+B) [**Project Final Report & Presentations**](2_projectfinal.md) – 160 points
 
-- Project Report (200 points) - **due Friday, December 4th, 8:30am**
-- *Extra Credit (20 points)*
-- Project Presentation (100 points) - **Held during exam timeslot on Friday, December 4th @ 8:30am-11:30am**
+- Project Report (60 points) - **due Monday, December 7th, 1:00pm**
+- *Extra Credit (15 points)*
+- Project Presentation (100 points) - **Held during the final exam timeslot on Monday, December 7th, 1:00pm-4:00pm**
 
-C) [**Individual Reflections**](2_projectfinal.md) – 20 points
+C) [**Individual Reflections**](2_projectfinal.md) – 40 points
 
-- Reflections & Peer Review (20 points) - **due Friday, December 4th, 11:59pm**
+- Reflections & Peer Review (40 points) - **due Monday, December 7th, 11:59pm**
 
 !!! tip
 
