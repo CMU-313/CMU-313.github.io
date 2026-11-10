@@ -162,7 +162,8 @@ schedule:
 
     - kind: lecture
       date: 2026-11-10
-      title: "Guest Lecture by Chris M"
+      title: "Open Source"
+      link: /assets/pdfs/19-open-source.pdf
 
     - kind: lecture
       date: 2026-11-12
