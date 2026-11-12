@@ -6,7 +6,7 @@ course:
   code: 17-313
 
 staff:
-  - name: Michael Hilton 
+  - name: Michael Hilton
     role: instructor
     email: mhilton@cmu.edu
     website: https://www.cs.cmu.edu/~mhilton/
@@ -30,23 +30,22 @@ staff:
     role: teaching-assistant
     email: barameeb@andrew.cmu.edu
     photo: Bing.jpeg
-  - name:  Cindy Wang
+  - name: Cindy Wang
     role: teaching-assistant
     email: xinyuew4@andrew.cmu.edu
     photo: cindywang.jpg
-  - name:  Anabella Chyan
+  - name: Anabella Chyan
     role: teaching-assistant
     email: aarzate@andrew.cmu.edu
     photo: Anabella-Chyan.jpg
-  - name:  Long Nguyen
+  - name: Long Nguyen
     role: teaching-assistant
     email: longtien@andrew.cmu.edu
     photo: Long-Nguyen.jpg
-  - name:  Shrey Tiwari
+  - name: Shrey Tiwari
     role: teaching-assistant
     email: smtiwari@andrew.cmu.edu
     photo: Shrey-Tiwari.jpg
-
 
 schedule:
   start_date: 2026-08-25
@@ -100,12 +99,11 @@ schedule:
       title: "Software Specifications"
       link: /assets/pdfs/07-specs.pdf
 
-
     - kind: lecture
       date: 2026-09-17
       title: "Design Docs"
       link: /assets/pdfs/08-design-docs.pdf
-   
+
     - kind: lecture
       date: 2026-09-22
       title: "Unit Testing I"
@@ -168,10 +166,11 @@ schedule:
     - kind: lecture
       date: 2026-11-12
       title: "Static Analysis"
+      link: /assets/pdfs/20-static-analysis.pdf
 
     - kind: lecture
       date: 2026-11-17
-      title: "Ethics"
+      title: "Guest Lecture"
 
     - kind: midterm
       date: 2026-11-19
@@ -179,7 +178,7 @@ schedule:
 
     - kind: lecture
       date: 2026-11-24
-      title: "Open Source + Licenses + Dependencies"
+      title: "Testing AI Systems"
 
     - kind: lecture
       date: 2026-12-01
