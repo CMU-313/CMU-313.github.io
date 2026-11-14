@@ -1,0 +1,3005 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../../P6/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>Project 5: Mutation Testing & Red Team - CMU 17-313: Foundations of Software Engineering</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#project-5-mutation-testing-red-team" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="CMU 17-313: Foundations of Software Engineering" class="md-header__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering" data-md-component="logo">
+      
+  <img src="../../../assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CMU 17-313: Foundations of Software Engineering
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Project 5: Mutation Testing & Red Team
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../overview/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Course Overview
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../syllabus/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Syllabus
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Projects
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../recitations/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Recitations
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../hall-of-fame/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Hall of Fame
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../P1/development-tools-guide/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Resources
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://canvas.cmu.edu/courses/51340" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Canvas
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://www.gradescope.com/courses/1213157" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Gradescope
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://join.slack.com/t/cmu-313-s26/shared_invite/zt-3lm0t5j8k-kriwFq_6SZDHEcSV1c2PSg" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Slack
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="CMU 17-313: Foundations of Software Engineering" class="md-nav__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering" data-md-component="logo">
+      
+  <img src="../../../assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    CMU 17-313: Foundations of Software Engineering
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../syllabus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Syllabus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Projects
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../P1/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 1: Hello, opencode!
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Project 1: Hello, opencode!
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/1_checkpoint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1A Build Checkpoint
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/2_refactoring/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1B Starter Task
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/development-tools-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Development Tools Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/git-commands-reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Git Commands Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/documentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources and Documentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/developmentContainer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Development Container Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/github/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GitHub Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../P2/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 2: Collaborative Development
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Project 2: Collaborative Development
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P2/1_teamprocess/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2A Team Process & Planning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P2/2_firstsprint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2B First Sprint
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P2/3_secondsprint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2C Second Sprint
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../P3/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 3: Elicit
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Project 3: Elicit
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P3/1_elicit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interviews & Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../P4/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 4: Specify and Fix
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Project 4: Specify and Fix
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P4/1_specify/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 4: Properties & Fixes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 5: Break and Fix
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Project 5: Break and Fix
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 5: Mutation Testing & Red Team
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 5: Mutation Testing & Red Team
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hand-written-mutants-with-predictions-30-pts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hand-Written Mutants with Predictions (30 pts)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stryker-run-comparison-35-pts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stryker Run &amp; Comparison (35 pts)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Stryker Run &amp; Comparison (35 pts)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#running-stryker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Running Stryker
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparison
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strengthening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Strengthening
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agent-failure-case-20-pts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agent Failure Case (20 pts)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#retrospective-15-pts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Retrospective (15 pts)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Retrospective (15 pts)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements-properties-and-mutants-projects-35" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requirements, properties, and mutants (Projects 3–5)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#working-with-an-ai-agent-projects-15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working with an AI agent (Projects 1–5)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extra-credit-cross-team-red-team-up-to-10-pts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extra Credit: Cross-Team Red Team (up to 10 pts)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Extra Credit: Cross-Team Red Team (up to 10 pts)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#signing-up-by-saturday-november-7-1159pm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Signing up – by Saturday, November 7, 11:59PM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attack-5-pts-due-tuesday-november-10-1159pm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attack (5 pts) – due Tuesday, November 10, 11:59PM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defend-5-pts-due-with-the-rest-of-the-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defend (5 pts) – due with the rest of the project
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#landing-your-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Landing Your Work
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#submission" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Submission
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grading
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../P6/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project 6: Open Source Excursion
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Project 6: Open Source Excursion
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P6/1_projectcheck/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6A Project and Task Selection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P6/2_projectfinal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6B & C Project Presentations, Final Report, and Reflections
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../recitations/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitations
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Recitations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci1-typescript/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 1 - Learning Typescript (Asynchronous)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci10-open-source/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 10 - Open Source Scavenger Hunt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci2-angularjs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 2 - Angular.js and MVC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci2-teamcontract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 2 - Team Contract Workshop
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci3-estimates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 3 - Estimation Exercise
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci4-team-dysfunction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 4 - Team Dysfunction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci5-checkpoint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 5 - P2B Checkpoint Presentations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci6-midterm-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 6 - Midterm Review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci7-pbt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 7 - Property Based Testing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci8-docker/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 8 - Docker and Containerization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recitations/reci9-vercel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recitation 9 - CI/CD with Vercel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../hall-of-fame/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hall of Fame
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Resources
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/development-tools-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Development Tools Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/git-commands-reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Git Commands Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/documentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources and Documentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P1/github/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GitHub Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../extra_resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Extra Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://canvas.cmu.edu/courses/51340" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Canvas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.gradescope.com/courses/1213157" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gradescope
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://join.slack.com/t/cmu-313-s26/shared_invite/zt-3lm0t5j8k-kriwFq_6SZDHEcSV1c2PSg" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Slack
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hand-written-mutants-with-predictions-30-pts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hand-Written Mutants with Predictions (30 pts)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stryker-run-comparison-35-pts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stryker Run &amp; Comparison (35 pts)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Stryker Run &amp; Comparison (35 pts)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#running-stryker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Running Stryker
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparison
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strengthening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Strengthening
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agent-failure-case-20-pts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agent Failure Case (20 pts)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#retrospective-15-pts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Retrospective (15 pts)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Retrospective (15 pts)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements-properties-and-mutants-projects-35" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requirements, properties, and mutants (Projects 3–5)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#working-with-an-ai-agent-projects-15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Working with an AI agent (Projects 1–5)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extra-credit-cross-team-red-team-up-to-10-pts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extra Credit: Cross-Team Red Team (up to 10 pts)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Extra Credit: Cross-Team Red Team (up to 10 pts)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#signing-up-by-saturday-november-7-1159pm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Signing up – by Saturday, November 7, 11:59PM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attack-5-pts-due-tuesday-november-10-1159pm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attack (5 pts) – due Tuesday, November 10, 11:59PM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defend-5-pts-due-with-the-rest-of-the-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defend (5 pts) – due with the rest of the project
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#landing-your-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Landing Your Work
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#submission" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Submission
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grading
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="project-5-mutation-testing-red-team">Project 5: Mutation Testing &amp; Red Team<a class="headerlink" href="#project-5-mutation-testing-red-team" title="Permanent link">&para;</a></h1>
+<h2 id="deliverables">Deliverables<a class="headerlink" href="#deliverables" title="Permanent link">&para;</a></h2>
+<p><strong>Mutation Testing &amp; Red Team</strong> – 100 points – due Thursday, November 12, 2026, 11:59PM</p>
+<ul>
+<li><a href="#hand-written-mutants-with-predictions-30-pts">Hand-Written Mutants with Predictions (30 pts)</a></li>
+<li><a href="#stryker-run-comparison-35-pts">Stryker Run &amp; Comparison (35 pts)</a></li>
+<li><a href="#agent-failure-case-20-pts">Agent Failure Case (20 pts)</a></li>
+<li><a href="#retrospective-15-pts">Retrospective (15 pts)</a></li>
+<li><a href="#extra-credit-cross-team-red-team-up-to-10-pts">Extra Credit: Cross-Team Red Team (up to 10 pts)</a> – optional; sign up by Saturday, November 7, mutants due Tuesday, November 10, 11:59PM</li>
+</ul>
+<p>All of your work for this project continues on <strong>your own branch</strong> from Project 4 (e.g. <code>&lt;andrewid&gt;/properties</code>), and you keep pushing to the <strong>same pull request</strong> you opened in Project 4. Bring your branch up to date with <code>main</code> before you start, and again once a teammate merges the Stryker dependency.</p>
+<h2 id="hand-written-mutants-with-predictions-30-pts">Hand-Written Mutants with Predictions (30 pts)<a class="headerlink" href="#hand-written-mutants-with-predictions-30-pts" title="Permanent link">&para;</a></h2>
+<p>Before running any tool, design about <strong>5 mutants</strong> by hand. Each one should be designed to break a <strong>specific requirement</strong> in your traceability table while still looking plausible, the kind of bug that could survive a code review. For example:</p>
+<ul>
+<li>An off-by-one at a boundary</li>
+<li>An undo that restores everything except one field</li>
+<li>An error that is silently swallowed instead of reported</li>
+<li>A rule-matching loop that stops one rule too early</li>
+</ul>
+<p>For each mutant, <strong>before you run it</strong>, predict which property (if any) should kill it, and why.</p>
+<p>Save each mutant as a patch file in your branch at <code>mutants/&lt;andrewid&gt;/H1.patch</code>, <code>H2.patch</code>, and so on. One way to make one: edit the source, run <code>git diff &gt; mutants/&lt;andrewid&gt;/H1.patch</code>, then <code>git checkout -- &lt;file&gt;</code> to undo the edit. To run a mutant later, <code>git apply</code> the patch, run your tests, and revert.</p>
+<p>Record your results in a <strong>Hand-written mutants</strong> section of your traceability file:</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requirement targeted</th>
+<th>Change</th>
+<th>Predicted killer</th>
+<th>Actual result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H1</td>
+<td>R1</td>
+<td><code>rate-limit.ts</code>: window reset check changed from <code>&gt;=</code> to <code>&gt;</code>, so a request exactly at the reset time is still delayed</td>
+<td>"No window exceeds the limit" (R1)</td>
+<td>Survived: the generator never produced a request landing exactly on a window boundary</td>
+</tr>
+</tbody>
+</table>
+<p>As in Project 4, this example uses a made-up feature. Your mutants must target your own requirements.</p>
+<p>Then add a <strong>Mutants it kills</strong> column to your main traceability table and fill it in for each requirement.</p>
+<h2 id="stryker-run-comparison-35-pts">Stryker Run &amp; Comparison (35 pts)<a class="headerlink" href="#stryker-run-comparison-35-pts" title="Permanent link">&para;</a></h2>
+<h3 id="running-stryker">Running Stryker<a class="headerlink" href="#running-stryker" title="Permanent link">&para;</a></h3>
+<p><a href="https://stryker-mutator.io/">Stryker</a> generates mutants automatically and runs your tests against each one. Install it in the package containing your feature:</p>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>packages/opencode
+bun<span class="w"> </span>add<span class="w"> </span>-d<span class="w"> </span>@stryker-mutator/core
+</code></pre></div>
+<p>As with fast-check in Project 4, have <strong>one</strong> teammate add Stryker in a small PR so your branches don't conflict on <code>package.json</code> and <code>bun.lock</code>.</p>
+<p>Each team member needs their own configuration, so name yours <code>stryker.&lt;andrewid&gt;.config.json</code> and put it in that package. Use the <strong>command</strong> test runner so Stryker runs <code>bun test</code>, and scope it to your own work:</p>
+<ul>
+<li><strong>Run only your property tests.</strong> Point the command at your property test file, not the whole test folder. Otherwise opencode's existing tests also kill mutants, and your score no longer measures <em>your</em> properties. It's much faster too.</li>
+<li><strong>Mutate only the code your requirements cover.</strong> Mutating a whole folder creates mutants in code your properties never call, and they all survive. You can list single files, or a line range such as <code>src/&lt;feature&gt;/index.ts:28-38</code> for just the functions you test.</li>
+</ul>
+<p>For example:</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">"testRunner"</span><span class="p">:</span><span class="w"> </span><span class="s2">"command"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"commandRunner"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bun test test/&lt;feature&gt;/&lt;feature&gt;.property.test.ts"</span><span class="w"> </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">"mutate"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"src/&lt;feature&gt;/&lt;file&gt;.ts:&lt;start&gt;-&lt;end&gt;"</span><span class="p">],</span>
+<span class="w">  </span><span class="nt">"coverageAnalysis"</span><span class="p">:</span><span class="w"> </span><span class="s2">"off"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"reporters"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"html"</span><span class="p">,</span><span class="w"> </span><span class="s2">"clear-text"</span><span class="p">,</span><span class="w"> </span><span class="s2">"progress"</span><span class="p">]</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Run it with <code>bunx stryker run stryker.&lt;andrewid&gt;.config.json</code>. Scoped like this, a run should take seconds to a few minutes. If it's taking much longer, check that the command runs only your property file.</p>
+<div class="admonition warning">
+<p class="admonition-title">Fix your fast-check seed</p>
+<p>fast-check generates different inputs on every run, so a mutant can be killed in one run and survive the next. Before running Stryker, fix the seed for your property tests (for example, <code>fc.configureGlobal({ seed: 42 })</code> at the top of your test file, or <code>{ seed: 42 }</code> as the second argument to <code>fc.assert</code>). Record the seed in your Stryker comparison section.</p>
+</div>
+<p>Stryker writes its report to <code>reports/mutation/mutation.html</code> in the package, and every teammate's run writes to the same place. <strong>Copy</strong> your report to <code>mutants/&lt;andrewid&gt;/mutation.html</code> and commit that copy. Add <code>reports/</code> and <code>.stryker-tmp/</code> (Stryker's scratch folder) to the package's <code>.gitignore</code> so neither ends up in a PR.</p>
+<h3 id="comparison">Comparison<a class="headerlink" href="#comparison" title="Permanent link">&para;</a></h3>
+<p>In a <strong>Stryker comparison</strong> section of your traceability file, report your mutation score and answer:</p>
+<ul>
+<li>Which of your hand-written mutants did Stryker <strong>never</strong> generate? Why not?</li>
+<li>Which Stryker survivors would you <strong>never</strong> have thought of? Are any of them bugs a real developer might plausibly write?</li>
+<li>What does each approach find that the other doesn't?</li>
+</ul>
+<h3 id="strengthening">Strengthening<a class="headerlink" href="#strengthening" title="Permanent link">&para;</a></h3>
+<p>Kill surviving mutants (hand-written and Stryker) by <strong>improving your properties</strong> where possible: better generators, stronger assertions, or a new property for a requirement you hadn't fully captured. Do not kill survivors by adding example-based tests.</p>
+<p>Some mutants are <strong>equivalent</strong>: the change doesn't alter the program's behavior in any observable way, so no test can kill them. For each mutant you claim is equivalent, give a 2–3 sentence argument why. Report your final mutation score both as Stryker reports it and with equivalent mutants excluded.</p>
+<h2 id="agent-failure-case-20-pts">Agent Failure Case (20 pts)<a class="headerlink" href="#agent-failure-case-20-pts" title="Permanent link">&para;</a></h2>
+<p>AI agents are good at producing tests that <em>look</em> thorough. Find <strong>one property written or suggested by opencode</strong> that let a hand-written or Stryker mutant survive. Common reasons:</p>
+<ul>
+<li>A <strong>weak oracle</strong>: the property checks something that is true no matter what (e.g. "the result is a boolean")</li>
+<li>An <strong>always-passing property</strong>: the assertion restates the implementation, so it can't disagree with it</li>
+<li>A <strong>generator that never reaches the bug</strong>: inputs too narrow, too random, or missing the boundary</li>
+</ul>
+<p>If none of your existing properties came from opencode, ask opencode now to write a property for one of your requirements, and run your mutants against it.</p>
+<p>In an <strong>Agent failure case</strong> section of your traceability file, include:</p>
+<ul>
+<li>An excerpt of the opencode transcript where the property was written or suggested: paste the relevant prompt and response into the file (a screenshot is fine), and if you can, add a share link from opencode's <code>/share</code> command</li>
+<li>The mutant it let survive</li>
+<li>An explanation of why the property was too weak</li>
+<li>Your strengthened version, and evidence that it kills the mutant</li>
+</ul>
+<h2 id="retrospective-15-pts">Retrospective (15 pts)<a class="headerlink" href="#retrospective-15-pts" title="Permanent link">&para;</a></h2>
+<p>This is the last project on opencode, so take stock of what you built and how you built it. Answer the questions below in the <strong>Project 5: Retrospective</strong> assignment on Gradescope (not in your traceability file). Each answer should be <strong>2–4 sentences</strong>.</p>
+<p>Be specific: name the requirement (R#), interview note (e.g. <code>C-4</code>), mutant (e.g. H2), or project you mean. Answers that could have been written without doing the work won't get credit. You're graded on specificity and honesty, not on whether you liked opencode or whether things went well.</p>
+<h3 id="requirements-properties-and-mutants-projects-35">Requirements, properties, and mutants (Projects 3–5)<a class="headerlink" href="#requirements-properties-and-mutants-projects-35" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Pick one requirement you revised or dropped in Project 4, Step 1. Quote its Project 3 wording and the interview note it came from. What did you learn while writing properties that the interview didn't tell you?</li>
+<li>Which of your requirements was hardest to write as a property? Name it, and say what made it hard: vague wording, behavior that depends on state or timing, or no clear way to check the answer. Rewrite the requirement the way you'd write it now.</li>
+<li>Which requirement had the most surviving mutants before you strengthened your properties? Was the weakness in the requirement itself, the generator, or the assertion? How do you know?</li>
+<li>Did any mutant (hand-written, Stryker, or red-team) change behavior that none of your requirements covered? Describe it and write the requirement you would add. If none did, explain why you think your requirements covered everything the mutants touched.</li>
+<li>Write one question you would add to your Project 3 interview script now, knowing what Projects 4 and 5 showed you. Which requirement would the answer have sharpened?</li>
+</ol>
+<h3 id="working-with-an-ai-agent-projects-15">Working with an AI agent (Projects 1–5)<a class="headerlink" href="#working-with-an-ai-agent-projects-15" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Describe one specific time opencode saved you real time this semester. Name the project and the task. What did you check before trusting its output?</li>
+<li>Apart from your agent failure case above, describe one time opencode's output was wrong or misleading and you didn't notice right away. How did you find out, and how long did it go unnoticed?</li>
+<li>Based on your agent failure case, state one rule you would give a teammate for reviewing tests an agent wrote. Name a mutant from this project that the rule would have caught.</li>
+<li>Name one task you would no longer hand to an agent, and one you would hand off sooner than you did at the start of the semester. Give a one-sentence reason for each.</li>
+</ol>
+<h2 id="extra-credit-cross-team-red-team-up-to-10-pts">Extra Credit: Cross-Team Red Team (up to 10 pts)<a class="headerlink" href="#extra-credit-cross-team-red-team-up-to-10-pts" title="Permanent link">&para;</a></h2>
+<p>This part is <strong>optional</strong>, and you sign up for it individually. Do the required parts first: extra credit can't make up for missing them.</p>
+<h3 id="signing-up-by-saturday-november-7-1159pm">Signing up – by Saturday, November 7, 11:59PM<a class="headerlink" href="#signing-up-by-saturday-november-7-1159pm" title="Permanent link">&para;</a></h3>
+<p>Use the <a href="https://docs.google.com/spreadsheets/d/1j5dlUSqPEGyWOmuK_J27XXRsyEqhcaUkHl9fj1e_vGw/edit">red team sign-up sheet</a>:</p>
+<ol>
+<li><strong>List your own feature.</strong> Add a row with your name, Andrew ID, team, a 1–2 sentence description of your feature, and a link to your open Project 4 pull request.</li>
+<li><strong>Claim a feature to attack.</strong> Put your name, Andrew ID, and team in the empty red-teamer columns of <strong>one</strong> row from <strong>another team</strong>. You must list your own feature before you claim one. Each feature can have only one red-teamer, and you can claim only one feature.</li>
+</ol>
+<p>The person whose feature you claim is your <strong>target</strong>. Don't edit or remove anyone else's entries.</p>
+<h3 id="attack-5-pts-due-tuesday-november-10-1159pm">Attack (5 pts) – due Tuesday, November 10, 11:59PM<a class="headerlink" href="#attack-5-pts-due-tuesday-november-10-1159pm" title="Permanent link">&para;</a></h3>
+<p>Study your target's declared feature, requirements, and properties. They're in your target's traceability file on their branch, which their pull request links to. Their branch keeps changing during this project, so note the commit you studied and write your mutants against that commit so the patches still apply. Write <strong>3 mutants</strong> against their feature, each aiming to slip past their properties. Each mutant should:</p>
+<ul>
+<li>Target one of their stated requirements (name it)</li>
+<li>Be plausible: a bug a real developer might write, not an obviously broken line</li>
+<li>Come with a short explanation of which property you expect it to slip past, and why</li>
+</ul>
+<p>Deliver them as <strong>one comment on your target's pull request</strong> by Tuesday at 11:59PM. The comment should give the commit you wrote them against, and for each mutant, its patch in a <code>diff</code> code block and your explanation. Also commit the patches to your own branch at <code>mutants/&lt;andrewid&gt;/redteam/</code>.</p>
+<p>Attack mutants are graded on <strong>plausibility and how well they target a requirement</strong>, not on whether they survive.</p>
+<h3 id="defend-5-pts-due-with-the-rest-of-the-project">Defend (5 pts) – due with the rest of the project<a class="headerlink" href="#defend-5-pts-due-with-the-rest-of-the-project" title="Permanent link">&para;</a></h3>
+<p>If someone claimed your feature, apply each mutant from their comment and run your properties. For every mutant that survives, strengthen your properties until it is killed (or argue that it is equivalent). Record each received mutant, its result, and your fix in a <strong>Red team</strong> section of your traceability file, and credit who sent it.</p>
+<p>If nobody claims your feature, there is nothing to defend, and you can earn up to 5 pts for your attack.</p>
+<h2 id="landing-your-work">Landing Your Work<a class="headerlink" href="#landing-your-work" title="Permanent link">&para;</a></h2>
+<p>Push your strengthened properties, mutant patches, Stryker configuration and report, and updated traceability file to your branch, so they appear in the pull request you opened in Project 4. When you're done, at least one teammate must review and approve it, and it must be <strong>merged into <code>main</code></strong> by the deadline, with all of your properties passing in CI.</p>
+<h2 id="submission">Submission<a class="headerlink" href="#submission" title="Permanent link">&para;</a></h2>
+<p>Your pull request is merged into <code>main</code> by the deadline, so submit links to the merged code. Use <strong>permalinks</strong>: open a file on GitHub and press <code>y</code>, and the URL changes to one pinned to that commit. To link to one section of your traceability file, switch the file to the <strong>Code</strong> view, click the section's first line, shift-click its last line, then press <code>y</code>.</p>
+<p><strong>Individually</strong>, submit two assignments on Gradescope.</p>
+<p><strong>Project 5: Mutation Testing</strong></p>
+<ul>
+<li>A link to your pull request (the one from Project 4, now merged) and the SHA of its merge commit</li>
+<li>Hand-written mutants: permalinks to the <em>Hand-written mutants</em> section of your traceability file and to your <code>mutants/&lt;andrewid&gt;/</code> folder</li>
+<li>Stryker: permalinks to your <code>stryker.&lt;andrewid&gt;.config.json</code>, the <em>Stryker comparison</em> section, and your property test file(s)</li>
+<li>Agent failure case: a permalink to the <em>Agent failure case</em> section</li>
+<li><strong>Red team (extra credit, bonus points; leave blank if you didn't sign up):</strong><ul>
+<li>Your target's name and Andrew ID</li>
+<li>A link to your attack comment on your target's pull request (click the comment's timestamp to get its link), and a permalink to your <code>mutants/&lt;andrewid&gt;/redteam/</code> folder</li>
+<li>Whether your feature was claimed. If it was: your red-teamer's name and a permalink to the <em>Red team</em> section of your traceability file</li>
+</ul>
+</li>
+</ul>
+<p><strong>Project 5: Retrospective</strong></p>
+<ul>
+<li>Your answers to the nine retrospective questions</li>
+</ul>
+<h2 id="grading">Grading<a class="headerlink" href="#grading" title="Permanent link">&para;</a></h2>
+<p>To receive full credit for the hand-written mutants, we expect:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> About 5 plausible mutants, each targeting a named requirement, saved as patch files</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A prediction for each mutant, recorded before running it, and the actual result</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A <strong>Mutants it kills</strong> column added to your traceability table and filled in</li>
+</ul>
+<p>To receive full credit for the Stryker run and comparison, we expect:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A Stryker configuration (<code>stryker.&lt;andrewid&gt;.config.json</code>) that runs only your property tests and mutates only the code they cover, a recorded seed, and a committed copy of the HTML report</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A comparison of hand-written and Stryker mutants that answers each question above</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Survivors killed by improved properties rather than example tests, with a short argument for each claimed equivalent mutant</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Your mutation score reported both raw and with equivalent mutants excluded</li>
+</ul>
+<p>To receive full credit for the agent failure case, we expect:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A transcript excerpt showing where opencode wrote or suggested the property</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> The surviving mutant and a clear explanation of why the property was too weak</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A strengthened property with evidence that it kills the mutant</li>
+</ul>
+<p>To receive full credit for the retrospective, we expect:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> An answer to every question, each 2–4 sentences</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Each answer names the specific requirement, interview note, mutant, or project it's about</li>
+</ul>
+<p>To receive the red-team extra credit, we expect:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Your feature listed and a target claimed on the sign-up sheet by Saturday, November 7</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Three plausible attack mutants, each targeting a named requirement of your target, posted on your target's pull request by Tuesday, November 10</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> If your feature was claimed: every mutant you received recorded with its result, and every survivor either killed by strengthened properties or argued equivalent</li>
+</ul>
+<p>To receive full credit overall, we expect:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Your Project 4 PR, updated with this project's work, reviewed and approved by a teammate, and merged into <code>main</code> with all properties passing in CI</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.top", "navigation.tracking", "navigation.indexes", "announce.dismiss"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+    
+  </body>
+</html>
