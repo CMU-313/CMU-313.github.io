@@ -4,3 +4,5 @@ site
 venv
 myenv
 .claude/settings.local.json
+# P4 pre-grade output (student data)
+p4-pregrade/

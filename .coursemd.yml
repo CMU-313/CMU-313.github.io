@@ -170,7 +170,8 @@ schedule:
 
     - kind: lecture
       date: 2026-11-17
-      title: "Guest Lecture"
+      title: "Guest Lecture: Reliably Releasing Software"
+      link: /assets/pdfs/21-reliably-releasing-software.pdf
 
     - kind: midterm
       date: 2026-11-19
