@@ -1,0 +1,11 @@
+- name: Canvas
+  link: https://canvas.cmu.edu/
+  icon: assets/images/logos/canvas.png
+
+- name: Slack
+  link: https://slack.com/
+  icon: assets/images/logos/slack.png
+
+- name: Gradescope
+  link: https://www.gradescope.com/
+  icon: assets/images/logos/gradescope.png

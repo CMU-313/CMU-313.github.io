@@ -1,0 +1,28 @@
+<section class="lab-hero">
+    <div class="lab-hero__circuit" aria-hidden="true"></div>
+    <div class="lab-hero__content">
+        <p class="lab-eyebrow">{{ page.meta.card.eyebrow | default('Lab session') }}</p>
+        <h1>{{ page.meta.title }}</h1>
+        <p class="lab-dek">{{ page.meta.card.summary }}</p>
+        <div class="lab-tags" aria-label="Lab topics">
+            {% for tag in page.meta.card.tags | default([]) %}
+            <span>{{ tag }}</span>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="lab-meta" aria-label="Lab details">
+    <div class="lab-meta-item">
+        <span class="lab-meta-label">Lab date</span>
+        <span class="lab-meta-value">{{ page.meta.date.strftime('%b %-d, %Y') }}</span>
+    </div>
+    <div class="lab-meta-item">
+        <span class="lab-meta-label">Estimated time</span>
+        <span class="lab-meta-value">{{ page.meta.card.effort | default('75–90 minutes') }}</span>
+    </div>
+    <div class="lab-meta-item">
+        <span class="lab-meta-label">Preparation</span>
+        <span class="lab-meta-value">{{ page.meta.card.preparation | default('Bring your devcontainer') }}</span>
+    </div>
+</section>
