@@ -45,7 +45,7 @@ staff:
   - name: Shrey Tiwari
     role: teaching-assistant
     email: smtiwari@andrew.cmu.edu
-    photo: Shrey-Tiwari.jpg
+    photo: Shrey_Tiwari.jpg
 
 schedule:
   start_date: 2026-08-25
@@ -180,6 +180,7 @@ schedule:
     - kind: lecture
       date: 2026-11-24
       title: "Testing AI Systems"
+      link: /assets/pdfs/22-testing-ai-enabled-software.pdf
 
     - kind: lecture
       date: 2026-12-01
