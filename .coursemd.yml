@@ -179,7 +179,7 @@ schedule:
 
     - kind: lecture
       date: 2026-11-24
-      title: "Testing AI Systems"
+      title: "Testing AI-Enabled Systems"
       link: /assets/pdfs/22-testing-ai-enabled-software.pdf
 
     - kind: lecture
